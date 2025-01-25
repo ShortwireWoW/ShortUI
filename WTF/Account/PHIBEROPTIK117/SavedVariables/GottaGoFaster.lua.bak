@@ -8,12 +8,12 @@ GottaGoFasterDB = {
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Raidmates - Tichondrius"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Guildsigzzs - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
