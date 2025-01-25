@@ -1,0 +1,53 @@
+VER 3 0100000000000004 "Cap" "134400"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 0100000000000009 "Cleanse" "134400"
+#showtooltip
+/cast [@mouseover] Cleanse Spirit
+END
+VER 3 0100000000000010 "Defense" "134400"
+#showtooltip
+/cast Astral Shift
+/cast [@player] Stone Bulwark Totem
+/use Algari Healing Potion
+END
+VER 3 0100000000000006 "Earthbind" "134400"
+#showtooltip
+/cast [@cursor] Earthbind Totem
+END
+VER 3 0100000000000002 "Earthquake" "134400"
+#showtooltip
+/cast [known:462620,@target] Earthquake;[known:61882,@cursor] Earthquake
+END
+VER 3 0100000000000012 "Ele Buffs" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [@player]reset=combat/10 Lightning Shield, Earth Shield, Skyfury, Thunderstrike Ward(Shield Imbue)
+END
+VER 3 0100000000000007 "Healing Surge" "134400"
+#showtooltip
+/cast [@player] Healing Surge
+END
+VER 3 0100000000000001 "Liquid Mag" "134400"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 0100000000000011 "Lust + Pot" "134400"
+#showtooltip
+/cast Bloodlust
+/use Fleeting Tempered Potion
+/use Tempered Potion
+END
+VER 3 010000000000000C "Pwave Swift" "3578231"
+#showtooltip
+/cast [known:375982] Primordial Wave
+/cast [known:443454] Ancestral Swiftness
+END
+VER 3 010000000000000D "Stormy E" "134400"
+#showtooltip
+/cast Storm Elemental
+END
+VER 3 0100000000000005 "Wind Rush" "134400"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
+END

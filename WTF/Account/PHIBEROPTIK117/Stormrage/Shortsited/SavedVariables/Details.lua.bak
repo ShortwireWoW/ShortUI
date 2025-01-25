@@ -1,0 +1,1835 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 0,
+["tabela_historico"] = {
+["tabelas"] = {
+{
+{
+["combatId"] = 3,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.002906,
+["pets"] = {
+},
+["classe"] = "DEMONHUNTER",
+["total_without_pet"] = 58.002906,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 58.002906,
+["spec"] = 577,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-60-0FA0FEBE",
+["damage_from"] = {
+["Wrath Warrior"] = true,
+},
+["targets"] = {
+["Wrath Warrior"] = 58,
+},
+["colocacao"] = 1,
+["aID"] = "60-0FA0FEBE",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176051,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 17,
+["targets"] = {
+["Wrath Warrior"] = 17,
+},
+["n_total"] = 17,
+["n_min"] = 17,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 17,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[162243] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 41,
+["targets"] = {
+["Wrath Warrior"] = 41,
+},
+["n_total"] = 41,
+["n_min"] = 41,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 41,
+["c_max"] = 0,
+["id"] = 162243,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 28.72853194650486,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 5.002906,
+["start_time"] = 1737176050,
+["delay"] = 0,
+["last_event"] = 1737176050,
+},
+{
+["flag_original"] = 2632,
+["totalabsorbed"] = 0.002246,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 5.002246,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 5.002246,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-1481-13444-98486-00000B2DD8",
+["aID"] = "98486",
+["fight_component"] = true,
+["damage_from"] = {
+["Shortsited"] = true,
+},
+["targets"] = {
+["Shortsited"] = 5,
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176051,
+["nome"] = "Wrath Warrior",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 5,
+["targets"] = {
+["Shortsited"] = 5,
+},
+["n_total"] = 5,
+["n_min"] = 5,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 5,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 58.002246,
+["start_time"] = 1737176049,
+["delay"] = 0,
+["last_event"] = 1737176049,
+},
+},
+},
+{
+["combatId"] = 3,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 3,
+["tipo"] = 7,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["resource"] = 25.00696,
+["pets"] = {
+},
+["aID"] = "60-0FA0FEBE",
+["passiveover"] = 0.00696,
+["total"] = 0.00696,
+["spec"] = 577,
+["received"] = 0.00696,
+["targets"] = {
+},
+["powertype"] = 1,
+["alternatepower"] = 0.00696,
+["resource_type"] = 17,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["last_event"] = 1737176050,
+["totalover"] = 0.00696,
+["serial"] = "Player-60-0FA0FEBE",
+["tipo"] = 3,
+},
+},
+},
+{
+["combatId"] = 3,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 2,
+["classe"] = "DEMONHUNTER",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[430191] = {
+["activedamt"] = 1,
+["id"] = 430191,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-60-0FA0FEBE",
+["aID"] = "60-0FA0FEBE",
+["nome"] = "Shortsited",
+["spec"] = 577,
+["last_event"] = 1737176051,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 3,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortsited"] = "Player-60-0FA0FEBE",
+},
+["tempo_start"] = 1737176049,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+63,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Shortsited"] = {
+["Demon's Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Mardum",
+["data_fim"] = "23:54:11",
+["hasTimer"] = 2.010000000000218,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Wrath Warrior",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 12903.46,
+["CombatEndedAt"] = 12903.46,
+["aura_timeline"] = {
+},
+["data_inicio"] = "23:54:09",
+["end_time"] = 12903.46,
+["mapId"] = 1481,
+["combat_id"] = 3,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Wrath Warrior"] = 1,
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Shortsited"] = 58.002906,
+},
+},
+},
+["combat_counter"] = 8,
+["totals_grupo"] = {
+58,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 12901.441,
+["TimeData"] = {
+},
+["contra"] = "Wrath Warrior",
+},
+{
+{
+["combatId"] = 2,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.001807,
+["pets"] = {
+},
+["classe"] = "DEMONHUNTER",
+["total_without_pet"] = 73.001807,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 73.001807,
+["spec"] = 577,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-60-0FA0FEBE",
+["damage_from"] = {
+},
+["targets"] = {
+["Wrath Warrior"] = 73,
+},
+["colocacao"] = 1,
+["aID"] = "60-0FA0FEBE",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176047,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 8,
+["targets"] = {
+["Wrath Warrior"] = 8,
+},
+["n_total"] = 8,
+["n_min"] = 8,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 8,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[192611] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 24,
+["targets"] = {
+["Wrath Warrior"] = 24,
+},
+["n_total"] = 24,
+["n_min"] = 24,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 24,
+["c_max"] = 0,
+["id"] = 192611,
+["r_dmg"] = 0,
+["spellschool"] = 127,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[162243] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 41,
+["targets"] = {
+["Wrath Warrior"] = 41,
+},
+["n_total"] = 41,
+["n_min"] = 41,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 41,
+["c_max"] = 0,
+["id"] = 162243,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 49.29223970291119,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.001807,
+["start_time"] = 1737176045,
+["delay"] = 0,
+["last_event"] = 1737176046,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.003615,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.003615,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.003615,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-1481-13444-98486-00000B2DD3",
+["aID"] = "98486",
+["fight_component"] = true,
+["damage_from"] = {
+["Shortsited"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176047,
+["nome"] = "Wrath Warrior",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 73.003615,
+["start_time"] = 1737176047,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["combatId"] = 2,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 2,
+["tipo"] = 7,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["resource"] = 26.007534,
+["pets"] = {
+},
+["aID"] = "60-0FA0FEBE",
+["passiveover"] = 0.007534,
+["total"] = 0.007534,
+["spec"] = 577,
+["received"] = 0.007534,
+["targets"] = {
+},
+["powertype"] = 1,
+["alternatepower"] = 0.007534,
+["resource_type"] = 17,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["last_event"] = 1737176046,
+["totalover"] = 0.007534,
+["serial"] = "Player-60-0FA0FEBE",
+["tipo"] = 3,
+},
+},
+},
+{
+["combatId"] = 2,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 2,
+["classe"] = "DEMONHUNTER",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[430191] = {
+["activedamt"] = 1,
+["id"] = 430191,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-60-0FA0FEBE",
+["aID"] = "60-0FA0FEBE",
+["nome"] = "Shortsited",
+["spec"] = 577,
+["last_event"] = 1737176047,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 2,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortsited"] = "Player-60-0FA0FEBE",
+},
+["CombatStartedAt"] = 12899.811,
+["tempo_start"] = 1737176045,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 7,
+["playerTalents"] = {
+},
+["totals"] = {
+73,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Shortsited"] = {
+["Demon's Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Mardum",
+["data_fim"] = "23:54:07",
+["hasTimer"] = 1.001000000000204,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Wrath Warrior",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.480999999999767,
+["CombatEndedAt"] = 12899.403,
+["aura_timeline"] = {
+},
+["data_inicio"] = "23:54:06",
+["end_time"] = 12899.403,
+["mapId"] = 1481,
+["combat_id"] = 2,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Wrath Warrior"] = 1,
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+73,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Shortsited"] = 73.001807,
+},
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 12897.922,
+["TimeData"] = {
+},
+["contra"] = "Wrath Warrior",
+},
+{
+{
+["combatId"] = 1,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005994,
+["pets"] = {
+},
+["classe"] = "DEMONHUNTER",
+["total_without_pet"] = 102.005994,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 102.005994,
+["spec"] = 577,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-60-0FA0FEBE",
+["damage_from"] = {
+["Hellish Imp"] = true,
+},
+["targets"] = {
+["Hellish Imp"] = 102,
+},
+["colocacao"] = 1,
+["aID"] = "60-0FA0FEBE",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176041,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 17,
+["targets"] = {
+["Hellish Imp"] = 17,
+},
+["n_total"] = 17,
+["n_min"] = 17,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 17,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[162243] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 43,
+["targets"] = {
+["Hellish Imp"] = 85,
+},
+["n_total"] = 85,
+["n_min"] = 42,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 85,
+["c_max"] = 0,
+["id"] = 162243,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 2,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 38.69726631258865,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 1.005994,
+["start_time"] = 1737176039,
+["delay"] = 0,
+["last_event"] = 1737176040,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.008463,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 1.008463,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1.008463,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-1481-13444-98483-00008B2EE9",
+["aID"] = "98483",
+["fight_component"] = true,
+["damage_from"] = {
+["Shortsited"] = true,
+},
+["targets"] = {
+["Shortsited"] = 1,
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176041,
+["nome"] = "Hellish Imp",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 1,
+["targets"] = {
+["Shortsited"] = 1,
+},
+["n_total"] = 1,
+["n_min"] = 1,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 102.008463,
+["start_time"] = 1737176039,
+["delay"] = 0,
+["last_event"] = 1737176039,
+},
+},
+},
+{
+["combatId"] = 1,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 1,
+["tipo"] = 7,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["resource"] = 26.007051,
+["pets"] = {
+},
+["aID"] = "60-0FA0FEBE",
+["passiveover"] = 0.007051,
+["total"] = 0.007051,
+["spec"] = 577,
+["received"] = 0.007051,
+["targets"] = {
+},
+["powertype"] = 1,
+["alternatepower"] = 0.007051,
+["resource_type"] = 17,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+["grupo"] = true,
+["classe"] = "DEMONHUNTER",
+["last_event"] = 1737176040,
+["totalover"] = 0.007051,
+["serial"] = "Player-60-0FA0FEBE",
+["tipo"] = 3,
+},
+},
+},
+{
+["combatId"] = 1,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 2,
+["classe"] = "DEMONHUNTER",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[430191] = {
+["activedamt"] = 1,
+["id"] = 430191,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-60-0FA0FEBE",
+["aID"] = "60-0FA0FEBE",
+["nome"] = "Shortsited",
+["spec"] = 577,
+["last_event"] = 1737176041,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 1,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortsited"] = "Player-60-0FA0FEBE",
+},
+["tempo_start"] = 1737176039,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+103,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Shortsited"] = {
+["Demon's Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Mardum",
+["data_fim"] = "23:54:01",
+["hasTimer"] = 2.012000000000626,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Hellish Imp",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 12893.745,
+["CombatEndedAt"] = 12893.745,
+["aura_timeline"] = {
+},
+["data_inicio"] = "23:53:59",
+["end_time"] = 12893.745,
+["mapId"] = 1481,
+["combat_id"] = 1,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Hellish Imp"] = 2,
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Shortsited"] = 102.005994,
+},
+},
+},
+["combat_counter"] = 6,
+["totals_grupo"] = {
+102,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 12891.109,
+["TimeData"] = {
+},
+["contra"] = "Hellish Imp",
+},
+},
+},
+["ocd_tracker"] = {
+["show_title"] = true,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["show_options"] = false,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["width"] = 120,
+["ignored_cooldowns"] = {
+},
+["framme_locked"] = false,
+["cooldowns"] = {
+},
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["height"] = 18,
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["enabled"] = false,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["last_version"] = "11.0.7 13349",
+["player_stats"] = {
+},
+["force_font_outline"] = "",
+["tabela_instancias"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["is_open"] = true,
+["isLocked"] = true,
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -535.5641822814941,
+["x"] = 1291.564208984375,
+["w"] = 239.4356842041016,
+["h"] = 110.4102096557617,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["cached_talents"] = {
+},
+["last_instance_id"] = 0,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "Shortwire-Stormrage",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["merge_gemstones_1007"] = false,
+["track_hunter_frenzy"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["combat_counter"] = 8,
+["mythic_plus_log"] = {
+},
+["data_harvested_for_charts"] = {
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["on_death_menu"] = false,
+["nick_tag_cache"] = {
+["nextreset"] = 1738471288,
+["last_version"] = 16,
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["last_realversion"] = 161,
+["last_instance_time"] = 0,
+["combat_id"] = 3,
+["savedStyles"] = {
+},
+["last_day"] = "17",
+["character_data"] = {
+["logons"] = 2,
+},
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.018874,
+["pets"] = {
+},
+["classe"] = "DEMONHUNTER",
+["total_without_pet"] = 233.018874,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 233.018874,
+["spec"] = 577,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-60-0FA0FEBE",
+["aID"] = "60-0FA0FEBE",
+["damage_from"] = {
+["Hellish Imp"] = true,
+["Wrath Warrior"] = true,
+},
+["targets"] = {
+["Hellish Imp"] = 102,
+["Wrath Warrior"] = 131,
+},
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176041,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 17,
+["targets"] = {
+["Hellish Imp"] = 17,
+["Wrath Warrior"] = 25,
+},
+["n_total"] = 42,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 3,
+["total"] = 42,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 3,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[162243] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 43,
+["targets"] = {
+["Hellish Imp"] = 85,
+["Wrath Warrior"] = 82,
+},
+["n_total"] = 167,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 167,
+["c_max"] = 0,
+["id"] = 162243,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 4,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[192611] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 24,
+["targets"] = {
+["Wrath Warrior"] = 24,
+},
+["n_total"] = 24,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 24,
+["c_max"] = 0,
+["id"] = 192611,
+["r_dmg"] = 0,
+["spellschool"] = 127,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 6.018874,
+["start_time"] = 1737176033,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.013589,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 1.013589,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1.013589,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-1481-13444-98483-00008B2EE9",
+["aID"] = "98483",
+["fight_component"] = true,
+["damage_from"] = {
+["Shortsited"] = true,
+},
+["targets"] = {
+["Shortsited"] = 1,
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176041,
+["nome"] = "Hellish Imp",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 1,
+["targets"] = {
+["Shortsited"] = 1,
+},
+["n_total"] = 1,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 102.013589,
+["start_time"] = 1737176036,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.013004,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 5.013004000000001,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 5.013004000000001,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-1481-13444-98486-00000B2DD3",
+["aID"] = "98486",
+["fight_component"] = true,
+["damage_from"] = {
+["Shortsited"] = true,
+},
+["targets"] = {
+["Shortsited"] = 5,
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1737176047,
+["nome"] = "Wrath Warrior",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 5,
+["targets"] = {
+["Shortsited"] = 5,
+},
+["n_total"] = 5,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 5,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 131.013004,
+["start_time"] = 1737176042,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["resource"] = 77.030012,
+["pets"] = {
+},
+["classe"] = "DEMONHUNTER",
+["totalover"] = 0.008467,
+["total"] = 0.030012,
+["spec"] = 577,
+["received"] = 0.030012,
+["targets"] = {
+},
+["powertype"] = 1,
+["alternatepower"] = 0.030012,
+["resource_type"] = 17,
+["nome"] = "Shortsited",
+["spells"] = {
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+["aID"] = "60-0FA0FEBE",
+["passiveover"] = 0.008467,
+["last_event"] = 0,
+["grupo"] = true,
+["serial"] = "Player-60-0FA0FEBE",
+["tipo"] = 3,
+},
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["grupo"] = true,
+["aID"] = "60-0FA0FEBE",
+["tipo"] = 4,
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[430191] = {
+["refreshamt"] = 0,
+["activedamt"] = 3,
+["appliedamt"] = 3,
+["id"] = 430191,
+["uptime"] = 6,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+},
+["buff_uptime_targets"] = {
+},
+["buff_uptime"] = 6,
+["classe"] = "DEMONHUNTER",
+["nome"] = "Shortsited",
+["spec"] = 577,
+["serial"] = "Player-60-0FA0FEBE",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["totals_grupo"] = {
+233.010707,
+0,
+{
+0.021545,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["tempo_start"] = 1737176039,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["cleu_timeline"] = {
+},
+["bossTimers"] = {
+},
+["trinketProcs"] = {
+},
+["playerTalents"] = {
+},
+["totals"] = {
+239.025031,
+0,
+{
+0.021545,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["segments_added"] = {
+{
+["elapsed"] = 2.019000000000233,
+["type"] = 0,
+["name"] = "Wrath Warrior",
+["clock"] = "23:54:09",
+},
+{
+["elapsed"] = 1.480999999999767,
+["type"] = 0,
+["name"] = "Wrath Warrior",
+["clock"] = "23:54:06",
+},
+{
+["elapsed"] = 2.636000000000422,
+["type"] = 0,
+["name"] = "Hellish Imp",
+["clock"] = "23:53:59",
+},
+},
+["frags_need_refresh"] = false,
+["aura_timeline"] = {
+},
+["data_inicio"] = "23:53:59",
+["amountCasts"] = {
+["Shortsited"] = {
+["Demon's Bite"] = 3,
+},
+},
+["mapId"] = 1481,
+["cleu_events"] = {
+["n"] = 1,
+},
+["zoneName"] = "Mardum",
+["end_time"] = 12903.46,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+},
+["data_fim"] = "23:54:11",
+["overall_enemy_name"] = "-- x -- x --",
+["spells_cast_timeline"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage_section"] = {
+},
+["damage"] = {
+},
+},
+["start_time"] = 12897.324,
+["TimeData"] = {
+},
+["combat_counter"] = 5,
+},
+["plugin_database"] = {
+},
+["ignore_nicktag"] = false,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["announce_cooldowns"] = {
+["ignored_cooldowns"] = {
+},
+["enabled"] = false,
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["cached_roles"] = {
+},
+["cached_specs"] = {
+["Player-60-0FA0FEBE"] = 1456,
+},
+}

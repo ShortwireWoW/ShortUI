@@ -1,0 +1,15 @@
+## Interface: 11502
+## Title: Guilds of WoW
+## Notes: Guilds of WoW guild herald for Classic Era servers
+## X-Website: https://guildsofwow.com
+## Author: Nhea
+## Version: 1.7.4
+## SavedVariables: GoWDB
+
+embed.xml
+
+Core.lua
+Class.lua
+List.lua
+Options.lua
+WorkQueue.lua

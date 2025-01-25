@@ -1,0 +1,61 @@
+VER 3 0000000000000060 "Abandon Quests" "134400"
+/run for i=1,C_QuestLog.GetNumQuestLogEntries() do C_QuestLog.SetSelectedQuest(C_QuestLog.GetInfo(i).questID); C_QuestLog.SetAbandonQuest(); C_QuestLog.AbandonQuest() end;
+END
+VER 3 0000000000000064 "AFK Level" "134400"
+#showtooltip
+/target Volatile Spore
+/cast Judgment
+/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+END
+VER 3 0000000000000068 "asdf" "134400"
+/cast |cffffd200|HclubFinder:ClubFinder-1-576839-3683-114003944|h[Guild: The Scurvy Dogs]|h|r
+END
+VER 3 0000000000000067 "Guild Invite" "134331"
+/2 |cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r is a NEW mid-core raid team, looking to build up a team to clear AOTC every tier and push as much Mythic as possible. Raids on Fri/Sat 9-12am EST. DM for info or appy!
+END
+VER 3 000000000000005D "Lust" "134400"
+#showtooltip
+/cast [known:32182] Heroism; [known:290583] Bloodlust; [known:80353] Time Warp; [known:390386] Fury of the Aspects; [known:264667] Primal Rage; [known:2825] Bloodlust
+END
+VER 3 0000000000000063 "Mail" "443375"
+/use Katy's Stampwhistle
+END
+VER 3 0000000000000037 "Mount" "134400"
+#show
+/stopmacro [flying]
+/cast Renewed Proto-Drake
+/cast [flyable] Invincible; Grand Expedition Yak
+/dismount
+END
+VER 3 000000000000005E "No AFK" "132156"
+/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+END
+VER 3 000000000000005B "Potions" "134400"
+#showtooltip
+/use Fleeting Elemental Potion of Ultimate Power
+/use Elemental Potion of Ultimate Power
+END
+VER 3 0000000000000062 "Toys" "134400"
+#showtooltip
+/use Acolyte's Guise
+/use Accursed Tome of the Sargerei
+/use Blackflame Daggers
+/use Blazing Wings
+/use Bondable Sinstone
+/use Burning Blade
+/use Druid and Priest Statue Set
+/use Vindicator's Armor Polish Kit
+/use Winter Veil Socks
+END
+VER 3 000000000000004D "Trinket 1" "134400"
+#showtooltip
+/use 13
+END
+VER 3 000000000000004E "Trinket 2" "134400"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000056 "Weapon" "134400"
+#showtooltip
+/use 16
+END

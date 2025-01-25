@@ -1,0 +1,75 @@
+## Interface: 110007
+## Title: Infinite Raid Tools
+## Version: 11.14
+## Notes: Raid Tools
+## Author: Ant-Kazzak / Ant-Ragnaros
+## X-Wago-ID: BO67PPK3
+## X-Curse-Project-ID: 263966
+## AddonCompartmentFunc: IRT_OnAddonCompartmentClick
+## IconTexture: Interface\AddOns\InfiniteRaidTools\Res\minimap
+## SavedVariables: IRT_InterruptEnabled
+## SavedVariables: IRT_NextInterrupt
+## SavedVariables: IRT_InnervateEnabled
+## SavedVariables: IRT_PopupTextFontSize
+## SavedVariables: IRT_SenderReadyCheck
+## SavedVariables: IRT_ReadyCheckWatcher
+## SavedVariables: IRT_ReleaseEnabled
+## SavedVariables: IRT_InterruptSound
+## SavedVariables: IRT_SummonEnabled
+## SavedVariables: IRT_UlgraxEnabled
+## SavedVariables: IRT_SikranEnabled
+## SavedVariables: IRT_BroodtwisterEnabled
+## SavedVariables: IRT_NexusPrincessEnabled
+## SavedVariables: IRT_SilkenCourtEnabled
+## SavedVariables: IRT_AutoOilPosition
+## SavedVariables: IRT_ConsumableAutoButtonsEnabled
+## SavedVariables: IRT_DebugLog
+
+## SavedVariablesPerCharacter: IRT_PopupTextPosition
+## SavedVariablesPerCharacter: IRT_ConsumableCheckEnabled
+## SavedVariablesPerCharacter: IRT_CalendarNotificationEnabled
+## SavedVariablesPerCharacter: IRT_ReadyCheckEnabled
+## SavedVariablesPerCharacter: IRT_ReadyCheckFlashing
+## SavedVariablesPerCharacter: IRT_InfoBoxPosition
+## SavedVariablesPerCharacter: IRT_RPAFLayout
+## SavedVariablesPerCharacter: IRT_RPAFPosition
+## SavedVariablesPerCharacter: IRT_RPAFEnabled
+## SavedVariablesPerCharacter: IRT_RPAFPriority
+## SavedVariablesPerCharacter: IRT_RaidInviteRanks
+## SavedVariablesPerCharacter: IRT_UlgraxExtras
+## SavedVariablesPerCharacter: IRT_BroodtwisterExtras
+## SavedVariablesPerCharacter: IRT_SilkenTracker
+Localization\Localization.enUS.lua
+
+Core.lua
+Options\Options.lua
+Options\GeneralOptions.lua
+Popup.lua
+InfoBox.lua
+PrivateAuraMagic.lua
+Modules\Interrupts.lua
+Options\InterruptOptions.lua
+Modules\ConsumableCheck.lua
+Options\ConsumableCheckOptions.lua
+Modules\ReadyCheck.lua
+Options\ReadyCheckOptions.lua
+Modules\Innervate.lua
+Options\InnervateOptions.lua
+Modules\CalendarNotification.lua
+Options\CalendarNotificationOptions.lua
+Modules\Release.lua
+Options\ReleaseOptions.lua
+Modules\Summoning.lua
+Options\SummoningOptions.lua
+Modules\Invites.lua
+Options\InvitesOptions.lua
+Modules\UlgraxTheDevourer.lua
+Options\UlgraxTheDevourerOptions.lua
+Modules\Sikran.lua
+Options\SikranOptions.lua
+Modules\BroodtwisterOvinax.lua
+Options\BroodtwisterOvinaxOptions.lua
+Modules\NexusPrincess.lua
+Options\NexusPrincessOptions.lua
+Modules\TheSilkenCourt.lua
+Options\TheSilkenCourtOptions.lua

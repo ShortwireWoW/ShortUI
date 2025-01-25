@@ -1,0 +1,46 @@
+VER 3 0100000000000009 "Decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover] Remove Curse
+END
+VER 3 010000000000000A "Explosion" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Arcane Explosion
+END
+VER 3 010000000000000B "Fall" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Slow Fall
+END
+VER 3 010000000000000E "Int" "134400"
+#showtooltip
+/cast [@player] Arcane Intellect
+END
+VER 3 0100000000000011 "Invis" "134400"
+#showtooltip
+/stopcasting
+/stopcasting
+/stopcasting
+/cast Greater Invisibility
+END
+VER 3 0100000000000010 "Lust" "134400"
+#showtooltip
+/cast Time Warp
+/use Tempered Potion
+END
+VER 3 010000000000000F "Magi / Weapon" "134400"
+#showtooltip
+/cast [@target] Touch of the Magi
+/use 16
+END
+VER 3 010000000000000C "Opener?" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=3 Mirror Image, Evocation
+END
+VER 3 010000000000000D "Surge" "INV_Misc_QuestionMark"
+#showtooltip Arcane Surge
+/use item:191914
+/use item:191907
+/use item:191383
+/use 14
+/cast Arcane Surge
+/cqs
+END

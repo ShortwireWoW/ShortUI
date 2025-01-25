@@ -1,0 +1,11 @@
+## Interface: 11503, 40400, 110000, 110002, 110005
+## Title: |cFFFF8000SharedMedia Alerts|r
+## Version: 6411ebd
+## Notes: Comprehensive bundle of additional sound alerts
+## Author: Sonterix
+## X-Curse-Project-ID: 1103140
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+embeds.xml
+SharedMedia_Alerts.lua 

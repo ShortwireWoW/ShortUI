@@ -1,0 +1,64 @@
+v1.4.12
+- rework flat count values for blizzards new implementation
+v1.4.11
+- fix nil error
+v1.4.10
+- correctly set ObjectiveTrackerFrame parent when shown (Thanks DNNYVST)
+v1.4.9
+- update toc
+- update libs
+v1.4.8
+- fix /ggf command (Thanks cheeseslicer)
+v1.4.7
+- nil check
+v1.4.6
+- display flat count values with 1 decimal
+v1.4.5
+- derive flat count values
+v1.4.4
+- bump toc
+v1.4.3
+- packagethe addon better (Thanks to Nnoggie's help)
+v1.4.2
+- fix breaking typo
+v1.4.1
+- update code for patch 11.0 API Changes C_ScenarioInfo.GetCriteriaInfo
+v1.3.2
+- bump toc
+v1.3.1
+- add auto slotting of keystones (enabled by default)
+v1.2.10
+- fix current pull count sometimes being inaccurate
+v1.2.9
+- bump toc
+v1.2.8
+- bump toc
+v1.2.7
+- remove option to automatically toggle away objective tracker outside dungeons
+- GGF still hides objective tracker while inside a M+ dungeon
+v1.2.6
+- fix count in tooltip not working
+- toc update
+v1.2.5
+- fixed multiple count in same tooltip
+- fixed lua error when not using MDT
+- fixed boss objective times updating when forces completed
+- toc update
+v1.2.4
+- toc update
+v1.2.3
+- check for in CM when reseting currentPull
+v1.2.2
+- better initial frame position
+v1.2.1
+- fixed breaking typo
+v1.2.0
+- option added to show current pull count
+v1.1.0
+- change history storage to use ChallengeMapID instead of ZoneID as index, solves issues with megadungeons
+v1.0.2
+- add changelog
+v1.0.1
+- toc update
+v1.0.0-Alpha
+- initial bug fixes
