@@ -13,21 +13,11 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
+["BigWigs_Plugins_Raid Icons"] = {
+},
 ["BigWigs_Plugins_Colors"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_Kobold Delve Trash"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Bosses_Delve Rares"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -41,15 +31,19 @@ nil,
 },
 },
 },
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
 ["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Bosses_Waxface"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["profileKeys"] = {
@@ -59,11 +53,11 @@ nil,
 ["global"] = {
 ["watchedMovies"] = {
 [-2292] = true,
-[-437] = true,
 [-593] = {
 true,
 true,
 },
+[-437] = true,
 [-609] = true,
 [-2296] = true,
 [-607] = true,
@@ -207,19 +201,6 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
-[2608] = {
-["normal"] = {
-["kills"] = 1,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/01/07",
-["fkWipes"] = 1,
-["best"] = 318.260000000002,
-["wipes"] = 1,
-["fkDuration"] = 318.260000000002,
-},
-["heroic"] = {
-},
-},
 [2601] = {
 ["normal"] = {
 ["kills"] = 1,
@@ -236,6 +217,19 @@ BigWigsStatsDB = {
 ["best"] = 265.625,
 ["wipes"] = 2,
 ["fkDuration"] = 265.625,
+},
+},
+[2608] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/01/07",
+["fkWipes"] = 1,
+["best"] = 318.260000000002,
+["wipes"] = 1,
+["fkDuration"] = 318.260000000002,
+},
+["heroic"] = {
 },
 },
 },

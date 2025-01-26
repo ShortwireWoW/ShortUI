@@ -8,9 +8,9 @@ SimulationCraftDB = {
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
 ["Stonesoup - Area 52"] = "Stonesoup - Area 52",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Souplight - Tichondrius"] = "Souplight - Tichondrius",
+["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
 ["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
 ["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 },
@@ -32,14 +32,14 @@ SimulationCraftDB = {
 },
 ["Stonesoup - Area 52"] = {
 },
+["Souplight - Tichondrius"] = {
+},
+["Shortsited - Stormrage"] = {
+},
 ["Shortwire - Stormrage"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
-},
-["Shortsited - Stormrage"] = {
-},
-["Souplight - Tichondrius"] = {
 },
 ["Guildsigzzs - Stormrage"] = {
 },

@@ -10,8 +10,8 @@ SimulationCraftDB = {
 ["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 ["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
-["Souplight - Tichondrius"] = "Souplight - Tichondrius",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Souplight - Tichondrius"] = "Souplight - Tichondrius",
 ["Stonesoup - Area 52"] = "Stonesoup - Area 52",
 },
 ["profiles"] = {
@@ -36,12 +36,12 @@ SimulationCraftDB = {
 },
 ["Shortsited - Stormrage"] = {
 },
-["Souplight - Tichondrius"] = {
-},
 ["Shortwire - Stormrage"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
+},
+["Souplight - Tichondrius"] = {
 },
 ["Stonesoup - Area 52"] = {
 },

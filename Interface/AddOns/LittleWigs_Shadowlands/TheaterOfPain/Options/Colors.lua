@@ -38,10 +38,9 @@ BigWigs:AddColors("Kul'tharok", {
 	[319637] = {"blue","green"},
 	[319669] = "purple",
 	[473513] = "yellow",
-	[473959] = "cyan",
-	[474087] = "purple",
-	[474431] = {"blue","red"},
-	[1215787] = "yellow",
+	[474298] = "cyan",
+	[1215787] = {"blue","orange"},
+	[1223803] = {"blue","red"},
 })
 
 BigWigs:AddColors("Mordretha, the Endless Empress", {
@@ -61,7 +60,7 @@ BigWigs:AddColors("Theater Of Pain Trash", {
 	[330562] = "red",
 	[330565] = "purple",
 	[330586] = "yellow",
-	[330614] = "orange",
+	[330614] = {"blue","orange","yellow"},
 	[330697] = {"blue","purple"},
 	[330716] = "orange",
 	[330725] = {"blue","yellow"},
@@ -86,6 +85,7 @@ BigWigs:AddColors("Theater Of Pain Trash", {
 	[341949] = {"blue","yellow"},
 	[341969] = "orange",
 	[341977] = "red",
+	[342103] = "blue",
 	[342125] = "orange",
 	[342135] = "yellow",
 	[342139] = {"orange","red"},

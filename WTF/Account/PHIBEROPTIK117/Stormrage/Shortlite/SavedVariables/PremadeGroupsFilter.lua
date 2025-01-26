@@ -82,6 +82,8 @@ PremadeGroupsFilterState = {
 ["enabled"] = true,
 ["raid"] = {
 ["difficulty"] = {
+["act"] = true,
+["val"] = 1,
 },
 ["heals"] = {
 ["max"] = "",
@@ -89,9 +91,9 @@ PremadeGroupsFilterState = {
 ["act"] = false,
 },
 ["tanks"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
+["max"] = "1",
+["min"] = "0",
+["act"] = true,
 },
 ["members"] = {
 ["max"] = "",
