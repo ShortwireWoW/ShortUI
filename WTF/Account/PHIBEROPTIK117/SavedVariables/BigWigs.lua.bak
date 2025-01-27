@@ -9,6 +9,14 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
+["BigWigs_Plugins_Countdown"] = {
+},
+["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -21,54 +29,36 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Voidstone Monstrosity"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_Awakening the Machine"] = {
-},
-["BigWigs_Plugins_Colors"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Bars"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_The Rookery Trash"] = {
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Kyrioss"] = {
-},
-["BigWigs_Bosses_Stormguard Gorren"] = {
-},
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
-},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2292] = true,
 [-575] = true,
-[-437] = true,
-[-609] = true,
-[-2296] = true,
-[-607] = true,
-[-573] = true,
 [-593] = {
 true,
 true,
 },
+[-609] = true,
+[-2296] = true,
+[-607] = true,
+[-573] = true,
+[-437] = true,
 },
 },
 ["profileKeys"] = {
@@ -108,22 +98,17 @@ BigWigsStatsDB = {
 ["LFR"] = {
 },
 },
-[2601] = {
+[2608] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 145.1620000000003,
-["best"] = 145.1620000000003,
+["fkDuration"] = 318.260000000002,
+["wipes"] = 1,
+["fkWipes"] = 1,
+["best"] = 318.260000000002,
 ["bestDate"] = "2025/01/07",
 ["fkDate"] = "2025/01/07",
 },
 ["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 265.625,
-["wipes"] = 2,
-["fkWipes"] = 2,
-["best"] = 265.625,
-["bestDate"] = "2025/01/11",
-["fkDate"] = "2025/01/11",
 },
 },
 [2611] = {
@@ -220,17 +205,22 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/01/19",
 },
 },
-[2608] = {
+[2601] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 318.260000000002,
-["wipes"] = 1,
-["fkWipes"] = 1,
-["best"] = 318.260000000002,
+["fkDuration"] = 145.1620000000003,
+["best"] = 145.1620000000003,
 ["bestDate"] = "2025/01/07",
 ["fkDate"] = "2025/01/07",
 },
 ["heroic"] = {
+["kills"] = 1,
+["fkDuration"] = 265.625,
+["wipes"] = 2,
+["fkWipes"] = 2,
+["best"] = 265.625,
+["bestDate"] = "2025/01/11",
+["fkDate"] = "2025/01/11",
 },
 },
 [2602] = {
