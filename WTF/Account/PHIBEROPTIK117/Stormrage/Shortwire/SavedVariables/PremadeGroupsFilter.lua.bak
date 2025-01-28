@@ -20,7 +20,7 @@ PremadeGroupsFilterState = {
 ["act"] = false,
 },
 ["dungeon6"] = false,
-["dungeon1"] = false,
+["dungeon4"] = false,
 ["dps"] = {
 ["max"] = "",
 ["min"] = "",
@@ -36,7 +36,7 @@ PremadeGroupsFilterState = {
 ["val"] = 4,
 ["act"] = false,
 },
-["dungeon4"] = false,
+["dungeon1"] = false,
 ["dungeon7"] = false,
 ["dungeon5"] = false,
 ["dungeon8"] = false,

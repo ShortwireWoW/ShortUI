@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 244,
 ["lastSanitation"] = 3,
-["session"] = 241,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Targets_CastBar [Soup]': init\nWeakAuras Version: 5.18.1\nStack trace:\n[string \"return function() function hideCastBar()\"]:2: attempt to index global 'TargetCastingBarFrame' (a nil value)",
@@ -90,6 +90,14 @@ BugGrabberDB = {
 ["stack"] = "[string \"@Interface/AddOns/Details/functions/util.lua\"]:1252: in function <Interface/AddOns/Details/functions/util.lua:1250>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/Details/functions/schedules.lua\"]:22: in function <Interface/AddOns/Details/functions/schedules.lua:18>",
 ["session"] = 190,
 ["counter"] = 212,
+},
+{
+["message"] = "Interface/AddOns/Cell/Libs/PixelPerfect.lua:155: script ran too long",
+["time"] = "2025/01/27 20:50:10",
+["locals"] = "self = <table> {\n}\nframe = CellRaidFrameHeader0UnitButton3OverAbsorbGlow {\n PixelSnapDisabled = true\n points = <table> {\n }\n}\npoint = nil\nanchorTo = nil\nanchorPoint = nil\nx = nil\ny = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"script ran too long\"\nP = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/Cell/Libs/PixelPerfect.lua\"]:155: in function `Point'\n[string \"@Interface/AddOns/Cell/RaidFrames/UnitButton.lua\"]:3227: in function `SetOrientation'\n[string \"@Interface/AddOns/Cell/RaidFrames/Groups/RaidFrame.lua\"]:303: in function <...nterface/AddOns/Cell/RaidFrames/Groups/RaidFrame.lua:292>\n[string \"@Interface/AddOns/Cell/RaidFrames/Groups/RaidFrame.lua\"]:383: in function `onEventFunc'\n[string \"@Interface/AddOns/Cell/Libs/CallbackHandler.lua\"]:24: in function `Fire'\n[string \"@Interface/AddOns/Cell/Core.lua\"]:90: in function `UpdateLayout'\n[string \"@Interface/AddOns/Cell/Core.lua\"]:62: in function <Interface/AddOns/Cell/Core.lua:60>",
+["session"] = 244,
+["counter"] = 1,
 },
 },
 }

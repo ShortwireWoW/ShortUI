@@ -2,6 +2,7 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Shortlite - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -30,9 +31,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
 },
 ["profiles"] = {
 ["Shortlite - Stormrage"] = {
+},
+["Shortwire - Stormrage"] = {
 },
 },
 }

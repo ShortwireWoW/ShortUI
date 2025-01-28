@@ -40,13 +40,13 @@ PremadeGroupsFilterState = {
 ["act"] = false,
 ["val"] = 4,
 },
-["dungeon1"] = false,
+["dungeon4"] = false,
 ["dungeon3"] = false,
 ["dungeon2"] = false,
 ["dungeon8"] = false,
 ["dungeon5"] = false,
 ["dungeon7"] = false,
-["dungeon4"] = false,
+["dungeon1"] = false,
 },
 },
 ["c3f6"] = {
@@ -67,7 +67,7 @@ PremadeGroupsFilterState = {
 ["raid"] = {
 ["difficulty"] = {
 ["act"] = true,
-["val"] = 2,
+["val"] = 1,
 },
 ["heals"] = {
 ["max"] = "",
