@@ -55,14 +55,14 @@ IRT_RPAFPriority = {
 },
 }
 IRT_RaidInviteRanks = {
-["Just Joined"] = false,
+["Crew"] = false,
 ["New Recruit"] = false,
 ["Gunner"] = false,
 ["Captain"] = false,
-["Leadership Alt"] = false,
-["Raid Leader"] = false,
 ["Mythic+"] = false,
-["Crew"] = false,
+["Raid Leader"] = false,
+["Leadership Alt"] = false,
+["Just Joined"] = false,
 }
 IRT_UlgraxExtras = false
 IRT_BroodtwisterExtras = false

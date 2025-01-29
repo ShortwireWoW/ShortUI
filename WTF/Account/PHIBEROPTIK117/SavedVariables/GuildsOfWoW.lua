@@ -21,11 +21,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-3683-0DC1ADE8",
 },
-["Shortwire-Stormrage"] = {
+["Moonfoxlord-WyrmrestAccord"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-60-0F396F4E",
+["guid"] = "Player-1171-0AE460D9",
 },
 ["Liigthqueenz-Dalaran"] = {
 ["officerNote"] = "",
@@ -45,17 +45,17 @@ GoWDB = {
 ["rankIndex"] = 0,
 ["guid"] = "Player-3683-0DC0C5C1",
 },
-["Goobertank-Stormrage"] = {
+["Shortwire-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-60-0F9D9DA7",
+["guid"] = "Player-60-0F396F4E",
 },
-["Balfrey-WyrmrestAccord"] = {
+["Onewithlocks-Sargeras"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-1171-0AE44BC8",
+["guid"] = "Player-76-0BEE4608",
 },
 ["Shortlite-Stormrage"] = {
 ["officerNote"] = "",
@@ -99,11 +99,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-3683-0DC6CE64",
 },
-["Onewithlocks-Sargeras"] = {
+["Balfrey-WyrmrestAccord"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-76-0BEE4608",
+["guid"] = "Player-1171-0AE44BC8",
 },
 ["Thrøk-Dalaran"] = {
 ["officerNote"] = "",
@@ -135,11 +135,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-3683-0DC90436",
 },
-["Moonfoxlord-WyrmrestAccord"] = {
+["Goobertank-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-1171-0AE460D9",
+["guid"] = "Player-60-0F9D9DA7",
 },
 },
 ["ranks"] = {
@@ -164,16 +164,10 @@ GoWDB = {
 ["name"] = "Crew",
 },
 },
-["keystonesRefreshTime"] = 1738036629,
 ["keystones"] = {
-["Shortwire-Stormrage"] = {
-["keystoneMapId"] = 507,
-["keystoneLevel"] = 6,
-["date"] = 1738036629,
-},
 },
 ["motd"] = "Ahoy there, mateys! Welcome to The Scurvy Dogs! We're a crew of misfits and adventurers sailing the seas of Azeroth. Whether you're a seasoned veteran or just starting your journey, come join us for some fun and plunder!",
-["rosterRefreshTime"] = 1738036629,
+["rosterRefreshTime"] = 1738123631,
 },
 ["Mythic Intent-1-Stormrage"] = {
 ["roster"] = {
@@ -270,7 +264,7 @@ GoWDB = {
 ["The Scurvy Dogs-1-Stormrage"] = {
 ["roster"] = {
 },
-["rosterRefreshTime"] = 1738026328,
+["rosterRefreshTime"] = 1738123198,
 ["keystones"] = {
 },
 ["motd"] = "Ahoy there, mateys! Welcome to The Scurvy Dogs! We're a crew of misfits and adventurers sailing the seas of Azeroth. Whether you're a seasoned veteran or just starting your journey, come join us for some fun and plunder!",

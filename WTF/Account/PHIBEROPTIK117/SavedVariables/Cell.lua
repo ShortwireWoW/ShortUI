@@ -625,7 +625,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["indicatorName"] = "dispels",
+["iconStyle"] = "blizzard",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -633,9 +633,9 @@ false,
 -2,
 2,
 },
-["iconStyle"] = "blizzard",
-["highlightType"] = "gradient-half",
 ["orientation"] = "right-to-left",
+["highlightType"] = "gradient-half",
+["indicatorName"] = "dispels",
 ["size"] = {
 10,
 10,
@@ -1735,7 +1735,7 @@ false,
 10,
 10,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -1743,9 +1743,9 @@ false,
 -2,
 2,
 },
-["indicatorName"] = "dispels",
-["highlightType"] = "gradient-half",
 ["orientation"] = "right-to-left",
+["highlightType"] = "gradient-half",
+["iconStyle"] = "blizzard",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -2876,7 +2876,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["iconStyle"] = "blizzard",
+["orientation"] = "right-to-left",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -2884,9 +2884,9 @@ false,
 0,
 4,
 },
-["orientation"] = "right-to-left",
-["highlightType"] = "gradient-half",
 ["indicatorName"] = "dispels",
+["highlightType"] = "gradient-half",
+["iconStyle"] = "blizzard",
 ["size"] = {
 12,
 12,
@@ -4041,7 +4041,7 @@ false,
 10,
 10,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -4049,9 +4049,9 @@ false,
 -2,
 2,
 },
-["indicatorName"] = "dispels",
-["highlightType"] = "gradient-half",
 ["orientation"] = "right-to-left",
+["highlightType"] = "gradient-half",
+["iconStyle"] = "blizzard",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -4705,56 +4705,6 @@ true,
 },
 ["smartResurrection"] = "disabled",
 },
-["DEMONHUNTER"] = {
-["alwaysTargeting"] = {
-[581] = "disabled",
-[577] = "disabled",
-[1456] = "disabled",
-["common"] = "disabled",
-},
-[581] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-},
-["common"] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-},
-["useCommon"] = true,
-[1456] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-},
-[577] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-},
-["smartResurrection"] = "disabled",
-},
 ["SHAMAN"] = {
 [262] = {
 {
@@ -4841,6 +4791,117 @@ true,
 },
 ["smartResurrection"] = "disabled",
 },
+["PALADIN"] = {
+[70] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+391054,
+},
+{
+"type-shiftR",
+"spell",
+7328,
+},
+},
+["alwaysTargeting"] = {
+[66] = "disabled",
+[1451] = "disabled",
+["common"] = "disabled",
+[65] = "disabled",
+[70] = "disabled",
+},
+[1451] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+391054,
+},
+{
+"type-shiftR",
+"spell",
+7328,
+},
+},
+["common"] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+391054,
+},
+{
+"type-shiftR",
+"spell",
+7328,
+},
+},
+[65] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+391054,
+},
+{
+"type-shiftR",
+"spell",
+7328,
+},
+},
+["useCommon"] = true,
+[66] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+391054,
+},
+{
+"type-shiftR",
+"spell",
+7328,
+},
+},
+["smartResurrection"] = "disabled",
+},
 ["MAGE"] = {
 [64] = {
 {
@@ -4859,7 +4920,16 @@ true,
 [63] = "disabled",
 [1449] = "disabled",
 },
-["useCommon"] = true,
+[62] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+},
 ["common"] = {
 {
 "type1",
@@ -4870,17 +4940,8 @@ true,
 "togglemenu",
 },
 },
+["useCommon"] = true,
 [1449] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-},
-[62] = {
 {
 "type1",
 "target",
@@ -5120,35 +5181,14 @@ true,
 },
 ["smartResurrection"] = "disabled",
 },
-["PALADIN"] = {
-[70] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-391054,
-},
-{
-"type-shiftR",
-"spell",
-7328,
-},
-},
+["DEMONHUNTER"] = {
 ["alwaysTargeting"] = {
-[66] = "disabled",
-[1451] = "disabled",
+[581] = "disabled",
+[577] = "disabled",
+[1456] = "disabled",
 ["common"] = "disabled",
-[65] = "disabled",
-[70] = "disabled",
 },
-[1451] = {
+[581] = {
 {
 "type1",
 "target",
@@ -5156,16 +5196,6 @@ true,
 {
 "type2",
 "togglemenu",
-},
-{
-"type-altR",
-"spell",
-391054,
-},
-{
-"type-shiftR",
-"spell",
-7328,
 },
 },
 ["common"] = {
@@ -5177,39 +5207,9 @@ true,
 "type2",
 "togglemenu",
 },
-{
-"type-altR",
-"spell",
-391054,
-},
-{
-"type-shiftR",
-"spell",
-7328,
-},
-},
-[65] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-391054,
-},
-{
-"type-shiftR",
-"spell",
-7328,
-},
 },
 ["useCommon"] = true,
-[66] = {
+[1456] = {
 {
 "type1",
 "target",
@@ -5218,15 +5218,15 @@ true,
 "type2",
 "togglemenu",
 },
+},
+[577] = {
 {
-"type-altR",
-"spell",
-391054,
+"type1",
+"target",
 },
 {
-"type-shiftR",
-"spell",
-7328,
+"type2",
+"togglemenu",
 },
 },
 ["smartResurrection"] = "disabled",
@@ -5516,15 +5516,15 @@ true,
 ["type"] = "icon",
 ["spellId"] = 10060,
 ["isBuiltIn"] = true,
+["buffId"] = 10060,
+["keywords"] = "Power Infusion",
+["icon"] = 135939,
 ["iconColor"] = {
 1,
 1,
 0,
 1,
 },
-["buffId"] = 10060,
-["icon"] = 135939,
-["keywords"] = "Power Infusion",
 },
 {
 ["glowOptions"] = {
@@ -5547,15 +5547,15 @@ true,
 ["type"] = "icon",
 ["spellId"] = 29166,
 ["isBuiltIn"] = true,
+["buffId"] = 29166,
+["keywords"] = "Innervate",
+["icon"] = 136048,
 ["iconColor"] = {
 0,
 1,
 1,
 1,
 },
-["buffId"] = 29166,
-["icon"] = 136048,
-["keywords"] = "Innervate",
 },
 },
 ["sharedIconOptions"] = {

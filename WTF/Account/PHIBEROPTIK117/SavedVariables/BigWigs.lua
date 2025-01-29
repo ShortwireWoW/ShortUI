@@ -3,10 +3,6 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Ulgrax the Devourer"] = {
-},
-["BigWigs_Bosses_Broodtwister Ovi'nax"] = {
-},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
@@ -17,11 +13,9 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-},
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -37,25 +31,19 @@ nil,
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Rasha'nan"] = {
-},
-["BigWigs_Bosses_Sikran, Captain of the Sureki"] = {
-},
-["BigWigs_Bosses_The Bloodbound Horror"] = {
-},
 ["BigWigs_Plugins_Nameplates"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 },
 ["global"] = {
@@ -179,8 +167,8 @@ BigWigsStatsDB = {
 },
 ["normal"] = {
 ["kills"] = 3,
-["wipes"] = 1,
 ["fkDuration"] = 155.2030000000013,
+["wipes"] = 1,
 ["best"] = 155.2030000000013,
 ["bestDate"] = "2025/01/07",
 ["fkDate"] = "2025/01/07",

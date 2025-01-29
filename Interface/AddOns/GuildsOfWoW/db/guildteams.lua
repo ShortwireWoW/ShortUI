@@ -1,4 +1,4 @@
--- GoW Teams. TS: 01/26/2025 04:11:05
+-- GoW Teams. TS: 01/29/2025 03:33:20
 
 local _, ns = ...
 
@@ -7,5 +7,5 @@ ns.TEAMS = {
         
     },
     ["totalTeams"] = 0,
-    ["exportTime"] = 1737864665
+    ["exportTime"] = 1738121600
 }

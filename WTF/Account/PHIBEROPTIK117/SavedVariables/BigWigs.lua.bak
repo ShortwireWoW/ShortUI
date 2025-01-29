@@ -15,7 +15,7 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -31,15 +31,15 @@ nil,
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 ["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
@@ -78,7 +78,7 @@ BigWigsStatsDB = {
 [2657] = {
 [2609] = {
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/01/07",
 ["bestDate"] = "2025/01/07",
 ["fkWipes"] = 1,
@@ -118,7 +118,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 278.9369999999999,
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/01/07",
 ["bestDate"] = "2025/01/07",
 ["best"] = 161.9650000000002,
@@ -134,9 +134,9 @@ BigWigsStatsDB = {
 },
 [2612] = {
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/01/07",
-["wipes"] = 2,
+["wipes"] = 3,
 ["bestDate"] = "2025/01/07",
 ["best"] = 204.6900000000023,
 ["fkDuration"] = 204.6900000000023,
@@ -162,10 +162,11 @@ BigWigsStatsDB = {
 ["fkDuration"] = 225.3329999999996,
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/01/07",
 ["bestDate"] = "2025/01/07",
 ["best"] = 155.2030000000013,
+["wipes"] = 1,
 ["fkDuration"] = 155.2030000000013,
 },
 ["LFR"] = {
@@ -185,7 +186,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 496.038,
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 208.0770000000011,
 ["best"] = 208.0770000000011,
 ["bestDate"] = "2025/01/07",
@@ -203,7 +204,7 @@ BigWigsStatsDB = {
 },
 [2601] = {
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/01/07",
 ["bestDate"] = "2025/01/07",
 ["best"] = 145.1620000000003,

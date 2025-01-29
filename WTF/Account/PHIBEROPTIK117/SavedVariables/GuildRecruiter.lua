@@ -30,11 +30,11 @@ GuildRecruiterDB = {
 },
 ["analytics"] = {
 ["PlayersBlackListed"] = 0,
-["PlayersInvited"] = 2300,
+["PlayersInvited"] = 250,
 ["PlayersDeclined"] = 0,
-["startDate"] = 1736769229,
-["PlayersScanned"] = 23752,
-["PlayersJoined"] = 34,
+["startDate"] = 1737426596,
+["PlayersScanned"] = 2500,
+["PlayersJoined"] = 6,
 },
 ["settings"] = {
 ["antiSpamDays"] = 7,

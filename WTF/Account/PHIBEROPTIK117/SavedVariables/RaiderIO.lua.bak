@@ -14,7 +14,6 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Onyxìa-dalaran"] = true,
 }
 RaiderIO_MissingServers = {
 }

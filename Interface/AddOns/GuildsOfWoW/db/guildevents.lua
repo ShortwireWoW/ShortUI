@@ -1,4 +1,4 @@
--- GoW Upcoming Events. TS: 01/26/2025 04:11:05
+-- GoW Upcoming Events. TS: 01/29/2025 03:33:19
 
 local _, ns = ...
 
@@ -7,5 +7,5 @@ ns.UPCOMING_EVENTS = {
         
     },
     ["totalEvents"] = 0,
-    ["exportTime"] = 1737864665
+    ["exportTime"] = 1738121599
 }
