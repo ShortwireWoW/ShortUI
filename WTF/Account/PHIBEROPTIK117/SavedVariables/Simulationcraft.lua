@@ -7,12 +7,12 @@ SimulationCraftDB = {
 ["Bighealnrg - Stormrage"] = "Bighealnrg - Stormrage",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
-["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
-["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
+["Stonesoup - Area 52"] = "Stonesoup - Area 52",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Souplight - Tichondrius"] = "Souplight - Tichondrius",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Stonesoup - Area 52"] = "Stonesoup - Area 52",
+["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
+["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 },
 ["profiles"] = {
 ["Dagdese - Stormrage"] = {
@@ -30,20 +30,20 @@ SimulationCraftDB = {
 },
 ["Raidmates - Tichondrius"] = {
 },
-["Lildotnrg - Stormrage"] = {
-},
-["Guildsigzzs - Stormrage"] = {
-},
-["Shortsited - Stormrage"] = {
-},
-["Souplight - Tichondrius"] = {
+["Stonesoup - Area 52"] = {
 },
 ["Shortwire - Stormrage"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
 },
-["Stonesoup - Area 52"] = {
+["Shortsited - Stormrage"] = {
+},
+["Souplight - Tichondrius"] = {
+},
+["Guildsigzzs - Stormrage"] = {
+},
+["Lildotnrg - Stormrage"] = {
 },
 },
 }
