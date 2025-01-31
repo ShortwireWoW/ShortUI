@@ -40,3 +40,4 @@ LittleWigs: enabled
 LittleWigs_MistsOfPandaria: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 LittleWigs_Legion: enabled
+LittleWigs_Classic: enabled

@@ -4,13 +4,14 @@ OmniCDDB = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortscales - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Guildsigzzs - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {

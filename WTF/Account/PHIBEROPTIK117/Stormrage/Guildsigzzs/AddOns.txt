@@ -23,7 +23,7 @@ WeakAurasTemplates: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
-LittleWigs_Cataclysm: disabled
+LittleWigs_Cataclysm: enabled
 LittleWigs_BattleForAzeroth: enabled
 RaiderIO_DB_TW_R: disabled
 RaiderIO_DB_TW_M: disabled
@@ -44,7 +44,7 @@ GottaGoFaster: disabled
 GottaGoFasterHistory: disabled
 InfiniteRaidTools: disabled
 LittleWigs_BurningCrusade: disabled
-LittleWigs_Classic: disabled
+LittleWigs_Classic: enabled
 LittleWigs_Dragonflight: disabled
 LittleWigs_MistsOfPandaria: enabled
 LittleWigs_Legion: enabled

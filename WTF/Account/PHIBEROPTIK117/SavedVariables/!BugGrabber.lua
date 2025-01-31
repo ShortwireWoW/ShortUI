@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 258,
 ["lastSanitation"] = 3,
+["session"] = 261,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Targets_CastBar [Soup]': init\nWeakAuras Version: 5.18.1\nStack trace:\n[string \"return function() function hideCastBar()\"]:2: attempt to index global 'TargetCastingBarFrame' (a nil value)",
