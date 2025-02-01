@@ -1,0 +1,8521 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 0,
+["tabela_historico"] = {
+["tabelas"] = {
+{
+{
+["tipo"] = 2,
+["combatId"] = 1511,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.008154,
+["pets"] = {
+},
+["classe"] = "MONK",
+["total_without_pet"] = 465.008154,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 465.008154,
+["spec"] = 268,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 465,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["on_hold"] = false,
+["end_time"] = 1738339707,
+["aID"] = "3676-0EA43E6B",
+["total_extra"] = 0,
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+["Volatile Spore"] = 465,
+},
+["n_total"] = 280,
+["n_min"] = 92,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 465,
+["c_max"] = 185,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 185,
+["successful_casted"] = 0,
+["c_total"] = 185,
+["n_amt"] = 3,
+["n_max"] = 96,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["tipo"] = 1,
+["avoidance"] = {
+["overall"] = {
+["FULL_ABSORB_AMT"] = 0,
+["DODGE"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 1738339702,
+["last_dps"] = 62.94952673601328,
+["start_time"] = 1738339699,
+["delay"] = 0,
+["damage_taken"] = 0.008154,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.006269,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.006269,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Creature-0-3779-1116-78-80018-00009CF572",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["end_time"] = 1738339707,
+["totalabsorbed"] = 0.006269,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 465.006269,
+["start_time"] = 1738339707,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1511,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Shortbeef"] = 1940,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["classe"] = "MONK",
+["totalover"] = 1940.001279,
+["total_without_pet"] = 0.001279,
+["total"] = 0.001279,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.001279,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.001279,
+["spec"] = 268,
+["healing_taken"] = 0.001279,
+["end_time"] = 1738339707,
+["healing_from"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 1940,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 2,
+["overheal"] = 1940,
+["total"] = 0,
+["spellschool"] = 1,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["c_max"] = 0,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 2,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["heal_enemy_amt"] = 0,
+["last_event"] = 1738339702,
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.001279,
+["delay"] = 0,
+["start_time"] = 1738339700,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1511,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1511,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[269083] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 269083,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 4,
+["buff_uptime_targets"] = {
+},
+["spec"] = 268,
+["grupo"] = true,
+["buff_uptime"] = 36,
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738339707,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["classe"] = "UNKNOW",
+["tipo"] = 4,
+["serial"] = "Creature-0-3779-1116-78-80018-00001CF573",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1511,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 139874.482,
+["tempo_start"] = 1738339699,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1514,
+["playing_solo"] = true,
+["totals"] = {
+465,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 7,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "11:08:27",
+["hasTimer"] = 7.03000000002794,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.387000000016997,
+["CombatEndedAt"] = 139881.869,
+["aura_timeline"] = {
+},
+["data_inicio"] = "11:08:20",
+["end_time"] = 139881.869,
+["mapId"] = 1116,
+["combat_id"] = 1511,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 2,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+465,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.001279,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 465.008154,
+},
+},
+},
+["start_time"] = 139874.482,
+["TimeData"] = {
+},
+["playerTalents"] = {
+},
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1510,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.00728,
+["pets"] = {
+},
+["classe"] = "MONK",
+["total_without_pet"] = 1900.00728,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1900.00728,
+["spec"] = 268,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 1900,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["on_hold"] = false,
+["end_time"] = 1738339573,
+["aID"] = "3676-0EA43E6B",
+["total_extra"] = 0,
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 2,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+["Volatile Spore"] = 1900,
+},
+["n_total"] = 1454,
+["n_min"] = 110,
+["g_dmg"] = 0,
+["counter"] = 15,
+["total"] = 1900,
+["c_max"] = 223,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 223,
+["successful_casted"] = 0,
+["c_total"] = 446,
+["n_amt"] = 13,
+["n_max"] = 113,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["tipo"] = 1,
+["avoidance"] = {
+["overall"] = {
+["FULL_ABSORB_AMT"] = 0,
+["DODGE"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 1738339568,
+["last_dps"] = 68.00555782243791,
+["start_time"] = 1738339544,
+["delay"] = 0,
+["damage_taken"] = 0.00728,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.003596,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.003596,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Creature-0-3779-1116-78-80018-00011CF4D7",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["end_time"] = 1738339573,
+["totalabsorbed"] = 0.003596,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 1900.003596,
+["start_time"] = 1738339573,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1510,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Shortbeef"] = 8827,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["classe"] = "MONK",
+["totalover"] = 8827.005466999999,
+["total_without_pet"] = 0.005467,
+["total"] = 0.005467,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.005467,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.005467,
+["spec"] = 268,
+["healing_taken"] = 0.005467,
+["end_time"] = 1738339573,
+["healing_from"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 6790,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 7,
+["overheal"] = 6790,
+["total"] = 0,
+["spellschool"] = 1,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["c_max"] = 0,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 7,
+["absorbed"] = 0,
+},
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 2037,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 3,
+["overheal"] = 2037,
+["total"] = 0,
+["spellschool"] = 8,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["c_max"] = 0,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 3,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["heal_enemy_amt"] = 0,
+["last_event"] = 1738339568,
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.005467,
+["delay"] = 0,
+["start_time"] = 1738339546,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1510,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1510,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 8,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 7,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 8,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[269083] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 269083,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[341260] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 341260,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[117952] = {
+["appliedamt"] = 7,
+["targets"] = {
+},
+["activedamt"] = 7,
+["uptime"] = 6,
+["id"] = 117952,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 392883,
+["refreshamt"] = 3,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 29,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 36,
+["buff_uptime_targets"] = {
+},
+["spec"] = 268,
+["grupo"] = true,
+["buff_uptime"] = 181,
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738339573,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["classe"] = "UNKNOW",
+["tipo"] = 4,
+["serial"] = "Creature-0-3779-1116-78-80018-00009CF4D9",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1510,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 139719.331,
+["tempo_start"] = 1738339544,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+["Shortbeef"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1513,
+["playing_solo"] = true,
+["totals"] = {
+53146,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 34,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 8,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "11:06:13",
+["hasTimer"] = 27.10000000000582,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 27.93899999998394,
+["CombatEndedAt"] = 139747.27,
+["aura_timeline"] = {
+},
+["data_inicio"] = "11:05:45",
+["end_time"] = 139747.27,
+["mapId"] = 1116,
+["combat_id"] = 1510,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 7,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+1900,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.005467,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 1900.00728,
+},
+},
+},
+["start_time"] = 139719.331,
+["TimeData"] = {
+},
+["playerTalents"] = {
+},
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1509,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.0041,
+["pets"] = {
+},
+["classe"] = "MONK",
+["total_without_pet"] = 249.0041,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 249.0041,
+["spec"] = 268,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 249,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["on_hold"] = false,
+["end_time"] = 1738339523,
+["aID"] = "3676-0EA43E6B",
+["total_extra"] = 0,
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+["Volatile Spore"] = 249,
+},
+["n_total"] = 249,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 3,
+["total"] = 249,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 3,
+["n_max"] = 85,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["tipo"] = 1,
+["avoidance"] = {
+["overall"] = {
+["FULL_ABSORB_AMT"] = 0,
+["DODGE"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 1738339518,
+["last_dps"] = 39.82791106840914,
+["start_time"] = 1738339517,
+["delay"] = 0,
+["damage_taken"] = 0.0041,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.004494,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.004494,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Creature-0-3779-1116-78-80018-00001CF4BD",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["end_time"] = 1738339523,
+["totalabsorbed"] = 0.004494,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 249.004494,
+["start_time"] = 1738339523,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1509,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["targets_overheal"] = {
+["Shortbeef"] = 970,
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["classe"] = "MONK",
+["totalover"] = 970.006301,
+["total_without_pet"] = 0.006301,
+["total"] = 0.006301,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.006301,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.006301,
+["spec"] = 268,
+["healing_taken"] = 0.006301,
+["end_time"] = 1738339523,
+["healing_from"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 970,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 970,
+["total"] = 0,
+["spellschool"] = 1,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["c_max"] = 0,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["heal_enemy_amt"] = 0,
+["last_event"] = 1738339518,
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.006301,
+["delay"] = 0,
+["start_time"] = 1738339518,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1509,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1509,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[269083] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 269083,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[341260] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 5,
+["id"] = 341260,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 4,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["buff_uptime_targets"] = {
+},
+["spec"] = 268,
+["grupo"] = true,
+["buff_uptime"] = 39,
+["aID"] = "3676-0EA43E6B",
+["nome"] = "Shortbeef",
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738339523,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["classe"] = "UNKNOW",
+["tipo"] = 4,
+["serial"] = "Creature-0-3779-1116-78-80018-00001CF4BF",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1509,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["tempo_start"] = 1738339517,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+["Shortbeef"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playing_solo"] = true,
+["totals"] = {
+48109,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 6,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "11:05:24",
+["hasTimer"] = 6.037000000011176,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 139698.744,
+["CombatEndedAt"] = 139698.744,
+["aura_timeline"] = {
+},
+["data_inicio"] = "11:05:18",
+["end_time"] = 139698.744,
+["mapId"] = 1116,
+["combat_id"] = 1509,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+["Podling Squirt"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.006301,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 249.0041,
+},
+},
+},
+["combat_counter"] = 1512,
+["totals_grupo"] = {
+249,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 139692.492,
+["TimeData"] = {
+},
+["playerTalents"] = {
+},
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1508,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005231,
+["pets"] = {
+},
+["classe"] = "MONK",
+["total_without_pet"] = 82.005231,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 82.005231,
+["spec"] = 268,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 82,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["on_hold"] = false,
+["end_time"] = 1738339505,
+["aID"] = "3676-0EA43E6B",
+["total_extra"] = 0,
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+["Volatile Spore"] = 82,
+},
+["n_total"] = 82,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 82,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["n_max"] = 82,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["tipo"] = 1,
+["avoidance"] = {
+["overall"] = {
+["FULL_ABSORB_AMT"] = 0,
+["DODGE"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 1738339499,
+["last_dps"] = 13.48992120415007,
+["start_time"] = 1738339499,
+["delay"] = 0,
+["damage_taken"] = 0.005231,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.008379,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.008379,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Creature-0-3779-1116-78-80018-00011CF4AA",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["end_time"] = 1738339505,
+["totalabsorbed"] = 0.008379,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 82.008379,
+["start_time"] = 1738339505,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1508,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1508,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1508,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 30,
+["classe"] = "MONK",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[269083] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 269083,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 3,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 3,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 7,
+["buff_uptime_targets"] = {
+},
+["pets"] = {
+},
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["debuff_uptime_targets"] = {
+},
+["last_event"] = 1738339505,
+["aID"] = "3676-0EA43E6B",
+["serial"] = "Player-3676-0EA43E6B",
+["tipo"] = 4,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["classe"] = "UNKNOW",
+["tipo"] = 4,
+["serial"] = "Creature-0-3779-1116-78-80018-00001CF4AC",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1508,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 139692.492,
+["tempo_start"] = 1738339499,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Shortbeef"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playing_solo"] = true,
+["totals"] = {
+19033,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 4,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "11:05:06",
+["hasTimer"] = 6.01600000000326,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 139680.537,
+["CombatEndedAt"] = 139680.537,
+["aura_timeline"] = {
+},
+["data_inicio"] = "11:05:00",
+["end_time"] = 139680.537,
+["mapId"] = 1116,
+["combat_id"] = 1508,
+["overall_added"] = true,
+["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 82.005231,
+},
+},
+},
+["combat_counter"] = 1511,
+["totals_grupo"] = {
+82,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 139674.458,
+["TimeData"] = {
+},
+["playerTalents"] = {
+},
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1507,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.001036,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 340.001036,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 340.001036,
+["spec"] = 268,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 340,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738339499,
+["on_hold"] = false,
+["isTank"] = true,
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 340,
+},
+["n_total"] = 340,
+["n_min"] = 85,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 340,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 4,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 1738338475,
+["last_dps"] = 44.28250013032685,
+["start_time"] = 1738339485,
+["delay"] = 1738338475,
+["damage_taken"] = 0.001036,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.006324,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.006324,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF09D",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338470,
+["totalabsorbed"] = 0.006324,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 340.006324,
+["start_time"] = 1738338470,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1507,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["classe"] = "MONK",
+["totalover"] = 7114.002695,
+["total_without_pet"] = 0.002695,
+["total"] = 0.002695,
+["spec"] = 268,
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.002695,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.002695,
+["targets_absorbs"] = {
+},
+["healing_taken"] = 0.002695,
+["end_time"] = 1738339499,
+["heal_enemy_amt"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 7114,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 6237,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 5,
+["overheal"] = 6237,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 8,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 5,
+["absorbed"] = 0,
+},
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 877,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738339322,
+["aID"] = "3676-0EA43E6B",
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338474,
+["delay"] = 1738338557,
+["totaldenied"] = 0.002695,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1507,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1507,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 33,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338470,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CF0A0",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1507,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 139674.458,
+["tempo_start"] = 1738338462,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+["Shortbeef"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+15170,
+136031,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+["Shortbeef"] = {
+{
+false,
+216521,
+1406,
+1738338557.218,
+1,
+"Shortbeef",
+nil,
+0,
+},
+{
+false,
+216521,
+1405,
+1738338567.819,
+1,
+"Shortbeef",
+nil,
+0,
+},
+{
+false,
+216521,
+1406,
+1738339220.244,
+1,
+"Shortbeef",
+nil,
+0,
+},
+{
+false,
+216521,
+1406,
+1738339323.096,
+1,
+"Shortbeef",
+nil,
+0,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+["n"] = 5,
+},
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 5,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:47:50",
+["hasTimer"] = 7.019999999989523,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.542999999976018,
+["CombatEndedAt"] = 138657.055,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:47:43",
+["end_time"] = 138644.889,
+["mapId"] = 1116,
+["combat_id"] = 1507,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.002695,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 170.001036,
+},
+},
+},
+["combat_counter"] = 1510,
+["totals_grupo"] = {
+340,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 138637.211,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1506,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.008524,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 926.008524,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 926.008524,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 926,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338462,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 2,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 926,
+},
+["n_total"] = 589,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 9,
+["total"] = 926,
+["c_max"] = 170,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 167,
+["successful_casted"] = 0,
+["c_total"] = 337,
+["n_amt"] = 7,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 52.54843513788678,
+["custom"] = 0,
+["last_event"] = 1738338455,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338432,
+["delay"] = 0,
+["damage_taken"] = 0.008524,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.001806,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.001806,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF07F",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338450,
+["totalabsorbed"] = 0.001806,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 926.001806,
+["start_time"] = 1738338450,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1506,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 3509.002745,
+["total_without_pet"] = 0.002745,
+["total"] = 0.002745,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.002745,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.002745,
+["spec"] = 268,
+["healing_taken"] = 0.002745,
+["end_time"] = 1738338450,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 3509,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 3509,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 4,
+["overheal"] = 3509,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 4,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338444,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338433,
+["delay"] = 0,
+["totaldenied"] = 0.002745,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1506,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1506,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 4,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 3,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 3,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 3,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 75,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 3,
+["targets"] = {
+},
+["activedamt"] = 3,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 18,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 18,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 18,
+["id"] = 392883,
+["refreshamt"] = 2,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 18,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 6,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338450,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF081",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1506,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138637.211,
+["tempo_start"] = 1738338432,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1509,
+["playerTalents"] = {
+},
+["totals"] = {
+926,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 22,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 4,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:47:30",
+["hasTimer"] = 17.07199999998557,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 5.682000000000699,
+["CombatEndedAt"] = 138634.792,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:47:13",
+["end_time"] = 138624.695,
+["mapId"] = 1116,
+["combat_id"] = 1506,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 4,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+926,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.002745,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 671.008524,
+},
+},
+},
+["start_time"] = 138607.073,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1505,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.006496,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 1102.006496,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1102.006496,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 1102,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338432,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 3,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 1102,
+},
+["n_total"] = 592,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 10,
+["total"] = 1102,
+["c_max"] = 170,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 170,
+["successful_casted"] = 0,
+["c_total"] = 510,
+["n_amt"] = 7,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 76.15275350691111,
+["custom"] = 0,
+["last_event"] = 1738338424,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338405,
+["delay"] = 0,
+["damage_taken"] = 0.006496,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.004167,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.004167,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF063",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338419,
+["totalabsorbed"] = 0.004167,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 1102.004167,
+["start_time"] = 1738338419,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1505,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 3508.007014,
+["total_without_pet"] = 0.007014,
+["total"] = 0.007014,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.007014,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.007014,
+["spec"] = 268,
+["healing_taken"] = 0.007014,
+["end_time"] = 1738338419,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 3508,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 3508,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 4,
+["overheal"] = 3508,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 4,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338415,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338406,
+["delay"] = 0,
+["totaldenied"] = 0.007014,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1505,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1505,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 4,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 3,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 3,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 3,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 59,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 3,
+["targets"] = {
+},
+["activedamt"] = 3,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 14,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 14,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 14,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 14,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 6,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338419,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00011CF065",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1505,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138596.531,
+["tempo_start"] = 1738338405,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1102,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 16,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 4,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:47:00",
+["hasTimer"] = 14.0679999999993,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.892999999981839,
+["CombatEndedAt"] = 138604.424,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:46:45",
+["end_time"] = 138594.284,
+["mapId"] = 1116,
+["combat_id"] = 1505,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 4,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.007014,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 762.006496,
+},
+},
+},
+["combat_counter"] = 1508,
+["totals_grupo"] = {
+1102,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 138579.813,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1504,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.008423,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 419.008423,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 419.008423,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 419,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338405,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 419,
+},
+["n_total"] = 252,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 419,
+["c_max"] = 167,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 167,
+["successful_casted"] = 0,
+["c_total"] = 167,
+["n_amt"] = 3,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 61.80065235989262,
+["custom"] = 0,
+["last_event"] = 1738338397,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338384,
+["delay"] = 0,
+["damage_taken"] = 0.008423,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.001134,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.001134,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF04F",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338391,
+["totalabsorbed"] = 0.001134,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 419.001134,
+["start_time"] = 1738338391,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1504,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 877.002081,
+["total_without_pet"] = 0.002081,
+["total"] = 0.002081,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.002081,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.002081,
+["spec"] = 268,
+["healing_taken"] = 0.002081,
+["end_time"] = 1738338391,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 877,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338385,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338385,
+["delay"] = 0,
+["totaldenied"] = 0.002081,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1504,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1504,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 29,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338391,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CF050",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1504,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138579.813,
+["tempo_start"] = 1738338384,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1507,
+["playerTalents"] = {
+},
+["totals"] = {
+419,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 5,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:46:32",
+["hasTimer"] = 6.027999999991152,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.058000000019092,
+["CombatEndedAt"] = 138578.105,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:46:25",
+["end_time"] = 138565.936,
+["mapId"] = 1116,
+["combat_id"] = 1504,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+419,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.002081,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 167.008423,
+},
+},
+},
+["start_time"] = 138559.156,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1503,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.007091,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 759.007091,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 759.007091,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 759,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338384,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 2,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 759,
+},
+["n_total"] = 419,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 7,
+["total"] = 759,
+["c_max"] = 170,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 170,
+["successful_casted"] = 0,
+["c_total"] = 340,
+["n_amt"] = 5,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 106.1103160912818,
+["custom"] = 0,
+["last_event"] = 1738338376,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338366,
+["delay"] = 0,
+["damage_taken"] = 0.007091,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.001113,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.001113,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF03C",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338373,
+["totalabsorbed"] = 0.001113,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 759.001113,
+["start_time"] = 1738338373,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1503,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 1754.001398,
+["total_without_pet"] = 0.001398,
+["total"] = 0.001398,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.001398,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.001398,
+["spec"] = 268,
+["healing_taken"] = 0.001398,
+["end_time"] = 1738338373,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 1754,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 1754,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 2,
+["overheal"] = 1754,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 2,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338368,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338367,
+["delay"] = 0,
+["totaldenied"] = 0.001398,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1503,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1503,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 30,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 4,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338373,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CF03F",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1503,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138548.043,
+["tempo_start"] = 1738338366,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1506,
+["playerTalents"] = {
+},
+["totals"] = {
+759,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 5,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:46:13",
+["hasTimer"] = 7.031999999977415,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.772999999986496,
+["CombatEndedAt"] = 138555.816,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:46:06",
+["end_time"] = 138547.709,
+["mapId"] = 1116,
+["combat_id"] = 1503,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 2,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+759,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.001398,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 422.007091,
+},
+},
+},
+["start_time"] = 138540.556,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1502,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005209,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 677.0052089999999,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 677.0052089999999,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 677,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338366,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 677,
+},
+["n_total"] = 677,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 8,
+["total"] = 677,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 8,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 97.72015141434603,
+["custom"] = 0,
+["last_event"] = 1738338357,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338344,
+["delay"] = 0,
+["damage_taken"] = 0.005209,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.002724,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.002724,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CF026",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338351,
+["totalabsorbed"] = 0.002724,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 677.002724,
+["start_time"] = 1738338351,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1502,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 2368.008393,
+["total_without_pet"] = 0.008393,
+["total"] = 0.008393,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.008393,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.008393,
+["spec"] = 268,
+["healing_taken"] = 0.008393,
+["end_time"] = 1738338351,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 2368,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 614,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 614,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 8,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 1754,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 2,
+["overheal"] = 1754,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 2,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338346,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338345,
+["delay"] = 0,
+["totaldenied"] = 0.008393,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1502,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1502,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 32,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 3,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 4,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338351,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF027",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1502,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138528.793,
+["tempo_start"] = 1738338344,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1505,
+["playerTalents"] = {
+},
+["totals"] = {
+677,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 12,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:45:51",
+["hasTimer"] = 6.024999999994179,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 8.796999999991385,
+["CombatEndedAt"] = 138537.59,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:45:44",
+["end_time"] = 138525.436,
+["mapId"] = 1116,
+["combat_id"] = 1502,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 2,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+677,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.008393,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 337.005209,
+},
+},
+},
+["start_time"] = 138518.508,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1501,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.001755,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 337.001755,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 337.001755,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 337,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338344,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 337,
+},
+["n_total"] = 337,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 337,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 4,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 53.62854153393354,
+["custom"] = 0,
+["last_event"] = 1738338335,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338322,
+["delay"] = 0,
+["damage_taken"] = 0.001755,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.008074,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.008074,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00011CF011",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338329,
+["totalabsorbed"] = 0.008074,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 337.008074,
+["start_time"] = 1738338329,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1501,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 877.001709,
+["total_without_pet"] = 0.001709,
+["total"] = 0.001709,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.001709,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.001709,
+["spec"] = 268,
+["healing_taken"] = 0.001709,
+["end_time"] = 1738338329,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 877,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338323,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338323,
+["delay"] = 0,
+["totaldenied"] = 0.001709,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1501,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1501,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 29,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338329,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CF012",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1501,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138508.427,
+["tempo_start"] = 1738338322,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1504,
+["playerTalents"] = {
+},
+["totals"] = {
+337,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 10,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:45:29",
+["hasTimer"] = 6.046000000002096,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 6.914000000018859,
+["CombatEndedAt"] = 138515.341,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:45:22",
+["end_time"] = 138503.148,
+["mapId"] = 1116,
+["combat_id"] = 1501,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+337,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.001709,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 170.001755,
+},
+},
+},
+["start_time"] = 138496.864,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1500,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.006179,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 334.006179,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 334.006179,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 334,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338322,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 334,
+},
+["n_total"] = 334,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 4,
+["total"] = 334,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 4,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 54.73716470023826,
+["custom"] = 0,
+["last_event"] = 1738338311,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338309,
+["delay"] = 1738338311,
+["damage_taken"] = 0.006179,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.00203,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.00203,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CEFFB",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338305,
+["totalabsorbed"] = 0.00203,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 334.00203,
+["start_time"] = 1738338305,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1500,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 1491.004336,
+["total_without_pet"] = 0.004336,
+["total"] = 0.004336,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.004336,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.004336,
+["spec"] = 268,
+["healing_taken"] = 0.004336,
+["end_time"] = 1738338305,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 1491,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 614,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 614,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 8,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 877,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338300,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338300,
+["delay"] = 0,
+["totaldenied"] = 0.004336,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1500,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1500,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 24,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338305,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CEFFC",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1500,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138485.855,
+["tempo_start"] = 1738338299,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1503,
+["playerTalents"] = {
+},
+["totals"] = {
+334,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 6,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:45:06",
+["hasTimer"] = 6.034999999974389,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 7.169999999983702,
+["CombatEndedAt"] = 138493.025,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:45:00",
+["end_time"] = 138480.845,
+["mapId"] = 1116,
+["combat_id"] = 1500,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+334,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.004336,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 164.006179,
+},
+},
+},
+["start_time"] = 138474.743,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1499,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.006579,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 589.006579,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 589.006579,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 589,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338299,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 589,
+},
+["n_total"] = 589,
+["n_min"] = 82,
+["g_dmg"] = 0,
+["counter"] = 7,
+["total"] = 589,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 7,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 72.98718451073289,
+["custom"] = 0,
+["last_event"] = 1738338293,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338275,
+["delay"] = 0,
+["damage_taken"] = 0.006579,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.007307,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.007307,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CEFE2",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338283,
+["totalabsorbed"] = 0.007307,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 589.007307,
+["start_time"] = 1738338283,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1499,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 1492.006489,
+["total_without_pet"] = 0.006489,
+["total"] = 0.006489,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.006489,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.006489,
+["spec"] = 268,
+["healing_taken"] = 0.006489,
+["end_time"] = 1738338283,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 1492,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 614,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 614,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 8,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 878,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 878,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338276,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338276,
+["delay"] = 0,
+["totaldenied"] = 0.006489,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1499,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1499,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 2,
+["id"] = 117952,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 35,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 2,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 392883,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 8,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 9,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338283,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00019CEFE3",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1499,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138467.784,
+["tempo_start"] = 1738338275,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+589,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 8,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 2,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:44:44",
+["hasTimer"] = 8.036999999982072,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 6.959000000002561,
+["CombatEndedAt"] = 138474.743,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:44:36",
+["end_time"] = 138458.501,
+["mapId"] = 1116,
+["combat_id"] = 1499,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.006489,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 252.006579,
+},
+},
+},
+["combat_counter"] = 1502,
+["totals_grupo"] = {
+589,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 138450.431,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1498,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.002715,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 337.002715,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 337.002715,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 337,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338275,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 337,
+},
+["n_total"] = 170,
+["n_min"] = 85,
+["g_dmg"] = 0,
+["counter"] = 3,
+["total"] = 337,
+["c_max"] = 167,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 167,
+["successful_casted"] = 0,
+["c_total"] = 167,
+["n_amt"] = 2,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 52.58272975491546,
+["custom"] = 0,
+["last_event"] = 1738338266,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338255,
+["delay"] = 0,
+["damage_taken"] = 0.002715,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.006046,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.006046,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CEFCD",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338261,
+["totalabsorbed"] = 0.006046,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 337.006046,
+["start_time"] = 1738338261,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1498,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 877.004834,
+["total_without_pet"] = 0.004834,
+["total"] = 0.004834,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.004834,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.004834,
+["spec"] = 268,
+["healing_taken"] = 0.004834,
+["end_time"] = 1738338261,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 877,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 877,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338255,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338255,
+["delay"] = 0,
+["totaldenied"] = 0.004834,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1498,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1498,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 25,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 392883,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 6,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 0,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338261,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CEFCF",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1498,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138450.431,
+["tempo_start"] = 1738338255,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1501,
+["playerTalents"] = {
+},
+["totals"] = {
+337,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 9,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:44:22",
+["hasTimer"] = 6.03100000001723,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 5.172000000020489,
+["CombatEndedAt"] = 138446.382,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:44:15",
+["end_time"] = 138436.151,
+["mapId"] = 1116,
+["combat_id"] = 1498,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 1,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+337,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.004834,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 170.002715,
+},
+},
+},
+["start_time"] = 138429.742,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1497,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.002839,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 680.002839,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 680.002839,
+["spec"] = 268,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 680,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738338255,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 85,
+["targets"] = {
+["Volatile Spore"] = 680,
+},
+["n_total"] = 680,
+["n_min"] = 85,
+["g_dmg"] = 0,
+["counter"] = 8,
+["total"] = 680,
+["c_max"] = 0,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 8,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["last_dps"] = 92.6182019885061,
+["custom"] = 0,
+["last_event"] = 1738338247,
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["start_time"] = 1738338234,
+["delay"] = 0,
+["damage_taken"] = 0.002839,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 0.002916,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.002916,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00009CEFB8",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738338241,
+["totalabsorbed"] = 0.002916,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 680.002916,
+["start_time"] = 1738338241,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1497,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "3676-0EA43E6B",
+["totalover"] = 1754.006144,
+["total_without_pet"] = 0.006144,
+["total"] = 0.006144,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 0.006144,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.006144,
+["spec"] = 268,
+["healing_taken"] = 0.006144,
+["end_time"] = 1738338241,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 1754,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 1754,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 2,
+["overheal"] = 1754,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 2,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["last_event"] = 1738338235,
+["heal_enemy_amt"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["start_time"] = 1738338235,
+["delay"] = 0,
+["totaldenied"] = 0.006144,
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1497,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1497,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[113746] = {
+["appliedamt"] = 2,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 1,
+["id"] = 113746,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 29,
+["aID"] = "3676-0EA43E6B",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 0,
+["id"] = 117952,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[452307] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 452307,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[450552] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 1,
+["id"] = 450552,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[430191] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 430191,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[392883] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 392883,
+["refreshamt"] = 1,
+["actived"] = false,
+["counter"] = 0,
+},
+[414143] = {
+["appliedamt"] = 1,
+["targets"] = {
+},
+["activedamt"] = 1,
+["uptime"] = 7,
+["id"] = 414143,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2,
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_targets"] = {
+},
+["tipo"] = 4,
+["debuff_uptime_targets"] = {
+},
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["last_event"] = 1738338241,
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["aID"] = "80018",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001CEFBA",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1497,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Shortbeef"] = "Player-3676-0EA43E6B",
+},
+["CombatStartedAt"] = 138416.68,
+["tempo_start"] = 1738338234,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+680,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 4,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Draenor",
+["data_fim"] = "10:44:02",
+["hasTimer"] = 7.022999999986496,
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Volatile Spore",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 11.44800000000396,
+["CombatEndedAt"] = 138428.128,
+["aura_timeline"] = {
+},
+["data_inicio"] = "10:43:54",
+["end_time"] = 138415.969,
+["mapId"] = 1116,
+["combat_id"] = 1497,
+["overall_added"] = true,
+["frags"] = {
+["Volatile Spore"] = 2,
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Shortbeef"] = 0.006144,
+},
+},
+["damage"] = {
+{
+["Shortbeef"] = 340.002839,
+},
+},
+},
+["combat_counter"] = 1500,
+["totals_grupo"] = {
+680,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 138408.627,
+["TimeData"] = {
+},
+["playing_solo"] = true,
+},
+},
+},
+["ocd_tracker"] = {
+["enabled"] = false,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["width"] = 120,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["show_options"] = false,
+["ignored_cooldowns"] = {
+},
+["height"] = 18,
+["framme_locked"] = false,
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["cooldowns"] = {
+},
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["show_title"] = true,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["last_version"] = "11.0.7 13388",
+["player_stats"] = {
+},
+["force_font_outline"] = "",
+["tabela_instancias"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["is_open"] = true,
+["isLocked"] = true,
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -535.5641822814941,
+["x"] = 1291.564208984375,
+["w"] = 239.4356842041016,
+["h"] = 110.4102096557617,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["cached_talents"] = {
+},
+["last_instance_id"] = 0,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "Shortwire-Stormrage",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["ignore_nicktag"] = false,
+["mythic_plus_log"] = {
+},
+["combat_counter"] = 1514,
+["cached_roles"] = {
+},
+["data_harvested_for_charts"] = {
+},
+["on_death_menu"] = false,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["plugin_database"] = {
+},
+["last_instance_time"] = 0,
+["combat_id"] = 1511,
+["savedStyles"] = {
+},
+["last_day"] = "31",
+["character_data"] = {
+["logons"] = 3,
+},
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 7.498134000000007,
+["pets"] = {
+},
+["aID"] = "3676-0EA43E6B",
+["total_without_pet"] = 183481.4981339999,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 183481.4981339999,
+["spec"] = 268,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["damage_from"] = {
+},
+["targets"] = {
+["Volatile Spore"] = 183474,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["tipo"] = 1,
+["end_time"] = 1738300666,
+["isTank"] = true,
+["friendlyfire"] = {
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["c_amt"] = 981,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 113,
+["targets"] = {
+["Volatile Spore"] = 183474,
+},
+["n_total"] = 131543,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 5863,
+["total"] = 183474,
+["c_max"] = 223,
+["id"] = 117952,
+["r_dmg"] = 0,
+["spellschool"] = 8,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 51931,
+["n_amt"] = 4882,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["classe"] = "MONK",
+["avoidance"] = {
+["overall"] = {
+["DODGE"] = 0,
+["FULL_ABSORB_AMT"] = 0,
+["BLOCKED_AMT"] = 0,
+["BLOCKED_HITS"] = 0,
+["FULL_ABSORBED"] = 0,
+["ALL"] = 0,
+["PARTIAL_ABSORBED"] = 0,
+["PARRY"] = 0,
+["PARTIAL_ABSORB_AMT"] = 0,
+["ABSORB"] = 0,
+["ABSORB_AMT"] = 0,
+["FULL_HIT"] = 0,
+["HITS"] = 0,
+["FULL_HIT_AMT"] = 0,
+},
+},
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 7.498134000000007,
+["start_time"] = 1738282839,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+{
+["flag_original"] = 68136,
+["pets"] = {
+},
+["aID"] = "80018",
+["total_without_pet"] = 7.663126999999991,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 7.663126999999991,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00011C5CDF",
+["damage_from"] = {
+["Shortbeef"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["classe"] = "UNKNOW",
+["fight_component"] = true,
+["end_time"] = 1738300666,
+["totalabsorbed"] = 7.663126999999991,
+["nome"] = "Volatile Spore",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 2,
+},
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 183481.6631270001,
+["start_time"] = 1738300663,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 756857.6494140002,
+["total_without_pet"] = 7.649413999999997,
+["total"] = 7.649413999999997,
+["spec"] = 268,
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["isTank"] = true,
+["serial"] = "Player-3676-0EA43E6B",
+["totalabsorb"] = 7.649413999999997,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 7.649413999999997,
+["aID"] = "3676-0EA43E6B",
+["healing_taken"] = 7.649413999999997,
+["end_time"] = 1738300666,
+["classe"] = "MONK",
+["targets_overheal"] = {
+["Shortbeef"] = 756850,
+},
+["nome"] = "Shortbeef",
+["spells"] = {
+["_ActorTable"] = {
+[59913] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 722756,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 3766,
+["overheal"] = 722756,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 59913,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 1,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 3766,
+["absorbed"] = 0,
+},
+[216521] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Shortbeef"] = 34094,
+},
+["n_max"] = 0,
+["targets"] = {
+["Shortbeef"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 80,
+["overheal"] = 34094,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 216521,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 8,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 80,
+["absorbed"] = 0,
+},
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["tipo"] = 2,
+["start_time"] = 1738283515,
+["custom"] = 0,
+["last_event"] = 0,
+["totaldenied"] = 7.649413999999997,
+["delay"] = 0,
+["targets_absorbs"] = {
+},
+},
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["debuff_uptime_spells"] = {
+["_ActorTable"] = {
+[117952] = {
+["refreshamt"] = 193,
+["activedamt"] = -2,
+["appliedamt"] = 3688,
+["id"] = 117952,
+["uptime"] = 1864,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[113746] = {
+["refreshamt"] = 0,
+["activedamt"] = 7,
+["appliedamt"] = 209,
+["id"] = 113746,
+["uptime"] = 238,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["pets"] = {
+},
+["classe"] = "MONK",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[341260] = {
+["refreshamt"] = 0,
+["activedamt"] = 438,
+["appliedamt"] = 438,
+["id"] = 341260,
+["uptime"] = 4619,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[269083] = {
+["refreshamt"] = 0,
+["activedamt"] = 4,
+["appliedamt"] = 4,
+["id"] = 269083,
+["uptime"] = 48,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[117952] = {
+["refreshamt"] = 839,
+["activedamt"] = 2293,
+["appliedamt"] = 2293,
+["id"] = 117952,
+["uptime"] = 1198,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[452307] = {
+["refreshamt"] = 0,
+["activedamt"] = 1511,
+["appliedamt"] = 1511,
+["id"] = 452307,
+["uptime"] = 17751,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[450552] = {
+["refreshamt"] = 0,
+["activedamt"] = 47,
+["appliedamt"] = 47,
+["id"] = 450552,
+["uptime"] = 79,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[430191] = {
+["refreshamt"] = 0,
+["activedamt"] = 1511,
+["appliedamt"] = 1511,
+["id"] = 430191,
+["uptime"] = 17751,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[392883] = {
+["refreshamt"] = 115,
+["activedamt"] = 103,
+["appliedamt"] = 103,
+["id"] = 392883,
+["uptime"] = 1098,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[414143] = {
+["refreshamt"] = 0,
+["activedamt"] = 103,
+["appliedamt"] = 103,
+["id"] = 414143,
+["uptime"] = 1093,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["debuff_uptime"] = 2102,
+["debuff_uptime_targets"] = {
+},
+["buff_uptime_targets"] = {
+},
+["nome"] = "Shortbeef",
+["spec"] = 268,
+["grupo"] = true,
+["buff_uptime"] = 43637,
+["tipo"] = 4,
+["last_event"] = 0,
+["serial"] = "Player-3676-0EA43E6B",
+["aID"] = "3676-0EA43E6B",
+},
+{
+["flag_original"] = 2600,
+["pets"] = {
+},
+["aID"] = "80018",
+["fight_component"] = true,
+["nome"] = "Volatile Spore",
+["classe"] = "UNKNOW",
+["last_event"] = 0,
+["serial"] = "Creature-0-3019-1116-41-80018-00001C5CE0",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["tempo_start"] = 1738300640,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Volatile Spore"] = {
+["total"] = 0,
+["last"] = 0,
+},
+["Gloomshade Fungi"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+432840.9272230004,
+7.641525999999997,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+183481.4916779999,
+7.641525999999997,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+["Volatile Spore"] = {
+["Spore Spawn"] = 19238,
+},
+["Shortbeef"] = {
+["Crackling Jade Lightning"] = 3647,
+},
+},
+["zoneName"] = "Draenor",
+["data_fim"] = "11:08:27",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
+},
+},
+["end_time"] = 139881.869,
+["mapId"] = 1116,
+["boss_hp"] = 1,
+["combat_counter"] = 3,
+["is_challenge"] = false,
+["frags"] = {
+},
+["player_last_events"] = {
+},
+["overall_enemy_name"] = "Volatile Spore",
+["segments_added"] = {
+{
+["elapsed"] = 7.387000000016997,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "11:08:20",
+},
+{
+["elapsed"] = 27.93899999998394,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "11:05:45",
+},
+{
+["elapsed"] = 6.252000000007683,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "11:05:18",
+},
+{
+["elapsed"] = 6.078999999997905,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "11:05:00",
+},
+{
+["elapsed"] = 7.677999999985332,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:47:43",
+},
+{
+["elapsed"] = 17.62200000000303,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:47:13",
+},
+{
+["elapsed"] = 14.47100000001956,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:46:45",
+},
+{
+["elapsed"] = 6.779999999998836,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:46:25",
+},
+{
+["elapsed"] = 7.152999999991152,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:46:06",
+},
+{
+["elapsed"] = 6.928000000014436,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:45:44",
+},
+{
+["elapsed"] = 6.284000000014203,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:45:22",
+},
+{
+["elapsed"] = 6.1019999999844,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:45:00",
+},
+{
+["elapsed"] = 8.069999999977881,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:44:36",
+},
+{
+["elapsed"] = 6.409000000014203,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:44:15",
+},
+{
+["elapsed"] = 7.342000000004191,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:43:54",
+},
+{
+["elapsed"] = 5.35999999998603,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:43:34",
+},
+{
+["elapsed"] = 7.548999999999069,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:43:13",
+},
+{
+["elapsed"] = 5.941999999980908,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:42:55",
+},
+{
+["elapsed"] = 5.961000000010245,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:42:33",
+},
+{
+["elapsed"] = 25.1940000000177,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:41:49",
+},
+{
+["elapsed"] = 7.519000000000233,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:41:30",
+},
+{
+["elapsed"] = 20.76399999999558,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:40:53",
+},
+{
+["elapsed"] = 6.899000000004889,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:40:34",
+},
+{
+["elapsed"] = 13.51299999997718,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:40:05",
+},
+{
+["elapsed"] = 5.260000000009313,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:39:49",
+},
+{
+["elapsed"] = 6.49900000001071,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:39:32",
+},
+{
+["elapsed"] = 7.199999999982538,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:39:13",
+},
+{
+["elapsed"] = 28.93400000000838,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:38:31",
+},
+{
+["elapsed"] = 6.37599999998929,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:38:13",
+},
+{
+["elapsed"] = 8.970000000001164,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:37:52",
+},
+{
+["elapsed"] = 5.965999999985797,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:37:35",
+},
+{
+["elapsed"] = 6.878999999986263,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:37:16",
+},
+{
+["elapsed"] = 7.239000000001397,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:36:53",
+},
+{
+["elapsed"] = 7.698000000003958,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:36:32",
+},
+{
+["elapsed"] = 6.872000000003027,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:36:13",
+},
+{
+["elapsed"] = 19.26500000001397,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:35:42",
+},
+{
+["elapsed"] = 26.90400000000955,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:34:56",
+},
+{
+["elapsed"] = 6.701999999990221,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:34:36",
+},
+{
+["elapsed"] = 6.292999999976018,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:34:16",
+},
+{
+["elapsed"] = 7.285000000003493,
+["type"] = 0,
+["name"] = "Volatile Spore",
+["clock"] = "10:33:55",
+},
+},
+["data_inicio"] = "00:17:21",
+["start_time"] = 122026.2640000004,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+["last_realversion"] = 161,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["nick_tag_cache"] = {
+["nextreset"] = 1739595904,
+["last_version"] = 16,
+},
+["announce_cooldowns"] = {
+["enabled"] = false,
+["ignored_cooldowns"] = {
+},
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["cached_specs"] = {
+["Player-3676-0EA43E6B"] = 268,
+},
+}

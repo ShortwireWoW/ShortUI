@@ -12,38 +12,9 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "us-Shortlite-stormrage"
+RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Lootgobo-stormrage"] = true,
-["us-Shocknsmash-stormrage"] = true,
-["us-Bailooch-stormrage"] = true,
-["us-Moosader-stormrage"] = true,
-["us-Coretexs-stormrage"] = true,
-["us-Demodueces-stormrage"] = true,
-["us-Tarmara-stormrage"] = true,
-["us-Felidank-malganis"] = true,
-["us-Hermeshep-runetotem"] = true,
-["us-Fhynn-stormrage"] = true,
-["us-Itachifox-stormrage"] = true,
-["us-Niicí-stormrage"] = true,
-["us-Chyrie-thrall"] = true,
-["us-Nightfrostz-stormrage"] = true,
-["us-Blazzle-dalaran"] = true,
-["us-Keracaw-malganis"] = true,
-["us-Gordray-thunderlord"] = true,
-["us-Holybleeps-deathwing"] = true,
-["us-Baalberithh-runetotem"] = true,
-["us-Karandaras-stormrage"] = true,
-["us-Athellin-moon-guard"] = true,
-["us-Lightgoober-proudmoore"] = true,
-["us-Battousai-terokkar"] = true,
-["us-Wolfcolax-stormrage"] = true,
-["us-Ahtarië-stormrage"] = true,
-["us-Wacco-shadowmoon"] = true,
-["us-Ldpally-caelestrasz"] = true,
-["us-Itzu-stormrage"] = true,
-["us-Shortlite-stormrage"] = true,
-["us-Bonnstinian-stormrage"] = true,
+["us-Shortsited-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

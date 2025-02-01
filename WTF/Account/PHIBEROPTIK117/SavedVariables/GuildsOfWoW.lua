@@ -3,12 +3,14 @@ GoWDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortbeef - Area 52"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Guildsigzzs - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
-["Shortwire - Stormrage"] = "Default",
+["Shortybear - Area 52"] = "Default",
 ["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
@@ -46,11 +48,17 @@ GoWDB = {
 ["rankIndex"] = 0,
 ["guid"] = "Player-3683-0DC0C5C1",
 },
-["Goobertank-Stormrage"] = {
+["Wílliam-Sargeras"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-60-0F9D9DA7",
+["guid"] = "Player-76-0BEF57A0",
+},
+["Shortwire-Stormrage"] = {
+["officerNote"] = "",
+["note"] = "",
+["rankIndex"] = 4,
+["guid"] = "Player-60-0F396F4E",
 },
 ["Onewithlocks-Sargeras"] = {
 ["officerNote"] = "",
@@ -70,11 +78,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-3675-0AD614DE",
 },
-["Sylorä-Dalaran"] = {
+["Goobertank-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-3683-0DC7C28E",
+["guid"] = "Player-60-0F9D9DA7",
 },
 ["Shamfanatic-Dalaran"] = {
 ["officerNote"] = "",
@@ -112,11 +120,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-3683-0DC2BA8A",
 },
-["Wílliam-Sargeras"] = {
+["Sylorä-Dalaran"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-76-0BEF57A0",
+["guid"] = "Player-3683-0DC7C28E",
 },
 ["Onyxìa-Dalaran"] = {
 ["officerNote"] = "",
@@ -136,11 +144,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-3683-0DC90436",
 },
-["Shortwire-Stormrage"] = {
+["Shortbeef-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 4,
-["guid"] = "Player-60-0F396F4E",
+["guid"] = "Player-3676-0EA43E6B",
 },
 },
 ["ranks"] = {
@@ -168,7 +176,7 @@ GoWDB = {
 ["keystones"] = {
 },
 ["motd"] = "Ahoy there, mateys! Welcome to The Scurvy Dogs! We're a crew of misfits and adventurers sailing the seas of Azeroth. Whether you're a seasoned veteran or just starting your journey, come join us for some fun and plunder!",
-["rosterRefreshTime"] = 1738296633,
+["rosterRefreshTime"] = 1738383956,
 },
 ["Mythic Intent-1-Stormrage"] = {
 ["roster"] = {
@@ -178,11 +186,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-60-0F38DE1E",
 },
-["Bighealnrg-Stormrage"] = {
+["Stonesoup-Area52"] = {
 ["officerNote"] = "Shortwire Alt",
 ["note"] = "",
 ["rankIndex"] = 3,
-["guid"] = "Player-60-0F38DDF5",
+["guid"] = "Player-3676-0E93152D",
 },
 ["Sentientsoup-Mal'Ganis"] = {
 ["officerNote"] = "Shortwire Alt",
@@ -196,23 +204,23 @@ GoWDB = {
 ["rankIndex"] = 0,
 ["guid"] = "Player-60-0FA1C176",
 },
-["Souplight-Tichondrius"] = {
-["officerNote"] = "Shortwire Alt",
-["note"] = "",
-["rankIndex"] = 3,
-["guid"] = "Player-11-0E9227AC",
-},
-["Stonesoup-Area52"] = {
-["officerNote"] = "Shortwire Alt",
-["note"] = "",
-["rankIndex"] = 3,
-["guid"] = "Player-3676-0E93152D",
-},
 ["Dusbro-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "613 Holy Paladin",
 ["rankIndex"] = 7,
 ["guid"] = "Player-60-0F8392A9",
+},
+["Bighealnrg-Stormrage"] = {
+["officerNote"] = "Shortwire Alt",
+["note"] = "",
+["rankIndex"] = 3,
+["guid"] = "Player-60-0F38DDF5",
+},
+["Souplight-Tichondrius"] = {
+["officerNote"] = "Shortwire Alt",
+["note"] = "",
+["rankIndex"] = 3,
+["guid"] = "Player-11-0E9227AC",
 },
 },
 ["rosterRefreshTime"] = 1737656519,
@@ -265,7 +273,7 @@ GoWDB = {
 ["The Scurvy Dogs-1-Stormrage"] = {
 ["roster"] = {
 },
-["rosterRefreshTime"] = 1738199998,
+["rosterRefreshTime"] = 1738339157,
 ["keystones"] = {
 },
 ["motd"] = "Ahoy there, mateys! Welcome to The Scurvy Dogs! We're a crew of misfits and adventurers sailing the seas of Azeroth. Whether you're a seasoned veteran or just starting your journey, come join us for some fun and plunder!",

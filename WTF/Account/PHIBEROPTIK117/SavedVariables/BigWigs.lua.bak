@@ -1,63 +1,21 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
-["BigWigs_Bosses_Lord Aurius Rivendare"] = {
+["BigWigs_Plugins_Victory"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Ramstein the Gorger"] = {
-},
-["BigWigs_Bosses_Immol'thar"] = {
+["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Hydrospawn"] = {
+["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Instructor Galford"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Bosses_Cookie"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Bosses_Gilnid"] = {
-},
-["BigWigs_Bosses_Timmy the Cruel"] = {
-},
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_Tendris Warpwood"] = {
-},
-["BigWigs_Bosses_Edwin VanCleef"] = {
-},
-["BigWigs_Bosses_Captain Greenskin"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Dire Maul Trash"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Mr. Smite"] = {
-},
-["BigWigs_Bosses_Prince Tortheldrin"] = {
-},
-["BigWigs_Bosses_Hearthsinger Forresten"] = {
-},
-["BigWigs_Bosses_Sneed"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Bosses_Rhahk'Zor"] = {
-},
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -73,25 +31,19 @@ nil,
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Magistrate Barthilas"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Bosses_Nerub'enkan"] = {
-},
-["BigWigs_Bosses_Balnazzar"] = {
-},
-["BigWigs_Bosses_Maleki the Pallid"] = {
-},
-["BigWigs_Bosses_Zevrim Thornhoof"] = {
-},
-["BigWigs_Bosses_Baroness Anastari"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Bosses_Alzzin the Wildshaper"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
 },
 ["profileKeys"] = {
@@ -101,11 +53,11 @@ nil,
 ["global"] = {
 ["watchedMovies"] = {
 [-2292] = true,
+[-437] = true,
 [-593] = {
 true,
 true,
 },
-[-437] = true,
 [-609] = true,
 [-2296] = true,
 [-607] = true,
@@ -250,6 +202,19 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
+[2608] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/01/07",
+["fkWipes"] = 1,
+["best"] = 318.260000000002,
+["wipes"] = 1,
+["fkDuration"] = 318.260000000002,
+},
+["heroic"] = {
+},
+},
 [2601] = {
 ["normal"] = {
 ["kills"] = 2,
@@ -266,19 +231,6 @@ BigWigsStatsDB = {
 ["best"] = 265.625,
 ["wipes"] = 2,
 ["fkDuration"] = 265.625,
-},
-},
-[2608] = {
-["normal"] = {
-["kills"] = 1,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/01/07",
-["fkWipes"] = 1,
-["best"] = 318.260000000002,
-["wipes"] = 1,
-["fkDuration"] = 318.260000000002,
-},
-["heroic"] = {
 },
 },
 },

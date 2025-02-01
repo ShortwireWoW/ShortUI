@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "Exploding KEg" "134400"
+#showtooltip
+/cast [@cursor] Exploding Keg
+END
+VER 3 0100000000000001 "RoP" "134400"
+#showtooltip
+/cast [@cursor] Ring of Peace
+END
