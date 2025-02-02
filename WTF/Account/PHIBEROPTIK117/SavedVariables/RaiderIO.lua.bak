@@ -12,9 +12,36 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "us-Shortsited-stormrage"
+RaiderIO_LastCharacter = "us-Shortbeef-area-52"
 RaiderIO_MissingCharacters = {
-["us-Shortsited-stormrage"] = true,
+["us-Poctraindorn-area-52"] = true,
+["us-Zigfield-area-52"] = true,
+["us-Aavary-area-52"] = true,
+["us-Impatient-tichondrius"] = true,
+["us-Moonfoxlord-wyrmrest-accord"] = true,
+["us-Yshala-area-52"] = true,
+["us-Shortbeef-area-52"] = true,
+["us-Modin-area-52"] = true,
+["us-Thrøk-dalaran"] = true,
+["us-Hysx-area-52"] = true,
+["us-Deafyhunter-area-52"] = true,
+["us-Grombrindle-dalaran"] = true,
+["us-Elsels-area-52"] = true,
+["us-Maxymus-area-52"] = true,
+["us-Boundinblood-area-52"] = true,
+["us-Krellibar-area-52"] = true,
+["us-Ysmadriel-area-52"] = true,
+["us-Suikune-area-52"] = true,
+["us-Ancientlore-area-52"] = true,
+["us-Beefstck-area-52"] = true,
+["us-Msmeoww-area-52"] = true,
+["us-Xeragon-nagrand"] = true,
+["us-Surelytemple-area-52"] = true,
+["us-Shortbeef-Area 52"] = true,
+["us-Magmos-stormrage"] = true,
+["us-Atulkaji-wyrmrest-accord"] = true,
+["us-Shortlite-stormrage"] = true,
+["us-Blazzle-dalaran"] = true,
 }
 RaiderIO_MissingServers = {
 }

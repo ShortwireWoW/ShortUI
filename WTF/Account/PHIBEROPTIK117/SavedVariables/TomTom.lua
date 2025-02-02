@@ -1,6 +1,7 @@
 
 TomTomDB = {
 ["profileKeys"] = {
+["Dagdese - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
@@ -34,6 +35,7 @@ nil,
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
+["Dagdese - Stormrage"] = "Dagdese - Stormrage",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
@@ -42,6 +44,8 @@ TomTomWaypointsM = {
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 },
 ["profiles"] = {
+["Dagdese - Stormrage"] = {
+},
 ["Shortsited - Stormrage"] = {
 },
 ["Shortybear - Area 52"] = {

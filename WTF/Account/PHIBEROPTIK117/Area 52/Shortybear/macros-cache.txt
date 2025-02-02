@@ -1,6 +1,4 @@
-VER 3 0100000000000001 "AFK LEVEL" "134400"
+VER 3 0100000000000002 "Brez" "134400"
 #showtooltip
-/target Volatile Spore
-/cast Moonfire
-/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+/cast [@mouseover] Rebirth
 END

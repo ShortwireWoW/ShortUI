@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 271,
+["session"] = 285,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Targets_CastBar [Soup]': init\nWeakAuras Version: 5.18.1\nStack trace:\n[string \"return function() function hideCastBar()\"]:2: attempt to index global 'TargetCastingBarFrame' (a nil value)",
@@ -84,20 +84,44 @@ BugGrabberDB = {
 ["counter"] = 1,
 },
 {
+["message"] = "[string \"print(\"Click here to join the guild: ||cffffd200||HclubFinder:C...\"]:1: ')' expected near '<eof>'",
+["time"] = "2025/02/01 09:57:36",
+["locals"] = "(*temporary) = \"print(\"Click here to join the guild: ||cffffd200||HclubFinder:ClubFinder-1-576839-3683-114003944||h[Guild: The Scurvy Dogs]||h||r\"\"\n",
+["stack"] = "[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:2304: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5492: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5144: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5180: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1>",
+["session"] = 272,
+["counter"] = 3,
+},
+{
+["message"] = "[string \"echo(\"test\")\"]:1: attempt to call global 'echo' (a nil value)",
+["time"] = "2025/02/01 09:58:12",
+["locals"] = "(*temporary) = nil\n(*temporary) = \"test\"\n(*temporary) = \"attempt to call global 'echo' (a nil value)\"\n",
+["stack"] = "[string \"echo(\"test\")\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:2304: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5492: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5144: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5180: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1>",
+["session"] = 272,
+["counter"] = 1,
+},
+{
+["message"] = "Interface/AddOns/Cell/Core.lua:81: attempt to index field 'layoutAutoSwitch' (a nil value)",
+["time"] = "2025/02/01 15:13:25",
+["locals"] = "self = <table> {\n}\nlayoutGroupType = \"solo\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <table> {\n}\n(*temporary) = \"|cFF7CFC00F:UpdateLayout(\"solo\")\"\n(*temporary) = \"attempt to index field 'layoutAutoSwitch' (a nil value)\"\nF = <table> {\n}\ndelayedLayoutGroupType = \"solo\"\ndelayedFrame = Frame {\n}\nCell = <table> {\n MIN_DEBUFFS_VERSION = 228\n MIN_QUICKASSIST_VERSION = 227\n flavor = \"retail\"\n funcs = <table> {\n }\n snippetVars = <table> {\n }\n MIN_CLICKCASTINGS_VERSION = 239\n IndentationLib = <table> {\n }\n isRetail = true\n animations = <table> {\n }\n frames = <table> {\n }\n MIN_INDICATORS_VERSION = 235\n unitButtons = <table> {\n }\n versionNum = 243\n bFuncs = <table> {\n }\n vars = <table> {\n }\n hasHighestPriority = false\n loaded = true\n pixelPerfectFuncs = <table> {\n }\n isVanilla = false\n version = \"r243-release\"\n isTWW = true\n wowSupporters = <table> {\n }\n menu = CellCascadingMenu {\n }\n supporters1 = <table> {\n }\n MIN_LAYOUTS_VERSION = 239\n iFuncs = <table> {\n }\n supporters2 = <table> {\n }\n L = <table> {\n }\n defaults = <table> {\n }\n MIN_VERSION = 220\n uFuncs = <table> {\n }\n isWrath = false\n isCata = false\n}\n",
+["stack"] = "[string \"@Interface/AddOns/Cell/Core.lua\"]:81: in function `UpdateLayout'\n[string \"@Interface/AddOns/Cell/Core.lua\"]:62: in function <Interface/AddOns/Cell/Core.lua:60>",
+["session"] = 277,
+["counter"] = 1,
+},
+{
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn '*** ForceTaint_Strong ***' tried to call the protected function 'CancelLogout()'.",
 ["time"] = "2025/01/18 00:11:43",
 ["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
 ["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `CancelLogout'\n[string \"@Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopup.lua\"]:1711: in function `OnAccept'\n[string \"@Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua\"]:1025: in function `StaticPopup_OnClick'\n[string \"*StaticPopup.xml:23_OnClick\"]:1: in function <[string \"*StaticPopup.xml:23_OnClick\"]:1>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Click'\n[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent(\"PLAYER_CAMPING\")f:SetScript(\"OnEvent\", function() local p=StaticPopup_Visible(\"CAMP\")_G[p..\"Button1\"]:Click()end)\"]:1: in function <[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent...\"]:1>",
-["session"] = 270,
-["counter"] = 3,
+["session"] = 278,
+["counter"] = 4,
 },
 {
 ["message"] = "[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent...\"]:1: attempt to concatenate local 'p' (a nil value)",
 ["time"] = "2025/01/18 00:11:43",
 ["locals"] = "p = nil\n(*temporary) = <table> {\n ERR_OUT_OF_CHI = \"Not enough chi\"\n DH_HAVOC_CORE_ABILITY_2 = \"Strong melee attack that consumes Fury. If it critical strikes, some Fury is refunded.\"\n UNIT_NAMES_COMBATLOG_TOOLTIP = \"Color unit names.\"\n AchievementFrameStatsBG = AchievementFrameStatsBG {\n }\n LE_GAME_ERR_CHAT_RAID_RESTRICTED_TRIAL = 785\n SPELL_FAILED_CUSTOM_ERROR_71 = \"This partygoer wants to dance with you.\"\n LE_GAME_ERR_PET_SPELL_TARGETS_DEAD = 423\n ClassTrialTimerDisplayMixin = <table> {\n }\n CompactRaidFrame34Buff4Count = CompactRaidFrame34Buff4Count {\n }\n MultiBarLeftButton7 = MultiBarLeftButton7 {\n }\n CompactRaidGroup1Member4OverHealAbsorbGlow = CompactRaidGroup1Member4OverHealAbsorbGlow {\n }\n MerchantItem6AltCurrencyFrameItem1Text = MerchantItem6AltCurrencyFrameItem1Text {\n }\n OPTION_SHOW_ACTION_BAR5_TOOLTIP = \"Attached to the left side of Action Bar 4 by default\"\n BINDING_NAME_NAMEPLATES = \"Show Enemy Nameplates\"\n INSTANCE_UNAVAILABLE_OTHER_TEMPORARILY_DISABLED = \"%s cannot enter. This instance is temporarily disabled.\"\n COVENANT_MISSIONS_HEALTH = \"Health\"\n PVPReadyDialogBottomArt = PVPReadyDialogBottomArt {\n }\n CALENDAR_RAID_RESET_DESCRIPTION = \"%1$s resets at %2$s.\"\n CompactRaidFrame18Debuff3Border = CompactRaidFrame18Debuff3Border {\n }\n ChatFrame6EditBoxFocusMid = ChatFrame6EditBoxFocusMid {\n }\n CellRaidFrameHeader3UnitButton2TargetedSpells1 = CellRaidFrameHeader3UnitButton2TargetedSpells1 {\n }\n CinematicFrameRaidBossEmoteFrame = CinematicFrameRaidBossEmoteFrame {\n }\n LE_GAME_ERR_ONLY_ONE_QUIVER = 36\n INT_SPELL_DURATION_HOURS = \"%d |4hour:hrs;\"\n CellPartyFrameHeaderUnitButton2Petindicator1Icon2 = CellPartyFrameHeaderUnitButton2Petindicator1Icon2 {\n }\n LOSS_OF_CONTROL_DISPLAY_FEAR = \"Feared\"\n MacroFrame = MacroFrame {\n }\n LibDBIcon10_BugSack = LibDBIcon10_BugSack {\n }\n ACTION_SPELL_MISSED_POSSESSIVE = \"1\"\n CellPartyFrameHeaderUnitButton4PetRaidDebuff2Icon = CellPartyFrameHeaderUnitButton4PetRaidDebuff2Icon {\n }\n CellRaidFrameHeader0UnitButton3DispelRequestText = CellRaidFrameHeader0UnitButton3DispelRequestText {\n }\n CellRaidFrameHeader0UnitButton24AbsorbsBar = CellRaidFrameHeader0UnitButton24AbsorbsBar {\n }\n LE_GAME_ERR_AZERITE_ESSENCE_SELECTION_FAILED_ESSENCE_NOT_UNLOCKED = 1077\n DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO2 = \"Andorhal\"\n CellRaidPetFrameHeaderUnitButton7RaidDebuff3IconFrame = CellRaidPetFrameHeaderUnitButton7RaidDebuff3IconFrame {\n }\n NamePlate8PlaterUnitFramesoftInteractIconFrameIcon = NamePlate8PlaterUnitFramesoftInteractIconFrameIcon {\n }\n WowTokenRedemptionFrameBg = WowTokenRedemptionFrameBg {\n }\n LAG_TOLERANCE = \"Lag Tolerance\"\n RCLootCouncil_Tooltip_ParseTextLeft1 = RCLootCouncil_Tooltip_ParseTextLeft1 {\n }\n STABLE_PET_ABILITIES_LIST_HEADER = \"Special Abilities\"\n SendStationeryBackgroundRight = SendStationeryBackgroundRight {\n }\n _ = \"Protection\"\n CONQUEST_BAR = \"Conquest %d / %d\"\n MultiBarLeftButton9Border = MultiBarLeftButton9Border {\n }\n LE_GAME_ERR_NOT_ON_TOURNAMENT_REALM = 891\n UIWidgetCenterDisplayFrameText = UIWidgetCenterDisplayFrameText {\n }\n OPTION_TOOLTIP_SHOW_ACCOUNT_ACHIEVEMENTS = \"Turning this option on will only display your character achievements when people inspect you or use the Blizzard website or mobile app.\"\n CellRaidFrameHeader0UnitButton9ExternalCooldownParent = CellRaidFrameHeader0UnitButton9ExternalCooldownParent {\n }\n SPIRIT_HEALER_RELEASE_RED = \"|cffff2020Spirit Healer|r\"\n OPTION_TOOLTIP_FIX_LAG = \"Enabling this reduces user interface lag, but may drastically reduce frame rates.\"\n ARTIFACT_XP_FULL = \"%s is at max level.\"\n VOICEMACRO_8_Tr_1_FEMALE = \"Cure me!\"\n UnitPopupCommunitiesKickFriendButtonMixin = <table> {\n }\n CompactArenaFrameMember3HealthBarBackground = CompactArenaFrameMember3HealthBarBackground {\n }\n NEWBIE_TOOLTIP_ACHIEVEMENT = \"View information about your achievements and statistics.\"\n LE_FRAME_TUTORIAL_TRANSMOG_MODEL_CLICK = 36\n VOICEMACRO_8_Tr_1 = \"Heal me!\"\n CompactRaidFrameManagerDisplayFrameEveryoneIsAssistButton = CompactRaidFrameManagerDisplayFrameEveryoneIsAssistButton {\n }\n CellSpotlightFrameUnitButton2ShieldBarR = CellSpotlightFrameUnitButto",
 ["stack"] = "[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent(\"PLAYER_CAMPING\")f:SetScript(\"OnEvent\", function() local p=StaticPopup_Visible(\"CAMP\")_G[p..\"Button1\"]:Click()end)\"]:1: in function <[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent...\"]:1>",
-["session"] = 270,
-["counter"] = 27,
+["session"] = 278,
+["counter"] = 36,
 },
 },
 }

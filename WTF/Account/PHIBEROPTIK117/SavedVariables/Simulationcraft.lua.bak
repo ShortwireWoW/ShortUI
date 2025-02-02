@@ -25,6 +25,9 @@ SimulationCraftDB = {
 ["Sentientsoup - Mal'Ganis"] = {
 },
 ["Shortbeef - Area 52"] = {
+["minimap"] = {
+["hide"] = true,
+},
 },
 ["Bighealnrg - Stormrage"] = {
 },

@@ -11,6 +11,7 @@ PlaterDBChr = {
 ["Player-3676-0EA43E6B"] = true,
 },
 ["minimap"] = {
+["minimapPos"] = 123.6333160987001,
 },
 ["resources_on_target"] = false,
 ["debuffsBanned"] = {
