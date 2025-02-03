@@ -3,6 +3,8 @@ GuildRecruiterDB = {
 ["global"] = {
 ["keybindInvite"] = "F11",
 ["dbVersion"] = "3.2",
+["zoneList"] = {
+},
 [490952521] = {
 ["blackListRemoved"] = {
 },
@@ -61,15 +63,16 @@ GuildRecruiterDB = {
 ["antiSpamList"] = "‹3Œ‰+‰‹ü",
 ["analytics"] = {
 ["PlayersBlackListed"] = 0,
-["PlayersInvited"] = 0,
+["PlayersInvited"] = 250,
 ["PlayersDeclined"] = 0,
-["startDate"] = 1738423072,
-["PlayersScanned"] = 0,
-["PlayersJoined"] = 0,
+["startDate"] = 1737426596,
+["PlayersScanned"] = 2500,
+["PlayersJoined"] = 6,
 },
 },
-["zoneList"] = {
-},
+["currentVersion"] = "3.2.76",
+["keybindScan"] = "F12",
+["showWhatsNew"] = true,
 [490841261] = {
 ["blackListRemoved"] = {
 },
@@ -80,8 +83,6 @@ GuildRecruiterDB = {
 },
 ["isGuildLeader"] = true,
 ["showWhatsNew"] = true,
-["syncList"] = {
-},
 ["gmSettings"] = {
 ["antiSpamDays"] = 7,
 ["forceGuildMessage"] = false,
@@ -104,6 +105,8 @@ GuildRecruiterDB = {
 ["forceMessageList"] = false,
 ["forceWhisperMessage"] = false,
 ["forceAntiSpam"] = false,
+},
+["syncList"] = {
 },
 ["keybindings"] = {
 ["scan"] = "CTRL-SHIFT-S",
@@ -138,9 +141,6 @@ GuildRecruiterDB = {
 ["antiSpamList"] = "‹3Œ‰+‰‹ü",
 ["guildLeaderToon"] = "Dagdese",
 },
-["keybindScan"] = "F12",
-["showWhatsNew"] = true,
-["currentVersion"] = "3.2.76",
 },
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",

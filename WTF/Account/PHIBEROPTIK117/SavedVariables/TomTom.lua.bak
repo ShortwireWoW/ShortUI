@@ -2,11 +2,12 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortirony - Illidan"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 },
 ["profiles"] = {
@@ -36,25 +37,61 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Shortbeef - Area 52"] = "Shortbeef - Area 52",
-["Shortirony - Illidan"] = "Shortirony - Illidan",
-["Shortsited - Stormrage"] = "Shortsited - Stormrage",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
+["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortbeef - Area 52"] = "Shortbeef - Area 52",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 },
 ["profiles"] = {
 ["Dagdese - Stormrage"] = {
 },
-["Shortbeef - Area 52"] = {
+["Volatilespor - Stormrage"] = {
 },
-["Shortirony - Illidan"] = {
+["Shortybear - Area 52"] = {
 },
 ["Shortsited - Stormrage"] = {
 },
+["Shortbeef - Area 52"] = {
+[2339] = {
+["2339:560000000:728000000:Citrinataur"] = {
+2339,
+0.56,
+0.728,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Citrinataur",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Citrinataur",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
+},
+["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+},
 ["Shortwire - Stormrage"] = {
 },
-["Shortybear - Area 52"] = {
+["Shortirony - Illidan"] = {
 },
 ["Shortlite - Stormrage"] = {
 },

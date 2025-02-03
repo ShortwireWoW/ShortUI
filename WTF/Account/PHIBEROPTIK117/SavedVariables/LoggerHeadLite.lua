@@ -3,6 +3,7 @@ LoggerHeadNDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortscales - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Bighealnrg - Stormrage"] = "Default",
@@ -10,12 +11,12 @@ LoggerHeadNDB = {
 ["Shortlite - Stormrage"] = "Default",
 ["Raidmates - Tichondrius"] = "Default",
 ["Lildotnrg - Stormrage"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
-["Souplight - Tichondrius"] = "Default",
-["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
+["Guildsigzzs - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Souplight - Tichondrius"] = "Default",
 ["Shortybear - Area 52"] = "Default",
-["Stonesoup - Area 52"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -53,10 +54,10 @@ LoggerHeadNDB = {
 [754] = {
 [6] = false,
 },
-[2652] = {
+[2286] = {
 [8] = true,
 },
-[2286] = {
+[2652] = {
 [8] = true,
 },
 },

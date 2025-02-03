@@ -4,7 +4,7 @@ END
 VER 3 0000000000000064 "AFK Level" "134400"
 #showtooltip
 /target Volatile Spore
-/cast Judgment
+/cast Crackling Jade Lightning
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
 VER 3 0000000000000068 "asdf" "134400"

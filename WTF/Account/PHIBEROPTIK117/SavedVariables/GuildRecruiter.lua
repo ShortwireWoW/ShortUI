@@ -12,7 +12,79 @@ GuildRecruiterDB = {
 ["global"] = {
 ["keybindInvite"] = "F11",
 ["dbVersion"] = "3.2",
+[490841261] = {
+["blackListRemoved"] = {
+},
+["guildInfo"] = {
+["clubID"] = 490841261,
+["guildLink"] = "|cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r",
+["guildName"] = "Mythic Intent",
+},
+["isGuildLeader"] = true,
+["showWhatsNew"] = true,
+["guildLeaderToon"] = "Dagdese",
+["gmSettings"] = {
+["antiSpamDays"] = 7,
+["forceGuildMessage"] = false,
+["antiSpam"] = true,
+["forceObey"] = false,
+["whisperMessage"] = "",
+["forceSendGuildGreeting"] = false,
+["messageList"] = {
+{
+["message"] = "Hi PLAYERNAME, I saw you're guildless and wanted to invite you to join GUILDLINK. We raid Fri/Sat, 9pm-12am EST (server time), and are recruiting all roles. Let me know if you're interested. If not, no worriesâ€”have a great day!",
+["gmSync"] = true,
+["desc"] = "Mythic Intent",
+},
+},
+["sendGuildGreeting"] = true,
+["forceSendWhisper"] = false,
+["forceWhisperMessage"] = false,
+["obeyBlockInvites"] = true,
+["forceMessageList"] = false,
+["guildMessage"] = "Welcome PLAYERNAME to GUILDNAME!",
+["sendWhisperGreeting"] = false,
+["forceAntiSpam"] = false,
+},
+["keybindings"] = {
+["invite"] = "CTRL-SHIFT-I",
+["scan"] = "CTRL-SHIFT-S",
+},
+["blackList"] = "‹3Œ‰+‰‹ü",
+["settings"] = {
+["antiSpamDays"] = 7,
+["showConsoleMessages"] = false,
+["antiSpam"] = true,
+["guildMessage"] = "Welcome PLAYERNAME to GUILDNAME!",
+["keepOpen"] = false,
+["showToolTips"] = true,
+["obeyBlockInvites"] = true,
+["overrideGM"] = false,
+["scanWaitTime"] = 6,
+["sendWhisperGreeting"] = false,
+["whisperMessage"] = "",
+},
+["zoneList"] = {
+},
+["analytics"] = {
+["PlayersBlackListed"] = 0,
+["PlayersInvited"] = 0,
+["PlayersDeclined"] = 0,
+["startDate"] = 1737601124,
+["PlayersScanned"] = 0,
+["PlayersJoined"] = 0,
+},
+["filterList"] = {
+},
+["antiSpamList"] = "‹3Œ‰+‰‹ü",
+["syncList"] = {
+},
+},
+["zoneList"] = {
+},
 ["currentVersion"] = "3.2.76",
+["keybindScan"] = "F12",
+["showWhatsNew"] = true,
 [490952521] = {
 ["blackListRemoved"] = {
 },
@@ -77,78 +149,6 @@ GuildRecruiterDB = {
 ["forceWhisperMessage"] = false,
 ["forceAntiSpam"] = false,
 },
-},
-[490841261] = {
-["blackListRemoved"] = {
-},
-["guildInfo"] = {
-["clubID"] = 490841261,
-["guildLink"] = "|cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r",
-["guildName"] = "Mythic Intent",
-},
-["isGuildLeader"] = true,
-["showWhatsNew"] = true,
-["guildLeaderToon"] = "Dagdese",
-["syncList"] = {
-},
-["keybindings"] = {
-["invite"] = "CTRL-SHIFT-I",
-["scan"] = "CTRL-SHIFT-S",
-},
-["blackList"] = "‹3Œ‰+‰‹ü",
-["settings"] = {
-["antiSpamDays"] = 7,
-["showConsoleMessages"] = false,
-["antiSpam"] = true,
-["guildMessage"] = "Welcome PLAYERNAME to GUILDNAME!",
-["keepOpen"] = false,
-["showToolTips"] = true,
-["obeyBlockInvites"] = true,
-["overrideGM"] = false,
-["scanWaitTime"] = 6,
-["sendWhisperGreeting"] = false,
-["whisperMessage"] = "",
-},
-["zoneList"] = {
-},
-["analytics"] = {
-["PlayersBlackListed"] = 0,
-["PlayersInvited"] = 0,
-["PlayersDeclined"] = 0,
-["startDate"] = 1737601124,
-["PlayersScanned"] = 0,
-["PlayersJoined"] = 0,
-},
-["filterList"] = {
-},
-["antiSpamList"] = "‹3Œ‰+‰‹ü",
-["gmSettings"] = {
-["antiSpamDays"] = 7,
-["forceGuildMessage"] = false,
-["antiSpam"] = true,
-["forceObey"] = false,
-["whisperMessage"] = "",
-["forceSendGuildGreeting"] = false,
-["messageList"] = {
-{
-["message"] = "Hi PLAYERNAME, I saw you're guildless and wanted to invite you to join GUILDLINK. We raid Fri/Sat, 9pm-12am EST (server time), and are recruiting all roles. Let me know if you're interested. If not, no worriesâ€”have a great day!",
-["gmSync"] = true,
-["desc"] = "Mythic Intent",
-},
-},
-["sendGuildGreeting"] = true,
-["forceSendWhisper"] = false,
-["forceWhisperMessage"] = false,
-["obeyBlockInvites"] = true,
-["forceMessageList"] = false,
-["guildMessage"] = "Welcome PLAYERNAME to GUILDNAME!",
-["sendWhisperGreeting"] = false,
-["forceAntiSpam"] = false,
-},
-},
-["keybindScan"] = "F12",
-["showWhatsNew"] = true,
-["zoneList"] = {
 },
 },
 ["profiles"] = {

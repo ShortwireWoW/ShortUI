@@ -7,6 +7,7 @@ GoWDB = {
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Guildsigzzs - Stormrage"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
@@ -24,11 +25,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-60-0F38DE1E",
 },
-["Souplight-Tichondrius"] = {
-["officerNote"] = "Shortwire Alt",
-["note"] = "",
-["rankIndex"] = 3,
-["guid"] = "Player-11-0E9227AC",
+["Dusbro-Stormrage"] = {
+["officerNote"] = "",
+["note"] = "613 Holy Paladin",
+["rankIndex"] = 7,
+["guid"] = "Player-60-0F8392A9",
 },
 ["Sentientsoup-Mal'Ganis"] = {
 ["officerNote"] = "Shortwire Alt",
@@ -42,23 +43,23 @@ GoWDB = {
 ["rankIndex"] = 0,
 ["guid"] = "Player-60-0FA1C176",
 },
-["Dusbro-Stormrage"] = {
-["officerNote"] = "",
-["note"] = "613 Holy Paladin",
-["rankIndex"] = 7,
-["guid"] = "Player-60-0F8392A9",
-},
-["Stonesoup-Area52"] = {
+["Souplight-Tichondrius"] = {
 ["officerNote"] = "Shortwire Alt",
 ["note"] = "",
 ["rankIndex"] = 3,
-["guid"] = "Player-3676-0E93152D",
+["guid"] = "Player-11-0E9227AC",
 },
 ["Bighealnrg-Stormrage"] = {
 ["officerNote"] = "Shortwire Alt",
 ["note"] = "",
 ["rankIndex"] = 3,
 ["guid"] = "Player-60-0F38DDF5",
+},
+["Stonesoup-Area52"] = {
+["officerNote"] = "Shortwire Alt",
+["note"] = "",
+["rankIndex"] = 3,
+["guid"] = "Player-3676-0E93152D",
 },
 },
 ["rosterRefreshTime"] = 1738465978,
@@ -134,29 +135,17 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-3683-0DC0C60F",
 },
+["Lightgoober-Proudmoore"] = {
+["officerNote"] = "",
+["note"] = "",
+["rankIndex"] = 2,
+["guid"] = "Player-5-0E9651CC",
+},
 ["Kaepo-Dalaran"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 0,
 ["guid"] = "Player-3683-0DC0C5C1",
-},
-["Onewithlocks-Sargeras"] = {
-["officerNote"] = "",
-["note"] = "",
-["rankIndex"] = 2,
-["guid"] = "Player-76-0BEE4608",
-},
-["Othebetsy-MoonGuard"] = {
-["officerNote"] = "",
-["note"] = "",
-["rankIndex"] = 2,
-["guid"] = "Player-3675-0AD614DE",
-},
-["Goobertank-Stormrage"] = {
-["officerNote"] = "",
-["note"] = "",
-["rankIndex"] = 2,
-["guid"] = "Player-60-0F9D9DA7",
 },
 ["Sylorä-Dalaran"] = {
 ["officerNote"] = "",
@@ -164,11 +153,29 @@ GoWDB = {
 ["rankIndex"] = 1,
 ["guid"] = "Player-3683-0DC7C28E",
 },
-["Shortlite-Stormrage"] = {
+["Dragnock-Area52"] = {
+["officerNote"] = "",
+["note"] = "",
+["rankIndex"] = 1,
+["guid"] = "Player-3676-09D40B0E",
+},
+["Moonfoxlord-WyrmrestAccord"] = {
+["officerNote"] = "",
+["note"] = "",
+["rankIndex"] = 1,
+["guid"] = "Player-1171-0AE460D9",
+},
+["Balfrey-WyrmrestAccord"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 2,
-["guid"] = "Player-60-0FA0FEDD",
+["guid"] = "Player-1171-0AE44BC8",
+},
+["Magmos-Stormrage"] = {
+["officerNote"] = "",
+["note"] = "",
+["rankIndex"] = 2,
+["guid"] = "Player-60-0F849098",
 },
 ["Wílliam-Sargeras"] = {
 ["officerNote"] = "",
@@ -176,11 +183,11 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-76-0BEF57A0",
 },
-["Moonfoxlord-WyrmrestAccord"] = {
+["Onewithlocks-Sargeras"] = {
 ["officerNote"] = "",
 ["note"] = "",
-["rankIndex"] = 1,
-["guid"] = "Player-1171-0AE460D9",
+["rankIndex"] = 2,
+["guid"] = "Player-76-0BEE4608",
 },
 ["Shamfanatic-Dalaran"] = {
 ["officerNote"] = "",
@@ -200,11 +207,11 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-3683-0DE6B55C",
 },
-["Magmos-Stormrage"] = {
+["Shortlite-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 2,
-["guid"] = "Player-60-0F849098",
+["guid"] = "Player-60-0FA0FEDD",
 },
 ["Blazzle-Dalaran"] = {
 ["officerNote"] = "",
@@ -218,11 +225,11 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-3683-0DC2BA8A",
 },
-["Balfrey-WyrmrestAccord"] = {
+["Othebetsy-MoonGuard"] = {
 ["officerNote"] = "",
 ["note"] = "",
 ["rankIndex"] = 2,
-["guid"] = "Player-1171-0AE44BC8",
+["guid"] = "Player-3675-0AD614DE",
 },
 ["Onyxìa-Dalaran"] = {
 ["officerNote"] = "",
@@ -230,11 +237,11 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-3683-0DC7C25F",
 },
-["Dragnock-Area52"] = {
+["Goobertank-Stormrage"] = {
 ["officerNote"] = "",
 ["note"] = "",
-["rankIndex"] = 1,
-["guid"] = "Player-3676-09D40B0E",
+["rankIndex"] = 2,
+["guid"] = "Player-60-0F9D9DA7",
 },
 ["Malepat-Dalaran"] = {
 ["officerNote"] = "",
@@ -263,10 +270,16 @@ GoWDB = {
 ["name"] = "Crew",
 },
 },
+["keystonesRefreshTime"] = 1738531296,
 ["keystones"] = {
+["Lightgoober-Proudmoore"] = {
+["keystoneMapId"] = 501,
+["keystoneLevel"] = 2,
+["date"] = 1738531296,
+},
 },
 ["motd"] = "Ahoy there, mateys! Welcome to The Scurvy Dogs! We're a crew of misfits and adventurers sailing the seas of Azeroth. Whether you're a seasoned veteran or just starting your journey, come join us for some fun and plunder!",
-["rosterRefreshTime"] = 1738472870,
+["rosterRefreshTime"] = 1738531296,
 },
 ["The Scurvy Dogs-1-Area52"] = {
 ["roster"] = {
@@ -1740,11 +1753,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-0957F065",
 },
-["Klannight-BoreanTundra"] = {
+["Amarettoo-Drak'thul"] = {
 ["officerNote"] = "",
-["note"] = "Silver Captain @Klankat",
-["rankIndex"] = 5,
-["guid"] = "Player-86-0AD57917",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD2E8B6",
 },
 ["Hurnd-Drak'thul"] = {
 ["officerNote"] = "",
@@ -1752,11 +1765,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-08DEF6FA",
 },
-["Amarettoo-Drak'thul"] = {
+["Klannight-BoreanTundra"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD2E8B6",
+["note"] = "Silver Captain @Klankat",
+["rankIndex"] = 5,
+["guid"] = "Player-86-0AD57917",
 },
 ["Grevioux-Area52"] = {
 ["officerNote"] = "",
@@ -1818,17 +1831,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E9E549A",
 },
-["Litebringger-Silvermoon"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD21434",
-},
 ["Palibul-Gurubashi"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C7095",
+},
+["Eralle-BoreanTundra"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD44EB1",
 },
 ["Anshaper-Area52"] = {
 ["officerNote"] = "",
@@ -1842,11 +1855,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA0B1C3",
 },
-["Eralle-BoreanTundra"] = {
+["Litebringger-Silvermoon"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD44EB1",
+["guid"] = "Player-86-0AD21434",
 },
 ["Galissavia-Silvermoon"] = {
 ["officerNote"] = "",
@@ -1902,11 +1915,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD3E89D",
 },
-["Sjiawolfe-Area52"] = {
+["Skragam-Shadowsong"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E98A0D7",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0A8D7078",
 },
 ["Funyiio-Garrosh"] = {
 ["officerNote"] = "",
@@ -1914,11 +1927,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C7064",
 },
-["Skragam-Shadowsong"] = {
+["Sjiawolfe-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0A8D7078",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E98A0D7",
 },
 ["Hornedupmonk-Bonechewer"] = {
 ["officerNote"] = "",
@@ -1926,11 +1939,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-0913F968",
 },
-["Bumme-Bonechewer"] = {
+["Cheesyspread-Shadowsong"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096D093E",
+["guid"] = "Player-86-0AA4BAD3",
 },
 ["Raszun-Runetotem"] = {
 ["officerNote"] = "",
@@ -1944,17 +1957,17 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-115-07D0AF38",
 },
-["Donaldpumpr-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA00CE7",
-},
 ["Cyta-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA21078",
+},
+["Donaldpumpr-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0EA00CE7",
 },
 ["Sellvi-Area52"] = {
 ["officerNote"] = "",
@@ -2004,11 +2017,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0A27672B",
 },
-["Spanktastic-Aegwynn"] = {
+["Trazena-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-094B7F3C",
+["note"] = "Co GM @Amore",
+["rankIndex"] = 1,
+["guid"] = "Player-86-0ACF3962",
 },
 ["Schism-Terenas"] = {
 ["officerNote"] = "",
@@ -2022,11 +2035,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1175-0D87AFEF",
 },
-["Trazena-Silvermoon"] = {
+["Spanktastic-Aegwynn"] = {
 ["officerNote"] = "",
-["note"] = "Co GM @Amore",
-["rankIndex"] = 1,
-["guid"] = "Player-86-0ACF3962",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-094B7F3C",
 },
 ["Missbuy-Area52"] = {
 ["officerNote"] = "",
@@ -2118,17 +2131,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096DCA7F",
 },
-["Keeledis-Silvermoon"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0863A978",
-},
 ["Tesarion-Skywall"] = {
 ["officerNote"] = "",
 ["note"] = "Lead @Diva",
 ["rankIndex"] = 3,
 ["guid"] = "Player-86-0ACD24E9",
+},
+["Keeledis-Silvermoon"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0863A978",
 },
 ["Daymann-Hydraxis"] = {
 ["officerNote"] = "",
@@ -2298,6 +2311,24 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-09425C09",
 },
+["Lilheavy-Azshara"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-77-0CAAE50F",
+},
+["Johnnywick-Hakkar"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-084D28C7",
+},
+["Wylidrela-Daggerspine"] = {
+["officerNote"] = "",
+["note"] = "Silver Captain @Wylidrela",
+["rankIndex"] = 5,
+["guid"] = "Player-1136-09681F41",
+},
 ["Ellyanne-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
@@ -2309,24 +2340,6 @@ GoWDB = {
 ["note"] = "main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096BD061",
-},
-["Wylidrela-Daggerspine"] = {
-["officerNote"] = "",
-["note"] = "Silver Captain @Wylidrela",
-["rankIndex"] = 5,
-["guid"] = "Player-1136-09681F41",
-},
-["Grizzlyadamz-Bonechewer"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-1136-09613B8A",
-},
-["Johnnywick-Hakkar"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-084D28C7",
 },
 ["Sisilie-Hakkar"] = {
 ["officerNote"] = "",
@@ -2340,11 +2353,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-091A7C94",
 },
-["Enchanovich-Area52"] = {
+["Grizzlyadamz-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9E796A",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-09613B8A",
 },
 ["Jagswagg-Gurubashi"] = {
 ["officerNote"] = "",
@@ -2364,17 +2377,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08E8FD0C",
 },
-["Gfuel-Terenas"] = {
+["Zafar-Silvermoon"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0A02E5A5",
+["rankIndex"] = 8,
+["guid"] = "Player-86-08BBB41D",
 },
-["Lilheavy-Azshara"] = {
+["Emofootjob-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-77-0CAAE50F",
+["guid"] = "Player-1136-0968BFCB",
 },
 ["Lightbrought-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -2394,17 +2407,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AC8AE40",
 },
-["Kazahanna-Silvermoon"] = {
+["Ganoosh-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0A923041",
+["guid"] = "Player-86-0ACFC4F9",
 },
-["Frumpypants-Bonechewer"] = {
+["Gfuel-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096AE6A4",
+["guid"] = "Player-86-0A02E5A5",
 },
 ["Negocego-Area52"] = {
 ["officerNote"] = "",
@@ -2430,11 +2443,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-05A82562",
 },
-["Garrumy-Gurubashi"] = {
+["Kazahanna-Silvermoon"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-08E0B533",
+["guid"] = "Player-86-0A923041",
 },
 ["Xadia-Area52"] = {
 ["officerNote"] = "",
@@ -2448,17 +2461,17 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-86-0ACD60E5",
 },
-["Emofootjob-Bonechewer"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-0968BFCB",
-},
 ["Bongus-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-0969257E",
+},
+["Frumpypants-Bonechewer"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096AE6A4",
 },
 ["Eiska-Hydraxis"] = {
 ["officerNote"] = "",
@@ -2472,11 +2485,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA163A1",
 },
-["Kallisie-Gurubashi"] = {
+["Dessari-BoreanTundra"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-0968921B",
+["guid"] = "Player-86-0AD4175E",
 },
 ["Ranil-Aegwynn"] = {
 ["officerNote"] = "",
@@ -2496,11 +2509,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-05DA8114",
 },
-["Mîstyka-Area52"] = {
+["Monklepto-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Co GM @Amore",
-["rankIndex"] = 2,
-["guid"] = "Player-3676-0E1D79E7",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0EA0FCC4",
 },
 ["Tojil-Shadowsong"] = {
 ["officerNote"] = "",
@@ -2526,11 +2539,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08F666B3",
 },
-["Monklepto-Area52"] = {
+["Mîstyka-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA0FCC4",
+["note"] = "Co GM @Amore",
+["rankIndex"] = 2,
+["guid"] = "Player-3676-0E1D79E7",
 },
 ["Deadlyhuntar-Skywall"] = {
 ["officerNote"] = "",
@@ -2568,11 +2581,11 @@ GoWDB = {
 ["rankIndex"] = 5,
 ["guid"] = "Player-86-0AD6971F",
 },
-["Starkøv-Area52"] = {
+["Jadeira-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9FE3AA",
+["guid"] = "Player-1136-095208E8",
 },
 ["Histakes-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -2592,11 +2605,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0AB56564",
 },
-["Eimyra-Area52"] = {
+["Cruellahaha-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9F2C47",
+["guid"] = "Player-1136-096D27AC",
 },
 ["Triscuit-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -2616,17 +2629,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-09695768",
 },
-["Auriol-Skywall"] = {
+["Faextra-Bonechewer"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Diva",
-["rankIndex"] = 3,
-["guid"] = "Player-86-08CE600C",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-096A67EA",
 },
-["Jadeira-Garrosh"] = {
+["Starkøv-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-095208E8",
+["guid"] = "Player-3676-0E9FE3AA",
 },
 ["Elaure-Area52"] = {
 ["officerNote"] = "",
@@ -2634,17 +2647,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E6829E1",
 },
-["Cheesebiter-Shadowsong"] = {
+["Koldagon-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-09CB9953",
+["guid"] = "Player-1136-096DF8A3",
 },
-["Cruellahaha-Daggerspine"] = {
+["Almeros-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096D27AC",
+["guid"] = "Player-3676-0EA09C3F",
 },
 ["Sasoly-Area52"] = {
 ["officerNote"] = "",
@@ -2658,17 +2671,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-09396E1D",
 },
-["Kâth-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E7C2BC5",
-},
-["Koldagon-Daggerspine"] = {
+["Eimyra-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096DF8A3",
+["guid"] = "Player-3676-0E9F2C47",
+},
+["Cheesebiter-Shadowsong"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-09CB9953",
 },
 ["Rakfnar-Daggerspine"] = {
 ["officerNote"] = "",
@@ -2712,11 +2725,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-08DDABF7",
 },
-["Kilrah-Bonechewer"] = {
+["Annarian-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096CCE02",
+["guid"] = "Player-86-09ED382C",
 },
 ["Aquetus-Aegwynn"] = {
 ["officerNote"] = "",
@@ -2724,17 +2737,17 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-1136-08C39E9A",
 },
-["Gombi-Hakkar"] = {
+["Ydnelem-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096BF5EE",
+["guid"] = "Player-3676-0EA0FCC1",
 },
-["Traxxe-Runetotem"] = {
+["Onyx-Hydraxis"] = {
 ["officerNote"] = "",
-["note"] = "GM @Kryptd",
-["rankIndex"] = 2,
-["guid"] = "Player-151-096BC2EC",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0A609042",
 },
 ["Brusloe-Daggerspine"] = {
 ["officerNote"] = "",
@@ -2754,17 +2767,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA104FB",
 },
-["Theed-Bonechewer"] = {
+["Amoreay-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096CD9A6",
+["note"] = "Co GM @Amore",
+["rankIndex"] = 2,
+["guid"] = "Player-86-0AAE2554",
 },
-["Freminet-Area52"] = {
+["Draclan-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E61C2B2",
+["guid"] = "Player-1136-09645A56",
 },
 ["Sabrinap-Area52"] = {
 ["officerNote"] = "",
@@ -2772,17 +2785,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E1903FB",
 },
-["Annarian-Hydraxis"] = {
+["Kilrah-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-09ED382C",
+["guid"] = "Player-1136-096CCE02",
 },
-["Ydnelem-Area52"] = {
+["Gombi-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA0FCC1",
+["guid"] = "Player-1136-096BF5EE",
 },
 ["Mykitten-Gurubashi"] = {
 ["officerNote"] = "",
@@ -2790,11 +2803,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-094EF68B",
 },
-["Faewehn-Area52"] = {
+["Traxxe-Runetotem"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E898F96",
+["note"] = "GM @Kryptd",
+["rankIndex"] = 2,
+["guid"] = "Player-151-096BC2EC",
 },
 ["Erwin-Gurubashi"] = {
 ["officerNote"] = "",
@@ -2856,11 +2869,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-095F9BB1",
 },
-["Hudsondk-Silvermoon"] = {
+["Goosepally-Antonidas"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-05445426",
+["note"] = "Lead @Goose",
+["rankIndex"] = 3,
+["guid"] = "Player-84-0988C7C4",
 },
 ["Marreu-Bonechewer"] = {
 ["officerNote"] = "",
@@ -2964,11 +2977,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AAA17CB",
 },
-["Aquadel-Spirestone"] = {
+["Mdirt-Aegwynn"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-127-0ACC3491",
+["note"] = "Main Mike",
+["rankIndex"] = 5,
+["guid"] = "Player-1136-09535062",
 },
 ["Sgtgelineau-Area52"] = {
 ["officerNote"] = "",
@@ -2976,11 +2989,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E7D0586",
 },
-["Mdirt-Aegwynn"] = {
+["Aquadel-Spirestone"] = {
 ["officerNote"] = "",
-["note"] = "Main Mike",
-["rankIndex"] = 5,
-["guid"] = "Player-1136-09535062",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-127-0ACC3491",
 },
 ["Valikra-Shadowsong"] = {
 ["officerNote"] = "",
@@ -3048,11 +3061,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-08D154A7",
 },
-["Healurbunz-Area52"] = {
+["Mightyflaps-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E4F49BE",
+["guid"] = "Player-1136-096BF2EB",
 },
 ["Pati-Silvermoon"] = {
 ["officerNote"] = "",
@@ -3060,11 +3073,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD577E0",
 },
-["Mightyflaps-Bonechewer"] = {
+["Healurbunz-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096BF2EB",
+["guid"] = "Player-3676-0E4F49BE",
 },
 ["Valinatrix-Shadowsong"] = {
 ["officerNote"] = "",
@@ -3078,11 +3091,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E1FEA38",
 },
-["Aevora-Skywall"] = {
+["Treshaletal-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Diva",
-["rankIndex"] = 3,
-["guid"] = "Player-86-0A7FBD72",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E98690A",
 },
 ["Óv-Area52"] = {
 ["officerNote"] = "",
@@ -3090,17 +3103,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA17212",
 },
-["Treshaletal-Area52"] = {
+["Bråvehawk-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "GM @Kryptd",
+["rankIndex"] = 2,
+["guid"] = "Player-1136-086C04A0",
+},
+["Zakdor-Gurubashi"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E98690A",
-},
-["Krittika-Shadowsong"] = {
-["officerNote"] = "",
-["note"] = "Taygeta Alt ",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0AB3307D",
+["guid"] = "Player-1136-08BF3740",
 },
 ["Thottylightt-Area52"] = {
 ["officerNote"] = "",
@@ -3108,11 +3121,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-3676-0E9FE404",
 },
-["Bråvehawk-Aegwynn"] = {
+["Aevora-Skywall"] = {
 ["officerNote"] = "",
-["note"] = "GM @Kryptd",
-["rankIndex"] = 2,
-["guid"] = "Player-1136-086C04A0",
+["note"] = "Lead @Diva",
+["rankIndex"] = 3,
+["guid"] = "Player-86-0A7FBD72",
 },
 ["Daleron-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -3120,11 +3133,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08C9C8E3",
 },
-["Yamiyami-Terenas"] = {
+["Thruks-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AAF218C",
+["guid"] = "Player-3676-0E5A4DFD",
 },
 ["Bartholomaeu-Bonechewer"] = {
 ["officerNote"] = "",
@@ -3144,11 +3157,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-86-0A85BC46",
 },
-["Uchiha-Mok'Nathal"] = {
+["Oppositeheal-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0A58C9FD",
+["guid"] = "Player-1136-096BCFE8",
 },
 ["Uantisocial-Area52"] = {
 ["officerNote"] = "",
@@ -3156,11 +3169,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA07486",
 },
-["Shrednbones-Garrosh"] = {
+["Taternater-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096C0652",
+["guid"] = "Player-3676-0EA3DFA7",
 },
 ["Mythacles-Hydraxis"] = {
 ["officerNote"] = "",
@@ -3168,17 +3181,17 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0AD1FD06",
 },
-["Kiarana-Garrosh"] = {
+["Uchiha-Mok'Nathal"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-0965F050",
+["guid"] = "Player-86-0A58C9FD",
 },
-["Caniuslupis-Mok'Nathal"] = {
+["Oldgoat-Shadowsong"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD38DCA",
+["guid"] = "Player-86-0AD3355E",
 },
 ["Demoskilos-Daggerspine"] = {
 ["officerNote"] = "",
@@ -3204,23 +3217,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-092DF49B",
 },
-["Hudsonpally-Silvermoon"] = {
-["officerNote"] = "",
-["note"] = "Hudsonpally Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD3E8AB",
-},
-["Rocktir-Quel'Thalas"] = {
+["Zynpeppermin-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1428-06404152",
+["guid"] = "Player-3676-0EA1A1B5",
 },
-["Alresande-Hydraxis"] = {
+["Weshacing-Gurubashi"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0A3D9BF9",
+["guid"] = "Player-1136-096C4021",
+},
+["Kroaken-Silvermoon"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AD0D622",
 },
 ["Katarsia-Hydraxis"] = {
 ["officerNote"] = "",
@@ -3240,23 +3253,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD19BE0",
 },
-["Doranian-Area52"] = {
+["Keelyonna-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-06D489B0",
+["note"] = "Co GM @Amore",
+["rankIndex"] = 2,
+["guid"] = "Player-3676-0E5B76F7",
 },
-["Xandfee-Area52"] = {
+["Kiarana-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0DEDEBB0",
+["guid"] = "Player-1136-0965F050",
 },
-["Oppositeheal-Garrosh"] = {
+["Glaver-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096BCFE8",
+["guid"] = "Player-86-08EB016F",
 },
 ["Lyalbob-Area52"] = {
 ["officerNote"] = "",
@@ -3276,11 +3289,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E9F4588",
 },
-["Yiyo-Daggerspine"] = {
+["Pappabeary-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096CDF00",
+["guid"] = "Player-86-0ACEA053",
 },
 ["Niaah-Drak'thul"] = {
 ["officerNote"] = "",
@@ -3288,23 +3301,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD612C8",
 },
-["Chahiyar-BoreanTundra"] = {
+["Fridged-Ghostlands"] = {
+["officerNote"] = "",
+["note"] = "GM @Kryptd",
+["rankIndex"] = 2,
+["guid"] = "Player-1175-0F9DC77B",
+},
+["Monkfruit-Silvermoon"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AACC939",
+},
+["Askell-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD18853",
-},
-["Weshacing-Gurubashi"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096C4021",
-},
-["Colpse-Bonechewer"] = {
-["officerNote"] = "",
-["note"] = "Saphihr Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-08E44617",
+["guid"] = "Player-1136-096D551A",
 },
 ["Beaglefox-Skywall"] = {
 ["officerNote"] = "",
@@ -3318,11 +3331,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096DE033",
 },
-["Kroaken-Silvermoon"] = {
+["Brutesque-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-86-0AD0D622",
+["guid"] = "Player-1136-096A175B",
 },
 ["Gotmulk-Area52"] = {
 ["officerNote"] = "",
@@ -3330,17 +3343,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E9F31B5",
 },
-["Zynpeppermin-Area52"] = {
+["Alresande-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA1A1B5",
+["guid"] = "Player-86-0A3D9BF9",
 },
-["Glaver-Drak'thul"] = {
+["Xandfee-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-08EB016F",
+["guid"] = "Player-3676-0DEDEBB0",
 },
 ["Sareena-Aegwynn"] = {
 ["officerNote"] = "",
@@ -3348,23 +3361,23 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-1136-094F7A7E",
 },
-["Nachtstridr-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E5E176A",
-},
-["Madgettlemi-Destromath"] = {
-["officerNote"] = "",
-["note"] = "Gold Captain @Dat Elf Collet",
-["rankIndex"] = 4,
-["guid"] = "Player-77-0F918F69",
-},
-["Dreadsmash-BoreanTundra"] = {
+["Pyrolene-BoreanTundra"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-86-0AC91195",
+["guid"] = "Player-86-09BF2671",
+},
+["Kaladrana-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-3676-0E9D6556",
+},
+["Rooneytunes-Garrosh"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096B8EA1",
 },
 ["Hitgirl-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -3384,17 +3397,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08EA13BE",
 },
-["Eaglefox-Nathrezim"] = {
+["Yiyo-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1138-096BBE22",
+["guid"] = "Player-1136-096CDF00",
 },
-["Fridged-Ghostlands"] = {
+["Foxaorb-Drak'thul"] = {
 ["officerNote"] = "",
-["note"] = "GM @Kryptd",
-["rankIndex"] = 2,
-["guid"] = "Player-1175-0F9DC77B",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-08ED6EE4",
 },
 ["Stealerusow-Area52"] = {
 ["officerNote"] = "",
@@ -3408,11 +3421,11 @@ GoWDB = {
 ["rankIndex"] = 5,
 ["guid"] = "Player-86-0AD577B2",
 },
-["Yazzie-Baelgun"] = {
+["Colpse-Bonechewer"] = {
 ["officerNote"] = "",
-["note"] = "GM @Kryptd",
-["rankIndex"] = 2,
-["guid"] = "Player-1190-0BF55941",
+["note"] = "Saphihr Alt",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-08E44617",
 },
 ["Haxxlee-Drak'thul"] = {
 ["officerNote"] = "",
@@ -3420,23 +3433,23 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0AD1B669",
 },
-["Mithrandatae-Aegwynn"] = {
+["Bettefina-Bonechewer"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096B62C8",
+["note"] = "Silver Captain @Bettafina",
+["rankIndex"] = 5,
+["guid"] = "Player-1136-096832BB",
 },
-["Akcl-Area52"] = {
+["Ælis-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9CFD01",
+["guid"] = "Player-1136-096C77C5",
 },
-["Rooneytunes-Garrosh"] = {
+["Dreadsmash-BoreanTundra"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096B8EA1",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AC91195",
 },
 ["Goosewin-Aegwynn"] = {
 ["officerNote"] = "",
@@ -3450,23 +3463,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096CBF4A",
 },
-["Pyrolene-BoreanTundra"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-09BF2671",
-},
-["Durzad-Bonechewer"] = {
-["officerNote"] = "",
-["note"] = "Saphihr Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-079AF35A",
-},
-["Krazzay-Garrosh"] = {
+["Nachtstridr-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-09690F50",
+["guid"] = "Player-3676-0E5E176A",
+},
+["Mithrandatae-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096B62C8",
+},
+["Izanamis-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-0921ECF6",
 },
 ["Makkas-Silvermoon"] = {
 ["officerNote"] = "",
@@ -3480,23 +3493,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD55DDE",
 },
-["Bettefina-Bonechewer"] = {
+["Durzad-Bonechewer"] = {
 ["officerNote"] = "",
-["note"] = "Silver Captain @Bettafina",
-["rankIndex"] = 5,
-["guid"] = "Player-1136-096832BB",
+["note"] = "Saphihr Alt",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-079AF35A",
 },
-["Izanamis-Aegwynn"] = {
+["Krazzay-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-0921ECF6",
+["guid"] = "Player-1136-09690F50",
 },
-["Mortawg-Area52"] = {
+["Idkwtfid-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9E8ED4",
+["guid"] = "Player-1136-096BFF10",
 },
 ["Mystaluna-Area52"] = {
 ["officerNote"] = "",
@@ -3522,17 +3535,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA0BD66",
 },
-["Bora-Silvermoon"] = {
+["Pamanbotak-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0A4D7011",
+["guid"] = "Player-3676-0EA0328B",
 },
-["Eldrae-Hydraxis"] = {
+["Pakmojo-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-09E91465",
+["guid"] = "Player-1136-096B52D0",
 },
 ["Wildior-Area52"] = {
 ["officerNote"] = "",
@@ -3552,11 +3565,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-09375D2D",
 },
-["Casketslug-BoreanTundra"] = {
+["Aqurin-Skywall"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD24E47",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AC81CFC",
 },
 ["Kabeewm-Area52"] = {
 ["officerNote"] = "",
@@ -3564,23 +3577,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E8B892A",
 },
+["Solorial-Shadowsong"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AB1A768",
+},
 ["Tozzy-Skywall"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AA7F037",
 },
-["Salsutation-Aegwynn"] = {
+["Dziban-Shadowsong"] = {
 ["officerNote"] = "",
-["note"] = "Gold Captain @Salsboom",
-["rankIndex"] = 4,
-["guid"] = "Player-1136-09521CA5",
-},
-["Aqurin-Skywall"] = {
-["officerNote"] = "",
-["note"] = "Main",
+["note"] = "Taygeta Alt",
 ["rankIndex"] = 8,
-["guid"] = "Player-86-0AC81CFC",
+["guid"] = "Player-86-09C7B8DB",
 },
 ["Lilboogiebro-Area52"] = {
 ["officerNote"] = "",
@@ -3594,11 +3607,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C32BC",
 },
-["Pakmojo-Garrosh"] = {
+["Donalidtramp-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096B52D0",
+["guid"] = "Player-1136-09560028",
 },
 ["Bololo-Aegwynn"] = {
 ["officerNote"] = "",
@@ -3612,23 +3625,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096CBDEC",
 },
-["Dropflag-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E9D0FB0",
-},
-["Solorial-Shadowsong"] = {
+["Alivery-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AB1A768",
+["guid"] = "Player-1136-09367410",
 },
-["Dejavù-Area52"] = {
+["Buffspriest-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E9FA4FD",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E0C85BB",
+},
+["Gardort-Bonechewer"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-08C3E9CD",
 },
 ["Lissanadoria-Aegwynn"] = {
 ["officerNote"] = "",
@@ -3636,17 +3649,17 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-096AF9E7",
 },
-["Thornalari-Terenas"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0AAE26CB",
-},
-["Valsetriste-Aegwynn"] = {
+["Kixxie-Skywall"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096D7B39",
+["guid"] = "Player-86-0AD042C6",
+},
+["Salsutation-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Gold Captain @Salsboom",
+["rankIndex"] = 4,
+["guid"] = "Player-1136-09521CA5",
 },
 ["Longtotem-Terenas"] = {
 ["officerNote"] = "",
@@ -3654,17 +3667,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-09E9B138",
 },
-["Tinden-Terenas"] = {
+["Catilicious-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-09D48E26",
+["guid"] = "Player-3676-0E7CB3B5",
 },
-["Dziban-Shadowsong"] = {
+["Bora-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Taygeta Alt",
-["rankIndex"] = 8,
-["guid"] = "Player-86-09C7B8DB",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0A4D7011",
 },
 ["Soopsi-Daggerspine"] = {
 ["officerNote"] = "",
@@ -3678,11 +3691,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA2064C",
 },
-["Easyy-Skywall"] = {
+["Liseria-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0AD2AA45",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD61151",
 },
 ["Icypopz-Area52"] = {
 ["officerNote"] = "",
@@ -3696,11 +3709,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD500BF",
 },
-["Donalidtramp-Bonechewer"] = {
+["Nichôlas-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-09560028",
+["guid"] = "Player-3676-0EA02C05",
 },
 ["Zalles-Drak'thul"] = {
 ["officerNote"] = "",
@@ -3708,17 +3721,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0ACF384B",
 },
-["Anuvix-Area52"] = {
+["Dropflag-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA21868",
+["rankIndex"] = 8,
+["guid"] = "Player-3676-0E9D0FB0",
 },
-["Alivery-Hakkar"] = {
+["Atillo-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-09367410",
+["guid"] = "Player-86-0AD1F9AB",
 },
 ["Kuri-Skywall"] = {
 ["officerNote"] = "",
@@ -3744,17 +3757,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-0954CFE4",
 },
-["Cannonfodder-BoreanTundra"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0A543713",
-},
-["Sarla-Garrosh"] = {
+["Dejavù-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-1136-0957C9C5",
+["guid"] = "Player-3676-0E9FA4FD",
+},
+["Casketslug-BoreanTundra"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD24E47",
 },
 ["Honorthief-Garrosh"] = {
 ["officerNote"] = "",
@@ -3762,11 +3775,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096B6504",
 },
-["Kixxie-Skywall"] = {
+["Thornalari-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD042C6",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AAE26CB",
 },
 ["Reapdaheals-Drak'thul"] = {
 ["officerNote"] = "",
@@ -3780,11 +3793,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-091A3B8A",
 },
-["Catilicious-Area52"] = {
+["Tinden-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E7CB3B5",
+["guid"] = "Player-86-09D48E26",
 },
 ["Allygoose-Antonidas"] = {
 ["officerNote"] = "",
@@ -3792,11 +3805,11 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-84-0980780F",
 },
-["Corajuda-Area52"] = {
+["Easyy-Skywall"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9D7C65",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AD2AA45",
 },
 ["Padrig-Daggerspine"] = {
 ["officerNote"] = "",
@@ -3816,11 +3829,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0A672FDB",
 },
-["Andistar-Terenas"] = {
+["Stankfingers-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-86-09EA4754",
+["guid"] = "Player-1136-0924C262",
 },
 ["Illidnt-BoreanTundra"] = {
 ["officerNote"] = "",
@@ -3828,11 +3841,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AA713D3",
 },
-["Moonrevenge-MoonGuard"] = {
+["Mikubal-Aegwynn"] = {
 ["officerNote"] = "",
-["note"] = "Gold Captain @Dat Elf Collet",
-["rankIndex"] = 4,
-["guid"] = "Player-3675-0AD38642",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096AE906",
 },
 ["Polak-Bonechewer"] = {
 ["officerNote"] = "",
@@ -3852,11 +3865,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA1A9AA",
 },
-["Eruke-Drak'thul"] = {
+["Sphynx-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD6115F",
+["guid"] = "Player-1136-096BB7EC",
 },
 ["Fathergainz-Area52"] = {
 ["officerNote"] = "",
@@ -3876,17 +3889,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-093F5BDB",
 },
-["Miralais-Silvermoon"] = {
+["Ophilius-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD63F11",
+["guid"] = "Player-3676-0E9CF1E2",
 },
-["Stankfingers-Bonechewer"] = {
+["Andistar-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-1136-0924C262",
+["guid"] = "Player-86-09EA4754",
 },
 ["Zephermoon-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -3924,11 +3937,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C73FB",
 },
-["Ophilius-Area52"] = {
+["Miralais-Silvermoon"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9CF1E2",
+["guid"] = "Player-86-0AD63F11",
 },
 ["Beardoffaith-Area52"] = {
 ["officerNote"] = "",
@@ -3936,17 +3949,17 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-3676-0E622980",
 },
-["Johnchillguy-Aegwynn"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096C301B",
-},
 ["Kahleesi-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0ACDB357",
+},
+["Lovelace-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096DA16A",
 },
 ["Qarantine-Garrosh"] = {
 ["officerNote"] = "",
@@ -3954,11 +3967,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C8FE4",
 },
-["Lovelace-Aegwynn"] = {
+["Johnchillguy-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096DA16A",
+["guid"] = "Player-1136-096C301B",
 },
 ["Snfor-Area52"] = {
 ["officerNote"] = "",
@@ -3984,41 +3997,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096B4703",
 },
-["Trenbolone-Shadowsong"] = {
+["Chunckybutt-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-86-0AD1685C",
-},
-["Cattleclysm-Daggerspine"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-08D66621",
-},
-["Yess-Hakkar"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096DEF8B",
-},
-["Enforcer-Destromath"] = {
-["officerNote"] = "",
-["note"] = "Silver Captain @Klankat",
-["rankIndex"] = 5,
-["guid"] = "Player-77-0CD086D8",
-},
-["Elvinsorrow-Drenden"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1138-08B14C7B",
-},
-["Blech-Bonechewer"] = {
-["officerNote"] = "",
-["note"] = "Rosalinga's Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-0967A2A1",
+["guid"] = "Player-3676-0E0F5606",
 },
 ["Idkele-Hakkar"] = {
 ["officerNote"] = "",
@@ -4026,23 +4009,53 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096D5D22",
 },
-["Wàrbringer-Shadowsong"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-09B8249C",
-},
 ["Grátex-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA42383",
 },
-["Cinderz-Hakkar"] = {
+["Enforcer-Destromath"] = {
+["officerNote"] = "",
+["note"] = "Silver Captain @Klankat",
+["rankIndex"] = 5,
+["guid"] = "Player-77-0CD086D8",
+},
+["Jaiah-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 8,
+["guid"] = "Player-3676-0E9531F5",
+},
+["Blech-Bonechewer"] = {
+["officerNote"] = "",
+["note"] = "Rosalinga's Alt",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-0967A2A1",
+},
+["Sharkeez-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096B252B",
+["guid"] = "Player-3676-0E7FD64B",
+},
+["Komok-Hydraxis"] = {
+["officerNote"] = "",
+["note"] = "Eiska Alt",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0A9F5CE0",
+},
+["Yess-Hakkar"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096DEF8B",
+},
+["Hexiz-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0DA4D19A",
 },
 ["Zarraelia-Silvermoon"] = {
 ["officerNote"] = "",
@@ -4056,11 +4069,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E3EF540",
 },
-["Bakaphomet-Area52"] = {
+["Voktys-Skywall"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E78C7D7",
+["note"] = "Lead @Diva ",
+["rankIndex"] = 3,
+["guid"] = "Player-86-0AD1E770",
 },
 ["Obsessed-Garrosh"] = {
 ["officerNote"] = "",
@@ -4086,11 +4099,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-3676-0EA2AD8F",
 },
-["Chunckybutt-Area52"] = {
+["Trenbolone-Shadowsong"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-3676-0E0F5606",
+["guid"] = "Player-86-0AD1685C",
 },
 ["Mikeoxinner-Gurubashi"] = {
 ["officerNote"] = "",
@@ -4098,11 +4111,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-0969535D",
 },
-["Komok-Hydraxis"] = {
+["Arghurys-Skywall"] = {
 ["officerNote"] = "",
-["note"] = "Eiska Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0A9F5CE0",
+["note"] = "Lead @Diva",
+["rankIndex"] = 3,
+["guid"] = "Player-86-0ACE8990",
 },
 ["Róg-Daggerspine"] = {
 ["officerNote"] = "",
@@ -4110,17 +4123,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096CDA46",
 },
-["Pentimento-Hakkar"] = {
+["Celstrider-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-1136-08D39B6B",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0EA453D0",
 },
-["Voktys-Skywall"] = {
+["Bakaphomet-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Diva ",
-["rankIndex"] = 3,
-["guid"] = "Player-86-0AD1E770",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E78C7D7",
 },
 ["Badmamma-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4140,11 +4153,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AA95C24",
 },
-["Arghurys-Skywall"] = {
+["Wàrbringer-Shadowsong"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Diva",
-["rankIndex"] = 3,
-["guid"] = "Player-86-0ACE8990",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-09B8249C",
 },
 ["Espariá-Silvermoon"] = {
 ["officerNote"] = "",
@@ -4152,11 +4165,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0A490620",
 },
-["Valakyá-Area52"] = {
+["Cassire-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E85D51C",
+["guid"] = "Player-3676-0DCDD477",
 },
 ["Kíng-BoreanTundra"] = {
 ["officerNote"] = "",
@@ -4164,11 +4177,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-09C9D1DE",
 },
-["Chantilylace-Silvermoon"] = {
+["Sambar-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD2280F",
+["rankIndex"] = 8,
+["guid"] = "Player-3676-0E9D51F0",
 },
 ["Illyra-Skywall"] = {
 ["officerNote"] = "",
@@ -4194,23 +4207,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-77-0F9FF0DC",
 },
-["Celstrider-Area52"] = {
+["Pentimento-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA453D0",
-},
-["Cassire-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0DCDD477",
-},
-["Cheesesalmon-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA217C1",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-08D39B6B",
 },
 ["Dashingchimp-Area52"] = {
 ["officerNote"] = "",
@@ -4223,6 +4224,18 @@ GoWDB = {
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA1E557",
+},
+["Valakyá-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E85D51C",
+},
+["Switchblade-Drak'thul"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AAD3C46",
 },
 ["Tyieloridan-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4260,11 +4273,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096D929C",
 },
-["Belzbuth-Aegwynn"] = {
+["Käi-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-095FA9E8",
+["guid"] = "Player-1136-096DE028",
 },
 ["Pissfingurs-Area52"] = {
 ["officerNote"] = "",
@@ -4272,17 +4285,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E83447A",
 },
-["Vanhëllsing-Area52"] = {
+["Amookerfanth-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E7FE8A5",
+["guid"] = "Player-86-0AD5E927",
 },
-["Powhulk-Runetotem"] = {
+["Belzbuth-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-151-0809DEDD",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-095FA9E8",
 },
 ["Jojoflys-Garrosh"] = {
 ["officerNote"] = "",
@@ -4290,17 +4303,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096D8834",
 },
-["Igneelx-Aegwynn"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096DF751",
-},
 ["Oree-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA146AE",
+},
+["Igneelx-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096DF751",
 },
 ["Yoùù-Area52"] = {
 ["officerNote"] = "",
@@ -4320,11 +4333,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-09EA05B8",
 },
-["Omeghax-Aegwynn"] = {
+["Blante-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-09640C40",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-095B5C60",
 },
 ["Deuslovult-Mok'Nathal"] = {
 ["officerNote"] = "",
@@ -4374,17 +4387,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA345CD",
 },
-["Celiá-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E9D12AF",
-},
 ["Jackrussell-Shadowsong"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AB14AAA",
+},
+["Celiá-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E9D12AF",
 },
 ["Iwano-Area52"] = {
 ["officerNote"] = "",
@@ -4440,11 +4453,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096B58E6",
 },
-["Razinhoof-Runetotem"] = {
+["Aixelsyd-Gurubashi"] = {
 ["officerNote"] = "",
-["note"] = "GM @Kryptd",
-["rankIndex"] = 2,
-["guid"] = "Player-151-073BC01E",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096CD0E9",
 },
 ["Halisi-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4476,11 +4489,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-09292016",
 },
-["Aixelsyd-Gurubashi"] = {
+["Razinhoof-Runetotem"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096CD0E9",
+["note"] = "GM @Kryptd",
+["rankIndex"] = 2,
+["guid"] = "Player-151-073BC01E",
 },
 ["Repallied-Area52"] = {
 ["officerNote"] = "",
@@ -4536,11 +4549,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-115-0AE2B1ED",
 },
-["Blante-Bonechewer"] = {
+["Omeghax-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-1136-095B5C60",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-09640C40",
 },
 ["Jillidan-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4560,17 +4573,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096047EB",
 },
-["Käi-Daggerspine"] = {
+["Powhulk-Runetotem"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096DE028",
+["rankIndex"] = 8,
+["guid"] = "Player-151-0809DEDD",
 },
-["Amookerfanth-Drak'thul"] = {
+["Vanhëllsing-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD5E927",
+["guid"] = "Player-3676-0E7FE8A5",
 },
 ["Krari-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4584,11 +4597,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08E068C0",
 },
-["Switchblade-Drak'thul"] = {
+["Cheesesalmon-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AAD3C46",
+["guid"] = "Player-3676-0EA217C1",
 },
 ["Karhoof-Garrosh"] = {
 ["officerNote"] = "",
@@ -4608,11 +4621,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0AD337B4",
 },
-["Sambar-Area52"] = {
+["Toodletips-Aegwynn"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E9D51F0",
+["note"] = "Lead @Goose",
+["rankIndex"] = 3,
+["guid"] = "Player-1136-0954AB42",
 },
 ["Koasis-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4620,11 +4633,11 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-1136-094FE2E8",
 },
-["Jaiah-Area52"] = {
+["Elvinsorrow-Drenden"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E9531F5",
+["rankIndex"] = 9,
+["guid"] = "Player-1138-08B14C7B",
 },
 ["Daddypayne-Ghostlands"] = {
 ["officerNote"] = "",
@@ -4632,11 +4645,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1175-0F5B88A4",
 },
-["Toodletips-Aegwynn"] = {
+["Chantilylace-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Goose",
-["rankIndex"] = 3,
-["guid"] = "Player-1136-0954AB42",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD2280F",
 },
 ["Biaa-Gurubashi"] = {
 ["officerNote"] = "",
@@ -4644,11 +4657,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-096188CD",
 },
-["Sharkeez-Area52"] = {
+["Cattleclysm-Daggerspine"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E7FD64B",
+["guid"] = "Player-1136-08D66621",
 },
 ["Zohielan-Shadowsong"] = {
 ["officerNote"] = "",
@@ -4662,11 +4675,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-09698A41",
 },
-["Hexiz-Area52"] = {
+["Cinderz-Hakkar"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0DA4D19A",
+["guid"] = "Player-1136-096B252B",
 },
 ["Zaptrap-Area52"] = {
 ["officerNote"] = "",
@@ -4710,11 +4723,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096BB680",
 },
-["Youmaddbro-Aegwynn"] = {
+["Burlymerly-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-095E4103",
+["guid"] = "Player-86-0AD4940A",
 },
 ["Shadowwalk-Drak'thul"] = {
 ["officerNote"] = "",
@@ -4728,11 +4741,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-04D42CD9",
 },
-["Burlymerly-Hydraxis"] = {
+["Youmaddbro-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD4940A",
+["guid"] = "Player-1136-095E4103",
 },
 ["Misteyy-Area52"] = {
 ["officerNote"] = "",
@@ -4746,11 +4759,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096A7407",
 },
-["Sphynx-Daggerspine"] = {
+["Eruke-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096BB7EC",
+["guid"] = "Player-86-0AD6115F",
 },
 ["Halyka-Shadowsong"] = {
 ["officerNote"] = "",
@@ -4782,11 +4795,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E74A64A",
 },
-["Malefiik-Area52"] = {
+["Oxye-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0A250310",
+["guid"] = "Player-1136-093FB7E3",
 },
 ["Vonny-Garrosh"] = {
 ["officerNote"] = "",
@@ -4794,35 +4807,35 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-094D9AB6",
 },
-["Liseria-Drak'thul"] = {
+["Corajuda-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD61151",
+["guid"] = "Player-3676-0E9D7C65",
 },
-["Mikubal-Aegwynn"] = {
+["Moonrevenge-MoonGuard"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096AE906",
+["note"] = "Gold Captain @Dat Elf Collet",
+["rankIndex"] = 4,
+["guid"] = "Player-3675-0AD38642",
 },
-["Gardort-Bonechewer"] = {
+["Sarla-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-08C3E9CD",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-0957C9C5",
 },
-["Oxye-Aegwynn"] = {
+["Cannonfodder-BoreanTundra"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-093FB7E3",
+["guid"] = "Player-86-0A543713",
 },
-["Atillo-Terenas"] = {
+["Malefiik-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD1F9AB",
+["guid"] = "Player-3676-0A250310",
 },
 ["Rerhyum-Area52"] = {
 ["officerNote"] = "",
@@ -4836,11 +4849,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096B637E",
 },
-["Terralion-Bonechewer"] = {
+["Eldrae-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-1136-08BC89C7",
+["rankIndex"] = 9,
+["guid"] = "Player-86-09E91465",
 },
 ["Xsloppylips-Silvermoon"] = {
 ["officerNote"] = "",
@@ -4860,23 +4873,23 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0AD0427F",
 },
-["Buffspriest-Area52"] = {
+["Anuvix-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E0C85BB",
+["guid"] = "Player-3676-0EA21868",
 },
-["Nichôlas-Area52"] = {
+["Terralion-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA02C05",
+["rankIndex"] = 8,
+["guid"] = "Player-1136-08BC89C7",
 },
-["Pamanbotak-Area52"] = {
+["Valsetriste-Aegwynn"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA0328B",
+["guid"] = "Player-1136-096D7B39",
 },
 ["Danzo-Garrosh"] = {
 ["officerNote"] = "",
@@ -4896,23 +4909,23 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-058725AB",
 },
-["Narru-Area52"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0E996E7A",
-},
 ["Hellgatha-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-091BD9CE",
 },
-["Idkwtfid-Hakkar"] = {
+["Narru-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096BFF10",
+["guid"] = "Player-3676-0E996E7A",
+},
+["Mortawg-Area52"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E9E8ED4",
 },
 ["Revekon-Shadowsong"] = {
 ["officerNote"] = "",
@@ -4938,11 +4951,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096C5C07",
 },
-["Foxaorb-Drak'thul"] = {
+["Chahiyar-BoreanTundra"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-08ED6EE4",
+["guid"] = "Player-86-0AD18853",
 },
 ["Jix-Shadowsong"] = {
 ["officerNote"] = "",
@@ -4956,11 +4969,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-3676-0E716C57",
 },
-["Ælis-Daggerspine"] = {
+["Akcl-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-096C77C5",
+["guid"] = "Player-3676-0E9CFD01",
 },
 ["Lilfame-Aegwynn"] = {
 ["officerNote"] = "",
@@ -4986,11 +4999,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-3676-0E8FEC4E",
 },
-["Askell-Hakkar"] = {
+["Yazzie-Baelgun"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-1136-096D551A",
+["note"] = "GM @Kryptd",
+["rankIndex"] = 2,
+["guid"] = "Player-1190-0BF55941",
 },
 ["Phist-Silvermoon"] = {
 ["officerNote"] = "",
@@ -4998,11 +5011,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-08B2A22C",
 },
-["Pappabeary-Hydraxis"] = {
+["Eaglefox-Nathrezim"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0ACEA053",
+["guid"] = "Player-1138-096BBE22",
 },
 ["Timebringer-Area52"] = {
 ["officerNote"] = "",
@@ -5010,17 +5023,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0E7FD3D0",
 },
-["Kaladrana-Area52"] = {
+["Madgettlemi-Destromath"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-3676-0E9D6556",
+["note"] = "Gold Captain @Dat Elf Collet",
+["rankIndex"] = 4,
+["guid"] = "Player-77-0F918F69",
 },
-["Orentya-Drak'thul"] = {
+["Rocktir-Quel'Thalas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD38D5D",
+["guid"] = "Player-1428-06404152",
 },
 ["Sediction-Skywall"] = {
 ["officerNote"] = "",
@@ -5046,11 +5059,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0ACE6BF4",
 },
-["Brutesque-Daggerspine"] = {
+["Doranian-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-1136-096A175B",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-06D489B0",
 },
 ["Salsdots-Bonechewer"] = {
 ["officerNote"] = "",
@@ -5058,11 +5071,11 @@ GoWDB = {
 ["rankIndex"] = 4,
 ["guid"] = "Player-1136-08E920F2",
 },
-["Monkfruit-Silvermoon"] = {
+["Yamiyami-Terenas"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0AACC939",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AAF218C",
 },
 ["Pandicorn-Area52"] = {
 ["officerNote"] = "",
@@ -5076,11 +5089,11 @@ GoWDB = {
 ["rankIndex"] = 5,
 ["guid"] = "Player-86-0AD313E3",
 },
-["Keelyonna-Area52"] = {
+["Caniuslupis-Mok'Nathal"] = {
 ["officerNote"] = "",
-["note"] = "Co GM @Amore",
-["rankIndex"] = 2,
-["guid"] = "Player-3676-0E5B76F7",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-0AD38DCA",
 },
 ["Vulpsy-Shadowsong"] = {
 ["officerNote"] = "",
@@ -5100,29 +5113,29 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0A2A5CC8",
 },
-["Taternater-Area52"] = {
+["Krittika-Shadowsong"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA3DFA7",
+["note"] = "Taygeta Alt ",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AB3307D",
 },
-["Oldgoat-Shadowsong"] = {
+["Orentya-Drak'thul"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AD3355E",
+["guid"] = "Player-86-0AD38D5D",
 },
-["Thruks-Area52"] = {
+["Hudsonpally-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Main",
+["note"] = "Hudsonpally Alt",
 ["rankIndex"] = 9,
-["guid"] = "Player-3676-0E5A4DFD",
+["guid"] = "Player-86-0AD3E8AB",
 },
-["Zakdor-Gurubashi"] = {
+["Shrednbones-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-08BF3740",
+["guid"] = "Player-1136-096C0652",
 },
 ["Taygeta-Shadowsong"] = {
 ["officerNote"] = "",
@@ -5208,11 +5221,11 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-86-0446E413",
 },
-["Goosepally-Antonidas"] = {
+["Hudsondk-Silvermoon"] = {
 ["officerNote"] = "",
-["note"] = "Lead @Goose",
-["rankIndex"] = 3,
-["guid"] = "Player-84-0988C7C4",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-86-05445426",
 },
 ["Funnydemon-BoreanTundra"] = {
 ["officerNote"] = "",
@@ -5256,23 +5269,23 @@ GoWDB = {
 ["rankIndex"] = 3,
 ["guid"] = "Player-3678-0B818D1A",
 },
-["Onyx-Hydraxis"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0A609042",
-},
-["Draclan-Bonechewer"] = {
+["Faewehn-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-1136-09645A56",
+["guid"] = "Player-3676-0E898F96",
 },
-["Amoreay-Silvermoon"] = {
+["Freminet-Area52"] = {
 ["officerNote"] = "",
-["note"] = "Co GM @Amore",
-["rankIndex"] = 2,
-["guid"] = "Player-86-0AAE2554",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E61C2B2",
+},
+["Theed-Bonechewer"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-096CD9A6",
 },
 ["Soralee-Garrosh"] = {
 ["officerNote"] = "",
@@ -5304,17 +5317,17 @@ GoWDB = {
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-096BF877",
 },
-["Faextra-Bonechewer"] = {
+["Kâth-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 8,
-["guid"] = "Player-1136-096A67EA",
+["guid"] = "Player-3676-0E7C2BC5",
 },
-["Almeros-Area52"] = {
+["Auriol-Skywall"] = {
 ["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-3676-0EA09C3F",
+["note"] = "Lead @Diva",
+["rankIndex"] = 3,
+["guid"] = "Player-86-08CE600C",
 },
 ["Ddy-Daggerspine"] = {
 ["officerNote"] = "",
@@ -5352,23 +5365,23 @@ GoWDB = {
 ["rankIndex"] = 2,
 ["guid"] = "Player-3676-0E3E0B7D",
 },
-["Wellington-Hydraxis"] = {
-["officerNote"] = "",
-["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-0AAD9EE8",
-},
 ["Joardreth-Garrosh"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-1136-094A24A9",
 },
-["Dessari-BoreanTundra"] = {
+["Wellington-Hydraxis"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 9,
-["guid"] = "Player-86-0AD4175E",
+["rankIndex"] = 8,
+["guid"] = "Player-86-0AAD9EE8",
+},
+["Stoneykitty-Aegwynn"] = {
+["officerNote"] = "",
+["note"] = "Main",
+["rankIndex"] = 7,
+["guid"] = "Player-1136-096BC781",
 },
 ["Xtom-Aegwynn"] = {
 ["officerNote"] = "",
@@ -5376,17 +5389,17 @@ GoWDB = {
 ["rankIndex"] = 7,
 ["guid"] = "Player-1136-09697899",
 },
-["Ganoosh-Drak'thul"] = {
+["Kallisie-Gurubashi"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0ACFC4F9",
+["guid"] = "Player-1136-0968921B",
 },
-["Stoneykitty-Aegwynn"] = {
+["Garrumy-Gurubashi"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 7,
-["guid"] = "Player-1136-096BC781",
+["rankIndex"] = 9,
+["guid"] = "Player-1136-08E0B533",
 },
 ["Lockee-Shadowsong"] = {
 ["officerNote"] = "",
@@ -5406,11 +5419,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-3676-0E9FC538",
 },
-["Zafar-Silvermoon"] = {
+["Enchanovich-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
-["rankIndex"] = 8,
-["guid"] = "Player-86-08BBB41D",
+["rankIndex"] = 9,
+["guid"] = "Player-3676-0E9E796A",
 },
 ["Mîloh-Area52"] = {
 ["officerNote"] = "",
@@ -5586,17 +5599,17 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-1136-095B3CF1",
 },
-["Acerose-KirinTor"] = {
-["officerNote"] = "",
-["note"] = "Saphihr Alt",
-["rankIndex"] = 9,
-["guid"] = "Player-1071-0D0CC38E",
-},
 ["Hunterzanda-Area52"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
 ["guid"] = "Player-3676-0EA35885",
+},
+["Acerose-KirinTor"] = {
+["officerNote"] = "",
+["note"] = "Saphihr Alt",
+["rankIndex"] = 9,
+["guid"] = "Player-1071-0D0CC38E",
 },
 ["Darwini-Silvermoon"] = {
 ["officerNote"] = "",
@@ -5652,11 +5665,11 @@ GoWDB = {
 ["rankIndex"] = 8,
 ["guid"] = "Player-86-0AD3E70A",
 },
-["Cheesyspread-Shadowsong"] = {
+["Bumme-Bonechewer"] = {
 ["officerNote"] = "",
 ["note"] = "Main",
 ["rankIndex"] = 9,
-["guid"] = "Player-86-0AA4BAD3",
+["guid"] = "Player-1136-096D093E",
 },
 ["Yogidaßear-Area52"] = {
 ["officerNote"] = "",
