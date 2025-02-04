@@ -1,51 +1,30 @@
 
 RaiderIO_Config = {
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["hide"] = false,
-["lock"] = false,
-},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
 }
-RaiderIO_LastCharacter = "us-Shortbeef-area-52"
+RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Námi-stormrage"] = true,
-["us-Nookni-gallywix"] = true,
-["us-Hirambe-thrall"] = true,
-["us-Ashacinovan-thrall"] = true,
-["us-Séraphïne-sargeras"] = true,
-["us-Marbö-thrall"] = true,
-["us-Jeremûs-tichondrius"] = true,
-["us-Skullgrin-thrall"] = true,
-["us-Shortbeef-area-52"] = true,
-["us-Galdere-area-52"] = true,
-["us-Valstav-thrall"] = true,
-["us-Golocath-thrall"] = true,
-["us-Milzzyh-barthilas"] = true,
-["us-Warthfu-thrall"] = true,
-["us-Karaâ-thrall"] = true,
-["us-Literalkappa-thrall"] = true,
 ["us-Blazzle-dalaran"] = true,
-["us-Cuteandfat-tichondrius"] = true,
-["us-Arnbrezluz-gallywix"] = true,
-["us-Kiyazzak-gallywix"] = true,
-["us-Krisgnome-illidan"] = true,
-["us-Miseria-zuljin"] = true,
-["us-Bootsmack-area-52"] = true,
-["us-Ignaby-thrall"] = true,
-["us-Sylnesta-moon-guard"] = true,
-["us-Sixfeetunder-thrall"] = true,
-["us-Adrial-wyrmrest-accord"] = true,
-["us-Jessadragon-thrall"] = true,
-["us-Reknew-thrall"] = true,
-["us-Sylorä-dalaran"] = true,
-["us-Bigsleez-frostmourne"] = true,
-["us-Ratmilk-thrall"] = true,
+["us-Solarsardor-stormrage"] = true,
+["us-Uroçhroma-stormrage"] = true,
+["us-Atûshi-stormrage"] = true,
+["us-Khaotic-malganis"] = true,
+["us-Shortsited-stormrage"] = true,
+["us-Lilleves-stormrage"] = true,
+["us-Triptank-stormrage"] = true,
+["us-Viitu-stormrage"] = true,
+["us-Rhianda-stormrage"] = true,
+["us-Zangbetø-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

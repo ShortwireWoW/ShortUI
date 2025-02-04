@@ -3,6 +3,7 @@ LoggerHeadDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 },
 ["profiles"] = {
@@ -12,16 +13,26 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
-["Stratholme"] = {
+["Zul'Farrak"] = {
 [24] = true,
 },
-["Zul'Farrak"] = {
+["Deadmines"] = {
+[24] = true,
+},
+["Stratholme"] = {
+[24] = true,
 },
 ["The Stonevault"] = {
 true,
 },
 },
 ["scenario"] = {
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["The Dread Pit"] = {
+[208] = true,
+},
 ["Zekvir's Lair"] = {
 [208] = true,
 },

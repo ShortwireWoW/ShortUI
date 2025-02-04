@@ -14,6 +14,9 @@ IRT_RPAFEnabled = {
 IRT_RPAFPriority = {
 }
 IRT_RaidInviteRanks = {
+["Captain"] = false,
+["Gunner"] = false,
+["Crew"] = false,
 }
 IRT_UlgraxExtras = false
 IRT_BroodtwisterExtras = false

@@ -35,6 +35,22 @@ VER 3 000000000000005B "Potions" "134400"
 /use Fleeting Elemental Potion of Ultimate Power
 /use Elemental Potion of Ultimate Power
 END
+VER 3 0000000000000069 "Thanks 4 Spam" "134400"
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+/g Thanks 4 spam!
+END
 VER 3 0000000000000062 "Toys" "134400"
 #showtooltip
 /use Acolyte's Guise

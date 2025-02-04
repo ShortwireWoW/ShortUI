@@ -14,6 +14,15 @@ LoggerHeadDB = {
 [24] = true,
 },
 ["Zul'Farrak"] = {
+[24] = true,
+},
+["City of Threads"] = {
+[8] = true,
+[2] = true,
+[23] = true,
+},
+["Deadmines"] = {
+[24] = true,
 },
 ["Stratholme"] = {
 [24] = true,
@@ -23,6 +32,12 @@ true,
 },
 },
 ["scenario"] = {
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["The Dread Pit"] = {
+[208] = true,
+},
 ["Zekvir's Lair"] = {
 [208] = true,
 },
