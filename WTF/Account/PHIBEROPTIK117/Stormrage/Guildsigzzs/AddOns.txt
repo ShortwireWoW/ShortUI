@@ -43,7 +43,7 @@ Details_DataStorage: disabled
 GottaGoFaster: disabled
 GottaGoFasterHistory: disabled
 InfiniteRaidTools: disabled
-LittleWigs_BurningCrusade: disabled
+LittleWigs_BurningCrusade: enabled
 LittleWigs_Classic: enabled
 LittleWigs_Dragonflight: disabled
 LittleWigs_MistsOfPandaria: enabled

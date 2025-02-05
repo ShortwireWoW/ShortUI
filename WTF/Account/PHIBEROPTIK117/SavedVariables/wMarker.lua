@@ -4,6 +4,7 @@ wMarkerAceDB = {
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 },
 ["global"] = {
 ["lastVer"] = "3.2.2",

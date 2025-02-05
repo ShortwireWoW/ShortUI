@@ -47,3 +47,4 @@ LittleWigs_WarlordsOfDraenor: enabled
 Cell: enabled
 LittleWigs_Legion: enabled
 LittleWigs_Classic: enabled
+LittleWigs_BurningCrusade: enabled
