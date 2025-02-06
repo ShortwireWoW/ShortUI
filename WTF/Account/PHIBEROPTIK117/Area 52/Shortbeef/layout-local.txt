@@ -18,5 +18,5 @@ FrameLevel: 1
 Anchor: BOTTOM
 X: 525
 Y: 184
-W: 251
-H: 288
+W: 128
+H: 64

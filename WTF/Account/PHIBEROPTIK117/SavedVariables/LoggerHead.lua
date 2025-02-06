@@ -13,16 +13,19 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
+["Stratholme"] = {
+[24] = true,
+},
+["Magisters' Terrace"] = {
+[24] = true,
 },
 ["The Dawnbreaker"] = {
 [23] = true,
 [8] = true,
 },
-["Stratholme"] = {
-[24] = true,
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
 },
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,

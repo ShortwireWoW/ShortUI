@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "AFK LEVEL" "134400"
+#showtooltip
+/target Volatile Spore
+/cast Throw Glaive
+/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+END

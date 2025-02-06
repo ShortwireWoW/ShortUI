@@ -1,43 +1,31 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_The Black Stalker"] = {
-},
-["BigWigs_Bosses_Ghaz'an"] = {
+["BigWigs_Bosses_Commander Sarannis"] = {
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Bosses_High Botanist Freywinn"] = {
 },
-["LibDualSpec-1.0"] = {
+["BigWigs_Bosses_Selin Fireheart"] = {
 },
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Pandemonius"] = {
+["BigWigs_Bosses_Grand Warlock Nethekurse"] = {
 },
 ["BigWigs_Bosses_Mana-Tombs Trash"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Bosses_Tavarok"] = {
 },
 ["BigWigs_Bosses_Nexus-Prince Shaffar"] = {
 },
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Swamplord Musel'ek"] = {
+["BigWigs_Bosses_Keli'dan the Breaker"] = {
 },
-["BigWigs_Plugins_Colors"] = {
+["BigWigs_Bosses_Warp Splinter"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Bars"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 ["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
 ["profiles"] = {
@@ -46,6 +34,42 @@ BigWigs3DB = {
 [440377] = 4116727,
 },
 },
+},
+["BigWigs_Bosses_Ghaz'an"] = {
+},
+["BigWigs_Bosses_Priestess Delrissa"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Bosses_Magisters' Terrace Trash"] = {
+},
+["BigWigs_Bosses_Pandemonius"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Bosses_Kael'thas Sunstrider Magisters' Terrace"] = {
+},
+["BigWigs_Bosses_The Black Stalker"] = {
+},
+["BigWigs_Bosses_Vexallus"] = {
+},
+["BigWigs_Bosses_Broggok"] = {
+},
+["BigWigs_Bosses_Thorngrin the Tender"] = {
+},
+["BigWigs_Bosses_The Maker"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Bosses_The Shattered Halls Trash"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -59,20 +83,33 @@ nil,
 },
 },
 },
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Bosses_Warbringer O'mrogg"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Bosses_Warchief Kargath Bladefist"] = {
+},
 ["BigWigs_Bosses_Hungarfen"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Bosses_Swamplord Musel'ek"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Bosses_Blood Guard Porung"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Bosses_Laj"] = {
 },
 },
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 },
 ["global"] = {

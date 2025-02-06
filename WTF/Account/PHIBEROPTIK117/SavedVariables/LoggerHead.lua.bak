@@ -13,26 +13,32 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
+["The Stonevault"] = {
+true,
+false,
+},
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
 ["The Dawnbreaker"] = {
 [23] = true,
 [8] = true,
 },
-["Hellfire Citadel: The Blood Furnace"] = {
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
 },
 ["City of Threads"] = {
 [8] = true,
 [2] = true,
 [23] = true,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["Magisters' Terrace"] = {
+[24] = true,
 },
-["Coilfang: The Underbog"] = {
+["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["Grim Batol"] = {
@@ -71,6 +77,9 @@ false,
 },
 },
 ["raid"] = {
+["Black Temple"] = {
+[24] = false,
+},
 ["Nerub-ar Palace"] = {
 [15] = true,
 },

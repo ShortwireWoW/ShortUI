@@ -1,4 +1,11 @@
 Version: 1
+Frame: PremadeGroupsFilterDialog
+FrameLevel: 2
+Anchor: TOPLEFT
+X: 579
+Y: -116
+W: 300
+H: 427
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -13,10 +20,3 @@ X: 525
 Y: 184
 W: 128
 H: 64
-Frame: PremadeGroupsFilterDialog
-FrameLevel: 2
-Anchor: TOPLEFT
-X: 579
-Y: -116
-W: 300
-H: 428
