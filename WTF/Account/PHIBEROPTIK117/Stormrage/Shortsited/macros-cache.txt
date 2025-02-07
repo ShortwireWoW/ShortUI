@@ -1,5 +1,6 @@
 VER 3 0100000000000002 "Leap" "134400"
 #showtooltip
+/dismount
 /cast [@cursor] Infernal Strike
 END
 VER 3 0100000000000003 "Sigil of Flame" "134400"

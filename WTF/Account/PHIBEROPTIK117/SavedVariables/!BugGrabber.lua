@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 350,
 ["lastSanitation"] = 3,
-["session"] = 337,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Targets_CastBar [Soup]': init\nWeakAuras Version: 5.18.1\nStack trace:\n[string \"return function() function hideCastBar()\"]:2: attempt to index global 'TargetCastingBarFrame' (a nil value)",
@@ -122,6 +122,14 @@ BugGrabberDB = {
 ["stack"] = "[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent(\"PLAYER_CAMPING\")f:SetScript(\"OnEvent\", function() local p=StaticPopup_Visible(\"CAMP\")_G[p..\"Button1\"]:Click()end)\"]:1: in function <[string \"local f=CreateFrame(\"Frame\")f:RegisterEvent...\"]:1>",
 ["session"] = 310,
 ["counter"] = 81,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'PremadeGroupsFilter' tried to call the protected function 'ExtraActionBarFrame:Show()'.",
+["time"] = "2025/02/06 20:36:07",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua\"]:49: in function `AddFrame'\n[string \"@Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.lua\"]:17: in function `ExtraActionBar_Update'\n[string \"@Interface/AddOns/Blizzard_ActionBarController/Mainline/ActionBarController.lua\"]:92: in function <...ActionBarController/Mainline/ActionBarController.lua:55>",
+["session"] = 349,
+["counter"] = 1,
 },
 },
 }

@@ -10,9 +10,12 @@ mod:RegisterEnableMob(
 	212826, -- Guard Captain Suleyman
 	212831, -- Forge Master Damian
 	212827, -- High Priest Aemya
-	211291, -- Sergeant Shaynemail
-	211290, -- Elaena Emberlanz
-	211289, -- Taener Duelmal
+	211291, -- Sergeant Shaynemail (with boss)
+	239836, -- Sergenat Shaynemail (as trash)
+	211290, -- Elaena Emberlanz (with boss)
+	239833, -- Elaena Emberlanz (as trash)
+	211289, -- Taener Duelmal (with boss)
+	239834, -- Taener Duelmal (as trash)
 	206696, -- Arathi Knight
 	206705, -- Arathi Footman
 	206694, -- Fervent Sharpshooter
@@ -23,6 +26,17 @@ mod:RegisterEnableMob(
 	221760, -- Risen Mage
 	217658 -- Sir Braunpyke
 )
+
+--------------------------------------------------------------------------------
+-- Locals
+--
+
+local nextBrutalSmash = 0
+local nextHolyRadiance = 0
+local nextEmberStorm = 0
+local shaynemailGUID = nil
+local elaenaGUID = nil
+local taenerGUID = nil
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -70,7 +84,6 @@ function mod:GetOptions()
 		{427950, "NAMEPLATE"}, -- Seal of Flame
 		427900, -- Molten Pool
 		-- High Priest Aemya
-		{429091, "NAMEPLATE"}, -- Inner Fire
 		{428150, "NAMEPLATE"}, -- Reflective Shield
 		-- Sergeant Shaynemail
 		{424621, "NAMEPLATE"}, -- Brutal Smash
@@ -107,7 +120,7 @@ function mod:GetOptions()
 		["custom_on_autotalk"] = L.sacred_flame,
 		[448485] = L.guard_captain_suleyman,
 		[427897] = L.forge_master_damian,
-		[429091] = L.high_priest_aemya,
+		[428150] = L.high_priest_aemya,
 		[424621] = L.sergeant_shaynemail,
 		[424431] = L.elaena_emberlanz,
 		[424420] = L.taener_duelmal,
@@ -147,34 +160,40 @@ function mod:OnBossEnable()
 
 	-- High Priest Aemya
 	self:RegisterEngageMob("HighPriestAemyaEngaged", 212827)
-	self:Log("SPELL_CAST_START", "InnerFireAemya", 429091)
 	self:Log("SPELL_CAST_START", "ReflectiveShield", 428150)
 	self:Log("SPELL_CAST_SUCCESS", "ReflectiveShieldSuccess", 428150)
 	self:Log("SPELL_AURA_REMOVED", "ReflectiveShieldRemoved", 428150)
 	self:Death("HighPriestAemyaDeath", 212827)
 
 	-- Sergeant Shaynemail
-	self:RegisterEngageMob("SergeantShaynemailEngaged", 211291)
+	self:RegisterEngageMob("SergeantShaynemailEngaged", 211291, 239836)
 	self:Log("SPELL_CAST_START", "BrutalSmash", 424621)
+	self:Log("SPELL_CAST_SUCCESS", "BrutalSmashSuccess", 424621)
 	self:Log("SPELL_CAST_START", "LungingStrike", 424423)
 	self:Log("SPELL_CAST_SUCCESS", "LungingStrikeSuccess", 424423)
-	self:Death("SergeantShaynemailDeath", 211291)
+	self:Death("SergeantShaynemailDeath", 211291, 239836)
 
 	-- Elaena Emberlanz
-	self:RegisterEngageMob("ElaenaEmberlanzEngaged", 211290)
+	self:RegisterEngageMob("ElaenaEmberlanzEngaged", 211290, 239833)
 	self:Log("SPELL_CAST_START", "HolyRadiance", 424431)
+	self:Log("SPELL_CAST_SUCCESS", "HolyRadianceSuccess", 424431)
 	self:Log("SPELL_CAST_START", "DivineJudgment", 448515)
 	self:Log("SPELL_CAST_START", "Repentance", 427583) -- XXX removed in 11.1
-	self:Death("ElaenaEmberlanzDeath", 211290)
+	self:Death("ElaenaEmberlanzDeath", 211290, 239833)
 
 	-- Taener Duelmal
-	self:RegisterEngageMob("TaenerDuelmalEngaged", 211289)
+	self:RegisterEngageMob("TaenerDuelmalEngaged", 211289, 239834)
 	self:Log("SPELL_CAST_START", "Cinderblast", 424420)
 	self:Log("SPELL_INTERRUPT", "CinderblastInterrupt", 424420)
 	self:Log("SPELL_CAST_SUCCESS", "CinderblastSuccess", 424420)
 	self:Log("SPELL_AURA_APPLIED", "CinderblastApplied", 424420)
 	self:Log("SPELL_CAST_START", "EmberStorm", 424462)
-	self:Death("TaenerDuelmalDeath", 211289)
+	self:Log("SPELL_CAST_SUCCESS", "EmberStormSuccess", 424462)
+	self:Death("TaenerDuelmalDeath", 211289, 239834)
+
+	-- Captain Dailcry
+	self:Log("SPELL_AURA_APPLIED", "BattleCryApplied", 424419)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "BattleCryApplied", 424419)
 
 	-- Arathi Knight
 	self:RegisterEngageMob("ArathiKnightEngaged", 206696)
@@ -223,7 +242,7 @@ function mod:OnBossEnable()
 	self:RegisterEngageMob("ArdentPaladinEngaged", 206704)
 	if isElevenDotOne then
 		self:Log("SPELL_CAST_START", "Consecration", 424429)
-	else
+	else -- XXX remove in 11.1
 		self:Log("SPELL_CAST_SUCCESS", "Consecration", 424429)
 	end
 	self:Log("SPELL_PERIODIC_DAMAGE", "ConsecrationDamage", 424430) -- no alert on APPLIED, doesn't damage for 1.5s
@@ -241,6 +260,15 @@ function mod:OnBossEnable()
 	self:RegisterEngageMob("SirBraunpykeEngaged", 217658)
 	self:Log("SPELL_CAST_START", "BlazingStrike", 435165)
 	self:Death("SirBraunpykeDeath", 217658)
+end
+
+function mod:OnBossDisable()
+	nextBrutalSmash = 0
+	nextHolyRadiance = 0
+	nextEmberStorm = 0
+	shaynemailGUID = nil
+	elaenaGUID = nil
+	taenerGUID = nil
 end
 
 --------------------------------------------------------------------------------
@@ -341,8 +369,8 @@ do
 	local timer
 
 	function mod:ForgeMasterDamianEngaged(guid)
-		self:CDBar(427950, 6.0) -- Seal of Flame
-		self:Nameplate(427950, 6.0, guid) -- Seal of Flame
+		self:CDBar(427950, 5.6) -- Seal of Flame
+		self:Nameplate(427950, 5.6, guid) -- Seal of Flame
 		self:CDBar(427897, 8.4) -- Heat Wave
 		self:Nameplate(427897, 8.4, guid) -- Heat Wave
 		timer = self:ScheduleTimer("ForgeMasterDamianDeath", 30)
@@ -400,27 +428,8 @@ do
 	local timer
 
 	function mod:HighPriestAemyaEngaged(guid)
-		--self:CDBar(429091, 100) -- Inner Fire
-		--self:Nameplate(429091, 100, guid) -- Inner Fire
 		self:CDBar(428150, 21.4) -- Reflective Shield
 		self:Nameplate(428150, 21.4, guid) -- Reflective Shield
-		timer = self:ScheduleTimer("HighPriestAemyaDeath", 60)
-	end
-
-	function mod:InnerFireAemya(args)
-		local unit = self:UnitTokenFromGUID(args.sourceGUID)
-		if not unit or not UnitAffectingCombat(unit) then
-			-- occasionally cast when not engaged
-			return
-		end
-		if timer then
-			self:CancelTimer(timer)
-		end
-		-- TODO is this still cast in combat?
-		self:Message(args.spellId, "yellow")
-		self:CDBar(args.spellId, 30.3)
-		self:Nameplate(args.spellId, 30.3, args.sourceGUID)
-		self:PlaySound(args.spellId, "info")
 		timer = self:ScheduleTimer("HighPriestAemyaDeath", 60)
 	end
 
@@ -451,7 +460,6 @@ do
 			self:CancelTimer(timer)
 			timer = nil
 		end
-		self:StopBar(429091) -- Inner Fire
 		self:StopBar(428150) -- Reflective Shield
 		if args then
 			self:ClearNameplate(args.destGUID)
@@ -465,10 +473,16 @@ do
 	local timer
 
 	function mod:SergeantShaynemailEngaged(guid)
+		if isElevenDotOne then
+			if self:MobId(guid) == 211291 then -- Sergeant Shaynemail, boss version
+				shaynemailGUID = guid
+			end
+		end
 		self:CDBar(424423, 5.2) -- Lunging Strike
 		self:Nameplate(424423, 5.2, guid) -- Lunging Strike
-		self:CDBar(424621, 25.3) -- Brutal Smash
-		self:Nameplate(424621, 25.3, guid) -- Brutal Smash
+		nextBrutalSmash = GetTime() + 25.2
+		self:CDBar(424621, 25.2) -- Brutal Smash
+		self:Nameplate(424621, 25.2, guid) -- Brutal Smash
 		timer = self:ScheduleTimer("SergeantShaynemailDeath", 30)
 	end
 
@@ -477,10 +491,15 @@ do
 			self:CancelTimer(timer)
 		end
 		self:Message(args.spellId, "orange")
-		self:CDBar(args.spellId, 26.7)
-		self:Nameplate(args.spellId, 26.7, args.sourceGUID)
+		-- 4.5s cast, ~24.6s energy gain
+		self:CDBar(args.spellId, 29.1)
+		self:Nameplate(args.spellId, 29.1, args.sourceGUID)
 		self:PlaySound(args.spellId, "alarm")
 		timer = self:ScheduleTimer("SergeantShaynemailDeath", 30)
+	end
+
+	function mod:BrutalSmashSuccess(args)
+		nextBrutalSmash = GetTime() + 24.6
 	end
 
 	function mod:LungingStrike(args)
@@ -505,6 +524,7 @@ do
 	end
 
 	function mod:SergeantShaynemailDeath(args)
+		shaynemailGUID = nil
 		if timer then
 			self:CancelTimer(timer)
 			timer = nil
@@ -523,11 +543,29 @@ do
 	local timer
 
 	function mod:ElaenaEmberlanzEngaged(guid)
-		self:CDBar(424431, 1.1) -- Holy Radiance
-		self:Nameplate(424431, 1.1, guid) -- Holy Radiance
-		self:CDBar(448515, 4.0) -- Divine Judgment
-		self:Nameplate(448515, 4.0, guid) -- Divine Judgment
-		if not isElevenDotOne then -- XXX remove this block in 11.1
+		if isElevenDotOne then
+			if self:MobId(guid) == 211290 then -- Elaena Emberlanz, boss version
+				elaenaGUID = guid
+			end
+			self:CDBar(448515, 8.0) -- Divine Judgment
+			self:Nameplate(448515, 8.0, guid) -- Divine Judgment
+			local unit = self:UnitTokenFromGUID(guid)
+			if unit then
+				-- Elaena's energy doesn't always reset after a wipe
+				local timeUntilHolyRadiance = 25.2 * (1 - UnitPower(unit) / UnitPowerMax(unit))
+				nextHolyRadiance = GetTime() + timeUntilHolyRadiance
+				self:CDBar(424431, timeUntilHolyRadiance) -- Holy Radiance
+				self:Nameplate(424431, timeUntilHolyRadiance, guid) -- Holy Radiance
+			else
+				nextHolyRadiance = GetTime() + 25.2
+				self:CDBar(424431, 25.2) -- Holy Radiance
+				self:Nameplate(424431, 25.2, guid) -- Holy Radiance
+			end
+		else -- XXX remove this block in 11.1
+			self:CDBar(424431, 1.1) -- Holy Radiance
+			self:Nameplate(424431, 1.1, guid) -- Holy Radiance
+			self:CDBar(448515, 4.0) -- Divine Judgment
+			self:Nameplate(448515, 4.0, guid) -- Divine Judgment
 			self:CDBar(427583, 7.6) -- Repentance
 			self:Nameplate(427583, 7.6, guid) -- Repentance
 		end
@@ -539,10 +577,15 @@ do
 			self:CancelTimer(timer)
 		end
 		self:Message(args.spellId, "yellow")
+		-- 2s cast + 8s channel + 25s energy gain + delay
 		self:CDBar(args.spellId, 36.4)
 		self:Nameplate(args.spellId, 36.4, args.sourceGUID)
 		self:PlaySound(args.spellId, "alert")
 		timer = self:ScheduleTimer("ElaenaEmberlanzDeath", 30)
+	end
+
+	function mod:HolyRadianceSuccess(args)
+		nextHolyRadiance = GetTime() + 34.4
 	end
 
 	function mod:DivineJudgment(args)
@@ -568,6 +611,7 @@ do
 	end
 
 	function mod:ElaenaEmberlanzDeath(args)
+		elaenaGUID = nil
 		if timer then
 			self:CancelTimer(timer)
 			timer = nil
@@ -587,10 +631,30 @@ do
 	local timer
 
 	function mod:TaenerDuelmalEngaged(guid)
-		self:CDBar(424462, 2.1) -- Ember Storm
-		self:Nameplate(424462, 2.1, guid) -- Ember Storm
-		self:CDBar(424420, 5.6) -- Cinderblast
-		self:Nameplate(424420, 5.6, guid) -- Cinderblast
+		if isElevenDotOne then
+			if self:MobId(guid) == 211289 then -- Taener Duelmal, boss version
+				taenerGUID = guid
+			end
+			self:CDBar(424420, 8.1) -- Cinderblast
+			self:Nameplate(424420, 8.1, guid) -- Cinderblast
+			local unit = self:UnitTokenFromGUID(guid)
+			if unit then
+				-- Taener's energy doesn't always reset after a wipe
+				local timeUntilEmberStorm = 25.2 * (1 - UnitPower(unit) / UnitPowerMax(unit))
+				nextEmberStorm = GetTime() + timeUntilEmberStorm
+				self:CDBar(424462, timeUntilEmberStorm) -- Ember Storm
+				self:Nameplate(424462, timeUntilEmberStorm, guid) -- Ember Storm
+			else
+				nextEmberStorm = GetTime() + 25.2
+				self:CDBar(424462, 25.2) -- Ember Storm
+				self:Nameplate(424462, 25.2, guid) -- Ember Storm
+			end
+		else -- XXX remove in 11.1
+			self:CDBar(424462, 2.1) -- Ember Storm
+			self:Nameplate(424462, 2.1, guid) -- Ember Storm
+			self:CDBar(424420, 5.6) -- Cinderblast
+			self:Nameplate(424420, 5.6, guid) -- Cinderblast
+		end
 		timer = self:ScheduleTimer("TaenerDuelmalDeath", 30)
 	end
 
@@ -633,13 +697,19 @@ do
 			self:CancelTimer(timer)
 		end
 		self:Message(args.spellId, "yellow")
+		-- cast at 100 energy: 1.5s cast, 6s channel, 1s delay, 25s energy gain
 		self:CDBar(args.spellId, 34.0)
 		self:Nameplate(args.spellId, 34.0, args.sourceGUID)
 		self:PlaySound(args.spellId, "long")
 		timer = self:ScheduleTimer("TaenerDuelmalDeath", 30)
 	end
 
+	function mod:EmberStormSuccess(args)
+		nextEmberStorm = GetTime() + 32.5
+	end
+
 	function mod:TaenerDuelmalDeath(args)
+		taenerGUID = nil
 		if timer then
 			self:CancelTimer(timer)
 			timer = nil
@@ -652,10 +722,75 @@ do
 	end
 end
 
+-- Captain Dailcry
+
+function mod:BattleCryApplied(args)
+	if self:IsMobEngaged(args.destGUID) then
+		local t = GetTime()
+		local mobId = self:MobId(args.destGUID)
+		-- we start most of these timers "early" (at cast start) but gaining Battle Cry during each ability's
+		-- cast does nothing because energy will still be at 100. this is accounted for because the nextAbility
+		-- trackers aren't set until energy resets to 0.
+		if mobId == 211291 or mobId == 239836 then -- Sergeant Shaynemail
+			local timeUntilBrutalSmash = nextBrutalSmash - t
+			if timeUntilBrutalSmash > 0 then
+				nextBrutalSmash = nextBrutalSmash - 12.5
+				timeUntilBrutalSmash = timeUntilBrutalSmash - 12.5
+				if timeUntilBrutalSmash > 0 then
+					self:CDBar(424621, {timeUntilBrutalSmash, 29.1}) -- Brutal Smash
+					self:Nameplate(424621, timeUntilBrutalSmash, args.destGUID) -- Brutal Smash
+				else
+					self:CDBar(424621, {0.01, 29.1}) -- Brutal Smash
+					self:Nameplate(424621, 0, args.destGUID) -- Brutal Smash
+				end
+			end
+		elseif mobId == 211290 or mobId == 239833 then -- Elaena Emberlanz
+			local timeUntilHolyRadiance = nextHolyRadiance - t
+			if timeUntilHolyRadiance > 0 then
+				nextHolyRadiance = nextHolyRadiance - 12.5
+				timeUntilHolyRadiance = timeUntilHolyRadiance - 12.5
+				if timeUntilHolyRadiance > 0 then
+					self:CDBar(424431, {timeUntilHolyRadiance, 36.4}) -- Holy Radiance
+					self:Nameplate(424431, timeUntilHolyRadiance, args.destGUID) -- Holy Radiance
+				else
+					self:CDBar(424431, {0.01, 36.4}) -- Holy Radiance
+					self:Nameplate(424431, 0, args.destGUID) -- Holy Radiance
+				end
+			end
+		elseif mobId == 211289 or mobId == 239834 then -- Taener Duelmal
+			local timeUntilEmberStorm = nextEmberStorm - t
+			if timeUntilEmberStorm > 0 then
+				nextEmberStorm = nextEmberStorm - 12.5
+				timeUntilEmberStorm = timeUntilEmberStorm - 12.5
+				if timeUntilEmberStorm > 0 then
+					self:CDBar(424462, {timeUntilEmberStorm, 34.0}) -- Ember Storm
+					self:Nameplate(424462, timeUntilEmberStorm, args.destGUID) -- Ember Storm
+				else
+					self:CDBar(424462, {0.01, 34.0}) -- Ember Storm
+					self:Nameplate(424462, 0, args.destGUID) -- Ember Storm
+				end
+			end
+		end
+	end
+end
+
+function mod:CaptainDailcryWipe() -- called from CaptainDailcry's OnWipe
+	-- clear timers for any mini-bosses that reset with the boss as well
+	if shaynemailGUID then
+		self:SergeantShaynemailDeath({destGUID = shaynemailGUID})
+	end
+	if elaenaGUID then
+		self:ElaenaEmberlanzDeath({destGUID = elaenaGUID})
+	end
+	if taenerGUID then
+		self:TaenerDuelmalDeath({destGUID = taenerGUID})
+	end
+end
+
 -- Arathi Knight
 
 function mod:ArathiKnightEngaged(guid)
-	self:Nameplate(427609, 20.2, guid) -- Disrupting Shout
+	self:Nameplate(427609, 20.1, guid) -- Disrupting Shout
 end
 
 function mod:DisruptingShout(args)
@@ -674,7 +809,7 @@ function mod:ArathiFootmanEngaged(guid)
 	-- Defend isn't cast until 50%
 	if self:Normal() then
 		-- Mortal Strike is only cast in Normal
-		self:Nameplate(426964, 2.7, guid) -- Mortal Strike
+		self:Nameplate(426964, 2.3, guid) -- Mortal Strike
 	end
 end
 
@@ -684,7 +819,7 @@ do
 		if self:Normal() then
 			self:Nameplate(args.spellId, 60.7, args.sourceGUID)
 		else -- Heroic, Mythic
-			self:Nameplate(args.spellId, 30.4, args.sourceGUID)
+			self:Nameplate(args.spellId, 30.3, args.sourceGUID)
 		end
 		if args.time - prev > 2 then
 			prev = args.time
@@ -717,7 +852,7 @@ end
 -- Fervent Sharpshooter
 
 function mod:FerventSharpshooterEngaged(guid)
-	self:Nameplate(453458, 8.4, guid) -- Caltrops
+	self:Nameplate(453458, 8.3, guid) -- Caltrops
 end
 
 do
@@ -880,8 +1015,8 @@ end
 
 function mod:ArdentPaladinEngaged(guid)
 	if isElevenDotOne then
-		self:Nameplate(424429, 9.3, guid) -- Consecration
-	else
+		self:Nameplate(424429, 8.3, guid) -- Consecration
+	else -- XXX remove in 11.1
 		self:Nameplate(424429, 8.0, guid) -- Consecration
 	end
 end
@@ -910,7 +1045,11 @@ end
 -- Risen Mage
 
 function mod:RisenMageEngaged(guid)
-	self:Nameplate(444743, 8.0, guid) -- Fireball Volley
+	if isElevenDotOne then
+		self:Nameplate(444743, 10.0, guid) -- Fireball Volley
+	else -- XXX remove in 11.1
+		self:Nameplate(444743, 8.0, guid) -- Fireball Volley
+	end
 end
 
 do
@@ -927,11 +1066,19 @@ do
 end
 
 function mod:FireballVolleyInterrupt(args)
-	self:Nameplate(444743, 15.7, args.destGUID)
+	if isElevenDotOne then
+		self:Nameplate(444743, 22.2, args.destGUID)
+	else -- XXX remove in 11.1
+		self:Nameplate(444743, 15.7, args.destGUID)
+	end
 end
 
 function mod:FireballVolleySuccess(args)
-	self:Nameplate(args.spellId, 15.7, args.sourceGUID)
+	if isElevenDotOne then
+		self:Nameplate(args.spellId, 22.2, args.sourceGUID)
+	else -- XXX remove in 11.1
+		self:Nameplate(444743, 15.7, args.destGUID)
+	end
 end
 
 function mod:RisenMageDeath(args)

@@ -1,18 +1,11 @@
 
 EventTraceSavedVars = {
 ["ShowTimestamp"] = true,
-["Size"] = {
-["Height"] = 678.9747314453125,
-["Width"] = 912.7440185546875,
-},
+["LogEventsWhenHidden"] = false,
 ["ShowArguments"] = true,
+["LogCREvents"] = true,
 ["Filters"] = {
 ["User"] = {
-{
-["enabled"] = true,
-["event"] = "ACTIONBAR_SLOT_CHANGED",
-["displayEvent"] = "ACTIONBAR_SLOT_CHANGED",
-},
 {
 ["enabled"] = true,
 ["event"] = "ACTIONBAR_UPDATE_COOLDOWN",
@@ -30,18 +23,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "ACTION_RANGE_CHECK_UPDATE",
-["displayEvent"] = "ACTION_RANGE_CHECK_UPDATE",
-},
-{
-["enabled"] = true,
 ["event"] = "ACTION_USABLE_CHANGED",
 ["displayEvent"] = "ACTION_USABLE_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "ADDON_LOADED",
-["displayEvent"] = "ADDON_LOADED",
 },
 {
 ["enabled"] = true,
@@ -50,18 +33,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "ARENA_COOLDOWNS_UPDATE",
-["displayEvent"] = "ARENA_COOLDOWNS_UPDATE",
-},
-{
-["enabled"] = true,
 ["event"] = "BAG_UPDATE_COOLDOWN",
 ["displayEvent"] = "BAG_UPDATE_COOLDOWN",
-},
-{
-["enabled"] = true,
-["event"] = "BN_FRIEND_ACCOUNT_OFFLINE",
-["displayEvent"] = "BN_FRIEND_ACCOUNT_OFFLINE",
 },
 {
 ["enabled"] = true,
@@ -70,8 +43,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "CHAT_MSG_BN_INLINE_TOAST_ALERT",
-["displayEvent"] = "CHAT_MSG_BN_INLINE_TOAST_ALERT",
+["event"] = "CHARACTERFRAME.SHOW",
+["displayEvent"] = "CharacterFrame.Show |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -80,13 +53,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "CHAT_MSG_RAID_BOSS_EMOTE",
-["displayEvent"] = "CHAT_MSG_RAID_BOSS_EMOTE",
+["event"] = "CHAT_MSG_CURRENCY",
+["displayEvent"] = "CHAT_MSG_CURRENCY",
 },
 {
 ["enabled"] = true,
-["event"] = "COMBAT_LOG_EVENT",
-["displayEvent"] = "COMBAT_LOG_EVENT",
+["event"] = "CHAT_MSG_SYSTEM",
+["displayEvent"] = "CHAT_MSG_SYSTEM",
+},
+{
+["enabled"] = true,
+["event"] = "CHAT_MSG_TRADESKILLS",
+["displayEvent"] = "CHAT_MSG_TRADESKILLS",
 },
 {
 ["enabled"] = true,
@@ -95,23 +73,53 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "COMBAT_RATING_UPDATE",
-["displayEvent"] = "COMBAT_RATING_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "COMBAT_TEXT_UPDATE",
-["displayEvent"] = "COMBAT_TEXT_UPDATE",
-},
-{
-["enabled"] = true,
 ["event"] = "COMPANION_UPDATE",
 ["displayEvent"] = "COMPANION_UPDATE",
 },
 {
 ["enabled"] = true,
+["event"] = "CONSOLE_MESSAGE",
+["displayEvent"] = "CONSOLE_MESSAGE",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.CLOSEALLBAGS",
+["displayEvent"] = "ContainerFrame.CloseAllBags |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.CLOSEBAG",
+["displayEvent"] = "ContainerFrame.CloseBag |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.ONSHOWTOKENWATCHER",
+["displayEvent"] = "ContainerFrame.OnShowTokenWatcher |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.OPENALLBAGS",
+["displayEvent"] = "ContainerFrame.OpenAllBags |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.OPENBAG",
+["displayEvent"] = "ContainerFrame.OpenBag |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
 ["event"] = "CRITERIA_UPDATE",
 ["displayEvent"] = "CRITERIA_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "CURRENCY_DISPLAY_UPDATE",
+["displayEvent"] = "CURRENCY_DISPLAY_UPDATE |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CURRENCY_TRANSFER_LOG_UPDATE",
+["displayEvent"] = "CURRENCY_TRANSFER_LOG_UPDATE",
 },
 {
 ["enabled"] = true,
@@ -121,7 +129,7 @@ EventTraceSavedVars = {
 {
 ["enabled"] = true,
 ["event"] = "CURSOR_CHANGED",
-["displayEvent"] = "CURSOR_CHANGED |cffffd100(CR)|r",
+["displayEvent"] = "CURSOR_CHANGED",
 },
 {
 ["enabled"] = true,
@@ -135,6 +143,11 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "GET_ITEM_INFO_RECEIVED",
+["displayEvent"] = "GET_ITEM_INFO_RECEIVED",
+},
+{
+["enabled"] = true,
 ["event"] = "GLOBAL_MOUSE_DOWN",
 ["displayEvent"] = "GLOBAL_MOUSE_DOWN |cffffd100(CR)|r",
 },
@@ -145,18 +158,43 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "GUILD_NEWS_UPDATE",
-["displayEvent"] = "GUILD_NEWS_UPDATE",
+["event"] = "ITEMBUTTON.UPDATEITEMCONTEXTMATCHING",
+["displayEvent"] = "ItemButton.UpdateItemContextMatching |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
-["event"] = "MASTERY_UPDATE",
-["displayEvent"] = "MASTERY_UPDATE",
+["event"] = "ITEM_DATA_LOAD_RESULT",
+["displayEvent"] = "ITEM_DATA_LOAD_RESULT",
 },
 {
 ["enabled"] = true,
-["event"] = "MINIMAP_PING",
-["displayEvent"] = "MINIMAP_PING",
+["event"] = "LFG_LOCK_INFO_RECEIVED",
+["displayEvent"] = "LFG_LOCK_INFO_RECEIVED",
+},
+{
+["enabled"] = true,
+["event"] = "LFG_QUEUE_STATUS_UPDATE",
+["displayEvent"] = "LFG_QUEUE_STATUS_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "LFG_UPDATE",
+["displayEvent"] = "LFG_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "LFG_UPDATE_RANDOM_INFO",
+["displayEvent"] = "LFG_UPDATE_RANDOM_INFO",
+},
+{
+["enabled"] = true,
+["event"] = "LOBBYMATCHMAKER.UPDATEQUEUESTATE",
+["displayEvent"] = "LobbyMatchmaker.UpdateQueueState |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "MODELSCENE.TRANSITIONTOMODELSCENEID",
+["displayEvent"] = "ModelScene.TransitionToModelSceneID |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -185,13 +223,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "PET_BAR_UPDATE_USABLE",
-["displayEvent"] = "PET_BAR_UPDATE_USABLE",
+["event"] = "PLAYER_DAMAGE_DONE_MODS",
+["displayEvent"] = "PLAYER_DAMAGE_DONE_MODS",
 },
 {
 ["enabled"] = true,
-["event"] = "PLAYER_DAMAGE_DONE_MODS",
-["displayEvent"] = "PLAYER_DAMAGE_DONE_MODS",
+["event"] = "PLAYER_INSIDE_QUEST_BLOB_STATE_CHANGED",
+["displayEvent"] = "PLAYER_INSIDE_QUEST_BLOB_STATE_CHANGED",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYER_SOFT_FRIEND_CHANGED",
+["displayEvent"] = "PLAYER_SOFT_FRIEND_CHANGED",
 },
 {
 ["enabled"] = true,
@@ -225,38 +268,33 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "PLAYER_TOTEM_UPDATE",
-["displayEvent"] = "PLAYER_TOTEM_UPDATE",
+["event"] = "PLAYER_TARGET_CHANGED",
+["displayEvent"] = "PLAYER_TARGET_CHANGED",
 },
 {
 ["enabled"] = true,
-["event"] = "RAID_BOSS_EMOTE",
-["displayEvent"] = "RAID_BOSS_EMOTE",
+["event"] = "PLUNDERSTORMQUEUETUTORIAL.UPDATE",
+["displayEvent"] = "PlunderstormQueueTutorial.Update |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
-["event"] = "SPELLS_CHANGED",
-["displayEvent"] = "SPELLS_CHANGED",
+["event"] = "PORTRAITS_UPDATED",
+["displayEvent"] = "PORTRAITS_UPDATED",
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_ACTIVATION_OVERLAY_GLOW_HIDE",
-["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_GLOW_HIDE",
+["event"] = "QUEUESTATUSBUTTON.ONSHOW",
+["displayEvent"] = "QueueStatusButton.OnShow |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_ACTIVATION_OVERLAY_GLOW_SHOW",
-["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_GLOW_SHOW",
+["event"] = "QUEUESTATUSUPDATE.QUEUESUPDATED",
+["displayEvent"] = "QueueStatusUpdate.QueuesUpdated |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
 ["event"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
 ["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
-},
-{
-["enabled"] = true,
-["event"] = "SPELL_ACTIVATION_OVERLAY_SHOW",
-["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_SHOW",
 },
 {
 ["enabled"] = true,
@@ -270,28 +308,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_UPDATE_ICON",
-["displayEvent"] = "SPELL_UPDATE_ICON",
-},
-{
-["enabled"] = true,
 ["event"] = "SPELL_UPDATE_USABLE",
 ["displayEvent"] = "SPELL_UPDATE_USABLE",
 },
 {
 ["enabled"] = true,
-["event"] = "UI_ERROR_MESSAGE",
-["displayEvent"] = "UI_ERROR_MESSAGE",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_ABSORB_AMOUNT_CHANGED",
-["displayEvent"] = "UNIT_ABSORB_AMOUNT_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_ATTACK_POWER",
-["displayEvent"] = "UNIT_ATTACK_POWER",
+["event"] = "UI_INFO_MESSAGE",
+["displayEvent"] = "UI_INFO_MESSAGE",
 },
 {
 ["enabled"] = true,
@@ -305,23 +328,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_COMBAT",
-["displayEvent"] = "UNIT_COMBAT",
+["event"] = "UNIT_MODEL_CHANGED",
+["displayEvent"] = "UNIT_MODEL_CHANGED",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_DAMAGE",
-["displayEvent"] = "UNIT_DAMAGE",
+["event"] = "UNIT_PORTRAIT_UPDATE",
+["displayEvent"] = "UNIT_PORTRAIT_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_HEALTH",
-["displayEvent"] = "UNIT_HEALTH",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_MAXHEALTH",
-["displayEvent"] = "UNIT_MAXHEALTH",
+["event"] = "UNIT_POWER_BAR_SHOW",
+["displayEvent"] = "UNIT_POWER_BAR_SHOW",
 },
 {
 ["enabled"] = true,
@@ -335,53 +353,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_RANGEDDAMAGE",
-["displayEvent"] = "UNIT_RANGEDDAMAGE",
-},
-{
-["enabled"] = true,
 ["event"] = "UNIT_RESISTANCES",
 ["displayEvent"] = "UNIT_RESISTANCES",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_DELAYED",
-["displayEvent"] = "UNIT_SPELLCAST_DELAYED",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_FAILED",
-["displayEvent"] = "UNIT_SPELLCAST_FAILED",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_FAILED_QUIET",
-["displayEvent"] = "UNIT_SPELLCAST_FAILED_QUIET",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_INTERRUPTED",
-["displayEvent"] = "UNIT_SPELLCAST_INTERRUPTED",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_RETICLE_TARGET",
-["displayEvent"] = "UNIT_SPELLCAST_RETICLE_TARGET",
-},
-{
-["enabled"] = true,
 ["event"] = "UNIT_SPELLCAST_SENT",
 ["displayEvent"] = "UNIT_SPELLCAST_SENT",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_START",
-["displayEvent"] = "UNIT_SPELLCAST_START",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_STOP",
-["displayEvent"] = "UNIT_SPELLCAST_STOP",
 },
 {
 ["enabled"] = true,
@@ -395,18 +373,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_STATS",
-["displayEvent"] = "UNIT_STATS",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_THREAT_LIST_UPDATE",
-["displayEvent"] = "UNIT_THREAT_LIST_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_THREAT_SITUATION_UPDATE",
-["displayEvent"] = "UNIT_THREAT_SITUATION_UPDATE",
+["event"] = "UNIT_TARGET",
+["displayEvent"] = "UNIT_TARGET",
 },
 {
 ["enabled"] = true,
@@ -420,11 +388,6 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UPDATE_SHAPESHIFT_COOLDOWN",
-["displayEvent"] = "UPDATE_SHAPESHIFT_COOLDOWN",
-},
-{
-["enabled"] = true,
 ["event"] = "UPDATE_UI_WIDGET",
 ["displayEvent"] = "UPDATE_UI_WIDGET",
 },
@@ -435,16 +398,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "VIGNETTE_MINIMAP_UPDATED",
-["displayEvent"] = "VIGNETTE_MINIMAP_UPDATED",
-},
-{
-["enabled"] = true,
 ["event"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 ["displayEvent"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 },
+{
+["enabled"] = true,
+["event"] = "ZONE_CHANGED",
+["displayEvent"] = "ZONE_CHANGED",
 },
 },
-["LogCREvents"] = true,
-["LogEventsWhenHidden"] = false,
+},
+["Size"] = {
+["Height"] = 678.9747314453125,
+["Width"] = 912.7440185546875,
+},
 }

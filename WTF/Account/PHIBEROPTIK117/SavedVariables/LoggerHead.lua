@@ -13,47 +13,49 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["The Stonevault"] = {
+true,
+false,
+},
+["The Dawnbreaker"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
+["Coilfang: The Underbog"] = {
+[24] = false,
+},
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
+},
 ["Stratholme"] = {
 [24] = true,
 },
 ["Magisters' Terrace"] = {
 [24] = true,
 },
-["The Dawnbreaker"] = {
-[23] = true,
-[8] = true,
+["Hellfire Citadel: The Blood Furnace"] = {
+[24] = false,
 },
 ["Grim Batol"] = {
 [2] = false,
 [23] = true,
 },
-["Auchindoun: Mana-Tombs"] = {
-[24] = false,
-},
-["City of Threads"] = {
-[8] = true,
-[2] = true,
-[23] = true,
-},
-["The Stonevault"] = {
-true,
-false,
-},
 ["Zul'Farrak"] = {
-[24] = true,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
-},
-["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["The Necrotic Wake"] = {
+[8] = true,
 [2] = false,
+[23] = true,
 },
 ["Mists of Tirna Scithe"] = {
-[23] = true,
 [8] = true,
+[2] = false,
+[23] = true,
 },
 ["Deadmines"] = {
 [24] = true,
@@ -61,8 +63,10 @@ false,
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["City of Threads"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 },
 ["scenario"] = {
@@ -72,16 +76,23 @@ false,
 ["The Dread Pit"] = {
 [208] = true,
 },
+["The Underkeep"] = {
+[208] = false,
+},
 ["Zekvir's Lair"] = {
 [208] = true,
 },
 },
 ["raid"] = {
+["Nerub-ar Palace"] = {
+[15] = true,
+[14] = true,
+},
 ["Black Temple"] = {
 [24] = false,
 },
-["Nerub-ar Palace"] = {
-[15] = true,
+["Antorus, the Burning Throne"] = {
+[16] = false,
 },
 },
 },

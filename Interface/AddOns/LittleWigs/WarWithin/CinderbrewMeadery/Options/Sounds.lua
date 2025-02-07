@@ -5,14 +5,14 @@ BigWigs:AddSounds("Brew Master Aldryr", {
 	[432196] = "underyou",
 	[432198] = "alarm",
 	[432229] = "alert",
-	[442525] = {"info","long"},
+	[442525] = "long",
 })
 
 BigWigs:AddSounds("I'pa", {
 	[439031] = "alert",
 	[439202] = "alert",
 	[439365] = "long",
-	[440147] = "alarm",
+	[440147] = "warning",
 	[441179] = "underyou",
 })
 
@@ -39,10 +39,13 @@ BigWigs:AddSounds("Cinderbrew Meadery Trash", {
 	[440876] = "alarm",
 	[441119] = "alarm",
 	[441179] = "underyou",
+	[441242] = "alert",
+	[441351] = "alert",
 	[441434] = "info",
 	[441627] = "alert",
 	[442589] = "alarm",
 	[442995] = "alert",
 	[448619] = "alarm",
 	[463206] = "alert",
+	[463218] = "info",
 })

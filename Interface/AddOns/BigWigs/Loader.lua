@@ -40,7 +40,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "6f4d234" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "91c9168" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -128,7 +128,7 @@ public.UnitIsDeadOrGhost = UnitIsDeadOrGhost
 public.UnitName = UnitName
 public.UnitSex = UnitSex
 public.UnitTokenFromGUID = UnitTokenFromGUID
-public.isTestBuild = GetCurrentRegion() == 72 -- PTR/beta
+public.isTestBuild = GetCurrentRegion() == 72 or GetCurrentRegion() == 90 -- PTR/beta
 do
 	local _, _, _, build = GetBuildInfo()
 	public.isBeta = build >= 120000

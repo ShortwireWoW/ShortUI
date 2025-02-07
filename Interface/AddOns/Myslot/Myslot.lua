@@ -398,7 +398,7 @@ function MySlot:Export(opt)
     end
 
     msg.petslot = {}
-    if not opt.ignorePetActionBar then
+    if not opt.ignorePetActionBar and IsPetActive() then
         for i = 1, NUM_PET_ACTION_SLOTS, 1 do
             local m = self:GetPetActionInfo(i)
             if m then
@@ -752,6 +752,14 @@ function MySlot:RecoverData(msg, opt)
                             end
                         end
 
+                        -- another fallback option - try to get base spell
+                        if not GetCursorInfo() and FindBaseSpellByID then
+                            local baseSpellId = FindBaseSpellByID(index)
+                            if baseSpellId then
+                                PickupSpell(baseSpellId)
+                            end
+                        end
+
                         if not GetCursorInfo() then
                             MySlot:Print(L["Ignore unlearned skill [id=%s], %s"]:format(index, GetSpellLink(index) or ""))
                         end
@@ -848,7 +856,7 @@ function MySlot:RecoverData(msg, opt)
     end
 
 
-    if not opt.actionOpt.ignorePetActionBar then
+    if not opt.actionOpt.ignorePetActionBar and IsPetActive() then
         local pettoken = {}
         for i = 1, NUM_PET_ACTION_SLOTS, 1 do
             local name, _, isToken = GetPetActionInfo(i)
