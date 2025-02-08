@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.0.7",
+},
 ["profileKeys"] = {
 ["Shortscales - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
@@ -12,16 +16,12 @@ OmniCCDB = {
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
-},
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.0.7",
+["Guildsigzzs - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -67,9 +67,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },
@@ -77,9 +77,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },

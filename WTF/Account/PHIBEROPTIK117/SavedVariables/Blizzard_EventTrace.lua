@@ -8,6 +8,11 @@ EventTraceSavedVars = {
 ["User"] = {
 {
 ["enabled"] = true,
+["event"] = "ACTIONBAR_SLOT_CHANGED",
+["displayEvent"] = "ACTIONBAR_SLOT_CHANGED",
+},
+{
+["enabled"] = true,
 ["event"] = "ACTIONBAR_UPDATE_COOLDOWN",
 ["displayEvent"] = "ACTIONBAR_UPDATE_COOLDOWN",
 },
@@ -33,38 +38,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "BAG_UPDATE_COOLDOWN",
-["displayEvent"] = "BAG_UPDATE_COOLDOWN",
-},
-{
-["enabled"] = true,
-["event"] = "BN_FRIEND_INFO_CHANGED",
-["displayEvent"] = "BN_FRIEND_INFO_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "CHARACTERFRAME.SHOW",
-["displayEvent"] = "CharacterFrame.Show |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_CHANNEL",
-["displayEvent"] = "CHAT_MSG_CHANNEL",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_CURRENCY",
-["displayEvent"] = "CHAT_MSG_CURRENCY",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_SYSTEM",
-["displayEvent"] = "CHAT_MSG_SYSTEM",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_TRADESKILLS",
-["displayEvent"] = "CHAT_MSG_TRADESKILLS",
+["event"] = "CHAT_MSG_ADDON",
+["displayEvent"] = "CHAT_MSG_ADDON",
 },
 {
 ["enabled"] = true,
@@ -73,53 +48,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "COMBAT_RATING_UPDATE",
+["displayEvent"] = "COMBAT_RATING_UPDATE",
+},
+{
+["enabled"] = true,
 ["event"] = "COMPANION_UPDATE",
 ["displayEvent"] = "COMPANION_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "CONSOLE_MESSAGE",
-["displayEvent"] = "CONSOLE_MESSAGE",
-},
-{
-["enabled"] = true,
-["event"] = "CONTAINERFRAME.CLOSEALLBAGS",
-["displayEvent"] = "ContainerFrame.CloseAllBags |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CONTAINERFRAME.CLOSEBAG",
-["displayEvent"] = "ContainerFrame.CloseBag |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CONTAINERFRAME.ONSHOWTOKENWATCHER",
-["displayEvent"] = "ContainerFrame.OnShowTokenWatcher |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CONTAINERFRAME.OPENALLBAGS",
-["displayEvent"] = "ContainerFrame.OpenAllBags |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CONTAINERFRAME.OPENBAG",
-["displayEvent"] = "ContainerFrame.OpenBag |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CRITERIA_UPDATE",
-["displayEvent"] = "CRITERIA_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "CURRENCY_DISPLAY_UPDATE",
-["displayEvent"] = "CURRENCY_DISPLAY_UPDATE |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "CURRENCY_TRANSFER_LOG_UPDATE",
-["displayEvent"] = "CURRENCY_TRANSFER_LOG_UPDATE",
 },
 {
 ["enabled"] = true,
@@ -129,22 +64,12 @@ EventTraceSavedVars = {
 {
 ["enabled"] = true,
 ["event"] = "CURSOR_CHANGED",
-["displayEvent"] = "CURSOR_CHANGED",
+["displayEvent"] = "CURSOR_CHANGED |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
 ["event"] = "FOG_OF_WAR_UPDATED",
 ["displayEvent"] = "FOG_OF_WAR_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "FRIENDSFRAME.ONFRIENDSONLINEUPDATED",
-["displayEvent"] = "FriendsFrame.OnFriendsOnlineUpdated |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "GET_ITEM_INFO_RECEIVED",
-["displayEvent"] = "GET_ITEM_INFO_RECEIVED",
 },
 {
 ["enabled"] = true,
@@ -158,43 +83,23 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "ITEMBUTTON.UPDATEITEMCONTEXTMATCHING",
-["displayEvent"] = "ItemButton.UpdateItemContextMatching |cffffd100(CR)|r",
+["event"] = "LFG_LIST_APPLICANT_LIST_UPDATED",
+["displayEvent"] = "LFG_LIST_APPLICANT_LIST_UPDATED",
 },
 {
 ["enabled"] = true,
-["event"] = "ITEM_DATA_LOAD_RESULT",
-["displayEvent"] = "ITEM_DATA_LOAD_RESULT",
+["event"] = "LFG_LIST_APPLICANT_UPDATED",
+["displayEvent"] = "LFG_LIST_APPLICANT_UPDATED",
 },
 {
 ["enabled"] = true,
-["event"] = "LFG_LOCK_INFO_RECEIVED",
-["displayEvent"] = "LFG_LOCK_INFO_RECEIVED",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_QUEUE_STATUS_UPDATE",
-["displayEvent"] = "LFG_QUEUE_STATUS_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_UPDATE",
-["displayEvent"] = "LFG_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_UPDATE_RANDOM_INFO",
-["displayEvent"] = "LFG_UPDATE_RANDOM_INFO",
+["event"] = "LFG_LIST_AVAILABILITY_UPDATE",
+["displayEvent"] = "LFG_LIST_AVAILABILITY_UPDATE",
 },
 {
 ["enabled"] = true,
 ["event"] = "LOBBYMATCHMAKER.UPDATEQUEUESTATE",
 ["displayEvent"] = "LobbyMatchmaker.UpdateQueueState |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "MODELSCENE.TRANSITIONTOMODELSCENEID",
-["displayEvent"] = "ModelScene.TransitionToModelSceneID |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -223,18 +128,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "PLAYER_CAN_GLIDE_CHANGED",
+["displayEvent"] = "PLAYER_CAN_GLIDE_CHANGED",
+},
+{
+["enabled"] = true,
 ["event"] = "PLAYER_DAMAGE_DONE_MODS",
 ["displayEvent"] = "PLAYER_DAMAGE_DONE_MODS",
 },
 {
 ["enabled"] = true,
-["event"] = "PLAYER_INSIDE_QUEST_BLOB_STATE_CHANGED",
-["displayEvent"] = "PLAYER_INSIDE_QUEST_BLOB_STATE_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "PLAYER_SOFT_FRIEND_CHANGED",
-["displayEvent"] = "PLAYER_SOFT_FRIEND_CHANGED",
+["event"] = "PLAYER_MOUNT_DISPLAY_CHANGED",
+["displayEvent"] = "PLAYER_MOUNT_DISPLAY_CHANGED",
 },
 {
 ["enabled"] = true,
@@ -268,23 +173,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "PLAYER_TARGET_CHANGED",
-["displayEvent"] = "PLAYER_TARGET_CHANGED",
-},
-{
-["enabled"] = true,
 ["event"] = "PLUNDERSTORMQUEUETUTORIAL.UPDATE",
 ["displayEvent"] = "PlunderstormQueueTutorial.Update |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "PORTRAITS_UPDATED",
-["displayEvent"] = "PORTRAITS_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "QUEUESTATUSBUTTON.ONSHOW",
-["displayEvent"] = "QueueStatusButton.OnShow |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -293,13 +183,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
-["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
+["event"] = "RECEIVED_ACHIEVEMENT_LIST",
+["displayEvent"] = "RECEIVED_ACHIEVEMENT_LIST",
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_UPDATE_CHARGES",
-["displayEvent"] = "SPELL_UPDATE_CHARGES",
+["event"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
+["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
 },
 {
 ["enabled"] = true,
@@ -313,8 +203,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UI_INFO_MESSAGE",
-["displayEvent"] = "UI_INFO_MESSAGE",
+["event"] = "UI_ERROR_MESSAGE",
+["displayEvent"] = "UI_ERROR_MESSAGE",
 },
 {
 ["enabled"] = true,
@@ -328,18 +218,23 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_MODEL_CHANGED",
-["displayEvent"] = "UNIT_MODEL_CHANGED",
+["event"] = "UNIT_DAMAGE",
+["displayEvent"] = "UNIT_DAMAGE",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_PORTRAIT_UPDATE",
-["displayEvent"] = "UNIT_PORTRAIT_UPDATE",
+["event"] = "UNIT_HEALTH",
+["displayEvent"] = "UNIT_HEALTH",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_POWER_BAR_SHOW",
-["displayEvent"] = "UNIT_POWER_BAR_SHOW",
+["event"] = "UNIT_MAXPOWER",
+["displayEvent"] = "UNIT_MAXPOWER",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_POWER_BAR_HIDE",
+["displayEvent"] = "UNIT_POWER_BAR_HIDE",
 },
 {
 ["enabled"] = true,
@@ -353,8 +248,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_RESISTANCES",
-["displayEvent"] = "UNIT_RESISTANCES",
+["event"] = "UNIT_RANGEDDAMAGE",
+["displayEvent"] = "UNIT_RANGEDDAMAGE",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_SPELLCAST_FAILED_QUIET",
+["displayEvent"] = "UNIT_SPELLCAST_FAILED_QUIET",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_SPELLCAST_INTERRUPTED",
+["displayEvent"] = "UNIT_SPELLCAST_INTERRUPTED",
 },
 {
 ["enabled"] = true,
@@ -363,8 +268,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_SUCCEEDED",
-["displayEvent"] = "UNIT_SPELLCAST_SUCCEEDED",
+["event"] = "UNIT_SPELLCAST_START",
+["displayEvent"] = "UNIT_SPELLCAST_START",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_SPELLCAST_STOP",
+["displayEvent"] = "UNIT_SPELLCAST_STOP",
 },
 {
 ["enabled"] = true,
@@ -373,13 +283,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_TARGET",
-["displayEvent"] = "UNIT_TARGET",
-},
-{
-["enabled"] = true,
-["event"] = "UPDATE_INVENTORY_DURABILITY",
-["displayEvent"] = "UPDATE_INVENTORY_DURABILITY",
+["event"] = "UPDATE_BONUS_ACTIONBAR",
+["displayEvent"] = "UPDATE_BONUS_ACTIONBAR",
 },
 {
 ["enabled"] = true,
@@ -400,11 +305,6 @@ EventTraceSavedVars = {
 ["enabled"] = true,
 ["event"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 ["displayEvent"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "ZONE_CHANGED",
-["displayEvent"] = "ZONE_CHANGED",
 },
 },
 },

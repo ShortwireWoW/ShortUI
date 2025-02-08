@@ -12,27 +12,18 @@ GottaGoFasterHistoryDB = {
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
+["Guildsigzzs - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["DayFix"] = true,
 ["History"] = {
 [353] = {
-["objectives"] = {
-"Chopper Redhook",
-"Dread Captain Lockwood",
-"Hadal Darkfathom",
-"Viq'Goth",
-"Enemy Forces",
-},
-["CmID"] = 353,
-["name"] = "Siege of Boralus",
 ["runs"] = {
 {
 ["corrupt"] = false,
@@ -49,17 +40,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 9,
 ["month"] = 1,
 ["hours"] = 22,
-["year"] = 2025,
 ["mins"] = 10,
-},
-["level"] = 3,
-["startTime"] = 6501.413000000001,
-["objectiveTimes"] = {
-"05:49.448",
-"11:18.285",
-"18:33.246",
-"22:18.892",
-"16:19.466",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -88,6 +70,15 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
+["startTime"] = 6501.413000000001,
+["objectiveTimes"] = {
+"05:49.448",
+"11:18.285",
+"18:33.246",
+"22:18.892",
+"16:19.466",
+},
+["level"] = 3,
 },
 {
 ["corrupt"] = false,
@@ -108,17 +99,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 11,
 ["month"] = 1,
 ["hours"] = 23,
-["year"] = 2025,
 ["mins"] = 43,
-},
-["startTime"] = 8676.892,
-["level"] = 5,
-["objectiveTimes"] = {
-"10:33.627",
-"16:03.924",
-"23:38.617",
-"27:26.552",
-"21:20.060",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -147,6 +129,15 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
+["level"] = 5,
+["objectiveTimes"] = {
+"10:33.627",
+"16:03.924",
+"23:38.617",
+"27:26.552",
+"21:20.060",
+},
+["startTime"] = 8676.892,
 },
 {
 ["corrupt"] = false,
@@ -163,8 +154,17 @@ GottaGoFasterHistoryDB = {
 ["day"] = 22,
 ["month"] = 1,
 ["hours"] = 23,
-["mins"] = 47,
 ["year"] = 2025,
+["mins"] = 47,
+},
+["startTime"] = 6107.388,
+["level"] = 2,
+["objectiveTimes"] = {
+"09:21.823",
+"18:16.370",
+"30:40.627",
+"38:14.272",
+"22:27.247",
 },
 ["players"] = {
 {
@@ -193,19 +193,27 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 6107.388,
-["objectiveTimes"] = {
-"09:21.823",
-"18:16.370",
-"30:40.627",
-"38:14.272",
-"22:27.247",
 },
-["level"] = 2,
 },
+["name"] = "Siege of Boralus",
+["CmID"] = 353,
+["objectives"] = {
+"Chopper Redhook",
+"Dread Captain Lockwood",
+"Hadal Darkfathom",
+"Viq'Goth",
+"Enemy Forces",
 },
 },
 [375] = {
+["objectives"] = {
+"Ingra Maloch",
+"Mistcaller",
+"Tred'ova",
+"Enemy Forces",
+},
+["CmID"] = 375,
+["name"] = "Mists of Tirna Scithe",
 ["runs"] = {
 {
 ["corrupt"] = false,
@@ -222,8 +230,16 @@ GottaGoFasterHistoryDB = {
 ["day"] = 9,
 ["month"] = 1,
 ["hours"] = 23,
-["mins"] = 44,
 ["year"] = 2025,
+["mins"] = 44,
+},
+["startTime"] = 12560.399,
+["level"] = 2,
+["objectiveTimes"] = {
+"03:11.981",
+"09:29.145",
+"14:33.838",
+"13:27.536",
 },
 ["players"] = {
 {
@@ -252,14 +268,6 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 12560.399,
-["objectiveTimes"] = {
-"03:11.981",
-"09:29.145",
-"14:33.838",
-"13:27.536",
-},
-["level"] = 2,
 },
 {
 ["corrupt"] = false,
@@ -284,16 +292,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 11,
 ["month"] = 1,
 ["hours"] = 22,
-["year"] = 2025,
 ["mins"] = 28,
-},
-["startTime"] = 3585.933,
-["level"] = 7,
-["objectiveTimes"] = {
-"07:30.983",
-"30:25.183",
-"37:37.336",
-"34:06.325",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -322,6 +322,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
+["level"] = 7,
+["objectiveTimes"] = {
+"07:30.983",
+"30:25.183",
+"37:37.336",
+"34:06.325",
+},
+["startTime"] = 3585.933,
 },
 {
 ["corrupt"] = false,
@@ -338,16 +346,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 6,
 ["month"] = 2,
 ["hours"] = 21,
-["year"] = 2025,
 ["mins"] = 37,
-},
-["startTime"] = 10583.438,
-["level"] = 2,
-["objectiveTimes"] = {
-"04:41.914",
-"13:02.691",
-"18:26.932",
-"20:30.694",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -376,18 +376,85 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
+["level"] = 2,
+["objectiveTimes"] = {
+"04:41.914",
+"13:02.691",
+"18:26.932",
+"20:30.694",
+},
+["startTime"] = 10583.438,
+},
+{
+["corrupt"] = false,
+["deaths"] = 13,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
 },
 },
-["name"] = "Mists of Tirna Scithe",
-["CmID"] = 375,
-["objectives"] = {
-"Ingra Maloch",
-"Mistcaller",
-"Tred'ova",
-"Enemy Forces",
+["active"] = false,
+["endTime"] = 33168.085,
+["timeStamp"] = {
+["day"] = 8,
+["month"] = 2,
+["hours"] = 1,
+["mins"] = 13,
+["year"] = 2025,
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Dusbro",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Sylorä (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Megadabs (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Death Knight",
+["name"] = "Noireghoul (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Demon Hunter",
+["name"] = "Shortsited",
+["role"] = "TANK",
+},
+},
+["level"] = 6,
+["objectiveTimes"] = {
+"06:33.928",
+"22:55.459",
+"30:21.215",
+"30:44.381",
+},
+["startTime"] = 31388.471,
+},
 },
 },
 [376] = {
+["objectives"] = {
+"Blightbone",
+"Amarth",
+"Surgeon Stitchflesh",
+"Nalthor the Rimebinder",
+"Enemy Forces",
+},
+["CmID"] = 376,
+["name"] = "The Necrotic Wake",
 ["runs"] = {
 {
 ["corrupt"] = false,
@@ -404,8 +471,17 @@ GottaGoFasterHistoryDB = {
 ["day"] = 9,
 ["month"] = 1,
 ["hours"] = 22,
-["mins"] = 53,
 ["year"] = 2025,
+["mins"] = 53,
+},
+["startTime"] = 9172.32,
+["level"] = 3,
+["objectiveTimes"] = {
+"03:41.779",
+"11:29.370",
+"17:03.665",
+"19:14.128",
+"14:57.428",
 },
 ["players"] = {
 {
@@ -434,36 +510,124 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 9172.32,
-["objectiveTimes"] = {
-"03:41.779",
-"11:29.370",
-"17:03.665",
-"19:14.128",
-"14:57.428",
+},
+{
+["corrupt"] = false,
+["deaths"] = 2,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+},
+["active"] = false,
+["endTime"] = 27475.663,
+["timeStamp"] = {
+["day"] = 7,
+["month"] = 2,
+["hours"] = 23,
+["mins"] = 38,
+["year"] = 2025,
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Dusbro",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Sylorä (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Iciaroyalx (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Priest",
+["name"] = "Guwy (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Demon Hunter",
+["name"] = "Shortsited",
+["role"] = "TANK",
+},
 },
 ["level"] = 3,
+["objectiveTimes"] = {
+"03:31.708",
+"10:56.934",
+"17:45.464",
+"20:06.464",
+"21:19.985",
+},
+["startTime"] = 26205.484,
+},
+{
+["corrupt"] = false,
+["deaths"] = 16,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
 },
 },
-["name"] = "The Necrotic Wake",
-["CmID"] = 376,
-["objectives"] = {
-"Blightbone",
-"Amarth",
-"Surgeon Stitchflesh",
-"Nalthor the Rimebinder",
-"Enemy Forces",
+["active"] = false,
+["endTime"] = 30423.515,
+["timeStamp"] = {
+["day"] = 8,
+["month"] = 2,
+["hours"] = 0,
+["mins"] = 28,
+["year"] = 2025,
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Dusbro",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Sylorä (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Megadabs (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Monk",
+["name"] = "Saucysauce (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Demon Hunter",
+["name"] = "Shortsited",
+["role"] = "TANK",
+},
+},
+["level"] = 5,
+["objectiveTimes"] = {
+"09:03.394",
+"16:56.442",
+"23:31.421",
+"26:09.556",
+"26:34.816",
+},
+["startTime"] = 28908.481,
+},
 },
 },
 [503] = {
-["objectives"] = {
-"Avanoxx Defeated",
-"Anub'zekt Defeated",
-"Ki'katal the Harvester Defeated",
-"Enemy Forces",
-},
-["CmID"] = 503,
-["name"] = "Ara-Kara, City of Echoes",
 ["runs"] = {
 {
 ["corrupt"] = true,
@@ -484,16 +648,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 12,
 ["month"] = 1,
 ["hours"] = 21,
-["year"] = 2025,
 ["mins"] = 28,
-},
-["level"] = 5,
-["startTime"] = 87169.118,
-["objectiveTimes"] = {
-"?",
-"?",
-"23:30",
-"24:09",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -522,6 +678,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
+["startTime"] = 87169.118,
+["objectiveTimes"] = {
+"?",
+"?",
+"23:30",
+"24:09",
+},
+["level"] = 5,
 },
 {
 ["corrupt"] = false,
@@ -542,8 +706,16 @@ GottaGoFasterHistoryDB = {
 ["day"] = 13,
 ["month"] = 1,
 ["hours"] = 20,
-["mins"] = 0,
 ["year"] = 2025,
+["mins"] = 0,
+},
+["startTime"] = 168781.505,
+["level"] = 4,
+["objectiveTimes"] = {
+"04:50.437",
+"11:00.893",
+"14:55.348",
+"12:36.783",
 },
 ["players"] = {
 {
@@ -572,579 +744,18 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 168781.505,
-["objectiveTimes"] = {
-"04:50.437",
-"11:00.893",
-"14:55.348",
-"12:36.783",
-},
-["level"] = 4,
 },
 },
-},
-[502] = {
-["runs"] = {
-{
-["corrupt"] = false,
-["deaths"] = 2,
-["affixes"] = {
-[148] = {
-["name"] = "Xal'atath's Bargain: Ascendant",
-["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-},
-[9] = {
-["name"] = "Tyrannical",
-["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-},
-},
-["active"] = false,
-["endTime"] = 168414.548,
-["timeStamp"] = {
-["day"] = 13,
-["month"] = 1,
-["hours"] = 19,
-["mins"] = 40,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Monk",
-["name"] = "Monkfunk",
-["role"] = "TANK",
-},
-{
-["class"] = "Paladin",
-["name"] = "Eferwgwergew (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Paladin",
-["name"] = "Kaimere (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Druid",
-["name"] = "Treeninja (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Shaman",
-["name"] = "Shortwire",
-["role"] = "DAMAGER",
-},
-},
-["startTime"] = 167293.551,
-["objectiveTimes"] = {
-"03:30.260",
-"10:39.229",
-"15:30.778",
-"18:50.780",
-"16:48.033",
-},
-["level"] = 4,
-},
-{
-["corrupt"] = false,
-["deaths"] = 21,
-["affixes"] = {
-[160] = {
-["name"] = "Xal'atath's Bargain: Devour",
-["desc"] = "While in combat, Xal'atath tears open rifts that devour the essence of players.",
-},
-},
-["active"] = false,
-["endTime"] = 118072.412,
-["timeStamp"] = {
-["day"] = 3,
-["month"] = 2,
-["hours"] = 23,
-["year"] = 2025,
-["mins"] = 8,
-},
-["level"] = 3,
-["startTime"] = 115532.808,
-["objectiveTimes"] = {
-"04:47.589",
-"13:42.308",
-"27:08.609",
-"44:04.473",
-"32:00.580",
-},
-["players"] = {
-{
-["class"] = "Priest",
-["name"] = "Lightgoober (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Warlock",
-["name"] = "Blazzle (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Paladin",
-["name"] = "Dusbro (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Mage",
-["name"] = "Mechawiz (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Monk",
-["name"] = "Shortbeef",
-["role"] = "TANK",
-},
-},
-},
-},
-["name"] = "City of Threads",
-["CmID"] = 502,
+["name"] = "Ara-Kara, City of Echoes",
+["CmID"] = 503,
 ["objectives"] = {
-"Orator Krix'vizk",
-"Fangs of the Queen",
-"The Coaglamation",
-"Izo, the Grand Splicer",
-"Enemy Forces",
-},
-},
-[505] = {
-["runs"] = {
-{
-["corrupt"] = false,
-["deaths"] = 6,
-["affixes"] = {
-[148] = {
-["name"] = "Xal'atath's Bargain: Ascendant",
-["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-},
-},
-["active"] = false,
-["endTime"] = 11681.511,
-["timeStamp"] = {
-["day"] = 9,
-["month"] = 1,
-["hours"] = 23,
-["mins"] = 15,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Rogue",
-["name"] = "Nickyknives (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Monk",
-["name"] = "Bootibrew (*)",
-["role"] = "TANK",
-},
-{
-["class"] = "Druid",
-["name"] = "Critch (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Paladin",
-["name"] = "Datbubblelol (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Shaman",
-["name"] = "Shortwire",
-["role"] = "DAMAGER",
-},
-},
-["startTime"] = 10662.33,
-["objectiveTimes"] = {
-"05:18.483",
-"12:33.327",
-"17:28.945",
-"14:54.433",
-},
-["level"] = 2,
-},
-{
-["corrupt"] = false,
-["deaths"] = 12,
-["affixes"] = {
-[159] = {
-["name"] = "Xal'atath's Bargain: Oblivion",
-["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
-},
-[10] = {
-["name"] = "Fortified",
-["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-},
-},
-["active"] = false,
-["endTime"] = 150552.002,
-["timeStamp"] = {
-["day"] = 15,
-["month"] = 1,
-["hours"] = 13,
-["year"] = 2025,
-["mins"] = 55,
-},
-["level"] = 6,
-["startTime"] = 149310.535,
-["objectiveTimes"] = {
-"05:49.960",
-"17:22.928",
-"21:41.312",
-"18:49.874",
-},
-["players"] = {
-{
-["class"] = "Druid",
-["name"] = "Treeninja (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Priest",
-["name"] = "Lasanta (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Warrior",
-["name"] = "Shocalibur (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Monk",
-["name"] = "Pspspss (*)",
-["role"] = "TANK",
-},
-{
-["class"] = "Shaman",
-["name"] = "Shortwire",
-["role"] = "DAMAGER",
-},
-},
-},
-{
-["corrupt"] = true,
-["deaths"] = 12,
-["affixes"] = {
-[159] = {
-["name"] = "Xal'atath's Bargain: Oblivion",
-["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
-},
-},
-["active"] = false,
-["endTime"] = 169439.973,
-["timeStamp"] = {
-["day"] = 20,
-["month"] = 1,
-["hours"] = 21,
-["mins"] = 21,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Warlock",
-["name"] = "Riddïm",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Mage",
-["name"] = "Qbm (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Hunter",
-["name"] = "Flexioni (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Priest",
-["name"] = "Darkyara (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Paladin",
-["name"] = "Shortlite",
-["role"] = "TANK",
-},
-},
-["startTime"] = 169439.973,
-["objectiveTimes"] = {
-"09:34",
-"18:43",
-"00:00",
-"20:07",
-},
-["level"] = 2,
-},
-{
-["corrupt"] = false,
-["deaths"] = 13,
-["affixes"] = {
-[159] = {
-["name"] = "Xal'atath's Bargain: Oblivion",
-["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
-},
-[9] = {
-["name"] = "Tyrannical",
-["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-},
-},
-["active"] = false,
-["endTime"] = 39186.659,
-["timeStamp"] = {
-["day"] = 4,
-["month"] = 2,
-["hours"] = 22,
-["mins"] = 27,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Paladin",
-["name"] = "Dusbro (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Warlock",
-["name"] = "Tanok (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Death Knight",
-["name"] = "Tufftuft (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Monk",
-["name"] = "Mastagrey (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Monk",
-["name"] = "Shortbeef",
-["role"] = "TANK",
-},
-},
-["startTime"] = 37720.244,
-["objectiveTimes"] = {
-"07:31.404",
-"16:50.750",
-"24:36.143",
-"25:31.143",
-},
-["level"] = 4,
-},
-{
-["corrupt"] = false,
-["deaths"] = 1,
-["affixes"] = {
-[159] = {
-["name"] = "Xal'atath's Bargain: Oblivion",
-["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
-},
-},
-["active"] = false,
-["endTime"] = 41870.574,
-["timeStamp"] = {
-["day"] = 4,
-["month"] = 2,
-["hours"] = 23,
-["mins"] = 11,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Paladin",
-["name"] = "Dusbro (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Mage",
-["name"] = "Sylorä (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Death Knight",
-["name"] = "Acheilos (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Monk",
-["name"] = "Goobermonk (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Monk",
-["name"] = "Shortbeef",
-["role"] = "TANK",
-},
-},
-["startTime"] = 41015.238,
-["objectiveTimes"] = {
-"04:49.182",
-"11:07.117",
-"14:20.076",
-"12:01.731",
-},
-["level"] = 2,
-},
-},
-["name"] = "The Dawnbreaker",
-["CmID"] = 505,
-["objectives"] = {
-"Shadowcrown Defeated",
-"Anub'ikkaj Defeated",
-"Rasha'nan Defeated",
-"Enemy Forces",
-},
-},
-[507] = {
-["runs"] = {
-{
-["corrupt"] = false,
-["deaths"] = 10,
-["affixes"] = {
-[148] = {
-["name"] = "Xal'atath's Bargain: Ascendant",
-["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-},
-[9] = {
-["name"] = "Tyrannical",
-["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-},
-},
-["active"] = false,
-["endTime"] = 30587.311,
-["timeStamp"] = {
-["day"] = 10,
-["month"] = 1,
-["hours"] = 15,
-["mins"] = 35,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Paladin",
-["name"] = "Vinevra (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Shaman",
-["name"] = "Silavi (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Demon Hunter",
-["name"] = "Hakaijutsu",
-["role"] = "TANK",
-},
-{
-["class"] = "Shaman",
-["name"] = "Phuyx (*)",
-["role"] = "HEALER",
-},
-{
-["class"] = "Shaman",
-["name"] = "Shortwire",
-["role"] = "DAMAGER",
-},
-},
-["startTime"] = 28375.277,
-["objectiveTimes"] = {
-"07:52.196",
-"12:54.774",
-"30:37.030",
-"37:41.817",
-"34:46.052",
-},
-["level"] = 5,
-},
-{
-["corrupt"] = false,
-["deaths"] = 18,
-["affixes"] = {
-[152] = {
-["name"] = "Challenger's Peril",
-["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
-},
-[9] = {
-["name"] = "Tyrannical",
-["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-},
-[148] = {
-["name"] = "Xal'atath's Bargain: Ascendant",
-["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-},
-},
-["active"] = false,
-["endTime"] = 21369.293,
-["timeStamp"] = {
-["day"] = 11,
-["month"] = 1,
-["hours"] = 2,
-["mins"] = 29,
-["year"] = 2025,
-},
-["players"] = {
-{
-["class"] = "Paladin",
-["name"] = "Seraphiel (*)",
-["role"] = "TANK",
-},
-{
-["class"] = "Priest",
-["name"] = "Anòra",
-["role"] = "HEALER",
-},
-{
-["class"] = "Priest",
-["name"] = "Cappincorspe",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Paladin",
-["name"] = "Datbubblelol (*)",
-["role"] = "DAMAGER",
-},
-{
-["class"] = "Shaman",
-["name"] = "Shortwire",
-["role"] = "DAMAGER",
-},
-},
-["level"] = 8,
-["objectiveTimes"] = {
-"09:43.107",
-"20:56.410",
-"40:25.315",
-"68:32.295",
-"70:38.822",
-},
-["startTime"] = 17220.369,
-},
-},
-["name"] = "Grim Batol",
-["CmID"] = 507,
-["objectives"] = {
-"General Umbriss",
-"Forgemaster Throngus",
-"Drahga Shadowburner",
-"Erudax, the Duke of Below",
+"Avanoxx Defeated",
+"Anub'zekt Defeated",
+"Ki'katal the Harvester Defeated",
 "Enemy Forces",
 },
 },
 [501] = {
-["objectives"] = {
-"E.D.N.A. Defeated",
-"Skarmorak Defeated",
-"Forge Speakers Defeated",
-"Void Speaker Eirich Defeated",
-"Enemy Forces",
-},
-["CmID"] = 501,
-["name"] = "The Stonevault",
 ["runs"] = {
 {
 ["corrupt"] = false,
@@ -1161,17 +772,8 @@ GottaGoFasterHistoryDB = {
 ["day"] = 11,
 ["month"] = 1,
 ["hours"] = 23,
-["year"] = 2025,
 ["mins"] = 8,
-},
-["startTime"] = 7149.947,
-["level"] = 2,
-["objectiveTimes"] = {
-"03:32.054",
-"12:29.828",
-"07:24.358",
-"16:45.707",
-"15:51.238",
+["year"] = 2025,
 },
 ["players"] = {
 {
@@ -1200,6 +802,576 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
+["level"] = 2,
+["objectiveTimes"] = {
+"03:32.054",
+"12:29.828",
+"07:24.358",
+"16:45.707",
+"15:51.238",
+},
+["startTime"] = 7149.947,
+},
+},
+["name"] = "The Stonevault",
+["CmID"] = 501,
+["objectives"] = {
+"E.D.N.A. Defeated",
+"Skarmorak Defeated",
+"Forge Speakers Defeated",
+"Void Speaker Eirich Defeated",
+"Enemy Forces",
+},
+},
+[505] = {
+["objectives"] = {
+"Shadowcrown Defeated",
+"Anub'ikkaj Defeated",
+"Rasha'nan Defeated",
+"Enemy Forces",
+},
+["CmID"] = 505,
+["name"] = "The Dawnbreaker",
+["runs"] = {
+{
+["corrupt"] = false,
+["deaths"] = 6,
+["affixes"] = {
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+},
+["active"] = false,
+["endTime"] = 11681.511,
+["timeStamp"] = {
+["day"] = 9,
+["month"] = 1,
+["hours"] = 23,
+["year"] = 2025,
+["mins"] = 15,
+},
+["startTime"] = 10662.33,
+["level"] = 2,
+["objectiveTimes"] = {
+"05:18.483",
+"12:33.327",
+"17:28.945",
+"14:54.433",
+},
+["players"] = {
+{
+["class"] = "Rogue",
+["name"] = "Nickyknives (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Bootibrew (*)",
+["role"] = "TANK",
+},
+{
+["class"] = "Druid",
+["name"] = "Critch (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Datbubblelol (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 12,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+},
+},
+["active"] = false,
+["endTime"] = 150552.002,
+["timeStamp"] = {
+["day"] = 15,
+["month"] = 1,
+["hours"] = 13,
+["mins"] = 55,
+["year"] = 2025,
+},
+["players"] = {
+{
+["class"] = "Druid",
+["name"] = "Treeninja (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Priest",
+["name"] = "Lasanta (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Warrior",
+["name"] = "Shocalibur (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Pspspss (*)",
+["role"] = "TANK",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+["startTime"] = 149310.535,
+["objectiveTimes"] = {
+"05:49.960",
+"17:22.928",
+"21:41.312",
+"18:49.874",
+},
+["level"] = 6,
+},
+{
+["corrupt"] = true,
+["deaths"] = 12,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+},
+["active"] = false,
+["endTime"] = 169439.973,
+["timeStamp"] = {
+["day"] = 20,
+["month"] = 1,
+["hours"] = 21,
+["year"] = 2025,
+["mins"] = 21,
+},
+["startTime"] = 169439.973,
+["level"] = 2,
+["objectiveTimes"] = {
+"09:34",
+"18:43",
+"00:00",
+"20:07",
+},
+["players"] = {
+{
+["class"] = "Warlock",
+["name"] = "Riddïm",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Qbm (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Hunter",
+["name"] = "Flexioni (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Priest",
+["name"] = "Darkyara (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Shortlite",
+["role"] = "TANK",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 13,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+},
+["active"] = false,
+["endTime"] = 39186.659,
+["timeStamp"] = {
+["day"] = 4,
+["month"] = 2,
+["hours"] = 22,
+["year"] = 2025,
+["mins"] = 27,
+},
+["startTime"] = 37720.244,
+["level"] = 4,
+["objectiveTimes"] = {
+"07:31.404",
+"16:50.750",
+"24:36.143",
+"25:31.143",
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Dusbro (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Tanok (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Death Knight",
+["name"] = "Tufftuft (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Mastagrey (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Monk",
+["name"] = "Shortbeef",
+["role"] = "TANK",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 1,
+["affixes"] = {
+[159] = {
+["name"] = "Xal'atath's Bargain: Oblivion",
+["desc"] = "While in combat, Xal'atath manifests crystals from the void that can be absorbed by enemies or players.",
+},
+},
+["active"] = false,
+["endTime"] = 41870.574,
+["timeStamp"] = {
+["day"] = 4,
+["month"] = 2,
+["hours"] = 23,
+["year"] = 2025,
+["mins"] = 11,
+},
+["startTime"] = 41015.238,
+["level"] = 2,
+["objectiveTimes"] = {
+"04:49.182",
+"11:07.117",
+"14:20.076",
+"12:01.731",
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Dusbro (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Sylorä (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Death Knight",
+["name"] = "Acheilos (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Goobermonk (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Monk",
+["name"] = "Shortbeef",
+["role"] = "TANK",
+},
+},
+},
+},
+},
+[507] = {
+["objectives"] = {
+"General Umbriss",
+"Forgemaster Throngus",
+"Drahga Shadowburner",
+"Erudax, the Duke of Below",
+"Enemy Forces",
+},
+["CmID"] = 507,
+["name"] = "Grim Batol",
+["runs"] = {
+{
+["corrupt"] = false,
+["deaths"] = 10,
+["affixes"] = {
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+},
+["active"] = false,
+["endTime"] = 30587.311,
+["timeStamp"] = {
+["day"] = 10,
+["month"] = 1,
+["hours"] = 15,
+["year"] = 2025,
+["mins"] = 35,
+},
+["startTime"] = 28375.277,
+["level"] = 5,
+["objectiveTimes"] = {
+"07:52.196",
+"12:54.774",
+"30:37.030",
+"37:41.817",
+"34:46.052",
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Vinevra (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Silavi (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Demon Hunter",
+["name"] = "Hakaijutsu",
+["role"] = "TANK",
+},
+{
+["class"] = "Shaman",
+["name"] = "Phuyx (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 18,
+["affixes"] = {
+[152] = {
+["name"] = "Challenger's Peril",
+["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+},
+["active"] = false,
+["endTime"] = 21369.293,
+["timeStamp"] = {
+["day"] = 11,
+["month"] = 1,
+["hours"] = 2,
+["year"] = 2025,
+["mins"] = 29,
+},
+["level"] = 8,
+["startTime"] = 17220.369,
+["objectiveTimes"] = {
+"09:43.107",
+"20:56.410",
+"40:25.315",
+"68:32.295",
+"70:38.822",
+},
+["players"] = {
+{
+["class"] = "Paladin",
+["name"] = "Seraphiel (*)",
+["role"] = "TANK",
+},
+{
+["class"] = "Priest",
+["name"] = "Anòra",
+["role"] = "HEALER",
+},
+{
+["class"] = "Priest",
+["name"] = "Cappincorspe",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Datbubblelol (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+},
+},
+[502] = {
+["objectives"] = {
+"Orator Krix'vizk",
+"Fangs of the Queen",
+"The Coaglamation",
+"Izo, the Grand Splicer",
+"Enemy Forces",
+},
+["CmID"] = 502,
+["name"] = "City of Threads",
+["runs"] = {
+{
+["corrupt"] = false,
+["deaths"] = 2,
+["affixes"] = {
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+},
+["active"] = false,
+["endTime"] = 168414.548,
+["timeStamp"] = {
+["day"] = 13,
+["month"] = 1,
+["hours"] = 19,
+["year"] = 2025,
+["mins"] = 40,
+},
+["startTime"] = 167293.551,
+["level"] = 4,
+["objectiveTimes"] = {
+"03:30.260",
+"10:39.229",
+"15:30.778",
+"18:50.780",
+"16:48.033",
+},
+["players"] = {
+{
+["class"] = "Monk",
+["name"] = "Monkfunk",
+["role"] = "TANK",
+},
+{
+["class"] = "Paladin",
+["name"] = "Eferwgwergew (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Kaimere (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Druid",
+["name"] = "Treeninja (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 21,
+["affixes"] = {
+[160] = {
+["name"] = "Xal'atath's Bargain: Devour",
+["desc"] = "While in combat, Xal'atath tears open rifts that devour the essence of players.",
+},
+},
+["active"] = false,
+["endTime"] = 118072.412,
+["timeStamp"] = {
+["day"] = 3,
+["month"] = 2,
+["hours"] = 23,
+["mins"] = 8,
+["year"] = 2025,
+},
+["players"] = {
+{
+["class"] = "Priest",
+["name"] = "Lightgoober (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Blazzle (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Dusbro (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Mage",
+["name"] = "Mechawiz (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Shortbeef",
+["role"] = "TANK",
+},
+},
+["startTime"] = 115532.808,
+["objectiveTimes"] = {
+"04:47.589",
+"13:42.308",
+"27:08.609",
+"44:04.473",
+"32:00.580",
+},
+["level"] = 3,
 },
 },
 },

@@ -20,6 +20,16 @@ END
 VER 3 0000000000000063 "Mail" "443375"
 /use Katy's Stampwhistle
 END
+VER 3 000000000000006A "Mist Maze" "644389"
+/run BattlefieldMapFrame:Show()
+/run BattlefieldMapFrame:SetScale(1.5)
+/run BattlefieldMapFrame:InstantPanAndZoom(0.65, 0.6, 0.35)
+/cleartarget
+/tar Mistcaller
+/tar Mistveil Matria
+/tar Mistveil Nightb
+/tar Mistveil Gorgeg
+END
 VER 3 0000000000000037 "Mount" "134400"
 #show
 /stopmacro [flying]
