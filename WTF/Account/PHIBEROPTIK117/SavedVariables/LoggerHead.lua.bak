@@ -1,10 +1,14 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Dagdese - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -13,12 +17,12 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
 ["The Stonevault"] = {
 true,
 false,
-},
-["Tempest Keep: The Botanica"] = {
-[24] = false,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
@@ -31,10 +35,8 @@ false,
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["City of Threads"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Stratholme"] = {
+[24] = true,
 },
 ["Magisters' Terrace"] = {
 [24] = true,
@@ -65,8 +67,10 @@ false,
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["City of Threads"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 },
 ["scenario"] = {
@@ -85,8 +89,9 @@ false,
 },
 ["raid"] = {
 ["Nerub-ar Palace"] = {
-[15] = true,
 [14] = true,
+[16] = true,
+[15] = true,
 },
 ["Black Temple"] = {
 [24] = false,

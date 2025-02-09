@@ -37,7 +37,7 @@ Screenshots/
 # RaiderIO updates their Database every day, we do NOT want to store this 135mb+ file.
 Interface/AddOns/RaiderIO/db
 Interface/AddOns/RaiderIO/db/*
-Interface/AddOns/SharedMedia_Robosaurus/
+Interface/AddOns/guess/
 
 # Random Blizzard Files
 .flavor.info

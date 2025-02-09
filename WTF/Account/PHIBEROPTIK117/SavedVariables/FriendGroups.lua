@@ -16,7 +16,6 @@ FriendGroups_SavedVars = {
 ["hide_empty_groups"] = false,
 ["sort_by_status"] = false,
 ["collapsed"] = {
-["[No Group]"] = false,
 ["Incoherent Screaming"] = true,
 ["Pirate Idiots"] = false,
 },

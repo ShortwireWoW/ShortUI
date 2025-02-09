@@ -2,6 +2,7 @@
 OmniCCDB = {
 ["profileKeys"] = {
 ["Shortscales - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Bighealnrg - Stormrage"] = "Default",
 ["Raidmates - Tichondrius"] = "Default",
@@ -14,10 +15,11 @@ OmniCCDB = {
 ["Shortlite - Stormrage"] = "Default",
 ["Stonesoup - Area 52"] = "Default",
 ["Guildsigzzs - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
 ["Lildotnrg - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["global"] = {
 ["dbVersion"] = 6,

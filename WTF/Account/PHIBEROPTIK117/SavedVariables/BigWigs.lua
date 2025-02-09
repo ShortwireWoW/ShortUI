@@ -3,53 +3,19 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Ingra Maloch"] = {
-},
 ["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Tred'ova"] = {
-},
-["BigWigs_Bosses_Tomb-Raider Drywhisker"] = {
-},
-["BigWigs_Bosses_Mistcaller"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Amarth, The Harvester"] = {
-},
-["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
-},
 ["BigWigs_Plugins_Statistics"] = {
-},
-["LibDualSpec-1.0"] = {
-},
-["BigWigs_Bosses_Surgeon Stitchflesh"] = {
-},
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-["profiles"] = {
-["Default"] = {
-[440576] = 4113655,
-[440377] = 4116727,
-},
-},
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
-},
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_Kobold Delve Trash"] = {
-},
-["BigWigs_Bosses_Blightbone"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -63,40 +29,55 @@ nil,
 },
 },
 },
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
+["profiles"] = {
+["Default"] = {
+[440576] = 4113655,
+[440377] = 4116727,
+},
+},
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Bosses_Kobold Delve Trash"] = {
+},
 ["BigWigs_Bosses_Delve Rares"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_The Necrotic Wake Trash"] = {
-},
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
+["BigWigs_Plugins_Messages"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 },
 ["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2292] = true,
 [-575] = true,
-[-593] = {
-true,
-true,
-},
+[-437] = true,
 [-609] = true,
 [-2296] = true,
 [-607] = true,
 [-573] = true,
-[-437] = true,
+[-593] = {
+true,
+true,
+},
 },
 },
 ["profiles"] = {
@@ -132,24 +113,29 @@ BigWigsStatsDB = {
 ["LFR"] = {
 },
 },
-[2608] = {
+[2601] = {
 ["normal"] = {
-["kills"] = 2,
-["fkDuration"] = 318.260000000002,
-["wipes"] = 3,
-["fkWipes"] = 1,
-["best"] = 318.260000000002,
+["kills"] = 4,
+["fkDuration"] = 145.1620000000003,
+["best"] = 145.1620000000003,
 ["bestDate"] = "2025/01/07",
 ["fkDate"] = "2025/01/07",
 },
 ["heroic"] = {
+["kills"] = 1,
+["fkDuration"] = 265.625,
+["wipes"] = 8,
+["fkWipes"] = 2,
+["best"] = 265.625,
+["bestDate"] = "2025/01/11",
+["fkDate"] = "2025/01/11",
 },
 },
 [2611] = {
 ["heroic"] = {
 ["kills"] = 2,
 ["fkDuration"] = 278.9369999999999,
-["wipes"] = 3,
+["wipes"] = 6,
 ["fkWipes"] = 1,
 ["best"] = 278.9369999999999,
 ["bestDate"] = "2025/01/10",
@@ -217,10 +203,11 @@ BigWigsStatsDB = {
 },
 [2607] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 496.038,
 ["best"] = 214.9510000000009,
 ["bestDate"] = "2025/01/12",
+["wipes"] = 1,
 ["fkDate"] = "2025/01/10",
 },
 ["normal"] = {
@@ -240,22 +227,17 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/01/19",
 },
 },
-[2601] = {
+[2608] = {
 ["normal"] = {
-["kills"] = 4,
-["fkDuration"] = 145.1620000000003,
-["best"] = 145.1620000000003,
+["kills"] = 2,
+["fkDuration"] = 318.260000000002,
+["wipes"] = 3,
+["fkWipes"] = 1,
+["best"] = 318.260000000002,
 ["bestDate"] = "2025/01/07",
 ["fkDate"] = "2025/01/07",
 },
 ["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 265.625,
-["wipes"] = 8,
-["fkWipes"] = 2,
-["best"] = 265.625,
-["bestDate"] = "2025/01/11",
-["fkDate"] = "2025/01/11",
 },
 },
 [2602] = {

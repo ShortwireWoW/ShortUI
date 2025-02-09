@@ -2,13 +2,16 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Volatilespor - Stormrage"] = "Default",
-["Shortybear - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortybear - Area 52"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -37,20 +40,31 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
-["Shortybear - Area 52"] = "Shortybear - Area 52",
-["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortbowjob - Dalaran"] = "Shortbowjob - Dalaran",
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
 ["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
+["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
+["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
+["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortybear - Area 52"] = "Shortybear - Area 52",
+["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 },
 ["profiles"] = {
 ["Dagdese - Stormrage"] = {
 },
-["Volatilespor - Stormrage"] = {
+["Shortbowjob - Dalaran"] = {
 },
-["Shortybear - Area 52"] = {
+["Shortbeef - Area 52"] = {
+},
+["Shortirony - Illidan"] = {
+},
+["Shortlite - Stormrage"] = {
+},
+["Shortshots - Mal'Ganis"] = {
+},
+["Medimilk - Mal'Ganis"] = {
 },
 ["Shortsited - Stormrage"] = {
 [2216] = {
@@ -87,13 +101,11 @@ TomTomWaypointsM = {
 },
 },
 },
-["Shortbeef - Area 52"] = {
-},
 ["Shortwire - Stormrage"] = {
 },
-["Shortirony - Illidan"] = {
+["Shortybear - Area 52"] = {
 },
-["Shortlite - Stormrage"] = {
+["Volatilespor - Stormrage"] = {
 },
 },
 }

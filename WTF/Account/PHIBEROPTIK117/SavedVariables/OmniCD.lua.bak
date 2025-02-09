@@ -1,20 +1,23 @@
 
 OmniCDDB = {
 ["profileKeys"] = {
-["Dagdese - Stormrage"] = "Default",
 ["Shortscales - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortirony - Illidan"] = "Default",
-["Shortlite - Stormrage"] = "Default",
 ["Guildsigzzs - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
 ["Shortybear - Area 52"] = "Default",
 ["Volatilespor - Stormrage"] = "Default",
+["Dagdese - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortirony - Illidan"] = "Default",
+["Shortlite - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {
