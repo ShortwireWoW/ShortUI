@@ -1,23 +1,42 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 109.9077348610744,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 109.9077348610744,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "us-Shortlite-stormrage"
+RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Dæri-stormrage"] = true,
-["us-Macløck-stormrage"] = true,
+["us-Sinnra-stormrage"] = true,
+["us-Schwinndow-durotan"] = true,
+["us-Iralia-thunderlord"] = true,
+["us-Chalaeldh-quelthalas"] = true,
+["us-Wandä-anvilmar"] = true,
+["us-Astralcelia-moon-guard"] = true,
+["us-Lorienheix-moon-guard"] = true,
+["us-Karakeia-wyrmrest-accord"] = true,
+["us-Prettyrebel-stormrage"] = true,
+["us-Liigthqueenz-dalaran"] = true,
 ["us-Moonfoxlord-wyrmrest-accord"] = true,
-["us-Illiidaris-stormrage"] = true,
+["us-Yuniea-bonechewer"] = true,
+["us-Blewbals-lightninghoof"] = true,
+["us-Psylocke-black-dragonflight"] = true,
+["us-Lengian-bonechewer"] = true,
+["us-Mashihara-azralon"] = true,
+["us-Ppdin-illidan"] = true,
+["us-Lunzakbrezw-bonechewer"] = true,
+["us-Mastaprissy-stormrage"] = true,
+["us-Maydena-zuljin"] = true,
+["us-Risotto-tichondrius"] = true,
+["us-Whisperanda-emerald-dream"] = true,
+["us-Dárktotem-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

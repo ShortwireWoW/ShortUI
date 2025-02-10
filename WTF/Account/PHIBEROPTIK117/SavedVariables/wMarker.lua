@@ -1,17 +1,17 @@
 
 wMarkerAceDB = {
-["profileKeys"] = {
-["Dagdese - Stormrage"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-["Shortbowjob - Dalaran"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
-},
 ["global"] = {
 ["lastVer"] = "3.2.2",
+},
+["profileKeys"] = {
+["Dagdese - Stormrage"] = "Default",
+["Shortlite - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

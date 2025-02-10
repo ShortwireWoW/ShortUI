@@ -12,12 +12,12 @@ OmniCDDB = {
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
+["Stonesoup - Area 52"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {

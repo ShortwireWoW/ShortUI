@@ -1,12 +1,8 @@
 # BigWigs
 
-## [v371.2](https://github.com/BigWigsMods/BigWigs/tree/v371.2) (2025-02-05)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v371.1...v371.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v372](https://github.com/BigWigsMods/BigWigs/tree/v372) (2025-02-08)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v371.2...v372) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Loader: Fix PTR detection  
-- LiberationOfUndermine/Rik: Updates  
-- LiberationOfUndermine/Cauldron: Updates  
-- LiberationOfUndermine/Lockenstock: Fix bars  
-- LiberationOfUndermine/Lockenstock: Update  
-- LiberationOfUndermine/Bandit: Update  
-- LiberationOfUndermine/MugZee: Update  
+- bump version  
+- Loader: Add War Within season 2 delves (#1914)  
+- Loader: Add Karazhan Crypts (#1913)  

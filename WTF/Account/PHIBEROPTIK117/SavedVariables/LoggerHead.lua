@@ -2,13 +2,13 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
-["Shortsited - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,6 +16,24 @@ LoggerHeadDB = {
 ["party"] = {
 ["Dire Maul"] = {
 [24] = true,
+},
+["The Stonevault"] = {
+true,
+false,
+},
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["The Dawnbreaker"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
+["Coilfang: The Underbog"] = {
+[24] = false,
+},
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
 },
 ["City of Threads"] = {
 [8] = true,
@@ -25,31 +43,14 @@ LoggerHeadDB = {
 ["Magisters' Terrace"] = {
 [24] = true,
 },
-["The Dawnbreaker"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Hellfire Citadel: The Blood Furnace"] = {
+[24] = false,
 },
 ["Grim Batol"] = {
 [2] = false,
 [23] = true,
 },
-["Auchindoun: Mana-Tombs"] = {
-[24] = false,
-},
-["Stratholme"] = {
-[24] = true,
-},
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
 ["Zul'Farrak"] = {
-[24] = false,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
-},
-["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["The Necrotic Wake"] = {
@@ -68,13 +69,18 @@ LoggerHeadDB = {
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
+["Stratholme"] = {
+[24] = true,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
+[208] = true,
+},
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 ["Zekvir's Lair"] = {
