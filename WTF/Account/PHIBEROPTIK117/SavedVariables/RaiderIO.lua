@@ -1,30 +1,46 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 109.9077348610744,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 109.9077348610744,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "us-Shortsited-stormrage"
+RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Pukaa-moon-guard"] = true,
-["us-Thundersnow-stormrage"] = true,
-["us-Chüvinha-stormrage"] = true,
-["us-Erratax-area-52"] = true,
-["us-Talizörah-stormrage"] = true,
-["us-Krasis-trollbane"] = true,
-["us-Imreallybi-illidan"] = true,
-["us-Ppdin-illidan"] = true,
-["us-Izorani-stormrage"] = true,
-["us-Stokholm-illidan"] = true,
-["us-Nippyflips-illidan"] = true,
+["us-Dktracy-stormrage"] = true,
+["us-Azenetaz-area-52"] = true,
+["us-Ellemenstral-illidan"] = true,
+["us-Silvercrown-stormrage"] = true,
+["us-Helbournè-stormrage"] = true,
+["us-Vornn-stormrage"] = true,
+["us-Laböon-stormrage"] = true,
+["us-Liigthqueenz-dalaran"] = true,
+["us-Heckens-stormrage"] = true,
+["us-Ilarisa-stormrage"] = true,
+["us-Cowballs-stormrage"] = true,
+["us-Peapeapew-frostmourne"] = true,
+["us-Ashaelahna-stormrage"] = true,
+["us-Usednewborn-stormrage"] = true,
+["us-Arkhaea-stormrage"] = true,
+["us-Dellerpriest-stormrage"] = true,
+["us-Warblade-stormrage"] = true,
+["us-Kyaníte-stormrage"] = true,
+["us-Amylana-stormrage"] = true,
+["us-Whymzi-stormrage"] = true,
+["us-Kanaf-stormrage"] = true,
+["us-Hykr-stormrage"] = true,
+["us-Valthil-stormrage"] = true,
+["us-Khryhail-stormrage"] = true,
+["us-Goobertank-stormrage"] = true,
+["us-Murorc-fizzcrank"] = true,
+["us-Ejayz-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

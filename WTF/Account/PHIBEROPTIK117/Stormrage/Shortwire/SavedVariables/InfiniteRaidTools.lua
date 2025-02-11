@@ -147,12 +147,12 @@ IRT_RaidInviteRanks = {
 ["Captain"] = false,
 ["Trial Raider"] = false,
 ["Crew"] = false,
+["Just Joined"] = false,
 ["Leadership Alt"] = false,
-["Mythic+"] = false,
 ["Guild Master"] = false,
 ["Member"] = false,
 ["GM Alt"] = false,
-["Just Joined"] = false,
+["Mythic+"] = false,
 ["Officer"] = false,
 }
 IRT_UlgraxExtras = false

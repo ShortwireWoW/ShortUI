@@ -2,13 +2,18 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Belfmaglove - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Loveacheev - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,6 +21,9 @@ LoggerHeadDB = {
 ["party"] = {
 ["Dire Maul"] = {
 [24] = true,
+},
+["Siege of Boralus"] = {
+[2] = false,
 },
 ["City of Threads"] = {
 [8] = true,
@@ -25,12 +33,19 @@ LoggerHeadDB = {
 ["Magisters' Terrace"] = {
 [24] = true,
 },
-["The Dawnbreaker"] = {
+["Mists of Tirna Scithe"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Grim Batol"] = {
+["Deadmines"] = {
+[24] = true,
+},
+["Hellfire Citadel: The Shattered Halls"] = {
+[24] = false,
+},
+["The Dawnbreaker"] = {
+[8] = true,
 [2] = false,
 [23] = true,
 },
@@ -41,9 +56,6 @@ LoggerHeadDB = {
 [24] = true,
 },
 ["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
-["Zul'Farrak"] = {
 [24] = false,
 },
 ["Coilfang: The Underbog"] = {
@@ -57,24 +69,29 @@ LoggerHeadDB = {
 [2] = false,
 [23] = true,
 },
-["Mists of Tirna Scithe"] = {
-[8] = true,
-[2] = false,
-[23] = true,
-},
-["Deadmines"] = {
-[24] = true,
-},
-["Hellfire Citadel: The Shattered Halls"] = {
+["Zul'Farrak"] = {
 [24] = false,
 },
 ["The Stonevault"] = {
 true,
 false,
 },
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
+},
+["Ara-Kara, City of Echoes"] = {
+[2] = false,
+},
 },
 ["scenario"] = {
 ["The Waterworks"] = {
+[208] = true,
+},
+["Tak-Rethan Abyss"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["Zekvir's Lair"] = {

@@ -96,9 +96,9 @@ IRT_RPAFPriority = {
 },
 }
 IRT_RaidInviteRanks = {
-["Crew"] = false,
-["Gunner"] = false,
 ["Captain"] = false,
+["Gunner"] = false,
+["Crew"] = false,
 }
 IRT_UlgraxExtras = false
 IRT_BroodtwisterExtras = false

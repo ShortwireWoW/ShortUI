@@ -1,16 +1,13 @@
 
 EventTraceSavedVars = {
 ["ShowTimestamp"] = true,
-["LogEventsWhenHidden"] = false,
+["Size"] = {
+["Height"] = 678.9747314453125,
+["Width"] = 912.7440185546875,
+},
 ["ShowArguments"] = true,
-["LogCREvents"] = true,
 ["Filters"] = {
 ["User"] = {
-{
-["enabled"] = true,
-["event"] = "ACTIONBAR_SLOT_CHANGED",
-["displayEvent"] = "ACTIONBAR_SLOT_CHANGED",
-},
 {
 ["enabled"] = true,
 ["event"] = "ACTIONBAR_UPDATE_COOLDOWN",
@@ -23,33 +20,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "ACTIONBAR_UPDATE_USABLE",
-["displayEvent"] = "ACTIONBAR_UPDATE_USABLE",
+["event"] = "BAG_UPDATE_COOLDOWN",
+["displayEvent"] = "BAG_UPDATE_COOLDOWN",
 },
 {
 ["enabled"] = true,
-["event"] = "ACTION_USABLE_CHANGED",
-["displayEvent"] = "ACTION_USABLE_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "AREA_POIS_UPDATED",
-["displayEvent"] = "AREA_POIS_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_ADDON",
-["displayEvent"] = "CHAT_MSG_ADDON",
+["event"] = "CHAT_MSG_SYSTEM",
+["displayEvent"] = "CHAT_MSG_SYSTEM",
 },
 {
 ["enabled"] = true,
 ["event"] = "COMBAT_LOG_EVENT_UNFILTERED",
 ["displayEvent"] = "COMBAT_LOG_EVENT_UNFILTERED",
-},
-{
-["enabled"] = true,
-["event"] = "COMBAT_RATING_UPDATE",
-["displayEvent"] = "COMBAT_RATING_UPDATE",
 },
 {
 ["enabled"] = true,
@@ -63,16 +45,6 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "CURSOR_CHANGED",
-["displayEvent"] = "CURSOR_CHANGED |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "FOG_OF_WAR_UPDATED",
-["displayEvent"] = "FOG_OF_WAR_UPDATED",
-},
-{
-["enabled"] = true,
 ["event"] = "GLOBAL_MOUSE_DOWN",
 ["displayEvent"] = "GLOBAL_MOUSE_DOWN |cffffd100(CR)|r",
 },
@@ -83,18 +55,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "LFG_LIST_APPLICANT_LIST_UPDATED",
-["displayEvent"] = "LFG_LIST_APPLICANT_LIST_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_LIST_APPLICANT_UPDATED",
-["displayEvent"] = "LFG_LIST_APPLICANT_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_LIST_AVAILABILITY_UPDATE",
-["displayEvent"] = "LFG_LIST_AVAILABILITY_UPDATE",
+["event"] = "LFG_LIST_SEARCH_RESULT_UPDATED",
+["displayEvent"] = "LFG_LIST_SEARCH_RESULT_UPDATED",
 },
 {
 ["enabled"] = true,
@@ -103,8 +65,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "MODIFIER_STATE_CHANGED",
-["displayEvent"] = "MODIFIER_STATE_CHANGED",
+["event"] = "MIRROR_TIMER_START",
+["displayEvent"] = "MIRROR_TIMER_START",
+},
+{
+["enabled"] = true,
+["event"] = "MIRROR_TIMER_STOP",
+["displayEvent"] = "MIRROR_TIMER_STOP",
 },
 {
 ["enabled"] = true,
@@ -120,26 +87,6 @@ EventTraceSavedVars = {
 ["enabled"] = true,
 ["event"] = "NAME_PLATE_UNIT_REMOVED",
 ["displayEvent"] = "NAME_PLATE_UNIT_REMOVED",
-},
-{
-["enabled"] = true,
-["event"] = "NEW_WMO_CHUNK",
-["displayEvent"] = "NEW_WMO_CHUNK",
-},
-{
-["enabled"] = true,
-["event"] = "PLAYER_CAN_GLIDE_CHANGED",
-["displayEvent"] = "PLAYER_CAN_GLIDE_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "PLAYER_DAMAGE_DONE_MODS",
-["displayEvent"] = "PLAYER_DAMAGE_DONE_MODS",
-},
-{
-["enabled"] = true,
-["event"] = "PLAYER_MOUNT_DISPLAY_CHANGED",
-["displayEvent"] = "PLAYER_MOUNT_DISPLAY_CHANGED",
 },
 {
 ["enabled"] = true,
@@ -173,8 +120,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "PLUNDERSTORMQUEUETUTORIAL.UPDATE",
-["displayEvent"] = "PlunderstormQueueTutorial.Update |cffffd100(CR)|r",
+["event"] = "PORTRAITS_UPDATED",
+["displayEvent"] = "PORTRAITS_UPDATED",
 },
 {
 ["enabled"] = true,
@@ -183,13 +130,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "RECEIVED_ACHIEVEMENT_LIST",
-["displayEvent"] = "RECEIVED_ACHIEVEMENT_LIST",
+["event"] = "SOCIAL_QUEUE_UPDATE",
+["displayEvent"] = "SOCIAL_QUEUE_UPDATE",
 },
 {
 ["enabled"] = true,
 ["event"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
 ["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
+},
+{
+["enabled"] = true,
+["event"] = "SPELL_UPDATE_CHARGES",
+["displayEvent"] = "SPELL_UPDATE_CHARGES",
 },
 {
 ["enabled"] = true,
@@ -208,18 +160,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_ATTACK_SPEED",
-["displayEvent"] = "UNIT_ATTACK_SPEED",
-},
-{
-["enabled"] = true,
 ["event"] = "UNIT_AURA",
 ["displayEvent"] = "UNIT_AURA",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_DAMAGE",
-["displayEvent"] = "UNIT_DAMAGE",
+["event"] = "UNIT_COMBAT",
+["displayEvent"] = "UNIT_COMBAT",
 },
 {
 ["enabled"] = true,
@@ -228,38 +175,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_MAXPOWER",
-["displayEvent"] = "UNIT_MAXPOWER",
+["event"] = "UNIT_MODEL_CHANGED",
+["displayEvent"] = "UNIT_MODEL_CHANGED",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_POWER_BAR_HIDE",
-["displayEvent"] = "UNIT_POWER_BAR_HIDE",
+["event"] = "UNIT_PORTRAIT_UPDATE",
+["displayEvent"] = "UNIT_PORTRAIT_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_POWER_FREQUENT",
-["displayEvent"] = "UNIT_POWER_FREQUENT",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_POWER_UPDATE",
-["displayEvent"] = "UNIT_POWER_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_RANGEDDAMAGE",
-["displayEvent"] = "UNIT_RANGEDDAMAGE",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_FAILED_QUIET",
-["displayEvent"] = "UNIT_SPELLCAST_FAILED_QUIET",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_INTERRUPTED",
-["displayEvent"] = "UNIT_SPELLCAST_INTERRUPTED",
+["event"] = "UNIT_SPELLCAST_FAILED",
+["displayEvent"] = "UNIT_SPELLCAST_FAILED",
 },
 {
 ["enabled"] = true,
@@ -273,43 +200,16 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_STOP",
-["displayEvent"] = "UNIT_SPELLCAST_STOP",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELL_HASTE",
-["displayEvent"] = "UNIT_SPELL_HASTE",
-},
-{
-["enabled"] = true,
-["event"] = "UPDATE_BONUS_ACTIONBAR",
-["displayEvent"] = "UPDATE_BONUS_ACTIONBAR",
-},
-{
-["enabled"] = true,
-["event"] = "UPDATE_MOUSEOVER_UNIT",
-["displayEvent"] = "UPDATE_MOUSEOVER_UNIT",
+["event"] = "UNIT_SPELLCAST_SUCCEEDED",
+["displayEvent"] = "UNIT_SPELLCAST_SUCCEEDED",
 },
 {
 ["enabled"] = true,
 ["event"] = "UPDATE_UI_WIDGET",
 ["displayEvent"] = "UPDATE_UI_WIDGET",
 },
-{
-["enabled"] = true,
-["event"] = "VIGNETTES_UPDATED",
-["displayEvent"] = "VIGNETTES_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
-["displayEvent"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 },
 },
-},
-["Size"] = {
-["Height"] = 678.9747314453125,
-["Width"] = 912.7440185546875,
-},
+["LogCREvents"] = true,
+["LogEventsWhenHidden"] = false,
 }

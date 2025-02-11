@@ -2,12 +2,17 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortlite - Stormrage"] = "Default",
+["Belfmaglove - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
@@ -17,23 +22,8 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-},
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
-["The Dawnbreaker"] = {
-[8] = true,
+["Siege of Boralus"] = {
 [2] = false,
-[23] = true,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
-},
-["Auchindoun: Mana-Tombs"] = {
-[24] = false,
 },
 ["City of Threads"] = {
 [8] = true,
@@ -42,21 +32,6 @@ false,
 },
 ["Magisters' Terrace"] = {
 [24] = true,
-},
-["Hellfire Citadel: The Blood Furnace"] = {
-[24] = false,
-},
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
-},
-["Zul'Farrak"] = {
-[24] = false,
-},
-["The Necrotic Wake"] = {
-[8] = true,
-[2] = false,
-[23] = true,
 },
 ["Mists of Tirna Scithe"] = {
 [8] = true,
@@ -69,30 +44,66 @@ false,
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
 },
+["The Dawnbreaker"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
+},
 ["Stratholme"] = {
 [24] = true,
+},
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["Coilfang: The Underbog"] = {
+[24] = false,
+},
+["Hellfire Citadel: The Blood Furnace"] = {
+[24] = false,
+},
+["The Necrotic Wake"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
+["Ara-Kara, City of Echoes"] = {
+[2] = false,
+},
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
+},
+["The Stonevault"] = {
+true,
+false,
+},
+["Zul'Farrak"] = {
+[24] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
 [208] = true,
 },
-["Earthcrawl Mines"] = {
-[208] = true,
-},
-["Tak-Rethan Abyss"] = {
-[208] = true,
-},
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 ["The Dread Pit"] = {
 [208] = true,
 },
+["Tak-Rethan Abyss"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
+[208] = true,
+},
 ["The Underkeep"] = {
 [208] = false,
 },
-["Kriegval's Rest"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 },

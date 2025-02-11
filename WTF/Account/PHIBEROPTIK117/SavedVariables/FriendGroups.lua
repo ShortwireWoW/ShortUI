@@ -14,10 +14,10 @@ FriendGroups_SavedVars = {
 ["ingame_retail"] = false,
 ["show_btag"] = false,
 ["hide_empty_groups"] = false,
-["hide_afk"] = false,
+["sort_by_status"] = false,
 ["collapsed"] = {
-["Incoherent Screaming"] = true,
+["Incoherent Screaming"] = false,
 ["Pirate Idiots"] = false,
 },
-["sort_by_status"] = false,
+["hide_afk"] = false,
 }
