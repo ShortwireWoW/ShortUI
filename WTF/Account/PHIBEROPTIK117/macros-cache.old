@@ -7,9 +7,6 @@ VER 3 0000000000000064 "AFK Level" "134400"
 /cast Moonfire
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
-VER 3 0000000000000068 "asdf" "134400"
-/cast |cffffd200|HclubFinder:ClubFinder-1-576839-3683-114003944|h[Guild: The Scurvy Dogs]|h|r
-END
 VER 3 0000000000000067 "Guild Invite" "134331"
 /2 |cffffd200|HclubFinder:ClubFinder-1-576839-3683-114003944|h[Guild: The Scurvy Dogs]|h|r is looking for more weirdos who like pirate RP to join our raid team. We raid Sat/Sun - 8:30pm-12am EST. LF DPS, 1 Aug, and 1 switch healer. Send message for info!
 END
@@ -20,16 +17,6 @@ END
 VER 3 0000000000000063 "Mail" "443375"
 /use Katy's Stampwhistle
 END
-VER 3 000000000000006A "Mist Maze" "644389"
-/run BattlefieldMapFrame:Show()
-/run BattlefieldMapFrame:SetScale(1.5)
-/run BattlefieldMapFrame:InstantPanAndZoom(0.65, 0.6, 0.35)
-/cleartarget
-/tar Mistcaller
-/tar Mistveil Matria
-/tar Mistveil Nightb
-/tar Mistveil Gorgeg
-END
 VER 3 0000000000000037 "Mount" "134400"
 #show
 /stopmacro [flying]
@@ -37,29 +24,10 @@ VER 3 0000000000000037 "Mount" "134400"
 /cast [flyable] Invincible; Grand Expedition Yak
 /dismount
 END
-VER 3 000000000000005E "No AFK" "132156"
-/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
-END
 VER 3 000000000000005B "Potions" "134400"
 #showtooltip
 /use Fleeting Elemental Potion of Ultimate Power
 /use Elemental Potion of Ultimate Power
-END
-VER 3 0000000000000069 "Thanks 4 Spam" "134400"
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
-/g Thanks 4 spam!
 END
 VER 3 0000000000000062 "Toys" "134400"
 #showtooltip

@@ -343,6 +343,22 @@ L["RAID_BOSS_CN_6"] = "귀부인 이네르바 다크베인"
 L["RAID_BOSS_CN_7"] = "혈기의 의회"
 L["RAID_BOSS_CN_8"] = "진흙주먹"
 L["RAID_BOSS_CN_9"] = "돌 군단 장군"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_8"] = ""--]] 
 L["RAID_BOSS_FCN_1"] = "절규날개"
 L["RAID_BOSS_FCN_10"] = "대영주 데나트리우스"
 L["RAID_BOSS_FCN_2"] = "사냥꾼 알티모르"

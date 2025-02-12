@@ -1,5 +1,8 @@
 
 wMarkerAceDB = {
+["global"] = {
+["lastVer"] = "3.2.2",
+},
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
@@ -14,9 +17,6 @@ wMarkerAceDB = {
 ["Shortwire - Stormrage"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
-},
-["global"] = {
-["lastVer"] = "3.2.2",
 },
 ["profiles"] = {
 ["Default"] = {

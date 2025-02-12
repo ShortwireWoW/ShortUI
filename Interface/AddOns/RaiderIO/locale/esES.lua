@@ -332,6 +332,22 @@ L["RAID_BOSS_CN_6"] = "Lady Inerva Venaoscura"
 L["RAID_BOSS_CN_7"] = "El Consejo de Sangre"
 L["RAID_BOSS_CN_8"] = "Puñolodo"
 L["RAID_BOSS_CN_9"] = "Generales de la Legión Pétrea"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_8"] = ""--]] 
 L["RAID_BOSS_FCN_1"] = "Alachilla"
 L["RAID_BOSS_FCN_10"] = "Sire Denathrius"
 L["RAID_BOSS_FCN_2"] = "Altimor el Cazador"

@@ -48,3 +48,4 @@ Cell: enabled
 LittleWigs_Legion: enabled
 LittleWigs_Classic: enabled
 LittleWigs_BurningCrusade: enabled
+LittleWigs_WrathOfTheLichKing: enabled

@@ -1,20 +1,30 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 109.9077348610744,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 109.9077348610744,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "us-Belfmaglove-malganis"
+RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Belfmaglove-malganis"] = true,
+["us-Nutbar-dalaran"] = true,
+["us-Astranate-illidan"] = true,
+["us-Yuntwazlok-proudmoore"] = true,
+["us-Grilledbeef-ghostlands"] = true,
+["us-Virxl-illidan"] = true,
+["us-Yesimgooning-illidan"] = true,
+["us-Iormungand-boulderfist"] = true,
+["us-Sympal-malganis"] = true,
+["us-Deniah-dentarg"] = true,
+["us-Skrash-dalaran"] = true,
+["us-Handalf-moon-guard"] = true,
 }
 RaiderIO_MissingServers = {
 }

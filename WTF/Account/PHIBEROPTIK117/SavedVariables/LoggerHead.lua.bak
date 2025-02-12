@@ -22,6 +22,9 @@ LoggerHeadDB = {
 ["Dire Maul"] = {
 [24] = true,
 },
+["Azjol-Nerub"] = {
+[24] = true,
+},
 ["Siege of Boralus"] = {
 [2] = false,
 },
@@ -31,6 +34,9 @@ LoggerHeadDB = {
 [23] = true,
 },
 ["Magisters' Terrace"] = {
+[24] = true,
+},
+["The Forge of Souls"] = {
 [24] = true,
 },
 ["Mists of Tirna Scithe"] = {
@@ -44,22 +50,32 @@ LoggerHeadDB = {
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
 },
+["Utgarde Keep"] = {
+[24] = true,
+},
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
+["Stratholme"] = {
+[24] = true,
+},
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[2] = false,
 },
 ["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
 ["Coilfang: The Underbog"] = {
 [24] = false,
+},
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
@@ -69,19 +85,18 @@ LoggerHeadDB = {
 [2] = false,
 [23] = true,
 },
-["Zul'Farrak"] = {
-[24] = false,
-},
 ["The Stonevault"] = {
 true,
 false,
 },
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
+["Zul'Farrak"] = {
+[24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[2] = false,
+["The Nexus"] = {
+[24] = true,
+},
+["Gundrak"] = {
+[24] = false,
 },
 },
 ["scenario"] = {
@@ -91,13 +106,13 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Earthcrawl Mines"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Zekvir's Lair"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
+["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["The Underkeep"] = {
@@ -113,11 +128,14 @@ false,
 [16] = true,
 [15] = true,
 },
+["Antorus, the Burning Throne"] = {
+[16] = false,
+},
 ["Black Temple"] = {
 [24] = false,
 },
-["Antorus, the Burning Throne"] = {
-[16] = false,
+["Ulduar"] = {
+[24] = false,
 },
 },
 },

@@ -50,11 +50,11 @@ PremadeGroupsFilterState = {
 ["enabled"] = true,
 },
 ["c3f5"] = {
-["enabled"] = true,
+["enabled"] = false,
 ["raid"] = {
 ["difficulty"] = {
 ["val"] = 2,
-["act"] = true,
+["act"] = false,
 },
 ["heals"] = {
 ["max"] = "",
@@ -64,7 +64,7 @@ PremadeGroupsFilterState = {
 ["tanks"] = {
 ["max"] = "1",
 ["min"] = "0",
-["act"] = true,
+["act"] = false,
 },
 ["defeated"] = {
 ["max"] = "",

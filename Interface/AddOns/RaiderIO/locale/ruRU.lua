@@ -20,8 +20,7 @@ L["API_DEPRECATED_WITH"] = "|cffFF0000Предупреждение!|r Допол
 L["API_INVALID_DATABASE"] = "|cffFF0000Предупреждение!|r Обнаружена недопустимая база данных RaiderIO в |cffffffff%s|r. Пожалуйста, обновите все регионы и фракции в клиенте RaiderIO, либо переустановите дополнение вручную."
 L["AUTO_COMBATLOG"] = "Автоматически включать журнал боя в рейдах и подземельях"
 L["AUTO_COMBATLOG_DESC"] = "Автоматическое включение или отключение ведения журнала боевых действий при входе и выходе из поддерживаемых рейдов и подземелий."
---[[Translation missing --]]
---[[ L["AUTO_COMBATLOG_DISABLED_DESC"] = ""--]] 
+L["AUTO_COMBATLOG_DISABLED_DESC"] = "Ведение журнала боя отключено в Путешествии во времени."
 L["BEST_FOR_DUNGEON"] = "Лучший для подземелья"
 L["BEST_RUN"] = "Лучшее подземелье"
 L["BEST_SCORE"] = "Лучший результат M+ (%s)"
@@ -262,6 +261,14 @@ L["RAID_BOSS_CN_6"] = "Леди Инерва Дарквейн"
 L["RAID_BOSS_CN_7"] = "Совет Крови"
 L["RAID_BOSS_CN_8"] = "Грязешмяк"
 L["RAID_BOSS_CN_9"] = "Генералы Каменного легиона"
+L["RAID_BOSS_DS_1"] = "Морхок"
+L["RAID_BOSS_DS_2"] = "Полководец Зон'озз"
+L["RAID_BOSS_DS_3"] = "Йор'садж Неспящий"
+L["RAID_BOSS_DS_4"] = "Хагара Владычица Штормов"
+L["RAID_BOSS_DS_5"] = "Ультраксион"
+L["RAID_BOSS_DS_6"] = "Воевода Черный Рог"
+L["RAID_BOSS_DS_7"] = "Хребет Смертокрыла"
+L["RAID_BOSS_DS_8"] = "Безумие Смертокрыла"
 L["RAID_BOSS_FCN_1"] = "Визгунья"
 L["RAID_BOSS_FCN_10"] = "Сир Денатрий"
 L["RAID_BOSS_FCN_2"] = "Ловчий Альтимор"
@@ -312,22 +319,14 @@ L["RAID_BOSS_ICC_6"] = "Гниломорд"
 L["RAID_BOSS_ICC_7"] = "Профессор Мерзоцид"
 L["RAID_BOSS_ICC_8"] = "Совет кровавых принцев"
 L["RAID_BOSS_ICC_9"] = "Кровавая королева Лана'тель"
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_8"] = ""--]] 
+L["RAID_BOSS_LOU_1"] = "Векси и зуботочеры"
+L["RAID_BOSS_LOU_2"] = "Котел смерти"
+L["RAID_BOSS_LOU_3"] = "Рик Ревербер"
+L["RAID_BOSS_LOU_4"] = "Стикс Бункохламзень"
+L["RAID_BOSS_LOU_5"] = "Зубцеторг Всесхватс"
+L["RAID_BOSS_LOU_6"] = "Однорукий бандит"
+L["RAID_BOSS_LOU_7"] = "Граб'Зи, главы отдела охраны"
+L["RAID_BOSS_LOU_8"] = "Хромовый король Галливикс"
 L["RAID_BOSS_NP_1"] = "Улгракс Пожиратель"
 L["RAID_BOSS_NP_2"] = "Скованный кровью ужас"
 L["RAID_BOSS_NP_3"] = "Капитан суреки Сик'ран"
@@ -402,8 +401,7 @@ L["RAIDERIO_MP_SCORE"] = "[Raider.IO] М+ рейтинг"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Настройки аддона Raider.IO"
 L["RAIDING_DATA_HEADER"] = "[Raider.IO] Рейдовый прогресс"
 L["RAIDING_DB_MODULES"] = "Модули базы данных рейдинга"
---[[Translation missing --]]
---[[ L["RECENT_RUNS_WITH_YOU"] = ""--]] 
+L["RECENT_RUNS_WITH_YOU"] = "Недавние забеги с Вами"
 L["RECRUITMENT_DB_MODULES"] = "Модули базы данных рекрутинга"
 L["RELOAD_LATER"] = "Перезагрузить позже"
 L["RELOAD_NOW"] = "Перезагрузить сейчас"
@@ -509,10 +507,8 @@ L["TIMED_10_RUNS"] = "Пройдено +10-14 вовремя:"
 L["TIMED_15_RUNS"] = "Пройдено 15+ вовремя:"
 L["TIMED_20_RUNS"] = "Пройдено 20+ вовремя:"
 L["TIMED_5_RUNS"] = "Пройдено +5-9 вовремя:"
---[[Translation missing --]]
---[[ L["TIMED_RUNS_MINIMUM"] = ""--]] 
---[[Translation missing --]]
---[[ L["TIMED_RUNS_RANGE"] = ""--]] 
+L["TIMED_RUNS_MINIMUM"] = "Пройдено вовремя %d+"
+L["TIMED_RUNS_RANGE"] = "Пройдено вовремя +%d-%d"
 L["TOOLTIP_PROFILE"] = "Настройка подсказки профиля Raider.IO"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r обнаружил новый сервер. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
 L["UNLOCKING_PROFILE_FRAME"] = "Raider.IO: Разблокировать окно профиля М+."

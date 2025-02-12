@@ -38,6 +38,7 @@ BigWigs:AddSounds("Kul'tharok", {
 	[319637] = "info",
 	[319669] = "alarm",
 	[473513] = "long",
+	[474087] = "alarm",
 	[474298] = "warning",
 	[1215787] = {"info","underyou"},
 	[1223803] = "alert",
@@ -49,7 +50,7 @@ BigWigs:AddSounds("Mordretha, the Endless Empress", {
 	[323831] = {"info","warning"},
 	[324079] = "alert",
 	[324449] = "info",
-	[339550] = "alert",
+	[339550] = "alarm",
 	[339573] = "long",
 	[339706] = "alarm",
 })

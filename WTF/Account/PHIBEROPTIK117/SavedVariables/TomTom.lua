@@ -2,13 +2,13 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Shortirony - Illidan"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
@@ -16,7 +16,7 @@ TomTomDB = {
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
-["Volatilespor - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -45,13 +45,13 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
+["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Shortbowjob - Dalaran"] = "Shortbowjob - Dalaran",
 ["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
-["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
-["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
+["Shortirony - Illidan"] = "Shortirony - Illidan",
+["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
@@ -59,12 +59,12 @@ TomTomWaypointsM = {
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
-["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
+["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
 },
 ["profiles"] = {
 ["Dagdese - Stormrage"] = {
 },
-["Shortshots - Mal'Ganis"] = {
+["Volatilespor - Stormrage"] = {
 },
 ["Shortbowjob - Dalaran"] = {
 },
@@ -72,11 +72,11 @@ TomTomWaypointsM = {
 },
 ["Shortbeef - Area 52"] = {
 },
-["Raretrollrog - Mal'Ganis"] = {
+["Shortlite - Stormrage"] = {
 },
 ["Shortirony - Illidan"] = {
 },
-["Shortlite - Stormrage"] = {
+["Raretrollrog - Mal'Ganis"] = {
 },
 ["Belfmaglove - Mal'Ganis"] = {
 },
@@ -92,7 +92,7 @@ TomTomWaypointsM = {
 },
 ["Shortybear - Area 52"] = {
 },
-["Volatilespor - Stormrage"] = {
+["Shortshots - Mal'Ganis"] = {
 },
 },
 }

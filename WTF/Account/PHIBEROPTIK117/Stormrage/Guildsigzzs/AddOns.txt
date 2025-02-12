@@ -50,7 +50,7 @@ LittleWigs_MistsOfPandaria: enabled
 LittleWigs_Legion: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 LoggerHeadLite: disabled
-LittleWigs_WrathOfTheLichKing: disabled
+LittleWigs_WrathOfTheLichKing: enabled
 OmniCC: disabled
 OmniCC_Config: disabled
 OmniCD: disabled

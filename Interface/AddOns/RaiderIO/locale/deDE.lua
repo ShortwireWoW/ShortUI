@@ -262,6 +262,22 @@ L["RAID_BOSS_CN_6"] = "Lady Inerva Dunkelader"
 L["RAID_BOSS_CN_7"] = "Rat des Blutes"
 L["RAID_BOSS_CN_8"] = "Schlickfaust"
 L["RAID_BOSS_CN_9"] = "Generäle der Steinlegion"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_DS_8"] = ""--]] 
 L["RAID_BOSS_FCN_1"] = "Schrillschwinge"
 L["RAID_BOSS_FCN_10"] = "Graf Denathrius"
 L["RAID_BOSS_FCN_2"] = "Jäger Altimor"

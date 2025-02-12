@@ -1,7 +1,15 @@
 
 BugGrabberDB = {
-["session"] = 392,
 ["lastSanitation"] = 3,
+["session"] = 407,
 ["errors"] = {
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'FriendGroups' tried to call the protected function 'RaidFrame:Show()'.",
+["time"] = "2025/02/11 01:41:57",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:76: in function `FriendsFrame_ShowSubFrame'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:433: in function `FriendsFrame_Update'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:365: in function <...dOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua:336>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:493: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:336: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:174: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:893: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:1310: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
+["session"] = 394,
+["counter"] = 1,
+},
 },
 }
