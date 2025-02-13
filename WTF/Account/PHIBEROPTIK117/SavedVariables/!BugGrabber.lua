@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 408,
+["session"] = 414,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -9,6 +9,22 @@ BugGrabberDB = {
 ["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
 ["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:76: in function `FriendsFrame_ShowSubFrame'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:433: in function `FriendsFrame_Update'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:365: in function <...dOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua:336>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:493: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:336: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:174: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:893: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:1310: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
 ["session"] = 394,
+["counter"] = 1,
+},
+{
+["message"] = "Lua error in aura 'ShortUI - Player Health %': Condition Custom Test\nWeakAuras Version: 5.19.1\nStack trace:\n[string \"return function(trigger)\"]:13: attempt to index local 'sk' (a number value)",
+["time"] = "2025/02/12 13:05:21",
+["locals"] = "trigger = <table> {\n 1 = <table> {\n }\n 0 = <table> {\n }\n -1 = <table> {\n }\n}\nshortKing = <table> {\n 1 = \"Gnome\"\n 2 = \"Dwarf\"\n 3 = \"Goblin\"\n 4 = \"Mechagnome\"\n 5 = \"Earthen\"\n 6 = \"Vulpera\"\n}\n(for index) = 1\n(for limit) = 6\n(for step) = 1\nsk = 1\n(*temporary) = \"Vulpera\"\n(*temporary) = \"attempt to index local 'sk' (a number value)\"\n",
+["stack"] = "[string \"return function(trigger)\"]:13: in function <[string \"return function(trigger)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:216: in function `CallCustomConditionTest'\n[string \"local newActiveConditions = {};\"]:30: in function <[string \"local newActiveConditions = {};\"]:5>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:846: in function `RunConditions'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4824: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4789>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4933: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4654: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4627: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3235: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3088>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3259: in function `Add'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua\"]:1033: in function `Close'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua\"]:214: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:213>",
+["session"] = 410,
+["counter"] = 1,
+},
+{
+["message"] = "Lua error in aura 'ShortUI - Player Health %': Condition Custom Test\nWeakAuras Version: 5.19.1\nStack trace:\n[string \"return function(trigger)\"]:6: attempt to index global 'races' (a nil value)",
+["time"] = "2025/02/12 13:06:40",
+["locals"] = "trigger = <table> {\n 1 = <table> {\n }\n 0 = <table> {\n }\n -1 = <table> {\n }\n}\nshortKing = <table> {\n 1 = \"Gnome\"\n 2 = \"Dwarf\"\n 3 = \"Goblin\"\n 4 = \"Mechagnome\"\n 5 = \"Earthen\"\n 6 = \"Vulpera\"\n}\n(for index) = 1\n(for limit) = 6\n(for step) = 1\nrace = 1\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'races' (a nil value)\"\n",
+["stack"] = "[string \"return function(trigger)\"]:6: in function <[string \"return function(trigger)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:216: in function `CallCustomConditionTest'\n[string \"local newActiveConditions = {};\"]:30: in function <[string \"local newActiveConditions = {};\"]:5>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:846: in function `RunConditions'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4824: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4789>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4933: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4654: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4627: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3235: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3088>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3259: in function `Add'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua\"]:1033: in function `Close'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua\"]:214: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:213>",
+["session"] = 410,
 ["counter"] = 1,
 },
 },

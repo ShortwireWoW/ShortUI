@@ -26,7 +26,9 @@ LoggerHeadDB = {
 [24] = true,
 },
 ["Siege of Boralus"] = {
+[8] = true,
 [2] = false,
+[23] = true,
 },
 ["City of Threads"] = {
 [8] = true,
@@ -64,8 +66,8 @@ LoggerHeadDB = {
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[2] = false,
 },
 ["Tempest Keep: The Botanica"] = {
 [24] = false,
@@ -73,15 +75,17 @@ LoggerHeadDB = {
 ["The Nexus"] = {
 [24] = true,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["The Necrotic Wake"] = {
+false,
+false,
 [8] = true,
-[2] = false,
 [23] = true,
 },
 ["Zul'Farrak"] = {
@@ -91,12 +95,11 @@ LoggerHeadDB = {
 true,
 false,
 },
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[2] = false,
+["Stratholme"] = {
+[24] = true,
 },
 },
 ["scenario"] = {
@@ -123,6 +126,12 @@ false,
 },
 },
 ["raid"] = {
+["Black Temple"] = {
+[24] = false,
+},
+["Antorus, the Burning Throne"] = {
+[16] = false,
+},
 ["Ulduar"] = {
 [24] = false,
 },
@@ -130,12 +139,6 @@ false,
 [14] = true,
 [16] = true,
 [15] = true,
-},
-["Black Temple"] = {
-[24] = false,
-},
-["Antorus, the Burning Throne"] = {
-[16] = false,
 },
 },
 },
