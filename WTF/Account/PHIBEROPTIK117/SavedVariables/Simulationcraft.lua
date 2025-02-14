@@ -12,8 +12,9 @@ SimulationCraftDB = {
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Stonesoup - Area 52"] = "Stonesoup - Area 52",
+["Shortkin - Stormrage"] = "Shortkin - Stormrage",
+["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
@@ -52,9 +53,11 @@ SimulationCraftDB = {
 },
 ["Dagdese - Stormrage"] = {
 },
-["Sentientsoup - Mal'Ganis"] = {
-},
 ["Stonesoup - Area 52"] = {
+},
+["Shortkin - Stormrage"] = {
+},
+["Sentientsoup - Mal'Ganis"] = {
 },
 ["Shortirony - Illidan"] = {
 },

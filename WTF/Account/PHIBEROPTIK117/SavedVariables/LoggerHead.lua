@@ -5,9 +5,11 @@ LoggerHeadDB = {
 ["Shortbowjob - Dalaran"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
@@ -55,6 +57,9 @@ LoggerHeadDB = {
 ["Utgarde Keep"] = {
 [24] = true,
 },
+["Halls of Lightning"] = {
+[24] = false,
+},
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
@@ -66,18 +71,18 @@ LoggerHeadDB = {
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[2] = false,
+["Stratholme"] = {
+[24] = true,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
 },
 ["The Nexus"] = {
 [24] = true,
 },
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
@@ -91,28 +96,28 @@ false,
 ["Zul'Farrak"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
 },
-["Coilfang: The Underbog"] = {
+["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[2] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
 [208] = true,
 },
-["Kriegval's Rest"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["The Dread Pit"] = {
@@ -121,17 +126,11 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 },
 ["raid"] = {
-["Black Temple"] = {
-[24] = false,
-},
-["Antorus, the Burning Throne"] = {
-[16] = false,
-},
 ["Ulduar"] = {
 [24] = false,
 },
@@ -139,6 +138,12 @@ false,
 [14] = true,
 [16] = true,
 [15] = true,
+},
+["Black Temple"] = {
+[24] = false,
+},
+["Antorus, the Burning Throne"] = {
+[16] = false,
 },
 },
 },

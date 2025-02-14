@@ -13,6 +13,7 @@ OmniCDDB = {
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Stonesoup - Area 52"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",

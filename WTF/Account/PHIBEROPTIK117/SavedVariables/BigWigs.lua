@@ -1,97 +1,13 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
-["BigWigs_Bosses_Amarth, The Harvester"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Hadal Darkfathom"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Orta, the Broken Mountain"] = {
-},
-["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_The Dawnbreaker Trash"] = {
-},
-["BigWigs_Bosses_Drakkari Colossus"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Bosses_Tred'ova"] = {
-},
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-["profiles"] = {
-["Default"] = {
-[440576] = 4113655,
-[440377] = 4116727,
-},
-},
-},
-["BigWigs_Bosses_Slad'ran"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Bosses_Nalthor the Rimebinder"] = {
-},
 ["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_Viq'Goth"] = {
-},
-["BigWigs_Bosses_Dread Captain Lockwood"] = {
-},
-["BigWigs_Bosses_Ingra Maloch"] = {
-},
-["BigWigs_Bosses_Surgeon Stitchflesh"] = {
-},
-["BigWigs_Bosses_Shadowcrown"] = {
-},
-["BigWigs_Bosses_Chopper Redhook"] = {
-},
-["BigWigs_Bosses_Siege of Boralus Trash"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Anub'arakAN"] = {
-},
-["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
-},
-["BigWigs_Bosses_Hadronox"] = {
-},
-["BigWigs_Bosses_Anub'ikkaj"] = {
-},
-["BigWigs_Bosses_Gal'darah"] = {
-},
-["BigWigs_Bosses_Krik'thir the Gatewatcher"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Bosses_Moorabi"] = {
-},
-["BigWigs_Bosses_Devourer of Souls"] = {
-},
-["BigWigs_Plugins_Colors"] = {
-},
-["BigWigs_Bosses_Bronjahm"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_Rasha'nan Dawnbreaker"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Mistcaller"] = {
+["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Bosses_The Necrotic Wake Trash"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -105,9 +21,37 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Countdown"] = {
 },
-["BigWigs_Bosses_Blightbone"] = {
+["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
+["profiles"] = {
+["Default"] = {
+[440576] = 4113655,
+[440377] = 4116727,
+},
+},
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 },
 ["profileKeys"] = {
@@ -120,11 +64,11 @@ nil,
 ["global"] = {
 ["watchedMovies"] = {
 [-2292] = true,
-[-437] = true,
 [-593] = {
 true,
 true,
 },
+[-437] = true,
 [-609] = true,
 [-2296] = true,
 [-607] = true,
@@ -280,6 +224,24 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
+[2601] = {
+["normal"] = {
+["kills"] = 5,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/01/07",
+["best"] = 145.1620000000003,
+["fkDuration"] = 145.1620000000003,
+},
+["heroic"] = {
+["kills"] = 2,
+["fkDate"] = "2025/01/11",
+["bestDate"] = "2025/02/11",
+["fkWipes"] = 2,
+["best"] = 203.3870000000024,
+["wipes"] = 8,
+["fkDuration"] = 265.625,
+},
+},
 [2608] = {
 ["normal"] = {
 ["kills"] = 3,
@@ -298,24 +260,6 @@ BigWigsStatsDB = {
 ["best"] = 296.4130000000005,
 ["bestDate"] = "2025/02/11",
 ["fkDate"] = "2025/02/09",
-},
-},
-[2601] = {
-["normal"] = {
-["kills"] = 5,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/01/07",
-["best"] = 145.1620000000003,
-["fkDuration"] = 145.1620000000003,
-},
-["heroic"] = {
-["kills"] = 2,
-["fkDate"] = "2025/01/11",
-["bestDate"] = "2025/02/11",
-["fkWipes"] = 2,
-["best"] = 203.3870000000024,
-["wipes"] = 8,
-["fkDuration"] = 265.625,
 },
 },
 },
