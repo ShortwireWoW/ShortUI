@@ -31,7 +31,7 @@ PremadeGroupsFilterState = {
 ["min"] = "",
 ["act"] = false,
 },
-["expression"] = "members>1",
+["expression"] = "partyfit and members>1",
 ["difficulty"] = {
 ["val"] = 4,
 ["act"] = false,
@@ -83,6 +83,19 @@ PremadeGroupsFilterState = {
 },
 },
 ["version"] = 6,
+["c121f4"] = {
+["role"] = {
+["heals"] = {
+},
+["tanks"] = {
+},
+["dps"] = {
+},
+["members"] = {
+},
+["expression"] = "",
+},
+},
 ["c114f6"] = {
 ["enabled"] = true,
 },

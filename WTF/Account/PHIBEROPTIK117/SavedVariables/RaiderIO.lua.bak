@@ -1,60 +1,20 @@
 
 RaiderIO_Config = {
-["minimapIcon"] = {
-["minimapPos"] = 109.9077348610744,
-["showInCompartment"] = true,
-["hide"] = false,
-["lock"] = false,
-},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
+["minimapIcon"] = {
+["minimapPos"] = 109.9077348610744,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
 }
-RaiderIO_LastCharacter = "us-Shortwire-stormrage"
+RaiderIO_LastCharacter = "us-Shortkin-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Gnòme-proudmoore"] = true,
-["us-Arokai-stormrage"] = true,
-["us-Drakothl-stormrage"] = true,
-["us-Cristhian-stormrage"] = true,
-["us-Nextmeta-stormrage"] = true,
-["us-Calarela-stormrage"] = true,
-["us-Johnnysweeps-stormrage"] = true,
-["us-Adragon-draka"] = true,
-["us-Shadoshok-stormrage"] = true,
-["us-Hånzo-stormrage"] = true,
-["us-Kaltayn-sargeras"] = true,
-["us-Grandpajim-zuljin"] = true,
-["us-Indilul-bonechewer"] = true,
-["us-party3-stormrage"] = true,
-["us-Dewthegreat-stormrage"] = true,
-["us-Shakeÿ-thrall"] = true,
-["us-Marinand-stormrage"] = true,
-["us-Shacklebolt-stormrage"] = true,
-["us-Vaelien-durotan"] = true,
-["us-Honhon-stormrage"] = true,
-["us-Darskoh-stormrage"] = true,
-["us-Gwärsome-stormrage"] = true,
-["us-Kylocalduku-stormrage"] = true,
-["us-Oakbane-black-dragonflight"] = true,
-["us-Talirus-stormrage"] = true,
-["us-Silencé-stormrage"] = true,
-["us-Volkovia-malganis"] = true,
-["us-Hânzo-stormrage"] = true,
-["us-Pillowrocket-stormrage"] = true,
-["us-Noworriess-stormrage"] = true,
-["us-party5-stormrage"] = true,
-["us-Muddpie-stormrage"] = true,
-["us-Vinvi-stormrage"] = true,
-["us-Wooffy-mannoroth"] = true,
-["us-Kortalos-stormrage"] = true,
-["us-Yanelle-stormrage"] = true,
-["us-Centrias-stormrage"] = true,
-["us-Sindroth-stormrage"] = true,
-["us-Naviann-stormrage"] = true,
-["us-Ferhal-stormrage"] = true,
-["us-Siiniista-stormrage"] = true,
+["us-Shortkin-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

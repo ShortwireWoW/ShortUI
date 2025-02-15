@@ -35,7 +35,7 @@ PremadeGroupsFilterState = {
 ["min"] = "",
 ["act"] = false,
 },
-["expression"] = "partyfit",
+["expression"] = "partyfit and members>1",
 ["difficulty"] = {
 ["act"] = false,
 ["val"] = 4,
@@ -83,13 +83,13 @@ PremadeGroupsFilterState = {
 },
 },
 ["version"] = 6,
+["c9f8"] = {
+["enabled"] = true,
+},
 ["c114f6"] = {
 ["enabled"] = true,
 },
 ["c114f5"] = {
-["enabled"] = true,
-},
-["c9f8"] = {
 ["enabled"] = true,
 },
 ["c3f5"] = {
@@ -125,6 +125,19 @@ PremadeGroupsFilterState = {
 ["act"] = true,
 },
 ["expression"] = "members>1",
+},
+},
+["c121f4"] = {
+["role"] = {
+["heals"] = {
+},
+["tanks"] = {
+},
+["dps"] = {
+},
+["members"] = {
+},
+["expression"] = "",
 },
 },
 }

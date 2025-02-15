@@ -1,8 +1,5 @@
 
 wMarkerAceDB = {
-["global"] = {
-["lastVer"] = "3.2.2",
-},
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
@@ -12,13 +9,16 @@ wMarkerAceDB = {
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
+},
+["global"] = {
+["lastVer"] = "3.2.2",
 },
 ["profiles"] = {
 ["Default"] = {

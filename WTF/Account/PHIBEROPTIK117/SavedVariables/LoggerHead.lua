@@ -9,12 +9,12 @@ LoggerHeadDB = {
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
@@ -57,32 +57,37 @@ LoggerHeadDB = {
 ["Utgarde Keep"] = {
 [24] = true,
 },
-["Halls of Lightning"] = {
-[24] = false,
+["Stratholme"] = {
+[24] = true,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Gundrak"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-},
-["The Nexus"] = {
-[24] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Coilfang: The Underbog"] = {
 [24] = false,
+},
+["Grim Batol"] = {
+[2] = false,
+[23] = true,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
@@ -96,19 +101,24 @@ false,
 ["Zul'Farrak"] = {
 [24] = false,
 },
-["Grim Batol"] = {
-[2] = false,
-[23] = true,
+["The Nexus"] = {
+[24] = true,
 },
-["Tempest Keep: The Botanica"] = {
+["Gundrak"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[2] = false,
+["Halls of Lightning"] = {
+[24] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
+[208] = true,
+},
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Tak-Rethan Abyss"] = {
@@ -117,33 +127,27 @@ false,
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["Zekvir's Lair"] = {
-[208] = true,
-},
-["The Dread Pit"] = {
-[208] = true,
-},
 ["The Underkeep"] = {
 [208] = false,
 },
-["Kriegval's Rest"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 },
 ["raid"] = {
-["Ulduar"] = {
-[24] = false,
-},
 ["Nerub-ar Palace"] = {
 [14] = true,
 [16] = true,
 [15] = true,
 },
+["Antorus, the Burning Throne"] = {
+[16] = false,
+},
 ["Black Temple"] = {
 [24] = false,
 },
-["Antorus, the Burning Throne"] = {
-[16] = false,
+["Ulduar"] = {
+[24] = false,
 },
 },
 },
