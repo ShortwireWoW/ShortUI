@@ -14,6 +14,10 @@ VER 3 0100000000000002 "EQ" "134400"
 #showtooltip
 /cast [known:462620,@target] Earthquake; [known:61882,@cursor] Earthquake
 END
+VER 3 0100000000000007 "ES" "134400"
+#showtooltip
+/cast [@mouseover] Earth Shield
+END
 VER 3 0100000000000005 "LMT" "134400"
 #showtooltip
 /cast [@cursor] Liquid Magma Totem

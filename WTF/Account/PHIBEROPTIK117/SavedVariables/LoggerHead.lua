@@ -2,19 +2,20 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
-["Belfmaglove - Mal'Ganis"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
+["Belfmaglove - Mal'Ganis"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
@@ -57,19 +58,16 @@ LoggerHeadDB = {
 ["Utgarde Keep"] = {
 [24] = true,
 },
-["Stratholme"] = {
-[24] = true,
+["Halls of Lightning"] = {
+[24] = false,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
+["Gundrak"] = {
+[24] = false,
 },
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
@@ -82,8 +80,8 @@ false,
 ["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["The Nexus"] = {
+[24] = true,
 },
 ["Grim Batol"] = {
 [2] = false,
@@ -101,14 +99,17 @@ false,
 ["Zul'Farrak"] = {
 [24] = false,
 },
-["The Nexus"] = {
+["Coilfang: The Underbog"] = {
+[24] = false,
+},
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
+},
+["Stratholme"] = {
 [24] = true,
-},
-["Gundrak"] = {
-[24] = false,
-},
-["Halls of Lightning"] = {
-[24] = false,
 },
 },
 ["scenario"] = {
@@ -118,13 +119,13 @@ false,
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
+["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Earthcrawl Mines"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["The Underkeep"] = {
@@ -135,19 +136,19 @@ false,
 },
 },
 ["raid"] = {
-["Nerub-ar Palace"] = {
-[14] = true,
-[16] = true,
-[15] = true,
+["Black Temple"] = {
+[24] = false,
 },
 ["Antorus, the Burning Throne"] = {
 [16] = false,
 },
-["Black Temple"] = {
-[24] = false,
-},
 ["Ulduar"] = {
 [24] = false,
+},
+["Nerub-ar Palace"] = {
+[14] = true,
+[16] = true,
+[15] = true,
 },
 },
 },

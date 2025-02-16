@@ -9,15 +9,16 @@ TomTomDB = {
 ["Volatilespor - Stormrage"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortirony - Illidan"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortirony - Illidan"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
@@ -54,15 +55,16 @@ TomTomWaypointsM = {
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
 ["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
+["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
 ["Shortkin - Stormrage"] = "Shortkin - Stormrage",
-["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
+["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Loveacheev - Mal'Ganis"] = "Loveacheev - Mal'Ganis",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Shortirony - Illidan"] = "Shortirony - Illidan",
+["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
 ["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
 },
 ["profiles"] = {
@@ -82,6 +84,8 @@ TomTomWaypointsM = {
 },
 ["Sentientsoup - Mal'Ganis"] = {
 },
+["Shortblink - Stormrage"] = {
+},
 ["Medimilk - Mal'Ganis"] = {
 },
 ["Shortlite - Stormrage"] = {
@@ -90,7 +94,7 @@ TomTomWaypointsM = {
 },
 ["Shortkin - Stormrage"] = {
 },
-["Raretrollrog - Mal'Ganis"] = {
+["Shortirony - Illidan"] = {
 },
 ["Loveacheev - Mal'Ganis"] = {
 },
@@ -98,7 +102,7 @@ TomTomWaypointsM = {
 },
 ["Shortwire - Stormrage"] = {
 },
-["Shortirony - Illidan"] = {
+["Raretrollrog - Mal'Ganis"] = {
 },
 ["Shortshots - Mal'Ganis"] = {
 },

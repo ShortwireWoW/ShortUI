@@ -326,22 +326,14 @@ L["RAID_BOSS_ICC_6"] = "腐臉"
 L["RAID_BOSS_ICC_7"] = "普崔希德教授"
 L["RAID_BOSS_ICC_8"] = "血親王議會"
 L["RAID_BOSS_ICC_9"] = "血腥女王菈娜薩爾"
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_8"] = ""--]] 
+L["RAID_BOSS_LOU_1"] = "薇克希和齒輪幫"
+L["RAID_BOSS_LOU_2"] = "兇殘大鍋"
+L["RAID_BOSS_LOU_3"] = "里克‧李福伯"
+L["RAID_BOSS_LOU_4"] = "史提克‧邦江克"
+L["RAID_BOSS_LOU_5"] = "鏈販‧鎖貨"
+L["RAID_BOSS_LOU_6"] = "獨臂強盜"
+L["RAID_BOSS_LOU_7"] = "瑪格吉"
+L["RAID_BOSS_LOU_8"] = "閃亮亮大王加里維克斯"
 L["RAID_BOSS_NP_1"] = "烏格拉斯"
 L["RAID_BOSS_NP_2"] = "血縛之懼"
 L["RAID_BOSS_NP_3"] = "錫克朗"

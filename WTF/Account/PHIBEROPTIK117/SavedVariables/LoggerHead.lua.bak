@@ -2,10 +2,11 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
@@ -14,8 +15,8 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -57,21 +58,12 @@ LoggerHeadDB = {
 ["Utgarde Keep"] = {
 [24] = true,
 },
-["Halls of Lightning"] = {
-[24] = false,
-},
-["The Dawnbreaker"] = {
+["Ara-Kara, City of Echoes"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Gundrak"] = {
-[24] = false,
-},
-["Auchindoun: Mana-Tombs"] = {
-[24] = false,
-},
-["Ara-Kara, City of Echoes"] = {
+["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
@@ -79,12 +71,24 @@ LoggerHeadDB = {
 ["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
-["The Nexus"] = {
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
+},
+["Stratholme"] = {
 [24] = true,
+},
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
 ["Grim Batol"] = {
 [2] = false,
 [23] = true,
+},
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
@@ -98,17 +102,14 @@ false,
 ["Zul'Farrak"] = {
 [24] = false,
 },
-["Coilfang: The Underbog"] = {
+["The Nexus"] = {
+[24] = true,
+},
+["Gundrak"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
-},
-["Stratholme"] = {
-[24] = true,
+["Halls of Lightning"] = {
+[24] = false,
 },
 },
 ["scenario"] = {
@@ -118,13 +119,13 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Earthcrawl Mines"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Zekvir's Lair"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
+["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["The Underkeep"] = {
@@ -135,19 +136,19 @@ false,
 },
 },
 ["raid"] = {
-["Black Temple"] = {
-[24] = false,
-},
 ["Antorus, the Burning Throne"] = {
 [16] = false,
-},
-["Ulduar"] = {
-[24] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
 [16] = true,
 [15] = true,
+},
+["Ulduar"] = {
+[24] = false,
+},
+["Black Temple"] = {
+[24] = false,
 },
 },
 },

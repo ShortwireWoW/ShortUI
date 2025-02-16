@@ -4,7 +4,7 @@ END
 VER 3 0000000000000064 "AFK Level" "134400"
 #showtooltip
 /target Volatile Spore
-/cast Moonfire
+/cast Fire Blast
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
 VER 3 000000000000005D "Lust" "134400"
@@ -25,6 +25,10 @@ VER 3 000000000000005B "Potions" "134400"
 #showtooltip
 /use Fleeting Elemental Potion of Ultimate Power
 /use Elemental Potion of Ultimate Power
+END
+VER 3 0000000000000065 "Swap Blaster" "134400"
+#showtooltip
+/cast [@mouseover] Swapblaster
 END
 VER 3 0000000000000062 "Toys" "134400"
 #showtooltip
