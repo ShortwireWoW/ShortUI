@@ -3,21 +3,41 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Broodtwister Ovi'nax"] = {
+["BigWigs_Bosses_Anub'arakAN"] = {
 },
 ["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
+["BigWigs_Bosses_General Bjarngrim"] = {
+},
+["BigWigs_Bosses_Krik'thir the Gatewatcher"] = {
+},
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
+["BigWigs_Bosses_Hadronox"] = {
+},
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Bosses_Volkhan"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -31,7 +51,7 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Bars"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
 ["profiles"] = {
@@ -41,23 +61,7 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Queen Ansurek"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Bosses_The Silken Court"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
 ["BigWigs_Plugins_Pull"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
 },
 },
 ["global"] = {
@@ -76,11 +80,12 @@ true,
 },
 },
 ["profileKeys"] = {
+["Shortlite - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

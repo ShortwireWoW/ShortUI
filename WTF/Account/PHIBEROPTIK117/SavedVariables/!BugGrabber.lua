@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 450,
+["session"] = 458,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -9,14 +9,6 @@ BugGrabberDB = {
 ["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
 ["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:76: in function `FriendsFrame_ShowSubFrame'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:433: in function `FriendsFrame_Update'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:365: in function <...dOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua:336>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:493: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:336: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:174: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua\"]:893: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua\"]:1310: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
 ["session"] = 446,
-["counter"] = 1,
-},
-{
-["message"] = "Interface/AddOns/Details/functions/ej_cache.lua:118: attempt to index field 'CurrentContent' (a nil value)",
-["time"] = "2025/02/15 21:51:28",
-["locals"] = "id = 2657\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'CurrentContent' (a nil value)\"\nDetails222 = <table> {\n PlayerStats = <table> {\n }\n Cache = <table> {\n }\n ClassCache = <table> {\n }\n UnitIdCache = <table> {\n }\n CustomItemList = <table> {\n }\n PetContainer = <table> {\n }\n SpecHelpers = <table> {\n }\n Notes = <table> {\n }\n PFrame = Frame {\n }\n InstanceDifficulty = <table> {\n }\n TimeMachine = <table> {\n }\n Roskash = <table> {\n }\n ColorScheme = <table> {\n }\n Unknown = \"Unknown\"\n EncounterJournalDump = <table> {\n }\n BarIconSetList = <table> {\n }\n OneHourAuras = <table> {\n }\n CurrentDPS = <table> {\n }\n Mixins = <table> {\n }\n Parser = <table> {\n }\n EJCache = <table> {\n }\n AutoRunCode = <table> {\n }\n MythicPlusBreakdown = <table> {\n }\n Actors = <table> {\n }\n Combat = <table> {\n }\n SaveVariables = <table> {\n }\n Scheduler = <table> {\n }\n LoadSavedVariables = <table> {\n }\n GarbageCollector = <table> {\n }\n OptionsPanel = <table> {\n }\n WarcraftLogs = <table> {\n }\n IgnoredWorldAuras = <table> {\n }\n DamageSpells = <table> {\n }\n OnUseItem = <table> {\n }\n ProfilingCache = <table> {\n }\n Cooldowns = <table> {\n }\n TrainingDummiesNpcId = <table> {\n }\n StartUp = <table> {\n }\n Date = <table> {\n }\n ContextManager = <table> {\n }\n Instances = <table> {\n }\n Pets = <table> {\n }\n Segments = <table> {\n }\n PrivateInstanceText = FontString {\n }\n AuraScan = <table> {\n }\n commprefixes = \"Comm\"\n CooldownTracking = <table> {\n }\n Textures = <table> {\n }\n Profiling = <table> {\n }\n Debug = <table> {\n }\n Tables = <table> {\n }\n Perf = <table> {\n }\n ParsePercent = <table> {\n }\n Tvs = 110007\n TimeCapture = <table> {\n }\n parser_frame = Frame {\n }\n GuessSpecSchedules = <table> {\n }\n MythicPlus = <table> {\n }\n PlayerBreakdown = <table> {\n }\n BreakdownWindow = <table> {\n }\n storage = <table> {\n }\n RegisteredFramesToColor = <table> {\n }\n}\n",
-["stack"] = "[string \"@Interface/AddOns/Details/functions/ej_cache.lua\"]:118: in function `IsCurrentContent'\n[string \"@Interface/AddOns/Details/functions/storage.lua\"]:466: in function `IsZoneIdFromCurrentExpansion'\n[string \"@Interface/AddOns/Details/core/parser.lua\"]:5555: in function <Interface/AddOns/Details/core/parser.lua:5527>\n[string \"=(tail call)\"]: ?",
-["session"] = 447,
 ["counter"] = 1,
 },
 {
@@ -34,6 +26,22 @@ BugGrabberDB = {
 ["stack"] = "[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:2304: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5492: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5144: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5180: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1>",
 ["session"] = 447,
 ["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'FriendGroups' tried to call the protected function 'UseAction()'.",
+["time"] = "2025/02/16 22:32:30",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:342: in function `handler'\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:667: in function <...ddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua:649>\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:681: in function <...ddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua:674>\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:723: in function `SecureActionButton_OnClick'\n[string \"@Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua\"]:110: in function `TryUseActionButton'\n[string \"@Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua\"]:145: in function `ActionButtonDown'\n[string \"ACTIONBUTTON5\"]:2: in function <[string \"ACTIONBUTTON5\"]:1>",
+["session"] = 457,
+["counter"] = 1,
+},
+{
+["message"] = "Interface/AddOns/Details/functions/ej_cache.lua:118: attempt to index field 'CurrentContent' (a nil value)",
+["time"] = "2025/02/15 21:51:28",
+["locals"] = "id = 2657\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'CurrentContent' (a nil value)\"\nDetails222 = <table> {\n PlayerStats = <table> {\n }\n Cache = <table> {\n }\n ClassCache = <table> {\n }\n UnitIdCache = <table> {\n }\n CustomItemList = <table> {\n }\n PetContainer = <table> {\n }\n SpecHelpers = <table> {\n }\n Notes = <table> {\n }\n PFrame = Frame {\n }\n InstanceDifficulty = <table> {\n }\n TimeMachine = <table> {\n }\n Roskash = <table> {\n }\n ColorScheme = <table> {\n }\n Unknown = \"Unknown\"\n EncounterJournalDump = <table> {\n }\n BarIconSetList = <table> {\n }\n OneHourAuras = <table> {\n }\n CurrentDPS = <table> {\n }\n Mixins = <table> {\n }\n Parser = <table> {\n }\n EJCache = <table> {\n }\n AutoRunCode = <table> {\n }\n MythicPlusBreakdown = <table> {\n }\n Actors = <table> {\n }\n Combat = <table> {\n }\n SaveVariables = <table> {\n }\n Scheduler = <table> {\n }\n LoadSavedVariables = <table> {\n }\n GarbageCollector = <table> {\n }\n OptionsPanel = <table> {\n }\n WarcraftLogs = <table> {\n }\n IgnoredWorldAuras = <table> {\n }\n DamageSpells = <table> {\n }\n OnUseItem = <table> {\n }\n ProfilingCache = <table> {\n }\n Cooldowns = <table> {\n }\n TrainingDummiesNpcId = <table> {\n }\n StartUp = <table> {\n }\n Date = <table> {\n }\n ContextManager = <table> {\n }\n Instances = <table> {\n }\n Pets = <table> {\n }\n Segments = <table> {\n }\n PrivateInstanceText = FontString {\n }\n AuraScan = <table> {\n }\n commprefixes = \"Comm\"\n CooldownTracking = <table> {\n }\n Textures = <table> {\n }\n Profiling = <table> {\n }\n Debug = <table> {\n }\n Tables = <table> {\n }\n Perf = <table> {\n }\n ParsePercent = <table> {\n }\n Tvs = 110007\n TimeCapture = <table> {\n }\n parser_frame = Frame {\n }\n GuessSpecSchedules = <table> {\n }\n MythicPlus = <table> {\n }\n PlayerBreakdown = <table> {\n }\n BreakdownWindow = <table> {\n }\n storage = <table> {\n }\n RegisteredFramesToColor = <table> {\n }\n}\n",
+["stack"] = "[string \"@Interface/AddOns/Details/functions/ej_cache.lua\"]:118: in function `IsCurrentContent'\n[string \"@Interface/AddOns/Details/functions/storage.lua\"]:466: in function `IsZoneIdFromCurrentExpansion'\n[string \"@Interface/AddOns/Details/core/parser.lua\"]:5555: in function <Interface/AddOns/Details/core/parser.lua:5527>\n[string \"=(tail call)\"]: ?",
+["session"] = 458,
+["counter"] = 2,
 },
 },
 }

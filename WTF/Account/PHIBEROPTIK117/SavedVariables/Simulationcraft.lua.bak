@@ -92,6 +92,9 @@ SimulationCraftDB = {
 ["Stonesoup - Area 52"] = {
 },
 ["Shortblink - Stormrage"] = {
+["minimap"] = {
+["hide"] = true,
+},
 },
 },
 }

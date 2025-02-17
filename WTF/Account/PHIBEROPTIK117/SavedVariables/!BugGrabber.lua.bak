@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 449,
+["session"] = 457,
 ["errors"] = {
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'FriendGroups' tried to call the protected function 'RaidFrame:Show()'.",
@@ -33,6 +33,14 @@ BugGrabberDB = {
 ["locals"] = "(*temporary) = \"run local i=1 for j=1,8 do if not IsRaidMarkerActive(j) then i=j break end end PlaceRaidMarker(i)\"\n",
 ["stack"] = "[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:2304: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5492: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5144: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua\"]:5180: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:140_OnEnterPressed\"]:1>",
 ["session"] = 447,
+["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'FriendGroups' tried to call the protected function 'UseAction()'.",
+["time"] = "2025/02/16 22:32:30",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:342: in function `handler'\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:667: in function <...ddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua:649>\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:681: in function <...ddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua:674>\n[string \"@Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.lua\"]:723: in function `SecureActionButton_OnClick'\n[string \"@Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua\"]:110: in function `TryUseActionButton'\n[string \"@Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua\"]:145: in function `ActionButtonDown'\n[string \"ACTIONBUTTON5\"]:2: in function <[string \"ACTIONBUTTON5\"]:1>",
+["session"] = 457,
 ["counter"] = 1,
 },
 },

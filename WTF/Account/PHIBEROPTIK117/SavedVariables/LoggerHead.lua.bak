@@ -116,13 +116,13 @@ false,
 ["The Waterworks"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["The Dread Pit"] = {
 [208] = true,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
@@ -131,7 +131,7 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Kriegval's Rest"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 },

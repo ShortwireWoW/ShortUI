@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Blizzard" "134400"
+#showtooltip
+/cast [@cursor] Blizzard
+END
