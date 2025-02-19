@@ -79,7 +79,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 6501.413000000001,
+["level"] = 3,
 ["objectiveTimes"] = {
 "05:49.448",
 "11:18.285",
@@ -87,7 +87,7 @@ GottaGoFasterHistoryDB = {
 "22:18.892",
 "16:19.466",
 },
-["level"] = 3,
+["startTime"] = 6501.413000000001,
 },
 {
 ["corrupt"] = false,
@@ -138,7 +138,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["level"] = 5,
+["startTime"] = 8676.892,
 ["objectiveTimes"] = {
 "10:33.627",
 "16:03.924",
@@ -146,7 +146,7 @@ GottaGoFasterHistoryDB = {
 "27:26.552",
 "21:20.060",
 },
-["startTime"] = 8676.892,
+["level"] = 5,
 },
 {
 ["corrupt"] = false,
@@ -166,8 +166,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 47,
 },
-["startTime"] = 6107.388,
 ["level"] = 2,
+["startTime"] = 6107.388,
 ["objectiveTimes"] = {
 "09:21.823",
 "18:16.370",
@@ -225,8 +225,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 2,
 },
-["level"] = 6,
 ["startTime"] = 39531.132,
+["level"] = 6,
 ["objectiveTimes"] = {
 "08:34.892",
 "15:57.158",
@@ -254,6 +254,73 @@ GottaGoFasterHistoryDB = {
 ["class"] = "Paladin",
 ["name"] = "Moonicuh (*)",
 ["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 9,
+["affixes"] = {
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+},
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[152] = {
+["name"] = "Challenger's Peril",
+["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+},
+["active"] = false,
+["endTime"] = 120099.855,
+["timeStamp"] = {
+["day"] = 17,
+["month"] = 2,
+["hours"] = 23,
+["year"] = 2025,
+["mins"] = 57,
+},
+["level"] = 10,
+["startTime"] = 118454.631,
+["objectiveTimes"] = {
+"08:46.155",
+"15:39.207",
+"23:47.735",
+"28:09.978",
+"21:53.638",
+},
+["players"] = {
+{
+["class"] = "Priest",
+["name"] = "Pogpriest (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Xarlo",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Motoboy (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Xxez (*)",
+["role"] = "TANK",
 },
 {
 ["class"] = "Shaman",
@@ -301,8 +368,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 44,
 },
-["startTime"] = 12560.399,
 ["level"] = 2,
+["startTime"] = 12560.399,
 ["objectiveTimes"] = {
 "03:11.981",
 "09:29.145",
@@ -390,14 +457,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["level"] = 7,
+["startTime"] = 3585.933,
 ["objectiveTimes"] = {
 "07:30.983",
 "30:25.183",
 "37:37.336",
 "34:06.325",
 },
-["startTime"] = 3585.933,
+["level"] = 7,
 },
 {
 ["corrupt"] = false,
@@ -444,14 +511,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
-["level"] = 2,
+["startTime"] = 10583.438,
 ["objectiveTimes"] = {
 "04:41.914",
 "13:02.691",
 "18:26.932",
 "20:30.694",
 },
-["startTime"] = 10583.438,
+["level"] = 2,
 },
 {
 ["corrupt"] = false,
@@ -502,14 +569,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
-["level"] = 6,
+["startTime"] = 31388.471,
 ["objectiveTimes"] = {
 "06:33.928",
 "22:55.459",
 "30:21.215",
 "30:44.381",
 },
-["startTime"] = 31388.471,
+["level"] = 6,
 },
 {
 ["corrupt"] = false,
@@ -537,8 +604,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 15,
 },
-["level"] = 8,
 ["startTime"] = 30038.231,
+["level"] = 8,
 ["objectiveTimes"] = {
 "05:32.564",
 "16:45.101",
@@ -565,6 +632,72 @@ GottaGoFasterHistoryDB = {
 ["class"] = "Warlock",
 ["name"] = "Xarlo",
 ["role"] = "DAMAGER",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
+},
+{
+["corrupt"] = false,
+["deaths"] = 7,
+["affixes"] = {
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+},
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[152] = {
+["name"] = "Challenger's Peril",
+["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+},
+["active"] = false,
+["endTime"] = 117822.432,
+["timeStamp"] = {
+["day"] = 17,
+["month"] = 2,
+["hours"] = 23,
+["year"] = 2025,
+["mins"] = 20,
+},
+["level"] = 10,
+["startTime"] = 116289.625,
+["objectiveTimes"] = {
+"05:45.052",
+"15:33.597",
+"26:07.718",
+"23:02.415",
+},
+["players"] = {
+{
+["class"] = "Priest",
+["name"] = "Pogpriest (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Xarlo",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Mistafista (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Druid",
+["name"] = "Voomkin (*)",
+["role"] = "TANK",
 },
 {
 ["class"] = "Shaman",
@@ -604,8 +737,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 53,
 },
-["startTime"] = 9172.32,
 ["level"] = 3,
+["startTime"] = 9172.32,
 ["objectiveTimes"] = {
 "03:41.779",
 "11:29.370",
@@ -686,7 +819,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
-["level"] = 3,
+["startTime"] = 26205.484,
 ["objectiveTimes"] = {
 "03:31.708",
 "10:56.934",
@@ -694,7 +827,7 @@ GottaGoFasterHistoryDB = {
 "20:06.464",
 "21:19.985",
 },
-["startTime"] = 26205.484,
+["level"] = 3,
 },
 {
 ["corrupt"] = false,
@@ -745,7 +878,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
-["level"] = 5,
+["startTime"] = 28908.481,
 ["objectiveTimes"] = {
 "09:03.394",
 "16:56.442",
@@ -753,7 +886,7 @@ GottaGoFasterHistoryDB = {
 "26:09.556",
 "26:34.816",
 },
-["startTime"] = 28908.481,
+["level"] = 5,
 },
 {
 ["corrupt"] = false,
@@ -773,8 +906,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 0,
 },
-["startTime"] = 45421.158,
 ["level"] = 3,
+["startTime"] = 45421.158,
 ["objectiveTimes"] = {
 "02:33.072",
 "08:05.313",
@@ -863,7 +996,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["level"] = 9,
+["startTime"] = 8734.387,
 ["objectiveTimes"] = {
 "04:31.301",
 "19:38.122",
@@ -871,7 +1004,7 @@ GottaGoFasterHistoryDB = {
 "33:47.497",
 "22:47.116",
 },
-["startTime"] = 8734.387,
+["level"] = 9,
 },
 {
 ["corrupt"] = false,
@@ -899,8 +1032,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 39,
 },
-["level"] = 9,
 ["startTime"] = 27447.245,
+["level"] = 9,
 ["objectiveTimes"] = {
 "07:27.436",
 "19:42.287",
@@ -989,14 +1122,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 87169.118,
+["level"] = 5,
 ["objectiveTimes"] = {
 "?",
 "?",
 "23:30",
 "24:09",
 },
-["level"] = 5,
+["startTime"] = 87169.118,
 },
 {
 ["corrupt"] = false,
@@ -1020,8 +1153,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 0,
 },
-["startTime"] = 168781.505,
 ["level"] = 4,
+["startTime"] = 168781.505,
 ["objectiveTimes"] = {
 "04:50.437",
 "11:00.893",
@@ -1105,14 +1238,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 85380.499,
+["level"] = 5,
 ["objectiveTimes"] = {
 "07:18.351",
 "15:51.867",
 "21:48.279",
 "18:16.972",
 },
-["level"] = 5,
+["startTime"] = 85380.499,
 },
 },
 ["name"] = "Ara-Kara, City of Echoes",
@@ -1171,7 +1304,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["level"] = 2,
+["startTime"] = 7149.947,
 ["objectiveTimes"] = {
 "03:32.054",
 "12:29.828",
@@ -1179,7 +1312,7 @@ GottaGoFasterHistoryDB = {
 "16:45.707",
 "15:51.238",
 },
-["startTime"] = 7149.947,
+["level"] = 2,
 },
 {
 ["corrupt"] = false,
@@ -1230,7 +1363,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 88560.507,
+["level"] = 5,
 ["objectiveTimes"] = {
 "04:44.098",
 "22:51.014",
@@ -1238,7 +1371,74 @@ GottaGoFasterHistoryDB = {
 "32:04.379",
 "30:00.362",
 },
-["level"] = 5,
+["startTime"] = 88560.507,
+},
+{
+["corrupt"] = false,
+["deaths"] = 13,
+["affixes"] = {
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+},
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[152] = {
+["name"] = "Challenger's Peril",
+["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+},
+["active"] = false,
+["endTime"] = 122319.742,
+["timeStamp"] = {
+["day"] = 18,
+["month"] = 2,
+["hours"] = 0,
+["year"] = 2025,
+["mins"] = 34,
+},
+["level"] = 10,
+["startTime"] = 120489.689,
+["objectiveTimes"] = {
+"05:17.248",
+"21:41.053",
+"13:45.843",
+"31:34.899",
+"29:01.281",
+},
+["players"] = {
+{
+["class"] = "Priest",
+["name"] = "Pogpriest (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Xarlo",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Hunter",
+["name"] = "Twistedtraps (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Paladin",
+["name"] = "Clyren",
+["role"] = "TANK",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
 },
 },
 ["name"] = "The Stonevault",
@@ -1279,8 +1479,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 15,
 },
-["startTime"] = 10662.33,
 ["level"] = 2,
+["startTime"] = 10662.33,
 ["objectiveTimes"] = {
 "05:18.483",
 "12:33.327",
@@ -1364,14 +1564,14 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 149310.535,
+["level"] = 6,
 ["objectiveTimes"] = {
 "05:49.960",
 "17:22.928",
 "21:41.312",
 "18:49.874",
 },
-["level"] = 6,
+["startTime"] = 149310.535,
 },
 {
 ["corrupt"] = true,
@@ -1391,8 +1591,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 21,
 },
-["startTime"] = 169439.973,
 ["level"] = 2,
+["startTime"] = 169439.973,
 ["objectiveTimes"] = {
 "09:34",
 "18:43",
@@ -1449,8 +1649,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 27,
 },
-["startTime"] = 37720.244,
 ["level"] = 4,
+["startTime"] = 37720.244,
 ["objectiveTimes"] = {
 "07:31.404",
 "16:50.750",
@@ -1503,8 +1703,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 11,
 },
-["startTime"] = 41015.238,
 ["level"] = 2,
+["startTime"] = 41015.238,
 ["objectiveTimes"] = {
 "04:49.182",
 "11:07.117",
@@ -1592,27 +1792,19 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["level"] = 8,
+["startTime"] = 11414.409,
 ["objectiveTimes"] = {
 "07:02.021",
 "19:06.623",
 "24:01.464",
 "20:49.581",
 },
-["startTime"] = 11414.409,
+["level"] = 8,
 },
 {
 ["corrupt"] = false,
 ["deaths"] = 28,
 ["affixes"] = {
-[9] = {
-["name"] = "Tyrannical",
-["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-},
-[10] = {
-["name"] = "Fortified",
-["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-},
 [148] = {
 ["name"] = "Xal'atath's Bargain: Ascendant",
 ["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
@@ -1620,6 +1812,14 @@ GottaGoFasterHistoryDB = {
 [152] = {
 ["name"] = "Challenger's Peril",
 ["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
 },
 },
 ["active"] = false,
@@ -1631,8 +1831,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 30,
 },
-["level"] = 10,
 ["startTime"] = 32783.191,
+["level"] = 10,
 ["objectiveTimes"] = {
 "08:18.278",
 "41:45.412",
@@ -1689,8 +1889,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 26,
 },
-["level"] = 5,
 ["startTime"] = 36185.72,
+["level"] = 5,
 ["objectiveTimes"] = {
 "06:12.319",
 "20:13.772",
@@ -1760,8 +1960,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 35,
 },
-["startTime"] = 28375.277,
 ["level"] = 5,
+["startTime"] = 28375.277,
 ["objectiveTimes"] = {
 "07:52.196",
 "12:54.774",
@@ -1823,8 +2023,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 29,
 },
-["level"] = 8,
 ["startTime"] = 17220.369,
+["level"] = 8,
 ["objectiveTimes"] = {
 "09:43.107",
 "20:56.410",
@@ -1895,8 +2095,8 @@ GottaGoFasterHistoryDB = {
 ["year"] = 2025,
 ["mins"] = 40,
 },
-["startTime"] = 167293.551,
 ["level"] = 4,
+["startTime"] = 167293.551,
 ["objectiveTimes"] = {
 "03:30.260",
 "10:39.229",
@@ -1977,7 +2177,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "TANK",
 },
 },
-["startTime"] = 115532.808,
+["level"] = 3,
 ["objectiveTimes"] = {
 "04:47.589",
 "13:42.308",
@@ -1985,7 +2185,7 @@ GottaGoFasterHistoryDB = {
 "44:04.473",
 "32:00.580",
 },
-["level"] = 3,
+["startTime"] = 115532.808,
 },
 {
 ["corrupt"] = false,
@@ -2036,7 +2236,7 @@ GottaGoFasterHistoryDB = {
 ["role"] = "DAMAGER",
 },
 },
-["startTime"] = 39205.681,
+["level"] = 4,
 ["objectiveTimes"] = {
 "03:56.665",
 "11:38.591",
@@ -2044,7 +2244,74 @@ GottaGoFasterHistoryDB = {
 "20:11.532",
 "21:46.484",
 },
-["level"] = 4,
+["startTime"] = 39205.681,
+},
+{
+["corrupt"] = false,
+["deaths"] = 14,
+["affixes"] = {
+[9] = {
+["name"] = "Tyrannical",
+["desc"] = "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+},
+[10] = {
+["name"] = "Fortified",
+["desc"] = "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+},
+[148] = {
+["name"] = "Xal'atath's Bargain: Ascendant",
+["desc"] = "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+},
+[152] = {
+["name"] = "Challenger's Peril",
+["desc"] = "The timer is increased by 90 seconds, but dying subtracts 15 seconds from time remaining.",
+},
+},
+["active"] = false,
+["endTime"] = 115307.919,
+["timeStamp"] = {
+["day"] = 17,
+["month"] = 2,
+["hours"] = 22,
+["year"] = 2025,
+["mins"] = 38,
+},
+["level"] = 10,
+["startTime"] = 113492.746,
+["objectiveTimes"] = {
+"07:09.804",
+"16:42.266",
+"23:59.878",
+"30:35.880",
+"31:24.994",
+},
+["players"] = {
+{
+["class"] = "Death Knight",
+["name"] = "Cellokhan (*)",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Warlock",
+["name"] = "Xarlo",
+["role"] = "DAMAGER",
+},
+{
+["class"] = "Monk",
+["name"] = "Mistafista (*)",
+["role"] = "HEALER",
+},
+{
+["class"] = "Monk",
+["name"] = "Graytakeo (*)",
+["role"] = "TANK",
+},
+{
+["class"] = "Shaman",
+["name"] = "Shortwire",
+["role"] = "DAMAGER",
+},
+},
 },
 },
 },

@@ -86,6 +86,9 @@ SimulationCraftDB = {
 ["minimap"] = {
 ["hide"] = true,
 },
+["frame"] = {
+["ofsx"] = -0.8206341862678528,
+},
 },
 ["Shortwire - Stormrage"] = {
 ["minimap"] = {

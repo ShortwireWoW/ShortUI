@@ -80,6 +80,9 @@ SimulationCraftDB = {
 ["Loveacheev - Mal'Ganis"] = {
 },
 ["Shortsited - Stormrage"] = {
+["frame"] = {
+["ofsx"] = -0.8206341862678528,
+},
 ["minimap"] = {
 ["hide"] = true,
 },

@@ -29,17 +29,17 @@ RaiderIO_Config = {
 ["g"] = 0,
 ["b"] = 0,
 },
-["replaySelection"] = "user_best_replay",
-["showSimpleScoreColors"] = false,
 ["enableWhoTooltips"] = true,
+["showSimpleScoreColors"] = false,
+["replaySelection"] = "user_best_replay",
 ["showRaiderIOProfile"] = true,
-["hidePersonalRaiderIOProfile"] = false,
-["enableGuildTooltips"] = true,
 ["showScoreModifier"] = false,
+["enableGuildTooltips"] = true,
+["hidePersonalRaiderIOProfile"] = false,
 ["enableLFGTooltips"] = true,
-["enableUnitTooltips"] = true,
-["enableFriendsTooltips"] = true,
 ["showRoleIcons"] = true,
+["enableFriendsTooltips"] = true,
+["enableUnitTooltips"] = true,
 ["positionProfileAuto"] = true,
 ["inverseProfileModifier"] = false,
 ["showDropDownCopyURL"] = true,
@@ -52,12 +52,9 @@ RaiderIO_Config = {
 ["mplusHeadlineMode"] = 0,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortblink-stormrage"
+RaiderIO_LastCharacter = "us-Sentientsoup-malganis"
 RaiderIO_MissingCharacters = {
-["us-Starkzzy-frostmourne"] = true,
-["us-Shortblink-stormrage"] = true,
-["us-Madgnomo-stormrage"] = true,
-["us-Onewitdabolt-stormrage"] = true,
+["us-Sentientsoup-malganis"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -9,8 +9,8 @@ H: 427
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: RIGHT
-X: -8
-Y: 13
+X: -431
+Y: 64
 W: 261
 H: 538
 Frame: ItemRefTooltip

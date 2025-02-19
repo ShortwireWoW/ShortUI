@@ -1,4 +1,4 @@
 
 g_collapsedServerAlert = nil
 g_characterSelectToolTrayCollapsed = nil
-g_newGameModeAvailableAcknowledged = nil
+g_newGameModeAvailableAcknowledged = 1
