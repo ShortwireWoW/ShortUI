@@ -11,7 +11,7 @@ VER 3 0000000000000067 "CLEAR WM" "132212"
 /cwm all
 END
 VER 3 0000000000000068 "Guild" "134331"
-/2 |cffffd200|HclubFinder:ClubFinder-1-569611-60-112575617|h[Guild: Lunar Effect]|h|r is looking for a DPS to finish our roster for Season 2. Ele/Enh Sham, H DH, SPriest. -- Fri/Sat 9pm-12am EST. AOTC + Mythic, pst!
+/2 |cffffd200|HclubFinder:ClubFinder-1-569611-60-112575617|h[Guild: Lunar Effect]|h|r is looking to fill our Season 2 roster DPS. Shaman or SPriest -- Fri/Sat 9pm-12am EST. AOTC + Mythic, whisper for more info or to join.
 END
 VER 3 000000000000005D "Lust" "134400"
 #showtooltip

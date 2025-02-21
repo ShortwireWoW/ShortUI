@@ -1,0 +1,12 @@
+VER 3 0100000000000001 "Blizzard" "134400"
+#showtooltip
+/cast [@cursor] Blizzard
+END
+VER 3 0100000000000002 "Flamestrike" "134400"
+#showtooltip
+/cast [@cursor] Flamestrike
+END
+VER 3 0100000000000003 "Meteor" "134400"
+#showtooltip
+/cast [@cursor] Meteor
+END

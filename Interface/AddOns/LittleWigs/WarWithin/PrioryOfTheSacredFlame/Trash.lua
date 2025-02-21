@@ -71,69 +71,135 @@ end
 -- Initialization
 --
 
-function mod:GetOptions()
-	return {
-		-- Sacred Flame
-		"custom_on_autotalk",
-		435088, -- Blessing of the Sacred Flame
-		-- Guard Captain Suleyman
-		{448485, "TANK_HEALER", "NAMEPLATE"}, -- Shield Slam
-		{448492, "NAMEPLATE"}, -- Thunderclap
-		-- Forge Master Damian
-		{427897, "NAMEPLATE"}, -- Heat Wave
-		{427950, "NAMEPLATE"}, -- Seal of Flame
-		427900, -- Molten Pool
-		-- High Priest Aemya
-		{428150, "NAMEPLATE"}, -- Reflective Shield
-		-- Sergeant Shaynemail
-		{424621, "NAMEPLATE"}, -- Brutal Smash
-		{424423, "NAMEPLATE"}, -- Lunging Strike
-		-- Elaena Emberlanz
-		{424431, "HEALER", "NAMEPLATE"}, -- Holy Radiance
-		{448515, "TANK", "NAMEPLATE"}, -- Divine Judgment
-		{427583, "NAMEPLATE"}, -- Repentance XXX removed in 11.1?
-		-- Taener Duelmal
-		{424420, "DISPEL", "NAMEPLATE"}, -- Cinderblast
-		{424462, "NAMEPLATE"}, -- Ember Storm
-		-- Arathi Knight
-		{427609, "NAMEPLATE"}, -- Disrupting Shout
-		-- Arathi Footman
-		{427342, "NAMEPLATE"}, -- Defend
-		{426964, "TANK", "NAMEPLATE"}, -- Mortal Strike
-		-- Fervent Sharpshooter
-		{453458, "DISPEL", "NAMEPLATE"}, -- Caltrops
-		-- Devout Priest
-		{427356, "NAMEPLATE"}, -- Greater Heal
-		{427346, "DISPEL", "NAMEPLATE"}, -- Inner Fire
-		-- Fanatical Conjuror
-		{427484, "NAMEPLATE"}, -- Flamestrike
-		-- Lightspawn
-		{448787, "NAMEPLATE"}, -- Purification
-		427601, -- Burst of Light
-		-- Ardent Paladin
-		{424429, "NAMEPLATE"}, -- Consecration
-		-- Risen Mage
-		{444743, "NAMEPLATE"}, -- Fireball Volley
-		-- Sir Braunpyke
-		{435165, "TANK", "NAMEPLATE"}, -- Blazing Strike
-	}, {
-		["custom_on_autotalk"] = L.sacred_flame,
-		[448485] = L.guard_captain_suleyman,
-		[427897] = L.forge_master_damian,
-		[428150] = L.high_priest_aemya,
-		[424621] = L.sergeant_shaynemail,
-		[424431] = L.elaena_emberlanz,
-		[424420] = L.taener_duelmal,
-		[427609] = L.arathi_knight,
-		[427342] = L.arathi_footman,
-		[453458] = L.fervent_sharpshooter,
-		[427356] = L.devout_priest,
-		[427484] = L.fanatical_conjuror,
-		[448787] = L.lightspawn,
-		[424429] = L.ardent_paladin,
-		[444743] = L.risen_mage,
-		[435165] = L.sir_braunpyke,
-	}
+if isElevenDotOne then
+	function mod:GetOptions()
+		return {
+			-- Sacred Flame
+			"custom_on_autotalk",
+			435088, -- Blessing of the Sacred Flame
+			-- Guard Captain Suleyman
+			{448485, "TANK_HEALER", "NAMEPLATE"}, -- Shield Slam
+			{448492, "NAMEPLATE"}, -- Thunderclap
+			-- Forge Master Damian
+			{427897, "NAMEPLATE"}, -- Heat Wave
+			{427950, "NAMEPLATE"}, -- Seal of Flame
+			427900, -- Molten Pool
+			-- High Priest Aemya
+			{428150, "NAMEPLATE"}, -- Reflective Shield
+			-- Sergeant Shaynemail
+			{424621, "NAMEPLATE"}, -- Brutal Smash
+			{424423, "NAMEPLATE"}, -- Lunging Strike
+			-- Elaena Emberlanz
+			{424431, "HEALER", "NAMEPLATE"}, -- Holy Radiance
+			{448515, "TANK", "NAMEPLATE"}, -- Divine Judgment
+			-- Taener Duelmal
+			{424420, "DISPEL", "NAMEPLATE"}, -- Cinderblast
+			{424462, "NAMEPLATE"}, -- Ember Storm
+			-- Arathi Knight
+			{427609, "NAMEPLATE"}, -- Disrupting Shout
+			-- Arathi Footman
+			{427342, "NAMEPLATE"}, -- Defend
+			{426964, "TANK", "NAMEPLATE"}, -- Mortal Strike
+			-- Fervent Sharpshooter
+			{453458, "DISPEL", "NAMEPLATE"}, -- Caltrops
+			-- Devout Priest
+			{427356, "NAMEPLATE"}, -- Greater Heal
+			-- Fanatical Conjuror
+			{427484, "NAMEPLATE"}, -- Flamestrike
+			-- Lightspawn
+			{448787, "NAMEPLATE"}, -- Purification
+			427601, -- Burst of Light
+			-- Ardent Paladin
+			{424429, "NAMEPLATE"}, -- Consecration
+			{448791, "OFF", "NAMEPLATE"}, -- Sacred Toll
+			-- Risen Mage
+			{444743, "NAMEPLATE"}, -- Fireball Volley
+			-- Sir Braunpyke
+			{435165, "TANK", "NAMEPLATE"}, -- Blazing Strike
+		}, {
+			["custom_on_autotalk"] = L.sacred_flame,
+			[448485] = L.guard_captain_suleyman,
+			[427897] = L.forge_master_damian,
+			[428150] = L.high_priest_aemya,
+			[424621] = L.sergeant_shaynemail,
+			[424431] = L.elaena_emberlanz,
+			[424420] = L.taener_duelmal,
+			[427609] = L.arathi_knight,
+			[427342] = L.arathi_footman,
+			[453458] = L.fervent_sharpshooter,
+			[427356] = L.devout_priest,
+			[427484] = L.fanatical_conjuror,
+			[448787] = L.lightspawn,
+			[424429] = L.ardent_paladin,
+			[444743] = L.risen_mage,
+			[435165] = L.sir_braunpyke,
+		}
+	end
+else -- XXX remove in 11.1
+	function mod:GetOptions()
+		return {
+			-- Sacred Flame
+			"custom_on_autotalk",
+			435088, -- Blessing of the Sacred Flame
+			-- Guard Captain Suleyman
+			{448485, "TANK_HEALER", "NAMEPLATE"}, -- Shield Slam
+			{448492, "NAMEPLATE"}, -- Thunderclap
+			-- Forge Master Damian
+			{427897, "NAMEPLATE"}, -- Heat Wave
+			{427950, "NAMEPLATE"}, -- Seal of Flame
+			427900, -- Molten Pool
+			-- High Priest Aemya
+			{428150, "NAMEPLATE"}, -- Reflective Shield
+			-- Sergeant Shaynemail
+			{424621, "NAMEPLATE"}, -- Brutal Smash
+			{424423, "NAMEPLATE"}, -- Lunging Strike
+			-- Elaena Emberlanz
+			{424431, "HEALER", "NAMEPLATE"}, -- Holy Radiance
+			{448515, "TANK", "NAMEPLATE"}, -- Divine Judgment
+			{427583, "NAMEPLATE"}, -- Repentance XXX removed in 11.1?
+			-- Taener Duelmal
+			{424420, "DISPEL", "NAMEPLATE"}, -- Cinderblast
+			{424462, "NAMEPLATE"}, -- Ember Storm
+			-- Arathi Knight
+			{427609, "NAMEPLATE"}, -- Disrupting Shout
+			-- Arathi Footman
+			{427342, "NAMEPLATE"}, -- Defend
+			{426964, "TANK", "NAMEPLATE"}, -- Mortal Strike
+			-- Fervent Sharpshooter
+			{453458, "DISPEL", "NAMEPLATE"}, -- Caltrops
+			-- Devout Priest
+			{427356, "NAMEPLATE"}, -- Greater Heal
+			{427346, "DISPEL", "NAMEPLATE"}, -- Inner Fire XXX removed in 11.1
+			-- Fanatical Conjuror
+			{427484, "NAMEPLATE"}, -- Flamestrike
+			-- Lightspawn
+			{448787, "NAMEPLATE"}, -- Purification
+			427601, -- Burst of Light
+			-- Ardent Paladin
+			{424429, "NAMEPLATE"}, -- Consecration
+			-- Risen Mage
+			{444743, "NAMEPLATE"}, -- Fireball Volley
+			-- Sir Braunpyke
+			{435165, "TANK", "NAMEPLATE"}, -- Blazing Strike
+		}, {
+			["custom_on_autotalk"] = L.sacred_flame,
+			[448485] = L.guard_captain_suleyman,
+			[427897] = L.forge_master_damian,
+			[428150] = L.high_priest_aemya,
+			[424621] = L.sergeant_shaynemail,
+			[424431] = L.elaena_emberlanz,
+			[424420] = L.taener_duelmal,
+			[427609] = L.arathi_knight,
+			[427342] = L.arathi_footman,
+			[453458] = L.fervent_sharpshooter,
+			[427356] = L.devout_priest,
+			[427484] = L.fanatical_conjuror,
+			[448787] = L.lightspawn,
+			[424429] = L.ardent_paladin,
+			[444743] = L.risen_mage,
+			[435165] = L.sir_braunpyke,
+		}
+	end
 end
 
 function mod:OnBossEnable()
@@ -178,7 +244,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "HolyRadiance", 424431)
 	self:Log("SPELL_CAST_SUCCESS", "HolyRadianceSuccess", 424431)
 	self:Log("SPELL_CAST_START", "DivineJudgment", 448515)
-	self:Log("SPELL_CAST_START", "Repentance", 427583) -- XXX removed in 11.1
+	if not isElevenDotOne then
+		self:Log("SPELL_CAST_START", "Repentance", 427583) -- XXX removed in 11.1
+	end
 	self:Death("ElaenaEmberlanzDeath", 211290, 239833)
 
 	-- Taener Duelmal
@@ -214,14 +282,16 @@ function mod:OnBossEnable()
 	self:Death("FerventSharpshooterDeath", 206694)
 
 	-- Devout Priest
-	self:RegisterEngageMob("DevoutPriestEngaged", 206697)
+	--self:RegisterEngageMob("DevoutPriestEngaged", 206697)
 	self:Log("SPELL_CAST_START", "GreaterHeal", 427356)
 	self:Log("SPELL_INTERRUPT", "GreaterHealInterrupt", 427356)
 	self:Log("SPELL_CAST_SUCCESS", "GreaterHealSuccess", 427356)
-	self:Log("SPELL_CAST_START", "InnerFire", 427346)
-	self:Log("SPELL_INTERRUPT", "InnerFireInterrupt", 427346)
-	self:Log("SPELL_CAST_SUCCESS", "InnerFireSuccess", 427346)
-	self:Log("SPELL_AURA_APPLIED", "InnerFireApplied", 427346)
+	if not isElevenDotOne then
+		self:Log("SPELL_CAST_START", "InnerFire", 427346) -- XXX removed in 11.1
+		self:Log("SPELL_INTERRUPT", "InnerFireInterrupt", 427346) -- XXX removed in 11.1
+		self:Log("SPELL_CAST_SUCCESS", "InnerFireSuccess", 427346) -- XXX removed in 11.1
+		self:Log("SPELL_AURA_APPLIED", "InnerFireApplied", 427346) -- XXX removed in 11.1
+	end
 	self:Death("DevoutPriestDeath", 206697)
 
 	-- Fanatical Conjuror
@@ -242,6 +312,7 @@ function mod:OnBossEnable()
 	self:RegisterEngageMob("ArdentPaladinEngaged", 206704)
 	if isElevenDotOne then
 		self:Log("SPELL_CAST_START", "Consecration", 424429)
+		self:Log("SPELL_CAST_START", "SacredToll", 448791)
 	else -- XXX remove in 11.1
 		self:Log("SPELL_CAST_SUCCESS", "Consecration", 424429)
 	end
@@ -369,8 +440,8 @@ do
 	local timer
 
 	function mod:ForgeMasterDamianEngaged(guid)
-		self:CDBar(427950, 5.6) -- Seal of Flame
-		self:Nameplate(427950, 5.6, guid) -- Seal of Flame
+		self:CDBar(427950, 4.7) -- Seal of Flame
+		self:Nameplate(427950, 4.7, guid) -- Seal of Flame
 		self:CDBar(427897, 8.4) -- Heat Wave
 		self:Nameplate(427897, 8.4, guid) -- Heat Wave
 		timer = self:ScheduleTimer("ForgeMasterDamianDeath", 30)
@@ -595,6 +666,7 @@ do
 		self:Message(args.spellId, "purple")
 		self:CDBar(args.spellId, 13.4)
 		self:Nameplate(args.spellId, 13.4, args.sourceGUID)
+		-- TODO magic dispel now
 		self:PlaySound(args.spellId, "alert")
 		timer = self:ScheduleTimer("ElaenaEmberlanzDeath", 30)
 	end
@@ -618,7 +690,9 @@ do
 		end
 		self:StopBar(424431) -- Holy Radiance
 		self:StopBar(448515) -- Divine Judgment
-		self:StopBar(427583) -- Repentance XXX removed in 11.1
+		if not isElevenDotOne then
+			self:StopBar(427583) -- Repentance XXX removed in 11.1
+		end
 		if args then
 			self:ClearNameplate(args.destGUID)
 		end
@@ -774,7 +848,7 @@ function mod:BattleCryApplied(args)
 	end
 end
 
-function mod:CaptainDailcryWipe() -- called from CaptainDailcry's OnWipe
+function mod:CaptainDailcryDespawn() -- called from CaptainDailcry's OnWipe and OnWin
 	-- clear timers for any mini-bosses that reset with the boss as well
 	if shaynemailGUID then
 		self:SergeantShaynemailDeath({destGUID = shaynemailGUID})
@@ -881,10 +955,9 @@ end
 
 -- Devout Priest
 
-function mod:DevoutPriestEngaged(guid)
+--function mod:DevoutPriestEngaged(guid)
 	-- Greater Heal is not cast until a mob's health is low
-	self:Nameplate(427346, 7.1, guid) -- Inner Fire
-end
+--end
 
 do
 	local prev = 0
@@ -909,7 +982,7 @@ end
 
 do
 	local prev = 0
-	function mod:InnerFire(args)
+	function mod:InnerFire(args) -- XXX removed in 11.1
 		self:Nameplate(args.spellId, 0, args.sourceGUID)
 		if args.time - prev > 2 then
 			prev = args.time
@@ -919,15 +992,15 @@ do
 	end
 end
 
-function mod:InnerFireInterrupt(args)
+function mod:InnerFireInterrupt(args) -- XXX removed in 11.1
 	self:Nameplate(427346, 21.1, args.destGUID)
 end
 
-function mod:InnerFireSuccess(args)
+function mod:InnerFireSuccess(args) -- XXX removed in 11.1
 	self:Nameplate(args.spellId, 21.1, args.sourceGUID)
 end
 
-function mod:InnerFireApplied(args)
+function mod:InnerFireApplied(args) -- XXX removed in 11.1
 	if self:Dispeller("magic", true, args.spellId) and not self:Friendly(args.destFlags) then -- filter Spellsteal
 		self:Message(args.spellId, "orange", CL.on:format(args.spellName, args.destName))
 		self:PlaySound(args.spellId, "info")
@@ -950,7 +1023,7 @@ do
 		-- goes on cooldown at cast start
 		if isElevenDotOne then
 			self:Nameplate(args.spellId, 23.1, args.sourceGUID)
-		else
+		else -- XXX remove in 11.1
 			self:Nameplate(args.spellId, 20.6, args.sourceGUID)
 		end
 		local t = args.time
@@ -1016,6 +1089,7 @@ end
 function mod:ArdentPaladinEngaged(guid)
 	if isElevenDotOne then
 		self:Nameplate(424429, 8.3, guid) -- Consecration
+		self:Nameplate(448791, 15.4, guid) -- Sacred Toll
 	else -- XXX remove in 11.1
 		self:Nameplate(424429, 8.0, guid) -- Consecration
 	end
@@ -1025,6 +1099,18 @@ function mod:Consecration(args)
 	self:Message(args.spellId, "orange")
 	self:Nameplate(args.spellId, 23.0, args.sourceGUID)
 	self:PlaySound(args.spellId, "alarm")
+end
+
+do
+	local prev = 0
+	function mod:SacredToll(args)
+		self:Nameplate(args.spellId, 23.1, args.sourceGUID)
+		if args.time - prev > 3 then
+			prev = args.time
+			self:Message(args.spellId, "yellow")
+			self:PlaySound(args.spellId, "alert")
+		end
+	end
 end
 
 do

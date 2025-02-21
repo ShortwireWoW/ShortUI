@@ -2,10 +2,10 @@
 BigWigs:AddColors("Coin-Operated Crowd Pummeler", {
 	[256493] = {"blue","green"},
 	[257337] = "orange",
-	[262347] = "yellow",
+	[262347] = "red",
 	[269493] = "cyan",
 	[271784] = "yellow",
-	[271867] = "red",
+	[271867] = "purple",
 	[271903] = "purple",
 	[1217294] = "orange",
 })
@@ -13,7 +13,7 @@ BigWigs:AddColors("Coin-Operated Crowd Pummeler", {
 BigWigs:AddColors("Azerokk", {
 	[257582] = {"blue","red"},
 	[257593] = "cyan",
-	[258622] = "orange",
+	[258622] = {"blue","orange"},
 	[271698] = "yellow",
 	[275907] = "red",
 })
@@ -22,11 +22,12 @@ BigWigs:AddColors("Rixxa Fluxflame", {
 	[259856] = {"blue","orange"},
 	[259940] = "yellow",
 	[270042] = {"blue","red"},
+	[275992] = "cyan",
 })
 
 BigWigs:AddColors("Mogul Razdunk", {
 	[260280] = "yellow",
-	[260829] = {"blue","red"},
+	[260813] = {"blue","orange","red"},
 	[271456] = {"blue","orange"},
 	[276229] = "red",
 	["stages"] = "cyan",
@@ -65,7 +66,7 @@ BigWigs:AddColors("The MOTHERLODE!! Trash", {
 	[281621] = "yellow",
 	[472041] = {"blue","orange"},
 	[473168] = "yellow",
-	[473304] = "yellow",
+	[473304] = "orange",
 	[1213139] = "yellow",
 	[1214754] = "orange",
 	[1215411] = "purple",

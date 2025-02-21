@@ -13,7 +13,7 @@ BigWigs:AddSounds("Coin-Operated Crowd Pummeler", {
 BigWigs:AddSounds("Azerokk", {
 	[257582] = "warning",
 	[257593] = "info",
-	[258622] = "long",
+	[258622] = {"long","underyou"},
 	[271698] = "info",
 	[275907] = "alarm",
 })
@@ -22,11 +22,12 @@ BigWigs:AddSounds("Rixxa Fluxflame", {
 	[259856] = "info",
 	[259940] = "alert",
 	[270042] = {"long","underyou"},
+	[275992] = "alarm",
 })
 
 BigWigs:AddSounds("Mogul Razdunk", {
 	[260280] = "alert",
-	[260829] = "warning",
+	[260813] = {"alarm","warning"},
 	[271456] = "alert",
 	[276229] = "alarm",
 	["stages"] = "info",

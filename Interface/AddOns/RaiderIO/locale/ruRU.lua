@@ -63,17 +63,29 @@ L["DPS"] = "Боец"
 L["DUNGEON_SHORT_NAME_AA"] = "Академия Алгет'ар"
 L["DUNGEON_SHORT_NAME_AD"] = "Атал'Дазар"
 L["DUNGEON_SHORT_NAME_ARAK"] = "Ара-Кара"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
 L["DUNGEON_SHORT_NAME_AV"] = "Лазурное хранилище"
 L["DUNGEON_SHORT_NAME_BH"] = "Лощина Бурошкуров"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_BREW"] = ""--]] 
 L["DUNGEON_SHORT_NAME_BRH"] = "Крепость Черной Ладьи"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
 L["DUNGEON_SHORT_NAME_COS"] = "Квартал Звезд"
 L["DUNGEON_SHORT_NAME_COT"] = "Город Нитей"
 L["DUNGEON_SHORT_NAME_DAWN"] = "Сияющий Рассвет"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_DFC"] = ""--]] 
 L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_EB"] = "Вечное Цветение"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "Рассвет Бесконечности: падение Галакронда"
 L["DUNGEON_SHORT_NAME_FH"] = "Вольная Гавань"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FLOOD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_GB"] = "Грим Батол"
 L["DUNGEON_SHORT_NAME_GD"] = "Депо Мрачных Путей"
 L["DUNGEON_SHORT_NAME_GMBT"] = "Гамбит Со'леи"
@@ -81,23 +93,41 @@ L["DUNGEON_SHORT_NAME_HOA"] = "Чертоги Покаяния"
 L["DUNGEON_SHORT_NAME_HOI"] = "Чертоги Насыщения"
 L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
 L["DUNGEON_SHORT_NAME_ID"] = "Железные доки"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (низ)"
 L["DUNGEON_SHORT_NAME_MISTS"] = "Туманы Тирна Скитта"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_ML"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NELT"] = "Нелтарий"
 L["DUNGEON_SHORT_NAME_NL"] = "Логово Нелтариона"
 L["DUNGEON_SHORT_NAME_NO"] = "Наступление клана Нокхуд"
 L["DUNGEON_SHORT_NAME_NW"] = "Смертельная Тризна"
 L["DUNGEON_SHORT_NAME_PF"] = "Чумные каскады"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_PSF"] = ""--]] 
 L["DUNGEON_SHORT_NAME_RISE"] = "Рассвет Бесконечности: подъем Дорнозму"
 L["DUNGEON_SHORT_NAME_RLP"] = "Рубиновые Омуты Жизни"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_ROOK"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SBG"] = "Некрополь Призрачной Луны"
 L["DUNGEON_SHORT_NAME_SD"] = "Кровавые Катакомбы"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SEAT"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
 L["DUNGEON_SHORT_NAME_SOA"] = "Шпили Перерождения"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_STRT"] = "Улицы Чудес"
 L["DUNGEON_SHORT_NAME_SV"] = "Каменный Свод"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_TJS"] = "Храм Нефритовой Змеи"
 L["DUNGEON_SHORT_NAME_TOP"] = "Театр Боли"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_TOTT"] = "Трон Приливов"
 L["DUNGEON_SHORT_NAME_ULD"] = "Ульдаман: наследие Тира"
 L["DUNGEON_SHORT_NAME_UNDR"] = "Подгнилье"
@@ -384,6 +414,7 @@ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "Э"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "О"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL10"] = "О10"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "О25"
+L["RAID_DS"] = "Душа Дракона"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Побежденные рейдовые боссы"
 L["RAID_FL"] = "Огненные Просторы"
 L["RAID_ICC"] = "Цитадель Ледяной Короны"

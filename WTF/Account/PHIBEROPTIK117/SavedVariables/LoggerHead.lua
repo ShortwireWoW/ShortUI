@@ -1,60 +1,71 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Dagdese - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
+["Dagdese - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortloch - Stormrage"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortbm - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
 ["party"] = {
 ["Dire Maul"] = {
-[24] = true,
+[24] = false,
 },
 ["Azjol-Nerub"] = {
-[24] = true,
+[24] = false,
+},
+["Magisters' Terrace"] = {
+[24] = false,
 },
 ["Siege of Boralus"] = {
+true,
+false,
 [8] = true,
-[2] = false,
 [23] = true,
+},
+["Deadmines"] = {
+[24] = false,
+[2] = false,
 },
 ["Lost City of the Tol'vir"] = {
 [24] = false,
+[2] = false,
 },
 ["City of Threads"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Magisters' Terrace"] = {
-[24] = true,
+["Gundrak"] = {
+[24] = false,
 },
 ["Darkflame Cleft"] = {
 false,
 },
-["The Forge of Souls"] = {
-[24] = true,
-},
-["Throne of the Tides"] = {
+["Halls of Lightning"] = {
 [24] = false,
 },
 ["Well of Eternity"] = {
 [2] = false,
+},
+["Stratholme"] = {
+[24] = true,
 },
 ["Mists of Tirna Scithe"] = {
 [8] = true,
@@ -62,7 +73,7 @@ false,
 [23] = true,
 },
 ["The Nexus"] = {
-[24] = true,
+[24] = false,
 },
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
@@ -70,13 +81,16 @@ false,
 ["End Time"] = {
 [24] = false,
 },
-["Halls of Lightning"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
 ["Utgarde Keep"] = {
-[24] = true,
+[24] = false,
 },
-["Gundrak"] = {
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
 ["The Dawnbreaker"] = {
@@ -84,29 +98,28 @@ false,
 [2] = false,
 [23] = true,
 },
-["Coilfang: The Underbog"] = {
+["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
-},
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
+["Ara-Kara, City of Echoes"] = {
 [8] = true,
+[2] = false,
+[23] = true,
 },
-["Zul'Farrak"] = {
+["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
 ["Grim Batol"] = {
 [2] = false,
 [23] = true,
 },
-["Hellfire Citadel: The Blood Furnace"] = {
+["Halls of Stone"] = {
+[2] = false,
+},
+["Zul'Farrak"] = {
 [24] = false,
 },
 ["The Necrotic Wake"] = {
@@ -118,26 +131,18 @@ false,
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
-["Tempest Keep: The Botanica"] = {
+["Blackrock Caverns"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Throne of the Tides"] = {
+[24] = false,
 },
-["Deadmines"] = {
-[24] = true,
+["The Forge of Souls"] = {
+[24] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
-[208] = true,
-},
-["Kriegval's Rest"] = {
-[208] = true,
-},
-["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["Tak-Rethan Abyss"] = {
@@ -146,22 +151,32 @@ false,
 ["The Dread Pit"] = {
 [208] = true,
 },
+["Zekvir's Lair"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
+[208] = true,
+},
 ["The Underkeep"] = {
 [208] = false,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 },
 ["raid"] = {
 ["Antorus, the Burning Throne"] = {
 [16] = false,
+[14] = false,
 },
 ["Ulduar"] = {
 [24] = false,
 },
 ["Black Temple"] = {
 [24] = false,
+},
+["Naxxramas"] = {
+[3] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
