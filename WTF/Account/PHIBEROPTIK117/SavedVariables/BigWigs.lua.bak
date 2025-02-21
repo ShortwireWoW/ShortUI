@@ -5,19 +5,13 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Bosses_Shadowcrown"] = {
-},
 ["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Anub'ikkaj"] = {
-},
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_The Dawnbreaker Trash"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -34,8 +28,6 @@ BigWigs3DB = {
 [440377] = 4116727,
 },
 },
-},
-["BigWigs_Bosses_Rasha'nan Dawnbreaker"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
@@ -236,24 +228,6 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
-[2601] = {
-["normal"] = {
-["kills"] = 7,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/02/14",
-["best"] = 119.4049999999988,
-["fkDuration"] = 145.1620000000003,
-},
-["heroic"] = {
-["kills"] = 4,
-["fkDate"] = "2025/01/11",
-["bestDate"] = "2025/02/11",
-["fkWipes"] = 2,
-["best"] = 203.3870000000024,
-["wipes"] = 9,
-["fkDuration"] = 265.625,
-},
-},
 [2608] = {
 ["normal"] = {
 ["kills"] = 5,
@@ -272,6 +246,24 @@ BigWigsStatsDB = {
 ["best"] = 296.4130000000005,
 ["bestDate"] = "2025/02/11",
 ["fkDate"] = "2025/02/09",
+},
+},
+[2601] = {
+["normal"] = {
+["kills"] = 7,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/02/14",
+["best"] = 119.4049999999988,
+["fkDuration"] = 145.1620000000003,
+},
+["heroic"] = {
+["kills"] = 4,
+["fkDate"] = "2025/01/11",
+["bestDate"] = "2025/02/11",
+["fkWipes"] = 2,
+["best"] = 203.3870000000024,
+["wipes"] = 9,
+["fkDuration"] = 265.625,
 },
 },
 },

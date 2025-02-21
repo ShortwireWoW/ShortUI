@@ -30,7 +30,7 @@ LoggerHeadDB = {
 ["Azjol-Nerub"] = {
 [24] = false,
 },
-["Magisters' Terrace"] = {
+["Gundrak"] = {
 [24] = false,
 },
 ["Siege of Boralus"] = {
@@ -39,9 +39,8 @@ false,
 [8] = true,
 [23] = true,
 },
-["Deadmines"] = {
+["The Nexus"] = {
 [24] = false,
-[2] = false,
 },
 ["Lost City of the Tol'vir"] = {
 [24] = false,
@@ -52,28 +51,31 @@ false,
 [2] = false,
 [23] = true,
 },
-["Gundrak"] = {
+["Magisters' Terrace"] = {
 [24] = false,
 },
 ["Darkflame Cleft"] = {
 false,
 },
-["Halls of Lightning"] = {
+["The Forge of Souls"] = {
 [24] = false,
 },
-["Well of Eternity"] = {
-[2] = false,
+["Throne of the Tides"] = {
+[24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 ["Mists of Tirna Scithe"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["The Nexus"] = {
+["Deadmines"] = {
 [24] = false,
+[2] = false,
 },
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
@@ -87,11 +89,11 @@ false,
 [23] = true,
 [8] = true,
 },
-["Utgarde Keep"] = {
+["Blackrock Caverns"] = {
 [24] = false,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
@@ -104,20 +106,18 @@ false,
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Stratholme"] = {
+[24] = true,
 },
 ["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
 ["Grim Batol"] = {
 [2] = false,
 [23] = true,
-},
-["Halls of Stone"] = {
-[2] = false,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -131,13 +131,13 @@ false,
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
-["Blackrock Caverns"] = {
+["Utgarde Keep"] = {
 [24] = false,
 },
-["Throne of the Tides"] = {
-[24] = false,
+["Well of Eternity"] = {
+[2] = false,
 },
-["The Forge of Souls"] = {
+["Halls of Lightning"] = {
 [24] = false,
 },
 },
@@ -145,13 +145,13 @@ false,
 ["The Waterworks"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["The Dread Pit"] = {
 [208] = true,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
@@ -160,7 +160,7 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Kriegval's Rest"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 },

@@ -67,8 +67,7 @@ L["DUNGEON_SHORT_NAME_ARAK"] = "Ара-Кара"
 --[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
 L["DUNGEON_SHORT_NAME_AV"] = "Лазурное хранилище"
 L["DUNGEON_SHORT_NAME_BH"] = "Лощина Бурошкуров"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_BREW"] = ""--]] 
+L["DUNGEON_SHORT_NAME_BREW"] = "ИСКР"
 L["DUNGEON_SHORT_NAME_BRH"] = "Крепость Черной Ладьи"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
@@ -97,8 +96,7 @@ L["DUNGEON_SHORT_NAME_ID"] = "Железные доки"
 --[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (низ)"
 L["DUNGEON_SHORT_NAME_MISTS"] = "Туманы Тирна Скитта"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ML"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ML"] = "ЖИЛА"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NELT"] = "Нелтарий"
@@ -110,8 +108,7 @@ L["DUNGEON_SHORT_NAME_PF"] = "Чумные каскады"
 --[[ L["DUNGEON_SHORT_NAME_PSF"] = ""--]] 
 L["DUNGEON_SHORT_NAME_RISE"] = "Рассвет Бесконечности: подъем Дорнозму"
 L["DUNGEON_SHORT_NAME_RLP"] = "Рубиновые Омуты Жизни"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ROOK"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ROOK"] = "ГНЕЗДО"
 L["DUNGEON_SHORT_NAME_SBG"] = "Некрополь Призрачной Луны"
 L["DUNGEON_SHORT_NAME_SD"] = "Кровавые Катакомбы"
 --[[Translation missing --]]
