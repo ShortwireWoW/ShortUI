@@ -51,3 +51,5 @@ LittleWigs_BurningCrusade: enabled
 LittleWigs_WrathOfTheLichKing: enabled
 GottaGoFasterHistory: disabled
 GottaGoFaster: disabled
+guess: disabled
+Prat-3.0: enabled
