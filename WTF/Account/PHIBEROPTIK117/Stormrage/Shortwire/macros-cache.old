@@ -1,3 +1,8 @@
+VER 3 0100000000000008 "Ascendance" "134400"
+#showtooltip
+/cast Ascendance
+/use Tempered Potion
+END
 VER 3 0100000000000004 "Cap" "134400"
 #showtooltip
 /cast [@cursor] Capacitor Totem

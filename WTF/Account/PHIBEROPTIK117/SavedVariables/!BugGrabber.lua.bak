@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 539,
+["session"] = 543,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'SUI - Mage - Fire - Rotation Helper': Custom Trigger Combination\nWeakAuras Version: 5.19.1\nStack trace:\n[string \"return function(t)\"]:3: attempt to index field '?' (a boolean value)",

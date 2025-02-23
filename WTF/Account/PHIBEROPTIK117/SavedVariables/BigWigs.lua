@@ -3,31 +3,27 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Bosses_Amarth, The Harvester"] = {
 },
-["BigWigs_Bosses_Shadowcrown"] = {
-},
-["BigWigs_Bosses_Hadal Darkfathom"] = {
+["BigWigs_Bosses_Forgemaster Throngus"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Viq'Goth"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Bosses_Siege of Boralus Trash"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Bosses_Surgeon Stitchflesh"] = {
 },
-["BigWigs_Bosses_Anub'ikkaj"] = {
+["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Dread Captain Lockwood"] = {
-},
-["BigWigs_Bosses_Chopper Redhook"] = {
+["BigWigs_Bosses_Blightbone"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_The Dawnbreaker Trash"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -45,6 +41,10 @@ BigWigs3DB = {
 },
 },
 },
+["BigWigs_Bosses_General Umbriss"] = {
+},
+["BigWigs_Bosses_Grim Batol Trash"] = {
+},
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -57,17 +57,17 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_AutoReply"] = {
+["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Bosses_The Necrotic Wake Trash"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["LibDualSpec-1.0"] = {
-},
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
-},
 ["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Bosses_Nalthor the Rimebinder"] = {
 },
 },
 ["profileKeys"] = {

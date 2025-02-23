@@ -87,9 +87,8 @@ false,
 ["Blackrock Caverns"] = {
 [24] = false,
 },
-["Grim Batol"] = {
+["Halls of Stone"] = {
 [2] = false,
-[23] = true,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
@@ -113,11 +112,13 @@ false,
 [23] = true,
 [8] = true,
 },
-["Halls of Stone"] = {
-[2] = false,
-},
 ["Coilfang: The Underbog"] = {
 [24] = false,
+},
+["Grim Batol"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
@@ -146,13 +147,13 @@ false,
 ["The Waterworks"] = {
 [208] = true,
 },
-["Kriegval's Rest"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 ["The Dread Pit"] = {
@@ -161,7 +162,7 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Zekvir's Lair"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 },
