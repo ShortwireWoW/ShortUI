@@ -62,29 +62,24 @@ L["DISABLE_RWF_MODE_RELOAD"] = "Вы отключаете режим Race World 
 L["DPS"] = "Боец"
 L["DUNGEON_SHORT_NAME_AA"] = "Академия Алгет'ар"
 L["DUNGEON_SHORT_NAME_AD"] = "Атал'Дазар"
-L["DUNGEON_SHORT_NAME_ARAK"] = "Ара-Кара"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ARAK"] = "Ара-Кара, Город Отголосков"
+L["DUNGEON_SHORT_NAME_ARC"] = "Катакомбы Сурамара"
 L["DUNGEON_SHORT_NAME_AV"] = "Лазурное хранилище"
 L["DUNGEON_SHORT_NAME_BH"] = "Лощина Бурошкуров"
-L["DUNGEON_SHORT_NAME_BREW"] = "ИСКР"
+L["DUNGEON_SHORT_NAME_BREW"] = "Искроварня"
 L["DUNGEON_SHORT_NAME_BRH"] = "Крепость Черной Ладьи"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
+L["DUNGEON_SHORT_NAME_COEN"] = "Собор Вечной Ночи"
 L["DUNGEON_SHORT_NAME_COS"] = "Квартал Звезд"
 L["DUNGEON_SHORT_NAME_COT"] = "Город Нитей"
 L["DUNGEON_SHORT_NAME_DAWN"] = "Сияющий Рассвет"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_DFC"] = ""--]] 
+L["DUNGEON_SHORT_NAME_DFC"] = "Расселина Темного Пламени"
 L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_EB"] = "Вечное Цветение"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
+L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
 L["DUNGEON_SHORT_NAME_FALL"] = "Рассвет Бесконечности: падение Галакронда"
 L["DUNGEON_SHORT_NAME_FH"] = "Вольная Гавань"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_FLOOD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_FLOOD"] = "Операция: Шлюз"
 L["DUNGEON_SHORT_NAME_GB"] = "Грим Батол"
 L["DUNGEON_SHORT_NAME_GD"] = "Депо Мрачных Путей"
 L["DUNGEON_SHORT_NAME_GMBT"] = "Гамбит Со'леи"
@@ -92,39 +87,32 @@ L["DUNGEON_SHORT_NAME_HOA"] = "Чертоги Покаяния"
 L["DUNGEON_SHORT_NAME_HOI"] = "Чертоги Насыщения"
 L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
 L["DUNGEON_SHORT_NAME_ID"] = "Железные доки"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
+L["DUNGEON_SHORT_NAME_KR"] = "Гробница Королей"
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (низ)"
 L["DUNGEON_SHORT_NAME_MISTS"] = "Туманы Тирна Скитта"
-L["DUNGEON_SHORT_NAME_ML"] = "ЖИЛА"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ML"] = "ЗОЛОТАЯ ЖИЛА!!!"
+L["DUNGEON_SHORT_NAME_MOS"] = "Утесы Адской Пасти"
 L["DUNGEON_SHORT_NAME_NELT"] = "Нелтарий"
 L["DUNGEON_SHORT_NAME_NL"] = "Логово Нелтариона"
 L["DUNGEON_SHORT_NAME_NO"] = "Наступление клана Нокхуд"
 L["DUNGEON_SHORT_NAME_NW"] = "Смертельная Тризна"
 L["DUNGEON_SHORT_NAME_PF"] = "Чумные каскады"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_PSF"] = ""--]] 
+L["DUNGEON_SHORT_NAME_PSF"] = "Приорат Священного Пламени"
 L["DUNGEON_SHORT_NAME_RISE"] = "Рассвет Бесконечности: подъем Дорнозму"
 L["DUNGEON_SHORT_NAME_RLP"] = "Рубиновые Омуты Жизни"
-L["DUNGEON_SHORT_NAME_ROOK"] = "ГНЕЗДО"
+L["DUNGEON_SHORT_NAME_ROOK"] = "Гнездовье"
 L["DUNGEON_SHORT_NAME_SBG"] = "Некрополь Призрачной Луны"
 L["DUNGEON_SHORT_NAME_SD"] = "Кровавые Катакомбы"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SEAT"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
 L["DUNGEON_SHORT_NAME_SOA"] = "Шпили Перерождения"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SOTS"] = "Святилище Штормов"
 L["DUNGEON_SHORT_NAME_STRT"] = "Улицы Чудес"
 L["DUNGEON_SHORT_NAME_SV"] = "Каменный Свод"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TD"] = "Тол Дагор"
 L["DUNGEON_SHORT_NAME_TJS"] = "Храм Нефритовой Змеи"
 L["DUNGEON_SHORT_NAME_TOP"] = "Театр Боли"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TOS"] = "Храм Сетралисс"
 L["DUNGEON_SHORT_NAME_TOTT"] = "Трон Приливов"
 L["DUNGEON_SHORT_NAME_ULD"] = "Ульдаман: наследие Тира"
 L["DUNGEON_SHORT_NAME_UNDR"] = "Подгнилье"
@@ -132,8 +120,8 @@ L["DUNGEON_SHORT_NAME_UPPR"] = "Каражан (верх)"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы Стражей"
 L["DUNGEON_SHORT_NAME_VP"] = "Вершина Смерча"
 L["DUNGEON_SHORT_NAME_WM"] = "Усадьба Уэйкрестов"
-L["DUNGEON_SHORT_NAME_WORK"] = "Мехагон Мастерская"
-L["DUNGEON_SHORT_NAME_YARD"] = "Мехагон Свалка"
+L["DUNGEON_SHORT_NAME_WORK"] = "Мехагон: Мастерская"
+L["DUNGEON_SHORT_NAME_YARD"] = "Мехагон: Свалка"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Автоматическая позиция окна профиля RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Включение этого параметра будет удерживать подсказку М+ профиля рядом с окном поиска группы или подсказкой игрока."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Вы включаете режим отладки. Он предназначен только для тестирования и разработки и потребует дополнительного использования памяти. Нажмите Подтвердить, чтобы перезагрузить интерфейс."
@@ -177,7 +165,7 @@ L["MAINS_SCORE"] = "Рейтинг мейна"
 L["MINIMAP_SHORTCUT_BROKER_ENABLE"] = "Включить кнопку в меню отделения для аддонов"
 L["MINIMAP_SHORTCUT_BROKER_ENABLE_DESC"] = "Включить отображение иконки Raider.io в меню отделения для аддонов. Это также сделает его доступным в любом другом дополнении, поддерживающем брокерскую систему."
 L["MINIMAP_SHORTCUT_ENABLE"] = "Включить кнопку"
-L["MINIMAP_SHORTCUT_ENABLE_DESC"] = "Включите, чтобы отобразить значок на миникарте."
+L["MINIMAP_SHORTCUT_ENABLE_DESC"] = "Включите, чтобы отобразить значок на миникарте. Это также сделает его доступным в любом другом дополнении, которое поддерживает брокерскую систему."
 L["MINIMAP_SHORTCUT_HEADER"] = "Миникарта"
 L["MINIMAP_SHORTCUT_HELP"] = "|A:newplayertutorial-icon-mouse-leftbutton:16:12|a Поиск |A:newplayertutorial-icon-mouse-rightbutton:16:12|a Настройки"
 L["MINIMAP_SHORTCUT_HELP_LEFT_CLICK"] = "ЛКМ"

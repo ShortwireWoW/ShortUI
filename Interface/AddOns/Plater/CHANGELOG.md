@@ -1,5 +1,7 @@
 @cont1nuity:
-- Fixing broken nameplate anchoring for WAs on forced blizzard nameplates (via LibGetFrame).
-- Fixing range check for Dark Ranger hunters (via LibRangeCheck).
-- Fixing range check for cases when no range can be selected.
+- Locale updates and preparation.
+- Fixing Combo Points for low level rogues.
+- Fixing execute recognition for Hunter Black Arrow.
+- Fixing several issues on the Mod Load Conditions panel.
+- Fixing an issue with profiling if stop was not used but results should be shown.
 

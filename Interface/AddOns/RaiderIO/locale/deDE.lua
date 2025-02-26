@@ -64,29 +64,23 @@ L["DPS"] = "DPS"
 L["DUNGEON_SHORT_NAME_AA"] = "Akademie von Algeth'ar"
 L["DUNGEON_SHORT_NAME_AD"] = "Atal'Dazar"
 L["DUNGEON_SHORT_NAME_ARAK"] = "Ara-Kara, Stadt der Echos"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ARC"] = "Der Arkus"
 L["DUNGEON_SHORT_NAME_AV"] = "Azurblaue Gewölbe"
 L["DUNGEON_SHORT_NAME_BH"] = "Brackenfellhöhle"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_BREW"] = ""--]] 
+L["DUNGEON_SHORT_NAME_BREW"] = "Metbrauerei Glutbräu"
 L["DUNGEON_SHORT_NAME_BRH"] = "Die Rabenwehr"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
+L["DUNGEON_SHORT_NAME_COEN"] = "Die Kathedrale der Ewigen Nacht"
 L["DUNGEON_SHORT_NAME_COS"] = "Hof der Sterne"
 L["DUNGEON_SHORT_NAME_COT"] = "Stadt der Fäden"
 L["DUNGEON_SHORT_NAME_DAWN"] = "Morgenbringer"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_DFC"] = ""--]] 
+L["DUNGEON_SHORT_NAME_DFC"] = "Dunkelflammenspalt"
 L["DUNGEON_SHORT_NAME_DHT"] = "Das Finsterherzdickicht"
 L["DUNGEON_SHORT_NAME_DOS"] = "Die Andre Seite"
 L["DUNGEON_SHORT_NAME_EB"] = "Der Immergrüne Flor"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
+L["DUNGEON_SHORT_NAME_EOA"] = "Das Auge Azsharas"
 L["DUNGEON_SHORT_NAME_FALL"] = "Galakronds Sturz"
 L["DUNGEON_SHORT_NAME_FH"] = "Freihafen"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_FLOOD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_FLOOD"] = "Operation: Schleuse"
 L["DUNGEON_SHORT_NAME_GB"] = "Grim Batol"
 L["DUNGEON_SHORT_NAME_GD"] = "Das Grimmgleisdepot"
 L["DUNGEON_SHORT_NAME_GMBT"] = "Tazavesh So'leahs Schachzug"
@@ -94,41 +88,32 @@ L["DUNGEON_SHORT_NAME_HOA"] = "Hallen der Sühne"
 L["DUNGEON_SHORT_NAME_HOI"] = "Hallen der Infusion"
 L["DUNGEON_SHORT_NAME_HOV"] = "Hallen der Tapferkeit"
 L["DUNGEON_SHORT_NAME_ID"] = "Die Eisendocks"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
+L["DUNGEON_SHORT_NAME_KR"] = "Die Königsruh"
 L["DUNGEON_SHORT_NAME_LOWR"] = "Untere Rückkehr nach Karazhan"
 L["DUNGEON_SHORT_NAME_MISTS"] = "Nebel von Tirna Scithe"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ML"] = ""--]] 
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ML"] = "Das Riesenflöz"
+L["DUNGEON_SHORT_NAME_MOS"] = "Die Helmaulklippen"
 L["DUNGEON_SHORT_NAME_NELT"] = "Neltharus"
 L["DUNGEON_SHORT_NAME_NL"] = "Neltharions Hort"
 L["DUNGEON_SHORT_NAME_NO"] = "Angriff der Nokhud"
 L["DUNGEON_SHORT_NAME_NW"] = "Nekrotische Schneise"
 L["DUNGEON_SHORT_NAME_PF"] = "Seuchensturz"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_PSF"] = ""--]] 
+L["DUNGEON_SHORT_NAME_PSF"] = "Priorat der Heiligen Flamme"
 L["DUNGEON_SHORT_NAME_RISE"] = "Murozonds Erhebung"
 L["DUNGEON_SHORT_NAME_RLP"] = "Rubinlebensbecken"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ROOK"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ROOK"] = "Die Brutstätte"
 L["DUNGEON_SHORT_NAME_SBG"] = "Schattenmondgrabstätte"
 L["DUNGEON_SHORT_NAME_SD"] = "Blutigen Tiefen"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SEAT"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SEAT"] = "Der Sitz des Triumvirats"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Belagerung von Boralus"
 L["DUNGEON_SHORT_NAME_SOA"] = "Spitzen des Aufstiegs"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SOTS"] = "Der Schrein des Sturms"
 L["DUNGEON_SHORT_NAME_STRT"] = "Tazavesh Wundersame Straßen"
 L["DUNGEON_SHORT_NAME_SV"] = "Steingewölbe"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TD"] = "Die Morgenbringer"
 L["DUNGEON_SHORT_NAME_TJS"] = "Tempel der Jadeschlange"
 L["DUNGEON_SHORT_NAME_TOP"] = "Theater der Schmerzen"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TOS"] = "Der Tempel von Sethraliss"
 L["DUNGEON_SHORT_NAME_TOTT"] = "Thron der Gezeiten"
 L["DUNGEON_SHORT_NAME_ULD"] = "Uldaman"
 L["DUNGEON_SHORT_NAME_UNDR"] = "Der Tiefenpfuhl"
@@ -292,22 +277,14 @@ L["RAID_BOSS_CN_6"] = "Lady Inerva Dunkelader"
 L["RAID_BOSS_CN_7"] = "Rat des Blutes"
 L["RAID_BOSS_CN_8"] = "Schlickfaust"
 L["RAID_BOSS_CN_9"] = "Generäle der Steinlegion"
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_8"] = ""--]] 
+L["RAID_BOSS_DS_1"] = "Morchok"
+L["RAID_BOSS_DS_2"] = "Kriegsherr Zon'ozz"
+L["RAID_BOSS_DS_3"] = "Yor'sahj der Unermüdliche"
+L["RAID_BOSS_DS_4"] = "Hagara die Sturmbinderin"
+L["RAID_BOSS_DS_5"] = "Ultraxion"
+L["RAID_BOSS_DS_6"] = "Kriegsmeister Schwarzhorn"
+L["RAID_BOSS_DS_7"] = "Todesschwinges Rückgrat"
+L["RAID_BOSS_DS_8"] = "Todesschwinges Wahnsinn"
 L["RAID_BOSS_FCN_1"] = "Schrillschwinge"
 L["RAID_BOSS_FCN_10"] = "Graf Denathrius"
 L["RAID_BOSS_FCN_2"] = "Jäger Altimor"
@@ -431,8 +408,7 @@ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "N"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL10"] = "N10"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
---[[Translation missing --]]
---[[ L["RAID_DS"] = ""--]] 
+L["RAID_DS"] = "Drachenseele"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Schlachtzugsbegegnungen besiegt"
 L["RAID_FL"] = "Feuerlande"
 L["RAID_ICC"] = "Die Eiskronenzitadelle"

@@ -67,8 +67,7 @@ L["DUNGEON_SHORT_NAME_AV"] = "蒼藍"
 L["DUNGEON_SHORT_NAME_BH"] = "蕨皮谷"
 L["DUNGEON_SHORT_NAME_BREW"] = "酒莊"
 L["DUNGEON_SHORT_NAME_BRH"] = "玄鴉"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
+L["DUNGEON_SHORT_NAME_COEN"] = "永夜"
 L["DUNGEON_SHORT_NAME_COS"] = "眾星"
 L["DUNGEON_SHORT_NAME_COT"] = "蛛絲"
 L["DUNGEON_SHORT_NAME_DAWN"] = "破曉"
@@ -76,8 +75,7 @@ L["DUNGEON_SHORT_NAME_DFC"] = "裂縫"
 L["DUNGEON_SHORT_NAME_DHT"] = "暗心"
 L["DUNGEON_SHORT_NAME_DOS"] = "彼界"
 L["DUNGEON_SHORT_NAME_EB"] = "永茂"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
+L["DUNGEON_SHORT_NAME_EOA"] = "艾眼"
 L["DUNGEON_SHORT_NAME_FALL"] = "黎明前"
 L["DUNGEON_SHORT_NAME_FH"] = "自由港"
 L["DUNGEON_SHORT_NAME_FLOOD"] = "水閘"
@@ -88,13 +86,11 @@ L["DUNGEON_SHORT_NAME_HOA"] = "贖罪"
 L["DUNGEON_SHORT_NAME_HOI"] = "灌注"
 L["DUNGEON_SHORT_NAME_HOV"] = "英靈"
 L["DUNGEON_SHORT_NAME_ID"] = "碼頭"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
+L["DUNGEON_SHORT_NAME_KR"] = "諸王"
 L["DUNGEON_SHORT_NAME_LOWR"] = "卡拉下"
 L["DUNGEON_SHORT_NAME_MISTS"] = "迷霧"
 L["DUNGEON_SHORT_NAME_ML"] = "晶喜"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_MOS"] = "靈喉"
 L["DUNGEON_SHORT_NAME_NELT"] = "柰堡"
 L["DUNGEON_SHORT_NAME_NL"] = "巢穴"
 L["DUNGEON_SHORT_NAME_NO"] = "諾庫德"
@@ -106,20 +102,16 @@ L["DUNGEON_SHORT_NAME_RLP"] = "晶紅"
 L["DUNGEON_SHORT_NAME_ROOK"] = "培育"
 L["DUNGEON_SHORT_NAME_SBG"] = "影月"
 L["DUNGEON_SHORT_NAME_SD"] = "血紅"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SEAT"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SEAT"] = "三傑"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "圍城"
 L["DUNGEON_SHORT_NAME_SOA"] = "晉升"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SOTS"] = "風暴"
 L["DUNGEON_SHORT_NAME_STRT"] = "街道"
 L["DUNGEON_SHORT_NAME_SV"] = "石庫"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TD"] = "托達"
 L["DUNGEON_SHORT_NAME_TJS"] = "玉蛟"
 L["DUNGEON_SHORT_NAME_TOP"] = "苦痛"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TOS"] = "神廟"
 L["DUNGEON_SHORT_NAME_TOTT"] = "海潮"
 L["DUNGEON_SHORT_NAME_ULD"] = "奧達曼"
 L["DUNGEON_SHORT_NAME_UNDR"] = "幽腐"
@@ -283,22 +275,14 @@ L["RAID_BOSS_CN_6"] = "茵娜瓦‧暗脈女士"
 L["RAID_BOSS_CN_7"] = "血之議會"
 L["RAID_BOSS_CN_8"] = "泥拳"
 L["RAID_BOSS_CN_9"] = "石源魔軍團將軍"
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_8"] = ""--]] 
+L["RAID_BOSS_DS_1"] = "魔寇"
+L["RAID_BOSS_DS_2"] = "督軍松奧茲"
+L["RAID_BOSS_DS_3"] = "未眠者尤沙吉"
+L["RAID_BOSS_DS_4"] = "『暴風守縛者』哈甲拉"
+L["RAID_BOSS_DS_5"] = "奧特拉賽恩"
+L["RAID_BOSS_DS_6"] = "將領黑角"
+L["RAID_BOSS_DS_7"] = "死亡之翼的脊椎"
+L["RAID_BOSS_DS_8"] = "死亡之翼的狂亂"
 L["RAID_BOSS_FCN_1"] = "石嘯翼蝠"
 L["RAID_BOSS_FCN_10"] = "戴納瑟斯王"
 L["RAID_BOSS_FCN_2"] = "獵人亞提默"
@@ -414,8 +398,7 @@ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "N"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL10"] = "N10"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
---[[Translation missing --]]
---[[ L["RAID_DS"] = ""--]] 
+L["RAID_DS"] = "巨龍之魂"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "已擊敗的團隊首領"
 L["RAID_FL"] = "火源之界"
 L["RAID_ICC"] = "冰冠城塞"
