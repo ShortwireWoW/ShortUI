@@ -1,12 +1,47 @@
+-- Demolition Dome
+
+local L = BigWigs:NewBossLocale("The Underpin", "deDE")
+if not L then return end
+if L then
+	--L.the_underpin = "The Underpin (Tier 1)"
+end
+
+L = BigWigs:NewBossLocale("The Underpin 2", "deDE")
+if L then
+	--L.the_underpin = "The Underpin (Tier 2)"
+end
+
 -- Earthcrawl Mines
 
-local L = BigWigs:NewBossLocale("Web General Ab'enar", "deDE")
-if not L then return end
+L = BigWigs:NewBossLocale("Web General Ab'enar", "deDE")
 if L then
 	L.web_general_abenar = "Netzgeneral Ab'enar"
 end
 
+-- Excavation Site 9
+
+L = BigWigs:NewBossLocale("Craggle Fritzbrains", "deDE")
+if L then
+	--L.craggle_fritzbrains = "Craggle Knipshirn"
+end
+
+L = BigWigs:NewBossLocale("Harbinger Ul'thul", "deDE")
+if L then
+	--L.harbinger_ulthul = "Herold Ul'thul"
+end
+
+L = BigWigs:NewBossLocale("Xel'anegh The Many", "deDE")
+if L then
+	--L.xelanegh_the_many = "Xel'anegh die Vielen"
+end
+
 -- Fungal Folly
+
+L = BigWigs:NewBossLocale("Maulspike", "deDE")
+if L then
+	--L.maulspike = "Maulspike"
+	--L.darkfuse_cackler = "Darkfuse Cackler"
+end
 
 L = BigWigs:NewBossLocale("Spinshroom", "deDE")
 if L then
@@ -45,6 +80,24 @@ if L then
 	L.cult_leaders = "Kult Anführer"
 	L.inquisitor_speaker = "Inquisitorensprecher"
 	L.shadeguard_speaker = "Sprecher der Schattenwache"
+end
+
+-- Sidestreet Sluice
+
+L = BigWigs:NewBossLocale("Geargrave", "deDE")
+if L then
+	--L.geargrave = "Geargrave"
+end
+
+L = BigWigs:NewBossLocale("Gold Elemental", "deDE")
+if L then
+	--L.gold_elemental = "Gold Elemental"
+	--L.gold_shaman = "Gold Shaman"
+end
+
+L = BigWigs:NewBossLocale("Vindle Snapcrank", "deDE")
+if L then
+	--L.vindle_snapcrank = "Vindle Snapcrank"
 end
 
 -- Skittering Breach
@@ -119,6 +172,13 @@ end
 L = BigWigs:NewBossLocale("Researcher Xik'vik", "deDE")
 if L then
 	L.researcher_xikvik = "Forscher Xik'vik"
+end
+
+L = BigWigs:NewBossLocale("Torque Clankfire and Sprok", "deDE")
+if L then
+	--L.bossName = "Torque Clankfire and Sprok"
+	--L.torque_clankfire = "Torque Clankfire"
+	--L.sprok = "Sprok"
 end
 
 -- The Waterworks

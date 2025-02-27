@@ -7,6 +7,10 @@ VER 3 0100000000000004 "Cap" "134400"
 #showtooltip
 /cast [@cursor] Capacitor Totem
 END
+VER 3 0100000000000009 "Decurse" "134400"
+#showtooltip
+/cast [@mosueover] Cleanse Spirit
+END
 VER 3 0100000000000001 "Ele Buffs" "134400"
 #showtooltip
 /castsequence [@player]reset=combat/10 Lightning Shield, Earth Shield, Skyfury

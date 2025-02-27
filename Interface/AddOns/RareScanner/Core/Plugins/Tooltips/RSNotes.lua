@@ -177,6 +177,10 @@ function RSNotes.GetNote(entityID, mapID, minieventID)
 	-- Slimy Cocoons
 	elseif (RSUtils.Contains(RSConstants.CONTAINERS_SLIMY_COCOON, entityID)) then
 		return AL["NOTE_CONTAINER_SLIMY_COCOON"]
+	-- Containers for the achievement Nine tenths of Law
+	elseif (RSUtils.Contains(RSConstants.NINE_TENTHS_LAW_CHAPTER_4, entityID)) then
+		return AL["NINE_TENTHS_LAW_CHAPTER_4"]
 	end
+	
 	
 end

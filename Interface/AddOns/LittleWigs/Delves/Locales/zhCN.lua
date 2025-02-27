@@ -1,12 +1,47 @@
+-- Demolition Dome
+
+local L = BigWigs:NewBossLocale("The Underpin", "zhCN")
+if not L then return end
+if L then
+	L.the_underpin = "幽坑太保（难度1）"
+end
+
+L = BigWigs:NewBossLocale("The Underpin 2", "zhCN")
+if L then
+	L.the_underpin = "幽坑太保（难度2）"
+end
+
 -- Earthcrawl Mines
 
-local L = BigWigs:NewBossLocale("Web General Ab'enar", "zhCN")
-if not L then return end
+L = BigWigs:NewBossLocale("Web General Ab'enar", "zhCN")
 if L then
 	L.web_general_abenar = "蛛网将军阿贝纳尔"
 end
 
+-- Excavation Site 9
+
+L = BigWigs:NewBossLocale("Craggle Fritzbrains", "zhCN")
+if L then
+	L.craggle_fritzbrains = "克拉格·弗里茨布兰"
+end
+
+L = BigWigs:NewBossLocale("Harbinger Ul'thul", "zhCN")
+if L then
+	L.harbinger_ulthul = "使徒乌尔苏尔"
+end
+
+L = BigWigs:NewBossLocale("Xel'anegh The Many", "zhCN")
+if L then
+	L.xelanegh_the_many = "万肢的谢尔安格"
+end
+
 -- Fungal Folly
+
+L = BigWigs:NewBossLocale("Maulspike", "zhCN")
+if L then
+	L.maulspike = "殴棘"
+	L.darkfuse_cackler = "狰狞蔑笑"
+end
 
 L = BigWigs:NewBossLocale("Spinshroom", "zhCN")
 if L then
@@ -42,9 +77,27 @@ end
 
 L = BigWigs:NewBossLocale("Cult Leaders", "zhCN")
 if L then
-	--L.cult_leaders = "Cult Leaders"
-	--L.inquisitor_speaker = "Inquisitor Speaker"
-	--L.shadeguard_speaker = "Shadeguard Speaker"
+	L.cult_leaders = "教派首领"
+	L.inquisitor_speaker = "审判代言人"
+	L.shadeguard_speaker = "幽卫代言人"
+end
+
+-- Sidestreet Sluice
+
+L = BigWigs:NewBossLocale("Geargrave", "zhCN")
+if L then
+	L.geargrave = "葬轮"
+end
+
+L = BigWigs:NewBossLocale("Gold Elemental", "zhCN")
+if L then
+	L.gold_elemental = "黄金元素"
+	L.gold_shaman = "黄金萨满祭司"
+end
+
+L = BigWigs:NewBossLocale("Vindle Snapcrank", "zhCN")
+if L then
+	L.vindle_snapcrank = "芬戴尔·断轴"
 end
 
 -- Skittering Breach
@@ -88,8 +141,8 @@ end
 L = BigWigs:NewBossLocale("Leviathan Caller", "zhCN")
 if L then
 	L.leviathan_caller = "海兽呼唤者"
-	L.guardian_tentacle = "重击触须" --不知道为什么CN用了一个名字，下周在检查次
-	L.slamming_tentacles = "重击触须" -- plural
+	L.guardian_tentacle = "重击触须"
+	L.slamming_tentacles = "重击触须"
 end
 
 L = BigWigs:NewBossLocale("Cragpie", "zhCN")
@@ -119,6 +172,13 @@ end
 L = BigWigs:NewBossLocale("Researcher Xik'vik", "zhCN")
 if L then
 	L.researcher_xikvik = "研究员西克维克"
+end
+
+L = BigWigs:NewBossLocale("Torque Clankfire and Sprok", "zhCN")
+if L then
+	L.bossName = "陶克·铮火和斯普洛克"
+	L.torque_clankfire = "陶克·铮火"
+	L.sprok = "斯普洛克"
 end
 
 -- The Waterworks

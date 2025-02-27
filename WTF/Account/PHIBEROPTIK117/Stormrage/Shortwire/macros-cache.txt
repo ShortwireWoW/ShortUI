@@ -27,6 +27,10 @@ VER 3 0100000000000007 "ES" "134400"
 #showtooltip
 /cast [@mouseover] Earth Shield
 END
+VER 3 010000000000000A "Frog" "134400"
+#showtooltip
+/cast [@mouseover] Hex
+END
 VER 3 0100000000000005 "LMT" "134400"
 #showtooltip
 /cast [@cursor] Liquid Magma Totem

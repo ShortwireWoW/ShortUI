@@ -13,6 +13,17 @@ if L then
 	L.particularly_bad_guy = "Besonders fieser Bösewicht"
 end
 
+L = BigWigs:NewBossLocale("Goblin Delve Trash", "deDE")
+if L then
+	--L.goblin_trash = "Goblin Trash"
+
+	--L.bopper_bot = "Bopper Bot"
+	--L.aerial_support_bot = "Aerial Support Bot"
+	--L.masked_freelancer = "Masked Freelancer"
+	--L.underpaid_brute = "Underpaid Brute"
+	--L.drill_sergeant = "Drill Sergeant"
+end
+
 L = BigWigs:NewBossLocale("Kobold Delve Trash", "deDE")
 if L then
 	L.kobold_trash = "Kobold Trash"
@@ -58,12 +69,36 @@ if L then
 	L.shadow_elemental = "Schattenelementar"
 end
 
+L = BigWigs:NewBossLocale("Old God Delve Trash", "deDE")
+if L then
+	--L.old_god_trash = "Old God Trash"
+
+	--L.dark_walker = "Dark Walker"
+	--L.hideous_amalgamation = "Hideous Amalgamation"
+	--L.coagulated_mass = "Coagulated Mass"
+	--L.silent_slitherer = "Silent Slitherer"
+end
+
 L = BigWigs:NewBossLocale("The Underkeep Trash", "deDE")
 if L then
 	L.ascended_webfriar = "Aufgestiegener Netzmönch"
 	L.deepwalker_guardian = "Tiefenläuferwächter"
 	L.crazed_abomination = "Wahnsinnige Monstrosität"
 	L.web_marauder = "Netzmarodeur"
+end
+
+L = BigWigs:NewBossLocale("Underpin Rares", "deDE")
+if L then
+	--L.rares = "Underpin Rares"
+
+	--L.hovering_menace = "Hovering Menace"
+	--L.treasure_crab = "Treasure Crab"
+	--L.malfunctioning_pummeler = "Malfunctioning Pummeler"
+	--L.underpins_adoring_fan = "Underpin's Adoring Fan"
+	--L.underpins_well_connected_friend = "Underpin's Well-Connected Friend"
+	--L.underpins_explosive_ally = "Underpin's Explosive Ally"
+	--L.underpins_bodyguards_intern = "Underpin's Bodyguard's Intern"
+	--L.aggressively_lost_hobgoblin = "Aggressively Lost Hobgoblin"
 end
 
 L = BigWigs:NewBossLocale("Zekvir Rares", "deDE")

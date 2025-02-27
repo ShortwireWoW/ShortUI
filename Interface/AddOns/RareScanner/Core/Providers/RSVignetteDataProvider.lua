@@ -89,7 +89,7 @@ function RSVignetteDataProviderMixin:ShowAnimations()
 			if (RSConfigDB.IsShowingAnimationForNpcs()) then
 				-- If it's a pre-spawn event
 				if (RSNpcDB.GetInternalNpcInfo(finalEntityID)) then
-					pingAnimation(pin, pin.ShowPingAnim, vignetteObjectID)
+					pingAnimation(pin, pin.ShowPingAnim, finalEntityID)
 				elseif ((entityID == RSConstants.FORBIDDEN_REACH_ANCESTRAL_SPIRIT or entityID == RSConstants.ZARALEK_CAVERN_LOAM_SCOUT) and RSNpcDB.GetNpcId(pin:GetVignetteName(), self:GetMap():GetMapID())) then
 					pingAnimation(pin, pin.ShowPingAnim, RSNpcDB.GetNpcId(pin:GetVignetteName(), self:GetMap():GetMapID()))
 				elseif (entityID == RSConstants.GOBLIN_PORTAL) then

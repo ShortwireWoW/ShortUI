@@ -13,6 +13,17 @@ if L then
 	L.particularly_bad_guy = "特别坏的家伙"
 end
 
+L = BigWigs:NewBossLocale("Goblin Delve Trash", "zhCN")
+if L then
+	L.goblin_trash = "地精小怪"
+
+	L.bopper_bot = "新潮机器人"
+	L.aerial_support_bot = "空中支援机器人"
+	L.masked_freelancer = "蒙面自由职业者"
+	L.underpaid_brute = "低薪蛮兵"
+	L.drill_sergeant = "钻头中士"
+end
+
 L = BigWigs:NewBossLocale("Kobold Delve Trash", "zhCN")
 if L then
 	L.kobold_trash = "狗头人小怪"
@@ -58,12 +69,36 @@ if L then
 	L.shadow_elemental = "暗影元素"
 end
 
+L = BigWigs:NewBossLocale("Old God Delve Trash", "zhCN")
+if L then
+	L.old_god_trash = "古神小怪"
+
+	L.dark_walker = "黑暗行者"
+	L.hideous_amalgamation = "丑恶聚合体"
+	L.coagulated_mass = "凝结物质"
+	L.silent_slitherer = "死寂滑行者"
+end
+
 L = BigWigs:NewBossLocale("The Underkeep Trash", "zhCN")
 if L then
 	L.ascended_webfriar = "扬升的蛛网修士"
 	L.deepwalker_guardian = "深渊行者护卫"
 	L.crazed_abomination = "疯乱憎恶"
 	L.web_marauder = "掠网者"
+end
+
+L = BigWigs:NewBossLocale("Underpin Rares", "zhCN")
+if L then
+	L.rares = "幽坑稀有"
+
+	L.hovering_menace = "悬浮灾厄"
+	L.treasure_crab = "宝藏螃蟹"
+	L.malfunctioning_pummeler = "出故障的打击者"
+	L.underpins_adoring_fan = "幽坑太保的铁杆粉丝"
+	L.underpins_well_connected_friend = "幽坑太保的亲密好友"
+	L.underpins_explosive_ally = "幽坑太保的劲爆盟友"
+	L.underpins_bodyguards_intern = "幽坑太保的见习保镖"
+	L.aggressively_lost_hobgoblin = "凶狠的走失大地精"
 end
 
 L = BigWigs:NewBossLocale("Zekvir Rares", "zhCN")

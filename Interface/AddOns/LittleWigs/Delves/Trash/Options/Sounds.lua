@@ -12,6 +12,16 @@ BigWigs:AddSounds("Fungarian Delve Trash", {
 	[427710] = "alarm",
 })
 
+BigWigs:AddSounds("Goblin Delve Trash", {
+	[473550] = "alarm",
+	[473684] = "alarm",
+	[473972] = "alarm",
+	[473995] = "alarm",
+	[474001] = "alert",
+	[474004] = "alarm",
+	[1213656] = "info",
+})
+
 BigWigs:AddSounds("Kobold Delve Trash", {
 	[445191] = {"alert","info"},
 	[445210] = "alarm",
@@ -52,6 +62,16 @@ BigWigs:AddSounds("Nightfall Delve Trash", {
 	[443482] = "alert",
 })
 
+BigWigs:AddSounds("Old God Delve Trash", {
+	[474155] = "underyou",
+	[474206] = "alarm",
+	[474223] = "alert",
+	[474228] = "alert",
+	[474325] = "long",
+	[474482] = "alarm",
+	[474511] = "alert",
+})
+
 BigWigs:AddSounds("The Underkeep Trash", {
 	[448155] = "alarm",
 	[448161] = "info",
@@ -87,4 +107,26 @@ BigWigs:AddSounds("Zekvir Rares", {
 	[461741] = {"alarm","underyou"},
 	[462686] = "alert",
 	["zekvir_breach"] = "long",
+})
+
+BigWigs:AddSounds("Underpin Rares", {
+	[433045] = "warning",
+	[1213497] = "info",
+	[1214238] = "alert",
+	[1214246] = "alarm",
+	[1216790] = "alarm",
+	[1216794] = "alert",
+	[1216805] = "alert",
+	[1216806] = "alarm",
+	[1217301] = "alarm",
+	[1217326] = "alarm",
+	[1217361] = "alert",
+	[1217418] = "info",
+	[1217449] = "info",
+	[1217452] = "info",
+	[1217510] = "info",
+	[1218017] = "alarm",
+	[1218039] = "alarm",
+	[1218061] = "alert",
+	[1220869] = "alert",
 })

@@ -155,6 +155,11 @@ local function FixVignetteInfo(vignetteInfo)
 		vignetteInfo.atlasName = RSConstants.NPC_VIGNETTE
 	end
 	
+	-- Track garbage icon in War Within 11.1
+	if (vignetteInfo.atlasName == RSConstants.EVENT_SCRAP_VIGNETTE and mapID == RSConstants.UNDERMINE) then
+		vignetteInfo.atlasName = RSConstants.EVENT_VIGNETTE
+	end
+	
 	return entityID, vignetteInfo
 end
 
@@ -269,7 +274,6 @@ local function ShowAlert(button, vignetteInfo, isNavigating)
 		
 		-- If the vignette is simulated
 		if (vignetteInfo.x and vignetteInfo.y) then
-			local coordinates = {}
 			vignettePosition.x = vignetteInfo.x
 			vignettePosition.y = vignetteInfo.y
 			UpdateRareFound(entityID, vignetteInfo, vignettePosition)

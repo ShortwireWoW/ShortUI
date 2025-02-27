@@ -7,8 +7,8 @@ LoggerHeadDB = {
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
@@ -17,8 +17,8 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortbm - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -30,7 +30,7 @@ LoggerHeadDB = {
 ["Azjol-Nerub"] = {
 [24] = false,
 },
-["Gundrak"] = {
+["Halls of Lightning"] = {
 [24] = false,
 },
 ["Siege of Boralus"] = {
@@ -39,8 +39,8 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Nexus"] = {
-[24] = false,
+["Well of Eternity"] = {
+[2] = false,
 },
 ["Lost City of the Tol'vir"] = {
 false,
@@ -52,7 +52,7 @@ false,
 [2] = false,
 [23] = true,
 },
-["Magisters' Terrace"] = {
+["Gundrak"] = {
 [24] = false,
 },
 ["Darkflame Cleft"] = {
@@ -64,19 +64,16 @@ false,
 ["Throne of the Tides"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Utgarde Keep"] = {
+[24] = false,
 },
 ["Mists of Tirna Scithe"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Deadmines"] = {
+["The Nexus"] = {
 [24] = false,
-[2] = false,
 },
 ["Hellfire Citadel: The Shattered Halls"] = {
 [24] = false,
@@ -84,33 +81,38 @@ false,
 ["End Time"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Blackrock Caverns"] = {
 [24] = false,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Hellfire Citadel: The Blood Furnace"] = {
+["Zul'Farrak"] = {
 [24] = false,
 },
 ["Auchindoun: Mana-Tombs"] = {
 [24] = false,
 },
-["Stratholme"] = {
-[24] = true,
+["Ara-Kara, City of Echoes"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
-["Tempest Keep: The Botanica"] = {
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
+},
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
 ["Grim Batol"] = {
@@ -118,10 +120,7 @@ false,
 [2] = false,
 [23] = true,
 },
-["Halls of Stone"] = {
-[2] = false,
-},
-["Zul'Farrak"] = {
+["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
 ["The Necrotic Wake"] = {
@@ -133,24 +132,19 @@ false,
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
-["Utgarde Keep"] = {
-[24] = false,
+["Stratholme"] = {
+[24] = true,
 },
-["Well of Eternity"] = {
+["Deadmines"] = {
+[24] = false,
 [2] = false,
 },
-["Halls of Lightning"] = {
+["Magisters' Terrace"] = {
 [24] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
-[208] = true,
-},
-["Tak-Rethan Abyss"] = {
-[208] = true,
-},
-["The Dread Pit"] = {
 [208] = true,
 },
 ["Zekvir's Lair"] = {
@@ -159,10 +153,16 @@ false,
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["The Dread Pit"] = {
+[208] = true,
+},
 ["The Underkeep"] = {
 [208] = false,
 },
-["Kriegval's Rest"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 },
@@ -192,10 +192,10 @@ false,
 },
 },
 ["version"] = 3,
+["chat"] = true,
 ["minimap"] = {
 ["hide"] = true,
 },
-["chat"] = true,
 },
 },
 }
