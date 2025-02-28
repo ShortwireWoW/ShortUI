@@ -230,10 +230,18 @@ scanner_button.FilterEntityButton:SetScript("OnClick", function(self)
 				end
 			end
 		else
-			if (RSConfigDB.GetDefaultEventFilter() == RSConstants.ENTITY_FILTER_WORLDMAP) then
-				RSConfigDB.SetEventFiltered(entityID, RSConstants.ENTITY_FILTER_ALL)
-			else
-				RSConfigDB.SetEventFiltered(entityID)
+			-- Filter every event with the same name
+			local eventName = RSEventDB.GetEventName(entityID)
+			if (eventName) then
+				for eventID, name in pairs(RSEventDB.GetAllEventNames()) do
+					if (name == eventName) then
+						if (RSConfigDB.GetDefaultEventFilter() == RSConstants.ENTITY_FILTER_WORLDMAP) then
+							RSConfigDB.SetEventFiltered(eventID, RSConstants.ENTITY_FILTER_ALL)
+						else
+							RSConfigDB.SetEventFiltered(eventID)
+						end
+					end
+				end
 			end
 		end
 		

@@ -63,7 +63,6 @@ BigWigs:AddSounds("Stix Bunkjunker", {
 BigWigs:AddSounds("Sprocketmonger Lockenstock", {
 	[465232] = "alert",
 	[465917] = {"alarm","warning"},
-	[466765] = "long",
 	[466860] = "info",
 	[468791] = "alarm",
 	[473276] = "long",
@@ -97,7 +96,7 @@ BigWigs:AddSounds("The One-Armed Bandit", {
 })
 
 BigWigs:AddSounds("Mug'Zee, Heads of Security", {
-	[-31712] = "info",
+	[-31766] = "info",
 	[463967] = "alarm",
 	[466476] = "warning",
 	[466509] = "alert",
@@ -114,7 +113,7 @@ BigWigs:AddSounds("Mug'Zee, Heads of Security", {
 	[472782] = "alert",
 	[1214623] = "alarm",
 	[1215595] = "info",
-	[1215898] = {"alert","warning"},
+	[1215953] = "alert",
 	[1216142] = "alarm",
 	["stages"] = {"info","long"},
 })

@@ -162,10 +162,10 @@ private.EVENT_INFO = {
 				[2346] = { x = 4325, y = 1438, artID = { 1899 }, overlay = { "4325-1438" } };
 			  } }; --Worldsoul Memory
 	[234350] = { zoneID = 2346, artID = { 1899 }, x = 6747, y = 2929, overlay = { "6747-2929" } }; --S.C.R.A.P. Heap
-	[234349] = { zoneID = 0 }; --S.C.R.A.P. Heap
+	[234349] = { zoneID = 2346, artID = { 1899 }, x = 7652, y = 6957, overlay = { "7652-6957" } }; --S.C.R.A.P. Heap
 	[234348] = { zoneID = 2346, artID = { 1899 }, x = 5248, y = 8332, overlay = { "5248-8332" } }; --S.C.R.A.P. Heap
 	[234347] = { zoneID = 2346, artID = { 1899 }, x = 5041, y = 6362, overlay = { "5041-6362" } }; --S.C.R.A.P. Heap
-	[234346] = { zoneID = 0 }; --S.C.R.A.P. Heap
+	[234346] = { zoneID = 2346, artID = { 1899 }, x = 3865, y = 8109, overlay = { "3865-8109" } }; --S.C.R.A.P. Heap
 	[234345] = { zoneID = 2346, artID = { 1899 }, x = 3635, y = 4508, overlay = { "3635-4508" } }; --S.C.R.A.P. Heap
 	[234344] = { zoneID = 2346, artID = { 1899 }, x = 3200, y = 2172, overlay = { "3200-2172" } }; --S.C.R.A.P. Heap
 } 

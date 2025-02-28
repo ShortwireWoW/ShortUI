@@ -59,12 +59,12 @@ BigWigs:AddColors("Stix Bunkjunker", {
 	[1217954] = "purple",
 	[1217975] = "red",
 	[1219384] = "yellow",
+	[1220648] = "blue",
 })
 
 BigWigs:AddColors("Sprocketmonger Lockenstock", {
 	[465232] = "yellow",
 	[465917] = {"blue","purple"},
-	[466765] = "cyan",
 	[466860] = "yellow",
 	[468791] = "red",
 	[473276] = "cyan",
@@ -90,7 +90,6 @@ BigWigs:AddColors("The One-Armed Bandit", {
 	[465432] = "cyan",
 	[465580] = "cyan",
 	[465587] = "red",
-	[465761] = "yellow",
 	[469993] = "orange",
 	[471927] = {"blue","yellow"},
 	[474665] = "yellow",
@@ -99,7 +98,7 @@ BigWigs:AddColors("The One-Armed Bandit", {
 })
 
 BigWigs:AddColors("Mug'Zee, Heads of Security", {
-	[-31712] = "green",
+	[-31766] = "green",
 	[463967] = "red",
 	[466385] = "red",
 	[466476] = {"blue","red"},
@@ -117,7 +116,7 @@ BigWigs:AddColors("Mug'Zee, Heads of Security", {
 	[472782] = "yellow",
 	[1214623] = "red",
 	[1215595] = "green",
-	[1215898] = {"blue","orange"},
+	[1215953] = "orange",
 	[1216142] = "red",
 	["stages"] = "cyan",
 })

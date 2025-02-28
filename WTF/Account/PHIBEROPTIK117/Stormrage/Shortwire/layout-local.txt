@@ -4,8 +4,8 @@ FrameLevel: 2
 Anchor: TOPLEFT
 X: 581
 Y: -119
-W: 300
-H: 427
+W: 420
+H: 428
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: RIGHT

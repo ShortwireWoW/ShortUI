@@ -248,6 +248,10 @@ function RSEventDB.InitEventNamesDB()
 	end
 end
 
+function RSEventDB.GetAllEventNames()
+	return private.dbglobal.event_names[GetLocale()]
+end
+
 function RSEventDB.SetEventName(eventID, name)
 	if (eventID and name) then
 		private.dbglobal.event_names[GetLocale()][eventID] = name

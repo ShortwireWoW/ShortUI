@@ -13,6 +13,16 @@ end
 
 -- Earthcrawl Mines
 
+L = BigWigs:NewBossLocale("Maklin Drillstab", "itIT")
+if L then
+	--L.maklin_drillstab = "Maklin Drillstab"
+end
+
+L = BigWigs:NewBossLocale("The Biggest Bug", "itIT")
+if L then
+	--L.the_biggest_bug = "The Biggest Bug"
+end
+
 L = BigWigs:NewBossLocale("Web General Ab'enar", "itIT")
 if L then
 	L.web_general_abenar = "Generale delle Ragnatele Ab'enar"

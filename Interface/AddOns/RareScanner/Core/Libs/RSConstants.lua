@@ -28,7 +28,7 @@ RSConstants.LOOT_ITEM_ID = nil
 ---============================================================================
 
 RSConstants.CURRENT_DB_VERSION = 172
-RSConstants.CURRENT_LOOT_DB_VERSION = 164
+RSConstants.CURRENT_LOOT_DB_VERSION = 165
 
 ---============================================================================
 -- Current maps (newer)
@@ -773,7 +773,7 @@ RSConstants.NPCS_WITH_PRE_EVENT = {
 	-- Undermine
 	[234819] = 234480;
 	[236035] = 233471;
-	[234834] = 233472;
+	[234889] = 233472;
 	[234751] = 234499;
 }
 
