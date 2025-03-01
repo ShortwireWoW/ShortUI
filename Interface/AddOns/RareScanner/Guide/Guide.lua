@@ -857,6 +857,9 @@ private.NPC_GUIDE = {
 	["2334722346"] = {
 		[RSConstants.FLAG] = { x = 0.6147, y = 0.2522, comment = AL["NOTE_233472_1"] };
 	}; --Voltstrike the Charged
+	["2313102346"] = {
+		[RSConstants.FLAG] = { x = 0.3080, y = 0.3820, comment = AL["NOTE_231310_1"] };
+	}; --Darkfuse Precipitant
 }
 
 ---============================================================================
