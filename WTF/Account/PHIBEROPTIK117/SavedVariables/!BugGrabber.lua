@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 558,
 ["lastSanitation"] = 3,
+["session"] = 561,
 ["errors"] = {
 {
 ["message"] = "...mentTracker/ShadowlandsRaids/SanctumOfDomination.lua:297: attempt to call global 'GetSpellInfo' (a nil value)",
