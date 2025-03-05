@@ -7,8 +7,8 @@ LoggerHeadDB = {
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
@@ -17,8 +17,8 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortbm - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -30,43 +30,11 @@ LoggerHeadDB = {
 ["Azjol-Nerub"] = {
 [24] = false,
 },
-["Magisters' Terrace"] = {
-[24] = false,
-},
-["Siege of Boralus"] = {
-true,
-false,
-[8] = true,
-[23] = true,
-},
-["Deadmines"] = {
-[24] = false,
-[2] = false,
-},
-["Lost City of the Tol'vir"] = {
-false,
-false,
-[24] = false,
-},
-["City of Threads"] = {
-[8] = true,
-[2] = false,
-[23] = true,
-},
-["Gundrak"] = {
-[24] = false,
-},
-["Darkflame Cleft"] = {
-false,
-},
-["Halls of Lightning"] = {
+["The Forge of Souls"] = {
 [24] = false,
 },
 ["Well of Eternity"] = {
 [2] = false,
-},
-["Stratholme"] = {
-[24] = true,
 },
 ["Mists of Tirna Scithe"] = {
 [8] = true,
@@ -82,44 +50,79 @@ false,
 ["End Time"] = {
 [24] = false,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
-},
-["Utgarde Keep"] = {
+["Blackrock Caverns"] = {
 [24] = false,
-},
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
 },
 ["The Dawnbreaker"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
+["Auchindoun: Mana-Tombs"] = {
+[24] = false,
+},
+["Stratholme"] = {
+[24] = true,
+},
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
-["Auchindoun: Mana-Tombs"] = {
+["The Vortex Pinnacle"] = {
 [24] = false,
+},
+["Siege of Boralus"] = {
+true,
+false,
+[8] = true,
+[23] = true,
+},
+["Lost City of the Tol'vir"] = {
+false,
+false,
+[24] = false,
+},
+["City of Threads"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
+["Magisters' Terrace"] = {
+[24] = false,
+},
+["Darkflame Cleft"] = {
+false,
+},
+["Halls of Lightning"] = {
+[24] = false,
+},
+["Throne of the Tides"] = {
+[24] = false,
+},
+["Deadmines"] = {
+[24] = false,
+[2] = false,
+},
+["Cinderbrew Meadery"] = {
+[23] = true,
 },
 ["Ara-Kara, City of Echoes"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
-["Tempest Keep: The Botanica"] = {
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
+},
+["Gundrak"] = {
 [24] = false,
 },
-["Halls of Stone"] = {
+["Grim Batol"] = {
+[8] = true,
 [2] = false,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
+[23] = true,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -130,21 +133,27 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Vortex Pinnacle"] = {
+["Utgarde Keep"] = {
 [24] = false,
 },
-["Blackrock Caverns"] = {
+["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
-["Throne of the Tides"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
-["The Forge of Souls"] = {
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
+[208] = true,
+},
+["Zekvir's Lair"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
 [208] = true,
 },
 ["Kriegval's Rest"] = {
@@ -153,36 +162,27 @@ false,
 ["The Dread Pit"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
-[208] = true,
-},
-["Earthcrawl Mines"] = {
-[208] = true,
-},
 ["The Underkeep"] = {
 [208] = false,
 },
-["Zekvir's Lair"] = {
+["Tak-Rethan Abyss"] = {
 [208] = true,
 },
 },
 ["raid"] = {
+["Ulduar"] = {
+[24] = false,
+},
 ["Antorus, the Burning Throne"] = {
 [16] = false,
 [14] = false,
 },
-["Ulduar"] = {
-[24] = false,
+["Liberation of Undermine"] = {
+[17] = true,
 },
 ["Sanctum of Domination"] = {
 [14] = false,
 [16] = false,
-},
-["Black Temple"] = {
-[24] = false,
-},
-["Naxxramas"] = {
-[3] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
@@ -190,16 +190,22 @@ false,
 [15] = true,
 [17] = true,
 },
+["Naxxramas"] = {
+[3] = false,
+},
+["Black Temple"] = {
+[24] = false,
+},
 ["Firelands"] = {
 [24] = false,
 },
 },
 },
 ["version"] = 3,
+["chat"] = true,
 ["minimap"] = {
 ["hide"] = true,
 },
-["chat"] = true,
 },
 },
 }

@@ -1,7 +1,7 @@
 local L = BigWigs:NewBossLocale("Vexie and the Geargrinders", "deDE")
 if not L then return end
 if L then
-    --L.plating_removed = "%d Protective Plating left"
+	--L.plating_removed = "%d Protective Plating left"
 	--L.exhaust_fumes = "Raid Damage"
 end
 
@@ -24,11 +24,16 @@ end
 
 L = BigWigs:NewBossLocale("Stix Bunkjunker", "deDE")
 if L then
-	--L.rolled_over_by = "Rolled over by %s" -- Rolled over by PlayerX
-	--L.landing = "Landing" -- Landing down from the sky
+	--L.ball_size_medium = "Medium Ball!"
+	--L.ball_size_large = "Large Ball!"
+	--L.rolled_on_you = "%s rolled over YOU" -- PlayerX rolled over you
+	--L.rolled_from_you = "Rolled over %s" -- (you) Rolled over PlayerX
+	--L.garbage_dump_message = "YOU hit BOSS for %s"
 
 	--L.electromagnetic_sorting = "Sorting" -- Short for Electromagnetic Sorting
+	--L.muffled_doomsplosion = "Bomb Soaked"
 	--L.incinerator = "Fire Circles"
+	--L.landing = "Landing" -- Landing down from the sky
 end
 
 L = BigWigs:NewBossLocale("Sprocketmonger Lockenstock", "deDE")
@@ -37,13 +42,14 @@ if L then
 	--L.screw_up = "Drills"
 	--L.sonic_ba_boom = "Raid Damage"
 	--L.polarization_generator = "Color Swaps"
+
+	--L.polarization_soon = "Color Swap Soon: %s"
 end
 
 L = BigWigs:NewBossLocale("The One-Armed Bandit", "deDE")
 if L then
 	--L.rewards = "Prizes" -- Fabulous Prizes
 	--L.rewards_desc = "When two Tokens are locked in, the \"Fabulous Prize\" is dispensed.\nMessages will let you know which one has been rewarded.\nThe infobox will show which prizes are still available."
-	--L.rewards_icon = "inv_111_vendingmachine_blackwater"
 	--L.deposit_time = "Deposit Time" -- Timer that indicates how long you have left to deposit the tokens.
 
 	--L.pay_line = "Coins"
@@ -62,4 +68,16 @@ if L then
 	--L.unstable_crawler_mines = "Mines"
 	--L.goblin_guided_rocket = "Rocket"
 	--L.double_whammy_shot = "Tank Soak"
+end
+
+L = BigWigs:NewBossLocale("Chrome King Gallywix", "deDE")
+if L then
+	--L.scatterblast_canisters = "Cone Soak"
+	--L.fused_canisters = "Group Soaks"
+	--L.tick_tock_canisters = "Soaks"
+
+	--L.duds = "Duds" -- Short for 1500-Pound "Dud"
+	--L.all_duds_detontated = "All Duds Detonated!"
+	--L.duds_remaining = "%d |4Dud remains:Duds remaining;" -- 1 Dud Remains | 2 Duds Remaining
+	--L.duds_soak = "Soak Duds (%d left)"
 end

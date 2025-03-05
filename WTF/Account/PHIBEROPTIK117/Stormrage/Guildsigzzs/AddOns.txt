@@ -36,7 +36,7 @@ RaiderIO_DB_EU_M: disabled
 RaiderIO_DB_EU_F: disabled
 LittleWigs_Shadowlands: enabled
 LittleWigs: enabled
-BigWigs_LiberationOfUndermine: disabled
+BigWigs_LiberationOfUndermine: enabled
 Cell: disabled
 Details: disabled
 Details_DataStorage: disabled

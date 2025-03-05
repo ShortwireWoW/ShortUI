@@ -1,6 +1,6 @@
 # AddonProfiler
 
-## [v1.3.3](https://github.com/NumyAddon/AddonProfiler/tree/v1.3.3) (2025-02-26)
-[Full Changelog](https://github.com/NumyAddon/AddonProfiler/compare/v1.3.2...v1.3.3) [Previous Releases](https://github.com/NumyAddon/AddonProfiler/releases)
+## [v1.3.4](https://github.com/NumyAddon/AddonProfiler/tree/v1.3.4) (2025-03-01)
+[Full Changelog](https://github.com/NumyAddon/AddonProfiler/compare/v1.3.3...v1.3.4) [Previous Releases](https://github.com/NumyAddon/AddonProfiler/releases)
 
-- TOC Bump  
+- Added various visual improvements and minor bugfixes, including various tooltips for buttons and dropdown menu items  

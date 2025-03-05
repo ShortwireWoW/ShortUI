@@ -3,12 +3,13 @@
 local L = BigWigs:NewBossLocale("The Underpin", "koKR")
 if not L then return end
 if L then
-	--L.the_underpin = "The Underpin (Tier 1)"
+	--L.the_underpin = "The Underpin (Tier 8)"
+	--L.crony = "Crony"
 end
 
 L = BigWigs:NewBossLocale("The Underpin 2", "koKR")
 if L then
-	--L.the_underpin = "The Underpin (Tier 2)"
+	--L.the_underpin = "The Underpin (Tier 11)"
 end
 
 -- Earthcrawl Mines
@@ -193,6 +194,11 @@ end
 
 -- The Waterworks
 
+L = BigWigs:NewBossLocale("Shroomsprew", "koKR")
+if L then
+	--L.shroomsprew = "Shroomsprew"
+end
+
 L = BigWigs:NewBossLocale("Waxface", "koKR")
 if L then
 	L.waxface = "밀랍얼굴"
@@ -202,12 +208,12 @@ end
 
 L = BigWigs:NewBossLocale("Zekvir", "koKR")
 if L then
-	L.zekvir = "제크비르 (1단계)"
+	L.zekvir = "제크비르 (8단계)"
 	L.web_terror = "거미줄 괴물"
 end
 
 L = BigWigs:NewBossLocale("Zekvir 2", "koKR")
 if L then
-	L.zekvir = "제크비르 (2단계)"
+	L.zekvir = "제크비르 (11단계)"
 	L.web_terror = "거미줄 괴물"
 end

@@ -244,6 +244,19 @@ DetailsDataStorage = {
 ["dps_best_when"] = 1740198649,
 },
 },
+[3010] = {
+["raidfinder"] = {
+["time_incombat"] = 231.3220000000001,
+["time_fasterkill"] = 231.3220000000001,
+["wipes"] = 0,
+["kills"] = 1,
+["dps_best"] = 256867.5525989788,
+["dps_best_when"] = 1741121168,
+["time_fasterkill_when"] = 1741121168,
+["dps_best_raid_when"] = 1741121168,
+["dps_best_raid"] = 9800139.22584103,
+},
+},
 ["mythic"] = {
 [2902] = {
 ["time_incombat"] = 0,
@@ -796,10 +809,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 616,
 ["classId"] = 12,
 },
-["Kymemage"] = {
-["total"] = 358897329,
-["itemLevel"] = 623.5625,
-["classId"] = 8,
+["Oakenshot-Kel'Thuzad"] = {
+["total"] = 110545305,
+["itemLevel"] = 618.125,
+["classId"] = 3,
 },
 ["Seraphiel-Hyjal"] = {
 ["total"] = 310612020,
@@ -816,10 +829,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 633.9375,
 ["classId"] = 2,
 },
-["Shortwire"] = {
-["total"] = 437383511,
-["itemLevel"] = 626.4375,
-["classId"] = 7,
+["Kymemage"] = {
+["total"] = 358897329,
+["itemLevel"] = 623.5625,
+["classId"] = 8,
 },
 ["Aggradite-Draenor"] = {
 ["total"] = 64934462,
@@ -836,10 +849,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 611.0625,
 ["classId"] = 9,
 },
-["Oakenshot-Kel'Thuzad"] = {
-["total"] = 110545305,
-["itemLevel"] = 618.125,
-["classId"] = 3,
+["Shortwire"] = {
+["total"] = 437383511,
+["itemLevel"] = 626.4375,
+["classId"] = 7,
 },
 },
 ["elapsed"] = 441.1540000000023,
@@ -904,25 +917,25 @@ DetailsDataStorage = {
 ["itemLevel"] = 618.5,
 ["classId"] = 6,
 },
-["Oakenshot-Kel'Thuzad"] = {
-["total"] = 307580701,
-["itemLevel"] = 618.125,
-["classId"] = 3,
+["Shortwire"] = {
+["total"] = 465859372,
+["itemLevel"] = 626.4375,
+["classId"] = 7,
 },
 ["Datbubblelol-Bonechewer"] = {
 ["total"] = 541110672,
 ["itemLevel"] = 633.9375,
 ["classId"] = 2,
 },
-["Kymemage"] = {
-["total"] = 319589784,
-["itemLevel"] = 623.5625,
-["classId"] = 8,
-},
 ["Twistedtraps-Illidan"] = {
 ["total"] = 258598556,
 ["itemLevel"] = 625.6875,
 ["classId"] = 3,
+},
+["Kymemage"] = {
+["total"] = 319589784,
+["itemLevel"] = 623.5625,
+["classId"] = 8,
 },
 ["Andywaarr"] = {
 ["total"] = 83278163,
@@ -934,10 +947,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 616.875,
 ["classId"] = 7,
 },
-["Shortwire"] = {
-["total"] = 465859372,
-["itemLevel"] = 626.4375,
-["classId"] = 7,
+["Oakenshot-Kel'Thuzad"] = {
+["total"] = 307580701,
+["itemLevel"] = 618.125,
+["classId"] = 3,
 },
 },
 ["elapsed"] = 455.5630000000019,
@@ -1131,6 +1144,8 @@ DetailsDataStorage = {
 [2921] = {
 },
 [2902] = {
+},
+[3010] = {
 },
 },
 }

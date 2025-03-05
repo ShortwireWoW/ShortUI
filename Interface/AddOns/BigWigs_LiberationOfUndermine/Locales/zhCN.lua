@@ -24,11 +24,17 @@ end
 
 L = BigWigs:NewBossLocale("Stix Bunkjunker", "zhCN")
 if L then
-	L.rolled_over_by = "被 %s 碾过" -- Rolled over by PlayerX
-	L.landing = "降落" -- Landing down from the sky
+	L.ball_size_medium = "中型球！"
+	L.ball_size_large = "大型球！"
+	L.rolled_on_you = "%s 碾过你" -- PlayerX rolled over you
+	L.rolled_from_you = "你碾过 %s" -- (you) Rolled over PlayerX
+	L.garbage_dump_message = "你对首领造成了 %s 伤害"
 
 	L.electromagnetic_sorting = "电磁分拣" --中文技能名称短，就不简写了
+	L.muffled_doomsplosion = "炸弹吸收"
 	L.incinerator = "火圈"
+	L.landing = "降落" -- Landing down from the sky
+
 end
 
 L = BigWigs:NewBossLocale("Sprocketmonger Lockenstock", "zhCN")
@@ -37,13 +43,14 @@ if L then
 	L.screw_up = "钻头"
 	L.sonic_ba_boom = "团队伤害"
 	L.polarization_generator = "正负极"
+
+	L.polarization_soon = "极性改变: %s"
 end
 
 L = BigWigs:NewBossLocale("The One-Armed Bandit", "zhCN")
 if L then
 	L.rewards = "豪华大奖" -- Fabulous Prizes
 	L.rewards_desc = "当2种礼卷被组合后，将发放\"豪华大奖\"。\n信息会提醒你获得了哪种奖励。\n信息框也会显示哪些奖励任然可用。"
-	--L.rewards_icon = "inv_111_vendingmachine_blackwater"
 	L.deposit_time = "投卷计时" -- Timer that indicates how long you have left to deposit the tokens.
 
 	L.pay_line = "凭证"
@@ -62,4 +69,16 @@ if L then
 	L.unstable_crawler_mines = "地雷"
 	L.goblin_guided_rocket = "火箭"
 	L.double_whammy_shot = "坦克分摊"
+end
+
+L = BigWigs:NewBossLocale("Chrome King Gallywix", "zhCN")
+if L then
+	L.scatterblast_canisters = "裂破分摊" --使用技能名“裂破弹药筒”前2字做提醒
+	L.fused_canisters = "引线分摊" --使用技能名“引线弹药筒”前2字做提醒
+	L.tick_tock_canisters = "分摊"
+
+	L.duds = "哑弹" -- Short for 1500-Pound "Dud"
+	L.all_duds_detontated = "所有哑弹已引爆！"
+	L.duds_remaining = "剩余：%d 个哑弹" -- 1 Dud Remains | 2 Duds Remaining
+	L.duds_soak = "分摊哑弹 （剩余：%d 个）"
 end

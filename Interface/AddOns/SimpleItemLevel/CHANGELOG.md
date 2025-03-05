@@ -1,7 +1,6 @@
 # Simple Item Level
 
-## [v45](https://github.com/kemayo/wow-simpleitemlevel/tree/v45) (2024-12-29)
-[Full Changelog](https://github.com/kemayo/wow-simpleitemlevel/compare/v44...v45) [Previous Releases](https://github.com/kemayo/wow-simpleitemlevel/releases)
+## [v46](https://github.com/kemayo/wow-simpleitemlevel/tree/v46) (2025-03-01)
+[Full Changelog](https://github.com/kemayo/wow-simpleitemlevel/compare/v45...v46) [Previous Releases](https://github.com/kemayo/wow-simpleitemlevel/releases)
 
-- TOC for 11.0.7, 1.15.5  
-- TOC for 4.4.1  
+- TOC for 11.1.0, 4.4.2, 1.15.6  

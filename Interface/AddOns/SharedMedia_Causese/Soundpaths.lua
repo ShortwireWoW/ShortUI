@@ -81,6 +81,7 @@ LSM:Register("sound", "|cFFFF0000Gate|r", [[Interface\Addons\SharedMedia_Causese
 LSM:Register("sound", "|cFFFF0000Gather|r", [[Interface\Addons\SharedMedia_Causese\sound\Gather.ogg]])
 LSM:Register("sound", "|cFFFF0000Green|r", [[Interface\Addons\SharedMedia_Causese\sound\Green.ogg]])
 LSM:Register("sound", "|cFFFF0000Go|r", [[Interface\Addons\SharedMedia_Causese\sound\Go.ogg]])
+LSM:Register("sound", "|cFFFF0000Grip|r", [[Interface\Addons\SharedMedia_Causese\sound\Grip.ogg]])
 LSM:Register("sound", "|cFFFF0000Healcd|r", [[Interface\Addons\SharedMedia_Causese\sound\Healcd.ogg]])
 LSM:Register("sound", "|cFFFF0000Hide|r", [[Interface\Addons\SharedMedia_Causese\sound\Hide.ogg]])
 LSM:Register("sound", "|cFFFF0000High Energy|r", [[Interface\Addons\SharedMedia_Causese\sound\High Energy.ogg]])

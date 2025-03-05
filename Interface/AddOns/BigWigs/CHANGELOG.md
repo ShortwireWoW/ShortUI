@@ -1,19 +1,34 @@
 # BigWigs
 
-## [v372.1](https://github.com/BigWigsMods/BigWigs/tree/v372.1) (2025-02-27)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v372...v372.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v373](https://github.com/BigWigsMods/BigWigs/tree/v373) (2025-03-04)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v372.1...v373) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update zhCN (#1918)  
-- LiberationOfUndermine: Update locales and remove load guards  
-- Loader: Move the current season to War Within season 2  
-- Loader: Add loader.isNext  
-- LiberationOfUndermine/Lockenstock: Rename Polarization Generator  
-- LiberationOfUndermine/MugZee: Spell Renames, cleanups  
-- LiberationOfUndermine/Lockenstock: Spell renames and Mythic updates  
-- LiberationOfUndermine/Rik: Spell Renames, move timers to a table  
-- LiberationOfUndermine/Bandit: Add a spin to win infobox, spell renames  
-- LiberationOfUndermine/Stix: Renames and add Marked for Recycling  
-- LiberationOfUndermine/Vexie: Adjust comment  
-- LiberationOfUndermine/Vexie: Spell Renames  
-- LiberationOfUndermine/Cauldron: Fix fading bars and don't show warnings when out of range  
-- Parser: Fix journal id detection for multi-zone modules (#1917)  
+- bump version  
+- Loader: Remove the temporary nameplate message  
+- LiberationOfUndermine: Update option files  
+- Plugins/Nameplates: Allow people to set a separate icon size for their current target and remove the "auto scaling" of nameplate icons based on nameplate scale CVars. The scale is now based on UI Scale like most other UI elements.  
+- Core/BossPrototype: Update documentation  
+- Core/BossPrototype: Make sure all name trimming occurs in `:ColorName()` closes #1922  
+- LiberationOfUndermine: Locale cleanup  
+- Update ruRU (#1927)  
+- Update private aura options using .extra  
+- Change :SetPrivateAuraSound options (#1921)  
+- API: Add `API.GetVersionHash()`  
+- API: Add API.GetVersion() to fetch the BigWigs version  
+- Update zhCN (#1926)  
+- Update koKR (#1925)  
+- LiberationOfUndermine/Stix: Add a marking option for Rolling Rubbish  
+- LiberationOfUndermine/Gallywix: Fixes  
+- Core/BossPrototype: Tweak documentation  
+- LiberationOfUndermine/Gallywix: Add stage 2 onwards preparations  
+- LiberationOfUndermine/Lockenstock: Minor Fixes  
+- LiberationOfUndermine/Cauldron: Minor Fixes  
+- LiberationOfUndermine/Lockenstock: Polarization Generator tweaks  
+- LiberationOfUndermine/Stix: Updates  
+- LiberationOfUndermine/Rik: Tweaks  
+- LiberationOfUndermine/Cauldron: Tweaks  
+- LiberationOfUndermine/Vexie: Incendiary Fire -> Private Aura  
+- parser: Fix bitflag checking  
+- Core/BossPrototype: Add a flag to timer callbacks indicating if the bar is enabled, replace `BigWigs_CooldownTimer` with `BigWigs_Timer` and a cooldown flag  
+- KhazAlgar/AggregationOfHorrors: Crystal Strike being interruptible was likely fixed at some point  
+- LiberationOfUndermine/Gallywix: Add Stage 1 Drycode  

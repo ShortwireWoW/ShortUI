@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 568,
 ["lastSanitation"] = 3,
-["session"] = 561,
 ["errors"] = {
 {
 ["message"] = "...mentTracker/ShadowlandsRaids/SanctumOfDomination.lua:297: attempt to call global 'GetSpellInfo' (a nil value)",
@@ -10,6 +10,14 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/InstanceAchievementTracker/ShadowlandsRaids/SanctumOfDomination.lua]:297: in function 'SylvanasWindrunner'\n[Interface/AddOns/InstanceAchievementTracker/Instances.lua]:1079: in function 'track'\n[Interface/AddOns/InstanceAchievementTracker/AchievementTrackerCore.lua]:2323: in function '?'\n[Interface/AddOns/InstanceAchievementTracker/AchievementTrackerCore.lua]:176: in function <...nstanceAchievementTracker/AchievementTrackerCore.lua:175>",
 ["session"] = 558,
 ["counter"] = 3,
+},
+{
+["message"] = "BigWigs: BigWigs is missing timers on \"LFR\" running 373-9b49b21, tell the devs!\nNew timer for \"466866\" at stage 1 with placement 1 and value 153.04.",
+["time"] = "2025/03/04 15:58:33",
+["locals"] = "self = <table> {\n missing = <table> {\n }\n altNames = <table> {\n }\n enableMobs = <table> {\n }\n optionHeaders = <table> {\n }\n journalId = 2641\n stage = 1\n name = \"BigWigs_Bosses_Rik Reverb\"\n db = <table> {\n }\n localization = <table> {\n }\n colorOptions = <table> {\n }\n engageId = 3011\n soundOptions = <table> {\n }\n toggleOptions = <table> {\n }\n displayName = \"Rik Reverb\"\n instanceId = 2769\n respawnTime = 30\n moduleName = \"Rik Reverb\"\n toggleDefaults = <table> {\n }\n}\nisWipe = nil\nisWiping = false\nnewBar = \"New timer for %q at stage %d with placement %d and value %.2f on %d running 373-9b49b21, tell the authors.\"\nnewBarError = \"New timer for %q at stage %d with placement %d and value %.2f.\"\ndifficultyToText = <table> {\n 14 = \"N\"\n 16 = \"M\"\n 15 = \"H\"\n 17 = \"LFR\"\n}\nerrorHeader = \"BigWigs is missing timers on \"LFR\" running 373-9b49b21, tell the devs!\"\nerrorStrings = <table> {\n 1 = \"BigWigs is missing timers on \"LFR\" running 373-9b49b21, tell the devs!\"\n 2 = \"New timer for \"466866\" at stage 1 with placement 1 and value 153.04.\"\n}\ntimersText = \"BigWigs is missing timers on \"LFR\" running 373-9b49b21, tell the devs!\nNew timer for \"466866\" at stage 1 with placement 1 and value 153.04.\"\nenabledModules = <table> {\n}\nbossUtilityFrame = Frame {\n}\npetUtilityFrame = Frame {\n}\nactiveNameplateUtilityFrame = Frame {\n}\ninactiveNameplateUtilityFrame = Frame {\n}\nnameplateWatcher = AnimationGroup {\n}\nengagedGUIDs = <table> {\n}\nactiveNameplates = <table> {\n}\nunitTargetScans = <table> {\n}\nunitEventMap = <table> {\n}\neventMap = <table> {\n}\nwidgetEventMap = <table> {\n}\nallowedEvents = <table> {\n}\nloader = <table> {\n}\ncore = <table> {\n db = <table> {\n }\n C = <table> {\n }\n name = \"BigWigs\"\n}\n",
+["stack"] = "[Interface/AddOns/BigWigs_Core/BossPrototype.lua]:558: in function 'Disable'\n[Interface/AddOns/BigWigs_Core/Core.lua]:279: in function <Interface/AddOns/BigWigs_Core/Core.lua:274>\n[Interface/AddOns/BigWigs_Core/Core.lua]:303: in function 'v'\n[Interface/AddOns/BigWigs_Core/Core.lua]:58: in function <Interface/AddOns/BigWigs_Core/Core.lua:55>",
+["session"] = 564,
+["counter"] = 1,
 },
 },
 }

@@ -3,12 +3,13 @@
 local L = BigWigs:NewBossLocale("The Underpin", "deDE")
 if not L then return end
 if L then
-	--L.the_underpin = "The Underpin (Tier 1)"
+	--L.the_underpin = "The Underpin (Tier 8)"
+	--L.crony = "Crony"
 end
 
 L = BigWigs:NewBossLocale("The Underpin 2", "deDE")
 if L then
-	--L.the_underpin = "The Underpin (Tier 2)"
+	--L.the_underpin = "The Underpin (Tier 11)"
 end
 
 -- Earthcrawl Mines
@@ -193,6 +194,11 @@ end
 
 -- The Waterworks
 
+L = BigWigs:NewBossLocale("Shroomsprew", "deDE")
+if L then
+	L.shroomsprew = "Speipilz"
+end
+
 L = BigWigs:NewBossLocale("Waxface", "deDE")
 if L then
 	L.waxface = "Wachsfratz"
@@ -202,12 +208,12 @@ end
 
 L = BigWigs:NewBossLocale("Zekvir", "deDE")
 if L then
-	L.zekvir = "Zekvir (Stufe 1)"
+	L.zekvir = "Zekvir (Stufe 8)"
 	L.web_terror = "Netzschrecken"
 end
 
 L = BigWigs:NewBossLocale("Zekvir 2", "deDE")
 if L then
-	L.zekvir = "Zekvir (Stufe 2)"
+	L.zekvir = "Zekvir (Stufe 11)"
 	L.web_terror = "Netzschrecken"
 end
