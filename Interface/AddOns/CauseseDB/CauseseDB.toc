@@ -1,0 +1,6 @@
+## Interface: 110100
+## Title: CauseseDB
+## IconTexture: Interface\AddOns\CauseseDB\Media\Textures\icon.blp
+
+db.lua
+functions.lua

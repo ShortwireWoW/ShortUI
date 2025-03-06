@@ -5,6 +5,11 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["colors"] = {
+["services"] = {
+["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
+},
 ["trade"] = {
 ["b"] = 0.7529412508010864,
 ["g"] = 0.7529412508010864,
@@ -96,9 +101,10 @@ Prat3DB = {
 },
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {

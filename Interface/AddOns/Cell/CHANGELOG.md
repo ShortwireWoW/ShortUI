@@ -1,6 +1,3 @@
-[Full Changelog](https://github.com/enderneko/Cell/compare/r246-release...f826e89c98b803da8297e172d4a110fbe30967fd)
+[Full Changelog](https://github.com/enderneko/Cell/compare/r248-release...d8426aad647e03fc6da26ec32d8b0540a82de344)
 
-- Update TWW season 2 debuffs (Thanks 钛锬)
-- Fix scaling issue
-- Fix positioning issue
-- Fix Glow indicator
+- Fix horizontal layout

@@ -5,10 +5,6 @@ BigWigs3DB = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Cinderbrew Meadery Trash"] = {
-},
-["BigWigs_Bosses_Brew Master Aldryr"] = {
-},
 ["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
@@ -16,8 +12,6 @@ BigWigs3DB = {
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_Goldie Baronbottom"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -35,19 +29,15 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Benk Buzzbee"] = {
-},
-["BigWigs_Bosses_I'pa"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
@@ -287,7 +277,7 @@ BigWigsStatsDB = {
 [2769] = {
 [2640] = {
 ["LFR"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/03/04",
 ["bestDate"] = "2025/03/04",
 ["best"] = 231.2849999999889,
@@ -296,6 +286,11 @@ BigWigsStatsDB = {
 },
 [2641] = {
 ["LFR"] = {
+["kills"] = 1,
+["fkDate"] = "2025/03/05",
+["bestDate"] = "2025/03/05",
+["best"] = 527.7169999999987,
+["fkDuration"] = 527.7169999999987,
 },
 },
 },

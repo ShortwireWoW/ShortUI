@@ -10,6 +10,11 @@ Prat3DB = {
 ["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
 },
+["services"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
 },
 },
 },
@@ -96,9 +101,10 @@ Prat3DB = {
 },
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 },
 ["profiles"] = {

@@ -41,17 +41,17 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
 ["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
+["BigWigs_Plugins_BossBlock"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 },
 ["global"] = {
@@ -277,7 +277,7 @@ BigWigsStatsDB = {
 [2769] = {
 [2640] = {
 ["LFR"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDuration"] = 231.2849999999889,
 ["best"] = 231.2849999999889,
 ["bestDate"] = "2025/03/04",
@@ -286,6 +286,11 @@ BigWigsStatsDB = {
 },
 [2641] = {
 ["LFR"] = {
+["kills"] = 1,
+["fkDuration"] = 527.7169999999987,
+["best"] = 527.7169999999987,
+["bestDate"] = "2025/03/05",
+["fkDate"] = "2025/03/05",
 },
 },
 },

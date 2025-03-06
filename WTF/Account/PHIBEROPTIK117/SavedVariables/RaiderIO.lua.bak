@@ -52,11 +52,12 @@ RaiderIO_Config = {
 ["enableWhoTooltips"] = true,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortblink-stormrage"
+RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Jaxum-stormrage"] = true,
-["us-Hibibi-stormrage"] = true,
-["us-Roxinius-stormrage"] = true,
+["us-Cøen-stormrage"] = true,
+["us-Duckwart-stormrage"] = true,
+["us-Balthrix-stormrage"] = true,
+["us-Lazarios-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }
