@@ -11,7 +11,7 @@ VER 3 0000000000000067 "CLEAR WM" "132212"
 /cwm all
 END
 VER 3 0000000000000068 "Guild" "134331"
-/2 |cffffd200|HclubFinder:ClubFinder-1-569611-60-112575617|h[Guild: Lunar Effect]|h|r is looking to fill our Season 2 roster LF: SPriest, Evoker,  RDruid-- Fri/Sat 9pm-12am EST. AOTC + Mythic, whisper for more info or to join.
+/s |cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r 
 END
 VER 3 000000000000005D "Lust" "134400"
 #showtooltip
@@ -31,9 +31,6 @@ VER 3 000000000000005B "Potions" "134400"
 #showtooltip
 /use Fleeting Elemental Potion of Ultimate Power
 /use Elemental Potion of Ultimate Power
-END
-VER 3 000000000000006A "Raid Info" "132217"
-/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("WA_TRIGGER", UnitName("target"), "WHISPER", UnitName("player")) end
 END
 VER 3 0000000000000069 "Raid Invite Time" "132208"
 /run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))

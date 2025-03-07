@@ -1,0 +1,11 @@
+
+ConROPreferences = {
+["profileKeys"] = {
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+},
+["profiles"] = {
+["Shortwire - Stormrage"] = {
+["_Unlock_ConRO"] = false,
+},
+},
+}

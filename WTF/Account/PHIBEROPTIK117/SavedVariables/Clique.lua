@@ -1,0 +1,112 @@
+
+CliqueDB = nil
+CliqueDB3 = {
+["char"] = {
+["Dagdese - Stormrage"] = {
+["spec1_profileKey"] = "Dagdese - Stormrage",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "Dagdese - Stormrage",
+["specswap"] = false,
+["spec3_profileKey"] = "Dagdese - Stormrage",
+},
+["Shortwire - Stormrage"] = {
+["spec1_profileKey"] = "Shortwire - Stormrage",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "Shortwire - Stormrage",
+["specswap"] = false,
+["spec3_profileKey"] = "Shortwire - Stormrage",
+},
+},
+["profileKeys"] = {
+["Dagdese - Stormrage"] = "Dagdese - Stormrage",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortbm - Stormrage"] = "Shortbm - Stormrage",
+["Shortbeef - Area 52"] = "Shortbeef - Area 52",
+},
+["profiles"] = {
+["Dagdese - Stormrage"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Shortwire - Stormrage"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Shortbm - Stormrage"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Shortbeef - Area 52"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+},
+}

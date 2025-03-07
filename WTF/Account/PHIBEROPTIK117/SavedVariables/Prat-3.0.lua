@@ -101,10 +101,12 @@ Prat3DB = {
 },
 },
 ["profileKeys"] = {
+["Dagdese - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
-["Shortbm - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {

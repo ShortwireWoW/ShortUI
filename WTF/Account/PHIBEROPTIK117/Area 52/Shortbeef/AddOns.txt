@@ -73,3 +73,6 @@ WeakAurasTemplates: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
+ConRO: disabled
+ConRO_Mage: disabled
+ConRO_Shaman: disabled

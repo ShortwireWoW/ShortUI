@@ -118,6 +118,7 @@ BigWigs:AddColors("Mug'Zee, Heads of Security", {
 	[466545] = "orange",
 	[467202] = {"blue","green","purple"},
 	[467380] = {"blue","orange"},
+	[469043] = "blue",
 	[469391] = "blue",
 	[469491] = "purple",
 	[470910] = "orange",

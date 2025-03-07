@@ -17,7 +17,17 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_InfoBox"] = {
+["profiles"] = {
+["Default"] = {
+["position"] = {
+nil,
+nil,
+-481.1795959472656,
+78.97443389892578,
+},
+},
+},
 },
 ["BigWigs_Plugins_Bars"] = {
 },
@@ -31,27 +41,17 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
-},
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
+["BigWigs_Plugins_Proximity"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_InfoBox"] = {
-["profiles"] = {
-["Default"] = {
-["position"] = {
-nil,
-nil,
--481.1795959472656,
-78.97443389892578,
-},
-},
-},
+["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["profileKeys"] = {
@@ -228,24 +228,6 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
-[2601] = {
-["normal"] = {
-["kills"] = 7,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/02/14",
-["best"] = 119.4049999999988,
-["fkDuration"] = 145.1620000000003,
-},
-["heroic"] = {
-["kills"] = 4,
-["fkDate"] = "2025/01/11",
-["bestDate"] = "2025/02/11",
-["fkWipes"] = 2,
-["best"] = 203.3870000000024,
-["wipes"] = 9,
-["fkDuration"] = 265.625,
-},
-},
 [2608] = {
 ["heroic"] = {
 ["kills"] = 4,
@@ -273,23 +255,41 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/02/21",
 },
 },
+[2601] = {
+["normal"] = {
+["kills"] = 7,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/02/14",
+["best"] = 119.4049999999988,
+["fkDuration"] = 145.1620000000003,
+},
+["heroic"] = {
+["kills"] = 4,
+["fkDate"] = "2025/01/11",
+["bestDate"] = "2025/02/11",
+["fkWipes"] = 2,
+["best"] = 203.3870000000024,
+["wipes"] = 9,
+["fkDuration"] = 265.625,
+},
+},
 },
 [2769] = {
 [2640] = {
 ["LFR"] = {
-["kills"] = 2,
+["kills"] = 5,
 ["fkDate"] = "2025/03/04",
-["bestDate"] = "2025/03/04",
-["best"] = 231.2849999999889,
+["bestDate"] = "2025/03/06",
+["best"] = 219.7850000000035,
 ["fkDuration"] = 231.2849999999889,
 },
 },
 [2641] = {
 ["LFR"] = {
-["kills"] = 1,
+["kills"] = 3,
 ["fkDate"] = "2025/03/05",
-["bestDate"] = "2025/03/05",
-["best"] = 527.7169999999987,
+["bestDate"] = "2025/03/06",
+["best"] = 335.5799999999872,
 ["fkDuration"] = 527.7169999999987,
 },
 },

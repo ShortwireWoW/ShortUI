@@ -18,8 +18,8 @@ SimulationCraftDB = {
 ["Stonesoup - Area 52"] = "Stonesoup - Area 52",
 ["Shortkin - Stormrage"] = "Shortkin - Stormrage",
 ["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
-["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Shortirony - Illidan"] = "Shortirony - Illidan",
+["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
 ["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
@@ -71,9 +71,9 @@ SimulationCraftDB = {
 },
 ["Sentientsoup - Mal'Ganis"] = {
 },
-["Medimilk - Mal'Ganis"] = {
-},
 ["Shortirony - Illidan"] = {
+},
+["Medimilk - Mal'Ganis"] = {
 },
 ["Shortlite - Stormrage"] = {
 ["minimap"] = {

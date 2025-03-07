@@ -10,14 +10,14 @@ PlaterDBChr = {
 ["first_run3"] = {
 ["Player-60-0FA5E36E"] = true,
 },
-["spellRangeCheckRangeEnemy"] = {
-[255] = 40,
-[254] = 40,
-[253] = 40,
+["minimap"] = {
 },
 ["resources_on_target"] = false,
 ["debuffsBanned"] = {
 },
-["minimap"] = {
+["spellRangeCheckRangeEnemy"] = {
+[255] = 40,
+[254] = 40,
+[253] = 40,
 },
 }

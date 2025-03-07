@@ -1,0 +1,10 @@
+lightweight tag 13e34f0b024d80dfc05cbfb24ed016d1fa0aea34 v11.1.2
+Author:	Vae <emuha17@gmail.com>
+Date:	Sat Mar 1 10:43:51 2025 -1000
+
+commit 13e34f0b024d80dfc05cbfb24ed016d1fa0aea34
+Author: Vae <emuha17@gmail.com>
+Date:   Sat Mar 1 10:43:51 2025 -1000
+
+    Added functionality for trinket support
+

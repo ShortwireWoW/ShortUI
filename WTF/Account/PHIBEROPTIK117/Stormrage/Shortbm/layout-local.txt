@@ -27,3 +27,10 @@ X: -507
 Y: 27
 W: 200
 H: 50
+Frame: BugSackFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 333
+Y: 14
+W: 800
+H: 310

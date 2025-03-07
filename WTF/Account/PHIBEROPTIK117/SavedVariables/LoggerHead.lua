@@ -102,6 +102,10 @@ false,
 [24] = false,
 [2] = false,
 },
+["The Rookery"] = {
+[23] = true,
+[8] = true,
+},
 ["Cinderbrew Meadery"] = {
 [23] = true,
 [8] = true,
@@ -120,8 +124,8 @@ false,
 ["Gundrak"] = {
 [24] = false,
 },
-["Halls of Stone"] = {
-[2] = false,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -135,26 +139,26 @@ false,
 ["Utgarde Keep"] = {
 [24] = false,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
-},
 ["Grim Batol"] = {
 [8] = true,
 [2] = false,
 [23] = true,
+},
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["Halls of Stone"] = {
+[2] = false,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
 [208] = true,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
-["Kriegval's Rest"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
@@ -163,14 +167,14 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Fungal Folly"] = {
+[208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,
 },
-["Fungal Folly"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
 },
 ["raid"] = {

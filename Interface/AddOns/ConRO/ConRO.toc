@@ -1,0 +1,18 @@
+## Title:-|cffFFFFFFConRO|r- Conflict Rotation Optimizer
+## Notes: Rotation helper framework.
+## Version: 11.1.2
+## Author: Vae
+## Interface: 110100
+## Category: ConRO
+## IconTexture: Interface\AddOns\ConRO\images\minimap.tga
+## SavedVariables: ConROPreferences
+## SavedVariablesPerCharacter: ConROCharacter
+## OptionalDependencies: Bartender4, ElvUI, ButtonForge
+
+# Libraries
+Libs\Libs.xml
+
+core.lua
+buttons.lua
+helper.lua
+ConRO.xml
