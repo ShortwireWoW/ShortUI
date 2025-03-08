@@ -108,7 +108,7 @@ BigWigs:AddColors("The One-Armed Bandit", {
 })
 
 BigWigs:AddColors("Mug'Zee, Heads of Security", {
-	[-31766] = "green",
+	[-31766] = {"cyan","green"},
 	[463967] = "red",
 	[466385] = "red",
 	[466476] = {"blue","red"},

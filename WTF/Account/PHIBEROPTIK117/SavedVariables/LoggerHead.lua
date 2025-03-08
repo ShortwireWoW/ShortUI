@@ -7,8 +7,8 @@ LoggerHeadDB = {
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Shortbm - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
@@ -17,8 +17,8 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortbm - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -102,13 +102,11 @@ false,
 [24] = false,
 [2] = false,
 },
-["The Rookery"] = {
-[23] = true,
-[8] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Ara-Kara, City of Echoes"] = {
 [8] = true,
@@ -121,11 +119,13 @@ false,
 [23] = true,
 [8] = true,
 },
-["Gundrak"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Grim Batol"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -139,29 +139,23 @@ false,
 ["Utgarde Keep"] = {
 [24] = false,
 },
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
-},
-["Tempest Keep: The Botanica"] = {
+["Gundrak"] = {
 [24] = false,
 },
-["Halls of Stone"] = {
-[2] = false,
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
+},
+["The Rookery"] = {
+[23] = true,
+[8] = true,
 },
 },
 ["scenario"] = {
 ["The Waterworks"] = {
 [208] = true,
 },
-["Kriegval's Rest"] = {
-[208] = true,
-},
-["Zekvir's Lair"] = {
-[208] = true,
-},
-["Earthcrawl Mines"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Tak-Rethan Abyss"] = {
@@ -170,27 +164,40 @@ false,
 ["Fungal Folly"] = {
 [208] = false,
 },
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["Earthcrawl Mines"] = {
+[208] = true,
+},
 ["The Underkeep"] = {
 [208] = false,
 },
-["The Dread Pit"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 },
 ["raid"] = {
-["Ulduar"] = {
-[24] = false,
+["Liberation of Undermine"] = {
+[17] = true,
+[14] = true,
 },
 ["Antorus, the Burning Throne"] = {
 [16] = false,
 [14] = false,
 },
-["Liberation of Undermine"] = {
-[17] = true,
+["Ulduar"] = {
+[24] = false,
 },
 ["Sanctum of Domination"] = {
 [14] = false,
 [16] = false,
+},
+["Black Temple"] = {
+[24] = false,
+},
+["Naxxramas"] = {
+[3] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
@@ -198,22 +205,16 @@ false,
 [15] = true,
 [17] = true,
 },
-["Naxxramas"] = {
-[3] = false,
-},
-["Black Temple"] = {
-[24] = false,
-},
 ["Firelands"] = {
 [24] = false,
 },
 },
 },
 ["version"] = 3,
-["chat"] = true,
 ["minimap"] = {
 ["hide"] = true,
 },
+["chat"] = true,
 },
 },
 }

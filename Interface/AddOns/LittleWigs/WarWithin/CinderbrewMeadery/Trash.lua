@@ -20,7 +20,7 @@ mod:RegisterEnableMob(
 	210264, -- Bee Wrangler
 	220946, -- Venture Co. Honey Harvester
 	220141, -- Royal Jelly Purveyor
-	219588 -- Yes Man
+	219588 -- Yes Man / Assent Bloke / Agree Gentleman / Concur Sir
 )
 
 --------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ function mod:GetOptions()
 		-- Brew Drop
 		441179, -- Oozing Honey
 		-- Taste Tester
-		{441242, "OFF", "NAMEPLATE"}, -- Free Samples?
+		{441242, "NAMEPLATE", "OFF"}, -- Free Samples?
 		-- Bee Wrangler
 		{441119, "SAY", "NAMEPLATE"}, -- Bee-Zooka
 		{441351, "NAMEPLATE"}, -- Bee-stial Wrath
@@ -187,7 +187,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "RainOfHoney", 440876)
 	self:Death("RoyalJellyPurveyorDeath", 220141)
 
-	-- Yes Man
+	-- Yes Man / Assent Bloke / Agree Gentleman / Concur Sir
 	self:RegisterEngageMob("YesManEngaged", 219588)
 	self:Log("SPELL_CAST_START", "DownwardTrend", 439467)
 	self:Death("YesManDeath", 219588)
@@ -351,10 +351,16 @@ function mod:RejuvenatingHoneySuccess(args)
 	self:Nameplate(args.spellId, 24.4, args.sourceGUID)
 end
 
-function mod:FailedBatch(args)
-	self:Message(args.spellId, "cyan", CL.spawning:format(args.spellName))
-	self:Nameplate(args.spellId, 23.0, args.sourceGUID)
-	self:PlaySound(args.spellId, "info")
+do
+	local prev = 0
+	function mod:FailedBatch(args)
+		self:Message(args.spellId, "cyan", CL.spawning:format(args.spellName))
+		self:Nameplate(args.spellId, 23.0, args.sourceGUID)
+		if args.time - prev > 2 then
+			prev = args.time
+			self:PlaySound(args.spellId, "info")
+		end
+	end
 end
 
 do
@@ -582,7 +588,7 @@ function mod:RoyalJellyPurveyorDeath(args)
 	self:ClearNameplate(args.destGUID)
 end
 
--- Yes Man
+-- Yes Man / Assent Bloke / Agree Gentleman / Concur Sir
 
 function mod:YesManEngaged(guid)
 	self:Nameplate(439467, 6.9, guid) -- Downward Trend
@@ -601,6 +607,22 @@ do
 	end
 end
 
-function mod:YesManDeath(args)
-	self:ClearNameplate(args.destGUID)
+do
+	local prev, deathCount = 0, 0
+	function mod:YesManDeath(args)
+		self:ClearNameplate(args.destGUID)
+		if args.time - prev > 180 then -- 1
+			deathCount = 1
+		elseif deathCount < 3 then -- 2 through 3
+			deathCount = deathCount + 1
+		else -- 4
+			deathCount = 0
+			local goldieBaronbottomModule = BigWigs:GetBossModule("Goldie Baronbottom", true)
+			if goldieBaronbottomModule then
+				goldieBaronbottomModule:Enable()
+				goldieBaronbottomModule:Warmup()
+			end
+		end
+		prev = args.time
+	end
 end

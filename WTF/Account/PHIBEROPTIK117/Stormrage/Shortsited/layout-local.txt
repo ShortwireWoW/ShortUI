@@ -1,11 +1,4 @@
 Version: 1
-Frame: RARESCANNER_BUTTON
-FrameLevel: 200
-Anchor: BOTTOM
-X: -507
-Y: 27
-W: 200
-H: 50
 Frame: PremadeGroupsFilterDialog
 FrameLevel: 2
 Anchor: TOPLEFT
@@ -27,3 +20,10 @@ X: 525
 Y: 184
 W: 128
 H: 64
+Frame: RARESCANNER_BUTTON
+FrameLevel: 200
+Anchor: BOTTOM
+X: -507
+Y: 27
+W: 200
+H: 50

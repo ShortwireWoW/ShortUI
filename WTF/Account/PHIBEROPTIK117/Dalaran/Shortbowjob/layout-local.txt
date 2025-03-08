@@ -20,10 +20,10 @@ X: 525
 Y: 184
 W: 128
 H: 64
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -443
-Y: -45
-W: 1036
-H: 912
+Frame: RARESCANNER_BUTTON
+FrameLevel: 200
+Anchor: BOTTOM
+X: -507
+Y: 27
+W: 200
+H: 50

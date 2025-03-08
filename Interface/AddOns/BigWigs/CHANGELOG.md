@@ -1,10 +1,11 @@
 # BigWigs
 
-## [v373.3](https://github.com/BigWigsMods/BigWigs/tree/v373.3) (2025-03-05)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v373.2...v373.3) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v373.5](https://github.com/BigWigsMods/BigWigs/tree/v373.5) (2025-03-07)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v373.4...v373.5) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update ruRU (#1931)  
-- Update zhCN (#1930)  
-- Update zhCN (#1929)  
-- Plugins/BossBlock: Support more toasts  
-- LiberationOfUndermine/MugZee: Fix a wrong function call  
+- Update zhCN (#1935)  
+- LiberationOfUndermine/Rik: Tweak  
+- LiberationOfUndermine/Bandit: Fix say message translation  
+- LiberationOfUndermine/Rik: Tweak amplification timings  
+- LiberationOfUndermine/Stix: Fix landing bar also, assume 20s for mythic rolling rubbish  
+- LiberationOfUndermine/Stix: Fix "Landing" message, add countdown for rolling rubbish expiring  

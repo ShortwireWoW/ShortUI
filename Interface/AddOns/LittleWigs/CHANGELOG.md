@@ -1,7 +1,8 @@
 # LittleWigs
 
-## [v11.1.6](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.6) (2025-03-05)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.5...v11.1.6) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.8](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.8) (2025-03-06)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.7...v11.1.8) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Delves/DemolitionDome/Underpin2: Timer and ability updates  
-- Delves/DemolitionDome/Underpin: Timer and ability updates  
+- WarWithin/DarkflameCleft/TheCandleKing: Timer updates  
+- WarWithin/CinderbrewMeadery: Goldie Baronbottom warmup  
+- WarWithin/CinderbrewMeadery/Trash: Throttle Failed Batch sound  
