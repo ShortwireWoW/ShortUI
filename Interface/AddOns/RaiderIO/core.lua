@@ -8668,8 +8668,8 @@ if IS_RETAIL then
 
     ---@type KeystoneDeathPenaltyInfo[]
     local DEATH_PENALTY_MAP = {
-        { level = 7, penalty = 15 },
-        { level = 0, penalty = 5 },
+        { level = 12, penalty = 15 },
+        { level = 4, penalty = 5 },
     }
 
     ---@class ReplayDataProvider
@@ -8744,8 +8744,7 @@ if IS_RETAIL then
                     return deathPenalty.penalty
                 end
             end
-            local deathPenalty = deathPenaltyMap[#deathPenaltyMap]
-            return deathPenalty.penalty
+            return 0 -- default to no death penalty
         end
 
         ---@return ReplaySummary replaySummary

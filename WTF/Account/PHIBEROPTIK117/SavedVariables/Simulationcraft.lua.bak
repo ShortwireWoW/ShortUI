@@ -8,7 +8,9 @@ SimulationCraftDB = {
 ["Bighealnrg - Stormrage"] = "Bighealnrg - Stormrage",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
 ["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
+["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 ["Shortblink - Stormrage"] = "Shortblink - Stormrage",
+["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 ["Shortbm - Stormrage"] = "Shortbm - Stormrage",
 ["Souplight - Tichondrius"] = "Souplight - Tichondrius",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
@@ -23,7 +25,7 @@ SimulationCraftDB = {
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
 ["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
-["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
+["Shortrouge - Area 52"] = "Shortrouge - Area 52",
 ["Loveacheev - Mal'Ganis"] = "Loveacheev - Mal'Ganis",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
@@ -51,7 +53,14 @@ SimulationCraftDB = {
 },
 ["Guildsigzzs - Stormrage"] = {
 },
+["Lildotnrg - Stormrage"] = {
+},
 ["Shortblink - Stormrage"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
+["Shortbowjob - Area 52"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
@@ -87,7 +96,7 @@ SimulationCraftDB = {
 },
 ["Raidmates - Tichondrius"] = {
 },
-["Lildotnrg - Stormrage"] = {
+["Shortrouge - Area 52"] = {
 },
 ["Loveacheev - Mal'Ganis"] = {
 },

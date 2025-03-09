@@ -52,8 +52,17 @@ RaiderIO_Config = {
 ["enableWhoTooltips"] = true,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortbeef-area-52"
+RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
+["us-Fêàr-frostmourne"] = true,
+["us-Wattzupp-sargeras"] = true,
+["us-Fruitflys-sargeras"] = true,
+["us-Whoemoma-kelthuzad"] = true,
+["us-Silchalyplan-area-52"] = true,
+["us-Shortbowjob-area-52"] = true,
+["us-Atsui-skullcrusher"] = true,
+["us-Hornytoads-tanaris"] = true,
+["us-Arena-lothar"] = true,
 }
 RaiderIO_MissingServers = {
 }

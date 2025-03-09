@@ -95,6 +95,7 @@ private.SUBZONES_IDS = {
 	[2369] = {2375}; --Isle Siren
 	[1490] = {1491,1493,1494,1497}; --Operation: Mechagon
 	[2420] = {2421,2422,2423}; --Sidestreet Sluice
+	[302] = { 314 }; --Scarlet Monastery
 }
 
 private.ZONES_WITHOUT_VIGNETTE = {

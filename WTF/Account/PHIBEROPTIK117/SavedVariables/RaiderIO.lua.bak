@@ -52,9 +52,30 @@ RaiderIO_Config = {
 ["mplusHeadlineMode"] = 0,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortbowjob-dalaran"
+RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Shortbowjob-dalaran"] = true,
+["us-Annelí-thrall"] = true,
+["us-Quitollis-Mal"] = true,
+["us-Hurtlockerz-echo-isles"] = true,
+["us-Pumania-stormrage"] = true,
+["us-Galaeriel-stormrage"] = true,
+["us-Monkmers-thrall"] = true,
+["us-Sajizinho-azralon"] = true,
+["us-Xarlo-stormrage"] = true,
+["us-Aladrix-drakkari"] = true,
+["us-Cèlestè-stormrage"] = true,
+["us-Níghtranger-stormrage"] = true,
+["us-party2-stormrage"] = true,
+["us-Zendh-tichondrius"] = true,
+["us-Peacemakah-thrall"] = true,
+["us-Sidríel-stormrage"] = true,
+["us-Wilditalian-stormrage"] = true,
+["us-Trystos-stormrage"] = true,
+["us-Anõra-stormrage"] = true,
+["us-Beernuts-doomhammer"] = true,
+["us-Rhosowen-stormrage"] = true,
+["us-Swervô-stormrage"] = true,
+["us-Bwansamdeezz-zuljin"] = true,
 }
 RaiderIO_MissingServers = {
 }

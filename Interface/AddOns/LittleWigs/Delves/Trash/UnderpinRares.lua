@@ -6,15 +6,18 @@ local mod, CL = BigWigs:NewBoss("Underpin Rares", {2664, 2679, 2680, 2681, 2683,
 if not mod then return end
 mod:RegisterEnableMob(
 	-- TWW Season 2, standard rares
-	236886, -- Hovering Menace
+	209721, -- Secret Treasure (spawns Treasure Wraith)
+	208728, -- Treasure Wraith
 	236892, -- Treasure Crab
+	236886, -- Hovering Menace
 	236895, -- Malfunctioning Pummeler
 	-- TWW Season 2, Underpin rares
 	234900, -- Underpin's Adoring Fan
 	234901, -- Underpin's Well-Connected Friend
 	234902, -- Underpin's Explosive Ally
 	234904, -- Underpin's Bodyguard's Intern
-	234905 -- Aggressively Lost Hobgoblin
+	234905, -- Aggressively Lost Hobgoblin
+	236942 -- The Underpin (random spawn)
 )
 
 --------------------------------------------------------------------------------
@@ -25,14 +28,20 @@ local L = mod:GetLocale()
 if L then
 	L.rares = "Underpin Rares"
 
-	L.hovering_menace = "Hovering Menace"
+	L.treasure_wraith = "Treasure Wraith"
 	L.treasure_crab = "Treasure Crab"
+	L.hovering_menace = "Hovering Menace"
 	L.malfunctioning_pummeler = "Malfunctioning Pummeler"
 	L.underpins_adoring_fan = "Underpin's Adoring Fan"
 	L.underpins_well_connected_friend = "Underpin's Well-Connected Friend"
 	L.underpins_explosive_ally = "Underpin's Explosive Ally"
 	L.underpins_bodyguards_intern = "Underpin's Bodyguard's Intern"
 	L.aggressively_lost_hobgoblin = "Aggressively Lost Hobgoblin"
+	L.the_underpin = "The Underpin (Random Spawn)"
+
+	L.underpin_retreat_trigger = "People always messin' around on my perfectly legal, deeded land!"
+
+	L["1216937_icon"] = "inv_goblinshreddermech_black" -- Underpin's Grand Entrance
 end
 
 --------------------------------------------------------------------------------
@@ -45,12 +54,15 @@ end
 
 function mod:GetOptions()
 	return {
-		-- Hovering Menace
-		{1216790, "NAMEPLATE"}, -- Forward Charge
-		{1216794, "NAMEPLATE"}, -- Alpha Cannon
+		-- Treasure Wraith
+		{418295, "NAMEPLATE"}, -- Umbral Slash
+		{418297, "NAMEPLATE"}, -- Castigate
 		-- Treasure Crab
 		{1214246, "NAMEPLATE"}, -- Crushing Pinch
 		{1214238, "NAMEPLATE"}, -- Harden Shell
+		-- Hovering Menace
+		{1216790, "NAMEPLATE"}, -- Forward Charge
+		{1216794, "NAMEPLATE"}, -- Alpha Cannon
 		-- Malfunctioning Pummeler
 		{1216805, "NAMEPLATE"}, -- Zap!
 		{1216806, "NAMEPLATE"}, -- There's the Door
@@ -72,30 +84,32 @@ function mod:GetOptions()
 		{1220869, "NAMEPLATE"}, -- Bonebreaker
 		-- Aggressively Lost Hobgoblin
 		{1217301, "NAMEPLATE"}, -- Heedless Charge
+		-- The Underpin
+		{1216937, "EMPHASIZE"}, -- Underpin's Grand Entrance
+		1213852, -- Crush
+		1217371, -- Flamethrower
+		1214147, -- Time Bomb Launcher
+		--1215521, -- Signal Cronies
 	}, {
-		[1216790] = L.hovering_menace,
+		[418295] = L.treasure_wraith,
 		[1214246] = L.treasure_crab,
+		[1216790] = L.hovering_menace,
 		[1216805] = L.malfunctioning_pummeler,
 		[1217361] = L.underpins_adoring_fan,
 		[433045] = L.underpins_well_connected_friend,
 		[1218061] = L.underpins_explosive_ally,
 		[1213497] = L.underpins_bodyguards_intern,
 		[1217301] = L.aggressively_lost_hobgoblin,
+		[1216937] = L.the_underpin,
 	}
 end
 
 function mod:OnBossEnable()
-	-- TODO Treasure Wraith is the only Season 1 rare to carry over to Season 2, when Season 1 is
-	-- over Treasure Wraith should be copied to this module so the Zekvir Rares module can be disconnected.
-
-	-- Hovering Menace
-	self:RegisterEngageMob("HoveringMenaceEngaged", 236886)
-	self:Log("SPELL_CAST_START", "ForwardCharge", 1216790)
-	self:Log("SPELL_CAST_SUCCESS", "ForwardChargeSuccess", 1216790)
-	self:Log("SPELL_CAST_START", "AlphaCannon", 1216794)
-	self:Log("SPELL_INTERRUPT", "AlphaCannonInterrupt", 1216794)
-	self:Log("SPELL_CAST_SUCCESS", "AlphaCannonSuccess", 1216794)
-	self:Death("HoveringMenaceDeath", 236886)
+	-- Treasure Wraith
+	self:RegisterEngageMob("TreasureWraithEngaged", 208728)
+	self:Log("SPELL_CAST_START", "UmbralSlash", 418295)
+	self:Log("SPELL_AURA_APPLIED", "Castigate", 418297)
+	self:Death("TreasureWraithDeath", 208728)
 
 	-- Treasure Crab
 	self:RegisterEngageMob("TreasureCrabEngaged", 236892)
@@ -105,6 +119,15 @@ function mod:OnBossEnable()
 	self:Log("SPELL_INTERRUPT", "HardenShellInterrupt", 1214238)
 	self:Log("SPELL_CAST_SUCCESS", "HardenShellSuccess", 1214238)
 	self:Death("TreasureCrabDeath", 236892)
+
+	-- Hovering Menace
+	self:RegisterEngageMob("HoveringMenaceEngaged", 236886)
+	self:Log("SPELL_CAST_START", "ForwardCharge", 1216790)
+	self:Log("SPELL_CAST_SUCCESS", "ForwardChargeSuccess", 1216790)
+	self:Log("SPELL_CAST_START", "AlphaCannon", 1216794)
+	self:Log("SPELL_INTERRUPT", "AlphaCannonInterrupt", 1216794)
+	self:Log("SPELL_CAST_SUCCESS", "AlphaCannonSuccess", 1216794)
+	self:Death("HoveringMenaceDeath", 236886)
 
 	-- Malfunctioning Pummeler
 	self:RegisterEngageMob("MalfunctioningPummelerEngaged", 236895)
@@ -153,67 +176,62 @@ function mod:OnBossEnable()
 	self:RegisterEngageMob("AggressivelyLostHobgoblinEngaged", 234905)
 	self:Log("SPELL_CAST_START", "HeedlessCharge", 1217301)
 	self:Death("AggressivelyLostHobgoblinDeath", 234905)
+
+	-- The Underpin
+	self:Log("SPELL_CAST_START", "UnderpinsGrandEntrance", 1216937)
+	self:Log("SPELL_CAST_START", "Crush", 1213852)
+	self:Log("SPELL_CAST_START", "Flamethrower", 1217371)
+	self:Log("SPELL_CAST_SUCCESS", "TimeBombLauncher", 1214147)
+	--self:Log("SPELL_CAST_START", "SignalCronies", 1215521) -- this is cast by The Underpin but it doesn't do anything
+	self:RegisterEvent("CHAT_MSG_MONSTER_SAY") -- Underpin Retreating
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
 
--- Hovering Menace
+-- Treasure Wraith
 
 do
 	local timer
 
-	function mod:HoveringMenaceEngaged(guid)
-		self:CDBar(1216790, 2.9) -- Forward Charge
-		self:Nameplate(1216790, 2.9, guid) -- Forward Charge
-		self:CDBar(1216794, 6.4) -- Alpha Cannon
-		self:Nameplate(1216794, 6.4, guid) -- Alpha Cannon
-		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+	function mod:TreasureWraithEngaged(guid)
+		--self:CDBar(418295, 100) -- Umbral Slash
+		--self:Nameplate(418295, 100, guid) -- Umbral Slash
+		--self:CDBar(418297, 100) -- Castigate
+		--self:Nameplate(418297, 100, guid) -- Castigate
+		timer = self:ScheduleTimer("TreasureWraithDeath", 30)
 	end
 
-	function mod:ForwardCharge(args)
+	function mod:UmbralSlash(args)
 		if timer then
 			self:CancelTimer(timer)
 		end
-		self:Message(args.spellId, "orange")
-		self:Nameplate(args.spellId, 0, args.sourceGUID)
-		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+		self:Message(args.spellId, "yellow")
+		self:CDBar(args.spellId, 17.6)
+		self:Nameplate(args.spellId, 17.6, args.sourceGUID)
+		timer = self:ScheduleTimer("TreasureWraithDeath", 30)
 		self:PlaySound(args.spellId, "alarm")
 	end
 
-	function mod:ForwardChargeSuccess(args)
-		self:CDBar(args.spellId, 13.3)
-		self:Nameplate(args.spellId, 13.3, args.sourceGUID)
-	end
-
-	function mod:AlphaCannon(args)
+	function mod:Castigate(args)
 		if timer then
 			self:CancelTimer(timer)
 		end
 		self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-		self:Nameplate(args.spellId, 0, args.sourceGUID)
-		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+		self:CDBar(args.spellId, 17.5)
+		self:Nameplate(args.spellId, 17.5, args.sourceGUID)
+		timer = self:ScheduleTimer("TreasureWraithDeath", 30)
 		self:PlaySound(args.spellId, "alert")
 	end
 
-	function mod:AlphaCannonInterrupt(args)
-		self:CDBar(1216794, 20.3)
-		self:Nameplate(1216794, 20.3, args.destGUID)
-	end
-
-	function mod:AlphaCannonSuccess(args)
-		self:CDBar(args.spellId, 20.3)
-		self:Nameplate(args.spellId, 20.3, args.sourceGUID)
-	end
-
-	function mod:HoveringMenaceDeath(args)
+	function mod:TreasureWraithDeath(args)
 		if timer then
 			self:CancelTimer(timer)
 			timer = nil
 		end
-		self:StopBar(1216790) -- Forward Charge
-		self:StopBar(1216794) -- Alpha Cannon
+		self:StopBar(418295) -- Umbral Slash
+		self:StopBar(418297) -- Castigate
 		if args then
 			self:ClearNameplate(args.destGUID)
 		end
@@ -275,6 +293,67 @@ do
 		end
 		self:StopBar(1214246) -- Crushing Pinch
 		self:StopBar(1214238) -- Harden Shell
+		if args then
+			self:ClearNameplate(args.destGUID)
+		end
+	end
+end
+
+-- Hovering Menace
+
+do
+	local timer
+
+	function mod:HoveringMenaceEngaged(guid)
+		self:CDBar(1216790, 2.9) -- Forward Charge
+		self:Nameplate(1216790, 2.9, guid) -- Forward Charge
+		self:CDBar(1216794, 6.4) -- Alpha Cannon
+		self:Nameplate(1216794, 6.4, guid) -- Alpha Cannon
+		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+	end
+
+	function mod:ForwardCharge(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "orange")
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+		self:PlaySound(args.spellId, "alarm")
+	end
+
+	function mod:ForwardChargeSuccess(args)
+		self:CDBar(args.spellId, 13.3)
+		self:Nameplate(args.spellId, 13.3, args.sourceGUID)
+	end
+
+	function mod:AlphaCannon(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		timer = self:ScheduleTimer("HoveringMenaceDeath", 30)
+		self:PlaySound(args.spellId, "alert")
+	end
+
+	function mod:AlphaCannonInterrupt(args)
+		self:CDBar(1216794, 20.3)
+		self:Nameplate(1216794, 20.3, args.destGUID)
+	end
+
+	function mod:AlphaCannonSuccess(args)
+		self:CDBar(args.spellId, 20.3)
+		self:Nameplate(args.spellId, 20.3, args.sourceGUID)
+	end
+
+	function mod:HoveringMenaceDeath(args)
+		if timer then
+			self:CancelTimer(timer)
+			timer = nil
+		end
+		self:StopBar(1216790) -- Forward Charge
+		self:StopBar(1216794) -- Alpha Cannon
 		if args then
 			self:ClearNameplate(args.destGUID)
 		end
@@ -581,7 +660,7 @@ end
 do
 	local prev = 0
 	function mod:HeedlessCharge(args)
-		self:Nameplate(args.spellId, 18.2, args.sourceGUID)
+		self:Nameplate(args.spellId, 16.9, args.sourceGUID)
 		if args.time - prev > 1.5 then
 			prev = args.time
 			self:Message(args.spellId, "red")
@@ -592,4 +671,79 @@ end
 
 function mod:AggressivelyLostHobgoblinDeath(args)
 	self:ClearNameplate(args.destGUID)
+end
+
+-- The Underpin
+
+do
+	local timer
+
+	function mod:UnderpinsGrandEntrance(args)
+		timer = self:ScheduleTimer("UnderpinRetreat", 30)
+		self:Message(args.spellId, "cyan", nil, L["1216937_icon"])
+		self:CDBar(1213852, 11.3) -- Crush
+		self:CDBar(1217371, 15.5) -- Flamethrower
+		self:CDBar(1214147, 18.6) -- Time Bomb Launcher
+		--self:CDBar(1215521, 22.7) -- Signal Cronies
+		self:PlaySound(args.spellId, "warning")
+	end
+
+	function mod:Crush(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "orange")
+		self:CDBar(args.spellId, 20.1)
+		timer = self:ScheduleTimer("UnderpinRetreat", 30)
+		self:PlaySound(args.spellId, "alarm")
+	end
+
+	function mod:Flamethrower(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "red")
+		self:CDBar(args.spellId, 20.1)
+		timer = self:ScheduleTimer("UnderpinRetreat", 30)
+		self:PlaySound(args.spellId, "alarm")
+	end
+
+	function mod:TimeBombLauncher(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "yellow")
+		self:CDBar(args.spellId, 25.1)
+		timer = self:ScheduleTimer("UnderpinRetreat", 30)
+		self:PlaySound(args.spellId, "info")
+	end
+
+	-- this is cast by The Underpin but it doesn't do anything
+	--[[function mod:SignalCronies(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "cyan")
+		self:CDBar(args.spellId, 62.7)
+		timer = self:ScheduleTimer("UnderpinRetreat", 30)
+		self:PlaySound(args.spellId, "long")
+	end]]
+
+	function mod:CHAT_MSG_MONSTER_SAY(_, msg)
+		-- [CHAT_MSG_MONSTER_SAY] People always messin' around on my perfectly legal, deeded land!#The Underpin
+		if msg == L.underpin_retreat_trigger then
+			self:UnderpinRetreat()
+		end
+	end
+
+	function mod:UnderpinRetreat()
+		if timer then
+			self:CancelTimer(timer)
+			timer = nil
+		end
+		self:StopBar(1213852) -- Crush
+		self:StopBar(1217371) -- Flamethrower
+		self:StopBar(1214147) -- Time Bomb Launcher
+		--self:StopBar(1215521) -- Signal Cronies
+	end
 end

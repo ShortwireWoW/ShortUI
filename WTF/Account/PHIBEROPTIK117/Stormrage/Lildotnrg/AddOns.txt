@@ -43,3 +43,4 @@ LittleWigs_Classic: enabled
 LittleWigs_BurningCrusade: enabled
 LittleWigs_WrathOfTheLichKing: enabled
 BigWigs_LiberationOfUndermine: enabled
+LittleWigs_Dragonflight: enabled

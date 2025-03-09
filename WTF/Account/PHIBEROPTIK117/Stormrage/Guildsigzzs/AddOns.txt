@@ -45,7 +45,7 @@ GottaGoFasterHistory: disabled
 InfiniteRaidTools: disabled
 LittleWigs_BurningCrusade: enabled
 LittleWigs_Classic: enabled
-LittleWigs_Dragonflight: disabled
+LittleWigs_Dragonflight: enabled
 LittleWigs_MistsOfPandaria: enabled
 LittleWigs_Legion: enabled
 LittleWigs_WarlordsOfDraenor: enabled

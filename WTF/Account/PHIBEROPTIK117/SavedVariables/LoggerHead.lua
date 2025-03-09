@@ -5,19 +5,21 @@ LoggerHeadDB = {
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortbm - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
 ["Shortloch - Stormrage"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortbm - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
@@ -54,8 +56,9 @@ LoggerHeadDB = {
 [24] = false,
 },
 ["The Dawnbreaker"] = {
+false,
+false,
 [8] = true,
-[2] = false,
 [23] = true,
 },
 ["Auchindoun: Mana-Tombs"] = {
@@ -82,8 +85,9 @@ false,
 [24] = false,
 },
 ["City of Threads"] = {
+false,
+false,
 [8] = true,
-[2] = false,
 [23] = true,
 },
 ["Magisters' Terrace"] = {
@@ -102,15 +106,21 @@ false,
 [24] = false,
 [2] = false,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
 ["Coilfang: The Underbog"] = {
 [24] = false,
 },
-["Ara-Kara, City of Echoes"] = {
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["Grim Batol"] = {
 [8] = true,
 [2] = false,
+[23] = true,
+},
+["Ara-Kara, City of Echoes"] = {
+false,
+false,
+[8] = true,
 [23] = true,
 },
 ["The Stonevault"] = {
@@ -119,13 +129,11 @@ false,
 [23] = true,
 [8] = true,
 },
+["Priory of the Sacred Flame"] = {
+false,
+},
 ["Halls of Stone"] = {
 [2] = false,
-},
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -143,12 +151,14 @@ false,
 [24] = false,
 },
 ["Cinderbrew Meadery"] = {
-[23] = true,
+false,
 [8] = true,
+[23] = true,
 },
 ["The Rookery"] = {
-[23] = true,
+false,
 [8] = true,
+[23] = true,
 },
 },
 ["scenario"] = {
@@ -179,8 +189,9 @@ false,
 },
 ["raid"] = {
 ["Liberation of Undermine"] = {
-[17] = true,
 [14] = true,
+[17] = true,
+[15] = true,
 },
 ["Antorus, the Burning Throne"] = {
 [16] = false,

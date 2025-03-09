@@ -28,6 +28,7 @@ local voltaicImageCount = 1
 local lightningBashCount = 1
 
 local HIGH_STACKS = 25
+local lastScrapbombExplosionTimer = 0
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -41,6 +42,10 @@ if L then
 	L.bomb_explosion = "Bomb Explosion"
 	L.bomb_explosion_desc = "Show a timer for the explosion off the Scrapbombs."
 	L.bomb_explosion_icon = 133613
+
+	L.eruption_stomp = "Stomp" -- Short for Eruption Stomp
+	L.thunderdrum_salvo = "Salvo" -- Short for Thunderdrum Salvo
+	L.voltaic_image = "Fixates" -- Multiple of Fixate
 end
 
 --------------------------------------------------------------------------------
@@ -80,12 +85,18 @@ function mod:GetOptions()
 		[465833] = CL.full_energy, -- Colossal Clash (Full Energy)
 		[473650] = CL.bomb, -- Scrapbomb (Bomb)
 		[472233] = CL.beam, -- Blastburn Roarcannon (Beam)
+		[1214190] = L.eruption_stomp, -- Eruption Stomp (Stomp)
+		[463900] = L.thunderdrum_salvo, -- Thunderdrum Salvo (Salvo)
+		[1213994] = L.voltaic_image, -- Voltaic Image (Fixates)
 	}
 end
 
 function mod:OnRegister()
 	self:SetSpellRename(473650, CL.bomb) -- Scrapbomb (Bomb)
 	self:SetSpellRename(472233, CL.beam) -- Blastburn Roarcannon (Beam)
+	self:SetSpellRename(1214190, L.eruption_stomp) -- Stomp
+	self:SetSpellRename(463900, L.thunderdrum_salvo) -- Salvo
+	self:SetSpellRename(1213994, L.voltaic_image) -- Fixates
 end
 
 function mod:OnBossEnable()
@@ -109,6 +120,7 @@ function mod:OnBossEnable()
 
 	-- Flarendo the Furious
 	self:Log("SPELL_CAST_START", "Scrapbomb", 473650)
+	self:Log("SPELL_SUMMON", "ScrapbombSpawn", 1217753)
 	self:Log("SPELL_AURA_APPLIED", "MoltenPhlegmApplied", 1213690)
 	self:Log("SPELL_CAST_START", "BlastburnRoarcannon", 472233)
 	self:Log("SPELL_CAST_START", "EruptionStomp", 1214190)
@@ -141,12 +153,13 @@ function mod:OnEngage()
 	blastburnRoarcannonCount = 1
 
 	local bombCD = self:Easy() and 10.0 or 9.0
+	lastScrapbombExplosionTimer = bombCD + 14 -- expected explosion time, corrected when bomb spawns
 	self:Bar(473650, bombCD, CL.count:format(CL.bomb, scrapbombCount)) -- Scrapbomb
-	self:Bar("bomb_explosion", bombCD + 10, CL.count:format(L.bomb_explosion, scrapbombCount), L.bomb_explosion_icon) -- Scrapbomb, bomb icon
+	self:Bar("bomb_explosion", lastScrapbombExplosionTimer, CL.count:format(L.bomb_explosion, scrapbombCount), L.bomb_explosion_icon) -- Scrapbomb, bomb icon
 	self:Bar(472233, self:Easy() and 16.0 or 15.0, CL.count:format(CL.beam, blastburnRoarcannonCount)) -- Blastburn Roarcannon
-	self:Bar(1214190, self:Easy() and 30.0 or 26.2, CL.count:format(self:SpellName(1214190), eruptionStompCount)) -- Eruption Stomp
+	self:Bar(1214190, self:Easy() and 30.0 or 26.0, CL.count:format(L.eruption_stomp, eruptionStompCount)) -- Eruption Stomp
 	if not self:Easy() then
-		self:Bar(1213690, self:Mythic() and 24.6 or 48.5, CL.count:format(self:SpellName(1213690), moltenPhlegmCount)) -- Molten Phlegm
+		self:Bar(1213690, self:Mythic() and 24.6 or 49.0, CL.count:format(self:SpellName(1213690), moltenPhlegmCount)) -- Molten Phlegm
 	end
 
 	-- Torq
@@ -156,10 +169,10 @@ function mod:OnEngage()
 	lightningBashCount = 1
 
 	self:Bar(474159, 6.0, CL.count:format(self:SpellName(474159), staticChargeCount)) -- Static Charge
-	self:Bar(463900, self:Easy() and 20.0 or 10.0, CL.count:format(self:SpellName(463900), thunderdrumSalvoCount)) -- Thunderdrum Salvo
+	self:Bar(463900, self:Easy() and 20.0 or 10.0, CL.count:format(L.thunderdrum_salvo, thunderdrumSalvoCount)) -- Thunderdrum Salvo
 	self:Bar(466178, self:Easy() and 35.0 or 21.0, CL.count:format(self:SpellName(466178), lightningBashCount)) -- Lightning Bash
 	if not self:Easy() then
-		self:Bar(1213994, 30, CL.count:format(self:SpellName(1213994), voltaicImageCount)) -- Voltaic Image
+		self:Bar(1213994, 30, CL.count:format(L.voltaic_image, voltaicImageCount)) -- Voltaic Image
 	end
 end
 
@@ -188,12 +201,12 @@ do
 		[473650] = true, -- Scrapbomb
 		[472233] = true, -- Blastburn Roarcannon
 		[1214190] = true, -- Eruption Stomp
-		[1213690] = true,  -- Molten Phlegm
+		[1213690] = true, -- Molten Phlegm
 	}
 
 	local torqueAbilities = {
 		[474159] = true, -- Static Charge
-		[463900] = true,-- Thunderdrum Salvo
+		[463900] = true, -- Thunderdrum Salvo
 		[466178] = true, -- Lightning Bash
 		[1213994] = true, -- Voltaic Image
 	}
@@ -304,11 +317,11 @@ function mod:Deaths(args)
 		end
 		self:StopBar(CL.count:format(self:SpellName(1213690), moltenPhlegmCount)) -- Molten Phlegm
 		self:StopBar(CL.count:format(CL.beam, blastburnRoarcannonCount)) -- Blastburn Roarcannon
-		self:StopBar(CL.count:format(self:SpellName(1214190), eruptionStompCount)) -- Eruption Stomp
+		self:StopBar(CL.count:format(L.eruption_stomp, eruptionStompCount)) -- Eruption Stomp
 	elseif args.mobId == 229177 then -- Torq
 		self:StopBar(CL.count:format(self:SpellName(474159), staticChargeCount)) -- Static Charge
-		self:StopBar(CL.count:format(self:SpellName(463900), thunderdrumSalvoCount)) -- Thunderdrum Salvo
-		self:StopBar(CL.count:format(self:SpellName(1213994), voltaicImageCount)) -- Voltaic Image
+		self:StopBar(CL.count:format(L.thunderdrum_salvo, thunderdrumSalvoCount)) -- Thunderdrum Salvo
+		self:StopBar(CL.count:format(L.voltaic_image, voltaicImageCount)) -- Voltaic Image
 		self:StopBar(CL.count:format(self:SpellName(466178), lightningBashCount)) -- Lightning Bash
 	end
 end
@@ -380,28 +393,31 @@ function mod:SpiteApplied(args)
 end
 
 -- Flarendo the Furious
-function mod:Scrapbomb(args)
-	self:StopBar(CL.count:format(CL.bomb, scrapbombCount))
-	self:Bar("bomb_explosion", 10, CL.count:format(L.bomb_explosion, scrapbombCount), L.bomb_explosion_icon) -- Scrapbomb, bomb icon
-	if self:IsFlarendoInRange() then
-		self:Message(args.spellId, "orange", CL.count:format(CL.bomb, scrapbombCount))
-		self:PlaySound(args.spellId, "alert") -- soak bombs
-	end
-	scrapbombCount = scrapbombCount + 1
-
-	local cd
-	if self:Easy() then -- 2 per
-		cd = scrapbombCount % 2 == 1 and 65.0 or 30.0 -- 10.0, 30.0
-	else -- 3 per
-		cd = scrapbombCount % 3 == 1 and 48.0 or 24.0 -- 9.0, 24.0, 24.0
-		if self:Heroic() and scrapbombCount % 3 == 2 then
-			cd = 23.0 -- 9.0, 23.0, 24.0
-		elseif self:Mythic() and scrapbombCount % 3 == 0 then
-			cd = 23.0 -- 9.0, 24.0, 23.0
+do
+	local expectedExplosion = 0
+	function mod:Scrapbomb(args)
+		self:StopBar(CL.count:format(CL.bomb, scrapbombCount))
+		if self:IsFlarendoInRange() then
+			self:Message(args.spellId, "orange", CL.count:format(CL.bomb, scrapbombCount))
+			self:PlaySound(args.spellId, "alert") -- soak bombs
 		end
+		scrapbombCount = scrapbombCount + 1
+
+		local cd
+		if self:Easy() then -- 2 per
+			cd = scrapbombCount % 2 == 1 and 65.0 or 30.0 -- 10.0, 30.0
+		else -- 3 per
+			cd = scrapbombCount % 3 == 1 and 48.0 or scrapbombCount % 3 == 2 and 23.0 or 24.0 -- 9.0, 23.0, 24.0
+		end
+		expectedExplosion = cd + 14 -- storing this so we can correct the bar without jumping total duration around
+		self:Bar(args.spellId, cd, CL.count:format(CL.bomb, scrapbombCount))
+		self:Bar("bomb_explosion", expectedExplosion, CL.count:format(L.bomb_explosion, scrapbombCount), L.bomb_explosion_icon) -- Scrapbomb Explosion
 	end
-	self:Bar(args.spellId, cd, CL.count:format(CL.bomb, scrapbombCount))
-	self:Bar("bomb_explosion", cd + 10, CL.count:format(L.bomb_explosion, scrapbombCount), L.bomb_explosion_icon) -- Scrapbomb, bomb icon
+
+	function mod:ScrapbombSpawn() -- When spawned, 10s to explosion
+		self:Bar("bomb_explosion", {10, lastScrapbombExplosionTimer}, CL.count:format(L.bomb_explosion, scrapbombCount-1), L.bomb_explosion_icon) -- Scrapbomb Explosion
+		lastScrapbombExplosionTimer = expectedExplosion -- Now we can set the last timer to use it next bombs
+	end
 end
 
 do
@@ -411,9 +427,12 @@ do
 			prev = args.time
 			self:StopBar(CL.count:format(args.spellName, moltenPhlegmCount))
 			moltenPhlegmCount = moltenPhlegmCount + 1
-			local cd = 95
-			if self:Mythic() then
-				cd = moltenPhlegmCount % 2 == 1 and 67.6 or 27.4
+
+			local cd
+			if self:Mythic() then -- 2 per
+				cd = moltenPhlegmCount % 2 == 1 and 70.5 or 24.5 -- 24.5, 24.5
+			else -- 1 per
+				cd = 95.0
 			end
 			self:Bar(args.spellId, cd, CL.count:format(args.spellName, moltenPhlegmCount))
 		end
@@ -434,19 +453,15 @@ do
 			self:PlaySound(472233, "alarm", nil, player)
 		end
 	end
+
 	function mod:BlastburnRoarcannon(args)
 		self:StopBar(CL.count:format(CL.beam, blastburnRoarcannonCount))
-		if self:IsFlarendoInRange() then
-			self:Message(args.spellId, "red", CL.count:format(CL.beam, blastburnRoarcannonCount))
-		end
 		blastburnRoarcannonCount = blastburnRoarcannonCount + 1
 		self:GetBossTarget(printTarget, 1, args.sourceGUID) -- targets a player
 
 		local cd
 		if self:Easy() then -- 2 per
 			cd = blastburnRoarcannonCount % 2 == 1 and 65.0 or 30.0 -- 16.0, 30.0
-		elseif self:Mythic() then -- 3 per
-			cd = blastburnRoarcannonCount % 3 == 1 and 48.0 or blastburnRoarcannonCount % 3 == 2 and 24.0 or 23.0 -- 15.0, 24.0, 23.0
 		else -- 3 per
 			cd = blastburnRoarcannonCount % 3 == 1 and 50.0 or blastburnRoarcannonCount % 3 == 2 and 24.0 or 21.0 -- 15.0, 24.0, 21.0
 		end
@@ -469,7 +484,7 @@ function mod:EruptionStomp(args)
 	if self:Easy() then -- 2 per
 		cd = eruptionStompCount % 2 == 1 and 65.0 or 30.0 -- 30.0, 30.0
 	elseif self:Mythic() then -- 2 per
-		cd = eruptionStompCount % 2 == 1 and 71.0 or 24.0 -- 27.0, 24.0
+		cd = eruptionStompCount % 2 == 1 and 70.0 or 25.0 -- 26.0, 25.0
 	else -- 1 per
 		cd = 95.0
 	end
@@ -478,6 +493,7 @@ end
 
 -- Torq the Tempest
 function mod:StaticCharge()
+	self:StopBar(CL.count:format(self:SpellName(474159), staticChargeCount))
 	staticChargeCount = staticChargeCount + 1
 	self:Bar(474159, 95, CL.count:format(self:SpellName(474159), staticChargeCount)) -- Static Charge
 end
@@ -491,10 +507,10 @@ function mod:StaticChargeApplied(args)
 end
 
 function mod:ThunderdrumSalvo(args)
-	self:StopBar(CL.count:format(args.spellName, thunderdrumSalvoCount))
+	self:StopBar(CL.count:format(L.thunderdrum_salvo, thunderdrumSalvoCount))
 	if self:IsTorqueInRange() then
-		self:Message(args.spellId, "yellow", CL.count:format(args.spellName, thunderdrumSalvoCount))
-		self:PlaySound(args.spellId, "alert")
+		self:Message(args.spellId, "yellow", CL.count:format(L.thunderdrum_salvo, thunderdrumSalvoCount))
+		self:PlaySound(args.spellId, "alarm")
 	end
 	thunderdrumSalvoCount = thunderdrumSalvoCount + 1
 
@@ -504,13 +520,13 @@ function mod:ThunderdrumSalvo(args)
 	else -- 2 per
 		cd = thunderdrumSalvoCount % 2 == 1 and 65.0 or 30.0 -- 10.0, 30.0
 	end
-	self:Bar(args.spellId, cd, CL.count:format(args.spellName, thunderdrumSalvoCount))
+	self:Bar(args.spellId, cd, CL.count:format(L.thunderdrum_salvo, thunderdrumSalvoCount))
 end
 
 function mod:VoltaicImage()
-	self:StopBar(CL.count:format(self:SpellName(1213994), voltaicImageCount))
+	self:StopBar(CL.count:format(L.voltaic_image, voltaicImageCount))
 	if self:IsTorqueInRange() then
-		self:Message(1213994, "orange", CL.count:format(self:SpellName(1213994), voltaicImageCount))
+		self:Message(1213994, "orange", CL.count:format(L.voltaic_image, voltaicImageCount))
 		self:PlaySound(1213994, "alert")
 	end
 	voltaicImageCount = voltaicImageCount + 1
@@ -521,7 +537,7 @@ function mod:VoltaicImage()
 	else -- 2 per
 		cd = voltaicImageCount % 2 == 1 and 65.0 or 30.0 -- 30.0, 30.0
 	end
-	self:Bar(1213994, cd, CL.count:format(self:SpellName(1213994), voltaicImageCount))
+	self:Bar(1213994, cd, CL.count:format(L.voltaic_image, voltaicImageCount))
 end
 
 function mod:VoltaicImageFixateApplied(args)

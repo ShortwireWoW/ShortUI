@@ -1,0 +1,107 @@
+VER 3 0100000000000008 "Barbed Shot" "134400"
+#showtooltip
+/petattack [harm]
+/cast Barbed Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 0100000000000001 "Binding Shot" "134400"
+#showtooltip
+/cast [@cursor] Binding Shot
+END
+VER 3 010000000000000D "Black Arrow" "134400"
+#showtooltip Black Arrow
+/cast [@mouseover,harm,nodead][]Black Arrow
+END
+VER 3 0100000000000007 "BW / BoT" "134400"
+#showtooltip
+/castsequence reset=10 Bestial Wrath, Bag of Tricks
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 0100000000000009 "Cobra Shot" "134400"
+#showtooltip
+/petattack [harm]
+/cast Cobra Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smackt
+END
+VER 3 0100000000000012 "Explosive Shot" "134400"
+#showtooltip
+/petattack [harm]
+/cast Explosive Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 0100000000000006 "Feign Death" "134400"
+#showtooltip
+/cast Feign Death
+/cast Play Dead
+/petpassive
+/use Wake Up
+END
+VER 3 0100000000000002 "Flare" "134400"
+#showtooltip
+/cast [@cursor] Flare
+END
+VER 3 0100000000000005 "Freezing Trap" "134400"
+#showtooltip
+/cast [@cursor] Freezing Trap
+END
+VER 3 0100000000000003 "Imp Trap" "134400"
+#showtooltip
+/cast [@cursor] Implosive Trap
+END
+VER 3 0100000000000011 "Interrupt" "134400"
+#showtooltip
+/castsequence reset=22 Counter Shot, Intimidation
+END
+VER 3 010000000000000A "Kill Command" "134400"
+#showtooltip
+/petattack
+/cast Kill Command
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 010000000000000E "Kill Shot" "134400"
+#showtooltip
+/petattack
+/cast Kill Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 010000000000000C "Kill Shot Mouseo" "134400"
+#showtooltip Kill Shot
+/petattack [@mouseover]
+/cast [@mouseover,harm,nodead][]Kill Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 0100000000000010 "Misdirect" "134400"
+#showtooltip [known:Interlope] Interlope; #showtooltip [noknown:Interlope] Misdirection
+/click SmartMisdirect LeftButton 1
+/click SmartMisdirect LeftButton 0
+END
+VER 3 010000000000000B "Multi-Shot" "134400"
+#showtooltip
+/petattack [harm]
+/cast Multi-Shot
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 010000000000000F "Spirit Mend" "134400"
+#showtooltip Spirit Mend
+/cast [@target,help,nodead][@mouseover,help,nodead][@player] Spirit Mend
+END
+VER 3 0100000000000004 "Tar Trap" "134400"
+#showtooltip
+/cast [@cursor] Tar Trap
+END

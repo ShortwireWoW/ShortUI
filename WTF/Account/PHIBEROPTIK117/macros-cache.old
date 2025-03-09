@@ -4,7 +4,7 @@ END
 VER 3 0000000000000064 "AFK Level" "134400"
 #showtooltip
 /target Volatile Spore
-/cast Ice Lance
+/cast Pistol Shot
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
 VER 3 0000000000000067 "CLEAR WM" "132212"
@@ -31,6 +31,9 @@ VER 3 000000000000005B "Potions" "134400"
 #showtooltip
 /use Fleeting Elemental Potion of Ultimate Power
 /use Elemental Potion of Ultimate Power
+END
+VER 3 000000000000006A "Raid Info" "133487"
+/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("WA_TRIGGER", UnitName("target"), "WHISPER", UnitName("player")) end
 END
 VER 3 0000000000000069 "Raid Invite Time" "132208"
 /run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))
@@ -63,8 +66,4 @@ END
 VER 3 0000000000000056 "Weapon" "134400"
 #showtooltip
 /use 16
-END
-VER 3 0000000000000066 "WM Spam" "6124644"
-/run local b=ActionButton8 _MH=_MH or(b:SetAttribute("*type5","macro")or SecureHandlerWrapScript(b,"PreClick",b,'Z=IsShiftKeyDown()and 0 or(Z or 0)%8+1 self:SetAttribute("macrotext5","/wm [@cursor]"..Z)'))or 1
-/click ActionButton8 Button5 
 END

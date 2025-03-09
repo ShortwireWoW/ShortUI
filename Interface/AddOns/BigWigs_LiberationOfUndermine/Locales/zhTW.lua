@@ -12,6 +12,10 @@ if L then
 
 	L.bomb_explosion = "炸彈爆炸"
 	L.bomb_explosion_desc = "替炸彈爆炸顯示倒數計時。"
+
+	--L.eruption_stomp = "Stomp" -- Short for Eruption Stomp
+	--L.thunderdrum_salvo = "Salvo" -- Short for Thunderdrum Salvo
+	--L.voltaic_image = "Fixates" -- Multiple of Fixate
 end
 
 L = BigWigs:NewBossLocale("Rik Reverb", "zhTW")
@@ -83,6 +87,7 @@ if L then
 	L.scatterblast_canisters = "碎爆分攤" --碎爆罐
 	--L.fused_canisters = "Group Soaks"
 	--L.tick_tock_canisters = "Soaks"
+	--L.total_destruction = "DESTRUCTION!"
 
 	L.duds = "爆彈" -- Short for 1500-Pound "Dud" dud是啞彈但手冊是爆彈
 	L.all_duds_detontated = "爆彈已全部引爆！"

@@ -91,33 +91,16 @@ L = BigWigs:NewBossLocale("Underpin Rares", "deDE")
 if L then
 	--L.rares = "Underpin Rares"
 
-	--L.hovering_menace = "Hovering Menace"
+	L.treasure_wraith = "Schatzgespenst"
 	--L.treasure_crab = "Treasure Crab"
+	--L.hovering_menace = "Hovering Menace"
 	--L.malfunctioning_pummeler = "Malfunctioning Pummeler"
 	--L.underpins_adoring_fan = "Underpin's Adoring Fan"
 	--L.underpins_well_connected_friend = "Underpin's Well-Connected Friend"
 	--L.underpins_explosive_ally = "Underpin's Explosive Ally"
 	--L.underpins_bodyguards_intern = "Underpin's Bodyguard's Intern"
 	--L.aggressively_lost_hobgoblin = "Aggressively Lost Hobgoblin"
-end
+	--L.the_underpin = "The Underpin (Random Spawn)"
 
-L = BigWigs:NewBossLocale("Zekvir Rares", "deDE")
-if L then
-	L.rares = "Seltene Gegner"
-
-	L.stolen_loader = "Gestohlener Lader"
-	L.invasive_sporecap = "Invasive Sporenkappe"
-	L.reno_jackson = "Reno Jackson"
-	L.sir_finley_mrgglton = "Sir Finley Mrrgglton"
-	L.treasure_wraith = "Schatzgespenst"
-	L.venombite = "Giftbiss"
-	L.kasdru = "Kas'dru"
-	L.tala = "Tala"
-	L.velo = "Velo"
-	L.anubvir = "Anub'vir"
-	L.zekvir = "Zekvir"
-	L.zekvirs_influence = "Zekvirs Einfluss"
-	L.zekvir_random = "Zekvir (Zufälliges Erscheinen)"
-	L.zekvir_breach = "Zekvir erscheint"
-	L.zekvir_breach_desc = "Zeigt eine Meldung wenn Zekvir in der Tiefe erscheint."
+	--L.underpin_retreat_trigger = "People always messin' around on my perfectly legal, deeded land!"
 end

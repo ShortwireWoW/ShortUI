@@ -28,7 +28,7 @@ RSConstants.LOOT_ITEM_ID = nil
 ---============================================================================
 
 RSConstants.CURRENT_DB_VERSION = 173
-RSConstants.CURRENT_LOOT_DB_VERSION = 167
+RSConstants.CURRENT_LOOT_DB_VERSION = 168
 
 ---============================================================================
 -- Current maps (newer)
@@ -113,7 +113,7 @@ RSConstants.MINIEVENTS_WORLDMAP_FILTERS = {
 	[RSConstants.DRAGONFLIGHT_STORM_INVASTION_AIR_MINIEVENT] = { active = true, npcs = true, mapIDs = { 2025, 2024, 2023, 2022 }, atlas = "ElementalStorm-Lesser-Air", text = AL["MAP_MENU_SHOW_AIR_PRIMALSTORM_RARE_NPCS"] };
 	[RSConstants.DRAGONFLIGHT_HUNTING_PARTY_MINIEVENT] = { active = true, npcs = true, mapIDs = { 2025, 2024, 2023, 2022 }, atlas = "Vehicle-Trap-Gold", text = AL["MAP_MENU_SHOW_HUNTING_PARTY_RARE_NPCS"] };
 	[RSConstants.DRAGONFLIGHT_FYRAKK_MINIEVENT] = { active = true, npcs = true, mapIDs = { 2023, 2024}, atlas = "Fyrakk-Head-Icon-Grey", text = AL["MAP_MENU_SHOW_FYRAKK_RARE_NPCS"] };
-	[RSConstants.WARWITHIN_RARES_WORLDSOUL_MINIEVENT] = { active = true, npcs = true, mapIDs = { 2248, 2214, 2215, 2255, 2213 }, atlas = "echoes-icon", text = AL["MAP_MENU_SHOW_WORLDSOUL_RARE_NPCS"] };
+	[RSConstants.WARWITHIN_RARES_WORLDSOUL_MINIEVENT] = { active = true, npcs = true, mapIDs = { 2248, 2214, 2215, 2255, 2213, 2346 }, atlas = "echoes-icon", text = AL["MAP_MENU_SHOW_WORLDSOUL_RARE_NPCS"] };
 	
 	[RSConstants.DRAGONFLIGHT_WARCRAFT_RUMBLE_MINIEVENT] = { active = true, containers = true, mapIDs = { 2025, 2024, 2023, 2022, 2199, 2112, 1, 84, 85 }, atlas = "Battlenet-ClientIcon-GRY", text = AL["MAP_MENU_SHOW_WARCRAFT_RUMBLE_CONTAINERS"] };
 	[RSConstants.DRAGONFLIGHT_DREAMSEED_MINIEVENT] = { active = true, containers = true, mapIDs = { 2200 }, atlas = "SeedPlanting-Full", text = AL["MAP_MENU_SHOW_DREAMSEED_CONTAINERS"] };
@@ -502,7 +502,7 @@ RSConstants.AZJ_KAHET1 = 2255
 RSConstants.AZJ_KAHET2 = 2256
 RSConstants.AZJ_KAHET3 = 2213
 RSConstants.AZJ_KAHET4 = 2216
-RSConstants.TWW_MAPS_WITHOUT_REP = { 2369, 2375, 2346 }
+RSConstants.TWW_MAPS_WITHOUT_REP = { 2369, 2375 }
 RSConstants.UNDERMINE = 2346
 RSConstants.RINGING_DEEPS = 2214
 

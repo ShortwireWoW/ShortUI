@@ -10,6 +10,11 @@ Prat3DB = {
 ["g"] = 0.7529412508010864,
 ["r"] = 1,
 },
+["general"] = {
+["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
+},
 ["trade"] = {
 ["b"] = 0.7529412508010864,
 ["g"] = 0.7529412508010864,
@@ -102,9 +107,11 @@ Prat3DB = {
 },
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
-["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
+["Shortlite - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",

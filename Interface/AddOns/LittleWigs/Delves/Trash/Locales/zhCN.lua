@@ -91,33 +91,16 @@ L = BigWigs:NewBossLocale("Underpin Rares", "zhCN")
 if L then
 	L.rares = "幽坑稀有"
 
-	L.hovering_menace = "悬浮灾厄"
+	L.treasure_wraith = "宝藏怨灵"
 	L.treasure_crab = "宝藏螃蟹"
+	L.hovering_menace = "悬浮灾厄"
 	L.malfunctioning_pummeler = "出故障的打击者"
 	L.underpins_adoring_fan = "幽坑太保的铁杆粉丝"
 	L.underpins_well_connected_friend = "幽坑太保的亲密好友"
 	L.underpins_explosive_ally = "幽坑太保的劲爆盟友"
 	L.underpins_bodyguards_intern = "幽坑太保的见习保镖"
 	L.aggressively_lost_hobgoblin = "凶狠的走失大地精"
-end
+	L.the_underpin = "幽坑太保（随机出现）"
 
-L = BigWigs:NewBossLocale("Zekvir Rares", "zhCN")
-if L then
-	L.rares = "稀有"
-
-	L.stolen_loader = "失窃的装货者"
-	L.invasive_sporecap = "入侵的孢菇"
-	L.reno_jackson = "雷诺·杰克逊"
-	L.sir_finley_mrgglton = "芬利·莫格顿爵士"
-	L.treasure_wraith = "宝藏怨灵"
-	L.venombite = "剧毒之咬"
-	L.kasdru = "卡斯德鲁"
-	L.tala = "塔拉"
-	L.velo = "威罗"
-	L.anubvir = "阿努布维尔"
-	L.zekvir = "泽克维尔"
-	L.zekvirs_influence = "泽克维尔的影响"
-	L.zekvir_random = "泽克维尔（随机出现）"
-	L.zekvir_breach = "泽克维尔来袭"
-	L.zekvir_breach_desc = "当泽克维尔在地下堡出现时显示警告。"
+	L.underpin_retreat_trigger = "总有人在我绝对合法的过户土地上瞎闹！"
 end

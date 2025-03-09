@@ -12,6 +12,10 @@ if L then
 
 	--L.bomb_explosion = "Bomb Explosion"
 	--L.bomb_explosion_desc = "Show a timer for the explosion off the bombs."
+
+	--L.eruption_stomp = "Stomp" -- Short for Eruption Stomp
+	--L.thunderdrum_salvo = "Salvo" -- Short for Thunderdrum Salvo
+	--L.voltaic_image = "Fixates" -- Multiple of Fixate
 end
 
 L = BigWigs:NewBossLocale("Rik Reverb", "deDE")
@@ -83,6 +87,7 @@ if L then
 	--L.scatterblast_canisters = "Cone Soak"
 	--L.fused_canisters = "Group Soaks"
 	--L.tick_tock_canisters = "Soaks"
+	--L.total_destruction = "DESTRUCTION!"
 
 	--L.duds = "Duds" -- Short for 1500-Pound "Dud"
 	--L.all_duds_detontated = "All Duds Detonated!"
