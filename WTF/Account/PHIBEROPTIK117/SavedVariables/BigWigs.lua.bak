@@ -1,60 +1,13 @@
 
 BigWigs3DB = {
-["profileKeys"] = {
-["Shortlite - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-},
 ["namespaces"] = {
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_Vexie and the Geargrinders"] = {
-},
-["BigWigs_Bosses_Underpin Rares"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Tomb-Raider Drywhisker"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Kobold Delve Trash"] = {
-},
-["BigWigs_Bosses_Chrome King Gallywix"] = {
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Cauldron of Carnage"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Plugins_Colors"] = {
-},
 ["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Plugins_InfoBox"] = {
-["profiles"] = {
-["Default"] = {
-["position"] = {
-nil,
-nil,
--481.1795959472656,
-78.97443389892578,
-},
-},
-},
-},
-["BigWigs_Plugins_Bars"] = {
 },
 ["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
 ["profiles"] = {
@@ -64,18 +17,51 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Plugins_InfoBox"] = {
+["profiles"] = {
+["Default"] = {
+["position"] = {
+"BOTTOMLEFT",
+"BOTTOMLEFT",
+484.2301635742188,
+70.82130432128906,
+},
+},
+},
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Bars"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
-},
-["LibDualSpec-1.0"] = {
-},
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
+},
+},
+["profileKeys"] = {
+["Shortlite - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
@@ -243,6 +229,24 @@ BigWigsStatsDB = {
 ["fkDuration"] = 207.4840000000113,
 },
 },
+[2601] = {
+["normal"] = {
+["kills"] = 7,
+["fkDate"] = "2025/01/07",
+["bestDate"] = "2025/02/14",
+["best"] = 119.4049999999988,
+["fkDuration"] = 145.1620000000003,
+},
+["heroic"] = {
+["kills"] = 4,
+["fkDate"] = "2025/01/11",
+["bestDate"] = "2025/02/11",
+["fkWipes"] = 2,
+["best"] = 203.3870000000024,
+["wipes"] = 9,
+["fkDuration"] = 265.625,
+},
+},
 [2608] = {
 ["heroic"] = {
 ["kills"] = 4,
@@ -270,24 +274,6 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/02/21",
 },
 },
-[2601] = {
-["normal"] = {
-["kills"] = 7,
-["fkDate"] = "2025/01/07",
-["bestDate"] = "2025/02/14",
-["best"] = 119.4049999999988,
-["fkDuration"] = 145.1620000000003,
-},
-["heroic"] = {
-["kills"] = 4,
-["fkDate"] = "2025/01/11",
-["bestDate"] = "2025/02/11",
-["fkWipes"] = 2,
-["best"] = 203.3870000000024,
-["wipes"] = 9,
-["fkDuration"] = 265.625,
-},
-},
 },
 [2769] = {
 [2644] = {
@@ -304,10 +290,10 @@ BigWigsStatsDB = {
 [2645] = {
 ["normal"] = {
 ["kills"] = 1,
-["bestDate"] = "2025/03/08",
-["best"] = 395.1199999999953,
-["fkWipes"] = 6,
 ["fkDate"] = "2025/03/08",
+["bestDate"] = "2025/03/08",
+["fkWipes"] = 6,
+["best"] = 395.1199999999953,
 ["wipes"] = 6,
 ["fkDuration"] = 395.1199999999953,
 },
@@ -322,10 +308,10 @@ BigWigsStatsDB = {
 },
 ["heroic"] = {
 ["kills"] = 1,
-["bestDate"] = "2025/03/08",
-["best"] = 506.5440000000235,
-["fkWipes"] = 1,
 ["fkDate"] = "2025/03/08",
+["bestDate"] = "2025/03/08",
+["fkWipes"] = 1,
+["best"] = 506.5440000000235,
 ["wipes"] = 1,
 ["fkDuration"] = 506.5440000000235,
 },
@@ -379,10 +365,10 @@ BigWigsStatsDB = {
 [2646] = {
 ["normal"] = {
 ["kills"] = 1,
-["bestDate"] = "2025/03/08",
-["best"] = 533.4320000000007,
-["fkWipes"] = 2,
 ["fkDate"] = "2025/03/08",
+["bestDate"] = "2025/03/08",
+["fkWipes"] = 2,
+["best"] = 533.4320000000007,
 ["wipes"] = 2,
 ["fkDuration"] = 533.4320000000007,
 },

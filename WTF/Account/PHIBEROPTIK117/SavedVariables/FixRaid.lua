@@ -10,26 +10,33 @@ FixRaidDB = {
 },
 },
 ["profileKeys"] = {
-["Shortbeef - Area 52"] = "Default",
-["Shortrouge - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
-["Shortbowjob - Dalaran"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 },
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Hewkii-Area52"] = 1741577667,
 },
 ["ranged"] = {
+["Pinksniff-Tichondrius"] = 1741566202,
+["Snackleader-Area52"] = 1741543634,
+["Törgel-Bladefist"] = 1741545305,
+["Jeffcorwin-Lightning'sBlade"] = 1741577667,
+["Facesmashaa-Nathrezim"] = 1741577658,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
 },
 ["ranged"] = {
+["Gremiki-Illidan"] = 1741575224,
 },
 },
 },
@@ -38,13 +45,6 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Uvaloran-Magtheridon"] = 1741367999,
-["Tumni-Skywall"] = 1741368010,
-["Heima-Proudmoore"] = 1741368010,
-["Mythalor-Hydraxis"] = 1741368059,
-["Driztette-Malygos"] = 1741368062,
-["Valeshaman-Mal'Ganis"] = 1741368075,
-["Monogh-Silvermoon"] = 1741368021,
 },
 },
 ["damagerRoleGuildCache"] = {

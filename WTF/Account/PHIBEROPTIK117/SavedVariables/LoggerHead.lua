@@ -109,8 +109,11 @@ false,
 ["Coilfang: The Underbog"] = {
 [24] = false,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
 ["Grim Batol"] = {
 [8] = true,
@@ -123,11 +126,8 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Priory of the Sacred Flame"] = {
 false,
@@ -165,16 +165,16 @@ false,
 ["The Waterworks"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Fungal Folly"] = {
+[208] = false,
 },
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Fungal Folly"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
-["Kriegval's Rest"] = {
+["Zekvir's Lair"] = {
 [208] = true,
 },
 ["Earthcrawl Mines"] = {
@@ -183,7 +183,7 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Zekvir's Lair"] = {
+["Kriegval's Rest"] = {
 [208] = true,
 },
 },

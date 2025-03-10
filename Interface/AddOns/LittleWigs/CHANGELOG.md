@@ -1,9 +1,12 @@
 # LittleWigs
 
-## [v11.1.10](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.10) (2025-03-08)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.9...v11.1.10) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.11](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.11) (2025-03-09)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.10...v11.1.11) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Delves/Trash/UnderpinRares: Fix Time Bomb Launcher event  
-- Delves/EarthcrawlMines/MaklinDrillstab: Firebolt target, timer updates  
-- Update zhCN (#1297)  
-- WarWithin/OperationFloodgate/Trash: Timer update  
+- WarWithin/OperationFloodgate/Swampface: Tweak  
+- BfA/TheMotherlode/Trash: Throttle Charged Shot and Deploy Crawler Mine  
+- WarWithin/OperationFloodgate: Swampface warmup  
+- WarWithin/OperationFloodgate/DemolitionDuo: Barreling Charge updates, timer updates  
+- Delves/Trash/Goblin: Flurry of Punches, Molotov Cocktail, Destroy  
+- Delves/SidestreetSluice/GoldElemental: Molotov Cocktail scoping  
+- Delves/Trash/UnderpinRares: Treasure Wraith initial timers  
