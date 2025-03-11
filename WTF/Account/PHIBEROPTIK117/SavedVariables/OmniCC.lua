@@ -1,9 +1,5 @@
 
 OmniCCDB = {
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.0.7",
-},
 ["profileKeys"] = {
 ["Shortscales - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
@@ -12,8 +8,8 @@ OmniCCDB = {
 ["Bighealnrg - Stormrage"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Raidmates - Tichondrius"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
 ["Souplight - Tichondrius"] = "Default",
@@ -24,17 +20,21 @@ OmniCCDB = {
 ["Stonesoup - Area 52"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Guildsigzzs - Stormrage"] = "Default",
 ["Shortirony - Illidan"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortrouge - Area 52"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Lildotnrg - Stormrage"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+},
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.0.7",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -80,9 +80,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 ["minutes"] = {
 },
@@ -90,9 +90,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 ["minutes"] = {
 },

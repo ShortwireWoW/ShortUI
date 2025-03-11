@@ -234,8 +234,25 @@ end
 -- @number encounterId The encounter id
 -- @within Enable triggers
 function boss:SetEncounterID(encounterId)
-	if type(encounterId) == "number" then
+	local encounterIdType = type(encounterId)
+	if encounterIdType == "number" then
 		self.engageId = encounterId
+	elseif encounterIdType == "table" then
+		self.extraEncounterIDs = {}
+		for i = 1, #encounterId do
+			local actualId = encounterId[i]
+			local actualIdType = type(actualId)
+			if actualIdType ~= "number" then
+				core:Error(("Module %q tried to set an invalid encounter ID at position #%d. Expected number, got %s."):format(self.moduleName, i, actualIdType))
+			elseif i > 1 then
+				self.extraEncounterIDs[actualId] = true
+				self.extraEncounterIDs[#self.extraEncounterIDs+1] = actualId
+			else
+				self.engageId = actualId
+			end
+		end
+	else
+		core:Error(("Module %q tried to set an invalid encounter ID. Expected number or table, got %s."):format(self.moduleName, encounterIdType))
 	end
 end
 
@@ -243,10 +260,19 @@ end
 -- @return number
 -- @within Enable triggers
 function boss:GetEncounterID()
-	local encounterId = self.engageId
-	if type(encounterId) == "number" then
-		return encounterId
+	if self.extraEncounterIDs then
+		return self.engageId, unpack(self.extraEncounterIDs)
+	else
+		return self.engageId
 	end
+end
+
+--- Check if a specific encounter ID is registered this module.
+-- @number encounterId A singular specific encounter ID
+-- @return boolean
+-- @within Enable triggers
+function boss:IsEncounterID(encounterId)
+	return encounterId == self.engageId or (self.extraEncounterIDs and self.extraEncounterIDs[encounterId])
 end
 
 --- Set the journal id used for this module. (As used by the dungeon journal)
@@ -1482,7 +1508,7 @@ do
 end
 
 function boss:EncounterEnd(_, id, name, diff, size, status)
-	if self:GetEncounterID() == id and self:IsEnabled() then
+	if self:IsEncounterID(id) and self:IsEnabled() then
 		if status == 1 then
 			if self:GetJournalID() or self:GetAllowWin() then
 				self:Win() -- Official boss module

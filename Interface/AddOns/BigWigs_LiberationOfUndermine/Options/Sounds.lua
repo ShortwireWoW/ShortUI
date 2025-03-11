@@ -56,9 +56,10 @@ BigWigs:AddSounds("Stix Bunkjunker", {
 	[466748] = "alarm",
 	[467117] = "long",
 	[467135] = "warning",
-	[472893] = "alarm",
+	[472893] = "warning",
+	[473119] = "alarm",
 	[1217954] = {"alarm","alert"},
-	[1217975] = "warning",
+	[1217975] = "alarm",
 	[1218704] = "alarm",
 	[1219384] = "alarm",
 })

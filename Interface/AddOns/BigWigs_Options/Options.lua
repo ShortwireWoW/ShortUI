@@ -1074,24 +1074,24 @@ local function populateToggleOptions(widget, module)
 	scrollFrame:PauseLayout()
 
 	-- Add a small text label to the top right displaying the boss encounter ID
-	if module:GetEncounterID() then
+	local encounterId, multiple = module:GetEncounterID()
+	if encounterId then
 		local idLabel = AceGUI:Create("Label")
-		idLabel.label:SetFormattedText(L.optionsKey, module:GetEncounterID())
+		idLabel.label:SetFormattedText(L.optionsKey, multiple and module:TableToString({module:GetEncounterID()}) or encounterId)
 		idLabel:SetColor(0.65, 0.65, 0.65)
 		idLabel:SetFullWidth(true)
 		idLabel.label:SetJustifyH("RIGHT")
 		scrollFrame:AddChild(idLabel)
 	end
 
-	local id = module.instanceId
-
 	local sDB = BigWigsStatsDB
 	local journalId = module:GetJournalID()
-	if not journalId and module:GetAllowWin() and module:GetEncounterID() then
-		journalId =  -(module:GetEncounterID()) -- Fallback to show stats for modules with no journal ID, but set to allow win
+	if not journalId and module:GetAllowWin() and encounterId then
+		journalId = -(encounterId) -- Fallback to show stats for modules with no journal ID, but set to allow win
 	end
-	if journalId and id and id > 0 and sDB and sDB[id] and sDB[id][journalId] then
-		sDB = sDB[id][journalId]
+	local instanceId = type(module.instanceId) == "table" and module.instanceId[1] or module.instanceId
+	if journalId and instanceId and instanceId > 0 and sDB and sDB[instanceId] and sDB[instanceId][journalId] then
+		sDB = sDB[instanceId][journalId]
 
 		if next(sDB) then -- Create statistics table
 			local statGroup = AceGUI:Create("InlineGroup")
@@ -1275,12 +1275,12 @@ function showToggleOptions(widget, event, group, noScrollReset)
 	end
 end
 
-local function onZoneShow(treeWidget, id)
+local function onZoneShow(treeWidget, instanceIdOrMapId)
 	-- Make sure all the bosses for this zone are loaded.
-	loader:LoadZone(id)
+	loader:LoadZone(instanceIdOrMapId)
 
 	-- Grab the module list from this zone
-	local moduleList = loader:GetZoneMenus()[id]
+	local moduleList = loader:GetZoneMenus()[instanceIdOrMapId]
 	if type(moduleList) ~= "table" then return end -- No modules registered
 
 	local zoneList, zoneSort, privateAuraSoundOptions = {}, {}, nil
@@ -1313,7 +1313,7 @@ local function onZoneShow(treeWidget, id)
 	innerContainer:SetTitle(L.selectEncounter)
 	innerContainer:SetLayout("Flow")
 	innerContainer:SetCallback("OnGroupSelected", showToggleOptions)
-	innerContainer:SetUserData("zone", id)
+	innerContainer:SetUserData("zone", instanceIdOrMapId)
 	innerContainer:SetUserData("moduleList", moduleList)
 	innerContainer:SetUserData("privateAuraSoundOptions", privateAuraSoundOptions)
 	innerContainer:SetGroupList(zoneList, zoneSort)
@@ -1408,10 +1408,10 @@ do
 	local function onTreeGroupSelected(widget, event, value)
 		visibleSpellDescriptionWidgets = {}
 		widget:ReleaseChildren()
-		local zoneId = value:match("\001(-?%d+)$")
+		local instanceIdOrMapId = value:match("\001(-?%d+)$")
 		local bigwigsContent = value:match("(BigWigs_%a+)$")
-		if zoneId then
-			onZoneShow(widget, tonumber(zoneId))
+		if instanceIdOrMapId then
+			onZoneShow(widget, tonumber(instanceIdOrMapId))
 		elseif bigwigsContent and not loader.currentExpansion.bigWigsBundled[value] then -- Any BigWigs content except bundled expansion headers
 			local addonState = loader:GetAddOnState(bigwigsContent)
 			local string = addonState == "MISSING" and L.missingAddOnPopup or addonState == "DISABLED" and L.disabledAddOn

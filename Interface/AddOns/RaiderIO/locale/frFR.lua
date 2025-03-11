@@ -117,8 +117,7 @@ L["DUNGEON_SHORT_NAME_PSF"] = "PdlFs"
 L["DUNGEON_SHORT_NAME_RISE"] = "AdIcdM"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_RLP"] = ""--]] 
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ROOK"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ROOK"] = "Colonie"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_SBG"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SD"] = "PS"
@@ -307,42 +306,24 @@ L["RAID_BOSS_CN_6"] = "Dame Inerva Sombreveine"
 L["RAID_BOSS_CN_7"] = "Le Conseil du Sang"
 L["RAID_BOSS_CN_8"] = "Fangepoing"
 L["RAID_BOSS_CN_9"] = "Généraux de la Légion de Pierre"
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FCN_9"] = ""--]] 
+L["RAID_BOSS_DS_1"] = "Morchok"
+L["RAID_BOSS_DS_2"] = "Seigneur de guerre Zon’ozz"
+L["RAID_BOSS_DS_3"] = "Yor’sahj l’Insomniaque"
+L["RAID_BOSS_DS_4"] = "Hagara la Lieuse des tempêtes"
+L["RAID_BOSS_DS_5"] = "Ultraxion"
+L["RAID_BOSS_DS_6"] = "Maître de guerre Corne-Noire"
+L["RAID_BOSS_DS_7"] = "Échine d'Aile de mort"
+L["RAID_BOSS_DS_8"] = "Folie d'Aile de mort"
+L["RAID_BOSS_FCN_1"] = "Hurlaile"
+L["RAID_BOSS_FCN_10"] = "Sire Denathrius"
+L["RAID_BOSS_FCN_2"] = "Altimor le Veneur"
+L["RAID_BOSS_FCN_3"] = "Salut du roi-soleil"
+L["RAID_BOSS_FCN_4"] = "Artificier Xy’mox"
+L["RAID_BOSS_FCN_5"] = "Destructeur affamé"
+L["RAID_BOSS_FCN_6"] = "Dame Inerva Sombreveine"
+L["RAID_BOSS_FCN_7"] = "Le conseil du Sang"
+L["RAID_BOSS_FCN_8"] = "Fangepoing"
+L["RAID_BOSS_FCN_9"] = "Généraux de la Légion de pierre"
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_FL_1"] = ""--]] 
 --[[Translation missing --]]

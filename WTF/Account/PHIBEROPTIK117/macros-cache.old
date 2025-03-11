@@ -25,6 +25,7 @@ VER 3 0000000000000037 "Mount" "134400"
 /stopmacro [flying]
 /cast Renewed Proto-Drake
 /cast [flyable] Invincible; Grand Expedition Yak
+/cast [zone:Undermine] G-99 Breakneck
 /dismount
 END
 VER 3 000000000000005B "Potions" "134400"

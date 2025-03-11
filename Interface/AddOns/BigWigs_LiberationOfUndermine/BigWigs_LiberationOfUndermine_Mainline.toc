@@ -12,7 +12,7 @@
 ## Title-zhCN: BigWigs [|cffeda55f解放安德麦|r]
 ## Title-zhTW: BigWigs [|cffeda55f解放幽坑城|r]
 ## Notes: BigWigs Liberation of Undermine Modules
-## Notes-deDE: BigWigs Liberation of Undermine Module
+## Notes-deDE: BigWigs Befreiung von Lorenhall Module
 ## Notes-esES: BigWigs Liberation of Undermine Modules
 ## Notes-esMX: BigWigs Liberation of Undermine Modules
 ## Notes-frFR: BigWigs Liberation of Undermine Modules
@@ -23,7 +23,7 @@
 ## Notes-zhCN: BigWigs 解放安德麦模块
 ## Notes-zhTW: BigWigs 解放幽坑城模組
 ## IconTexture: Interface\AddOns\BigWigs\Media\Icons\minimap_raid.tga
-## Version: v374
+## Version: v375.1
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs

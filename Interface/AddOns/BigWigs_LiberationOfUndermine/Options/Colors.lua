@@ -62,6 +62,7 @@ BigWigs:AddColors("Stix Bunkjunker", {
 	[467117] = "cyan",
 	[467135] = "red",
 	[472893] = "blue",
+	[473119] = "red",
 	[1217954] = {"blue","purple"},
 	[1217975] = "red",
 	[1218704] = {"blue","cyan"},
