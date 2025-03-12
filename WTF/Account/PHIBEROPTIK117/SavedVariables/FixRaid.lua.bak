@@ -22,20 +22,28 @@ FixRaidDB = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Kazulmogar-Illidan"] = 1741654011,
+["Rahtarr-Illidan"] = 1741709788,
+["Anstrinwrath-Area52"] = 1741711595,
 ["Soupshammich-Bloodhoof"] = 1741654013,
-["Hewkii-Area52"] = 1741577667,
+["Kazulmogar-Illidan"] = 1741654011,
 },
 ["ranged"] = {
+["Hotsoupboii-Area52"] = 1741709570,
+["Benishow-Azralon"] = 1741711381,
 ["Ebondooky-Illidan"] = 1741654028,
-["Törgel-Bladefist"] = 1741545305,
+["Jmanthedrake-Area52"] = 1741711418,
+["Whatisadruid-Tichondrius"] = 1741710292,
 ["Qnevoker-Illidan"] = 1741654584,
 ["Saltt-Illidan"] = 1741655129,
-["Facesmashaa-Nathrezim"] = 1741577658,
-["Pinksniff-Tichondrius"] = 1741566202,
-["Snackleader-Area52"] = 1741543634,
+["Shamânoodles-Area52"] = 1741711830,
+["Reptir-BleedingHollow"] = 1741709571,
+["Yahyel-EmeraldDream"] = 1741709613,
+["Zaldaar-Thrall"] = 1741711477,
+["Shamrocc-Hakkar"] = 1741711425,
+["Airieth-BleedingHollow"] = 1741709606,
+["Maaljinn-Area52"] = 1741711397,
 ["Skartotems-Tichondrius"] = 1741642003,
-["Jeffcorwin-Lightning'sBlade"] = 1741577667,
+["Ideezz-Area52"] = 1741728990,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -49,8 +57,24 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Akhlyss-Kel'Thuzad"] = 1741717884,
 },
 ["ranged"] = {
+["Arctreon-Sargeras"] = 1741714970,
+["Flitlockz-Tichondrius"] = 1741717842,
+["Breåkar-Dalaran"] = 1741716295,
+["Folin-Azgalor"] = 1741718349,
+["Burthandsome-Thrall"] = 1741717883,
+["Remë-Thrall"] = 1741714981,
+["Stickybranch-Sargeras"] = 1741716329,
+["Sacrèd-Frostmourne"] = 1741718347,
+["Creamhunts-Stormrage"] = 1741716300,
+["Larxie-Turalyon"] = 1741715046,
+["Asharri-Dalaran"] = 1741715044,
+["Jordstá-Frostmourne"] = 1741717925,
+["Dalussi-Frostmourne"] = 1741718386,
+["Tetsuu-Frostmourne"] = 1741717927,
+["Augmentedtit-Illidan"] = 1741715057,
 },
 },
 ["damagerRoleGuildCache"] = {

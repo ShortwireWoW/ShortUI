@@ -70,6 +70,9 @@ false,
 ["Hellfire Citadel: The Blood Furnace"] = {
 [24] = false,
 },
+["Stormstout Brewery"] = {
+[24] = false,
+},
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
@@ -102,9 +105,18 @@ false,
 ["Throne of the Tides"] = {
 [24] = false,
 },
+["Scholomance"] = {
+[24] = false,
+},
 ["Deadmines"] = {
 [24] = false,
 [2] = false,
+},
+["Mogu'shan Palace"] = {
+[24] = false,
+},
+["Temple of the Jade Serpent"] = {
+[24] = false,
 },
 ["The Rookery"] = {
 false,
@@ -116,8 +128,8 @@ false,
 [8] = true,
 [23] = true,
 },
-["Gundrak"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
 ["Ara-Kara, City of Echoes"] = {
 false,
@@ -134,8 +146,8 @@ false,
 ["Priory of the Sacred Flame"] = {
 false,
 },
-["Halls of Stone"] = {
-[2] = false,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -146,6 +158,12 @@ false,
 [8] = true,
 [23] = true,
 },
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
+["Gundrak"] = {
+[24] = false,
+},
 ["Utgarde Keep"] = {
 [24] = false,
 },
@@ -153,12 +171,6 @@ false,
 [8] = true,
 [2] = false,
 [23] = true,
-},
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
-["Coilfang: The Underbog"] = {
-[24] = false,
 },
 },
 ["scenario"] = {

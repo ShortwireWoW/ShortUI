@@ -761,7 +761,6 @@ local function UpdateNotCollectedAppearanceItemIDs(routines, routineTextOutput)
 							context.counter = 0
 						end
 						if (visualsList[j] and not visualsList[j].isCollected) then
-							local previousVisualID
 							for classID = 1, GetNumClasses() do
 								local sources = C_TransmogCollection.GetValidAppearanceSourcesForClass(visualsList[j].visualID, classID, context.arguments[1], context.arguments[2]);
 								if (sources) then
@@ -777,10 +776,9 @@ local function UpdateNotCollectedAppearanceItemIDs(routines, routineTextOutput)
 									if (not collected) then
 										for k = 1, #sources do
 											if (sources[k].sourceType == 1 or sources[k].sourceType == 4) then --Boss Drop/World drop
-												if (not previousVisualID or previousVisualID ~= sources[k].visualID) then
+												if (not GetAppearanceItemIDs(sources[k].visualID) or not RSUtils.Contains(GetAppearanceItemIDs(sources[k].visualID), sources[k].itemID)) then
 													context.counter = context.counter + 1
 													AddAppearanceItemID(sources[k].visualID, sources[k].itemID)
-													previousVisualID = sources[k].visualID
 												end
 												
 												AddAppearanceClassItemID(classID, sources[k].itemID)
@@ -900,10 +898,10 @@ function RSCollectionsDB.RemoveNotCollectedAppearance(appearanceID, callback) --
 						for i = #lootList, 1, -1 do
 							if (RSUtils.Contains(GetAppearanceItemIDs(appearanceID), lootList[i])) then
 								if (table.getn(lootList) == 1) then
-									RSLogger:PrintDebugMessage(string.format("RemoveNotCollectedAppearance[%s]: Eliminado coleccionable de la lista de la entidad [%s]. No tiene mas apariencias.", appearanceID, entityID))
+									RSLogger:PrintDebugMessage(string.format("RemoveNotCollectedAppearance[%s]: Eliminado coleccionable [%s] de la lista de la entidad [%s]. No tiene mas apariencias.", appearanceID, lootList[i], entityID))
 									RSCollectionsDB.GetAllEntitiesCollectionsLoot()[source][entityID][RSConstants.ITEM_TYPE.APPEARANCE] = nil
 								else
-									RSLogger:PrintDebugMessage(string.format("RemoveNotCollectedAppearance[%s]: Eliminado coleccionable de la lista de la entidad [%s].", appearanceID, entityID))
+									RSLogger:PrintDebugMessage(string.format("RemoveNotCollectedAppearance[%s]: Eliminado coleccionable [%s] de la lista de la entidad [%s].", appearanceID, lootList[i], entityID))
 									table.remove(lootList, i)
 								end
 								
@@ -928,8 +926,6 @@ function RSCollectionsDB.RemoveNotCollectedAppearance(appearanceID, callback) --
 										end
 									end
 								end
-								
-								break
 							end
 						end
 					end

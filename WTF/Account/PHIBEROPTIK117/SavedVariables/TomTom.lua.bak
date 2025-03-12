@@ -85,39 +85,6 @@ TomTomWaypointsM = {
 ["Loveachieve - Mal'Ganis"] = {
 },
 ["Shortbowjob - Area 52"] = {
-[371] = {
-["371:286000000:140000000:Nostwin"] = {
-371,
-0.286,
-0.14,
-["arrivaldistance"] = 15,
-["crazy"] = true,
-["persistent"] = true,
-["desc"] = "Nostwin",
-["silent"] = true,
-["cleardistance"] = 10,
-["title"] = "Nostwin",
-["from"] = "TomTom/way",
-["callbacks"] = {
-["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
-},
-["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
-},
-["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
-},
-},
-["minimap"] = true,
-["world"] = true,
-},
-},
 },
 ["Shortybear - Area 52"] = {
 },

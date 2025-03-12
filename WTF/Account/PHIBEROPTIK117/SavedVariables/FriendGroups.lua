@@ -18,8 +18,8 @@ FriendGroups_SavedVars = {
 ["collapsed"] = {
 ["LunarEffect"] = false,
 ["[No Group]"] = false,
-["Incoherent Screaming"] = false,
-["Pirate Idiots"] = true,
+["Incoherent Screaming"] = true,
+["Pirate Idiots"] = false,
 },
 ["sort_by_status"] = false,
 }

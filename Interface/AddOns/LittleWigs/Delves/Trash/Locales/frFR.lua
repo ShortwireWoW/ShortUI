@@ -46,6 +46,7 @@ if L then
 	L.wandering_gutter = "Éventreur errant"
 	L.crazed_predator = "Prédateur fou"
 	L.deepwater_makura = "Makrura eaux-profondes"
+	L.kobyss_trickster = "Entourloupeur kobyss"
 end
 
 L = BigWigs:NewBossLocale("Nerubian Delve Trash", "frFR")
@@ -80,6 +81,7 @@ if L then
 	--L.hideous_amalgamation = "Hideous Amalgamation"
 	--L.coagulated_mass = "Coagulated Mass"
 	--L.silent_slitherer = "Silent Slitherer"
+	L.amalgamized_mass = "Masse amalgamée"
 end
 
 L = BigWigs:NewBossLocale("The Underkeep Trash", "frFR")

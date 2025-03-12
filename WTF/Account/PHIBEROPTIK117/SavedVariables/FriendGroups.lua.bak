@@ -19,7 +19,7 @@ FriendGroups_SavedVars = {
 ["LunarEffect"] = false,
 ["[No Group]"] = false,
 ["Incoherent Screaming"] = false,
-["Pirate Idiots"] = true,
+["Pirate Idiots"] = false,
 },
 ["hide_afk"] = false,
 }

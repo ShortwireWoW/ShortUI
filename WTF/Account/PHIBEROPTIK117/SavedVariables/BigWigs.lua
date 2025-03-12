@@ -5,19 +5,15 @@ BigWigs3DB = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Plugins_Pull"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
 ["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
+["BigWigs_Bosses_Cauldron of Carnage"] = {
+},
+["BigWigs_Bosses_Orta, the Broken Mountain"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
@@ -47,9 +43,21 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Plugins_Countdown"] = {
+["BigWigs_Bosses_The Gobfather"] = {
+},
+["BigWigs_Bosses_Awakening the Machine"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
@@ -328,10 +336,10 @@ BigWigsStatsDB = {
 ["wipes"] = 1,
 },
 ["LFR"] = {
-["kills"] = 6,
+["kills"] = 8,
 ["fkDate"] = "2025/03/04",
-["bestDate"] = "2025/03/06",
-["best"] = 219.7850000000035,
+["bestDate"] = "2025/03/11",
+["best"] = 160.4170000000013,
 ["wipes"] = 1,
 ["fkDuration"] = 231.2849999999889,
 },
@@ -347,10 +355,10 @@ BigWigsStatsDB = {
 ["fkDuration"] = 376.7669999999998,
 },
 ["LFR"] = {
-["kills"] = 4,
+["kills"] = 6,
 ["fkDate"] = "2025/03/05",
-["bestDate"] = "2025/03/06",
-["best"] = 335.5799999999872,
+["bestDate"] = "2025/03/11",
+["best"] = 202.1230000000069,
 ["fkDuration"] = 527.7169999999987,
 },
 },
@@ -361,6 +369,13 @@ BigWigsStatsDB = {
 ["best"] = 386.8099999999977,
 ["bestDate"] = "2025/03/07",
 ["fkDate"] = "2025/03/07",
+},
+["LFR"] = {
+["kills"] = 2,
+["fkDuration"] = 250.2229999999981,
+["best"] = 241.5439999999944,
+["bestDate"] = "2025/03/11",
+["fkDate"] = "2025/03/11",
 },
 },
 [2646] = {
@@ -373,6 +388,13 @@ BigWigsStatsDB = {
 ["wipes"] = 2,
 ["fkDuration"] = 533.4320000000007,
 },
+["story"] = {
+["kills"] = 1,
+["fkDuration"] = 377.0910000000004,
+["best"] = 377.0910000000004,
+["bestDate"] = "2025/03/11",
+["fkDate"] = "2025/03/11",
+},
 },
 [2653] = {
 ["normal"] = {
@@ -381,6 +403,13 @@ BigWigsStatsDB = {
 ["best"] = 346.8660000000018,
 ["bestDate"] = "2025/03/07",
 ["fkDate"] = "2025/03/07",
+},
+["LFR"] = {
+["kills"] = 2,
+["fkDuration"] = 212.2019999999902,
+["best"] = 194.627999999997,
+["bestDate"] = "2025/03/11",
+["fkDate"] = "2025/03/11",
 },
 },
 },

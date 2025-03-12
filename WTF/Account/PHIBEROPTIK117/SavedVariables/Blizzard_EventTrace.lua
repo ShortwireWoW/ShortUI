@@ -15,13 +15,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "ACTIONBAR_UPDATE_STATE",
-["displayEvent"] = "ACTIONBAR_UPDATE_STATE",
-},
-{
-["enabled"] = true,
-["event"] = "ACTION_RANGE_CHECK_UPDATE",
-["displayEvent"] = "ACTION_RANGE_CHECK_UPDATE",
+["event"] = "BAG_UPDATE",
+["displayEvent"] = "BAG_UPDATE",
 },
 {
 ["enabled"] = true,
@@ -30,8 +25,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "COMBAT_LOG_EVENT_UNFILTERED",
-["displayEvent"] = "COMBAT_LOG_EVENT_UNFILTERED",
+["event"] = "CHARACTERFRAME.SHOW",
+["displayEvent"] = "CharacterFrame.Show |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CHAT_MSG_ADDON",
+["displayEvent"] = "CHAT_MSG_ADDON",
 },
 {
 ["enabled"] = true,
@@ -40,23 +40,38 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "CONSOLE_MESSAGE",
+["displayEvent"] = "CONSOLE_MESSAGE",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.ONSHOWTOKENWATCHER",
+["displayEvent"] = "ContainerFrame.OnShowTokenWatcher |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.OPENALLBAGS",
+["displayEvent"] = "ContainerFrame.OpenAllBags |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "CONTAINERFRAME.OPENBAG",
+["displayEvent"] = "ContainerFrame.OpenBag |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
 ["event"] = "CRITERIA_UPDATE",
 ["displayEvent"] = "CRITERIA_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "CURRENT_SPELL_CAST_CHANGED",
-["displayEvent"] = "CURRENT_SPELL_CAST_CHANGED",
-},
-{
-["enabled"] = true,
 ["event"] = "CURSOR_CHANGED",
-["displayEvent"] = "CURSOR_CHANGED",
+["displayEvent"] = "CURSOR_CHANGED |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
 ["event"] = "GLOBAL_MOUSE_DOWN",
-["displayEvent"] = "GLOBAL_MOUSE_DOWN",
+["displayEvent"] = "GLOBAL_MOUSE_DOWN |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -65,23 +80,78 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "MASTERY_UPDATE",
-["displayEvent"] = "MASTERY_UPDATE",
+["event"] = "GUILD_NEWS_UPDATE",
+["displayEvent"] = "GUILD_NEWS_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "NAME_PLATE_UNIT_ADDED",
-["displayEvent"] = "NAME_PLATE_UNIT_ADDED",
+["event"] = "GUILD_RANKS_UPDATE",
+["displayEvent"] = "GUILD_RANKS_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "NAME_PLATE_UNIT_REMOVED",
-["displayEvent"] = "NAME_PLATE_UNIT_REMOVED",
+["event"] = "GUILD_ROSTER_UPDATE",
+["displayEvent"] = "GUILD_ROSTER_UPDATE",
 },
 {
 ["enabled"] = true,
-["event"] = "PLAYER_DAMAGE_DONE_MODS",
-["displayEvent"] = "PLAYER_DAMAGE_DONE_MODS",
+["event"] = "GUILD_TRADESKILL_UPDATE",
+["displayEvent"] = "GUILD_TRADESKILL_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "INSPECT_HONOR_UPDATE",
+["displayEvent"] = "INSPECT_HONOR_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "INSPECT_READY",
+["displayEvent"] = "INSPECT_READY",
+},
+{
+["enabled"] = true,
+["event"] = "ITEMBUTTON.UPDATEITEMCONTEXTMATCHING",
+["displayEvent"] = "ItemButton.UpdateItemContextMatching |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "ITEM_DATA_LOAD_RESULT",
+["displayEvent"] = "ITEM_DATA_LOAD_RESULT",
+},
+{
+["enabled"] = true,
+["event"] = "MODELSCENE.TRANSITIONTOMODELSCENEID",
+["displayEvent"] = "ModelScene.TransitionToModelSceneID |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "MODIFIER_STATE_CHANGED",
+["displayEvent"] = "MODIFIER_STATE_CHANGED",
+},
+{
+["enabled"] = true,
+["event"] = "MOUNT_JOURNAL_USABILITY_CHANGED",
+["displayEvent"] = "MOUNT_JOURNAL_USABILITY_CHANGED",
+},
+{
+["enabled"] = true,
+["event"] = "PET_BAR_UPDATE_COOLDOWN",
+["displayEvent"] = "PET_BAR_UPDATE_COOLDOWN",
+},
+{
+["enabled"] = true,
+["event"] = "PET_SPELL_POWER_UPDATE",
+["displayEvent"] = "PET_SPELL_POWER_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYER_AVG_ITEM_LEVEL_UPDATE",
+["displayEvent"] = "PLAYER_AVG_ITEM_LEVEL_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYER_EQUIPED_SPELLS_CHANGED",
+["displayEvent"] = "PLAYER_EQUIPED_SPELLS_CHANGED",
 },
 {
 ["enabled"] = true,
@@ -115,8 +185,23 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_POWER_CHANGED",
-["displayEvent"] = "SPELL_POWER_CHANGED",
+["event"] = "PLUNDERSTORMQUEUETUTORIAL.UPDATE",
+["displayEvent"] = "PlunderstormQueueTutorial.Update |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "SOCIAL_QUEUE_UPDATE",
+["displayEvent"] = "SOCIAL_QUEUE_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "SPELLS_CHANGED",
+["displayEvent"] = "SPELLS_CHANGED",
+},
+{
+["enabled"] = true,
+["event"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
+["displayEvent"] = "SPELL_ACTIVATION_OVERLAY_HIDE",
 },
 {
 ["enabled"] = true,
@@ -125,8 +210,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "SPELL_UPDATE_USABLE",
-["displayEvent"] = "SPELL_UPDATE_USABLE",
+["event"] = "SPELL_UPDATE_ICON",
+["displayEvent"] = "SPELL_UPDATE_ICON",
+},
+{
+["enabled"] = true,
+["event"] = "TOOLTIP_DATA_UPDATE",
+["displayEvent"] = "TOOLTIP_DATA_UPDATE",
 },
 {
 ["enabled"] = true,
@@ -135,8 +225,13 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_AURA",
-["displayEvent"] = "UNIT_AURA",
+["event"] = "UNIT_ATTACK_POWER",
+["displayEvent"] = "UNIT_ATTACK_POWER",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_ATTACK_SPEED",
+["displayEvent"] = "UNIT_ATTACK_SPEED",
 },
 {
 ["enabled"] = true,
@@ -145,23 +240,33 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "UNIT_HEALTH",
+["displayEvent"] = "UNIT_HEALTH",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_MAXHEALTH",
+["displayEvent"] = "UNIT_MAXHEALTH",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_PORTRAIT_UPDATE",
+["displayEvent"] = "UNIT_PORTRAIT_UPDATE",
+},
+{
+["enabled"] = true,
 ["event"] = "UNIT_RANGEDDAMAGE",
 ["displayEvent"] = "UNIT_RANGEDDAMAGE",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_FAILED",
-["displayEvent"] = "UNIT_SPELLCAST_FAILED",
+["event"] = "UNIT_RANGED_ATTACK_POWER",
+["displayEvent"] = "UNIT_RANGED_ATTACK_POWER",
 },
 {
 ["enabled"] = true,
-["event"] = "UNIT_SPELLCAST_FAILED_QUIET",
-["displayEvent"] = "UNIT_SPELLCAST_FAILED_QUIET",
-},
-{
-["enabled"] = true,
-["event"] = "UNIT_SPELL_HASTE",
-["displayEvent"] = "UNIT_SPELL_HASTE",
+["event"] = "UNIT_RESISTANCES",
+["displayEvent"] = "UNIT_RESISTANCES",
 },
 {
 ["enabled"] = true,
