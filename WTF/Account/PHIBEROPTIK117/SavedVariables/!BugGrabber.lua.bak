@@ -1,15 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 653,
+["session"] = 665,
 ["errors"] = {
-{
-["message"] = "Lua error in aura 'Lunar Effect - Tier Reporter': Trigger 2\nWeakAuras Version: 5.19.4\nStack trace:\n[string \"return function(event, ...)\"]:6: bad argument #1 to 'ipairs' (table expected, got nil)",
-["time"] = "2025/03/11 19:44:22",
-["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
-["stack"] = "[C]: in function 'ipairs'\n[return function(event, ...)]:6: in function 'updateTier'\n[return function(event, ...)]:17: in function <[string \"return function(event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'ScanEvents'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1192: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1180>",
-["session"] = 653,
-["counter"] = 1,
-},
 },
 }

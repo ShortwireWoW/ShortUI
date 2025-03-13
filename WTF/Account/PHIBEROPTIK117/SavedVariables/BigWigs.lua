@@ -3,19 +3,27 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
+["BigWigs_Bosses_Underpin Rares"] = {
+},
 ["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
+["BigWigs_Plugins_AutoReply"] = {
+},
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Cauldron of Carnage"] = {
+["BigWigs_Bosses_Kobold Delve Trash"] = {
 },
-["BigWigs_Bosses_Orta, the Broken Mountain"] = {
+["BigWigs_Bosses_Spinshroom"] = {
+},
+["BigWigs_Bosses_Fungarian Delve Trash"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -43,23 +51,17 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_The Gobfather"] = {
-},
-["BigWigs_Bosses_Awakening the Machine"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Bosses_Waxface"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
 },
 },
 ["profileKeys"] = {
@@ -336,7 +338,7 @@ BigWigsStatsDB = {
 ["wipes"] = 1,
 },
 ["LFR"] = {
-["kills"] = 8,
+["kills"] = 9,
 ["fkDate"] = "2025/03/04",
 ["bestDate"] = "2025/03/11",
 ["best"] = 160.4170000000013,
@@ -355,7 +357,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 376.7669999999998,
 },
 ["LFR"] = {
-["kills"] = 6,
+["kills"] = 7,
 ["fkDate"] = "2025/03/05",
 ["bestDate"] = "2025/03/11",
 ["best"] = 202.1230000000069,

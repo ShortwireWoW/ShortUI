@@ -161,16 +161,16 @@ false,
 ["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
+["Grim Batol"] = {
+[8] = true,
+[2] = false,
+[23] = true,
+},
 ["Gundrak"] = {
 [24] = false,
 },
 ["Utgarde Keep"] = {
 [24] = false,
-},
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
 },
 },
 ["scenario"] = {
@@ -183,8 +183,17 @@ false,
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
+["Sidestreet Sluice"] = {
+[208] = false,
+},
+["Demolition Dome"] = {
+[208] = true,
+},
 ["Tak-Rethan Abyss"] = {
 [208] = true,
+},
+["Fungal Folly"] = {
+[208] = false,
 },
 ["The Dread Pit"] = {
 [208] = true,
@@ -192,13 +201,13 @@ false,
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["Excavation Site 9"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,
 },
-["Fungal Folly"] = {
+["Excavation Site 9"] = {
 [208] = false,
 },
 },

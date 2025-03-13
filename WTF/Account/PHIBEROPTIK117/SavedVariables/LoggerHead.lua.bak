@@ -112,6 +112,12 @@ false,
 [24] = false,
 [2] = false,
 },
+["Utgarde Keep"] = {
+[24] = false,
+},
+["Gundrak"] = {
+[24] = false,
+},
 ["Coilfang: The Underbog"] = {
 [24] = false,
 },
@@ -125,12 +131,6 @@ false,
 [8] = true,
 [2] = false,
 [23] = true,
-},
-["Utgarde Keep"] = {
-[24] = false,
-},
-["Gundrak"] = {
-[24] = false,
 },
 ["Ara-Kara, City of Echoes"] = {
 false,
@@ -182,6 +182,15 @@ false,
 },
 ["Earthcrawl Mines"] = {
 [208] = true,
+},
+["Sidestreet Sluice"] = {
+[208] = false,
+},
+["Demolition Dome"] = {
+[208] = true,
+},
+["Nightfall Sanctum"] = {
+[208] = false,
 },
 ["Excavation Site 9"] = {
 [208] = false,

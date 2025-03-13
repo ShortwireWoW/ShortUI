@@ -1,548 +1,9 @@
 
 Blizzard_Console_SavedVars = {
 ["version"] = 3,
+["height"] = 299.9999389648438,
 ["messageHistory"] = {
 {
-"Time set to 3/9/2025 (Sun) 20:09",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Disconnecting for reason 12",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/9/2025 (Sun) 20:12",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2091.59, -2454.33, 739.533)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2601",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2042, -2456.37, 741.571)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2601",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"[Airlock] Received Cancel Preload for MapID 2601, but we have not preloaded it. Current preloaded map: -1",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2466.8, -2315.44, 1041.61)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"[Airlock] Loading new map 2601 from previous map 2552 with translation: (0.340088, 0.820068, 1131.33)\n    Location : (2263.09, -2255.74, 548.854)\n    Location in previous map : (2262.75, -2256.56, -582.479)",
-0,
-},
-{
-"[Airlock] Swapping to preloaded map 2601 and unloading map 2552. (Map Table Size 960 larger than budget 8)",
-0,
-},
-{
-"[Airlock] Finished transition to new map 2601",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2263.69, -2253.8, -583.307)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2552",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2552",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2464.37, -2301.19, 1029.11)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2601",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2262.34, -2240.17, -553.144)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2552",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2552",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 1",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
 "Sunshafts quality changed to 0",
 0,
 },
@@ -751,10 +212,6 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Got new connection 2",
-0,
-},
-{
 "[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
 0,
 },
@@ -823,795 +280,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/10/2025 (Mon) 7:40",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.167230\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 5, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 5, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2464.35, -2298.25, 1057.54)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2601",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2262.34, -2240.17, -553.144)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2552",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2552",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 1",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 0",
-0,
-},
-{
-"Refraction mode changed to 0",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"Particulate volumes disabled.",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter intensity value set",
-0,
-},
-{
-"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
-0,
-},
-{
-"Shadow texture size changed to 1024.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 0",
-0,
-},
-{
-"Number of shadow cascades changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading disabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 0",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"Depth Based Opacity Disabled",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Outline mode changed to 2",
-0,
-},
-{
-"Physics interaction level changed to 1",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/10/2025 (Mon) 13:34",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"GameTimeSync: skipping forwards 2 game minutes, (current = 3/10/2025 (Mon) 14:04, newtime = 3/10/2025 (Mon) 14:06)",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"GameTimeSync: delta=0, differential=1, HoursAndMinutes=872",
-0,
-},
-{
-"World transfer aborted (reason: 30)",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/10/2025 (Mon) 17:01",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"GameTimeSync: skipping forwards 2 game minutes, (current = 3/10/2025 (Mon) 17:04, newtime = 3/10/2025 (Mon) 17:06)",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2664, Current MapID:2552, PreviousTransitionID:-1, Position (-546.468, -310.824, 396.723)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2664",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2664, Current MapID:2552, PreviousTransitionID:2664, Position (-510.707, -270.46, 378.805)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"[Airlock] Loading new map 2664 from previous map 2552 with translation: (-1918.11, 2505.35, 327.201)\n    Location : (-509.328, -264.838, 378.94)\n    Location in previous map : (1408.78, -2770.19, 51.7389)",
-0,
-},
-{
-"[Airlock] Swapping to preloaded map 2664 but keeping old map 2552 RESIDENT.",
-0,
-},
-{
-"[Airlock] Freezing AOI updates for old map 2552",
-0,
-},
-{
-"[Airlock] Finished transition to new map 2664",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2664, PreviousTransitionID:2552, Position (1408.78, -2770.19, 51.7389)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
+"Proficiency in item class 2 set to 0x000014e54f",
 0,
 },
 {
@@ -1619,23 +288,807 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Skill 356 increased from 0 to 1",
+"Proficiency in item class 4 set to 0x000000002f",
 0,
 },
 {
-"Skill 2592 increased from 0 to 1",
+"Proficiency in item class 2 set to 0x000014e5cf",
 0,
 },
 {
-"Skill 2826 increased from 0 to 1",
+"Proficiency in item class 4 set to 0x000000002f",
 0,
 },
 {
-"Trainer service 366243 unavailable",
+"Weather changed to 1, intensity 0.000000\n",
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2664, PreviousTransitionID:2552, Position (1716.71, -2488.97, -196.606)",
+"Time set to 3/12/2025 (Wed) 9:00",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 2, intensity 0.800000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 1",
+0,
+},
+{
+"Ripple detail changed to 0",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 0",
+0,
+},
+{
+"Refraction mode changed to 0",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"Particulate volumes disabled.",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter intensity value set",
+0,
+},
+{
+"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
+0,
+},
+{
+"Shadow texture size changed to 1024.",
+0,
+},
+{
+"Soft shadows changed to 0.",
+0,
+},
+{
+"Shadow cascade blending changed to 0",
+0,
+},
+{
+"Number of shadow cascades changed to 1",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading disabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 0",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"Depth Based Opacity Disabled",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Outline mode changed to 2",
+0,
+},
+{
+"Physics interaction level changed to 1",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsWorldGeo' failed validation for its initial value.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsParticles' failed validation for its initial value.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000101",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000008141",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c143",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c543",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000029",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c547",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 3/12/2025 (Wed) 10:34",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"GameTimeSync: skipping forwards 2 game minutes, (current = 3/12/2025 (Wed) 10:55, newtime = 3/12/2025 (Wed) 10:57)",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2831, Current MapID:2706, PreviousTransitionID:-1, Position (554.099, 300.551, -6.2422)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2831, with already loaded cosmetic parent 2706",
+0,
+},
+{
+"[Airlock] Cancel Preload of cosmetic child with MapID:2831",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2831, Current MapID:2706, PreviousTransitionID:-1, Position (559.556, 288.08, -6.67741)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2831, with already loaded cosmetic parent 2706",
+0,
+},
+{
+"[Airlock] Cancel Preload of cosmetic child with MapID:2831",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2831, Current MapID:2706, PreviousTransitionID:-1, Position (558.526, 284.573, -6.68387)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2831, with already loaded cosmetic parent 2706",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2706, PreviousTransitionID:-1, Position (570.011, 346.58, -6.09957)",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2831, Current MapID:2706, PreviousTransitionID:-1, Position (569.14, 324.892, -6.2616)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2831, with already loaded cosmetic parent 2706",
+0,
+},
+{
+"[Airlock] Cancel Preload of cosmetic child with MapID:2831",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (4.80362, -1.10242, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (15.4626, -1.71783, 109.229)\n    Location in previous map : (-6.8134, 695.063, -19.3817)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-6.8134, 695.063, -19.3817)",
 0,
 },
 {
@@ -1647,19 +1100,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Loading new map 2552 from previous map 2664 with translation: (1918.11, -2505.35, -327.201)\n    Location : (1382.17, -2803.18, 61.6866)\n    Location in previous map : (-535.939, -297.825, 388.888)",
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-28.4121, 694.584, -19.5502)\n    Location in previous map : (-6.13607, -2.19745, 109.06)",
 0,
 },
 {
-"[Airlock] Swapping to preloaded map 2552 and unloading map 2664. (Map Table Size 288 larger than budget 8)",
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
 0,
 },
 {
-"[Airlock] Finished transition to new map 2552",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
+"[Airlock] Finished transition to new map 2706",
 0,
 },
 {
@@ -1667,7 +1116,595 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received Cancel Preload for MapID 2664, but we have not preloaded it. Current preloaded map: -1",
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.903824, -1.77551, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.1763, -1.89264, 109.266)\n    Location in previous map : (-6.09967, 694.888, -19.3446)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-6.09967, 694.888, -19.3446)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-20.2644, 695.04, -19.5502)\n    Location in previous map : (2.01163, -1.74139, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (2.01163, -1.74139, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:2826, Position (-0.0399761, -1.77832, 109.06)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.04, -1.80536, 109.307)\n    Location in previous map : (-6.23601, 694.976, -19.3027)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-6.23601, 694.976, -19.3027)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-27.9168, 694.578, -19.5502)\n    Location in previous map : (-5.64076, -2.20325, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (3.09713, -1.77264, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (13.6025, -1.40967, 109.06)\n    Location in previous map : (-8.67349, 695.371, -19.5502)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.1049, 695.893, -19.4857)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-32.8896, 695.187, -19.4872)\n    Location in previous map : (-10.6136, -1.59369, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 1",
+0,
+},
+{
+"Ripple detail changed to 0",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 0",
+0,
+},
+{
+"Refraction mode changed to 0",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"Particulate volumes disabled.",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter intensity value set",
+0,
+},
+{
+"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
+0,
+},
+{
+"Shadow texture size changed to 1024.",
+0,
+},
+{
+"Soft shadows changed to 0.",
+0,
+},
+{
+"Shadow cascade blending changed to 0",
+0,
+},
+{
+"Number of shadow cascades changed to 1",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading disabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 0",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"Depth Based Opacity Disabled",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Outline mode changed to 2",
+0,
+},
+{
+"Physics interaction level changed to 1",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsWorldGeo' failed validation for its initial value.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsParticles' failed validation for its initial value.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000101",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000008141",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c143",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c543",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000029",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c547",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 3/12/2025 (Wed) 13:12",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
 0,
 },
 {
@@ -1679,6 +1716,1278 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.514683, -1.84271, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (13.0989, -1.28497, 109.06)\n    Location in previous map : (-9.17711, 695.496, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.96559, 695.629, -19.4856)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-26.6097, 694.302, -19.5499)\n    Location in previous map : (-4.33371, -2.47943, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (2.4162, -1.87897, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (12.7836, -1.82928, 109.06)\n    Location in previous map : (-9.49242, 694.952, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-9.49242, 694.952, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-31.5018, 695.378, -19.4871)\n    Location in previous map : (-9.22579, -1.40259, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-1.0115, -1.52649, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.3919, -1.75757, 109.125)\n    Location in previous map : (-5.88414, 695.023, -19.4856)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.88414, 695.023, -19.4856)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-26.5944, 694.017, -19.5502)\n    Location in previous map : (-4.31836, -2.7644, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.909599, -2.49921, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (3.57722, -2.68927, 109.06)\n    Location in previous map : (-18.6988, 694.092, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-18.6988, 694.092, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-32.8881, 695.183, -19.4871)\n    Location in previous map : (-10.6121, -1.5976, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-1.25406, -2.37518, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (12.017, -2.03204, 109.06)\n    Location in previous map : (-10.259, 694.749, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-10.259, 694.749, -19.5503)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-30.0255, 694.835, -19.4871)\n    Location in previous map : (-7.74952, -1.94617, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (0.54891, -1.74982, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (11.598, -1.60791, 109.06)\n    Location in previous map : (-10.678, 695.173, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.78305, 695.332, -19.4856)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-26.4666, 693.828, -19.5502)\n    Location in previous map : (-4.19062, -2.95294, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (2.52295, -1.86731, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.3966, -1.61932, 109.125)\n    Location in previous map : (-5.87942, 695.162, -19.4857)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.76388, 694.792, -19.4857)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-27.9024, 694.354, -19.5502)\n    Location in previous map : (-5.62644, -2.42725, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (0.585129, -1.78345, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (11.304, -2.32477, 109.06)\n    Location in previous map : (-10.972, 694.456, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-8.28577, 694.456, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.2784, 694.73, -19.5502)\n    Location in previous map : (-3.0024, -2.05103, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (1.50119, -2.06091, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.3798, -2.22589, 109.125)\n    Location in previous map : (-5.89622, 694.555, -19.4857)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.89622, 694.555, -19.4857)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.2955, 694.664, -19.5502)\n    Location in previous map : (-3.01953, -2.11652, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.781893, -3.2298, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (10.4451, -2.74683, 109.06)\n    Location in previous map : (-11.8309, 694.034, -19.5502)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-11.8309, 694.034, -19.5502)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-21.0417, 694.989, -19.5502)\n    Location in previous map : (1.23426, -1.79163, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (1.23426, -1.79163, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (1.23426, -1.79163, 109.06)\n    Location in previous map : (-21.0417, 694.989, -19.5502)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-21.0417, 694.989, -19.5502)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-32.3677, 694.43, -19.4872)\n    Location in previous map : (-10.0917, -2.35089, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (1.92468, -2.05823, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (10.1588, -2.39777, 109.06)\n    Location in previous map : (-12.1172, 694.383, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-12.1172, 694.383, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-32.4574, 694.816, -19.4871)\n    Location in previous map : (-10.1814, -1.96545, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.400991, -2.51361, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (12.8014, -2.09485, 109.06)\n    Location in previous map : (-9.47455, 694.686, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-9.47455, 694.686, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.5439, 694.966, -19.5504)\n    Location in previous map : (-3.26787, -1.81512, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.381277, -1.76807, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (9.76215, -2.02576, 109.06)\n    Location in previous map : (-12.5138, 694.755, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-12.5138, 694.755, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.7773, 694.784, -19.5504)\n    Location in previous map : (-3.50131, -1.9975, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (0.00546074, -0.582886, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (7.24363, -2.00842, 109.06)\n    Location in previous map : (-15.0324, 694.773, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-15.0324, 694.773, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-29.5236, 694.531, -19.4686)\n    Location in previous map : (-7.24761, -2.24994, 109.142)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.408098, -2.09656, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (9.3717, -1.69147, 109.06)\n    Location in previous map : (-12.9043, 695.09, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-12.9043, 695.09, -19.5503)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.1963, 695.126, -19.5503)\n    Location in previous map : (-2.92029, -1.65466, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (0.871881, -1.77759, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (10.6707, -1.78101, 109.06)\n    Location in previous map : (-11.6053, 695, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-11.6053, 695, -19.5503)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-25.7929, 694.781, -19.5503)\n    Location in previous map : (-3.51691, -1.99982, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (1.33839, -2.02179, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (13.9406, -2.16187, 109.06)\n    Location in previous map : (-8.33537, 694.619, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-3.0769, 694.734, -19.4856)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-28.1174, 694.588, -19.5502)\n    Location in previous map : (-5.84135, -2.19269, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (0.817245, -1.83844, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (11.1348, -1.67969, 109.06)\n    Location in previous map : (-11.1412, 695.101, -19.5504)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-11.1412, 695.101, -19.5504)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-29.4893, 694.427, -19.4686)\n    Location in previous map : (-7.21329, -2.35437, 109.142)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (2.0471, -1.92535, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (14.2055, -1.64014, 109.06)\n    Location in previous map : (-8.07052, 695.141, -19.5503)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-8.07052, 695.141, -19.5503)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-27.0414, 694.108, -19.5502)\n    Location in previous map : (-4.76537, -2.67255, 109.06)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2826, Current MapID:2706, PreviousTransitionID:-1, Position (-0.311907, -2.2973, 109.06)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2826",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2826 from previous map 2706 with translation: (22.276, -696.781, 128.61)\n    Location : (16.3855, -1.9917, 109.125)\n    Location in previous map : (-5.89045, 694.789, -19.4857)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2826 but keeping old map 2706 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2706",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2826",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2706, Current MapID:2826, PreviousTransitionID:2706, Position (-5.89045, 694.789, -19.4857)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2706 from previous map 2826 with translation: (-22.276, 696.781, -128.61)\n    Location : (-31.455, 694.698, -19.4871)\n    Location in previous map : (-9.17905, -2.08331, 109.123)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2706 and unloading map 2826. (Map Table Size 30 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2706",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
 "Got new connection 3",
 0,
 },
@@ -1687,7 +2996,587 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-142.888, -140.163, 78.6834)",
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"NetClient::HandleDisconnect()\n",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Attempted to register existing command: SetDifficulty",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000101",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000008141",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c143",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c543",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000029",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c547",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 3/12/2025 (Wed) 14:14",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 1",
+0,
+},
+{
+"Ripple detail changed to 0",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 0",
+0,
+},
+{
+"Refraction mode changed to 0",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"Particulate volumes disabled.",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter intensity value set",
+0,
+},
+{
+"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
+0,
+},
+{
+"Shadow texture size changed to 1024.",
+0,
+},
+{
+"Soft shadows changed to 0.",
+0,
+},
+{
+"Shadow cascade blending changed to 0",
+0,
+},
+{
+"Number of shadow cascades changed to 1",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading disabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 0",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"Depth Based Opacity Disabled",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Outline mode changed to 2",
+0,
+},
+{
+"Physics interaction level changed to 1",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsWorldGeo' failed validation for its initial value.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsParticles' failed validation for its initial value.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"Volume fog disabled.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000101",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000008141",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c141",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c143",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c543",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000029",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c547",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004c54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e54f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000014e5cf",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000002f",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 3/12/2025 (Wed) 17:28",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-138.344, -142.571, 79.7972)",
 0,
 },
 {
@@ -1695,51 +3584,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:2680, Position (-169.889, -109.454, 73.5416)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2680",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-149.273, -129.876, 75.1705)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2680",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:2680, Position (-171.8, -108.208, 73.5785)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:2680, Position (-169.791, -107.941, 73.5627)",
+"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:2680, Position (-169.594, -110.096, 73.5291)",
 0,
 },
 {
@@ -1751,7 +3596,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Loading new map 2680 from previous map 2552 with translation: (-1108.2, 1530.38, -9.7603)\n    Location : (-170.354, -106.144, 73.5784)\n    Location in previous map : (937.846, -1636.52, 83.3387)",
+"[Airlock] Loading new map 2680 from previous map 2552 with translation: (-1108.2, 1530.38, -9.7603)\n    Location : (-179.207, -101.781, 73.5784)\n    Location in previous map : (928.993, -1632.16, 83.3387)",
 0,
 },
 {
@@ -1771,15 +3616,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (937.846, -1636.52, 83.3387)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (398.172, -1757.48, 86.2093)",
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (928.993, -1632.16, 83.3387)",
 0,
 },
 {
@@ -1791,7 +3628,207 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Loading new map 2552 from previous map 2680 with translation: (1108.2, -1530.38, 9.7603)\n    Location : (946.923, -1645.73, 83.1628)\n    Location in previous map : (-161.277, -115.352, 73.4025)",
+"[Airlock] Loading new map 2552 from previous map 2680 with translation: (1108.2, -1530.38, 9.7603)\n    Location : (945.414, -1645.09, 83.16)\n    Location in previous map : (-162.786, -114.717, 73.3997)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2552 and unloading map 2680. (Map Table Size 288 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2552",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-169.841, -108.262, 73.5589)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2680",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2680 from previous map 2552 with translation: (-1108.2, 1530.38, -9.7603)\n    Location : (-178.958, -101.463, 73.5783)\n    Location in previous map : (929.242, -1631.84, 83.3386)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2680 but keeping old map 2552 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2552",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2680",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (929.242, -1631.84, 83.3386)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (388.694, -1767.33, 86.2166)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2552 from previous map 2680 with translation: (1108.2, -1530.38, 9.7603)\n    Location : (947.206, -1645.72, 83.16)\n    Location in previous map : (-160.994, -115.34, 73.3997)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2552 and unloading map 2680. (Map Table Size 288 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2552",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-169.842, -109.007, 73.5476)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2680",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2680 from previous map 2552 with translation: (-1108.2, 1530.38, -9.7603)\n    Location : (-179.414, -102.045, 73.5785)\n    Location in previous map : (928.786, -1632.42, 83.3388)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2680 but keeping old map 2552 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2552",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2680",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (928.786, -1632.42, 83.3388)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2552 from previous map 2680 with translation: (1108.2, -1530.38, 9.7603)\n    Location : (944.109, -1643.84, 83.1603)\n    Location in previous map : (-164.091, -113.462, 73.4)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2552 and unloading map 2680. (Map Table Size 288 larger than budget 8)",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2552",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2680, Current MapID:2552, PreviousTransitionID:-1, Position (-171.07, -109.608, 73.5622)",
+0,
+},
+{
+"[Airlock] Preload initiated for map 2680",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2680 from previous map 2552 with translation: (-1108.2, 1530.38, -9.7603)\n    Location : (-176.224, -105.636, 73.5784)\n    Location in previous map : (931.976, -1636.01, 83.3387)",
+0,
+},
+{
+"[Airlock] Swapping to preloaded map 2680 but keeping old map 2552 RESIDENT.",
+0,
+},
+{
+"[Airlock] Freezing AOI updates for old map 2552",
+0,
+},
+{
+"[Airlock] Finished transition to new map 2680",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (931.976, -1636.01, 83.3387)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2680, PreviousTransitionID:2552, Position (368.138, -1795.75, 86.2154)",
+0,
+},
+{
+"[Airlock] Preload skipped - map is same as current map.",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"[Airlock] Loading new map 2552 from previous map 2680 with translation: (1108.2, -1530.38, 9.7603)\n    Location : (944.861, -1643.88, 83.1609)\n    Location in previous map : (-163.339, -113.505, 73.4006)",
 0,
 },
 {
@@ -1815,34 +3852,6 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
 "World transfer pending...",
 0,
 },
@@ -1855,27 +3864,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2459.72, -2312.28, 1051.55)",
+"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2461.35, -2294.38, 1035.69)",
 0,
 },
 {
@@ -1883,11 +3872,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
 "Got new connection 3",
 0,
 },
 {
-"[Airlock] Loading new map 2601 from previous map 2552 with translation: (0.340088, 0.820068, 1131.33)\n    Location : (2253.69, -2275.25, 568.527)\n    Location in previous map : (2253.35, -2276.07, -562.806)",
+"[Airlock] Loading new map 2601 from previous map 2552 with translation: (0.340088, 0.820068, 1131.33)\n    Location : (2253.26, -2274.27, 571.333)\n    Location in previous map : (2252.92, -2275.09, -560)",
 0,
 },
 {
@@ -1903,7 +3896,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2254.01, -2273.79, -562.787)",
+"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2257.12, -2263.99, -564.036)",
 0,
 },
 {
@@ -1915,22 +3908,6 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2815, Current MapID:2601, PreviousTransitionID:-1, Position (-806.522, -5119.87, -235.56)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2815, with already loaded cosmetic parent 2601",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2815, Current MapID:2601, PreviousTransitionID:-1, Position (-885.546, -5191.82, -250.697)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2815, with already loaded cosmetic parent 2601",
-0,
-},
-{
 "Got new connection 3",
 0,
 },
@@ -1939,59 +3916,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2601, PreviousTransitionID:-1, Position (-896.335, -5191.55, -255.142)",
+"[Airlock] Received PreloadMap Destination MapID:2686, Current MapID:2601, PreviousTransitionID:-1, Position (-443.184, -199.423, 169.388)",
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2601, PreviousTransitionID:-1, Position (-1376.13, -5054.58, -445.803)",
+"[Airlock] Preload initiated for map 2686",
 0,
 },
 {
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2815, Current MapID:2601, PreviousTransitionID:-1, Position (-869.577, -5180.5, -242.459)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2815, with already loaded cosmetic parent 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of cosmetic child with MapID:2815",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2690, Current MapID:2601, PreviousTransitionID:-1, Position (17.4309, 170.043, 152.61)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2690",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2690, Current MapID:2601, PreviousTransitionID:2690, Position (-18.7068, 130.472, 133.454)",
+"[Airlock] Received PreloadMap Destination MapID:2686, Current MapID:2601, PreviousTransitionID:2686, Position (-511.307, -109.88, 142.197)",
 0,
 },
 {
@@ -2003,11 +3936,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Loading new map 2690 from previous map 2601 with translation: (2477.43, 1217.67, 1302.9)\n    Location : (-19.9036, 129.255, 133.454)\n    Location in previous map : (-2497.33, -1088.41, -1169.45)",
+"[Airlock] Loading new map 2686 from previous map 2601 with translation: (-2841.71, -1653.08, 300.371)\n    Location : (-516.853, -103.133, 140.662)\n    Location in previous map : (2324.86, 1549.95, -159.709)",
 0,
 },
 {
-"[Airlock] Swapping to preloaded map 2690 but keeping old map 2601 RESIDENT.",
+"[Airlock] Swapping to preloaded map 2686 but keeping old map 2601 RESIDENT.",
 0,
 },
 {
@@ -2015,7 +3948,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Finished transition to new map 2690",
+"[Airlock] Finished transition to new map 2686",
 0,
 },
 {
@@ -2023,15 +3956,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2690, PreviousTransitionID:2601, Position (-2497.33, -1088.41, -1169.45)",
-0,
-},
-{
-"[Airlock] Preload skipped - map is same as current map.",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2690, PreviousTransitionID:2601, Position (-2784.17, -1414.61, -1190.66)",
+"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2686, PreviousTransitionID:2601, Position (2324.86, 1549.95, -159.709)",
 0,
 },
 {
@@ -2039,2211 +3964,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"World transfer pending...",
-0,
-},
-{
 "Got new connection 3",
 0,
 },
 {
-"Weather changed to 1, intensity 0.000000\n",
+"[Airlock] Loading new map 2601 from previous map 2686 with translation: (2841.71, 1653.08, -300.371)\n    Location : (2370.4, 1504.88, -145.756)\n    Location in previous map : (-471.312, -148.206, 154.615)",
 0,
 },
 {
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2690, Current MapID:2601, PreviousTransitionID:-1, Position (-21.8997, 126.986, 133.451)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2690",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2690",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"PetBattle Initial Update",
-0,
-},
-{
-"   Player 0 Player-3676-0EA88AB6  frontPet 0 ",
-0,
-},
-{
-"     Slot   0, Species 1624, Health 1400, Level  25, DisplayID 61888, CollarID 0",
-0,
-},
-{
-"        abilities : 409, 503, 176,",
-0,
-},
-{
-"     Slot   1, Species 156, Health 1481, Level  25, DisplayID 21362, CollarID 0",
-0,
-},
-{
-"        abilities : 349, 347, 352,",
-0,
-},
-{
-"     Slot   2, Species 294, Health 1400, Level  25, DisplayID 36896, CollarID 0",
-0,
-},
-{
-"        abilities : 111, 172, 350,",
-0,
-},
-{
-"   Player 1 0000000000000000  frontPet 0 ",
-0,
-},
-{
-"     Slot   0, Species 4737, Health 2426, Level  25, DisplayID 126182, CollarID 0",
-0,
-},
-{
-"        abilities : 1921, 2526, 278,",
-0,
-},
-{
-"<waiting for PetBattleReadyToStart command>",
-0,
-},
-{
-"---Battle Begin---",
-0,
-},
-{
-"  PetSwap P0 PET 0",
-0,
-},
-{
-"  PetSwap P1 PET 0",
-0,
-},
-{
-"<waiting for PetBattleInput command>",
-0,
-},
-{
-"---BattleAbandoned---",
-0,
-},
-{
-"<waiting for PetBattleInput final>",
-0,
-},
-{
-"---ClientPetBattleFinished---",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 1",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 0",
-0,
-},
-{
-"Refraction mode changed to 0",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"Particulate volumes disabled.",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter intensity value set",
-0,
-},
-{
-"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
-0,
-},
-{
-"Shadow texture size changed to 1024.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 0",
-0,
-},
-{
-"Number of shadow cascades changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading disabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 0",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"Depth Based Opacity Disabled",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Outline mode changed to 2",
-0,
-},
-{
-"Physics interaction level changed to 1",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 9:00",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Disconnecting for reason 12",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000001",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008001",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c001",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c003",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c403",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000061",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000069",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000e423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e433",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e433",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006f",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 9:01",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Disconnecting for reason 12",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 1",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 0",
-0,
-},
-{
-"Refraction mode changed to 0",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"Particulate volumes disabled.",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter intensity value set",
-0,
-},
-{
-"Shadow mode changed to 1 - 1 band dynamic shadows on units, 1024",
-0,
-},
-{
-"Shadow texture size changed to 1024.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 0",
-0,
-},
-{
-"Number of shadow cascades changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading disabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 0",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"Depth Based Opacity Disabled",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Outline mode changed to 2",
-0,
-},
-{
-"Physics interaction level changed to 1",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"Volume fog disabled.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 9:12",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Disconnecting for reason 12",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000001",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008001",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c001",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c003",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c403",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000061",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000069",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000e423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e423",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e433",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000010e433",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000006f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 10:39",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Disconnecting for reason 12",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 11:42",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.138479\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 14:32",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 1d 5h 39m 34s",
-0,
-},
-{
-"Level: 0d 11h 38m 48s",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.113880\n",
-0,
-},
-{
-"Weather changed to 2, intensity 0.265064\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.176640\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: SetDifficulty",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000100",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000101",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000008141",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c141",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c143",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c543",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000029",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002d",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c547",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e54f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000014e5cf",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000002f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 3/11/2025 (Tue) 17:30",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.170150\n",
-0,
-},
-{
-"Weather changed to 2, intensity 0.216595\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.162882\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.179075\n",
-0,
-},
-{
-"Weather changed to 2, intensity 0.257912\n",
-0,
-},
-{
-"GameTimeSync: skipping forwards 3 game minutes, (current = 3/11/2025 (Tue) 17:55, newtime = 3/11/2025 (Tue) 17:58)",
-0,
-},
-{
-"Weather changed to 1, intensity 0.116270\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2463.91, -2292.48, 1057.4)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"[Airlock] Loading new map 2601 from previous map 2552 with translation: (0.340088, 0.820068, 1131.33)\n    Location : (2264.7, -2251.52, 556.471)\n    Location in previous map : (2264.36, -2252.34, -574.862)",
-0,
-},
-{
-"[Airlock] Swapping to preloaded map 2601 and unloading map 2552. (Map Table Size 960 larger than budget 8)",
+"[Airlock] Swapping to preloaded map 2601 and unloading map 2686. (Map Table Size 960 larger than budget 8)",
 0,
 },
 {
@@ -4255,155 +3984,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2265.28, -2250.86, -575.573)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2552",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2552",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2552, Current MapID:2601, PreviousTransitionID:-1, Position (2388.78, -2216.8, -630.849)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2552",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"[Airlock] Loading new map 2552 from previous map 2601 with translation: (-0.340088, -0.820068, -1131.33)\n    Location : (2462.7, -2346.78, -281.463)\n    Location in previous map : (2463.04, -2345.96, 849.87)",
-0,
-},
-{
-"[Airlock] Swapping to preloaded map 2552 and unloading map 2601. (Map Table Size 288 larger than budget 8)",
-0,
-},
-{
-"[Airlock] Finished transition to new map 2552",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"[Airlock] Received PreloadMap Destination MapID:2601, Current MapID:2552, PreviousTransitionID:-1, Position (2462.35, -2339.33, 855.029)",
-0,
-},
-{
-"[Airlock] Preload initiated for map 2601",
-0,
-},
-{
-"[Airlock] Cancel Preload of MapID:2601",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"GameTimeSync: delta=0, differential=2, HoursAndMinutes=1137",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 1d 9h 36m 23s",
-0,
-},
-{
-"Level: 0d 15h 35m 37s",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
+"[Airlock] Received Cancel Preload for MapID 2686, but we have not preloaded it. Current preloaded map: -1",
 0,
 },
 {
@@ -4423,249 +4004,28 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Got new connection 3",
+"-------------------------------------------------- Previous Session --------------------------------------------------",
 0,
 },
 {
-"Weather changed to 1, intensity 0.000000\n",
+"NetClient::HandleDisconnect()\n",
 0,
 },
 {
-"Got new connection 3",
+"NetClient::HandleConnect()\n",
 0,
 },
 {
-"Weather changed to 1, intensity 0.000000\n",
+"Got new connection 2",
 0,
 },
 {
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 2, intensity 0.800000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 0.800000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 0.800000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Skill 2876 increased from 0 to 1",
-0,
-},
-{
-"Skill 356 increased from 1 to 2",
-0,
-},
-{
-"Skill 2876 increased from 1 to 2",
-0,
-},
-{
-"Skill 356 increased from 2 to 3",
-0,
-},
-{
-"Skill 2876 increased from 2 to 3",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
+"[WowEntitlements] [BNetAccount-0-000000112052] [WowAccount-0-0000004A49BC] Initialized with 111 entitlements.",
 0,
 },
 },
-["height"] = 299.9999389648438,
-["fontHeight"] = 14,
 ["isShown"] = false,
+["fontHeight"] = 14,
 ["commandHistory"] = {
 },
 }

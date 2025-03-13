@@ -54,7 +54,29 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
+["us-Rafhithø-area-52"] = true,
+["us-Hollychami-area-52"] = true,
+["us-Mazumack-area-52"] = true,
+["us-Endëavor-area-52"] = true,
 ["us-Shortbowjob-area-52"] = true,
+["us-Selyniaa-area-52"] = true,
+["us-Wavyant-hakkar"] = true,
+["us-Shöckmarket-area-52"] = true,
+["us-Furious-area-52"] = true,
+["us-Krothu-area-52"] = true,
+["us-Rudaux-area-52"] = true,
+["us-Gorrt-area-52"] = true,
+["us-Dudeabidezs-area-52"] = true,
+["us-Merpington-area-52"] = true,
+["us-Daruks-area-52"] = true,
+["us-Brewdemon-area-52"] = true,
+["us-Nomidiawa-area-52"] = true,
+["us-Trevrips-area-52"] = true,
+["us-Wuzzos-area-52"] = true,
+["us-Gospo-frostwolf"] = true,
+["us-Jêra-area-52"] = true,
+["us-Cupidfarts-area-52"] = true,
+["us-Dyova-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

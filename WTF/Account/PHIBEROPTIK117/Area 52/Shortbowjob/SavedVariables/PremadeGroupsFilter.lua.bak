@@ -13,6 +13,19 @@ PremadeGroupsFilterState = {
 ["enabled"] = true,
 },
 ["version"] = 6,
+["c121f4"] = {
+["role"] = {
+["heals"] = {
+},
+["tanks"] = {
+},
+["dps"] = {
+},
+["members"] = {
+},
+["expression"] = "",
+},
+},
 ["c114f6"] = {
 ["enabled"] = true,
 },
@@ -49,7 +62,7 @@ PremadeGroupsFilterState = {
 ["min"] = "",
 ["act"] = false,
 },
-["expression"] = "",
+["expression"] = "members>1",
 },
 },
 ["c9f8"] = {

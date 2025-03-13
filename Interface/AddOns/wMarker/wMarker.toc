@@ -1,11 +1,11 @@
-## Interface: 110007
+## Interface: 110100
 ## Title: |cffe1a500w|cff69ccf0Marker
 ## Notes: I'm going to to get my engineers to invent a combustible lemon that burns your house down! Now with profiles!|cff69ccf0|n|n/wMarker - Options|n/wma - Options|n|n/rc - Ready Check|n/roc - Role Check
 ## Author: Waky
 ## IconTexture: interface\targetingframe\ui-raidtargetingicon_8
 ## AddonCompartmentFunc: wMarkerAce_OpenConfig
 ## Dependencies: 
-## Version: 3.2.2
+## Version: 3.2.3
 ## SavedVariables: wMarkerAceDB
 ## SavedVariablesPerCharacter: wMarkerDB, wFlaresDB
 

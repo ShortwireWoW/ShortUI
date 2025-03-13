@@ -1,7 +1,7 @@
 
 wMarkerAceDB = {
 ["global"] = {
-["lastVer"] = "3.2.2",
+["lastVer"] = "3.2.3",
 },
 ["profileKeys"] = {
 ["Shortbowjob - Dalaran"] = "Default",
@@ -27,6 +27,9 @@ wMarkerAceDB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["raid"] = {
+["locked"] = true,
+},
 ["frameLoc"] = {
 ["wMarkerRaid"] = {
 "TOPLEFT",
@@ -39,9 +42,13 @@ nil,
 "TOPLEFT",
 nil,
 "TOPLEFT",
-37.61554718017578,
+42.53860092163086,
 -44.94875717163086,
 },
+},
+["world"] = {
+["flipped"] = true,
+["locked"] = true,
 },
 },
 },

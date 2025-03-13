@@ -1,5 +1,6 @@
 VER 3 0100000000000008 "Barbed Shot" "134400"
 #showtooltip
+/petassist
 /petattack [harm]
 /cast Barbed Shot
 /cast [@pettarget]Claw
@@ -16,6 +17,7 @@ VER 3 010000000000000D "Black Arrow" "134400"
 END
 VER 3 0100000000000007 "BW / BoT" "134400"
 #showtooltip
+/petassist
 /petattack
 /castsequence reset=10 Bestial Wrath, Bag of Tricks
 /cast [@pettarget]Claw
@@ -24,6 +26,7 @@ VER 3 0100000000000007 "BW / BoT" "134400"
 END
 VER 3 0100000000000013 "Call of the Wild" "134400"
 #showtooltip
+/petassist
 /petattack
 /cast Call of the Wild
 /cast [@pettarget]Claw
@@ -32,6 +35,7 @@ VER 3 0100000000000013 "Call of the Wild" "134400"
 END
 VER 3 0100000000000009 "Cobra Shot" "134400"
 #showtooltip
+/petassist
 /petattack [harm]
 /cast Cobra Shot
 /cast [@pettarget]Claw
@@ -67,10 +71,12 @@ VER 3 0100000000000003 "Imp Trap" "134400"
 END
 VER 3 0100000000000011 "Interrupt" "134400"
 #showtooltip
+/petassist
 /castsequence reset=22 Counter Shot, Intimidation
 END
 VER 3 010000000000000A "Kill Command" "134400"
 #showtooltip
+/petassist
 /petattack
 /cast Kill Command
 /cast [@pettarget]Claw
@@ -79,6 +85,7 @@ VER 3 010000000000000A "Kill Command" "134400"
 END
 VER 3 010000000000000E "Kill Shot" "134400"
 #showtooltip
+/petassist
 /petattack
 /cast Kill Shot
 /cast [@pettarget]Claw
@@ -87,6 +94,7 @@ VER 3 010000000000000E "Kill Shot" "134400"
 END
 VER 3 010000000000000C "Kill Shot Mouseo" "134400"
 #showtooltip Kill Shot
+/petassist
 /petattack [@mouseover]
 /cast [@mouseover,harm,nodead][]Kill Shot
 /cast [@pettarget]Claw

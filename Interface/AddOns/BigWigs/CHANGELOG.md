@@ -1,6 +1,7 @@
 # BigWigs
 
-## [v375.1](https://github.com/BigWigsMods/BigWigs/tree/v375.1) (2025-03-10)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v375...v375.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v375.2](https://github.com/BigWigsMods/BigWigs/tree/v375.2) (2025-03-12)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v375.1...v375.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Core/BossPrototype: Fix EncounterEnd for extra encounter IDs  
+- bump version  
+- LiberationOfUndermine/Gallywix: Story update  

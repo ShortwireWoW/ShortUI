@@ -16,7 +16,16 @@ VER 3 010000000000000D "Black Arrow" "134400"
 END
 VER 3 0100000000000007 "BW / BoT" "134400"
 #showtooltip
+/petattack
 /castsequence reset=10 Bestial Wrath, Bag of Tricks
+/cast [@pettarget]Claw
+/cast [@pettarget]Bite
+/cast [@pettarget]Smack
+END
+VER 3 0100000000000013 "Call of the Wild" "134400"
+#showtooltip
+/petattack
+/cast Call of the Wild
 /cast [@pettarget]Claw
 /cast [@pettarget]Bite
 /cast [@pettarget]Smack

@@ -1,31 +1,25 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
+["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Bosses_Underpin Rares"] = {
+},
 ["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
+["BigWigs_Plugins_Countdown"] = {
+},
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-["profiles"] = {
-["Default"] = {
-[440576] = 4113655,
-[440377] = 4116727,
-},
-},
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
+["BigWigs_Bosses_Nightfall Delve Trash"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -41,17 +35,31 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Plugins_Sounds"] = {
+["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
+["profiles"] = {
+["Default"] = {
+[440576] = 4113655,
+[440377] = 4116727,
 },
-["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Bosses_Web General Ab'enar"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
+},
+["BigWigs_Bosses_Nerubian Delve Trash"] = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 },
 ["global"] = {
@@ -328,7 +336,7 @@ BigWigsStatsDB = {
 ["wipes"] = 1,
 },
 ["LFR"] = {
-["kills"] = 8,
+["kills"] = 9,
 ["fkDuration"] = 231.2849999999889,
 ["wipes"] = 1,
 ["best"] = 160.4170000000013,
@@ -347,7 +355,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/03/07",
 },
 ["LFR"] = {
-["kills"] = 6,
+["kills"] = 7,
 ["fkDuration"] = 527.7169999999987,
 ["best"] = 202.1230000000069,
 ["bestDate"] = "2025/03/11",
