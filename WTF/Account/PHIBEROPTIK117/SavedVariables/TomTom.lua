@@ -6,13 +6,14 @@ TomTomDB = {
 ["Shortbeef - Area 52"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
 ["Volatilespor - Stormrage"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortloch - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
 ["Shortirony - Illidan"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
@@ -56,13 +57,14 @@ TomTomWaypointsM = {
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
+["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Shortbm - Stormrage"] = "Shortbm - Stormrage",
-["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Shortloch - Stormrage"] = "Shortloch - Stormrage",
+["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
+["Shortmalice - Stormrage"] = "Shortmalice - Stormrage",
 ["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
@@ -86,19 +88,21 @@ TomTomWaypointsM = {
 },
 ["Shortbowjob - Area 52"] = {
 },
+["Shortblink - Stormrage"] = {
+},
 ["Shortybear - Area 52"] = {
 },
 ["Volatilespor - Stormrage"] = {
 },
 ["Dagdese - Stormrage"] = {
 },
-["Shortblink - Stormrage"] = {
-},
 ["Shortbm - Stormrage"] = {
+},
+["Shortloch - Stormrage"] = {
 },
 ["Sentientsoup - Mal'Ganis"] = {
 },
-["Shortloch - Stormrage"] = {
+["Shortmalice - Stormrage"] = {
 },
 ["Shortirony - Illidan"] = {
 },

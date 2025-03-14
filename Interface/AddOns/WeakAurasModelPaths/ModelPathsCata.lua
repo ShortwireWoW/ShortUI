@@ -73641,6 +73641,29 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      children = {
+       {
+        fileId = "6246204",
+        text = "6246204.m2",
+        value = "6246204.m2",
+       },
+      },
+      text = "unk_exp10_6246204",
+      value = "unk_exp10_6246204",
+     },
+    },
+    text = "world",
+    value = "world",
+   },
+  },
+  text = "models",
+  value = "models",
+ },
+ {
+  children = {
+   {
+    children = {
+     {
       fileId = "165398",
       text = "bloodspurt.m2",
       value = "bloodspurt.m2",

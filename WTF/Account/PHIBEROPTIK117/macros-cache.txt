@@ -4,7 +4,7 @@ END
 VER 3 0000000000000064 "AFK Level" "134400"
 #showtooltip
 /target Volatile Spore
-/cast Pistol Shot
+/cast Corruption
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
 VER 3 0000000000000067 "CLEAR WM" "132212"
@@ -34,7 +34,7 @@ VER 3 000000000000005B "Potions" "134400"
 /use Elemental Potion of Ultimate Power
 END
 VER 3 000000000000006A "Raid Info" "133487"
-/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("WA_TRIGGER", UnitName("target"), "WHISPER", UnitName("player")) end
+/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("SHORT_RAIDINSTRUC", UnitName("target"), "WHISPER", UnitName("player")) end
 END
 VER 3 0000000000000069 "Raid Invite Time" "132208"
 /run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))

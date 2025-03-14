@@ -7,10 +7,11 @@ LoggerHeadDB = {
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
@@ -19,8 +20,8 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -98,6 +99,8 @@ false,
 },
 ["Darkflame Cleft"] = {
 false,
+[23] = true,
+[8] = true,
 },
 ["Halls of Lightning"] = {
 [24] = false,
@@ -112,30 +115,19 @@ false,
 [24] = false,
 [2] = false,
 },
-["Mogu'shan Palace"] = {
-[24] = false,
-},
-["Temple of the Jade Serpent"] = {
-[24] = false,
-},
-["The Rookery"] = {
-false,
+["Grim Batol"] = {
 [8] = true,
-[23] = true,
-},
-["Cinderbrew Meadery"] = {
-false,
-[8] = true,
-[23] = true,
-},
-["Halls of Stone"] = {
 [2] = false,
-},
-["Ara-Kara, City of Echoes"] = {
-false,
-false,
-[8] = true,
 [23] = true,
+},
+["Utgarde Keep"] = {
+[24] = false,
+},
+["Gundrak"] = {
+[24] = false,
+},
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["The Stonevault"] = {
 true,
@@ -143,11 +135,23 @@ false,
 [23] = true,
 [8] = true,
 },
+["The MOTHERLODE!!"] = {
+true,
+},
+["Ara-Kara, City of Echoes"] = {
+false,
+false,
+[8] = true,
+[23] = true,
+},
+["Tempest Keep: The Botanica"] = {
+[24] = false,
+},
 ["Priory of the Sacred Flame"] = {
 false,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Halls of Stone"] = {
+[2] = false,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -158,18 +162,20 @@ false,
 [8] = true,
 [23] = true,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
-},
-["Grim Batol"] = {
+["Cinderbrew Meadery"] = {
+false,
 [8] = true,
-[2] = false,
 [23] = true,
 },
-["Gundrak"] = {
+["The Rookery"] = {
+false,
+[8] = true,
+[23] = true,
+},
+["Temple of the Jade Serpent"] = {
 [24] = false,
 },
-["Utgarde Keep"] = {
+["Mogu'shan Palace"] = {
 [24] = false,
 },
 },
@@ -189,14 +195,14 @@ false,
 ["Demolition Dome"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Fungal Folly"] = {
 [208] = false,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Excavation Site 9"] = {
+[208] = false,
 },
 ["Kriegval's Rest"] = {
 [208] = true,
@@ -207,26 +213,32 @@ false,
 ["The Underkeep"] = {
 [208] = false,
 },
-["Excavation Site 9"] = {
-[208] = false,
+["Tak-Rethan Abyss"] = {
+[208] = true,
 },
 },
 ["raid"] = {
-["Ulduar"] = {
-[24] = false,
-},
-["Antorus, the Burning Throne"] = {
-[16] = false,
-[14] = false,
-},
 ["Liberation of Undermine"] = {
 [14] = true,
 [17] = true,
 [15] = true,
 },
+["Antorus, the Burning Throne"] = {
+[16] = false,
+[14] = false,
+},
+["Ulduar"] = {
+[24] = false,
+},
 ["Sanctum of Domination"] = {
 [14] = false,
 [16] = false,
+},
+["Black Temple"] = {
+[24] = false,
+},
+["Naxxramas"] = {
+[3] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
@@ -234,22 +246,16 @@ false,
 [15] = true,
 [17] = true,
 },
-["Naxxramas"] = {
-[3] = false,
-},
-["Black Temple"] = {
-[24] = false,
-},
 ["Firelands"] = {
 [24] = false,
 },
 },
 },
 ["version"] = 3,
-["chat"] = true,
 ["minimap"] = {
 ["hide"] = true,
 },
+["chat"] = true,
 },
 },
 }

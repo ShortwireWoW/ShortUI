@@ -452,22 +452,14 @@ L["RAID_BOSS_FSOD_9"] = "켈투자드"
 --[[ L["RAID_BOSS_ICC_8"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ICC_9"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_8"] = ""--]] 
+L["RAID_BOSS_LOU_1"] = "벡시와 연마공"
+L["RAID_BOSS_LOU_2"] = "살육의 도가니"
+L["RAID_BOSS_LOU_3"] = "리크 리버브"
+L["RAID_BOSS_LOU_4"] = "스틱스 벙크정커"
+L["RAID_BOSS_LOU_5"] = "스프로켓몽거 로켄스톡"
+L["RAID_BOSS_LOU_6"] = "외팔이 좀도둑"
+L["RAID_BOSS_LOU_7"] = "보안 책임자 머그지"
+L["RAID_BOSS_LOU_8"] = "크롬왕 갤리윅스"
 L["RAID_BOSS_NP_1"] = "포식자 울그락스"
 L["RAID_BOSS_NP_2"] = "피결속 공포"
 L["RAID_BOSS_NP_3"] = "수레키 대장 시크란"
@@ -518,16 +510,12 @@ L["RAID_BOSS_VOTI_8"] = "폭풍포식자 라자게스"
 --[[Translation missing --]]
 --[[ L["RAID_BWD"] = ""--]] 
 L["RAID_DIFFICULTY_NAME_HEROIC"] = "영웅"
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_HEROIC10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_HEROIC25"] = ""--]] 
+L["RAID_DIFFICULTY_NAME_HEROIC10"] = "10인 영웅"
+L["RAID_DIFFICULTY_NAME_HEROIC25"] = "25인 영웅"
 L["RAID_DIFFICULTY_NAME_MYTHIC"] = "신화"
 L["RAID_DIFFICULTY_NAME_NORMAL"] = "일반"
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_NORMAL10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_NORMAL25"] = ""--]] 
+L["RAID_DIFFICULTY_NAME_NORMAL10"] = "10인 일반"
+L["RAID_DIFFICULTY_NAME_NORMAL25"] = "25인 일반"
 L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "영"
 --[[Translation missing --]]
 --[[ L["RAID_DIFFICULTY_SUFFIX_HEROIC10"] = ""--]] 
@@ -546,8 +534,7 @@ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "공격대 보스 처치"
 --[[ L["RAID_FL"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_ICC"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_LOU"] = ""--]] 
+L["RAID_LOU"] = "언더마인 해방전선"
 L["RAID_NP"] = "네룹아르 궁전"
 --[[Translation missing --]]
 --[[ L["RAID_RS"] = ""--]] 
