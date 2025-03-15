@@ -5,6 +5,7 @@ TomTomDB = {
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
+["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
@@ -56,6 +57,7 @@ TomTomWaypointsM = {
 ["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
+["Deleteitems - Area 52"] = "Deleteitems - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 ["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
@@ -85,6 +87,8 @@ TomTomWaypointsM = {
 ["Shortbeef - Area 52"] = {
 },
 ["Loveachieve - Mal'Ganis"] = {
+},
+["Deleteitems - Area 52"] = {
 },
 ["Shortbowjob - Area 52"] = {
 },

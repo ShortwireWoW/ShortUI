@@ -1,11 +1,8 @@
 # LittleWigs
 
-## [v11.1.13](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.13) (2025-03-12)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.12...v11.1.13) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.14](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.14) (2025-03-14)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.13...v11.1.14) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Update koKR (#1301)  
-- BfA/TheMotherlode/Rixxa: Update options  
-- BfA/TheMotherlode/Rixxa: Propellant Blast targets  
-- BfA/TheMotherlode/Razdunk: Micro Missiles timer update  
-- WarWithin/DarkflameCleft/OlWaxbeard: Underhanded Track-tics updates  
-- Delves/Trash/UnderpinRares: Forward Charge timer update  
+- bump min required version  
+- Delves/TheUnderkeep/TorqueAndSprok: Enable in Kriegval's Rest  
+- Shadowlands/TheaterOfPain/Trash: Advent Nevermore ability update  

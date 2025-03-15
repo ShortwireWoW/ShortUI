@@ -22,8 +22,8 @@ W: 128
 H: 64
 Frame: RARESCANNER_BUTTON
 FrameLevel: 200
-Anchor: BOTTOM
-X: -507
-Y: 27
+Anchor: BOTTOMRIGHT
+X: 0
+Y: 170
 W: 200
 H: 50

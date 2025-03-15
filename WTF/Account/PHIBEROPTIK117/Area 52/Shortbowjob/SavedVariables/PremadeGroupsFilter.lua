@@ -19,14 +19,14 @@ PremadeGroupsFilterState = {
 ["min"] = "",
 ["act"] = false,
 },
-["dungeon1"] = true,
-["dungeon6"] = true,
-["dungeon2"] = true,
 ["dps"] = {
 ["max"] = "",
 ["min"] = "",
 ["act"] = false,
 },
+["dungeon6"] = true,
+["dungeon4"] = true,
+["dungeon2"] = true,
 ["members"] = {
 ["max"] = "",
 ["min"] = "",
@@ -37,7 +37,7 @@ PremadeGroupsFilterState = {
 ["val"] = 4,
 ["act"] = true,
 },
-["dungeon4"] = true,
+["dungeon1"] = true,
 ["dungeon3"] = true,
 ["dungeon5"] = true,
 ["dungeon8"] = true,
@@ -68,7 +68,7 @@ PremadeGroupsFilterState = {
 ["raid"] = {
 ["difficulty"] = {
 ["val"] = 2,
-["act"] = false,
+["act"] = true,
 },
 ["heals"] = {
 ["max"] = "",
