@@ -9,8 +9,8 @@ LoggerHeadDB = {
 ["Shortbowjob - Area 52"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
-["Shortkin - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
@@ -144,19 +144,14 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Priory of the Sacred Flame"] = {
 false,
 },
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -167,11 +162,16 @@ false,
 [8] = true,
 [23] = true,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Grim Batol"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 ["Gundrak"] = {
 [24] = false,
@@ -199,22 +199,22 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Excavation Site 9"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
-["Nightfall Sanctum"] = {
+["Excavation Site 9"] = {
 [208] = false,
 },
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Fungal Folly"] = {
+[208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,
 },
-["Fungal Folly"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
 },
 },

@@ -1,22 +1,14 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 693,
+["session"] = 703,
 ["errors"] = {
 {
-["message"] = "Lua error in aura 'Percent Ahead/Behind Data': Trigger 2\nWeakAuras Version: 5.19.5\nStack trace:\n[string \"return function(event, encounterID, encount...\"]:16: attempt to index field 'lastAttempts' (a nil value)",
-["time"] = "2025/03/14 23:41:17",
-["locals"] = "event = \"ENCOUNTER_START\"\nencounterID = 3010\nencounterName = \"Cauldron of Carnage\"\ndifficultyID = 17\ngroupSize = 25\nsuccess = nil\nbossID = \"3010\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = true\n(*temporary) = \"attempt to index field 'lastAttempts' (a nil value)\"\n",
-["stack"] = "[return function(event, encounterID, encounterName, difficultyID, groupSize, success)]:16: in function <[string \"return function(event, encounterID, encount...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'ScanEvents'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1192: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1180>",
-["session"] = 693,
-["counter"] = 1,
-},
-{
-["message"] = "Lua error in aura 'Percent Ahead/Behind Data': Trigger 2\nWeakAuras Version: 5.19.5\nStack trace:\n[string \"return function(event, encounterID, encount...\"]:48: attempt to index field 'lastAttempts' (a nil value)",
-["time"] = "2025/03/14 23:45:43",
+["message"] = "Lua error in aura 'LE - RR - Amp Markers': Custom Action\nWeakAuras Version: 5.19.5\nStack trace:\n[string \"return function() function markAmps()\"]:7: attempt to call global 'UnitIsRaidLeader' (a nil value)",
+["time"] = "2025/03/15 17:56:08",
 ["locals"] = "Skipped (In Encounter)",
-["stack"] = "[return function(event, encounterID, encounterName, difficultyID, groupSize, success)]:48: in function <[string \"return function(event, encounterID, encount...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'ScanEvents'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1192: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1180>",
-["session"] = 693,
+["stack"] = "[return function() function markAmps()]:7: in function 'markAmps'\n[return function() function markAmps()]:75: in function <[string \"return function() function markAmps()\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3815: in function 'PerformActions'\n[Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua]:1136: in function 'Expand'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4749: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4741>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4833: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4799>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4943: in function 'UpdatedTriggerState'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:971: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:895: in function 'ScanEvents'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1190: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1180>",
+["session"] = 703,
 ["counter"] = 1,
 },
 },
