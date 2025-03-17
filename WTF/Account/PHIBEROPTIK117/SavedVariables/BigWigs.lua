@@ -1,38 +1,21 @@
 
 BigWigs3DB = {
-["profileKeys"] = {
-["Shortlite - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-},
 ["namespaces"] = {
-["BigWigs_Plugins_Victory"] = {
+["BigWigs_Bosses_Darkmaster Gandling"] = {
 },
-["BigWigs_Bosses_Rik Reverb"] = {
+["BigWigs_Bosses_Jandice Barov"] = {
 },
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Plugins_Sounds"] = {
+["BigWigs_Bosses_Gu Cloudstrike"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Cauldron of Carnage"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Plugins_Colors"] = {
+["BigWigs_Plugins_Raid Icons"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
+["BigWigs_Bosses_Liu Flameheart"] = {
 },
 ["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
 ["profiles"] = {
@@ -41,6 +24,49 @@ BigWigs3DB = {
 [440377] = 4116727,
 },
 },
+},
+["BigWigs_Bosses_Striker Ga'dok"] = {
+},
+["BigWigs_Bosses_Rattlegore"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Bosses_Hoptallus"] = {
+},
+["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["Default"] = {
+["custom_off_-31087"] = true,
+},
+},
+},
+["BigWigs_Bosses_Sha of Violence"] = {
+},
+["BigWigs_Bosses_Taran Zhu"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Bosses_Lilian Voss"] = {
+},
+["BigWigs_Bosses_Sha of Doubt"] = {
+},
+["BigWigs_Bosses_Wise Mari"] = {
+},
+["BigWigs_Bosses_Temple of the Jade Serpent Trash"] = {
+},
+["BigWigs_Bosses_Saboteur Kip'tilak"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
+},
+["BigWigs_Bosses_Master Snowdrift"] = {
+},
+["BigWigs_Bosses_Ook-Ook"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Bosses_Shado-Pan Monastery Trash"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -54,18 +80,37 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Bosses_Yan-Zhu the Uncasked"] = {
+},
+["BigWigs_Bosses_Raigonn"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Bosses_Commander Ri'mok"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Bosses_Instructor Chillheart"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
+},
+["profileKeys"] = {
+["Shortlite - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
@@ -333,10 +378,10 @@ BigWigsStatsDB = {
 },
 ["heroic"] = {
 ["kills"] = 1,
-["bestDate"] = "2025/03/15",
-["best"] = 399.5869999999995,
-["fkWipes"] = 9,
 ["fkDate"] = "2025/03/15",
+["bestDate"] = "2025/03/15",
+["fkWipes"] = 9,
+["best"] = 399.5869999999995,
 ["wipes"] = 9,
 ["fkDuration"] = 399.5869999999995,
 },

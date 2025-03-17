@@ -761,6 +761,7 @@ local function UpdateNotCollectedAppearanceItemIDs(routines, routineTextOutput)
 							context.counter = 0
 						end
 						if (visualsList[j] and not visualsList[j].isCollected) then
+							local previousVisualID
 							for classID = 1, GetNumClasses() do
 								local sources = C_TransmogCollection.GetValidAppearanceSourcesForClass(visualsList[j].visualID, classID, context.arguments[1], context.arguments[2]);
 								if (sources) then
@@ -777,8 +778,11 @@ local function UpdateNotCollectedAppearanceItemIDs(routines, routineTextOutput)
 										for k = 1, #sources do
 											if (sources[k].sourceType == 1 or sources[k].sourceType == 4) then --Boss Drop/World drop
 												if (not GetAppearanceItemIDs(sources[k].visualID) or not RSUtils.Contains(GetAppearanceItemIDs(sources[k].visualID), sources[k].itemID)) then
-													context.counter = context.counter + 1
 													AddAppearanceItemID(sources[k].visualID, sources[k].itemID)
+												end
+												
+												if (not previousVisualID or previousVisualID ~= sources[k].visualID) then
+													context.counter = context.counter + 1
 												end
 												
 												AddAppearanceClassItemID(classID, sources[k].itemID)

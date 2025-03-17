@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 704,
+["session"] = 712,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -25,6 +25,14 @@ BugGrabberDB = {
 ["locals"] = "unit = \"raid1\"\ndebuffID = 1217122\n(for index) = 1\n(for limit) = 40\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = \"raid1\"\n(*temporary) = 1\n(*temporary) = \"attempt to call global 'UnitDebuff' (a nil value)\"\n",
 ["stack"] = "[return function() function assignMarkersToPlayers()]:15: in function 'hasDebuff'\n[return function() function assignMarkersToPlayers()]:54: in function 'assignMarkersToPlayers'\n[return function() function assignMarkersToPlayers()]:86: in function <[string \"return function() function assignMarkersToP...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3815: in function 'PerformActions'\n[Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua]:1136: in function 'Expand'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4749: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4741>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4833: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4799>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4943: in function 'UpdatedTriggerState'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1175: in function 'ScanWithFakeEvent'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1509: in function 'LoadDisplays'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:1991: in function 'LoadDisplays'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:1772: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1614>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:1815: in function 'ScanForLoads'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:1886: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1884>",
 ["session"] = 704,
+["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn '*** ForceTaint_Strong ***' tried to call the protected function 'GuildControlSetRank()'.",
+["time"] = "2025/03/16 16:20:09",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'GuildControlSetRank'\n[return function()]:10: in function <[string \"return function()\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1127: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
+["session"] = 708,
 ["counter"] = 1,
 },
 },

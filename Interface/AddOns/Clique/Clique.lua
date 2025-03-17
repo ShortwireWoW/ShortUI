@@ -418,6 +418,8 @@ local function shouldApply(global, entry)
     end
 end
 
+local allSpecSets = {"spec1", "spec2", "spec3", "spec4", "spec5"}
+
 function addon:EntryIsCorrectSpec(entry)
     -- Classic era doesn't have talents, simplify here
     if not addon:GameVersionHasTalentSpecs() then
@@ -430,10 +432,9 @@ function addon:EntryIsCorrectSpec(entry)
         return true
     end
 
-    -- Need to check the other spec sets to ensure this shouldn't be
-    -- deactivated
-    for i = 1, addon:GetNumTalentSpecs() do
-        if entry.sets["spec" .. tostring(i)] then
+    -- If there are any spec sets at all, then fail this
+    for _, specKey in ipairs(allSpecSets) do
+        if entry.sets[specKey] then
             return false
         end
     end

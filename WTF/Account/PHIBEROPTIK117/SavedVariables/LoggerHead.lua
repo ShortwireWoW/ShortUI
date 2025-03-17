@@ -116,16 +116,22 @@ false,
 [24] = false,
 [2] = false,
 },
+["The Rookery"] = {
+false,
+[8] = true,
+[23] = true,
+},
+["Gate of the Setting Sun"] = {
+[24] = false,
+},
 ["Mogu'shan Palace"] = {
 [24] = false,
 },
 ["Temple of the Jade Serpent"] = {
 [24] = false,
 },
-["The Rookery"] = {
-false,
-[8] = true,
-[23] = true,
+["Shado-Pan Monastery"] = {
+[24] = false,
 },
 ["Cinderbrew Meadery"] = {
 false,

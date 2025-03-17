@@ -4,6 +4,11 @@ BigWigs3DB = {
 ["BigWigs_Plugins_Victory"] = {
 },
 ["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["Default"] = {
+["custom_off_-31087"] = true,
+},
+},
 },
 ["LibDualSpec-1.0"] = {
 },
@@ -56,15 +61,6 @@ nil,
 },
 },
 },
-["profileKeys"] = {
-["Shortblink - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
-},
 ["global"] = {
 ["watchedMovies"] = {
 [-607] = true,
@@ -82,6 +78,15 @@ true,
 [-575] = true,
 [-2292] = true,
 },
+},
+["profileKeys"] = {
+["Shortblink - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -330,7 +335,13 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/03/07",
 },
 ["heroic"] = {
-["wipes"] = 1,
+["kills"] = 1,
+["fkDuration"] = 399.5869999999995,
+["wipes"] = 9,
+["fkWipes"] = 9,
+["best"] = 399.5869999999995,
+["bestDate"] = "2025/03/15",
+["fkDate"] = "2025/03/15",
 },
 ["LFR"] = {
 ["kills"] = 15,
@@ -350,6 +361,9 @@ BigWigsStatsDB = {
 ["best"] = 253.5799999999981,
 ["bestDate"] = "2025/03/14",
 ["fkDate"] = "2025/03/07",
+},
+["heroic"] = {
+["wipes"] = 5,
 },
 ["LFR"] = {
 ["kills"] = 11,

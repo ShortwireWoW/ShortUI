@@ -7,6 +7,8 @@ CauseseDB = {
         [430179] = {"Drop", "Drop.ogg"}, --Seeping Corruption
         [424423] = {"Spread", "Spread.ogg"}, --Lunging Strike
         [448787] = {"Targeted", "Targeted.ogg"}, --Purification
+        [427616] = {"Targeted", "Targeted.ogg"}, --Energized Barrage
+        [430805] = {"Spread", "Spread.ogg"}, --Arcing Void
         [1217279] = {"Knock", "Knock.ogg"}, --Uppercut
         [257582] = {"Fixate", "Fixate.ogg"}, --Raging Gaze
         [262794] = {"Targeted", "Targeted.ogg"}, --Mind Lash
@@ -18,7 +20,7 @@ CauseseDB = {
     },
     trash_cc = {
         --[spellID] = {"name",category,"soundFile","role", "show target" (true/false), "important" (true/false)},
-        [267354] = {"KNIVES",2,"","ALL",false,true}, --Fan of Knives
+        [267354] = {"KNIVES",2,"CC.ogg","ALL",false,true}, --Fan of Knives
         [268702] = {"AoE",0,"","ALL",false,true}, --Furious Quake
         [330810] = {"DoT",0,"","ALL",true,true}, --Bind Soul
         [427342] = {"DEFEND",2,"CC.ogg","ALL",false,true}, --Defend
@@ -27,7 +29,11 @@ CauseseDB = {
         [465127] = {"FIXATE",2,"","ALL",true,true}, --Wind Up Channel
         [341969] = {"AoE",0,"","ALL",false,true}, --Withering Discharge
         [471733] = {"Heal",0,"","ALL",false,true}, --Restorative Algae
+        [424322] = {"AoE",0,"","ALL",false,true}, --Explosive Flame
         [1214780] = {"AoE",0,"Interrupt.ogg","ALL",false,true}, --Maximum Distortion
+        [444743] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Fireball Volley
+        [440687] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Honey Volley
+        [330868] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Necrotic Bolt Volley
     },
     timers = {
         --Cinderbrew Meadery
@@ -37,7 +43,7 @@ CauseseDB = {
         ["220946"] = {[442995] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.3, 23}}, --Swarming Surprise
         ["220141"] = {[440687] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 5.9, 25.4}}, --Honey Volley
         --Darkflame Cleft
-        ["211121"] = {[428066] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 9.8, 23.4}}, --Overpowering Roar55555555555555555555555555555555555555555555555
+        ["211121"] = {[428066] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 9.8, 23.4}}, --Overpowering Roar
         ["233152"] = {[430171] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 5.3, 18.2}}, --Quenching Blast
         ["208450"] = {[430171] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 5.3, 18.2}}, --Quenching Blast
         ["212411"] = {[1218117] = {"SPELL_CAST_START", 0, "ALL", "Knock Inc", 4.9, 18.2}}, --Massive Stomp
@@ -47,7 +53,11 @@ CauseseDB = {
         ["214421"] = {[430812] = {"SPELL_CAST_START", 0, "ALL", "DoT Inc", 5.2, 21.8}}, --Attracting Shadows
         ["212793"] = {[1214523] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 5.2, 24.2}}, --Feasting Void
         --Priory of the Scared Flame
-        ["206696"] = {[427609] = {"SPELL_CAST_START", 1, "ALL", "Stopcast Inc", 20.4, 23}}, --Disrupting Shout
+        ["206696"] = {
+            [427609] = {"SPELL_CAST_START", 1, "ALL", "Stopcast Inc", 20.4, 23}, --Disrupting Shout
+            [444296] = {"SPELL_CAST_START", 2, "HEAL", "Bleed Inc", 3.8, 18.3}, --Impale
+        },
+        ["221760"] = {[444743] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 9.5, 24.3}}, --Fireball Volley
         ["212826"] = {
             [448485] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 5.9, 12.1}, --Shield Slam
             [448492] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 14.7, 15.7}, --Thunderclap
@@ -55,7 +65,7 @@ CauseseDB = {
         ["212831"] = {[427897] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.8, 18.2}}, --Heat Wave
         ["239833"] = {[424431] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 26.1, 37.6}}, --Holy Radiance
         ["206704"] = {[448791] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 15.5, 21.7}}, --Sacred Toll
-        ["206710"] = {[427601] = {"SPELL_CAST_START", 2, "ALL", "Heal Inc", 50, 0.1}}, --Burst of Light
+        ["206710"] = {[427601] = {"SPELL_CAST_START", 2, "ALL", "Heal Inc", 36, 0.1}}, --Burst of Light
         --Floodgate
         ["230748"] = {[465827] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 19.4}}, --Warp Blood
         ["231197"] = {
@@ -82,6 +92,7 @@ CauseseDB = {
         ["136643"] = {[473168] = {"SPELL_CAST_START", 0, "ALL", "Dance Inc", 15.5, 26.7}}, --Rapid Extraction
         ["133430"] = {[473304] = {"SPELL_CAST_START", 2, "ALL", "Drop Inc", 7.9, 23}}, --Brainstorm
         ["133463"] = {[269429] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 7.4, 18.2}}, --Charged Shot
+        ["134012"] = {[1214751] = {"SPELL_CAST_SUCCESS", 0, "ALL", "Charge Inc", 9.9, 18.2}}, --Brutal Charge
         --Theater of Pain
         ["170850"] = {[333241] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 7.2, 18.2}}, --Raging Tantrum
         ["167998"] = {
@@ -95,6 +106,7 @@ CauseseDB = {
         ["167538"] = {[1215850] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 10.4, 13.2}}, --Earthcrusher
         ["167533"] = {[333827] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 2.1, 9.7}}, --Seismic Stomp
         ["169893"] = {[333299] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Curse Inc", 6.9, 12.1}}, --Curse of Desolation
+        ["160495"] = {[330868] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 13.3, 24.2}}, --Necrotic Bolt Volley
     },
     private_auras = {
 
@@ -107,7 +119,7 @@ CauseseDB = {
         [445457] = {"Frontal", 4, true, "Bite.ogg"}, --Oblivion Wave
         [448485] = {"Knock", 4, true, "Knock.ogg"}, --Shield Slam
         [448515] = {"Buster", 4, true, "Bite.ogg"}, --Divine Judgement
-        [424414] = {"Bleed", 4, true, ""}, --Pierce Armor
+        [424414] = {"Bleed", 4, true, "Bleed.ogg"}, --Pierce Armor
         [435165] = {"Buster", 4, true, "Bite.ogg"}, --Blazing Strike
         [471585] = {"Move", 4, true, "Move.ogg"}, --Mobilizing Mechadrones
         [473351] = {"Buster", 4, true, "Bite.ogg"}, --Electrocrush
@@ -125,5 +137,6 @@ CauseseDB = {
         [324079] = {"Buster", 4, true, "Bite.ogg"}, --Reaping Scythe
         [331316] = {"Buster", 4, true, "Bite.ogg"}, --Savage Flurry
         [459799] = {"Knock Up", 4, true, "Bite.ogg"}, --Wallop
+        [443487] = {"Sting", 4, true, ""}, --Final Sting
     },
 }
