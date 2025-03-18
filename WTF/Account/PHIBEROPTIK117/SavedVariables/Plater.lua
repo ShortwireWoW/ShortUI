@@ -1,1505 +1,209 @@
 
 PlaterDB = {
 ["captured_spells"] = {
-[1217528] = {
+[1214872] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = false,
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Nah'qi",
-["npcID"] = 165189,
+["npcID"] = 230583,
 },
-[419204] = {
-["event"] = "SPELL_AURA_APPLIED",
+[1216674] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Void Turret",
+["isChanneled"] = false,
+["encounterID"] = 3013,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 231846,
+},
+[1218318] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "BUFF",
-["source"] = "Crenna Earth-Daughter",
-["npcID"] = 209072,
-},
-[113999] = {
-["encounterName"] = "Rattlegore",
-["source"] = "Rattlegore",
-["isChanneled"] = false,
-["encounterID"] = 1428,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59153,
-},
-[106620] = {
-["type"] = "BUFF",
-["source"] = "Jade Staff",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56678,
+["npcID"] = 230583,
 },
-[127801] = {
-["isChanneled"] = false,
-["source"] = "Turnip Punching Bag",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 65310,
-},
-[419205] = {
-["source"] = "Crenna Earth-Daughter",
-["type"] = "BUFF",
+[1214878] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["type"] = "DEBUFF",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 209072,
+["npcID"] = 230583,
 },
-[114860] = {
+[466765] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = false,
-["source"] = "Professor Slate",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59613,
+["npcID"] = 230583,
 },
-[398296] = {
+[1216525] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Rocket Launcher",
 ["isChanneled"] = false,
-["source"] = "Shambling Infester",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200387,
+["npcID"] = 230360,
 },
-[115418] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Wind Shaper",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59801,
-},
-[107019] = {
-["type"] = "BUFF",
-["source"] = "Hozen Bouncer",
+[470695] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["type"] = "DEBUFF",
+["source"] = "Mechano Wolf",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56849,
+["npcID"] = 228050,
 },
-[112932] = {
+[1218418] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = false,
-["source"] = "Residual Hatred",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58803,
+["npcID"] = 230583,
 },
-[128248] = {
+[1216414] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Beam Turret",
 ["isChanneled"] = false,
-["source"] = "Shado-Pan Ambusher",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59752,
+["npcID"] = 230358,
 },
-[157331] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Primal Storm Elemental",
-["npcID"] = 77942,
+[471308] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["type"] = "DEBUFF",
+["source"] = "Fire Trap",
+["encounterID"] = 3013,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 233728,
 },
-[134477] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
+[1214267] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["type"] = "DEBUFF",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 230583,
 },
-[102573] = {
-["encounterName"] = "Gu Cloudstrike",
-["source"] = "Azure Serpent",
+[466860] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = true,
-["encounterID"] = 1303,
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56754,
-},
-[454782] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Kelpfist",
-["npcID"] = 225985,
-},
-[270481] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Demonic Tyrant",
-["npcID"] = 135002,
-},
-[3606] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Searing Totem",
-["npcID"] = 2523,
-},
-[434574] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Blood Beast",
-["npcID"] = 217228,
-},
-[438973] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Pit Lord",
-["npcID"] = 228574,
-},
-[114176] = {
-["type"] = "BUFF",
-["source"] = "Flesh Horror",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59359,
-},
-[106797] = {
-["encounterName"] = "Liu Flameheart",
-["source"] = "Liu Flameheart",
-["isChanneled"] = false,
-["encounterID"] = 1416,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56732,
-},
-[5672] = {
-["isChanneled"] = false,
-["source"] = "Healing Stream Totem",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 3527,
-},
-[114479] = {
-["isChanneled"] = false,
-["source"] = "Candlestick Mage",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59467,
-},
-[267997] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Gloomhound",
-["npcID"] = 226268,
-},
-[466961] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[106877] = {
-["encounterName"] = "Sha of Violence",
-["source"] = "Sha of Violence",
-["isChanneled"] = false,
-["encounterID"] = 1305,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56719,
-},
-[396008] = {
-["type"] = "BUFF",
-["source"] = "The Crybaby Hozen",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59552,
-},
-[106925] = {
-["isChanneled"] = false,
-["source"] = "Consuming Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56764,
-},
-[392375] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Spirit Wolf",
-["npcID"] = 29264,
-},
-[471999] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Bear",
-["npcID"] = 234018,
-},
-[114400] = {
-["type"] = "BUFF",
-["source"] = "World Trigger",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59481,
-},
-[113141] = {
-["encounterName"] = "Darkmaster Gandling",
-["source"] = "Darkmaster Gandling",
-["isChanneled"] = false,
-["encounterID"] = 1430,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59080,
-},
-[455489] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Gloomhound",
-["npcID"] = 226268,
-},
-[107324] = {
-["encounterName"] = "Raigonn",
-["type"] = "BUFF",
-["source"] = "Krik'thik Protectorate",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56929,
-},
-[107356] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["isChanneled"] = true,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56884,
-},
-[111723] = {
-["encounterName"] = "Raigonn",
-["source"] = "Raigonn",
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56877,
-},
-[457913] = {
-["source"] = "Deployed Wind-Wrangling Spire",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 227482,
-},
-[343737] = {
-["type"] = "BUFF",
-["source"] = "Yu'lon",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 165374,
-},
-[386195] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Dreadstalker",
-["npcID"] = 98035,
-},
-[377589] = {
-["source"] = "Dirthead",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 26125,
-},
-[126115] = {
-["type"] = "DEBUFF",
-["source"] = "Shado-Pan Ice Archer",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 64549,
-},
-[115421] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Wind Shaper",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59801,
-},
-[114927] = {
-["isChanneled"] = false,
-["source"] = "Gu Cloudstrike",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56747,
-},
-[115453] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Infiltrator",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58108,
-},
-[467542] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Amplifier",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 230197,
-},
-[467606] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[107118] = {
-["encounterName"] = "Commander Ri'mok",
-["source"] = "Raigonn",
-["isChanneled"] = false,
-["encounterID"] = 1406,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56877,
-},
-[112999] = {
-["isChanneled"] = false,
-["source"] = "Residual Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58803,
-},
-[114864] = {
-["isChanneled"] = false,
-["source"] = "Bored Student",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59614,
-},
-[116155] = {
-["isChanneled"] = false,
-["source"] = "Yeasty Brew Alemental",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 66413,
-},
-[467991] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "DEBUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
-},
-[192082] = {
-["source"] = "Wind Rush Totem",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 97285,
-},
-[468119] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "DEBUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
-},
-[397931] = {
-["isChanneled"] = false,
-["source"] = "Minion of Doubt",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 57109,
-},
-[1215823] = {
-["source"] = "Brann Bronzebeard",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 210759,
-},
-[264057] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
-},
-[114291] = {
-["isChanneled"] = false,
-["source"] = "Hopper",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59464,
-},
-[395829] = {
-["isChanneled"] = false,
-["source"] = "Corrupt Droplet",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 62358,
-},
-[464488] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
+["npcID"] = 230583,
 },
 [1215066] = {
 ["type"] = "DEBUFF",
 ["source"] = "Unknown",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 1860,
-},
-[114658] = {
-["encounterName"] = "Instructor Chillheart",
-["source"] = "Instructor Chillheart",
-["isChanneled"] = false,
-["encounterID"] = 1426,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58633,
-},
-[465573] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
-},
-[115455] = {
-["encounterName"] = "Striker Ga'dok",
-["source"] = "Krik'thik Disruptor",
-["isChanneled"] = false,
-["encounterID"] = 1405,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59794,
-},
-[106113] = {
-["encounterName"] = "Sha of Doubt",
-["source"] = "Sha of Doubt",
-["isChanneled"] = false,
-["encounterID"] = 1439,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56439,
-},
-[1216858] = {
-["type"] = "DEBUFF",
-["source"] = "Xal'atath",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 236933,
-},
-[472714] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Amplifier",
-["encounterID"] = 3011,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 230197,
-},
-[115009] = {
-["isChanneled"] = true,
-["source"] = "Shado-Pan Stormbringer",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59808,
-},
-[457797] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Deployed Battle Supplies",
-["npcID"] = 227453,
-},
-[397936] = {
-["type"] = "DEBUFF",
-["source"] = "Depraved Mistweaver",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 200137,
-},
-[181089] = {
-["encounterName"] = "Liu Flameheart",
-["source"] = "Liu Flameheart",
-["isChanneled"] = false,
-["encounterID"] = 1416,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56732,
-},
-[1215334] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "DEBUFF",
-["source"] = "Brann Bronzebeard",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 210759,
-},
-[106929] = {
-["isChanneled"] = false,
-["source"] = "Consuming Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56764,
-},
-[110125] = {
-["type"] = "DEBUFF",
-["source"] = "Minion of Doubt",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 57109,
-},
-[373521] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Cavern Basilisk",
-["npcID"] = 219949,
-},
-[80182] = {
-["isChanneled"] = false,
-["source"] = "Drunken Hozen Brawler",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56862,
-},
-[466979] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[111854] = {
-["encounterName"] = "Instructor Chillheart",
-["source"] = "Instructor Chillheart",
-["isChanneled"] = false,
-["encounterID"] = 1426,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58633,
-},
-[397911] = {
-["isChanneled"] = false,
-["source"] = "Depraved Mistweaver",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200137,
-},
-[111631] = {
-["encounterName"] = "Instructor Chillheart",
-["source"] = "Instructor Chillheart",
-["isChanneled"] = false,
-["encounterID"] = 1426,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58633,
-},
-[110117] = {
-["isChanneled"] = false,
-["source"] = "Ethereal Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 65414,
-},
-[397899] = {
-["isChanneled"] = false,
-["source"] = "Sha-Touched Guardian",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200131,
-},
-[398300] = {
-["isChanneled"] = true,
-["source"] = "Shambling Infester",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200387,
-},
-[114474] = {
-["isChanneled"] = false,
-["source"] = "Candlestick Mage",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59467,
-},
-[157375] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Primal Storm Elemental",
-["npcID"] = 77942,
-},
-[397914] = {
-["isChanneled"] = true,
-["source"] = "Depraved Mistweaver",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200137,
-},
-[114548] = {
-["encounterName"] = "Yan-Zhu the Uncasked",
-["source"] = "Yan-Zhu the Uncasked",
-["isChanneled"] = false,
-["encounterID"] = 1414,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59479,
-},
-[41600] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Blood Beast",
-["npcID"] = 217228,
-},
-[118714] = {
-["isChanneled"] = false,
-["source"] = "Wise Mari",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[121483] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[396874] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[24450] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Sprinkles",
 ["npcID"] = 165189,
-},
-[397878] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Corrupt Living Water",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56511,
-},
-[111600] = {
-["encounterName"] = "Raigonn",
-["source"] = "Krik'thik Swarm Bringer",
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56930,
-},
-[167385] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Dungeoneer's Training Dummy",
-["npcID"] = 225977,
-},
-[397881] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Corrupt Living Water",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56511,
-},
-[106526] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[432113] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Overlord",
-["npcID"] = 228575,
-},
-[106808] = {
-["encounterName"] = "Ook-Ook",
-["type"] = "DEBUFF",
-["source"] = "Ook-Ook",
-["encounterID"] = 1412,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56637,
-},
-[89766] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Felguard",
-["npcID"] = 17252,
-},
-[106062] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[452514] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Boulderbane",
-["npcID"] = 224756,
-},
-[466093] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Amplifier",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 230197,
-},
-[472532] = {
-["source"] = "Anti-Ethereal Unit",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 234174,
-},
-[384366] = {
-["isChanneled"] = false,
-["source"] = "Ashwhite Kestrel",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 215070,
-},
-[112911] = {
-["isChanneled"] = false,
-["source"] = "Fragment of Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58810,
-},
-[397503] = {
-["type"] = "DEBUFF",
-["source"] = "Lesser Sha",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59598,
-},
-[116178] = {
-["isChanneled"] = false,
-["source"] = "Sudsy Brew Alemental",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59522,
-},
-[115650] = {
-["isChanneled"] = false,
-["source"] = "Sudsy Brew Alemental",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59522,
-},
-[106851] = {
-["isChanneled"] = false,
-["source"] = "Stout Brew Alemental",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59519,
-},
-[111725] = {
-["encounterName"] = "Raigonn",
-["source"] = "Raigonn",
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56877,
-},
-[112992] = {
-["encounterName"] = "Hoptallus",
-["source"] = "Hoptallus",
-["isChanneled"] = true,
-["encounterID"] = 1413,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56717,
-},
-[107314] = {
-["encounterName"] = "Raigonn",
-["source"] = "Krik'thik Protectorate",
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56929,
-},
-[106055] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["isChanneled"] = false,
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56448,
-},
-[89751] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
-},
-[106447] = {
-["isChanneled"] = true,
-["source"] = "Shado-Pan Novice",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56395,
-},
-[104318] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Wild Imp",
-["npcID"] = 143622,
-},
-[30151] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Felguard",
-["npcID"] = 17252,
-},
-[113020] = {
-["isChanneled"] = false,
-["source"] = "Vestige of Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58807,
 },
 [108446] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
+["type"] = "BUFF",
+["source"] = "Unknown",
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 417,
 },
-[451435] = {
+[465232] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = false,
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Voidwraith",
-["npcID"] = 224466,
+["npcID"] = 230583,
 },
-[2649] = {
-["source"] = "Rita",
+[1218319] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "DEBUFF",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 165189,
+["npcID"] = 230583,
 },
-[473748] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
+[470686] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Mechano Wolf",
 ["isChanneled"] = false,
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
+["npcID"] = 228050,
 },
-[157348] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Primal Storm Elemental",
-["npcID"] = 77942,
-},
-[114646] = {
-["isChanneled"] = false,
-["source"] = "Haunting Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59555,
-},
-[388260] = {
-["event"] = "SPELL_AURA_APPLIED",
+[1218344] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "BUFF",
-["source"] = "Rubbery Fish Head",
-["npcID"] = 196406,
-},
-[267964] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
-},
-[107046] = {
-["type"] = "DEBUFF",
-["source"] = "Sodden Hozen Brawler",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59605,
-},
-[115002] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["isChanneled"] = false,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56884,
-},
-[114999] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["isChanneled"] = false,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56884,
-},
-[131521] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["isChanneled"] = false,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56884,
-},
-[106853] = {
-["encounterName"] = "Master Snowdrift",
-["source"] = "Master Snowdrift",
-["isChanneled"] = true,
-["encounterID"] = 1304,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56541,
-},
-[397888] = {
-["isChanneled"] = false,
-["source"] = "Fallen Waterspeaker",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200126,
-},
-[1213817] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
-},
-[466866] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[444490] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Ancestor",
-["npcID"] = 221177,
-},
-[121468] = {
-["encounterName"] = "Commander Ri'mok",
-["source"] = "Raigonn",
-["isChanneled"] = false,
-["encounterID"] = 1406,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 61177,
-},
-[106439] = {
-["isChanneled"] = false,
-["source"] = "Shado-Pan Novice",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56395,
-},
-[112998] = {
-["isChanneled"] = false,
-["source"] = "Residual Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58803,
-},
-[113021] = {
-["isChanneled"] = false,
-["source"] = "Vestige of Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58807,
-},
-[114873] = {
-["isChanneled"] = false,
-["source"] = "Professor Slate",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59613,
-},
-[107268] = {
-["encounterName"] = "Saboteur Kip'tilak",
-["source"] = "Saboteur Kip'tilak",
-["isChanneled"] = false,
-["encounterID"] = 1397,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56906,
-},
-[472478] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Bear",
-["npcID"] = 234018,
-},
-[267999] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Gloomhound",
-["npcID"] = 226268,
-},
-[1216682] = {
-["type"] = "BUFF",
-["source"] = "Brann Bronzebeard",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 210759,
-},
-[115630] = {
-["type"] = "DEBUFF",
-["source"] = "Shado-Pan Warden",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59751,
-},
-[89753] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Orikroon",
-["npcID"] = 17252,
-},
-[38166] = {
-["encounterName"] = "Sha of Violence",
-["source"] = "Sha of Violence",
-["isChanneled"] = false,
-["encounterID"] = 1305,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56719,
-},
-[1215921] = {
-["source"] = "Brann Bronzebeard",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 210759,
-},
-[106827] = {
-["encounterName"] = "Sha of Violence",
-["source"] = "Sha of Violence",
-["isChanneled"] = true,
-["encounterID"] = 1305,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56719,
-},
-[113022] = {
-["isChanneled"] = false,
-["source"] = "Vestige of Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58807,
-},
-[106942] = {
-["isChanneled"] = true,
-["source"] = "Destroying Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56765,
-},
-[119684] = {
-["source"] = "Xin the Weaponmaster",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 61398,
-},
-[131241] = {
-["type"] = "DEBUFF",
-["source"] = "Shado-Pan Fire Archer",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56767,
-},
-[106966] = {
-["isChanneled"] = false,
-["source"] = "Volatile Energy",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56766,
-},
-[115652] = {
-["isChanneled"] = false,
-["source"] = "Stout Brew Alemental",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59519,
-},
-[201754] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Nah'qi",
-["npcID"] = 165189,
-},
-[106699] = {
-["type"] = "DEBUFF",
-["source"] = "Flying Snow",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 56473,
-},
-[106646] = {
-["isChanneled"] = true,
-["source"] = "Flying Snow",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56473,
-},
-[274156] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Rune Weapon",
-["npcID"] = 27893,
-},
-[106807] = {
-["encounterName"] = "Ook-Ook",
-["source"] = "Ook-Ook",
-["isChanneled"] = true,
-["encounterID"] = 1412,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56637,
-},
-[111668] = {
-["encounterName"] = "Commander Ri'mok",
-["source"] = "Raigonn",
-["isChanneled"] = false,
-["encounterID"] = 1406,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56877,
-},
-[115509] = {
-["isChanneled"] = false,
-["source"] = "Shado-Pan Warden",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59751,
-},
-[106547] = {
-["isChanneled"] = false,
-["source"] = "Shado-Pan Novice",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56395,
+["npcID"] = 230583,
 },
 [433622] = {
-["encounterName"] = "Rik Reverb",
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "DEBUFF",
 ["source"] = "Brann Bronzebeard",
-["encounterID"] = 3011,
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 210759,
 },
-[106421] = {
+[469900] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Mechano Wolf",
 ["isChanneled"] = false,
-["source"] = "Shado-Pan Disciple",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58198,
+["npcID"] = 228050,
 },
-[466364] = {
-["encounterName"] = "Rik Reverb",
+[1215858] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "DEBUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
+["source"] = "Mega Magnet",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
+["npcID"] = 236256,
 },
-[472293] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Pyrotechnics",
-["encounterID"] = 3011,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 233623,
-},
-[110945] = {
-["encounterName"] = "Gu Cloudstrike",
-["source"] = "Gu Cloudstrike",
-["isChanneled"] = true,
-["encounterID"] = 1303,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56747,
-},
-[107120] = {
-["encounterName"] = "Commander Ri'mok",
-["source"] = "Commander Ri'mok",
-["isChanneled"] = true,
-["encounterID"] = 1406,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56636,
-},
-[114872] = {
-["isChanneled"] = false,
-["source"] = "Bored Student",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59614,
-},
-[114493] = {
+[465917] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "DEBUFF",
-["source"] = "Reanimated Corpse",
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59501,
+["npcID"] = 230583,
 },
-[113629] = {
+[473276] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Sprocketmonger Lockenstock",
 ["isChanneled"] = false,
-["source"] = "Boneweaver",
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59193,
+["npcID"] = 230583,
 },
-[115430] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Rager",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59800,
-},
-[453616] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Doomguard",
-["npcID"] = 225493,
-},
-[432515] = {
-["encounterName"] = "Instructor Chillheart",
-["type"] = "BUFF",
+[1215334] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["type"] = "DEBUFF",
 ["source"] = "Brann Bronzebeard",
-["encounterID"] = 1426,
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 210759,
 },
-[439209] = {
+[1216699] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Void Launcher",
 ["isChanneled"] = false,
+["encounterID"] = 3013,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Blood Beast",
-["npcID"] = 217228,
+["npcID"] = 231903,
 },
-[464518] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[55078] = {
-["event"] = "SPELL_AURA_APPLIED",
+[1221320] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
 ["type"] = "DEBUFF",
-["source"] = "Rune Weapon",
-["npcID"] = 27893,
-},
-[128766] = {
-["isChanneled"] = false,
-["source"] = "Shado-Pan Ambusher",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59752,
-},
-[106872] = {
-["encounterName"] = "Sha of Violence",
-["source"] = "Sha of Violence",
-["isChanneled"] = false,
-["encounterID"] = 1305,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56719,
-},
-[282449] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Akaari's Soul",
-["npcID"] = 144961,
-},
-[472743] = {
+["source"] = "Sprocketmonger Lockenstock",
+["encounterID"] = 3013,
 ["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Bear",
-["npcID"] = 234018,
-},
-[106920] = {
-["isChanneled"] = false,
-["source"] = "Regenerating Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56763,
-},
-[90361] = {
-["source"] = "Unknown",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 165189,
-},
-[107146] = {
-["encounterName"] = "Raigonn",
-["source"] = "Raigonn",
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56877,
-},
-[464584] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[106984] = {
-["encounterName"] = "Gu Cloudstrike",
-["source"] = "Gu Cloudstrike",
-["isChanneled"] = false,
-["encounterID"] = 1303,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56747,
-},
-[107047] = {
-["encounterName"] = "Striker Ga'dok",
-["source"] = "Striker Ga'dok",
-["isChanneled"] = false,
-["encounterID"] = 1405,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56589,
-},
-[113136] = {
-["encounterName"] = "Darkmaster Gandling",
-["source"] = "Darkmaster Gandling",
-["isChanneled"] = false,
-["encounterID"] = 1430,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59080,
-},
-[106866] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Bombardier",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56706,
-},
-[115419] = {
-["type"] = "DEBUFF",
-["source"] = "Krik'thik Wind Shaper",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59801,
-},
-[112929] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Gripping Hatred",
-["isChanneled"] = false,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59804,
-},
-[30213] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Felguard",
-["npcID"] = 17252,
-},
-[1223524] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Ancestor",
-["npcID"] = 221177,
-},
-[115436] = {
-["isChanneled"] = false,
-["source"] = "Krik'thik Rager",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59800,
-},
-[397904] = {
-["isChanneled"] = false,
-["source"] = "Sha-Touched Guardian",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 200131,
-},
-[176458] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Blacksmithing Follower - Horde",
-["npcID"] = 88402,
-},
-[434242] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Blood Beast",
-["npcID"] = 217228,
-},
-[123496] = {
-["encounterName"] = "Gu Cloudstrike",
-["source"] = "Azure Serpent",
-["isChanneled"] = false,
-["encounterID"] = 1303,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56754,
-},
-[114141] = {
-["type"] = "BUFF",
-["source"] = "Krastinovian Carver",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59368,
-},
-[1218694] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Amplifier",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 230197,
-},
-[114874] = {
-["isChanneled"] = false,
-["source"] = "Professor Slate",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59613,
-},
-[1604] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Normal Tank Dummy",
-["npcID"] = 225976,
-},
-[386176] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Orikroon",
-["npcID"] = 17252,
-},
-[433925] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Rune Weapon",
-["npcID"] = 27893,
-},
-[432120] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Overlord",
-["npcID"] = 228575,
-},
-[465] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Captain Garrick",
-["npcID"] = 209057,
-},
-[193473] = {
-["source"] = "Void Tendril",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 192337,
-},
-[106826] = {
-["encounterName"] = "Sha of Violence",
-["source"] = "Sha of Violence",
-["isChanneled"] = true,
-["encounterID"] = 1305,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56719,
-},
-[473260] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 228648,
-},
-[114386] = {
-["source"] = "Yan-Zhu the Uncasked",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59479,
-},
-[113765] = {
-["encounterName"] = "Rattlegore",
-["type"] = "BUFF",
-["source"] = "Rattlegore",
-["encounterID"] = 1428,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 59153,
-},
-[167381] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Dungeoneer's Training Dummy",
-["npcID"] = 225977,
-},
-[106651] = {
-["encounterName"] = "Ook-Ook",
-["source"] = "Ook-Ook",
-["isChanneled"] = false,
-["encounterID"] = 1412,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56637,
-},
-[114062] = {
-["encounterName"] = "Jandice Barov",
-["source"] = "Jandice Barov",
-["isChanneled"] = true,
-["encounterID"] = 1427,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59184,
-},
-[106428] = {
-["isChanneled"] = true,
-["source"] = "Shado-Pan Novice",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56395,
-},
-[114859] = {
-["isChanneled"] = false,
-["source"] = "Bored Student",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 59614,
-},
-[90328] = {
-["source"] = "Unknown",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 165189,
-},
-[452545] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Boulderbane",
-["npcID"] = 224756,
-},
-[116947] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Earthgrab Totem",
-["npcID"] = 60561,
-},
-[469380] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "DEBUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
-},
-[385023] = {
-["source"] = "Overgrown Fly",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 234566,
-},
-[16827] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Ten",
-["npcID"] = 165189,
-},
-[112931] = {
-["isChanneled"] = false,
-["source"] = "Fragment of Hatred",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 58810,
-},
-[466128] = {
-["encounterName"] = "Rik Reverb",
-["type"] = "BUFF",
-["source"] = "Rik Reverb",
-["encounterID"] = 3011,
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 228648,
+["npcID"] = 230583,
 },
 },
 ["profileKeys"] = {
@@ -1578,10 +282,10 @@ PlaterDB = {
 ["nameplateSelfBottomInset"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
 ["nameplateTargetRadialPosition"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
 ["nameplateShowFriendlyGuardians"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
-["nameplateSelfAlpha"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
-["ShowNamePlateLoseAggroFlash"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
-["nameplateOccludedAlphaMult"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
 ["NamePlateHorizontalScale"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
+["ShowNamePlateLoseAggroFlash"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
+["nameplateSelfAlpha"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
+["nameplateOccludedAlphaMult"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
 ["nameplatePersonalShowAlways"] = "Interface/AddOns/Plater/Plater_OptionsPanel.lua:1342",
 },
 ["url"] = "https://wago.io/kvgdjO6_L/3",
@@ -1862,14 +566,14 @@ nil,
 },
 ["all_names"] = true,
 ["big_actorname_text_size"] = 10,
-["level_text_alpha"] = 0.2999999821186066,
 ["actorname_text_anchor"] = {
 ["y"] = -0.4000015258789063,
 ["x"] = -1,
 ["side"] = 1,
 },
-["actorname_text_outline"] = "OUTLINE",
 ["percent_show_health"] = false,
+["actorname_text_outline"] = "OUTLINE",
+["level_text_alpha"] = 0.2999999821186066,
 ["actorname_text_font"] = "Accidental Presidency",
 ["percent_text_size"] = 10,
 ["actorname_text_spacing"] = 9,
@@ -2050,11 +754,11 @@ nil,
 ["Player-3725-0C194479"] = "Essence",
 ["Player-5764-0002671B"] = "HolyPower",
 ["Player-11-0E532B60"] = "Runes",
-["Player-5764-000944AE"] = "Chi",
 ["Player-3725-0A9FE377"] = "Chi",
+["Player-5765-003F0A23"] = "ComboPoints",
 ["Player-11-0E532B0D"] = "Chi",
 ["Player-3296-009336A2"] = "HolyPower",
-["Player-5765-003F0A23"] = "ComboPoints",
+["Player-5764-000944AE"] = "Chi",
 ["Player-11-0E532B15"] = "HolyPower",
 ["Player-4184-00C5DED9"] = "ComboPoints",
 ["Player-5765-003F0A3C"] = "HolyPower",
@@ -6610,9 +5314,9 @@ nil,
 },
 {
 ["OptionsValues"] = {
-["showIcon"] = false,
 ["useFullSize"] = false,
 ["iconOnLeftSide"] = false,
+["showIcon"] = false,
 },
 ["HooksTemp"] = {
 },
@@ -7440,8 +6144,8 @@ nil,
 [451496] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [333488] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [257862] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[257288] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [435012] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[262377] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\RunAway.ogg",
 [253721] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
 [255567] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [376170] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
@@ -7476,8 +6180,8 @@ nil,
 [427025] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [324323] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [265019] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[323496] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [426261] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[372201] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [374839] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [387629] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [416139] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
@@ -7524,7 +6228,7 @@ nil,
 [373742] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [385536] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
 [432520] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
-[372201] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[323496] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [200261] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [432967] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
 [426260] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
@@ -7546,7 +6250,7 @@ nil,
 [381525] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [1217653] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [434779] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[257288] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[262377] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\RunAway.ogg",
 [339706] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [1215738] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [413529] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
@@ -7916,7 +6620,7 @@ true,
 "orangered",
 "",
 },
-[255567] = {
+[257862] = {
 true,
 "orangered",
 "",
@@ -7941,7 +6645,7 @@ true,
 "orangered",
 "",
 },
-[1215738] = {
+[255567] = {
 true,
 "orangered",
 "",
@@ -8263,12 +6967,12 @@ true,
 false,
 "lightslategray",
 },
-[323496] = {
+[426261] = {
 true,
 "orangered",
 "",
 },
-[426261] = {
+[462216] = {
 true,
 "orangered",
 "",
@@ -8477,7 +7181,7 @@ true,
 "orangered",
 "",
 },
-[462216] = {
+[323496] = {
 true,
 "orangered",
 "",
@@ -8620,7 +7324,7 @@ true,
 "orangered",
 "",
 },
-[257862] = {
+[1215738] = {
 true,
 "orangered",
 "",
@@ -8819,7 +7523,7 @@ nil,
 ["Cast - Stop Casting"] = 4,
 ["Aura - Invalidate Unit"] = 1,
 ["Add - Important [P]"] = 4,
-["Cast - Glowing [P]"] = 10,
+["Cast - Tank Interrupt"] = 12,
 ["Unit - Main Target"] = 11,
 ["Aura - Blink Time Left"] = 13,
 ["Add - Explode on Die [P]"] = 1,
@@ -8827,7 +7531,7 @@ nil,
 ["Unit - Health Markers"] = 12,
 ["Cast - On Going Cast [P]"] = 2,
 ["Cast - Special Ability [P]"] = 3,
-["Cast - Tank Interrupt"] = 12,
+["Cast - Heroic Leap [P]"] = 3,
 ["Cast - AoE With Range [P]"] = 2,
 ["Cast - Spark Color [P]"] = 2,
 ["Cast - Heal Stun [P]"] = 2,
@@ -8859,7 +7563,7 @@ nil,
 ["Fixate by Unit Buff [P]"] = 2,
 ["Cast - Frontal Cone"] = 17,
 ["Fixate"] = 11,
-["Cast - Heroic Leap [P]"] = 3,
+["Cast - Glowing [P]"] = 10,
 ["Cast - Castbar is Timer [P]"] = 2,
 ["Blink by Time Left"] = 1,
 ["Fixate On You"] = 12,
@@ -8920,10 +7624,10 @@ nil,
 ["nameplateSelfBottomInset"] = "0.2",
 ["ShowClassColorInNameplate"] = "1",
 ["nameplateShowFriendlyGuardians"] = "0",
-["nameplateOccludedAlphaMult"] = "1",
-["nameplateSelfTopInset"] = "0.5",
-["NamePlateHorizontalScale"] = "1",
 ["nameplateSelfAlpha"] = "0.75",
+["nameplateSelfTopInset"] = "0.5",
+["nameplateOccludedAlphaMult"] = "1",
+["NamePlateHorizontalScale"] = "1",
 ["nameplatePersonalShowWithTarget"] = "0",
 },
 ["aura_height2"] = 12,
@@ -9684,12 +8388,12 @@ nil,
 ["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    if (scriptTable.config.glowEnabled) then\n        envTable.buffIconGlow:Show()\n    end\n    \n    if (scriptTable.config.dotsEnabled) then\n        envTable.dotAnimation = Plater.PlayDotAnimation(self, 6, scriptTable.config.dotsColor, 6, 3) \n    end\nend\n\n\n",
 ["semver"] = "",
 ["Prio"] = 99,
-["version"] = -1,
-["PlaterCore"] = 1,
-["Name"] = "Aura - Debuff Alert [Plater]",
-["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \nend\n\n\n",
 ["SpellIds"] = {
 },
+["PlaterCore"] = 1,
+["version"] = -1,
+["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \nend\n\n\n",
+["Name"] = "Aura - Debuff Alert [Plater]",
 ["Desc"] = "Add the debuff name in the trigger box.",
 },
 {
@@ -9778,8 +8482,9 @@ nil,
 ["OnShowCode"] = "function (self, unitId, unitFrame, envTable)\n    \nend\n\n\n",
 ["Prio"] = 99,
 ["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \n    --swap this to true when it is fixated\n    local isFixated = false\n    \n    --check the debuffs the player has and see if any of these debuffs has been placed by this unit\n    local auras = Plater.GetUnitAuras(unitFrame)\n    for id, aura in pairs(auras) do\n        local name, caster = aura.name, aura.sourceUnit\n        \n        --check if the owner of the debuff is this unit\n        if (envTable.FixateDebuffs [name] and caster and UnitIsUnit (caster, unitId)) then\n            --the debuff the player has, has been placed by this unit, set the name above the unit name\n            envTable.FixateTarget:SetText (envTable.TextAboveNameplate)\n            envTable.FixateTarget:Show()\n            Plater.SetNameplateColor (unitFrame,  envTable.NameplateColor)\n            isFixated = true\n            \n            if (not envTable.IsFixated) then\n                envTable.IsFixated = true\n                Plater.FlashNameplateBody (unitFrame, \"fixate\", .2)\n            end\n            break\n        end\n        \n    end\n    \n    --check if the nameplate color is changed but isn't fixated any more\n    if (not isFixated and envTable.IsFixated) then\n        --refresh the nameplate color\n        Plater.RefreshNameplateColor (unitFrame)\n        --reset the text\n        envTable.FixateTarget:SetText (\"\")\n        \n        envTable.IsFixated = false\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-["Name"] = "Fixate On You [Plater]",
+["version"] = -1,
 ["PlaterCore"] = 1,
+["Name"] = "Fixate On You [Plater]",
 ["SpellIds"] = {
 "spawn of g'huun",
 "smuggled crawg",
@@ -9791,7 +8496,6 @@ nil,
 "crawler mine",
 "rezan",
 },
-["version"] = -1,
 ["Desc"] = "When an enemy places a debuff and starts to chase you. This script changes the nameplate color and place your name above the nameplate as well.",
 ["semver"] = "",
 },
@@ -17854,12 +16558,12 @@ true,
 false,
 "fuchsia",
 },
-[141283] = {
-false,
-false,
-"navajowhite",
-},
 [169927] = {
+true,
+false,
+"fuchsia",
+},
+[95769] = {
 true,
 false,
 "fuchsia",
@@ -18349,10 +17053,10 @@ true,
 false,
 "fuchsia",
 },
-[95769] = {
-true,
+[141283] = {
 false,
-"fuchsia",
+false,
+"navajowhite",
 },
 [190294] = {
 true,
@@ -24889,9 +23593,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[219856] = {
-"Researcher Ven'kex",
-"The Underkeep",
+[56719] = {
+"Sha of Violence",
+"Shado-Pan Monastery",
 "enUS",
 },
 [7272] = {
@@ -24899,9 +23603,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[23498] = {
-"Parasitic Shadowfiend",
-"Black Temple",
+[230583] = {
+"Sprocketmonger Lockenstock",
+"Liberation of Undermine",
 "enUS",
 },
 [43927] = {
@@ -24914,19 +23618,19 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[58810] = {
-"Fragment of Hatred",
-"Shado-Pan Monastery",
+[56589] = {
+"Striker Ga'dok",
+"Gate of the Setting Sun",
 "enUS",
 },
-[58803] = {
-"Residual Hatred",
-"Shado-Pan Monastery",
+[61389] = {
+"Kargesh Highguard",
+"Mogu'shan Palace",
 "enUS",
 },
-[58812] = {
-"Hateful Essence",
-"Shado-Pan Monastery",
+[234932] = {
+"Gold Shaman",
+"Sidestreet Sluice",
 "enUS",
 },
 [10558] = {
@@ -24939,29 +23643,29 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[10424] = {
-"Risen Gallant",
-"Stratholme",
+[200387] = {
+"Shambling Infester",
+"Temple of the Jade Serpent",
 "enUS",
 },
-[66652] = {
-"Lesser Volatile Energy",
-"Shado-Pan Monastery",
+[56717] = {
+"Hoptallus",
+"Stormstout Brewery",
 "enUS",
 },
-[56719] = {
-"Sha of Violence",
-"Shado-Pan Monastery",
+[17398] = {
+"Nascent Fel Orc",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[56766] = {
-"Volatile Energy",
-"Shado-Pan Monastery",
+[17462] = {
+"Shattered Hand Zealot",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[76266] = {
-"High Sage Viryx",
-"Skyreach",
+[228015] = {
+"Hulking Bloodguard",
+"Ara-Kara, City of Echoes",
 "enUS",
 },
 [176605] = {
@@ -24969,9 +23673,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[56763] = {
-"Regenerating Sha",
-"Shado-Pan Monastery",
+[96512] = {
+"Archdruid Glaidalis",
+"Darkheart Thicket",
 "enUS",
 },
 [122366] = {
@@ -24989,14 +23693,14 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[17398] = {
-"Nascent Fel Orc",
-"Hellfire Citadel: The Blood Furnace",
+[233154] = {
+"Stagehand",
+"Liberation of Undermine",
 "enUS",
 },
-[56764] = {
-"Consuming Sha",
-"Shado-Pan Monastery",
+[217268] = {
+"Weeping Shade",
+"Skittering Breach",
 "enUS",
 },
 [19509] = {
@@ -25024,14 +23728,14 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[224970] = {
-"Caustic Bomber",
-"Nerub-ar Palace",
+[75786] = {
+"Roltall",
+"Bloodmaul Slag Mines",
 "enUS",
 },
-[100216] = {
-"Hatecoil Wrangler",
-"Eye of Azshara",
+[222149] = {
+"Injured Earthen",
+"The Stonevault",
 "enUS",
 },
 [39450] = {
@@ -25064,14 +23768,14 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[56472] = {
-"Fragrant Lotus",
-"Shado-Pan Monastery",
+[223423] = {
+"Careless Hopgoblin",
+"Cinderbrew Meadery",
 "enUS",
 },
-[56395] = {
-"Shado-Pan Novice",
-"Shado-Pan Monastery",
+[180426] = {
+"Feeding Horror",
+"Sanctum of Domination",
 "enUS",
 },
 [24083] = {
@@ -25079,9 +23783,9 @@ nil,
 "Utgarde Keep",
 "enUS",
 },
-[17462] = {
-"Shattered Hand Zealot",
-"Hellfire Citadel: The Shattered Halls",
+[39700] = {
+"Beauty",
+"Blackrock Caverns",
 "enUS",
 },
 [48278] = {
@@ -25089,9 +23793,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[65414] = {
-"Ethereal Sha",
-"Shado-Pan Monastery",
+[224962] = {
+"Cursedforge Mender",
+"The Stonevault",
 "enUS",
 },
 [76310] = {
@@ -25109,9 +23813,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[59519] = {
-"Stout Brew Alemental",
-"Stormstout Brewery",
+[27982] = {
+"Forged Iron Dwarf",
+"Halls of Stone",
 "enUS",
 },
 [13197] = {
@@ -25119,9 +23823,9 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[56747] = {
-"Gu Cloudstrike",
-"Shado-Pan Monastery",
+[177613] = {
+"Burning Soul",
+"Sanctum of Domination",
 "enUS",
 },
 [137716] = {
@@ -25129,9 +23833,9 @@ nil,
 "The MOTHERLODE!!",
 "enUS",
 },
-[59752] = {
-"Shado-Pan Ambusher",
-"Shado-Pan Monastery",
+[224970] = {
+"Caustic Bomber",
+"Nerub-ar Palace",
 "enUS",
 },
 [59153] = {
@@ -25149,14 +23853,14 @@ nil,
 "Firelands",
 "enUS",
 },
-[18422] = {
-"Sunseeker Botanist",
-"Tempest Keep: The Botanica",
+[61392] = {
+"Harthak Flameseeker",
+"Mogu'shan Palace",
 "enUS",
 },
-[81984] = {
-"Gnarlroot",
-"The Everbloom",
+[237252] = {
+"Underpin's Friend's Agent",
+"Fungal Folly",
 "enUS",
 },
 [75927] = {
@@ -25169,9 +23873,9 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[36497] = {
-"Bronjahm",
-"The Forge of Souls",
+[15978] = {
+"Crypt Reaver",
+"Naxxramas",
 "enUS",
 },
 [24723] = {
@@ -25179,19 +23883,19 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[56930] = {
-"Krik'thik Swarm Bringer",
-"Gate of the Setting Sun",
+[121985] = {
+"Flame of Taeshalach",
+"Antorus, the Burning Throne",
 "enUS",
 },
-[641] = {
-"Goblin Woodcarver",
-"Deadmines",
+[177094] = {
+"Signe",
+"Sanctum of Domination",
 "enUS",
 },
-[77132] = {
-"Sargerei Zealot",
-"Auchindoun",
+[138464] = {
+"Ashvane Deckhand",
+"Siege of Boralus",
 "enUS",
 },
 [217039] = {
@@ -25199,14 +23903,14 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[121985] = {
-"Flame of Taeshalach",
-"Antorus, the Burning Throne",
+[26930] = {
+"Grand Magus Telestra",
+"The Nexus",
 "enUS",
 },
-[111563] = {
-"Duskwatch Guard",
-"Court of Stars",
+[213428] = {
+"Aradan",
+"The Rookery",
 "enUS",
 },
 [97677] = {
@@ -25214,19 +23918,19 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[26730] = {
-"Mage Slayer",
-"The Nexus",
-"enUS",
-},
 [95886] = {
 "Ash'Golm",
 "Vault of the Wardens",
 "enUS",
 },
-[17732] = {
-"Lykul Wasp",
-"Coilfang: The Underbog",
+[11486] = {
+"Prince Tortheldrin",
+"Dire Maul",
+"enUS",
+},
+[56658] = {
+"Corrupt Droplet",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [177891] = {
@@ -25239,9 +23943,9 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[10409] = {
-"Rockwing Screecher",
-"Stratholme",
+[219588] = {
+"Yes Man",
+"Cinderbrew Meadery",
 "enUS",
 },
 [127231] = {
@@ -25254,9 +23958,9 @@ nil,
 "Ulduar",
 "enUS",
 },
-[56636] = {
-"Commander Ri'mok",
-"Gate of the Setting Sun",
+[219856] = {
+"Researcher Ven'kex",
+"The Underkeep",
 "enUS",
 },
 [218320] = {
@@ -25264,9 +23968,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[61177] = {
-"Raigonn",
-"Gate of the Setting Sun",
+[220368] = {
+"Failed Batch",
+"Cinderbrew Meadery",
 "enUS",
 },
 [177892] = {
@@ -25279,9 +23983,9 @@ nil,
 "City of Threads",
 "enUS",
 },
-[59794] = {
-"Krik'thik Disruptor",
-"Gate of the Setting Sun",
+[177893] = {
+"Mawforged Colossus",
+"Sanctum of Domination",
 "enUS",
 },
 [77080] = {
@@ -25294,9 +23998,9 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[59778] = {
-"Krik'thik Striker",
-"Gate of the Setting Sun",
+[212405] = {
+"Aspiring Forgehand",
+"The Stonevault",
 "enUS",
 },
 [79511] = {
@@ -25314,14 +24018,14 @@ nil,
 "Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[94224] = {
-"Petrifying Totem",
-"Neltharion's Lair",
+[29713] = {
+"Slad'ran Constrictor",
+"Gundrak",
 "enUS",
 },
-[56706] = {
-"Krik'thik Bombardier",
-"Gate of the Setting Sun",
+[178628] = {
+"Mawsworn Darkcaster",
+"Sanctum of Domination",
 "enUS",
 },
 [76057] = {
@@ -25334,9 +24038,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[56589] = {
-"Striker Ga'dok",
-"Gate of the Setting Sun",
+[6017] = {
+"Lava Spout Totem",
+"Zul'Farrak",
 "enUS",
 },
 [125569] = {
@@ -25344,19 +24048,19 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[15980] = {
-"Naxxramas Cultist",
-"Naxxramas",
-"enUS",
-},
-[58108] = {
-"Krik'thik Infiltrator",
+[59794] = {
+"Krik'thik Disruptor",
 "Gate of the Setting Sun",
 "enUS",
 },
-[59800] = {
-"Krik'thik Rager",
-"Gate of the Setting Sun",
+[221103] = {
+"Hulking Warshell",
+"City of Threads",
+"enUS",
+},
+[19958] = {
+"White Seedling",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [16028] = {
@@ -25364,9 +24068,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[59801] = {
-"Krik'thik Wind Shaper",
-"Gate of the Setting Sun",
+[97022] = {
+"Greater Lightning Elemental",
+"Stratholme",
 "enUS",
 },
 [16060] = {
@@ -25389,9 +24093,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[6017] = {
-"Lava Spout Totem",
-"Zul'Farrak",
+[16124] = {
+"Unrelenting Trainee",
+"Naxxramas",
 "enUS",
 },
 [24084] = {
@@ -25409,14 +24113,14 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[56906] = {
-"Saboteur Kip'tilak",
-"Gate of the Setting Sun",
+[16236] = {
+"Eye Stalk",
+"Naxxramas",
 "enUS",
 },
-[231978] = {
-"Sharpshot Sentry",
-"Liberation of Undermine",
+[98813] = {
+"Bloodscent Felhound",
+"Black Rook Hold",
 "enUS",
 },
 [218324] = {
@@ -25429,34 +24133,34 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[56876] = {
-"Krik'thik Sapper",
-"Gate of the Setting Sun",
+[177117] = {
+"Orb of Torment",
+"Sanctum of Domination",
 "enUS",
 },
-[11496] = {
-"Immol'thar",
+[15931] = {
+"Grobbulus",
+"Naxxramas",
+"enUS",
+},
+[56395] = {
+"Shado-Pan Novice",
+"Shado-Pan Monastery",
+"enUS",
+},
+[180427] = {
+"Loom Guardian",
+"Sanctum of Domination",
+"enUS",
+},
+[14397] = {
+"Mana Burst",
 "Dire Maul",
 "enUS",
 },
-[59360] = {
-"Meat Graft",
-"Scholomance",
-"enUS",
-},
-[235187] = {
-"Voltaic Image",
-"Liberation of Undermine",
-"enUS",
-},
-[212411] = {
-"Torchsnarl",
-"Darkflame Cleft",
-"enUS",
-},
-[61392] = {
-"Harthak Flameseeker",
-"Mogu'shan Palace",
+[165872] = {
+"Flesh Crafter",
+"The Necrotic Wake",
 "enUS",
 },
 [218325] = {
@@ -25479,24 +24183,24 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[234932] = {
-"Gold Shaman",
-"Sidestreet Sluice",
+[99728] = {
+"Grimguard",
+"Vault of the Wardens",
 "enUS",
 },
-[19958] = {
-"White Seedling",
-"Tempest Keep: The Botanica",
+[213937] = {
+"Rasha'nan",
+"The Dawnbreaker",
 "enUS",
 },
-[14397] = {
-"Mana Burst",
-"Dire Maul",
+[96657] = {
+"Blade Dancer Illianna",
+"Vault of the Wardens",
 "enUS",
 },
-[200387] = {
-"Shambling Infester",
-"Temple of the Jade Serpent",
+[91008] = {
+"Rockbound Pelter",
+"Neltharion's Lair",
 "enUS",
 },
 [26803] = {
@@ -25509,14 +24213,14 @@ nil,
 "Fungal Folly",
 "enUS",
 },
-[61389] = {
-"Kargesh Highguard",
-"Mogu'shan Palace",
+[217519] = {
+"Nightfall Shadeguard",
+"Skittering Breach",
 "enUS",
 },
-[165872] = {
-"Flesh Crafter",
-"The Necrotic Wake",
+[10383] = {
+"Broken Cadaver",
+"Stratholme",
 "enUS",
 },
 [10399] = {
@@ -25524,9 +24228,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[99728] = {
-"Grimguard",
-"Vault of the Wardens",
+[230611] = {
+"Litter Nibbler",
+"Sidestreet Sluice",
 "enUS",
 },
 [228050] = {
@@ -25534,9 +24238,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[96657] = {
-"Blade Dancer Illianna",
-"Vault of the Wardens",
+[75272] = {
+"Bloodmaul Ogre Mage",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [10463] = {
@@ -25554,14 +24258,14 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[228015] = {
-"Hulking Bloodguard",
-"Ara-Kara, City of Echoes",
+[123760] = {
+"Fel-Infused Destructor",
+"Antorus, the Burning Throne",
 "enUS",
 },
-[96512] = {
-"Archdruid Glaidalis",
-"Darkheart Thicket",
+[57109] = {
+"Minion of Doubt",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [127235] = {
@@ -25569,9 +24273,9 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[217268] = {
-"Weeping Shade",
-"Skittering Breach",
+[167111] = {
+"Spinemaw Staghorn",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [220119] = {
@@ -25584,9 +24288,9 @@ nil,
 "Black Rook Hold",
 "enUS",
 },
-[75786] = {
-"Roltall",
-"Bloodmaul Slag Mines",
+[98706] = {
+"Commander Shemdah'sohn",
+"Black Rook Hold",
 "enUS",
 },
 [97170] = {
@@ -25594,14 +24298,14 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[56717] = {
-"Hoptallus",
-"Stormstout Brewery",
+[24687] = {
+"Sunblade Physician",
+"Magisters' Terrace",
 "enUS",
 },
-[177889] = {
-"Mawforged Souljudge",
-"Sanctum of Domination",
+[217518] = {
+"Nightfall Inquisitor",
+"Skittering Breach",
 "enUS",
 },
 [105742] = {
@@ -25609,9 +24313,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[230611] = {
-"Litter Nibbler",
-"Sidestreet Sluice",
+[80005] = {
+"Skylord Tovra",
+"Grimrail Depot",
 "enUS",
 },
 [222167] = {
@@ -25619,14 +24323,14 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[91797] = {
-"King Deepbeard",
-"Eye of Azshara",
+[59220] = {
+"Jandice Barov",
+"Scholomance",
 "enUS",
 },
-[39700] = {
-"Beauty",
-"Blackrock Caverns",
+[29874] = {
+"Drakkari Inciter",
+"Gundrak",
 "enUS",
 },
 [17400] = {
@@ -25634,9 +24338,9 @@ nil,
 "Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[237252] = {
-"Underpin's Friend's Agent",
-"Fungal Folly",
+[20465] = {
+"Underbog Frenzy",
+"Coilfang: The Underbog",
 "enUS",
 },
 [19511] = {
@@ -25644,14 +24348,14 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[27982] = {
-"Forged Iron Dwarf",
-"Halls of Stone",
+[65414] = {
+"Ethereal Sha",
+"Shado-Pan Monastery",
 "enUS",
 },
-[98706] = {
-"Commander Shemdah'sohn",
-"Black Rook Hold",
+[228053] = {
+"Goblin Sapper Bot",
+"Liberation of Undermine",
 "enUS",
 },
 [123398] = {
@@ -25674,9 +24378,9 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[26930] = {
-"Grand Magus Telestra",
-"The Nexus",
+[40084] = {
+"Bellows Slave",
+"Blackrock Caverns",
 "enUS",
 },
 [43612] = {
@@ -25689,14 +24393,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[224962] = {
-"Cursedforge Mender",
-"The Stonevault",
-"enUS",
-},
-[180426] = {
-"Feeding Horror",
-"Sanctum of Domination",
+[163058] = {
+"Mistveil Defender",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [13022] = {
@@ -25704,9 +24403,14 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[15978] = {
-"Crypt Reaver",
-"Naxxramas",
+[45915] = {
+"Armored Mistral",
+"The Vortex Pinnacle",
+"enUS",
+},
+[217517] = {
+"Nightfall Hopestealer",
+"Skittering Breach",
 "enUS",
 },
 [81819] = {
@@ -25724,9 +24428,9 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[11486] = {
-"Prince Tortheldrin",
-"Dire Maul",
+[56906] = {
+"Saboteur Kip'tilak",
+"Gate of the Setting Sun",
 "enUS",
 },
 [176880] = {
@@ -25734,9 +24438,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[177094] = {
-"Signe",
-"Sanctum of Domination",
+[54795] = {
+"Fountain of Light",
+"End Time",
 "enUS",
 },
 [76446] = {
@@ -25744,9 +24448,9 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[29874] = {
-"Drakkari Inciter",
-"Gundrak",
+[16156] = {
+"Dark Touched Warrior",
+"Naxxramas",
 "enUS",
 },
 [97172] = {
@@ -25754,14 +24458,14 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[213428] = {
-"Aradan",
-"The Rookery",
+[42973] = {
+"Eye of Naxxramas",
+"Stratholme",
 "enUS",
 },
-[48338] = {
-"Mine Bunny",
-"Deadmines",
+[122104] = {
+"Portal Keeper Hasabel",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [105744] = {
@@ -25769,14 +24473,14 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[220368] = {
-"Failed Batch",
-"Cinderbrew Meadery",
+[58633] = {
+"Instructor Chillheart",
+"Scholomance",
 "enUS",
 },
-[222927] = {
-"Sacred Flame Vintner",
-"Priory of the Sacred Flame",
+[229296] = {
+"Orb of Ascendance",
+"The Dawnbreaker",
 "enUS",
 },
 [165111] = {
@@ -25784,9 +24488,9 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[56658] = {
-"Corrupt Droplet",
-"Temple of the Jade Serpent",
+[217516] = {
+"Nightfall Executor",
+"Skittering Breach",
 "enUS",
 },
 [81820] = {
@@ -25794,9 +24498,9 @@ nil,
 "The Everbloom",
 "enUS",
 },
-[59220] = {
-"Jandice Barov",
-"Scholomance",
+[210148] = {
+"Menial Laborer",
+"Darkflame Cleft",
 "enUS",
 },
 [213216] = {
@@ -25804,9 +24508,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[138464] = {
-"Ashvane Deckhand",
-"Siege of Boralus",
+[229286] = {
+"Shifty Scalper",
+"Liberation of Undermine",
 "enUS",
 },
 [59605] = {
@@ -25819,9 +24523,9 @@ nil,
 "Grim Batol",
 "enUS",
 },
-[10383] = {
-"Broken Cadaver",
-"Stratholme",
+[238496] = {
+"Slots Patron",
+"Liberation of Undermine",
 "enUS",
 },
 [224731] = {
@@ -25834,9 +24538,9 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[178628] = {
-"Mawsworn Darkcaster",
-"Sanctum of Domination",
+[235737] = {
+"Bomb Tail",
+"Liberation of Undermine",
 "enUS",
 },
 [213217] = {
@@ -25844,14 +24548,14 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[16124] = {
-"Unrelenting Trainee",
-"Naxxramas",
+[19608] = {
+"Frayer Wildling",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[221103] = {
-"Hulking Warshell",
-"City of Threads",
+[231075] = {
+"Chrome King Gallywix",
+"Liberation of Undermine",
 "enUS",
 },
 [95766] = {
@@ -25869,29 +24573,29 @@ nil,
 "City of Threads",
 "enUS",
 },
-[97022] = {
-"Greater Lightning Elemental",
-"Stratholme",
+[239833] = {
+"Elaena Emberlanz",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[237276] = {
-"Underpin's Friend's Mother",
-"Fungal Folly",
+[16029] = {
+"Sludge Belcher",
+"Naxxramas",
 "enUS",
 },
-[98813] = {
-"Bloodscent Felhound",
-"Black Rook Hold",
+[234204] = {
+"Congealed Clot",
+"Excavation Site 9",
 "enUS",
 },
-[237272] = {
-"Underpin's Friend's Broker",
-"Fungal Folly",
+[634] = {
+"Defias Overseer",
+"Deadmines",
 "enUS",
 },
-[19512] = {
-"Nethervine Reaper",
-"Tempest Keep: The Botanica",
+[91006] = {
+"Rockback Gnasher",
+"Neltharion's Lair",
 "enUS",
 },
 [224221] = {
@@ -25904,9 +24608,9 @@ nil,
 "Black Rook Hold",
 "enUS",
 },
-[91008] = {
-"Rockbound Pelter",
-"Neltharion's Lair",
+[48284] = {
+"Mining Powder",
+"Deadmines",
 "enUS",
 },
 [175861] = {
@@ -25914,9 +24618,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[110993] = {
-"General Tel'arn",
-"Black Rook Hold",
+[639] = {
+"Edwin VanCleef",
+"Deadmines",
 "enUS",
 },
 [213219] = {
@@ -25924,29 +24628,29 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[74787] = {
-"Slave Watcher Crushto",
-"Bloodmaul Slag Mines",
+[98810] = {
+"Wrathguard Bladelord",
+"Black Rook Hold",
 "enUS",
 },
-[42975] = {
-"Plague Ghoul",
-"Stratholme",
+[234206] = {
+"Nightmare Crawler",
+"Excavation Site 9",
 "enUS",
 },
-[643] = {
-"Sneed",
-"Deadmines",
+[175611] = {
+"The Tarragrue",
+"Sanctum of Domination",
 "enUS",
 },
-[213937] = {
-"Rasha'nan",
-"The Dawnbreaker",
+[59464] = {
+"Hopper",
+"Stormstout Brewery",
 "enUS",
 },
-[239836] = {
-"Sergeant Shaynemail",
-"Priory of the Sacred Flame",
+[16506] = {
+"Naxxramas Worshipper",
+"Naxxramas",
 "enUS",
 },
 [17401] = {
@@ -25954,29 +24658,29 @@ nil,
 "Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[217519] = {
-"Nightfall Shadeguard",
-"Skittering Breach",
+[45007] = {
+"Enslaved Bandit",
+"Lost City of the Tol'vir",
 "enUS",
 },
-[235737] = {
-"Bomb Tail",
-"Liberation of Undermine",
-"enUS",
-},
-[10416] = {
-"Bile Spewer",
-"Stratholme",
-"enUS",
-},
-[102295] = {
-"Emberhusk Dominator",
-"Neltharion's Lair",
-"enUS",
-},
-[19608] = {
-"Frayer Wildling",
+[19512] = {
+"Nethervine Reaper",
 "Tempest Keep: The Botanica",
+"enUS",
+},
+[239836] = {
+"Sergeant Shaynemail",
+"Priory of the Sacred Flame",
+"enUS",
+},
+[45912] = {
+"Wild Vortex",
+"The Vortex Pinnacle",
+"enUS",
+},
+[123402] = {
+"Garothi Decimator",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [82590] = {
@@ -25984,9 +24688,9 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
-[15981] = {
-"Naxxramas Acolyte",
-"Naxxramas",
+[212453] = {
+"Ghastly Voidsoul",
+"The Stonevault",
 "enUS",
 },
 [39392] = {
@@ -26004,9 +24708,9 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[123760] = {
-"Fel-Infused Destructor",
-"Antorus, the Burning Throne",
+[100248] = {
+"Ritualist Lesha",
+"Eye of Azshara",
 "enUS",
 },
 [16061] = {
@@ -26024,9 +24728,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[33699] = {
-"Storm-Tempered Keeper",
-"Ulduar",
+[43934] = {
+"Soul Fragment",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [16125] = {
@@ -26034,9 +24738,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[59480] = {
-"Brittle Skeleton",
-"Scholomance",
+[180473] = {
+"Unstoppable Abomination",
+"Sanctum of Domination",
 "enUS",
 },
 [17977] = {
@@ -26044,14 +24748,14 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[48284] = {
-"Mining Powder",
-"Deadmines",
+[56472] = {
+"Fragrant Lotus",
+"Shado-Pan Monastery",
 "enUS",
 },
-[234204] = {
-"Congealed Clot",
-"Excavation Site 9",
+[110993] = {
+"General Tel'arn",
+"Black Rook Hold",
 "enUS",
 },
 [54553] = {
@@ -26074,9 +24778,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[634] = {
-"Defias Overseer",
-"Deadmines",
+[74787] = {
+"Slave Watcher Crushto",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [239834] = {
@@ -26099,9 +24803,9 @@ nil,
 "Darkheart Thicket",
 "enUS",
 },
-[639] = {
-"Edwin VanCleef",
-"Deadmines",
+[210153] = {
+"Ol' Waxbeard",
+"Darkflame Cleft",
 "enUS",
 },
 [214503] = {
@@ -26109,9 +24813,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[61398] = {
-"Xin the Weaponmaster",
-"Mogu'shan Palace",
+[641] = {
+"Goblin Woodcarver",
+"Deadmines",
 "enUS",
 },
 [14350] = {
@@ -26119,9 +24823,9 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[59479] = {
-"Yan-Zhu the Uncasked",
-"Stormstout Brewery",
+[643] = {
+"Sneed",
+"Deadmines",
 "enUS",
 },
 [644] = {
@@ -26149,9 +24853,9 @@ nil,
 "The Everbloom",
 "enUS",
 },
-[167111] = {
-"Spinemaw Staghorn",
-"Mists of Tirna Scithe",
+[234208] = {
+"Hideous Amalgamation",
+"Excavation Site 9",
 "enUS",
 },
 [10384] = {
@@ -26189,9 +24893,9 @@ nil,
 "Temple of the Jade Serpent",
 "enUS",
 },
-[100248] = {
-"Ritualist Lesha",
-"Eye of Azshara",
+[102295] = {
+"Emberhusk Dominator",
+"Neltharion's Lair",
 "enUS",
 },
 [2630] = {
@@ -26199,9 +24903,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[233955] = {
-"Charred Fanatic",
-"Liberation of Undermine",
+[19513] = {
+"Mutate Fear-Shrieker",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [231905] = {
@@ -26234,9 +24938,9 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[24687] = {
-"Sunblade Physician",
-"Magisters' Terrace",
+[17626] = {
+"Laughing Skull Legionnaire",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
 [229603] = {
@@ -26274,19 +24978,19 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[235489] = {
-"Snorkel Goon",
-"Tak-Rethan Abyss",
+[223207] = {
+"Black Blood",
+"Nerub-ar Palace",
 "enUS",
 },
-[19513] = {
-"Mutate Fear-Shrieker",
-"Tempest Keep: The Botanica",
+[59480] = {
+"Brittle Skeleton",
+"Scholomance",
 "enUS",
 },
-[217518] = {
-"Nightfall Inquisitor",
-"Skittering Breach",
+[233955] = {
+"Charred Fanatic",
+"Liberation of Undermine",
 "enUS",
 },
 [234210] = {
@@ -26294,9 +24998,9 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[80005] = {
-"Skylord Tovra",
-"Grimrail Depot",
+[45919] = {
+"Young Storm Dragon",
+"The Vortex Pinnacle",
 "enUS",
 },
 [82594] = {
@@ -26304,9 +25008,9 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
-[17626] = {
-"Laughing Skull Legionnaire",
-"Hellfire Citadel: The Blood Furnace",
+[59800] = {
+"Krik'thik Rager",
+"Gate of the Setting Sun",
 "enUS",
 },
 [96028] = {
@@ -26319,9 +25023,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[20465] = {
-"Underbog Frenzy",
-"Coilfang: The Underbog",
+[17370] = {
+"Laughing Skull Enforcer",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
 [231908] = {
@@ -26354,9 +25058,9 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[231909] = {
-"Underpaid Brute",
-"Sidestreet Sluice",
+[36516] = {
+"Soulguard Animator",
+"The Forge of Souls",
 "enUS",
 },
 [17978] = {
@@ -26364,14 +25068,14 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[233956] = {
-"Wild Thunderbolt",
-"Liberation of Undermine",
+[231909] = {
+"Underpaid Brute",
+"Sidestreet Sluice",
 "enUS",
 },
-[57109] = {
-"Minion of Doubt",
-"Temple of the Jade Serpent",
+[44704] = {
+"Minion of Siamat",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [220139] = {
@@ -26379,19 +25083,29 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[40084] = {
-"Bellows Slave",
-"Blackrock Caverns",
+[8477] = {
+"Skeletal Servant",
+"Stratholme",
 "enUS",
 },
-[123402] = {
-"Garothi Decimator",
+[177154] = {
+"Mawsworn Vanguard",
+"Sanctum of Domination",
+"enUS",
+},
+[100216] = {
+"Hatecoil Wrangler",
+"Eye of Azshara",
+"enUS",
+},
+[49045] = {
+"Augh",
+"Lost City of the Tol'vir",
+"enUS",
+},
+[122477] = {
+"F'harg",
 "Antorus, the Burning Throne",
-"enUS",
-},
-[217517] = {
-"Nightfall Hopestealer",
-"Skittering Breach",
 "enUS",
 },
 [231910] = {
@@ -26399,24 +25113,14 @@ nil,
 "Sidestreet Sluice",
 "enUS",
 },
-[54795] = {
-"Fountain of Light",
-"End Time",
+[7271] = {
+"Witch Doctor Zum'rah",
+"Zul'Farrak",
 "enUS",
 },
-[36516] = {
-"Soulguard Animator",
-"The Forge of Souls",
-"enUS",
-},
-[45269] = {
-"Servant of Siamat",
-"Lost City of the Tol'vir",
-"enUS",
-},
-[27983] = {
-"Dark Rune Protector",
-"Halls of Stone",
+[238237] = {
+"Darkfuse Thug",
+"Liberation of Undermine",
 "enUS",
 },
 [44896] = {
@@ -26434,9 +25138,9 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[175611] = {
-"The Tarragrue",
-"Sanctum of Domination",
+[10412] = {
+"Crypt Crawler",
+"Stratholme",
 "enUS",
 },
 [5650] = {
@@ -26444,9 +25148,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[58633] = {
-"Instructor Chillheart",
-"Scholomance",
+[7247] = {
+"Sandfury Soul Eater",
+"Zul'Farrak",
 "enUS",
 },
 [16507] = {
@@ -26454,29 +25158,29 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[177154] = {
-"Mawsworn Vanguard",
-"Sanctum of Domination",
-"enUS",
-},
 [220141] = {
 "Royal Jelly Purveyor",
 "Cinderbrew Meadery",
 "enUS",
 },
-[222700] = {
-"Umbral Weave",
-"City of Threads",
+[229281] = {
+"Charred Fanatic",
+"Liberation of Undermine",
 "enUS",
 },
-[217516] = {
-"Nightfall Executor",
-"Skittering Breach",
+[59801] = {
+"Krik'thik Wind Shaper",
+"Gate of the Setting Sun",
 "enUS",
 },
-[62360] = {
-"Corrupt Droplet",
-"Temple of the Jade Serpent",
+[91004] = {
+"Ularogg Cragshaper",
+"Neltharion's Lair",
+"enUS",
+},
+[91808] = {
+"Serpentrix",
+"Eye of Azshara",
 "enUS",
 },
 [16699] = {
@@ -26484,9 +25188,9 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[229286] = {
-"Shifty Scalper",
-"Liberation of Undermine",
+[62360] = {
+"Corrupt Droplet",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [11456] = {
@@ -26499,9 +25203,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[91808] = {
-"Serpentrix",
-"Eye of Azshara",
+[83620] = {
+"Bloodmaul Earthbreaker",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [104218] = {
@@ -26509,24 +25213,24 @@ nil,
 "Court of Stars",
 "enUS",
 },
-[16506] = {
-"Naxxramas Worshipper",
-"Naxxramas",
+[54923] = {
+"Infinite Warden",
+"End Time",
 "enUS",
 },
-[16156] = {
-"Dark Touched Warrior",
-"Naxxramas",
+[598] = {
+"Defias Miner",
+"Deadmines",
 "enUS",
 },
-[234206] = {
-"Nightmare Crawler",
-"Excavation Site 9",
+[95887] = {
+"Glazer",
+"Vault of the Wardens",
 "enUS",
 },
-[122104] = {
-"Portal Keeper Hasabel",
-"Antorus, the Burning Throne",
+[166079] = {
+"Brittlebone Crossbowman",
+"The Necrotic Wake",
 "enUS",
 },
 [48351] = {
@@ -26534,9 +25238,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[180427] = {
-"Loom Guardian",
-"Sanctum of Domination",
+[219045] = {
+"Colossal Spider",
+"Nerub-ar Palace",
 "enUS",
 },
 [17083] = {
@@ -26549,9 +25253,9 @@ nil,
 "Stormstout Brewery",
 "enUS",
 },
-[75272] = {
-"Bloodmaul Ogre Mage",
-"Bloodmaul Slag Mines",
+[54544] = {
+"Echo of Tyrande",
+"End Time",
 "enUS",
 },
 [44577] = {
@@ -26559,24 +25263,24 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[8095] = {
-"Sul'lithuz Sandcrawler",
-"Zul'Farrak",
+[32593] = {
+"Skittering Swarmer",
+"Azjol-Nerub",
 "enUS",
 },
-[218317] = {
-"Woven Threadmancer",
-"Nerub-ar Palace",
+[177407] = {
+"Formless Mass",
+"Sanctum of Domination",
 "enUS",
 },
-[91006] = {
-"Rockback Gnasher",
-"Neltharion's Lair",
+[83621] = {
+"Bloodmaul Magma Binder",
+"Bloodmaul Slag Mines",
 "enUS",
 },
-[17371] = {
-"Shadowmoon Warlock",
-"Hellfire Citadel: The Blood Furnace",
+[40923] = {
+"Unstable Corruption",
+"Throne of the Tides",
 "enUS",
 },
 [44897] = {
@@ -26584,9 +25288,9 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[61337] = {
-"Glintrok Ironhide",
-"Mogu'shan Palace",
+[17371] = {
+"Shadowmoon Warlock",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
 [218865] = {
@@ -26599,24 +25303,24 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[42973] = {
-"Eye of Naxxramas",
-"Stratholme",
+[39708] = {
+"Twilight Flame Caller",
+"Blackrock Caverns",
 "enUS",
 },
-[29836] = {
-"Drakkari Battle Rider",
-"Gundrak",
-"enUS",
-},
-[98810] = {
-"Wrathguard Bladelord",
-"Black Rook Hold",
-"enUS",
-},
-[48279] = {
-"Goblin Overseer",
+[642] = {
+"Sneed's Shredder",
 "Deadmines",
+"enUS",
+},
+[27985] = {
+"Iron Golem Custodian",
+"Halls of Stone",
+"enUS",
+},
+[58823] = {
+"Scholomance Neophyte",
+"Scholomance",
 "enUS",
 },
 [220401] = {
@@ -26624,14 +25328,9 @@ nil,
 "City of Threads",
 "enUS",
 },
-[59464] = {
-"Hopper",
-"Stormstout Brewery",
-"enUS",
-},
-[222193] = {
-"Hollow Frostweaver",
-"Nerub-ar Palace",
+[99358] = {
+"Rotheart Dryad",
+"Darkheart Thicket",
 "enUS",
 },
 [80935] = {
@@ -26639,14 +25338,19 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
+[212981] = {
+"Hapless Assistant",
+"The Everbloom",
+"enUS",
+},
 [17723] = {
 "Bog Giant",
 "Coilfang: The Underbog",
 "enUS",
 },
-[77700] = {
-"Shadowmoon Exhumer",
-"Shadowmoon Burial Grounds",
+[214504] = {
+"Rasha'nan",
+"Nerub-ar Palace",
 "enUS",
 },
 [238569] = {
@@ -26654,9 +25358,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[224240] = {
-"Twilight Flamerender",
-"Grim Batol",
+[222193] = {
+"Hollow Frostweaver",
+"Nerub-ar Palace",
 "enUS",
 },
 [83622] = {
@@ -26664,9 +25368,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[210153] = {
-"Ol' Waxbeard",
-"Darkflame Cleft",
+[39960] = {
+"Deep Murloc Drudge",
+"Throne of the Tides",
 "enUS",
 },
 [16126] = {
@@ -26674,9 +25378,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[229296] = {
-"Orb of Ascendance",
-"The Dawnbreaker",
+[26929] = {
+"Grand Magus Telestra",
+"The Nexus",
 "enUS",
 },
 [235755] = {
@@ -26684,29 +25388,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[54923] = {
-"Infinite Warden",
-"End Time",
+[228044] = {
+"Reno Jackson",
+"Kriegval's Rest",
 "enUS",
 },
-[54544] = {
-"Echo of Tyrande",
-"End Time",
-"enUS",
-},
-[180473] = {
-"Unstoppable Abomination",
-"Sanctum of Domination",
-"enUS",
-},
-[56924] = {
-"Inflamed Hozen Brawler",
-"Stormstout Brewery",
-"enUS",
-},
-[56732] = {
-"Liu Flameheart",
-"Temple of the Jade Serpent",
+[130192] = {
+"Hulking Demolisher",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [18331] = {
@@ -26714,14 +25403,29 @@ nil,
 "Auchindoun: Mana-Tombs",
 "enUS",
 },
+[45922] = {
+"Empyrean Assassin",
+"The Vortex Pinnacle",
+"enUS",
+},
+[56732] = {
+"Liu Flameheart",
+"Temple of the Jade Serpent",
+"enUS",
+},
+[43873] = {
+"Altairus",
+"The Vortex Pinnacle",
+"enUS",
+},
 [80936] = {
 "Grom'kar Grenadier",
 "Grimrail Depot",
 "enUS",
 },
-[130192] = {
-"Hulking Demolisher",
-"Antorus, the Burning Throne",
+[56924] = {
+"Inflamed Hozen Brawler",
+"Stormstout Brewery",
 "enUS",
 },
 [30549] = {
@@ -26739,9 +25443,9 @@ nil,
 "The Dread Pit",
 "enUS",
 },
-[83623] = {
-"Bloodmaul Warder",
-"Bloodmaul Slag Mines",
+[44898] = {
+"Pygmy Firebreather",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [61338] = {
@@ -26749,9 +25453,9 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[91796] = {
-"Skrog Wavecrasher",
-"Eye of Azshara",
+[16057] = {
+"Rotting Maggot",
+"Naxxramas",
 "enUS",
 },
 [102430] = {
@@ -26759,9 +25463,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[13021] = {
-"Warpwood Crusher",
-"Dire Maul",
+[19632] = {
+"Lykul Stinger",
+"Coilfang: The Underbog",
 "enUS",
 },
 [24664] = {
@@ -26784,9 +25488,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[11197] = {
-"Mindless Skeleton",
-"Stratholme",
+[80938] = {
+"Grom'kar Hulk",
+"Grimrail Depot",
 "enUS",
 },
 [222964] = {
@@ -26809,9 +25513,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[45922] = {
-"Empyrean Assassin",
-"The Vortex Pinnacle",
+[235505] = {
+"Darkfuse Cackler",
+"Fungal Folly",
 "enUS",
 },
 [218103] = {
@@ -26829,9 +25533,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[45912] = {
-"Wild Vortex",
-"The Vortex Pinnacle",
+[91002] = {
+"Rotdrool Grabber",
+"Neltharion's Lair",
 "enUS",
 },
 [75820] = {
@@ -26839,14 +25543,14 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[8477] = {
-"Skeletal Servant",
-"Stratholme",
+[15977] = {
+"Poisonous Skitterer",
+"Naxxramas",
 "enUS",
 },
-[229363] = {
-"Imperious Soundwave",
-"Liberation of Undermine",
+[125545] = {
+"Blazing Imp",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [56541] = {
@@ -26869,14 +25573,14 @@ nil,
 "Grim Batol",
 "enUS",
 },
-[229364] = {
-"Imperious Deathtone",
-"Liberation of Undermine",
+[222461] = {
+"Congealed Mass",
+"Nerub-ar Palace",
 "enUS",
 },
-[80938] = {
-"Grom'kar Hulk",
-"Grimrail Depot",
+[229363] = {
+"Imperious Soundwave",
+"Liberation of Undermine",
 "enUS",
 },
 [229619] = {
@@ -26884,14 +25588,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[228514] = {
-"Pit Mechanic",
-"Liberation of Undermine",
+[45268] = {
+"Servant of Siamat",
+"Lost City of the Tol'vir",
 "enUS",
 },
-[7271] = {
-"Witch Doctor Zum'rah",
-"Zul'Farrak",
+[657] = {
+"Defias Pirate",
+"Deadmines",
 "enUS",
 },
 [95779] = {
@@ -26909,24 +25613,24 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[238237] = {
-"Darkfuse Thug",
+[231925] = {
+"Drill Sergeant",
+"Sidestreet Sluice",
+"enUS",
+},
+[229364] = {
+"Imperious Deathtone",
 "Liberation of Undermine",
 "enUS",
 },
-[235505] = {
-"Darkfuse Cackler",
-"Fungal Folly",
+[61445] = {
+"Haiyan the Unstoppable",
+"Mogu'shan Palace",
 "enUS",
 },
-[10412] = {
-"Crypt Crawler",
-"Stratholme",
-"enUS",
-},
-[7247] = {
-"Sandfury Soul Eater",
-"Zul'Farrak",
+[224249] = {
+"Twilight Lavabender",
+"Grim Batol",
 "enUS",
 },
 [76205] = {
@@ -26934,14 +25638,14 @@ nil,
 "Skyreach",
 "enUS",
 },
-[229281] = {
-"Charred Fanatic",
-"Liberation of Undermine",
+[11489] = {
+"Tendris Warpwood",
+"Dire Maul",
 "enUS",
 },
-[91004] = {
-"Ularogg Cragshaper",
-"Neltharion's Lair",
+[10385] = {
+"Ghostly Citizen",
+"Stratholme",
 "enUS",
 },
 [59804] = {
@@ -26949,9 +25653,9 @@ nil,
 "Shado-Pan Monastery",
 "enUS",
 },
-[47714] = {
-"Vapor",
-"Deadmines",
+[234393] = {
+"Void Aberration",
+"Excavation Site 9",
 "enUS",
 },
 [229365] = {
@@ -26984,14 +25688,14 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[231925] = {
-"Drill Sergeant",
-"Sidestreet Sluice",
+[80940] = {
+"Iron Infantry",
+"Grimrail Depot",
 "enUS",
 },
-[224249] = {
-"Twilight Lavabender",
-"Grim Batol",
+[36497] = {
+"Bronjahm",
+"The Forge of Souls",
 "enUS",
 },
 [229366] = {
@@ -27019,9 +25723,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[80940] = {
-"Iron Infantry",
-"Grimrail Depot",
+[222459] = {
+"Congealing Mass",
+"Nerub-ar Palace",
 "enUS",
 },
 [54687] = {
@@ -27029,9 +25733,9 @@ nil,
 "End Time",
 "enUS",
 },
-[166079] = {
-"Brittlebone Crossbowman",
-"The Necrotic Wake",
+[91792] = {
+"Stormwake Hydra",
+"Eye of Azshara",
 "enUS",
 },
 [56862] = {
@@ -27044,9 +25748,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[219045] = {
-"Colossal Spider",
-"Nerub-ar Palace",
+[58822] = {
+"Risen Guard",
+"Scholomance",
 "enUS",
 },
 [223994] = {
@@ -27054,14 +25758,14 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
+[165824] = {
+"Nar'zudah",
+"The Necrotic Wake",
+"enUS",
+},
 [13280] = {
 "Hydrospawn",
 "Dire Maul",
-"enUS",
-},
-[222459] = {
-"Congealing Mass",
-"Nerub-ar Palace",
 "enUS",
 },
 [61340] = {
@@ -27069,9 +25773,9 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[99358] = {
-"Rotheart Dryad",
-"Darkheart Thicket",
+[24697] = {
+"Sister of Torment",
+"Magisters' Terrace",
 "enUS",
 },
 [165911] = {
@@ -27079,9 +25783,9 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[32593] = {
-"Skittering Swarmer",
-"Azjol-Nerub",
+[20923] = {
+"Blood Guard Porung",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
 [238068] = {
@@ -27089,14 +25793,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[223995] = {
-"Nightfall Curseblade",
-"The Dawnbreaker",
+[59613] = {
+"Professor Slate",
+"Scholomance",
 "enUS",
 },
-[17370] = {
-"Laughing Skull Enforcer",
-"Hellfire Citadel: The Blood Furnace",
+[124166] = {
+"Torment of Khaz'goroth",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [45412] = {
@@ -27104,24 +25808,24 @@ nil,
 "Stratholme",
 "enUS",
 },
-[11489] = {
-"Tendris Warpwood",
-"Dire Maul",
+[176404] = {
+"Dark Sentinel",
+"Sanctum of Domination",
 "enUS",
 },
-[45924] = {
-"Turbulent Squall",
-"The Vortex Pinnacle",
+[54432] = {
+"Murozond",
+"End Time",
 "enUS",
 },
-[216320] = {
-"The Coaglamation",
-"City of Threads",
+[212739] = {
+"Radiating Voidstone",
+"The Rookery",
 "enUS",
 },
-[20923] = {
-"Blood Guard Porung",
-"Hellfire Citadel: The Shattered Halls",
+[40021] = {
+"Incendiary Spark",
+"Blackrock Caverns",
 "enUS",
 },
 [231928] = {
@@ -27139,14 +25843,24 @@ nil,
 "The Dread Pit",
 "enUS",
 },
-[222461] = {
-"Congealed Mass",
-"Nerub-ar Palace",
+[216320] = {
+"The Coaglamation",
+"City of Threads",
 "enUS",
 },
-[58823] = {
-"Scholomance Neophyte",
-"Scholomance",
+[99366] = {
+"Taintheart Summoner",
+"Darkheart Thicket",
+"enUS",
+},
+[99956] = {
+"Fel-Infused Fury",
+"Vault of the Wardens",
+"enUS",
+},
+[172981] = {
+"Kyrian Stitchwerk",
+"The Necrotic Wake",
 "enUS",
 },
 [137511] = {
@@ -27154,24 +25868,14 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[48419] = {
-"Defias Miner",
-"Deadmines",
-"enUS",
-},
-[176404] = {
-"Dark Sentinel",
-"Sanctum of Domination",
-"enUS",
-},
 [106785] = {
 "Bitterbrine Slave",
 "Eye of Azshara",
 "enUS",
 },
-[40167] = {
-"Twilight Beguiler",
-"Grim Batol",
+[44261] = {
+"Sharptalon Eagle",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [29335] = {
@@ -27179,9 +25883,9 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[95887] = {
-"Glazer",
-"Vault of the Wardens",
+[24696] = {
+"Coilskar Witch",
+"Magisters' Terrace",
 "enUS",
 },
 [54688] = {
@@ -27209,14 +25913,14 @@ nil,
 "Sidestreet Sluice",
 "enUS",
 },
-[39960] = {
-"Deep Murloc Drudge",
+[213770] = {
+"Ink of Ozumat",
 "Throne of the Tides",
 "enUS",
 },
-[598] = {
-"Defias Miner",
-"Deadmines",
+[233623] = {
+"Pyrotechnics",
+"Liberation of Undermine",
 "enUS",
 },
 [3450] = {
@@ -27224,9 +25928,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[177407] = {
-"Formless Mass",
-"Sanctum of Domination",
+[19964] = {
+"Red Seedling",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [40935] = {
@@ -27234,9 +25938,9 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[16127] = {
-"Spectral Trainee",
-"Naxxramas",
+[165560] = {
+"Gormling Larva",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [172312] = {
@@ -27254,9 +25958,9 @@ nil,
 "Scholomance",
 "enUS",
 },
-[48420] = {
-"Defias Digger",
-"Deadmines",
+[16593] = {
+"Shattered Hand Brawler",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
 [218370] = {
@@ -27279,24 +25983,24 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[17725] = {
-"Underbog Lurker",
-"Coilfang: The Underbog",
+[27960] = {
+"Dark Rune Warrior",
+"Halls of Stone",
 "enUS",
 },
-[18429] = {
-"Arcane Fiend",
-"Auchindoun: Mana-Tombs",
+[48420] = {
+"Defias Digger",
+"Deadmines",
 "enUS",
 },
-[30071] = {
-"Stitched Colossus",
+[16063] = {
+"Sir Zeliek",
 "Naxxramas",
 "enUS",
 },
-[40936] = {
-"Faceless Watcher",
-"Throne of the Tides",
+[59359] = {
+"Flesh Horror",
+"Scholomance",
 "enUS",
 },
 [43878] = {
@@ -27304,19 +26008,19 @@ nil,
 "The Vortex Pinnacle",
 "enUS",
 },
-[216328] = {
-"Unstable Test Subject",
-"City of Threads",
+[18429] = {
+"Arcane Fiend",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
-[19964] = {
-"Red Seedling",
-"Tempest Keep: The Botanica",
-"enUS",
-},
-[16057] = {
-"Rotting Maggot",
+[16127] = {
+"Spectral Trainee",
 "Naxxramas",
+"enUS",
+},
+[163618] = {
+"Zolramus Necromancer",
+"The Necrotic Wake",
 "enUS",
 },
 [883] = {
@@ -27344,9 +26048,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[163618] = {
-"Zolramus Necromancer",
-"The Necrotic Wake",
+[45926] = {
+"Servant of Asaad",
+"The Vortex Pinnacle",
 "enUS",
 },
 [218884] = {
@@ -27369,9 +26073,9 @@ nil,
 "The Forge of Souls",
 "enUS",
 },
-[48229] = {
-"Kobold Digger",
-"Deadmines",
+[61444] = {
+"Ming the Cunning",
+"Mogu'shan Palace",
 "enUS",
 },
 [220164] = {
@@ -27384,14 +26088,14 @@ nil,
 "City of Threads",
 "enUS",
 },
-[29304] = {
-"Slad'ran",
-"Gundrak",
+[29240] = {
+"Stormforged Lieutenant",
+"Halls of Lightning",
 "enUS",
 },
-[59359] = {
-"Flesh Horror",
-"Scholomance",
+[40936] = {
+"Faceless Watcher",
+"Throne of the Tides",
 "enUS",
 },
 [165919] = {
@@ -27419,9 +26123,9 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[91002] = {
-"Rotdrool Grabber",
-"Neltharion's Lair",
+[28619] = {
+"Web Wrap",
+"Azjol-Nerub",
 "enUS",
 },
 [76595] = {
@@ -27434,9 +26138,9 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[15977] = {
-"Poisonous Skitterer",
-"Naxxramas",
+[95861] = {
+"Hatecoil Oracle",
+"Eye of Azshara",
 "enUS",
 },
 [225539] = {
@@ -27449,9 +26153,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[222368] = {
-"Exalted Priest",
-"Nerub-ar Palace",
+[48906] = {
+"Blaze of the Heavens",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [7274] = {
@@ -27459,9 +26163,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[45926] = {
-"Servant of Asaad",
-"The Vortex Pinnacle",
+[216328] = {
+"Unstable Test Subject",
+"City of Threads",
 "enUS",
 },
 [216584] = {
@@ -27474,14 +26178,14 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[222214] = {
-"Frenzied Leaper",
-"Nerub-ar Palace",
+[29304] = {
+"Slad'ran",
+"Gundrak",
 "enUS",
 },
-[29240] = {
-"Stormforged Lieutenant",
-"Halls of Lightning",
+[48229] = {
+"Kobold Digger",
+"Deadmines",
 "enUS",
 },
 [227843] = {
@@ -27524,24 +26228,14 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[27985] = {
-"Iron Golem Custodian",
-"Halls of Stone",
+[95772] = {
+"Frenzied Nightclaw",
+"Darkheart Thicket",
 "enUS",
 },
-[84499] = {
-"Entanglement",
-"The Everbloom",
-"enUS",
-},
-[61445] = {
-"Haiyan the Unstoppable",
-"Mogu'shan Palace",
-"enUS",
-},
-[39708] = {
-"Twilight Flame Caller",
-"Blackrock Caverns",
+[23954] = {
+"Ingvar the Plunderer",
+"Utgarde Keep",
 "enUS",
 },
 [75829] = {
@@ -27549,9 +26243,19 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[163620] = {
-"Rotspew",
-"The Necrotic Wake",
+[137517] = {
+"Ashvane Destroyer",
+"Siege of Boralus",
+"enUS",
+},
+[58757] = {
+"Scholomance Acolyte",
+"Scholomance",
+"enUS",
+},
+[59360] = {
+"Meat Graft",
+"Scholomance",
 "enUS",
 },
 [233474] = {
@@ -27569,19 +26273,19 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[212681] = {
-"Vicious Snap Dragon",
-"Throne of the Tides",
-"enUS",
-},
-[234393] = {
-"Void Aberration",
-"Excavation Site 9",
-"enUS",
-},
 [17726] = {
 "Wrathfin Myrmidon",
 "Coilfang: The Underbog",
+"enUS",
+},
+[54552] = {
+"Time-Twisted Breaker",
+"End Time",
+"enUS",
+},
+[5649] = {
+"Sandfury Blood Drinker",
+"Zul'Farrak",
 "enUS",
 },
 [59808] = {
@@ -27604,19 +26308,9 @@ nil,
 "Halls of Stone",
 "enUS",
 },
-[29931] = {
-"Drakkari Rhino",
-"Gundrak",
-"enUS",
-},
-[43873] = {
-"Altairus",
-"The Vortex Pinnacle",
-"enUS",
-},
-[58822] = {
-"Risen Guard",
-"Scholomance",
+[229782] = {
+"Awakened Phalanx",
+"Awakening The Machine",
 "enUS",
 },
 [223497] = {
@@ -27624,9 +26318,19 @@ nil,
 "Cinderbrew Meadery",
 "enUS",
 },
+[219035] = {
+"Deepwalker Guardian",
+"The Underkeep",
+"enUS",
+},
 [54435] = {
 "Shortblink",
 "End Time",
+"enUS",
+},
+[39390] = {
+"Twilight Drake",
+"Grim Batol",
 "enUS",
 },
 [163622] = {
@@ -27649,14 +26353,14 @@ nil,
 "Stratholme",
 "enUS",
 },
-[40925] = {
-"Tainted Sentry",
-"Throne of the Tides",
+[45096] = {
+"Tamed Tol'vir Prowler",
+"Eastern Kingdoms",
 "enUS",
 },
-[10385] = {
-"Ghostly Citizen",
-"Stratholme",
+[224152] = {
+"Twilight Brute",
+"Grim Batol",
 "enUS",
 },
 [216333] = {
@@ -27674,24 +26378,24 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[165824] = {
-"Nar'zudah",
-"The Necrotic Wake",
+[26746] = {
+"Crazed Mana-Wraith",
+"The Nexus",
 "enUS",
 },
-[223498] = {
-"Bee-let",
-"Cinderbrew Meadery",
+[56930] = {
+"Krik'thik Swarm Bringer",
+"Gate of the Setting Sun",
+"enUS",
+},
+[59873] = {
+"Corrupt Living Water",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [176929] = {
 "Remnant of Kel'Thuzad",
 "Sanctum of Domination",
-"enUS",
-},
-[75191] = {
-"Bloodmaul Slaver",
-"Bloodmaul Slag Mines",
 "enUS",
 },
 [61216] = {
@@ -27704,14 +26408,14 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[217870] = {
-"Devouring Shade",
-"Skittering Breach",
+[99359] = {
+"Rotheart Keeper",
+"Darkheart Thicket",
 "enUS",
 },
-[28921] = {
-"Hadronox",
-"Azjol-Nerub",
+[219034] = {
+"Web Marauder",
+"The Underkeep",
 "enUS",
 },
 [213008] = {
@@ -27729,9 +26433,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[26746] = {
-"Crazed Mana-Wraith",
-"The Nexus",
+[217870] = {
+"Devouring Shade",
+"Skittering Breach",
 "enUS",
 },
 [28825] = {
@@ -27749,24 +26453,24 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[59873] = {
-"Corrupt Living Water",
-"Temple of the Jade Serpent",
+[28921] = {
+"Hadronox",
+"Azjol-Nerub",
 "enUS",
 },
-[24697] = {
-"Sister of Torment",
-"Magisters' Terrace",
+[90998] = {
+"Blightshard Shaper",
+"Neltharion's Lair",
 "enUS",
 },
-[99956] = {
-"Fel-Infused Fury",
-"Vault of the Wardens",
+[214801] = {
+"Skipper",
+"Nerub-ar Palace",
 "enUS",
 },
-[172981] = {
-"Kyrian Stitchwerk",
-"The Necrotic Wake",
+[53575] = {
+"Lava Wielder",
+"Firelands",
 "enUS",
 },
 [11458] = {
@@ -27784,9 +26488,9 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[24696] = {
-"Coilskar Witch",
-"Magisters' Terrace",
+[225804] = {
+"Geargrinder Biker",
+"Liberation of Undermine",
 "enUS",
 },
 [83892] = {
@@ -27799,14 +26503,14 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[5649] = {
-"Sandfury Blood Drinker",
-"Zul'Farrak",
+[10811] = {
+"Instructor Galford",
+"Stratholme",
 "enUS",
 },
-[225804] = {
-"Geargrinder Biker",
-"Liberation of Undermine",
+[33966] = {
+"Crusher Tentacle",
+"Ulduar",
 "enUS",
 },
 [29305] = {
@@ -27814,9 +26518,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[233623] = {
-"Pyrotechnics",
-"Liberation of Undermine",
+[216337] = {
+"Bloodworker",
+"Ara-Kara, City of Echoes",
 "enUS",
 },
 [58722] = {
@@ -27824,14 +26528,14 @@ nil,
 "Scholomance",
 "enUS",
 },
-[45268] = {
-"Servant of Siamat",
-"Lost City of the Tol'vir",
+[164804] = {
+"Droman Oulfarran",
+"Mists of Tirna Scithe",
 "enUS",
 },
-[165560] = {
-"Gormling Larva",
-"Mists of Tirna Scithe",
+[222173] = {
+"Invasive Undercrawler",
+"The Dread Pit",
 "enUS",
 },
 [56867] = {
@@ -27839,14 +26543,9 @@ nil,
 "Stormstout Brewery",
 "enUS",
 },
-[16593] = {
-"Shattered Hand Brawler",
-"Hellfire Citadel: The Shattered Halls",
-"enUS",
-},
-[215826] = {
-"Bloodworker",
-"Ara-Kara, City of Echoes",
+[19486] = {
+"Sunseeker Chemist",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [75193] = {
@@ -27854,9 +26553,14 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[59426] = {
-"Bopper",
-"Stormstout Brewery",
+[215826] = {
+"Bloodworker",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[39705] = {
+"Ascendant Lord Obsidius",
+"Blackrock Caverns",
 "enUS",
 },
 [216338] = {
@@ -27864,9 +26568,9 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[45097] = {
-"Oathsworn Tamer",
-"Eastern Kingdoms",
+[45928] = {
+"Executor of the Caliph",
+"The Vortex Pinnacle",
 "enUS",
 },
 [83893] = {
@@ -27874,19 +26578,19 @@ nil,
 "The Everbloom",
 "enUS",
 },
-[19486] = {
-"Sunseeker Chemist",
-"Tempest Keep: The Botanica",
+[45097] = {
+"Oathsworn Tamer",
+"Eastern Kingdoms",
 "enUS",
 },
-[213770] = {
-"Ink of Ozumat",
-"Throne of the Tides",
+[48522] = {
+"Defias Pirate",
+"Deadmines",
 "enUS",
 },
-[210966] = {
-"Sureki Webmage",
-"The Dawnbreaker",
+[17727] = {
+"Wrathfin Sentry",
+"Coilfang: The Underbog",
 "enUS",
 },
 [15936] = {
@@ -27894,9 +26598,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[15952] = {
-"Maexxna",
-"Naxxramas",
+[224271] = {
+"Twilight Warlock",
+"Grim Batol",
 "enUS",
 },
 [216339] = {
@@ -27904,29 +26608,9 @@ nil,
 "City of Threads",
 "enUS",
 },
-[61444] = {
-"Ming the Cunning",
-"Mogu'shan Palace",
-"enUS",
-},
-[27962] = {
-"Dark Rune Elementalist",
-"Halls of Stone",
-"enUS",
-},
-[17695] = {
-"Shattered Hand Assassin",
-"Hellfire Citadel: The Shattered Halls",
-"enUS",
-},
-[101549] = {
-"Arcane Minion",
-"Black Rook Hold",
-"enUS",
-},
-[28619] = {
-"Web Wrap",
-"Azjol-Nerub",
+[47720] = {
+"Camel",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [16064] = {
@@ -27934,9 +26618,29 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[95861] = {
-"Hatecoil Oracle",
-"Eye of Azshara",
+[210966] = {
+"Sureki Webmage",
+"The Dawnbreaker",
+"enUS",
+},
+[101549] = {
+"Arcane Minion",
+"Black Rook Hold",
+"enUS",
+},
+[647] = {
+"Captain Greenskin",
+"Deadmines",
+"enUS",
+},
+[75194] = {
+"Gnasher",
+"Bloodmaul Slag Mines",
+"enUS",
+},
+[28695] = {
+"Molten Golem",
+"Halls of Lightning",
 "enUS",
 },
 [216340] = {
@@ -27944,9 +26648,9 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[48906] = {
-"Blaze of the Heavens",
-"Lost City of the Tol'vir",
+[83894] = {
+"Dulhu",
+"The Everbloom",
 "enUS",
 },
 [220946] = {
@@ -27964,19 +26668,19 @@ nil,
 "Darkheart Thicket",
 "enUS",
 },
-[75194] = {
-"Gnasher",
-"Bloodmaul Slag Mines",
+[224516] = {
+"Skardyn Invader",
+"The Stonevault",
 "enUS",
 },
-[83894] = {
-"Dulhu",
-"The Everbloom",
+[17397] = {
+"Shadowmoon Adept",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[45917] = {
-"Cloud Prince",
-"The Vortex Pinnacle",
+[28730] = {
+"Watcher Gashra",
+"Azjol-Nerub",
 "enUS",
 },
 [216341] = {
@@ -27994,34 +26698,34 @@ nil,
 "Court of Stars",
 "enUS",
 },
-[95772] = {
-"Frenzied Nightclaw",
-"Darkheart Thicket",
+[173044] = {
+"Stitching Assistant",
+"The Necrotic Wake",
 "enUS",
 },
-[26735] = {
-"Azure Scale-Binder",
-"The Nexus",
+[17464] = {
+"Shattered Hand Gladiator",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[58757] = {
-"Scholomance Acolyte",
-"Scholomance",
+[122532] = {
+"Ember of Taeshalach",
+"Antorus, the Burning Throne",
+"enUS",
+},
+[33136] = {
+"Guardian of Yogg-Saron",
+"Ulduar",
+"enUS",
+},
+[122469] = {
+"Diima, Mother of Gloom",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [75451] = {
 "Defiled Spirit",
 "Shadowmoon Burial Grounds",
-"enUS",
-},
-[14369] = {
-"Shen'dralar Zealot",
-"Dire Maul",
-"enUS",
-},
-[216342] = {
-"Skittering Assistant",
-"City of Threads",
 "enUS",
 },
 [214551] = {
@@ -28034,14 +26738,14 @@ nil,
 "Auchindoun: Mana-Tombs",
 "enUS",
 },
-[163121] = {
-"Stitched Vanguard",
-"The Necrotic Wake",
+[101679] = {
+"Dreadsoul Poisoner",
+"Darkheart Thicket",
 "enUS",
 },
-[28730] = {
-"Watcher Gashra",
-"Azjol-Nerub",
+[14369] = {
+"Shen'dralar Zealot",
+"Dire Maul",
 "enUS",
 },
 [59555] = {
@@ -28049,9 +26753,9 @@ nil,
 "Temple of the Jade Serpent",
 "enUS",
 },
-[229782] = {
-"Awakened Phalanx",
-"Awakening The Machine",
+[75452] = {
+"Bonemaw",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
 [28826] = {
@@ -28059,14 +26763,14 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[33136] = {
-"Guardian of Yogg-Saron",
-"Ulduar",
+[163121] = {
+"Stitched Vanguard",
+"The Necrotic Wake",
 "enUS",
 },
-[163122] = {
-"Brittlebone Warrior",
-"The Necrotic Wake",
+[18420] = {
+"Sunseeker Geomancer",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [28922] = {
@@ -28104,9 +26808,9 @@ nil,
 "The Vortex Pinnacle",
 "enUS",
 },
-[219035] = {
-"Deepwalker Guardian",
-"The Underkeep",
+[29306] = {
+"Gal'darah",
+"Gundrak",
 "enUS",
 },
 [216856] = {
@@ -28124,9 +26828,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[212383] = {
-"Kobold Taskworker",
-"Darkflame Cleft",
+[98970] = {
+"Latosius",
+"Black Rook Hold",
 "enUS",
 },
 [76220] = {
@@ -28134,29 +26838,29 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[75452] = {
-"Bonemaw",
-"Shadowmoon Burial Grounds",
+[137405] = {
+"Gripping Terror",
+"Siege of Boralus",
 "enUS",
 },
-[216329] = {
-"Congealed Droplet",
-"City of Threads",
+[59684] = {
+"Hozen Party Animal",
+"Stormstout Brewery",
 "enUS",
 },
-[224152] = {
-"Twilight Brute",
-"Grim Batol",
+[103344] = {
+"Oakheart",
+"Darkheart Thicket",
 "enUS",
 },
-[228539] = {
-"Nightfall Darkcaster",
-"The Dawnbreaker",
+[212765] = {
+"Void-Bound Despoiler",
+"The Stonevault",
 "enUS",
 },
-[54552] = {
-"Time-Twisted Breaker",
-"End Time",
+[24684] = {
+"Sunblade Blood Knight",
+"Magisters' Terrace",
 "enUS",
 },
 [211228] = {
@@ -28169,24 +26873,24 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[47720] = {
-"Camel",
-"Lost City of the Tol'vir",
+[79548] = {
+"Assault Cannon",
+"Grimrail Depot",
 "enUS",
 },
-[219034] = {
-"Web Marauder",
-"The Underkeep",
+[75899] = {
+"Possessed Soul",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
-[90998] = {
-"Blightshard Shaper",
-"Neltharion's Lair",
+[20083] = {
+"Bloodwarder Mender",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[91787] = {
-"Cove Seagull",
-"Eye of Azshara",
+[18394] = {
+"Ethereal Wraith",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [212764] = {
@@ -28194,9 +26898,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[53575] = {
-"Lava Wielder",
-"Firelands",
+[11043] = {
+"Risen Monk",
+"Stratholme",
 "enUS",
 },
 [100529] = {
@@ -28204,14 +26908,14 @@ nil,
 "Darkheart Thicket",
 "enUS",
 },
-[59684] = {
-"Hozen Party Animal",
-"Stormstout Brewery",
+[122468] = {
+"Noura, Mother of Flames",
+"Antorus, the Burning Throne",
 "enUS",
 },
-[10811] = {
-"Instructor Galford",
-"Stratholme",
+[180782] = {
+"Consumed Soul",
+"Sanctum of Domination",
 "enUS",
 },
 [238608] = {
@@ -28224,9 +26928,9 @@ nil,
 "Well of Eternity",
 "enUS",
 },
-[212765] = {
-"Void-Bound Despoiler",
-"The Stonevault",
+[214761] = {
+"Nightfall Ritualist",
+"The Dawnbreaker",
 "enUS",
 },
 [167731] = {
@@ -28234,19 +26938,19 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
+[15953] = {
+"Grand Widow Faerlina",
+"Naxxramas",
+"enUS",
+},
 [17728] = {
 "Murkblood Tribesman",
 "Coilfang: The Underbog",
 "enUS",
 },
-[27963] = {
-"Dark Rune Theurgist",
-"Halls of Stone",
-"enUS",
-},
-[79548] = {
-"Assault Cannon",
-"Grimrail Depot",
+[223770] = {
+"Blazing Fiend",
+"Darkflame Cleft",
 "enUS",
 },
 [75198] = {
@@ -28264,59 +26968,9 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[39390] = {
-"Twilight Drake",
-"Grim Batol",
-"enUS",
-},
-[216275] = {
-"Brann's Epic Egg",
-"Skittering Breach",
-"enUS",
-},
-[39982] = {
-"Crazed Mage",
-"Blackrock Caverns",
-"enUS",
-},
-[11043] = {
-"Risen Monk",
-"Stratholme",
-"enUS",
-},
-[76094] = {
-"Sun Trinket",
-"Skyreach",
-"enUS",
-},
-[39705] = {
-"Ascendant Lord Obsidius",
-"Blackrock Caverns",
-"enUS",
-},
-[45928] = {
-"Executor of the Caliph",
-"The Vortex Pinnacle",
-"enUS",
-},
-[222173] = {
-"Invasive Undercrawler",
-"The Dread Pit",
-"enUS",
-},
-[36272] = {
-"Apothecary Frye",
-"Shadowfang Keep",
-"enUS",
-},
-[237587] = {
-"Mechanized Peacekeeper",
-"Liberation of Undermine",
-"enUS",
-},
-[229399] = {
-"Blood Drainer",
-"Nerub-ar Palace",
+[210156] = {
+"Skarmorak",
+"The Stonevault",
 "enUS",
 },
 [32665] = {
@@ -28324,9 +26978,59 @@ nil,
 "The Nexus",
 "enUS",
 },
-[223770] = {
-"Blazing Fiend",
-"Darkflame Cleft",
+[39982] = {
+"Crazed Mage",
+"Blackrock Caverns",
+"enUS",
+},
+[75966] = {
+"Defiled Spirit",
+"Shadowmoon Burial Grounds",
+"enUS",
+},
+[76094] = {
+"Sun Trinket",
+"Skyreach",
+"enUS",
+},
+[168246] = {
+"Reanimated Crossbowman",
+"The Necrotic Wake",
+"enUS",
+},
+[47403] = {
+"Defias Reaper",
+"Deadmines",
+"enUS",
+},
+[113197] = {
+"Understone Drudge",
+"Neltharion's Lair",
+"enUS",
+},
+[36272] = {
+"Apothecary Frye",
+"Shadowfang Keep",
+"enUS",
+},
+[217748] = {
+"Nexus-Princess Ky'veza",
+"Nerub-ar Palace",
+"enUS",
+},
+[237587] = {
+"Mechanized Peacekeeper",
+"Liberation of Undermine",
+"enUS",
+},
+[225822] = {
+"Vexie Fullthrottle",
+"Liberation of Undermine",
+"enUS",
+},
+[81212] = {
+"Grimrail Overseer",
+"Grimrail Depot",
 "enUS",
 },
 [221979] = {
@@ -28344,8 +27048,8 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[28731] = {
-"Watcher Silthik",
+[29051] = {
+"Anub'ar Crypt Fiend",
 "Azjol-Nerub",
 "enUS",
 },
@@ -28359,9 +27063,9 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[168246] = {
-"Reanimated Crossbowman",
-"The Necrotic Wake",
+[100531] = {
+"Bloodtainted Fury",
+"Darkheart Thicket",
 "enUS",
 },
 [26716] = {
@@ -28369,23 +27073,23 @@ nil,
 "The Nexus",
 "enUS",
 },
-[47403] = {
-"Defias Reaper",
-"Deadmines",
+[164921] = {
+"Drust Harvester",
+"Mists of Tirna Scithe",
 "enUS",
 },
-[113197] = {
-"Understone Drudge",
+[164920] = {
+"Drust Soulcleaver",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[102253] = {
+"Understone Demolisher",
 "Neltharion's Lair",
 "enUS",
 },
-[48522] = {
-"Defias Pirate",
-"Deadmines",
-"enUS",
-},
-[17727] = {
-"Wrathfin Sentry",
+[17871] = {
+"Underbog Shambler",
 "Coilfang: The Underbog",
 "enUS",
 },
@@ -28394,14 +27098,14 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[29051] = {
-"Anub'ar Crypt Fiend",
-"Azjol-Nerub",
+[91794] = {
+"Saltscale Lurker",
+"Eye of Azshara",
 "enUS",
 },
-[164921] = {
-"Drust Harvester",
-"Mists of Tirna Scithe",
+[40943] = {
+"Gilgoblin Aquamage",
+"Throne of the Tides",
 "enUS",
 },
 [223772] = {
@@ -28424,19 +27128,19 @@ nil,
 "The Vortex Pinnacle",
 "enUS",
 },
-[224516] = {
-"Skardyn Invader",
-"The Stonevault",
+[223774] = {
+"Blazing Fiend",
+"Darkflame Cleft",
 "enUS",
 },
-[647] = {
-"Captain Greenskin",
-"Deadmines",
+[27978] = {
+"Sjonnir The Ironshaper",
+"Halls of Stone",
 "enUS",
 },
-[17397] = {
-"Shadowmoon Adept",
-"Hellfire Citadel: The Blood Furnace",
+[13276] = {
+"Wildspawn Imp",
+"Dire Maul",
 "enUS",
 },
 [100532] = {
@@ -28454,9 +27158,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[101679] = {
-"Dreadsoul Poisoner",
-"Darkheart Thicket",
+[17729] = {
+"Murkblood Spearman",
+"Coilfang: The Underbog",
 "enUS",
 },
 [236823] = {
@@ -28464,14 +27168,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[11859] = {
-"Doomguard",
-"Sanctum of Domination",
+[210109] = {
+"Earth Infused Golem",
+"The Stonevault",
 "enUS",
 },
-[122469] = {
-"Diima, Mother of Gloom",
-"Antorus, the Burning Throne",
+[59778] = {
+"Krik'thik Striker",
+"Gate of the Setting Sun",
 "enUS",
 },
 [135241] = {
@@ -28479,9 +27183,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[40943] = {
-"Gilgoblin Aquamage",
-"Throne of the Tides",
+[63808] = {
+"Faintly Glowing Gem",
+"Mogu'shan Palace",
 "enUS",
 },
 [225821] = {
@@ -28494,13 +27198,13 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[76097] = {
-"Solar Familiar",
-"Skyreach",
+[19598] = {
+"Mutate Fleshlasher",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[15953] = {
-"Grand Widow Faerlina",
+[15928] = {
+"Thaddius",
 "Naxxramas",
 "enUS",
 },
@@ -28514,19 +27218,19 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[225822] = {
-"Vexie Fullthrottle",
-"Liberation of Undermine",
+[59522] = {
+"Sudsy Brew Alemental",
+"Stormstout Brewery",
 "enUS",
 },
-[220193] = {
-"Sureki Venomblade",
-"City of Threads",
+[23960] = {
+"Dragonflayer Runecaster",
+"Utgarde Keep",
 "enUS",
 },
-[223775] = {
-"Blazing Fiend",
-"Darkflame Cleft",
+[76097] = {
+"Solar Familiar",
+"Skyreach",
 "enUS",
 },
 [29819] = {
@@ -28534,9 +27238,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[53545] = {
-"Molten Spewer",
-"Firelands",
+[47404] = {
+"Defias Watcher",
+"Deadmines",
 "enUS",
 },
 [55656] = {
@@ -28544,14 +27248,14 @@ nil,
 "Well of Eternity",
 "enUS",
 },
-[17464] = {
-"Shattered Hand Gladiator",
-"Hellfire Citadel: The Shattered Halls",
+[45065] = {
+"Tol'vir Merchant",
+"Lost City of the Tol'vir",
 "enUS",
 },
-[27964] = {
-"Dark Rune Scholar",
-"Halls of Stone",
+[53189] = {
+"Molten Elemental",
+"Firelands",
 "enUS",
 },
 [16017] = {
@@ -28559,9 +27263,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[17729] = {
-"Murkblood Spearman",
-"Coilfang: The Underbog",
+[27964] = {
+"Dark Rune Scholar",
+"Halls of Stone",
 "enUS",
 },
 [223776] = {
@@ -28574,24 +27278,24 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[17465] = {
-"Shattered Hand Centurion",
-"Hellfire Citadel: The Shattered Halls",
+[217126] = {
+"Over-Indulged Patron",
+"Cinderbrew Meadery",
 "enUS",
 },
-[229918] = {
-"Caustic Skyrazor",
+[77889] = {
+"Grom'tash the Destructor",
+"Auchindoun",
+"enUS",
+},
+[223777] = {
+"Blazing Fiend",
+"Darkflame Cleft",
+"enUS",
+},
+[221986] = {
+"Blood Horror",
 "Nerub-ar Palace",
-"enUS",
-},
-[24684] = {
-"Sunblade Blood Knight",
-"Magisters' Terrace",
-"enUS",
-},
-[220195] = {
-"Sureki Silkbinder",
-"City of Threads",
 "enUS",
 },
 [16145] = {
@@ -28604,14 +27308,14 @@ nil,
 "Kriegval's Rest",
 "enUS",
 },
-[164414] = {
-"Reanimated Mage",
-"The Necrotic Wake",
+[229918] = {
+"Caustic Skyrazor",
+"Nerub-ar Palace",
 "enUS",
 },
-[221986] = {
-"Blood Horror",
-"Nerub-ar Palace",
+[16193] = {
+"Skeletal Smith",
+"Naxxramas",
 "enUS",
 },
 [164926] = {
@@ -28619,19 +27323,19 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[59459] = {
-"Hopling",
-"Stormstout Brewery",
+[18105] = {
+"Ghaz'an",
+"Coilfang: The Underbog",
 "enUS",
 },
-[223204] = {
-"Chamber Guardian",
-"Nerub-ar Palace",
+[213932] = {
+"Sureki Militant",
+"The Dawnbreaker",
 "enUS",
 },
-[173044] = {
-"Stitching Assistant",
-"The Necrotic Wake",
+[233247] = {
+"Imperious Mixer",
+"Liberation of Undermine",
 "enUS",
 },
 [135245] = {
@@ -28639,14 +27343,14 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[28695] = {
-"Molten Golem",
-"Halls of Lightning",
+[227874] = {
+"Web Spreader",
+"Earthcrawl Mines",
 "enUS",
 },
-[122468] = {
-"Noura, Mother of Flames",
-"Antorus, the Burning Throne",
+[39665] = {
+"Rom'ogg Bonecrusher",
+"Blackrock Caverns",
 "enUS",
 },
 [97720] = {
@@ -28664,9 +27368,9 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[77890] = {
-"Durag the Dominator",
-"Auchindoun",
+[164929] = {
+"Tirnenn Villager",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [75715] = {
@@ -28674,9 +27378,9 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[217126] = {
-"Over-Indulged Patron",
-"Cinderbrew Meadery",
+[77890] = {
+"Durag the Dominator",
+"Auchindoun",
 "enUS",
 },
 [28732] = {
@@ -28704,24 +27408,24 @@ nil,
 "Shado-Pan Monastery",
 "enUS",
 },
+[95920] = {
+"Animated Storm",
+"Eye of Azshara",
+"enUS",
+},
 [28924] = {
 "Anub'ar Champion",
 "Azjol-Nerub",
 "enUS",
 },
-[233247] = {
-"Imperious Mixer",
-"Liberation of Undermine",
+[129374] = {
+"Scrimshaw Enforcer",
+"Siege of Boralus",
 "enUS",
 },
-[227874] = {
-"Web Spreader",
-"Earthcrawl Mines",
-"enUS",
-},
-[39985] = {
-"Mad Prisoner",
-"Blackrock Caverns",
+[137516] = {
+"Ashvane Invader",
+"Siege of Boralus",
 "enUS",
 },
 [10420] = {
@@ -28729,34 +27433,14 @@ nil,
 "Stratholme",
 "enUS",
 },
-[10436] = {
-"Baroness Anastari",
-"Stratholme",
+[7267] = {
+"Chief Ukorz Sandscalp",
+"Zul'Farrak",
 "enUS",
 },
-[164929] = {
-"Tirnenn Villager",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[50284] = {
-"Twilight Zealot",
-"Blackrock Caverns",
-"enUS",
-},
-[104246] = {
-"Duskwatch Guard",
-"Court of Stars",
-"enUS",
-},
-[40177] = {
-"Forgemaster Throngus",
-"Grim Batol",
-"enUS",
-},
-[81985] = {
-"Everbloom Cultivator",
-"The Everbloom",
+[7275] = {
+"Shadowpriest Sezz'ziz",
+"Zul'Farrak",
 "enUS",
 },
 [102583] = {
@@ -28764,14 +27448,9 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[58664] = {
-"Instructor Chillheart's Phylactery",
-"Scholomance",
-"enUS",
-},
-[176956] = {
-"Shadowsteel Goliath",
-"Sanctum of Domination",
+[104246] = {
+"Duskwatch Guard",
+"Court of Stars",
 "enUS",
 },
 [29340] = {
@@ -28779,14 +27458,39 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[223181] = {
-"Agile Pursuer",
+[39985] = {
+"Mad Prisoner",
+"Blackrock Caverns",
+"enUS",
+},
+[50284] = {
+"Twilight Zealot",
+"Blackrock Caverns",
+"enUS",
+},
+[126764] = {
+"Bladesworn Ravager",
+"Antorus, the Burning Throne",
+"enUS",
+},
+[40177] = {
+"Forgemaster Throngus",
+"Grim Batol",
+"enUS",
+},
+[220199] = {
+"Battle Scarab",
 "City of Threads",
 "enUS",
 },
-[217748] = {
-"Nexus-Princess Ky'veza",
-"Nerub-ar Palace",
+[18894] = {
+"Felguard Brute",
+"Hellfire Citadel: The Blood Furnace",
+"enUS",
+},
+[59752] = {
+"Shado-Pan Ambusher",
+"Shado-Pan Monastery",
 "enUS",
 },
 [27389] = {
@@ -28794,19 +27498,19 @@ nil,
 "Utgarde Keep",
 "enUS",
 },
-[98970] = {
-"Latosius",
-"Black Rook Hold",
-"enUS",
-},
-[138247] = {
-"Irontide Curseblade",
-"Siege of Boralus",
-"enUS",
-},
-[214761] = {
-"Nightfall Ritualist",
+[213905] = {
+"Animated Darkness",
 "The Dawnbreaker",
+"enUS",
+},
+[124828] = {
+"Argus the Unmaker",
+"Antorus, the Burning Throne",
+"enUS",
+},
+[229769] = {
+"Medbot",
+"Awakening The Machine",
 "enUS",
 },
 [176957] = {
@@ -28814,9 +27518,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[102253] = {
-"Understone Demolisher",
-"Neltharion's Lair",
+[229513] = {
+"Darkfuse Stunner",
+"Liberation of Undermine",
 "enUS",
 },
 [40817] = {
@@ -28844,9 +27548,9 @@ nil,
 "Vault of the Wardens",
 "enUS",
 },
-[17871] = {
-"Underbog Shambler",
-"Coilfang: The Underbog",
+[19865] = {
+"Mutate Horror",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [29820] = {
@@ -28854,9 +27558,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[210478] = {
-"Infected Beast",
-"Fungal Folly",
+[29680] = {
+"Slad'ran Viper",
+"Gundrak",
 "enUS",
 },
 [216363] = {
@@ -28864,19 +27568,19 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[216619] = {
-"Orator Krix'vizk",
-"City of Threads",
+[210478] = {
+"Infected Beast",
+"Fungal Folly",
 "enUS",
 },
-[17730] = {
-"Murkblood Healer",
-"Coilfang: The Underbog",
+[54699] = {
+"Time-Twisted Nightsaber",
+"End Time",
 "enUS",
 },
-[216621] = {
-"Nerubian Webspinner",
-"Earthcrawl Mines",
+[125535] = {
+"Riftworld Assistant",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [27965] = {
@@ -28914,9 +27618,9 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[27978] = {
-"Sjonnir The Ironshaper",
-"Halls of Stone",
+[105720] = {
+"Understone Drudge",
+"Neltharion's Lair",
 "enUS",
 },
 [92350] = {
@@ -28944,24 +27648,24 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[54699] = {
-"Time-Twisted Nightsaber",
-"End Time",
+[216621] = {
+"Nerubian Webspinner",
+"Earthcrawl Mines",
 "enUS",
 },
-[221669] = {
-"Blight Swarmer",
-"Nerub-ar Palace",
+[26730] = {
+"Mage Slayer",
+"The Nexus",
 "enUS",
 },
-[20078] = {
-"Bloodwarder Reservist",
-"Tempest Keep: The Botanica",
+[98696] = {
+"Illysanna Ravencrest",
+"Black Rook Hold",
 "enUS",
 },
-[75975] = {
-"Skyreach Overlord",
-"Skyreach",
+[11490] = {
+"Zevrim Thornhoof",
+"Dire Maul",
 "enUS",
 },
 [124207] = {
@@ -28969,14 +27673,14 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[29117] = {
-"Anub'ar Champion",
-"Azjol-Nerub",
+[17429] = {
+"Fel Orc Neophyte",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[63808] = {
-"Faintly Glowing Gem",
-"Mogu'shan Palace",
+[26794] = {
+"Ormorok the Tree-Shaper",
+"The Nexus",
 "enUS",
 },
 [228648] = {
@@ -28989,9 +27693,9 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[19598] = {
-"Mutate Fleshlasher",
-"Tempest Keep: The Botanica",
+[225817] = {
+"Caustic Skyrazor",
+"Nerub-ar Palace",
 "enUS",
 },
 [36916] = {
@@ -28999,19 +27703,19 @@ nil,
 "The Forge of Souls",
 "enUS",
 },
-[28733] = {
-"Anub'ar Shadowcaster",
-"Azjol-Nerub",
+[75975] = {
+"Skyreach Overlord",
+"Skyreach",
 "enUS",
 },
-[15928] = {
-"Thaddius",
+[11473] = {
+"Eldreth Spectre",
+"Dire Maul",
+"enUS",
+},
+[16803] = {
+"Death Knight Understudy",
 "Naxxramas",
-"enUS",
-},
-[59522] = {
-"Sudsy Brew Alemental",
-"Stormstout Brewery",
 "enUS",
 },
 [26782] = {
@@ -29019,29 +27723,29 @@ nil,
 "The Nexus",
 "enUS",
 },
-[212786] = {
-"Voidrider",
-"The Rookery",
+[39987] = {
+"Evolved Twilight Zealot",
+"Blackrock Caverns",
 "enUS",
 },
-[45065] = {
-"Tol'vir Merchant",
-"Lost City of the Tol'vir",
+[217485] = {
+"Nightfall Lookout",
+"Skittering Breach",
 "enUS",
 },
-[229161] = {
-"Darkfuse Brute",
-"Liberation of Undermine",
-"enUS",
-},
-[53189] = {
-"Molten Elemental",
-"Firelands",
+[28925] = {
+"Anub'ar Necromancer",
+"Azjol-Nerub",
 "enUS",
 },
 [76104] = {
 "Monstrous Corpse Spider",
 "Shadowmoon Burial Grounds",
+"enUS",
+},
+[56747] = {
+"Gu Cloudstrike",
+"Shado-Pan Monastery",
 "enUS",
 },
 [99644] = {
@@ -29059,9 +27763,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[11492] = {
-"Alzzin the Wildshaper",
-"Dire Maul",
+[29117] = {
+"Anub'ar Champion",
+"Azjol-Nerub",
 "enUS",
 },
 [218671] = {
@@ -29089,9 +27793,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[39987] = {
-"Evolved Twilight Zealot",
-"Blackrock Caverns",
+[231978] = {
+"Sharpshot Sentry",
+"Liberation of Undermine",
 "enUS",
 },
 [214066] = {
@@ -29099,9 +27803,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[20083] = {
-"Bloodwarder Mender",
-"Tempest Keep: The Botanica",
+[56706] = {
+"Krik'thik Bombardier",
+"Gate of the Setting Sun",
 "enUS",
 },
 [54700] = {
@@ -29109,9 +27813,9 @@ nil,
 "End Time",
 "enUS",
 },
-[13276] = {
-"Wildspawn Imp",
-"Dire Maul",
+[79303] = {
+"Adorned Bladetalon",
+"Skyreach",
 "enUS",
 },
 [56875] = {
@@ -29119,14 +27823,14 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[79303] = {
-"Adorned Bladetalon",
-"Skyreach",
+[214263] = {
+"Waxface",
+"The Waterworks",
 "enUS",
 },
-[164427] = {
-"Reanimated Warrior",
-"The Necrotic Wake",
+[99645] = {
+"Shadowmoon Technician",
+"Vault of the Wardens",
 "enUS",
 },
 [75209] = {
@@ -29134,9 +27838,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[104251] = {
-"Duskwatch Sentry",
-"Court of Stars",
+[44977] = {
+"Neferset Torturer",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [59242] = {
@@ -29144,9 +27848,9 @@ nil,
 "Scholomance",
 "enUS",
 },
-[44977] = {
-"Neferset Torturer",
-"Lost City of the Tol'vir",
+[104251] = {
+"Duskwatch Sentry",
+"Court of Stars",
 "enUS",
 },
 [98366] = {
@@ -29159,44 +27863,14 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[91790] = {
-"Mak'rana Siltwalker",
-"Eye of Azshara",
+[218315] = {
+"Kaheti Sentry",
+"Nerub-ar Palace",
 "enUS",
 },
-[18105] = {
-"Ghaz'an",
-"Coilfang: The Underbog",
-"enUS",
-},
-[91794] = {
-"Saltscale Lurker",
-"Eye of Azshara",
-"enUS",
-},
-[15954] = {
-"Noth the Plaguebringer",
-"Naxxramas",
-"enUS",
-},
-[129374] = {
-"Scrimshaw Enforcer",
-"Siege of Boralus",
-"enUS",
-},
-[74570] = {
-"Ruination",
-"Bloodmaul Slag Mines",
-"enUS",
-},
-[210109] = {
-"Earth Infused Golem",
-"The Stonevault",
-"enUS",
-},
-[16018] = {
-"Bile Retcher",
-"Naxxramas",
+[77605] = {
+"Whirling Dervish",
+"Skyreach",
 "enUS",
 },
 [16034] = {
@@ -29204,9 +27878,39 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[95920] = {
-"Animated Storm",
-"Eye of Azshara",
+[15954] = {
+"Noth the Plaguebringer",
+"Naxxramas",
+"enUS",
+},
+[40484] = {
+"Erudax",
+"Grim Batol",
+"enUS",
+},
+[74570] = {
+"Ruination",
+"Bloodmaul Slag Mines",
+"enUS",
+},
+[101437] = {
+"Burning Geode",
+"Neltharion's Lair",
+"enUS",
+},
+[16018] = {
+"Bile Retcher",
+"Naxxramas",
+"enUS",
+},
+[17731] = {
+"Fen Ray",
+"Coilfang: The Underbog",
+"enUS",
+},
+[43658] = {
+"Frenzied Crocolisk",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [75210] = {
@@ -29224,14 +27928,14 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[18394] = {
-"Ethereal Wraith",
-"Auchindoun: Mana-Tombs",
+[76444] = {
+"Subjugated Soul",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
-[137516] = {
-"Ashvane Invader",
-"Siege of Boralus",
+[27977] = {
+"Krystallus",
+"Halls of Stone",
 "enUS",
 },
 [16146] = {
@@ -29239,9 +27943,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[18894] = {
-"Felguard Brute",
-"Hellfire Citadel: The Blood Furnace",
+[636] = {
+"Defias Blackguard",
+"Deadmines",
 "enUS",
 },
 [54445] = {
@@ -29249,29 +27953,14 @@ nil,
 "End Time",
 "enUS",
 },
-[92610] = {
-"Understone Drummer",
-"Neltharion's Lair",
-"enUS",
-},
 [16194] = {
 "Unholy Axe",
 "Naxxramas",
 "enUS",
 },
-[213905] = {
-"Animated Darkness",
-"The Dawnbreaker",
-"enUS",
-},
-[54701] = {
-"Time-Twisted Huntress",
-"End Time",
-"enUS",
-},
-[98696] = {
-"Illysanna Ravencrest",
-"Black Rook Hold",
+[74571] = {
+"Calamity",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [101438] = {
@@ -29279,9 +27968,24 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[229769] = {
-"Medbot",
-"Awakening The Machine",
+[54701] = {
+"Time-Twisted Huntress",
+"End Time",
+"enUS",
+},
+[81864] = {
+"Dreadpetal",
+"The Everbloom",
+"enUS",
+},
+[56876] = {
+"Krik'thik Sapper",
+"Gate of the Setting Sun",
+"enUS",
+},
+[47238] = {
+"Whipping Wind",
+"The Vortex Pinnacle",
 "enUS",
 },
 [77130] = {
@@ -29294,9 +27998,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[229513] = {
-"Darkfuse Stunner",
-"Liberation of Undermine",
+[212793] = {
+"Void Ascendant",
+"The Rookery",
 "enUS",
 },
 [8179] = {
@@ -29304,9 +28008,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[28734] = {
-"Anub'ar Skirmisher",
-"Azjol-Nerub",
+[129371] = {
+"Riptide Shredder",
+"Siege of Boralus",
 "enUS",
 },
 [49136] = {
@@ -29324,24 +28028,24 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[74571] = {
-"Calamity",
-"Bloodmaul Slag Mines",
-"enUS",
-},
-[213932] = {
-"Sureki Militant",
+[211341] = {
+"Manifested Shadow",
 "The Dawnbreaker",
 "enUS",
 },
-[125535] = {
-"Riftworld Assistant",
-"Antorus, the Burning Throne",
+[91332] = {
+"Stoneclaw Hunter",
+"Neltharion's Lair",
 "enUS",
 },
-[10421] = {
-"Risen Defender",
-"Stratholme",
+[77812] = {
+"Sargerei Soulbinder",
+"Auchindoun",
+"enUS",
+},
+[77131] = {
+"Sargerei Spirit-Tender",
+"Auchindoun",
 "enUS",
 },
 [59819] = {
@@ -29364,9 +28068,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[77131] = {
-"Sargerei Spirit-Tender",
-"Auchindoun",
+[10421] = {
+"Risen Defender",
+"Stratholme",
 "enUS",
 },
 [10437] = {
@@ -29374,9 +28078,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[11490] = {
-"Zevrim Thornhoof",
-"Dire Maul",
+[45063] = {
+"Bonesnapper Scorpid",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [29118] = {
@@ -29384,14 +28088,14 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[91332] = {
-"Stoneclaw Hunter",
-"Neltharion's Lair",
+[61247] = {
+"Glintrok Greenhorn",
+"Mogu'shan Palace",
 "enUS",
 },
-[17429] = {
-"Fel Orc Neophyte",
-"Hellfire Citadel: The Blood Furnace",
+[218316] = {
+"Kaheti Vanguard",
+"Nerub-ar Palace",
 "enUS",
 },
 [29214] = {
@@ -29399,14 +28103,14 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[11473] = {
-"Eldreth Spectre",
-"Dire Maul",
+[91785] = {
+"Wandering Shellback",
+"Eye of Azshara",
 "enUS",
 },
-[225817] = {
-"Caustic Skyrazor",
-"Nerub-ar Palace",
+[22299] = {
+"Spore Strider",
+"Coilfang: The Underbog",
 "enUS",
 },
 [226100] = {
@@ -29414,24 +28118,24 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[105720] = {
-"Understone Drudge",
-"Neltharion's Lair",
-"enUS",
-},
-[636] = {
-"Defias Blackguard",
+[4418] = {
+"Defias Wizard",
 "Deadmines",
 "enUS",
 },
-[214263] = {
-"Waxface",
-"The Waterworks",
+[77132] = {
+"Sargerei Zealot",
+"Auchindoun",
 "enUS",
 },
-[217485] = {
-"Nightfall Lookout",
-"Skittering Breach",
+[49137] = {
+"Helix' Crew",
+"Deadmines",
+"enUS",
+},
+[17380] = {
+"Broggok",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
 [56877] = {
@@ -29439,9 +28143,9 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[216634] = {
-"Swooping Spreader",
-"Earthcrawl Mines",
+[29822] = {
+"Drakkari Fire Weaver",
+"Gundrak",
 "enUS",
 },
 [99649] = {
@@ -29454,24 +28158,24 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
+[211262] = {
+"Ixkreten the Unbreakable",
+"The Dawnbreaker",
+"enUS",
+},
+[29630] = {
+"Fanged Pit Viper",
+"Gundrak",
+"enUS",
+},
+[216634] = {
+"Swooping Spreader",
+"Earthcrawl Mines",
+"enUS",
+},
 [53231] = {
 "Lava Scion",
 "Firelands",
-"enUS",
-},
-[95939] = {
-"Skrog Tidestomper",
-"Eye of Azshara",
-"enUS",
-},
-[17380] = {
-"Broggok",
-"Hellfire Citadel: The Blood Furnace",
-"enUS",
-},
-[49137] = {
-"Helix' Crew",
-"Deadmines",
 "enUS",
 },
 [98370] = {
@@ -29489,14 +28193,14 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[29822] = {
-"Drakkari Fire Weaver",
-"Gundrak",
+[176974] = {
+"Soul Reaver",
+"Sanctum of Domination",
 "enUS",
 },
-[26794] = {
-"Ormorok the Tree-Shaper",
-"The Nexus",
+[229433] = {
+"Skiggy Muckheimer",
+"Liberation of Undermine",
 "enUS",
 },
 [163157] = {
@@ -29509,9 +28213,9 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[19843] = {
-"Nethervine Trickster",
-"Tempest Keep: The Botanica",
+[215435] = {
+"Foreseer Xix'amon",
+"Nerub-ar Palace",
 "enUS",
 },
 [29982] = {
@@ -29519,9 +28223,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[211262] = {
-"Ixkreten the Unbreakable",
-"The Dawnbreaker",
+[17732] = {
+"Lykul Wasp",
+"Coilfang: The Underbog",
 "enUS",
 },
 [77133] = {
@@ -29534,14 +28238,14 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[43658] = {
-"Frenzied Crocolisk",
+[44980] = {
+"Neferset Theurgist",
 "Lost City of the Tol'vir",
 "enUS",
 },
-[105704] = {
-"Arcane Manifestation",
-"Court of Stars",
+[222786] = {
+"Parasitic Worm",
+"Nerub-ar Palace",
 "enUS",
 },
 [220730] = {
@@ -29569,14 +28273,14 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[218315] = {
-"Kaheti Sentry",
-"Nerub-ar Palace",
+[173655] = {
+"Mistveil Matriarch",
+"Mists of Tirna Scithe",
 "enUS",
 },
-[28410] = {
-"Dragonflayer Spiritualist",
-"Utgarde Keep",
+[29128] = {
+"Anub'ar Prime Guard",
+"Azjol-Nerub",
 "enUS",
 },
 [44404] = {
@@ -29584,9 +28288,9 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[22299] = {
-"Spore Strider",
-"Coilfang: The Underbog",
+[234623] = {
+"Quickhands Pilferer",
+"Fungal Folly",
 "enUS",
 },
 [229175] = {
@@ -29594,9 +28298,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[44980] = {
-"Neferset Theurgist",
-"Lost City of the Tol'vir",
+[622] = {
+"Goblin Engineer",
+"Deadmines",
 "enUS",
 },
 [77006] = {
@@ -29614,9 +28318,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[18404] = {
-"Bloodwarder Steward",
-"Tempest Keep: The Botanica",
+[223876] = {
+"Impaling Spike",
+"Nerub-ar Palace",
 "enUS",
 },
 [136549] = {
@@ -29634,9 +28338,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[77605] = {
-"Whirling Dervish",
-"Skyreach",
+[219198] = {
+"Ravenous Scarab",
+"City of Threads",
 "enUS",
 },
 [59501] = {
@@ -29644,9 +28348,9 @@ nil,
 "Scholomance",
 "enUS",
 },
-[229433] = {
-"Skiggy Muckheimer",
-"Liberation of Undermine",
+[10394] = {
+"Black Guard Sentry",
+"Stratholme",
 "enUS",
 },
 [211777] = {
@@ -29659,9 +28363,9 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[27977] = {
-"Krystallus",
-"Halls of Stone",
+[229180] = {
+"Darkfuse Gunner",
+"Liberation of Undermine",
 "enUS",
 },
 [237109] = {
@@ -29674,19 +28378,19 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[219198] = {
-"Ravenous Scarab",
-"City of Threads",
-"enUS",
-},
-[76444] = {
-"Subjugated Soul",
-"Shadowmoon Burial Grounds",
-"enUS",
-},
 [45620] = {
 "Naz'jar Soldier",
 "Throne of the Tides",
+"enUS",
+},
+[44981] = {
+"Oathsworn Skinner",
+"Lost City of the Tol'vir",
+"enUS",
+},
+[1732] = {
+"Defias Squallshaper",
+"Deadmines",
 "enUS",
 },
 [11461] = {
@@ -29709,9 +28413,9 @@ nil,
 "Ulduar",
 "enUS",
 },
-[99360] = {
-"Vilethorn Blossom",
-"Darkheart Thicket",
+[74356] = {
+"Captured Miner",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [229434] = {
@@ -29719,14 +28423,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[44981] = {
-"Oathsworn Skinner",
-"Lost City of the Tol'vir",
+[207946] = {
+"Captain Dailcry",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[49139] = {
-"Helix' Crew",
-"Deadmines",
+[26729] = {
+"Steward",
+"The Nexus",
 "enUS",
 },
 [54512] = {
@@ -29734,24 +28438,24 @@ nil,
 "End Time",
 "enUS",
 },
-[75857] = {
-"Unstable Magma Elemental",
-"Bloodmaul Slag Mines",
-"enUS",
-},
-[129371] = {
-"Riptide Shredder",
-"Siege of Boralus",
-"enUS",
-},
-[59520] = {
-"Fizzy Brew Alemental",
+[59519] = {
+"Stout Brew Alemental",
 "Stormstout Brewery",
 "enUS",
 },
-[222273] = {
-"Sureki Silkbow",
-"Nerub-ar Palace",
+[36666] = {
+"Spectral Warden",
+"The Forge of Souls",
+"enUS",
+},
+[98280] = {
+"Risen Arcanist",
+"Black Rook Hold",
+"enUS",
+},
+[104293] = {
+"Avatar of Shadow",
+"Vault of the Wardens",
 "enUS",
 },
 [229435] = {
@@ -29764,14 +28468,14 @@ nil,
 "Awakening The Machine",
 "enUS",
 },
-[77812] = {
-"Sargerei Soulbinder",
+[77905] = {
+"Felborne Abyssal",
 "Auchindoun",
 "enUS",
 },
-[16243] = {
-"Plague Slime",
-"Naxxramas",
+[222274] = {
+"Sureki Darkblade",
+"Nerub-ar Palace",
 "enUS",
 },
 [234553] = {
@@ -29779,9 +28483,9 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[229438] = {
-"Gallagio Jackbot",
-"Liberation of Undermine",
+[213895] = {
+"Nightfall Shadowalker",
+"The Dawnbreaker",
 "enUS",
 },
 [17381] = {
@@ -29789,14 +28493,14 @@ nil,
 "Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[229180] = {
-"Darkfuse Gunner",
-"Liberation of Undermine",
+[49139] = {
+"Helix' Crew",
+"Deadmines",
 "enUS",
 },
-[1732] = {
-"Defias Squallshaper",
-"Deadmines",
+[75857] = {
+"Unstable Magma Elemental",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [17477] = {
@@ -29809,9 +28513,9 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[61247] = {
-"Glintrok Greenhorn",
-"Mogu'shan Palace",
+[18317] = {
+"Ethereal Priest",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [207943] = {
@@ -29824,9 +28528,9 @@ nil,
 "Firelands",
 "enUS",
 },
-[123451] = {
-"Felguard",
-"Antorus, the Burning Throne",
+[77042] = {
+"Sargerei Defender",
+"Auchindoun",
 "enUS",
 },
 [229181] = {
@@ -29839,9 +28543,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[207946] = {
-"Captain Dailcry",
-"Priory of the Sacred Flame",
+[16243] = {
+"Plague Slime",
+"Naxxramas",
 "enUS",
 },
 [219714] = {
@@ -29854,13 +28558,13 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[23970] = {
-"Vrykul Skeleton",
-"Utgarde Keep",
+[222273] = {
+"Sureki Silkbow",
+"Nerub-ar Palace",
 "enUS",
 },
-[222786] = {
-"Parasitic Worm",
+[224066] = {
+"Sureki Vanguard",
 "Nerub-ar Palace",
 "enUS",
 },
@@ -29874,19 +28578,19 @@ nil,
 "The Waterworks",
 "enUS",
 },
-[77905] = {
-"Felborne Abyssal",
-"Auchindoun",
+[229438] = {
+"Gallagio Jackbot",
+"Liberation of Undermine",
 "enUS",
 },
-[129208] = {
-"Dread Captain Lockwood",
-"Siege of Boralus",
+[16163] = {
+"Death Knight Cavalier",
+"Naxxramas",
 "enUS",
 },
-[96584] = {
-"Immoliant Fury",
-"Vault of the Wardens",
+[227903] = {
+"Darkfuse Growler",
+"Liberation of Undermine",
 "enUS",
 },
 [164702] = {
@@ -29894,14 +28598,14 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[222274] = {
-"Sureki Darkblade",
-"Nerub-ar Palace",
+[123451] = {
+"Felguard",
+"Antorus, the Burning Throne",
 "enUS",
 },
-[18341] = {
-"Pandemonius",
-"Auchindoun: Mana-Tombs",
+[44982] = {
+"Neferset Darkcaster",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [74579] = {
@@ -29909,9 +28613,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[222275] = {
-"Training Dummy",
-"Nerub-ar Palace",
+[79545] = {
+"Nitrogg Thundertower",
+"Grimrail Depot",
 "enUS",
 },
 [229439] = {
@@ -29934,9 +28638,9 @@ nil,
 "Khaz Algar (Surface)",
 "enUS",
 },
-[36666] = {
-"Spectral Warden",
-"The Forge of Souls",
+[222275] = {
+"Training Dummy",
+"Nerub-ar Palace",
 "enUS",
 },
 [226625] = {
@@ -29959,19 +28663,19 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[59503] = {
-"Brittle Skeleton",
-"Scholomance",
+[28736] = {
+"Skittering Infector",
+"Azjol-Nerub",
 "enUS",
 },
-[98963] = {
-"Blazing Imp",
-"Vault of the Wardens",
+[16215] = {
+"Unholy Staff",
+"Naxxramas",
 "enUS",
 },
-[45063] = {
-"Bonesnapper Scorpid",
-"Lost City of the Tol'vir",
+[229953] = {
+"Mug'Zee",
+"Liberation of Undermine",
 "enUS",
 },
 [123452] = {
@@ -29984,14 +28688,14 @@ nil,
 "The Waterworks",
 "enUS",
 },
-[28736] = {
-"Skittering Infector",
-"Azjol-Nerub",
-"enUS",
-},
 [7268] = {
 "Sandfury Guardian",
 "Zul'Farrak",
+"enUS",
+},
+[56448] = {
+"Wise Mari",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [10390] = {
@@ -30004,9 +28708,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[229953] = {
-"Mug'Zee",
-"Liberation of Undermine",
+[213577] = {
+"Spitfire Charger",
+"The Waterworks",
 "enUS",
 },
 [10438] = {
@@ -30029,9 +28733,9 @@ nil,
 "City of Threads",
 "enUS",
 },
-[44982] = {
-"Neferset Darkcaster",
-"Lost City of the Tol'vir",
+[225601] = {
+"Webbed Victim",
+"The Dawnbreaker",
 "enUS",
 },
 [29216] = {
@@ -30039,9 +28743,9 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[622] = {
-"Goblin Engineer",
-"Deadmines",
+[29120] = {
+"Anub'arak",
+"Azjol-Nerub",
 "enUS",
 },
 [76116] = {
@@ -30049,9 +28753,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[4418] = {
-"Defias Wizard",
-"Deadmines",
+[98963] = {
+"Blazing Imp",
+"Vault of the Wardens",
 "enUS",
 },
 [207949] = {
@@ -30069,14 +28773,14 @@ nil,
 "City of Threads",
 "enUS",
 },
-[171772] = {
-"Mistveil Defender",
-"Mists of Tirna Scithe",
+[105705] = {
+"Bound Energy",
+"Court of Stars",
 "enUS",
 },
-[180385] = {
-"Condemned Soul Remnant",
-"Sanctum of Domination",
+[19557] = {
+"Greater Frayer",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [225605] = {
@@ -30104,9 +28808,9 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[29128] = {
-"Anub'ar Prime Guard",
-"Azjol-Nerub",
+[225606] = {
+"Nightfall Shadowalker",
+"The Dawnbreaker",
 "enUS",
 },
 [17414] = {
@@ -30114,9 +28818,9 @@ nil,
 "Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
-[29096] = {
-"Anub'ar Champion",
-"Azjol-Nerub",
+[128060] = {
+"Priestess of Delirium",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [209230] = {
@@ -30124,24 +28828,24 @@ nil,
 "The Rookery",
 "enUS",
 },
-[19557] = {
-"Greater Frayer",
-"Tempest Keep: The Botanica",
+[96587] = {
+"Felsworn Infester",
+"Vault of the Wardens",
 "enUS",
 },
-[128060] = {
-"Priestess of Delirium",
-"Antorus, the Burning Throne",
+[105699] = {
+"Mana Saber",
+"Court of Stars",
 "enUS",
 },
-[223876] = {
-"Impaling Spike",
-"Nerub-ar Palace",
+[141938] = {
+"Ashvane Sniper",
+"Siege of Boralus",
 "enUS",
 },
-[27969] = {
-"Dark Rune Giant",
-"Halls of Stone",
+[214350] = {
+"Turned Speaker",
+"The Stonevault",
 "enUS",
 },
 [210510] = {
@@ -30159,9 +28863,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[17734] = {
-"Underbog Lord",
-"Coilfang: The Underbog",
+[27969] = {
+"Dark Rune Giant",
+"Halls of Stone",
 "enUS",
 },
 [81235] = {
@@ -30169,29 +28873,29 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
-[10394] = {
-"Black Guard Sentry",
-"Stratholme",
+[173720] = {
+"Mistveil Gorgegullet",
+"Mists of Tirna Scithe",
 "enUS",
 },
-[40586] = {
-"Lady Naz'jar",
-"Throne of the Tides",
+[39994] = {
+"Conflagration",
+"Blackrock Caverns",
 "enUS",
 },
-[96587] = {
-"Felsworn Infester",
-"Vault of the Wardens",
+[48502] = {
+"Defias Enforcer",
+"Deadmines",
 "enUS",
 },
-[75406] = {
-"Slagna",
-"Bloodmaul Slag Mines",
+[81236] = {
+"Grimrail Technician",
+"Grimrail Depot",
 "enUS",
 },
-[74356] = {
-"Captured Miner",
-"Bloodmaul Slag Mines",
+[129367] = {
+"Bilge Rat Tempest",
+"Siege of Boralus",
 "enUS",
 },
 [11030] = {
@@ -30209,14 +28913,14 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[207186] = {
-"Unruly Stormrook",
-"The Rookery",
+[59518] = {
+"Bloated Brew Alemental",
+"Stormstout Brewery",
 "enUS",
 },
-[26729] = {
-"Steward",
-"The Nexus",
+[98406] = {
+"Embershard Scorpion",
+"Neltharion's Lair",
 "enUS",
 },
 [165222] = {
@@ -30249,14 +28953,14 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[81236] = {
-"Grimrail Technician",
-"Grimrail Depot",
+[16167] = {
+"Bony Construct",
+"Naxxramas",
 "enUS",
 },
-[98280] = {
-"Risen Arcanist",
-"Black Rook Hold",
+[39625] = {
+"General Umbriss",
+"Grim Batol",
 "enUS",
 },
 [13285] = {
@@ -30264,24 +28968,14 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[104293] = {
-"Avatar of Shadow",
-"Vault of the Wardens",
+[23498] = {
+"Parasitic Shadowfiend",
+"Black Temple",
 "enUS",
 },
-[219724] = {
-"Court Attendant",
-"Nerub-ar Palace",
-"enUS",
-},
-[48502] = {
-"Defias Enforcer",
-"Deadmines",
-"enUS",
-},
-[213895] = {
-"Nightfall Shadowalker",
-"The Dawnbreaker",
+[7604] = {
+"Sergeant Bly",
+"Zul'Farrak",
 "enUS",
 },
 [26722] = {
@@ -30289,49 +28983,19 @@ nil,
 "The Nexus",
 "enUS",
 },
-[79507] = {
-"Felguard",
-"Auchindoun",
-"enUS",
-},
-[77042] = {
-"Sargerei Defender",
-"Auchindoun",
-"enUS",
-},
-[105705] = {
-"Bound Energy",
-"Court of Stars",
-"enUS",
-},
 [219725] = {
 "Chitin Knight",
 "Nerub-ar Palace",
 "enUS",
 },
-[18317] = {
-"Ethereal Priest",
-"Auchindoun: Mana-Tombs",
+[141939] = {
+"Ashvane Spotter",
+"Siege of Boralus",
 "enUS",
 },
-[28961] = {
-"Titanium Siegebreaker",
-"Halls of Lightning",
-"enUS",
-},
-[44234] = {
-"Vicious Leech",
-"Lost City of the Tol'vir",
-"enUS",
-},
-[16215] = {
-"Unholy Staff",
-"Naxxramas",
-"enUS",
-},
-[7796] = {
-"Nekrum Gutchewer",
-"Zul'Farrak",
+[180385] = {
+"Condemned Soul Remnant",
+"Sanctum of Domination",
 "enUS",
 },
 [126527] = {
@@ -30344,14 +29008,54 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
+[216658] = {
+"Izo, the Grand Splicer",
+"City of Threads",
+"enUS",
+},
+[123480] = {
+"Antoran Champion",
+"Antorus, the Burning Throne",
+"enUS",
+},
+[66652] = {
+"Lesser Volatile Energy",
+"Shado-Pan Monastery",
+"enUS",
+},
+[27970] = {
+"Raging Construct",
+"Halls of Stone",
+"enUS",
+},
+[16244] = {
+"Infectious Ghoul",
+"Naxxramas",
+"enUS",
+},
+[56511] = {
+"Corrupt Living Water",
+"Temple of the Jade Serpent",
+"enUS",
+},
+[7788] = {
+"Sandfury Drudge",
+"Zul'Farrak",
+"enUS",
+},
+[7796] = {
+"Nekrum Gutchewer",
+"Zul'Farrak",
+"enUS",
+},
 [29153] = {
 "Animated Bones",
 "Azjol-Nerub",
 "enUS",
 },
-[79545] = {
-"Nitrogg Thundertower",
-"Grimrail Depot",
+[124227] = {
+"Volant Kerapteron",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [29217] = {
@@ -30364,9 +29068,9 @@ nil,
 "Awakening The Machine",
 "enUS",
 },
-[56448] = {
-"Wise Mari",
-"Temple of the Jade Serpent",
+[77935] = {
+"Sargerei Warden",
+"Auchindoun",
 "enUS",
 },
 [219983] = {
@@ -30379,24 +29083,24 @@ nil,
 "Skyreach",
 "enUS",
 },
-[10422] = {
-"Risen Sorcerer",
-"Stratholme",
+[18343] = {
+"Tavarok",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
-[76307] = {
-"Grand Defense Construct",
-"Skyreach",
+[102094] = {
+"Risen Swordsman",
+"Black Rook Hold",
 "enUS",
 },
-[16167] = {
-"Bony Construct",
-"Naxxramas",
+[219221] = {
+"Ravenous Crawler",
+"Ara-Kara, City of Echoes",
 "enUS",
 },
-[39625] = {
-"General Umbriss",
-"Grim Batol",
+[26723] = {
+"Keristrasza",
+"The Nexus",
 "enUS",
 },
 [3947] = {
@@ -30414,14 +29118,14 @@ nil,
 "City of Threads",
 "enUS",
 },
-[225601] = {
-"Webbed Victim",
-"The Dawnbreaker",
+[11465] = {
+"Warpwood Stomper",
+"Dire Maul",
 "enUS",
 },
-[216658] = {
-"Izo, the Grand Splicer",
-"City of Threads",
+[175730] = {
+"Fatescribe Roh-Kalo",
+"Sanctum of Domination",
 "enUS",
 },
 [81750] = {
@@ -30434,24 +29138,24 @@ nil,
 "Ara-Kara, City of Echoes",
 "enUS",
 },
-[7604] = {
-"Sergeant Bly",
-"Zul'Farrak",
+[210267] = {
+"I'pa",
+"Cinderbrew Meadery",
 "enUS",
 },
-[105699] = {
-"Mana Saber",
-"Court of Stars",
+[28835] = {
+"Stormforged Construct",
+"Halls of Lightning",
 "enUS",
 },
-[27970] = {
-"Raging Construct",
-"Halls of Stone",
+[210818] = {
+"Lowly Moleherd",
+"Darkflame Cleft",
 "enUS",
 },
-[29120] = {
-"Anub'arak",
-"Azjol-Nerub",
+[213338] = {
+"Forgebound Mender",
+"The Stonevault",
 "enUS",
 },
 [15956] = {
@@ -30459,14 +29163,14 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[173720] = {
-"Mistveil Gorgegullet",
-"Mists of Tirna Scithe",
+[212827] = {
+"High Priest Aemya",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[207450] = {
-"Fungal Stabber",
-"Fungal Folly",
+[26792] = {
+"Crystalline Protector",
+"The Nexus",
 "enUS",
 },
 [17671] = {
@@ -30484,29 +29188,29 @@ nil,
 "Coilfang: The Underbog",
 "enUS",
 },
-[18343] = {
-"Tavarok",
-"Auchindoun: Mana-Tombs",
+[56766] = {
+"Volatile Energy",
+"Shado-Pan Monastery",
 "enUS",
 },
-[210265] = {
-"Worker Bee",
-"Cinderbrew Meadery",
+[227961] = {
+"Mechanized Peacekeeper",
+"Liberation of Undermine",
 "enUS",
 },
-[129367] = {
-"Bilge Rat Tempest",
-"Siege of Boralus",
+[228954] = {
+"Nerubian Marauder",
+"Earthcrawl Mines",
 "enUS",
 },
-[59518] = {
-"Bloated Brew Alemental",
-"Stormstout Brewery",
+[228951] = {
+"Nerubian Stalker",
+"Earthcrawl Mines",
 "enUS",
 },
-[98406] = {
-"Embershard Scorpion",
-"Neltharion's Lair",
+[33985] = {
+"Corruptor Tentacle",
+"Ulduar",
 "enUS",
 },
 [208728] = {
@@ -30529,9 +29233,9 @@ nil,
 "Ulduar",
 "enUS",
 },
-[219221] = {
-"Ravenous Crawler",
-"Ara-Kara, City of Echoes",
+[28547] = {
+"Storming Vortex",
+"Halls of Lightning",
 "enUS",
 },
 [48440] = {
@@ -30544,14 +29248,14 @@ nil,
 "Cinderbrew Meadery",
 "enUS",
 },
-[16244] = {
-"Infectious Ghoul",
-"Naxxramas",
+[58803] = {
+"Residual Hatred",
+"Shado-Pan Monastery",
 "enUS",
 },
-[180840] = {
-"Frostbound Devoted",
-"Sanctum of Domination",
+[65402] = {
+"Gurthan Swiftblade",
+"Mogu'shan Palace",
 "enUS",
 },
 [56884] = {
@@ -30564,14 +29268,14 @@ nil,
 "The Forge of Souls",
 "enUS",
 },
-[124227] = {
-"Volant Kerapteron",
-"Antorus, the Burning Throne",
+[207450] = {
+"Fungal Stabber",
+"Fungal Folly",
 "enUS",
 },
-[18311] = {
-"Ethereal Crypt Raider",
-"Khaz Algar (Surface)",
+[28546] = {
+"Ionar",
+"Halls of Lightning",
 "enUS",
 },
 [28578] = {
@@ -30579,14 +29283,14 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[102094] = {
-"Risen Swordsman",
-"Black Rook Hold",
+[210265] = {
+"Worker Bee",
+"Cinderbrew Meadery",
 "enUS",
 },
-[99664] = {
-"Restless Soul",
-"Black Rook Hold",
+[79469] = {
+"Whirling Dervish",
+"Skyreach",
 "enUS",
 },
 [239435] = {
@@ -30604,19 +29308,19 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[26723] = {
-"Keristrasza",
-"The Nexus",
+[180840] = {
+"Frostbound Devoted",
+"Sanctum of Domination",
 "enUS",
 },
-[101839] = {
-"Risen Companion",
-"Black Rook Hold",
+[207202] = {
+"Void Fragment",
+"The Rookery",
 "enUS",
 },
-[102095] = {
-"Risen Lancer",
-"Black Rook Hold",
+[227929] = {
+"Princeguard Demolisher",
+"Liberation of Undermine",
 "enUS",
 },
 [220501] = {
@@ -30629,9 +29333,9 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[29826] = {
-"Drakkari Medicine Man",
-"Gundrak",
+[18344] = {
+"Nexus-Prince Shaffar",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [10391] = {
@@ -30639,19 +29343,19 @@ nil,
 "Stratholme",
 "enUS",
 },
-[211290] = {
-"Elaena Emberlanz",
-"Priory of the Sacred Flame",
-"enUS",
-},
-[10423] = {
-"Risen Priest",
+[10407] = {
+"Fleshflayer Ghoul",
 "Stratholme",
 "enUS",
 },
-[22917] = {
-"Illidan Stormrage",
-"Black Temple",
+[99664] = {
+"Restless Soul",
+"Black Rook Hold",
+"enUS",
+},
+[10439] = {
+"Ramstein the Gorger",
+"Stratholme",
 "enUS",
 },
 [16808] = {
@@ -30659,9 +29363,9 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[210267] = {
-"I'pa",
-"Cinderbrew Meadery",
+[102095] = {
+"Risen Lancer",
+"Black Rook Hold",
 "enUS",
 },
 [104270] = {
@@ -30674,9 +29378,9 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[228952] = {
-"Nerubian Skulker",
-"Earthcrawl Mines",
+[16809] = {
+"Warbringer O'mrogg",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
 [207197] = {
@@ -30699,9 +29403,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[204127] = {
-"Kobold Taskfinder",
-"The Waterworks",
+[48505] = {
+"Defias Shadowguard",
+"Deadmines",
 "enUS",
 },
 [224853] = {
@@ -30709,9 +29413,9 @@ nil,
 "Grim Batol",
 "enUS",
 },
-[212827] = {
-"High Priest Aemya",
-"Priory of the Sacred Flame",
+[111563] = {
+"Duskwatch Guard",
+"Court of Stars",
 "enUS",
 },
 [223318] = {
@@ -30729,9 +29433,9 @@ nil,
 "Fungal Folly",
 "enUS",
 },
-[219739] = {
-"Infested Spawn",
-"Nerub-ar Palace",
+[203877] = {
+"Kobold Thwacker",
+"The Waterworks",
 "enUS",
 },
 [40765] = {
@@ -30749,9 +29453,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[175729] = {
-"Remnant of Ner'zhul",
-"Sanctum of Domination",
+[173714] = {
+"Mistveil Nightblossom",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [47162] = {
@@ -30764,9 +29468,9 @@ nil,
 "The Rookery",
 "enUS",
 },
-[207202] = {
-"Void Fragment",
-"The Rookery",
+[203878] = {
+"Kobold Mystic",
+"The Waterworks",
 "enUS",
 },
 [76253] = {
@@ -30789,14 +29493,14 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[212831] = {
-"Forge Master Damian",
-"Priory of the Sacred Flame",
+[52409] = {
+"Ragnaros",
+"Firelands",
 "enUS",
 },
-[104273] = {
-"Jazshariu",
-"Court of Stars",
+[40447] = {
+"Chains of Woe",
+"Blackrock Caverns",
 "enUS",
 },
 [27971] = {
@@ -30809,14 +29513,14 @@ nil,
 "Fungal Folly",
 "enUS",
 },
-[56511] = {
-"Corrupt Living Water",
-"Temple of the Jade Serpent",
+[206694] = {
+"Fervent Sharpshooter",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[28579] = {
-"Hardened Steel Berserker",
-"Halls of Lightning",
+[104275] = {
+"Imacu'tya",
+"Court of Stars",
 "enUS",
 },
 [210271] = {
@@ -30824,9 +29528,9 @@ nil,
 "Cinderbrew Meadery",
 "enUS",
 },
-[77935] = {
-"Sargerei Warden",
-"Auchindoun",
+[210539] = {
+"Corridor Creeper",
+"Darkflame Cleft",
 "enUS",
 },
 [24069] = {
@@ -30839,14 +29543,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[207459] = {
-"Fungal Rotcaster",
-"Fungal Folly",
+[206696] = {
+"Arathi Knight",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[33985] = {
-"Corruptor Tentacle",
-"Ulduar",
+[219739] = {
+"Infested Spawn",
+"Nerub-ar Palace",
 "enUS",
 },
 [222042] = {
@@ -30864,9 +29568,9 @@ nil,
 "Darkheart Thicket",
 "enUS",
 },
-[228951] = {
-"Nerubian Stalker",
-"Earthcrawl Mines",
+[175729] = {
+"Remnant of Ner'zhul",
+"Sanctum of Domination",
 "enUS",
 },
 [28419] = {
@@ -30884,9 +29588,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[228953] = {
-"Skittering Intruder",
-"The Dread Pit",
+[223844] = {
+"Covert Webmancer",
+"City of Threads",
 "enUS",
 },
 [18312] = {
@@ -30894,9 +29598,9 @@ nil,
 "Auchindoun: Mana-Tombs",
 "enUS",
 },
-[18344] = {
-"Nexus-Prince Shaffar",
-"Auchindoun: Mana-Tombs",
+[28579] = {
+"Hardened Steel Berserker",
+"Halls of Lightning",
 "enUS",
 },
 [44924] = {
@@ -30904,39 +29608,39 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[175730] = {
-"Fatescribe Roh-Kalo",
-"Sanctum of Domination",
+[104273] = {
+"Jazshariu",
+"Court of Stars",
 "enUS",
 },
-[16809] = {
-"Warbringer O'mrogg",
-"Hellfire Citadel: The Shattered Halls",
+[84957] = {
+"Putrid Pyromancer",
+"The Everbloom",
 "enUS",
 },
-[175732] = {
-"Sylvanas Windrunner",
-"Sanctum of Domination",
+[16037] = {
+"Plagued Bat",
+"Naxxramas",
 "enUS",
 },
-[11465] = {
-"Warpwood Stomper",
-"Dire Maul",
+[206697] = {
+"Devout Priest",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[227929] = {
-"Princeguard Demolisher",
-"Liberation of Undermine",
+[207459] = {
+"Fungal Rotcaster",
+"Fungal Folly",
 "enUS",
 },
-[219006] = {
-"Venommaster Nezarox",
-"Nerub-ar Palace",
+[16165] = {
+"Necro Knight",
+"Naxxramas",
 "enUS",
 },
-[203877] = {
-"Kobold Thwacker",
-"The Waterworks",
+[98900] = {
+"Wyrmtongue Trickster",
+"Black Rook Hold",
 "enUS",
 },
 [101075] = {
@@ -30944,9 +29648,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[175731] = {
-"Guardian of the First Ones",
-"Sanctum of Domination",
+[228953] = {
+"Skittering Intruder",
+"The Dread Pit",
 "enUS",
 },
 [129989] = {
@@ -30954,9 +29658,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[207205] = {
-"Stormguard Gorren",
-"The Rookery",
+[76260] = {
+"Cackling Pyromaniac",
+"Auchindoun",
 "enUS",
 },
 [166264] = {
@@ -30974,9 +29678,9 @@ nil,
 "Blackrock Caverns",
 "enUS",
 },
-[203878] = {
-"Kobold Mystic",
-"The Waterworks",
+[75360] = {
+"Searing Ember",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [236886] = {
@@ -30984,9 +29688,24 @@ nil,
 "Fungal Folly",
 "enUS",
 },
-[104274] = {
-"Baalgar the Watchful",
-"Court of Stars",
+[175732] = {
+"Sylvanas Windrunner",
+"Sanctum of Domination",
+"enUS",
+},
+[206698] = {
+"Fanatical Conjuror",
+"Priory of the Sacred Flame",
+"enUS",
+},
+[206699] = {
+"War Lynx",
+"Priory of the Sacred Flame",
+"enUS",
+},
+[207205] = {
+"Stormguard Gorren",
+"The Rookery",
 "enUS",
 },
 [227931] = {
@@ -30994,24 +29713,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[45572] = {
-"Howling Gale",
-"The Vortex Pinnacle",
-"enUS",
-},
-[56439] = {
-"Sha of Doubt",
-"Temple of the Jade Serpent",
-"enUS",
-},
-[52409] = {
-"Ragnaros",
-"Firelands",
-"enUS",
-},
-[40447] = {
-"Chains of Woe",
-"Blackrock Caverns",
+[10408] = {
+"Rockwing Gargoyle",
+"Stratholme",
 "enUS",
 },
 [56631] = {
@@ -31024,9 +29728,9 @@ nil,
 "Grim Batol",
 "enUS",
 },
-[227932] = {
-"Volatile Slimeling",
-"Liberation of Undermine",
+[207468] = {
+"Gnarled Reviver",
+"Fungal Folly",
 "enUS",
 },
 [212835] = {
@@ -31034,8 +29738,8 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[123480] = {
-"Antoran Champion",
+[123478] = {
+"Antoran Felguard",
 "Antorus, the Burning Throne",
 "enUS",
 },
@@ -31044,9 +29748,24 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[113998] = {
-"Mightstone Breaker",
-"Neltharion's Lair",
+[227932] = {
+"Volatile Slimeling",
+"Liberation of Undermine",
+"enUS",
+},
+[7789] = {
+"Sandfury Cretin",
+"Zul'Farrak",
+"enUS",
+},
+[76141] = {
+"Araknath",
+"Skyreach",
+"enUS",
+},
+[177787] = {
+"Mawsworn Hopebreaker",
+"Sanctum of Domination",
 "enUS",
 },
 [233050] = {
@@ -31054,29 +29773,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[227961] = {
-"Mechanized Peacekeeper",
-"Liberation of Undermine",
-"enUS",
-},
-[233306] = {
-"The Junkmaker",
-"Liberation of Undermine",
-"enUS",
-},
-[104275] = {
-"Imacu'tya",
-"Court of Stars",
-"enUS",
-},
 [128967] = {
 "Ashvane Sniper",
 "Siege of Boralus",
 "enUS",
 },
-[84957] = {
-"Putrid Pyromancer",
-"The Everbloom",
+[215657] = {
+"Ulgrax the Devourer",
+"Nerub-ar Palace",
 "enUS",
 },
 [207207] = {
@@ -31089,19 +29793,19 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[221537] = {
-"Unstable Experiment",
-"Nerub-ar Palace",
+[23561] = {
+"Soldier of the Frozen Wastes",
+"Naxxramas",
 "enUS",
 },
-[219746] = {
-"Silken Tomb",
-"Nerub-ar Palace",
+[28581] = {
+"Stormforged Tactician",
+"Halls of Lightning",
 "enUS",
 },
-[65402] = {
-"Gurthan Swiftblade",
-"Mogu'shan Palace",
+[33988] = {
+"Immortal Guardian",
+"Ulduar",
 "enUS",
 },
 [15989] = {
@@ -31119,9 +29823,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[16037] = {
-"Plagued Bat",
-"Naxxramas",
+[27972] = {
+"Lightning Construct",
+"Halls of Stone",
 "enUS",
 },
 [39616] = {
@@ -31129,8 +29833,8 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[79469] = {
-"Whirling Dervish",
+[79467] = {
+"Adept of the Dawn",
 "Skyreach",
 "enUS",
 },
@@ -31139,18 +29843,18 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
+[162691] = {
+"Blightbone",
+"The Necrotic Wake",
+"enUS",
+},
+[19307] = {
+"Nexus Terror",
+"Auchindoun: Mana-Tombs",
+"enUS",
+},
 [212838] = {
 "Arathi Neophyte",
-"Priory of the Sacred Flame",
-"enUS",
-},
-[224609] = {
-"Twilight Destroyer",
-"Grim Batol",
-"enUS",
-},
-[206697] = {
-"Devout Priest",
 "Priory of the Sacred Flame",
 "enUS",
 },
@@ -31164,14 +29868,14 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[208745] = {
-"The Candle King",
-"Darkflame Cleft",
+[7797] = {
+"Ruuzlu",
+"Zul'Farrak",
 "enUS",
 },
-[10408] = {
-"Rockwing Gargoyle",
-"Stratholme",
+[166276] = {
+"Mistveil Guardian",
+"Mists of Tirna Scithe",
 "enUS",
 },
 [2520] = {
@@ -31189,19 +29893,19 @@ nil,
 "Shado-Pan Monastery",
 "enUS",
 },
-[206698] = {
-"Fanatical Conjuror",
-"Priory of the Sacred Flame",
+[208745] = {
+"The Candle King",
+"Darkflame Cleft",
 "enUS",
 },
-[173714] = {
-"Mistveil Nightblossom",
-"Mists of Tirna Scithe",
+[228458] = {
+"One-Armed Bandit",
+"Liberation of Undermine",
 "enUS",
 },
-[162689] = {
-"Surgeon Stitchflesh",
-"The Necrotic Wake",
+[58812] = {
+"Hateful Essence",
+"Shado-Pan Monastery",
 "enUS",
 },
 [213607] = {
@@ -31239,14 +29943,14 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[137614] = {
-"Demolishing Terror",
-"Siege of Boralus",
+[229222] = {
+"Darkfuse Melter",
+"Liberation of Undermine",
 "enUS",
 },
-[207468] = {
-"Gnarled Reviver",
-"Fungal Folly",
+[123477] = {
+"Antoran Doomguard",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [76259] = {
@@ -31264,9 +29968,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[162691] = {
-"Blightbone",
-"The Necrotic Wake",
+[17994] = {
+"Bloodwarder Falconer",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [208747] = {
@@ -31274,9 +29978,9 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[33988] = {
-"Immortal Guardian",
-"Ulduar",
+[24744] = {
+"Vexallus",
+"Magisters' Terrace",
 "enUS",
 },
 [229729] = {
@@ -31284,9 +29988,9 @@ nil,
 "Awakening The Machine",
 "enUS",
 },
-[223844] = {
-"Covert Webmancer",
-"City of Threads",
+[10424] = {
+"Risen Gallant",
+"Stratholme",
 "enUS",
 },
 [7269] = {
@@ -31294,29 +29998,29 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[76260] = {
-"Cackling Pyromaniac",
-"Auchindoun",
+[7605] = {
+"Raven",
+"Zul'Farrak",
 "enUS",
 },
-[210797] = {
-"The Darkness",
-"Darkflame Cleft",
+[221035] = {
+"Royal Scribe",
+"Nerub-ar Palace",
 "enUS",
 },
-[210539] = {
-"Corridor Creeper",
-"Darkflame Cleft",
+[104278] = {
+"Felbound Enforcer",
+"Court of Stars",
 "enUS",
 },
-[76263] = {
-"Sargerei Magus",
-"Auchindoun",
+[59193] = {
+"Boneweaver",
+"Scholomance",
 "enUS",
 },
-[27973] = {
-"Crystalline Shardling",
-"Halls of Stone",
+[53500] = {
+"Living Meteor",
+"Firelands",
 "enUS",
 },
 [98521] = {
@@ -31344,9 +30048,9 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[229222] = {
-"Darkfuse Melter",
-"Liberation of Undermine",
+[208243] = {
+"Nerubian Slasher",
+"The Dread Pit",
 "enUS",
 },
 [229219] = {
@@ -31354,9 +30058,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[228458] = {
-"One-Armed Bandit",
-"Liberation of Undermine",
+[26918] = {
+"Chaotic Rift",
+"The Nexus",
 "enUS",
 },
 [40577] = {
@@ -31364,9 +30068,9 @@ nil,
 "Throne of the Tides",
 "enUS",
 },
-[7605] = {
-"Raven",
-"Zul'Farrak",
+[58108] = {
+"Krik'thik Infiltrator",
+"Gate of the Setting Sun",
 "enUS",
 },
 [162692] = {
@@ -31394,9 +30098,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[221035] = {
-"Royal Scribe",
-"Nerub-ar Palace",
+[99676] = {
+"Mogu'shan Secret-Keeper",
+"Vault of the Wardens",
 "enUS",
 },
 [166275] = {
@@ -31414,9 +30118,9 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[59193] = {
-"Boneweaver",
-"Scholomance",
+[10409] = {
+"Rockwing Screecher",
+"Stratholme",
 "enUS",
 },
 [208239] = {
@@ -31434,14 +30138,14 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[53500] = {
-"Living Meteor",
-"Firelands",
+[208244] = {
+"Nerubian Threadmancer",
+"The Dread Pit",
 "enUS",
 },
-[166276] = {
-"Mistveil Guardian",
-"Mists of Tirna Scithe",
+[27973] = {
+"Crystalline Shardling",
+"Halls of Stone",
 "enUS",
 },
 [17770] = {
@@ -31454,9 +30158,9 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[208243] = {
-"Nerubian Slasher",
-"The Dread Pit",
+[61946] = {
+"Harthak Stormcaller",
+"Khaz Algar (Surface)",
 "enUS",
 },
 [224616] = {
@@ -31464,34 +30168,34 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[28965] = {
-"Titanium Thunderer",
-"Halls of Lightning",
+[27974] = {
+"Eroded Shardling",
+"Halls of Stone",
 "enUS",
 },
-[206705] = {
-"Arathi Footman",
-"Priory of the Sacred Flame",
+[24071] = {
+"Dragonflayer Heartsplitter",
+"Utgarde Keep",
 "enUS",
 },
-[123478] = {
-"Antoran Felguard",
-"Antorus, the Burning Throne",
+[56763] = {
+"Regenerating Sha",
+"Shado-Pan Monastery",
 "enUS",
 },
-[17994] = {
-"Bloodwarder Falconer",
-"Tempest Keep: The Botanica",
+[215405] = {
+"Anub'zekt",
+"Ara-Kara, City of Echoes",
 "enUS",
 },
-[7797] = {
-"Ruuzlu",
-"Zul'Farrak",
+[45378] = {
+"Augh",
+"Lost City of the Tol'vir",
 "enUS",
 },
-[76141] = {
-"Araknath",
-"Skyreach",
+[19306] = {
+"Mana Leech",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [78437] = {
@@ -31499,9 +30203,9 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[208241] = {
-"Ankle Biter",
-"The Dread Pit",
+[76518] = {
+"Ritual of Bones",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
 [56762] = {
@@ -31519,9 +30223,9 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[227956] = {
-"Crawler Mine",
-"Liberation of Undermine",
+[47297] = {
+"Lumbering Oaf",
+"Deadmines",
 "enUS",
 },
 [99675] = {
@@ -31534,9 +30238,9 @@ nil,
 "Auchindoun: Mana-Tombs",
 "enUS",
 },
-[28581] = {
-"Stormforged Tactician",
-"Halls of Lightning",
+[61240] = {
+"Glintrok Skulker",
+"Mogu'shan Palace",
 "enUS",
 },
 [208242] = {
@@ -31544,9 +30248,9 @@ nil,
 "The Dread Pit",
 "enUS",
 },
-[23561] = {
-"Soldier of the Frozen Wastes",
-"Naxxramas",
+[61177] = {
+"Raigonn",
+"Gate of the Setting Sun",
 "enUS",
 },
 [229224] = {
@@ -31569,9 +30273,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[16523] = {
-"Shattered Hand Savage",
-"Hellfire Citadel: The Shattered Halls",
+[76263] = {
+"Sargerei Magus",
+"Auchindoun",
 "enUS",
 },
 [28837] = {
@@ -31584,9 +30288,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[79463] = {
-"Radiant Supernova",
-"Skyreach",
+[45122] = {
+"Oathsworn Captain",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [122578] = {
@@ -31594,19 +30298,19 @@ nil,
 "Antorus, the Burning Throne",
 "enUS",
 },
-[26918] = {
-"Chaotic Rift",
-"The Nexus",
+[28965] = {
+"Titanium Thunderer",
+"Halls of Lightning",
 "enUS",
 },
-[79467] = {
-"Adept of the Dawn",
-"Skyreach",
+[179847] = {
+"Shadowsteel Horror",
+"Sanctum of Domination",
 "enUS",
 },
-[99676] = {
-"Mogu'shan Secret-Keeper",
-"Vault of the Wardens",
+[180865] = {
+"Twisted Warden",
+"Sanctum of Domination",
 "enUS",
 },
 [11464] = {
@@ -31619,24 +30323,9 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[208244] = {
-"Nerubian Threadmancer",
-"The Dread Pit",
-"enUS",
-},
-[123477] = {
-"Antoran Doomguard",
-"Antorus, the Burning Throne",
-"enUS",
-},
-[229226] = {
-"Darkfuse Junker",
-"Liberation of Undermine",
-"enUS",
-},
-[36551] = {
-"Spiteful Apparition",
-"The Forge of Souls",
+[11496] = {
+"Immol'thar",
+"Dire Maul",
 "enUS",
 },
 [88163] = {
@@ -31644,9 +30333,24 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
+[229226] = {
+"Darkfuse Junker",
+"Liberation of Undermine",
+"enUS",
+},
+[28582] = {
+"Stormforged Mender",
+"Halls of Lightning",
+"enUS",
+},
 [95072] = {
 "Greater Earth Elemental",
 "Stratholme",
+"enUS",
+},
+[16022] = {
+"Surgical Assistant",
+"Naxxramas",
 "enUS",
 },
 [231788] = {
@@ -31674,9 +30378,9 @@ nil,
 "Priory of the Sacred Flame",
 "enUS",
 },
-[81767] = {
-"Bloodmaul Flamespeaker",
-"Bloodmaul Slag Mines",
+[211063] = {
+"Fungal Podling",
+"Fungal Folly",
 "enUS",
 },
 [229739] = {
@@ -31684,9 +30388,9 @@ nil,
 "Awakening The Machine",
 "enUS",
 },
-[19306] = {
-"Mana Leech",
-"Auchindoun: Mana-Tombs",
+[229995] = {
+"Sureki Arbalest",
+"Nerub-ar Palace",
 "enUS",
 },
 [29573] = {
@@ -31694,9 +30398,9 @@ nil,
 "Gundrak",
 "enUS",
 },
-[122450] = {
-"Garothi Worldbreaker",
-"Antorus, the Burning Throne",
+[79463] = {
+"Radiant Supernova",
+"Skyreach",
 "enUS",
 },
 [29637] = {
@@ -31704,14 +30408,14 @@ nil,
 "Gundrak",
 "enUS",
 },
-[211063] = {
-"Fungal Podling",
-"Fungal Folly",
+[96480] = {
+"Viletongue Belcher",
+"Vault of the Wardens",
 "enUS",
 },
-[56637] = {
-"Ook-Ook",
-"Stormstout Brewery",
+[56764] = {
+"Consuming Sha",
+"Shado-Pan Monastery",
 "enUS",
 },
 [211061] = {
@@ -31754,14 +30458,14 @@ nil,
 "Khaz Algar (Surface)",
 "enUS",
 },
-[16022] = {
-"Surgical Assistant",
-"Naxxramas",
+[211062] = {
+"Bill",
+"Fungal Folly",
 "enUS",
 },
-[27974] = {
-"Eroded Shardling",
-"Halls of Stone",
+[137626] = {
+"Demolishing Terror",
+"Siege of Boralus",
 "enUS",
 },
 [17771] = {
@@ -31779,19 +30483,19 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[96480] = {
-"Viletongue Belcher",
-"Vault of the Wardens",
+[76266] = {
+"High Sage Viryx",
+"Skyreach",
 "enUS",
 },
-[79720] = {
-"Grom'kar Boomer",
-"Grimrail Depot",
+[81767] = {
+"Bloodmaul Flamespeaker",
+"Bloodmaul Slag Mines",
 "enUS",
 },
-[28582] = {
-"Stormforged Mender",
-"Halls of Lightning",
+[56636] = {
+"Commander Ri'mok",
+"Gate of the Setting Sun",
 "enUS",
 },
 [16150] = {
@@ -31824,9 +30528,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[179847] = {
-"Shadowsteel Horror",
-"Sanctum of Domination",
+[18155] = {
+"Bloodfalcon",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [76778] = {
@@ -31834,9 +30538,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[45122] = {
-"Oathsworn Captain",
-"Lost City of the Tol'vir",
+[79720] = {
+"Grom'kar Boomer",
+"Grimrail Depot",
 "enUS",
 },
 [176521] = {
@@ -31859,9 +30563,9 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[47297] = {
-"Lumbering Oaf",
-"Deadmines",
+[86372] = {
+"Melded Berserker",
+"The Everbloom",
 "enUS",
 },
 [24552] = {
@@ -31869,8 +30573,8 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[123476] = {
-"Hulking Demolisher",
+[122450] = {
+"Garothi Worldbreaker",
 "Antorus, the Burning Throne",
 "enUS",
 },
@@ -31899,9 +30603,9 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[61946] = {
-"Harthak Stormcaller",
-"Khaz Algar (Surface)",
+[58810] = {
+"Fragment of Hatred",
+"Shado-Pan Monastery",
 "enUS",
 },
 [59835] = {
@@ -31914,9 +30618,9 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[207740] = {
-"Gnarled Lasher",
-"Earthcrawl Mines",
+[79462] = {
+"Blinding Solar Flare",
+"Skyreach",
 "enUS",
 },
 [176523] = {
@@ -31929,9 +30633,9 @@ nil,
 "Stratholme",
 "enUS",
 },
-[29062] = {
-"Anub'ar Champion",
-"Azjol-Nerub",
+[207740] = {
+"Gnarled Lasher",
+"Earthcrawl Mines",
 "enUS",
 },
 [79466] = {
@@ -31944,9 +30648,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[33288] = {
-"Yogg-Saron",
-"Ulduar",
+[16523] = {
+"Shattered Hand Savage",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
 [77803] = {
@@ -31959,9 +30663,9 @@ nil,
 "Fungal Folly",
 "enUS",
 },
-[45378] = {
-"Augh",
-"Lost City of the Tol'vir",
+[208241] = {
+"Ankle Biter",
+"The Dread Pit",
 "enUS",
 },
 [227955] = {
@@ -31969,19 +30673,19 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[24744] = {
-"Vexallus",
-"Magisters' Terrace",
+[206705] = {
+"Arathi Footman",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[74349] = {
-"Bloodmaul Magma Binder",
-"Bloodmaul Slag Mines",
+[56637] = {
+"Ook-Ook",
+"Stormstout Brewery",
 "enUS",
 },
-[18155] = {
-"Bloodfalcon",
-"Tempest Keep: The Botanica",
+[33288] = {
+"Yogg-Saron",
+"Ulduar",
 "enUS",
 },
 [56765] = {
@@ -31994,19 +30698,19 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[211062] = {
-"Bill",
-"Fungal Folly",
+[210797] = {
+"The Darkness",
+"Darkflame Cleft",
 "enUS",
 },
-[86372] = {
-"Melded Berserker",
-"The Everbloom",
+[29062] = {
+"Anub'ar Champion",
+"Azjol-Nerub",
 "enUS",
 },
-[19307] = {
-"Nexus Terror",
-"Auchindoun: Mana-Tombs",
+[36551] = {
+"Spiteful Apparition",
+"The Forge of Souls",
 "enUS",
 },
 [10697] = {
@@ -32034,14 +30738,14 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[229995] = {
-"Sureki Arbalest",
-"Nerub-ar Palace",
-"enUS",
-},
-[137626] = {
+[137614] = {
 "Demolishing Terror",
 "Siege of Boralus",
+"enUS",
+},
+[123476] = {
+"Hulking Demolisher",
+"Antorus, the Burning Throne",
 "enUS",
 },
 [10809] = {
@@ -32059,14 +30763,14 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[7789] = {
-"Sandfury Cretin",
-"Zul'Farrak",
+[162689] = {
+"Surgeon Stitchflesh",
+"The Necrotic Wake",
 "enUS",
 },
-[180865] = {
-"Twisted Warden",
-"Sanctum of Domination",
+[74349] = {
+"Bloodmaul Magma Binder",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [61947] = {
@@ -32074,9 +30778,9 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[61240] = {
-"Glintrok Skulker",
-"Mogu'shan Palace",
+[224609] = {
+"Twilight Destroyer",
+"Grim Batol",
 "enUS",
 },
 [27975] = {
@@ -32094,19 +30798,19 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[215405] = {
-"Anub'zekt",
-"Ara-Kara, City of Echoes",
+[227956] = {
+"Crawler Mine",
+"Liberation of Undermine",
 "enUS",
 },
-[24071] = {
-"Dragonflayer Heartsplitter",
-"Utgarde Keep",
+[219746] = {
+"Silken Tomb",
+"Nerub-ar Palace",
 "enUS",
 },
-[79462] = {
-"Blinding Solar Flare",
-"Skyreach",
+[221537] = {
+"Unstable Experiment",
+"Nerub-ar Palace",
 "enUS",
 },
 [98275] = {
@@ -32114,9 +30818,9 @@ nil,
 "Black Rook Hold",
 "enUS",
 },
-[76518] = {
-"Ritual of Bones",
-"Shadowmoon Burial Grounds",
+[233306] = {
+"The Junkmaker",
+"Liberation of Undermine",
 "enUS",
 },
 [28231] = {
@@ -32124,9 +30828,9 @@ nil,
 "The Nexus",
 "enUS",
 },
-[104278] = {
-"Felbound Enforcer",
-"Court of Stars",
+[113998] = {
+"Mightstone Breaker",
+"Neltharion's Lair",
 "enUS",
 },
 [24201] = {
@@ -32139,9 +30843,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[215657] = {
-"Ulgrax the Devourer",
-"Nerub-ar Palace",
+[56439] = {
+"Sha of Doubt",
+"Temple of the Jade Serpent",
 "enUS",
 },
 [36296] = {
@@ -32149,9 +30853,9 @@ nil,
 "Shadowfang Keep",
 "enUS",
 },
-[177787] = {
-"Mawsworn Hopebreaker",
-"Sanctum of Domination",
+[104274] = {
+"Baalgar the Watchful",
+"Court of Stars",
 "enUS",
 },
 [213119] = {
@@ -32159,9 +30863,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[206699] = {
-"War Lynx",
-"Priory of the Sacred Flame",
+[175731] = {
+"Guardian of the First Ones",
+"Sanctum of Domination",
 "enUS",
 },
 [227960] = {
@@ -32169,9 +30873,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[16165] = {
-"Necro Knight",
-"Naxxramas",
+[228952] = {
+"Nerubian Skulker",
+"Earthcrawl Mines",
 "enUS",
 },
 [28583] = {
@@ -32189,9 +30893,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[27972] = {
-"Lightning Construct",
-"Halls of Stone",
+[212831] = {
+"Forge Master Damian",
+"Priory of the Sacred Flame",
 "enUS",
 },
 [16429] = {
@@ -32199,14 +30903,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[206696] = {
-"Arathi Knight",
-"Priory of the Sacred Flame",
-"enUS",
-},
-[26728] = {
-"Mage Hunter Initiate",
-"The Nexus",
+[19016] = {
+"Hellfire Familiar",
+"Hellfire Citadel: The Blood Furnace",
 "enUS",
 },
 [76143] = {
@@ -32214,14 +30913,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[26792] = {
-"Crystalline Protector",
-"The Nexus",
-"enUS",
-},
-[24777] = {
-"Sunblade Sentinel",
-"Magisters' Terrace",
+[29826] = {
+"Drakkari Medicine Man",
+"Gundrak",
 "enUS",
 },
 [24745] = {
@@ -32229,14 +30923,24 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[99300] = {
-"Water Elemental",
-"Eye of Azshara",
+[24777] = {
+"Sunblade Sentinel",
+"Magisters' Terrace",
 "enUS",
 },
-[206694] = {
-"Fervent Sharpshooter",
-"Priory of the Sacred Flame",
+[175725] = {
+"Eye of the Jailer",
+"Sanctum of Domination",
+"enUS",
+},
+[219006] = {
+"Venommaster Nezarox",
+"Nerub-ar Palace",
+"enUS",
+},
+[204127] = {
+"Kobold Taskfinder",
+"The Waterworks",
 "enUS",
 },
 [176531] = {
@@ -32244,9 +30948,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[210818] = {
-"Lowly Moleherd",
-"Darkflame Cleft",
+[22917] = {
+"Illidan Stormrage",
+"Black Temple",
 "enUS",
 },
 [29063] = {
@@ -32254,24 +30958,24 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[228954] = {
-"Nerubian Marauder",
-"Earthcrawl Mines",
+[10423] = {
+"Risen Priest",
+"Stratholme",
 "enUS",
 },
-[75360] = {
-"Searing Ember",
-"Bloodmaul Slag Mines",
+[211290] = {
+"Elaena Emberlanz",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[19016] = {
-"Hellfire Familiar",
-"Hellfire Citadel: The Blood Furnace",
+[44922] = {
+"Oathsworn Axemaster",
+"Lost City of the Tol'vir",
 "enUS",
 },
-[98900] = {
-"Wyrmtongue Trickster",
-"Black Rook Hold",
+[18311] = {
+"Ethereal Crypt Raider",
+"Khaz Algar (Surface)",
 "enUS",
 },
 [223357] = {
@@ -32289,9 +30993,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[28547] = {
-"Storming Vortex",
-"Halls of Lightning",
+[26728] = {
+"Mage Hunter Initiate",
+"The Nexus",
 "enUS",
 },
 [48451] = {
@@ -32299,14 +31003,14 @@ nil,
 "Deadmines",
 "enUS",
 },
-[28835] = {
-"Stormforged Construct",
-"Halls of Lightning",
+[45572] = {
+"Howling Gale",
+"The Vortex Pinnacle",
 "enUS",
 },
-[165137] = {
-"Zolramus Gatekeeper",
-"The Necrotic Wake",
+[101839] = {
+"Risen Companion",
+"Black Rook Hold",
 "enUS",
 },
 [224077] = {
@@ -32319,24 +31023,24 @@ nil,
 "Gate of the Setting Sun",
 "enUS",
 },
-[175725] = {
-"Eye of the Jailer",
-"Sanctum of Domination",
+[16036] = {
+"Frenzied Bat",
+"Naxxramas",
 "enUS",
 },
-[48505] = {
-"Defias Shadowguard",
-"Deadmines",
+[28961] = {
+"Titanium Siegebreaker",
+"Halls of Lightning",
 "enUS",
 },
-[213338] = {
-"Forgebound Mender",
-"The Stonevault",
+[99300] = {
+"Water Elemental",
+"Eye of Azshara",
 "enUS",
 },
-[10439] = {
-"Ramstein the Gorger",
-"Stratholme",
+[16807] = {
+"Grand Warlock Nethekurse",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
 [17357] = {
@@ -32344,9 +31048,9 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[10407] = {
-"Fleshflayer Ghoul",
-"Stratholme",
+[40586] = {
+"Lady Naz'jar",
+"Throne of the Tides",
 "enUS",
 },
 [23562] = {
@@ -32374,9 +31078,9 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[28546] = {
-"Ionar",
-"Halls of Lightning",
+[207186] = {
+"Unruly Stormrook",
+"The Rookery",
 "enUS",
 },
 [15975] = {
@@ -32389,9 +31093,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[44922] = {
-"Oathsworn Axemaster",
-"Lost City of the Tol'vir",
+[219724] = {
+"Court Attendant",
+"Nerub-ar Palace",
 "enUS",
 },
 [229501] = {
@@ -32404,9 +31108,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[16036] = {
-"Frenzied Bat",
-"Naxxramas",
+[17734] = {
+"Underbog Lord",
+"Coilfang: The Underbog",
 "enUS",
 },
 [213893] = {
@@ -32414,9 +31118,9 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[215435] = {
-"Foreseer Xix'amon",
-"Nerub-ar Palace",
+[44234] = {
+"Vicious Leech",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [75506] = {
@@ -32429,14 +31133,14 @@ nil,
 "Cinderbrew Meadery",
 "enUS",
 },
-[107114] = {
-"Tormenting Orb",
-"Vault of the Wardens",
+[76307] = {
+"Grand Defense Construct",
+"Skyreach",
 "enUS",
 },
-[141939] = {
-"Ashvane Spotter",
-"Siege of Boralus",
+[10422] = {
+"Risen Sorcerer",
+"Stratholme",
 "enUS",
 },
 [166301] = {
@@ -32459,14 +31163,14 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[16807] = {
-"Grand Warlock Nethekurse",
-"Hellfire Citadel: The Shattered Halls",
+[59503] = {
+"Brittle Skeleton",
+"Scholomance",
 "enUS",
 },
-[7788] = {
-"Sandfury Drudge",
-"Zul'Farrak",
+[18341] = {
+"Pandemonius",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [178072] = {
@@ -32474,9 +31178,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[101991] = {
-"Nightmare Dweller",
-"Darkheart Thicket",
+[23970] = {
+"Vrykul Skeleton",
+"Utgarde Keep",
 "enUS",
 },
 [166302] = {
@@ -32484,9 +31188,9 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[141938] = {
-"Ashvane Sniper",
-"Siege of Boralus",
+[208457] = {
+"Skittering Darkness",
+"Darkflame Cleft",
 "enUS",
 },
 [209801] = {
@@ -32499,9 +31203,9 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[91785] = {
-"Wandering Shellback",
-"Eye of Azshara",
+[96584] = {
+"Immoliant Fury",
+"Vault of the Wardens",
 "enUS",
 },
 [24554] = {
@@ -32514,9 +31218,9 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
-[218316] = {
-"Kaheti Vanguard",
-"Nerub-ar Palace",
+[129208] = {
+"Dread Captain Lockwood",
+"Siege of Boralus",
 "enUS",
 },
 [41096] = {
@@ -32539,14 +31243,14 @@ nil,
 "The Nexus",
 "enUS",
 },
-[214350] = {
-"Turned Speaker",
-"The Stonevault",
+[17669] = {
+"Rabid Warhound",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[39994] = {
-"Conflagration",
-"Blackrock Caverns",
+[79507] = {
+"Felguard",
+"Auchindoun",
 "enUS",
 },
 [214920] = {
@@ -32574,9 +31278,9 @@ nil,
 "Azjol-Nerub",
 "enUS",
 },
-[234623] = {
-"Quickhands Pilferer",
-"Fungal Folly",
+[101991] = {
+"Nightmare Dweller",
+"Darkheart Thicket",
 "enUS",
 },
 [7286] = {
@@ -32584,24 +31288,24 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[225606] = {
-"Nightfall Shadowalker",
-"The Dawnbreaker",
+[18404] = {
+"Bloodwarder Steward",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[29768] = {
-"Unyielding Constrictor",
-"Gundrak",
+[165137] = {
+"Zolramus Gatekeeper",
+"The Necrotic Wake",
 "enUS",
 },
-[211341] = {
-"Manifested Shadow",
-"The Dawnbreaker",
+[29096] = {
+"Anub'ar Champion",
+"Azjol-Nerub",
 "enUS",
 },
-[79510] = {
-"Cackling Pyromaniac",
-"Auchindoun",
+[107114] = {
+"Tormenting Orb",
+"Vault of the Wardens",
 "enUS",
 },
 [129370] = {
@@ -32609,9 +31313,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[213577] = {
-"Spitfire Charger",
-"The Waterworks",
+[19843] = {
+"Nethervine Trickster",
+"Tempest Keep: The Botanica",
 "enUS",
 },
 [74357] = {
@@ -32624,9 +31328,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[40484] = {
-"Erudax",
-"Grim Batol",
+[95939] = {
+"Skrog Tidestomper",
+"Eye of Azshara",
 "enUS",
 },
 [25354] = {
@@ -32634,9 +31338,9 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[224066] = {
-"Sureki Vanguard",
-"Nerub-ar Palace",
+[75406] = {
+"Slagna",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [85232] = {
@@ -32644,14 +31348,14 @@ nil,
 "The Everbloom",
 "enUS",
 },
-[227903] = {
-"Darkfuse Growler",
-"Liberation of Undermine",
+[171772] = {
+"Mistveil Defender",
+"Mists of Tirna Scithe",
 "enUS",
 },
-[16163] = {
-"Death Knight Cavalier",
-"Naxxramas",
+[105704] = {
+"Arcane Manifestation",
+"Court of Stars",
 "enUS",
 },
 [81522] = {
@@ -32674,14 +31378,14 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[17669] = {
-"Rabid Warhound",
-"Hellfire Citadel: The Shattered Halls",
+[28926] = {
+"Spark of Ionar",
+"Halls of Lightning",
 "enUS",
 },
-[47238] = {
-"Whipping Wind",
-"The Vortex Pinnacle",
+[29768] = {
+"Unyielding Constrictor",
+"Gundrak",
 "enUS",
 },
 [100713] = {
@@ -32694,14 +31398,14 @@ nil,
 "Gundrak",
 "enUS",
 },
-[173655] = {
-"Mistveil Matriarch",
-"Mists of Tirna Scithe",
+[59520] = {
+"Fizzy Brew Alemental",
+"Stormstout Brewery",
 "enUS",
 },
-[208457] = {
-"Skittering Darkness",
-"Darkflame Cleft",
+[28734] = {
+"Anub'ar Skirmisher",
+"Azjol-Nerub",
 "enUS",
 },
 [214668] = {
@@ -32714,9 +31418,9 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[19865] = {
-"Mutate Horror",
-"Tempest Keep: The Botanica",
+[79510] = {
+"Cackling Pyromaniac",
+"Auchindoun",
 "enUS",
 },
 [105703] = {
@@ -32729,19 +31433,19 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[222923] = {
-"Repurposed Loaderbot",
-"The Stonevault",
+[92610] = {
+"Understone Drummer",
+"Neltharion's Lair",
 "enUS",
 },
-[29680] = {
-"Slad'ran Viper",
-"Gundrak",
+[99360] = {
+"Vilethorn Blossom",
+"Darkheart Thicket",
 "enUS",
 },
-[228538] = {
-"Nightfall Curseblade",
-"The Dawnbreaker",
+[27966] = {
+"Dark Rune Controller",
+"Halls of Stone",
 "enUS",
 },
 [19949] = {
@@ -32749,9 +31453,9 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[124828] = {
-"Argus the Unmaker",
-"Antorus, the Burning Throne",
+[28410] = {
+"Dragonflayer Spiritualist",
+"Utgarde Keep",
 "enUS",
 },
 [211087] = {
@@ -32784,9 +31488,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[176974] = {
-"Soul Reaver",
-"Sanctum of Domination",
+[164427] = {
+"Reanimated Warrior",
+"The Necrotic Wake",
 "enUS",
 },
 [84978] = {
@@ -32794,9 +31498,9 @@ nil,
 "Bloodmaul Slag Mines",
 "enUS",
 },
-[29630] = {
-"Fanged Pit Viper",
-"Gundrak",
+[212786] = {
+"Voidrider",
+"The Rookery",
 "enUS",
 },
 [79093] = {
@@ -32804,9 +31508,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[23960] = {
-"Dragonflayer Runecaster",
-"Utgarde Keep",
+[11492] = {
+"Alzzin the Wildshaper",
+"Dire Maul",
 "enUS",
 },
 [36620] = {
@@ -32819,9 +31523,9 @@ nil,
 "Halls of Lightning",
 "enUS",
 },
-[210156] = {
-"Skarmorak",
-"The Stonevault",
+[229161] = {
+"Darkfuse Brute",
+"Liberation of Undermine",
 "enUS",
 },
 [24555] = {
@@ -32829,9 +31533,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[17731] = {
-"Fen Ray",
-"Coilfang: The Underbog",
+[100539] = {
+"Taintheart Deadeye",
+"Darkheart Thicket",
 "enUS",
 },
 [211089] = {
@@ -32839,9 +31543,9 @@ nil,
 "The Dawnbreaker",
 "enUS",
 },
-[82597] = {
-"Grom'kar Captain",
-"Grimrail Depot",
+[28733] = {
+"Anub'ar Shadowcaster",
+"Azjol-Nerub",
 "enUS",
 },
 [24683] = {
@@ -32859,14 +31563,14 @@ nil,
 "Shadowmoon Burial Grounds",
 "enUS",
 },
-[28926] = {
-"Spark of Ionar",
-"Halls of Lightning",
+[45935] = {
+"Temple Adept",
+"The Vortex Pinnacle",
 "enUS",
 },
-[212793] = {
-"Void Ascendant",
-"The Rookery",
+[17730] = {
+"Murkblood Healer",
+"Coilfang: The Underbog",
 "enUS",
 },
 [219022] = {
@@ -32884,9 +31588,9 @@ nil,
 "The Vortex Pinnacle",
 "enUS",
 },
-[81864] = {
-"Dreadpetal",
-"The Everbloom",
+[216619] = {
+"Orator Krix'vizk",
+"City of Threads",
 "enUS",
 },
 [11466] = {
@@ -32909,19 +31613,19 @@ nil,
 "Cinderbrew Meadery",
 "enUS",
 },
-[100539] = {
-"Taintheart Deadeye",
-"Darkheart Thicket",
+[228538] = {
+"Nightfall Curseblade",
+"The Dawnbreaker",
 "enUS",
 },
-[164578] = {
-"Stitchflesh's Creation",
-"The Necrotic Wake",
+[58664] = {
+"Instructor Chillheart's Phylactery",
+"Scholomance",
 "enUS",
 },
-[27966] = {
-"Dark Rune Controller",
-"Halls of Stone",
+[176956] = {
+"Shadowsteel Goliath",
+"Sanctum of Domination",
 "enUS",
 },
 [178851] = {
@@ -32929,19 +31633,19 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[101437] = {
-"Burning Geode",
-"Neltharion's Lair",
+[81985] = {
+"Everbloom Cultivator",
+"The Everbloom",
 "enUS",
 },
-[75899] = {
-"Possessed Soul",
-"Shadowmoon Burial Grounds",
+[222923] = {
+"Repurposed Loaderbot",
+"The Stonevault",
 "enUS",
 },
-[91793] = {
-"Seaspray Crab",
-"Eye of Azshara",
+[10436] = {
+"Baroness Anastari",
+"Stratholme",
 "enUS",
 },
 [220815] = {
@@ -32949,9 +31653,9 @@ nil,
 "Darkflame Cleft",
 "enUS",
 },
-[18420] = {
-"Sunseeker Geomancer",
-"Tempest Keep: The Botanica",
+[81984] = {
+"Gnarlroot",
+"The Everbloom",
 "enUS",
 },
 [128095] = {
@@ -32964,19 +31668,19 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[99645] = {
-"Shadowmoon Technician",
-"Vault of the Wardens",
+[91790] = {
+"Mak'rana Siltwalker",
+"Eye of Azshara",
 "enUS",
 },
-[137405] = {
-"Gripping Terror",
-"Siege of Boralus",
+[220195] = {
+"Sureki Silkbinder",
+"City of Threads",
 "enUS",
 },
-[75966] = {
-"Defiled Spirit",
-"Shadowmoon Burial Grounds",
+[164414] = {
+"Reanimated Mage",
+"The Necrotic Wake",
 "enUS",
 },
 [214419] = {
@@ -33024,14 +31728,14 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[16803] = {
-"Death Knight Understudy",
-"Naxxramas",
+[53545] = {
+"Molten Spewer",
+"Firelands",
 "enUS",
 },
-[28925] = {
-"Anub'ar Necromancer",
-"Azjol-Nerub",
+[223775] = {
+"Blazing Fiend",
+"Darkflame Cleft",
 "enUS",
 },
 [16024] = {
@@ -33049,9 +31753,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[45935] = {
-"Temple Adept",
-"The Vortex Pinnacle",
+[82597] = {
+"Grom'kar Captain",
+"Grimrail Depot",
 "enUS",
 },
 [122467] = {
@@ -33069,9 +31773,9 @@ nil,
 "Court of Stars",
 "enUS",
 },
-[126764] = {
-"Bladesworn Ravager",
-"Antorus, the Burning Throne",
+[11859] = {
+"Doomguard",
+"Sanctum of Domination",
 "enUS",
 },
 [82039] = {
@@ -33089,9 +31793,9 @@ nil,
 "Skyreach",
 "enUS",
 },
-[24761] = {
-"Brightscale Wyrm",
-"Magisters' Terrace",
+[220193] = {
+"Sureki Venomblade",
+"City of Threads",
 "enUS",
 },
 [16216] = {
@@ -33099,9 +31803,9 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[220199] = {
-"Battle Scarab",
-"City of Threads",
+[28731] = {
+"Watcher Silthik",
+"Azjol-Nerub",
 "enUS",
 },
 [222866] = {
@@ -33114,24 +31818,24 @@ nil,
 "Eye of Azshara",
 "enUS",
 },
-[7275] = {
-"Shadowpriest Sezz'ziz",
-"Zul'Farrak",
+[229399] = {
+"Blood Drainer",
+"Nerub-ar Palace",
 "enUS",
 },
-[39665] = {
-"Rom'ogg Bonecrusher",
-"Blackrock Caverns",
+[20078] = {
+"Bloodwarder Reservist",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[7267] = {
-"Chief Ukorz Sandscalp",
-"Zul'Farrak",
+[223204] = {
+"Chamber Guardian",
+"Nerub-ar Palace",
 "enUS",
 },
-[14396] = {
-"Eye of Immol'thar",
-"Dire Maul",
+[164578] = {
+"Stitchflesh's Creation",
+"The Necrotic Wake",
 "enUS",
 },
 [28586] = {
@@ -33154,14 +31858,14 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[180392] = {
-"Gorgoan Souldrinker",
-"Sanctum of Domination",
+[59459] = {
+"Hopling",
+"Stormstout Brewery",
 "enUS",
 },
-[16193] = {
-"Skeletal Smith",
-"Naxxramas",
+[27963] = {
+"Dark Rune Theurgist",
+"Halls of Stone",
 "enUS",
 },
 [26731] = {
@@ -33174,24 +31878,24 @@ nil,
 "The Nexus",
 "enUS",
 },
-[77889] = {
-"Grom'tash the Destructor",
-"Auchindoun",
+[138247] = {
+"Irontide Curseblade",
+"Siege of Boralus",
 "enUS",
 },
-[223777] = {
-"Blazing Fiend",
-"Darkflame Cleft",
+[180392] = {
+"Gorgoan Souldrinker",
+"Sanctum of Domination",
 "enUS",
 },
-[14303] = {
-"Petrified Guardian",
-"Dire Maul",
+[223181] = {
+"Agile Pursuer",
+"City of Threads",
 "enUS",
 },
-[47404] = {
-"Defias Watcher",
-"Deadmines",
+[91793] = {
+"Seaspray Crab",
+"Eye of Azshara",
 "enUS",
 },
 [227474] = {
@@ -33224,19 +31928,19 @@ nil,
 "Earthcrawl Mines",
 "enUS",
 },
-[223774] = {
-"Blazing Fiend",
-"Darkflame Cleft",
+[163122] = {
+"Brittlebone Warrior",
+"The Necrotic Wake",
 "enUS",
 },
-[223674] = {
-"Caustic Skitterer",
-"Nerub-ar Palace",
+[100527] = {
+"Dreadfire Imp",
+"Darkheart Thicket",
 "enUS",
 },
-[164804] = {
-"Droman Oulfarran",
-"Mists of Tirna Scithe",
+[216342] = {
+"Skittering Assistant",
+"City of Threads",
 "enUS",
 },
 [229778] = {
@@ -33244,14 +31948,14 @@ nil,
 "Awakening The Machine",
 "enUS",
 },
-[99359] = {
-"Rotheart Keeper",
-"Darkheart Thicket",
+[221669] = {
+"Blight Swarmer",
+"Nerub-ar Palace",
 "enUS",
 },
-[102404] = {
-"Stoneclaw Grubmaster",
-"Neltharion's Lair",
+[24761] = {
+"Brightscale Wyrm",
+"Magisters' Terrace",
 "enUS",
 },
 [234640] = {
@@ -33269,39 +31973,39 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[164920] = {
-"Drust Soulcleaver",
-"Mists of Tirna Scithe",
+[27962] = {
+"Dark Rune Elementalist",
+"Halls of Stone",
 "enUS",
 },
-[100531] = {
-"Bloodtainted Fury",
-"Darkheart Thicket",
+[17695] = {
+"Shattered Hand Assassin",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[81212] = {
-"Grimrail Overseer",
-"Grimrail Depot",
+[17465] = {
+"Shattered Hand Centurion",
+"Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[137517] = {
-"Ashvane Destroyer",
-"Siege of Boralus",
+[14303] = {
+"Petrified Guardian",
+"Dire Maul",
 "enUS",
 },
-[102788] = {
-"Felspite Dominator",
-"Black Rook Hold",
+[15952] = {
+"Maexxna",
+"Naxxramas",
 "enUS",
 },
-[23954] = {
-"Ingvar the Plunderer",
-"Utgarde Keep",
+[59426] = {
+"Bopper",
+"Stormstout Brewery",
 "enUS",
 },
-[180782] = {
-"Consumed Soul",
-"Sanctum of Domination",
+[14396] = {
+"Eye of Immol'thar",
+"Dire Maul",
 "enUS",
 },
 [79739] = {
@@ -33309,9 +32013,9 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
-[43875] = {
-"Asaad",
-"The Vortex Pinnacle",
+[216275] = {
+"Brann's Epic Egg",
+"Skittering Breach",
 "enUS",
 },
 [59460] = {
@@ -33319,9 +32023,9 @@ nil,
 "Stormstout Brewery",
 "enUS",
 },
-[103344] = {
-"Oakheart",
-"Darkheart Thicket",
+[223674] = {
+"Caustic Skitterer",
+"Nerub-ar Palace",
 "enUS",
 },
 [45259] = {
@@ -33354,9 +32058,9 @@ nil,
 "Deadmines",
 "enUS",
 },
-[216583] = {
-"Chittering Fearmonger",
-"The Dread Pit",
+[91787] = {
+"Cove Seagull",
+"Eye of Azshara",
 "enUS",
 },
 [8876] = {
@@ -33364,9 +32068,9 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[40021] = {
-"Incendiary Spark",
-"Blackrock Caverns",
+[228361] = {
+"Agile Pursuer",
+"City of Threads",
 "enUS",
 },
 [10955] = {
@@ -33379,14 +32083,14 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[122532] = {
-"Ember of Taeshalach",
-"Antorus, the Burning Throne",
+[75191] = {
+"Bloodmaul Slaver",
+"Bloodmaul Slag Mines",
 "enUS",
 },
-[29306] = {
-"Gal'darah",
-"Gundrak",
+[223498] = {
+"Bee-let",
+"Cinderbrew Meadery",
 "enUS",
 },
 [229270] = {
@@ -33394,9 +32098,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[657] = {
-"Defias Pirate",
-"Deadmines",
+[102404] = {
+"Stoneclaw Grubmaster",
+"Neltharion's Lair",
 "enUS",
 },
 [48266] = {
@@ -33404,19 +32108,19 @@ nil,
 "Deadmines",
 "enUS",
 },
-[100527] = {
-"Dreadfire Imp",
-"Darkheart Thicket",
+[228539] = {
+"Nightfall Darkcaster",
+"The Dawnbreaker",
 "enUS",
 },
-[228044] = {
-"Reno Jackson",
-"Kriegval's Rest",
+[102788] = {
+"Felspite Dominator",
+"Black Rook Hold",
 "enUS",
 },
-[124166] = {
-"Torment of Khaz'goroth",
-"Antorus, the Burning Throne",
+[216329] = {
+"Congealed Droplet",
+"City of Threads",
 "enUS",
 },
 [234900] = {
@@ -33424,29 +32128,29 @@ nil,
 "Earthcrawl Mines",
 "enUS",
 },
-[26929] = {
-"Grand Magus Telestra",
-"The Nexus",
+[163620] = {
+"Rotspew",
+"The Necrotic Wake",
 "enUS",
 },
-[214801] = {
-"Skipper",
+[212383] = {
+"Kobold Taskworker",
+"Darkflame Cleft",
+"enUS",
+},
+[45917] = {
+"Cloud Prince",
+"The Vortex Pinnacle",
+"enUS",
+},
+[216583] = {
+"Chittering Fearmonger",
+"The Dread Pit",
+"enUS",
+},
+[222214] = {
+"Frenzied Leaper",
 "Nerub-ar Palace",
-"enUS",
-},
-[91792] = {
-"Stormwake Hydra",
-"Eye of Azshara",
-"enUS",
-},
-[128650] = {
-"Chopper Redhook",
-"Siege of Boralus",
-"enUS",
-},
-[16063] = {
-"Sir Zeliek",
-"Naxxramas",
 "enUS",
 },
 [220060] = {
@@ -33479,9 +32183,9 @@ nil,
 "Stormstout Brewery",
 "enUS",
 },
-[224271] = {
-"Twilight Warlock",
-"Grim Batol",
+[14400] = {
+"Arcane Feedback",
+"Dire Maul",
 "enUS",
 },
 [24685] = {
@@ -33489,9 +32193,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[212739] = {
-"Radiating Voidstone",
-"The Rookery",
+[43875] = {
+"Asaad",
+"The Vortex Pinnacle",
 "enUS",
 },
 [232599] = {
@@ -33519,14 +32223,14 @@ nil,
 "Tak-Rethan Abyss",
 "enUS",
 },
-[216337] = {
-"Bloodworker",
-"Ara-Kara, City of Echoes",
+[30071] = {
+"Stitched Colossus",
+"Naxxramas",
 "enUS",
 },
-[33966] = {
-"Crusher Tentacle",
-"Ulduar",
+[26735] = {
+"Azure Scale-Binder",
+"The Nexus",
 "enUS",
 },
 [215968] = {
@@ -33539,29 +32243,29 @@ nil,
 "Dire Maul",
 "enUS",
 },
-[214504] = {
-"Rasha'nan",
-"Nerub-ar Palace",
+[17725] = {
+"Underbog Lurker",
+"Coilfang: The Underbog",
 "enUS",
 },
-[228361] = {
-"Agile Pursuer",
-"City of Threads",
+[56863] = {
+"Sleepy Hozen Brawler",
+"Stormstout Brewery",
 "enUS",
 },
-[45096] = {
-"Tamed Tol'vir Prowler",
-"Eastern Kingdoms",
-"enUS",
-},
-[642] = {
-"Sneed's Shredder",
+[48419] = {
+"Defias Miner",
 "Deadmines",
 "enUS",
 },
-[40923] = {
-"Unstable Corruption",
-"Throne of the Tides",
+[40167] = {
+"Twilight Beguiler",
+"Grim Batol",
+"enUS",
+},
+[45924] = {
+"Turbulent Squall",
+"The Vortex Pinnacle",
 "enUS",
 },
 [98677] = {
@@ -33589,9 +32293,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[19632] = {
-"Lykul Stinger",
-"Coilfang: The Underbog",
+[29931] = {
+"Drakkari Rhino",
+"Gundrak",
 "enUS",
 },
 [217249] = {
@@ -33604,9 +32308,9 @@ nil,
 "End Time",
 "enUS",
 },
-[26737] = {
-"Crazed Mana-Surge",
-"The Nexus",
+[223995] = {
+"Nightfall Curseblade",
+"The Dawnbreaker",
 "enUS",
 },
 [230299] = {
@@ -33624,9 +32328,9 @@ nil,
 "Excavation Site 9",
 "enUS",
 },
-[44261] = {
-"Sharptalon Eagle",
-"Lost City of the Tol'vir",
+[40166] = {
+"Molten Giant",
+"Grim Batol",
 "enUS",
 },
 [96247] = {
@@ -33639,9 +32343,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[49045] = {
-"Augh",
-"Lost City of the Tol'vir",
+[47714] = {
+"Vapor",
+"Deadmines",
 "enUS",
 },
 [15929] = {
@@ -33654,9 +32358,9 @@ nil,
 "City of Threads",
 "enUS",
 },
-[125545] = {
-"Blazing Imp",
-"Antorus, the Burning Throne",
+[222368] = {
+"Exalted Priest",
+"Nerub-ar Palace",
 "enUS",
 },
 [212389] = {
@@ -33694,9 +32398,9 @@ nil,
 "Grimrail Depot",
 "enUS",
 },
-[14400] = {
-"Arcane Feedback",
-"Dire Maul",
+[83623] = {
+"Bloodmaul Warder",
+"Bloodmaul Slag Mines",
 "enUS",
 },
 [19920] = {
@@ -33714,14 +32418,14 @@ nil,
 "Utgarde Keep",
 "enUS",
 },
-[27960] = {
-"Dark Rune Warrior",
-"Halls of Stone",
+[128650] = {
+"Chopper Redhook",
+"Siege of Boralus",
 "enUS",
 },
-[99366] = {
-"Taintheart Summoner",
-"Darkheart Thicket",
+[212681] = {
+"Vicious Snap Dragon",
+"Throne of the Tides",
 "enUS",
 },
 [92538] = {
@@ -33729,9 +32433,9 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[56863] = {
-"Sleepy Hozen Brawler",
-"Stormstout Brewery",
+[224240] = {
+"Twilight Flamerender",
+"Grim Batol",
 "enUS",
 },
 [129640] = {
@@ -33739,9 +32443,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[54432] = {
-"Murozond",
-"End Time",
+[40925] = {
+"Tainted Sentry",
+"Throne of the Tides",
 "enUS",
 },
 [91003] = {
@@ -33764,19 +32468,19 @@ nil,
 "Naxxramas",
 "enUS",
 },
-[44898] = {
-"Pygmy Firebreather",
-"Lost City of the Tol'vir",
+[61337] = {
+"Glintrok Ironhide",
+"Mogu'shan Palace",
 "enUS",
 },
-[24082] = {
-"Proto-Drake Handler",
-"Utgarde Keep",
+[84499] = {
+"Entanglement",
+"The Everbloom",
 "enUS",
 },
-[59613] = {
-"Professor Slate",
-"Scholomance",
+[26737] = {
+"Crazed Mana-Surge",
+"The Nexus",
 "enUS",
 },
 [214439] = {
@@ -33809,9 +32513,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[40166] = {
-"Molten Giant",
-"Grim Batol",
+[13021] = {
+"Warpwood Crusher",
+"Dire Maul",
 "enUS",
 },
 [125547] = {
@@ -33854,19 +32558,19 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[122477] = {
-"F'harg",
-"Antorus, the Burning Throne",
-"enUS",
-},
-[234655] = {
-"Globlin",
+[228514] = {
+"Pit Mechanic",
 "Liberation of Undermine",
 "enUS",
 },
-[214697] = {
-"Chef Chewie",
-"Cinderbrew Meadery",
+[222700] = {
+"Umbral Weave",
+"City of Threads",
+"enUS",
+},
+[75652] = {
+"Void Spawn",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
 [229282] = {
@@ -33879,19 +32583,19 @@ nil,
 "Blackrock Caverns",
 "enUS",
 },
-[75652] = {
-"Void Spawn",
-"Shadowmoon Burial Grounds",
+[234655] = {
+"Globlin",
+"Liberation of Undermine",
 "enUS",
 },
-[5648] = {
-"Sandfury Shadowcaster",
-"Zul'Farrak",
+[214697] = {
+"Chef Chewie",
+"Cinderbrew Meadery",
 "enUS",
 },
-[163058] = {
-"Mistveil Defender",
-"Mists of Tirna Scithe",
+[233956] = {
+"Wild Thunderbolt",
+"Liberation of Undermine",
 "enUS",
 },
 [203951] = {
@@ -33909,14 +32613,14 @@ nil,
 "Neltharion's Lair",
 "enUS",
 },
-[44704] = {
-"Minion of Siamat",
-"Lost City of the Tol'vir",
+[91796] = {
+"Skrog Wavecrasher",
+"Eye of Azshara",
 "enUS",
 },
-[43934] = {
-"Soul Fragment",
-"Lost City of the Tol'vir",
+[235489] = {
+"Snorkel Goon",
+"Tak-Rethan Abyss",
 "enUS",
 },
 [36499] = {
@@ -33934,9 +32638,9 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[45007] = {
-"Enslaved Bandit",
-"Lost City of the Tol'vir",
+[10416] = {
+"Bile Spewer",
+"Stratholme",
 "enUS",
 },
 [214443] = {
@@ -33944,9 +32648,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[231075] = {
-"Chrome King Gallywix",
-"Liberation of Undermine",
+[77700] = {
+"Shadowmoon Exhumer",
+"Shadowmoon Burial Grounds",
 "enUS",
 },
 [229284] = {
@@ -33959,19 +32663,19 @@ nil,
 "Tempest Keep: The Botanica",
 "enUS",
 },
-[212981] = {
-"Hapless Assistant",
-"The Everbloom",
+[59479] = {
+"Yan-Zhu the Uncasked",
+"Stormstout Brewery",
 "enUS",
 },
-[45919] = {
-"Young Storm Dragon",
-"The Vortex Pinnacle",
+[42975] = {
+"Plague Ghoul",
+"Stratholme",
 "enUS",
 },
-[238496] = {
-"Slots Patron",
-"Liberation of Undermine",
+[29836] = {
+"Drakkari Battle Rider",
+"Gundrak",
 "enUS",
 },
 [19633] = {
@@ -33989,14 +32693,14 @@ nil,
 "Stratholme",
 "enUS",
 },
-[83621] = {
-"Bloodmaul Magma Binder",
-"Bloodmaul Slag Mines",
+[24082] = {
+"Proto-Drake Handler",
+"Utgarde Keep",
 "enUS",
 },
-[212405] = {
-"Aspiring Forgehand",
-"The Stonevault",
+[33699] = {
+"Storm-Tempered Keeper",
+"Ulduar",
 "enUS",
 },
 [8877] = {
@@ -34004,8 +32708,8 @@ nil,
 "Zul'Farrak",
 "enUS",
 },
-[15931] = {
-"Grobbulus",
+[15981] = {
+"Naxxramas Acolyte",
 "Naxxramas",
 "enUS",
 },
@@ -34014,19 +32718,19 @@ nil,
 "Blackrock Caverns",
 "enUS",
 },
-[45915] = {
-"Armored Mistral",
-"The Vortex Pinnacle",
+[237272] = {
+"Underpin's Friend's Broker",
+"Fungal Folly",
 "enUS",
 },
-[239833] = {
-"Elaena Emberlanz",
-"Priory of the Sacred Flame",
+[61398] = {
+"Xin the Weaponmaster",
+"Mogu'shan Palace",
 "enUS",
 },
-[177117] = {
-"Orb of Torment",
-"Sanctum of Domination",
+[237276] = {
+"Underpin's Friend's Mother",
+"Fungal Folly",
 "enUS",
 },
 [24079] = {
@@ -34044,9 +32748,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[83620] = {
-"Bloodmaul Earthbreaker",
-"Bloodmaul Slag Mines",
+[11197] = {
+"Mindless Skeleton",
+"Stratholme",
 "enUS",
 },
 [213934] = {
@@ -34089,14 +32793,14 @@ nil,
 "The Forge of Souls",
 "enUS",
 },
-[219588] = {
-"Yes Man",
-"Cinderbrew Meadery",
+[48279] = {
+"Goblin Overseer",
+"Deadmines",
 "enUS",
 },
-[24560] = {
-"Priestess Delrissa",
-"Magisters' Terrace",
+[5648] = {
+"Sandfury Shadowcaster",
+"Zul'Farrak",
 "enUS",
 },
 [212400] = {
@@ -34139,8 +32843,8 @@ nil,
 "The Nexus",
 "enUS",
 },
-[223207] = {
-"Black Blood",
+[218317] = {
+"Woven Threadmancer",
 "Nerub-ar Palace",
 "enUS",
 },
@@ -34149,9 +32853,9 @@ nil,
 "Magisters' Terrace",
 "enUS",
 },
-[234208] = {
-"Hideous Amalgamation",
-"Excavation Site 9",
+[91797] = {
+"King Deepbeard",
+"Eye of Azshara",
 "enUS",
 },
 [180417] = {
@@ -34199,14 +32903,14 @@ nil,
 "Blackrock Caverns",
 "enUS",
 },
-[16029] = {
-"Sludge Belcher",
-"Naxxramas",
+[8095] = {
+"Sul'lithuz Sandcrawler",
+"Zul'Farrak",
 "enUS",
 },
-[212453] = {
-"Ghastly Voidsoul",
-"The Stonevault",
+[45269] = {
+"Servant of Siamat",
+"Lost City of the Tol'vir",
 "enUS",
 },
 [220079] = {
@@ -34224,9 +32928,9 @@ nil,
 "The Stonevault",
 "enUS",
 },
-[210148] = {
-"Menial Laborer",
-"Darkflame Cleft",
+[27983] = {
+"Dark Rune Protector",
+"Halls of Stone",
 "enUS",
 },
 [223150] = {
@@ -34234,9 +32938,9 @@ nil,
 "Nerub-ar Palace",
 "enUS",
 },
-[79888] = {
-"Iron Infantry",
-"Grimrail Depot",
+[15980] = {
+"Naxxramas Cultist",
+"Naxxramas",
 "enUS",
 },
 [176581] = {
@@ -34249,19 +32953,19 @@ nil,
 "Shadowfang Keep",
 "enUS",
 },
-[177613] = {
-"Burning Soul",
-"Sanctum of Domination",
+[94224] = {
+"Petrifying Totem",
+"Neltharion's Lair",
 "enUS",
 },
-[223423] = {
-"Careless Hopgoblin",
-"Cinderbrew Meadery",
+[222927] = {
+"Sacred Flame Vintner",
+"Priory of the Sacred Flame",
 "enUS",
 },
-[16236] = {
-"Eye Stalk",
-"Naxxramas",
+[24560] = {
+"Priestess Delrissa",
+"Magisters' Terrace",
 "enUS",
 },
 [17395] = {
@@ -34274,9 +32978,9 @@ nil,
 "Hellfire Citadel: The Shattered Halls",
 "enUS",
 },
-[212673] = {
-"Naz'jar Ravager",
-"Throne of the Tides",
+[48338] = {
+"Mine Bunny",
+"Deadmines",
 "enUS",
 },
 [17491] = {
@@ -34309,14 +33013,14 @@ nil,
 "Auchindoun",
 "enUS",
 },
-[177893] = {
-"Mawforged Colossus",
-"Sanctum of Domination",
+[18422] = {
+"Sunseeker Botanist",
+"Tempest Keep: The Botanica",
 "enUS",
 },
-[222149] = {
-"Injured Earthen",
-"The Stonevault",
+[177889] = {
+"Mawforged Souljudge",
+"Sanctum of Domination",
 "enUS",
 },
 [178630] = {
@@ -34324,9 +33028,9 @@ nil,
 "Sanctum of Domination",
 "enUS",
 },
-[228053] = {
-"Goblin Sapper Bot",
-"Liberation of Undermine",
+[79888] = {
+"Iron Infantry",
+"Grimrail Depot",
 "enUS",
 },
 [177095] = {
@@ -34339,9 +33043,9 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[29713] = {
-"Slad'ran Constrictor",
-"Gundrak",
+[212673] = {
+"Naz'jar Ravager",
+"Throne of the Tides",
 "enUS",
 },
 [83846] = {
@@ -34379,6 +33083,16 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
+[212411] = {
+"Torchsnarl",
+"Darkflame Cleft",
+"enUS",
+},
+[235187] = {
+"Voltaic Image",
+"Liberation of Undermine",
+"enUS",
+},
 [59213] = {
 "Woven Boneguard",
 "Scholomance",
@@ -34389,9 +33103,9 @@ nil,
 "Temple of the Jade Serpent",
 "enUS",
 },
-[230583] = {
-"Sprocketmonger Lockenstock",
-"Liberation of Undermine",
+[36502] = {
+"Devourer of Souls",
+"The Forge of Souls",
 "enUS",
 },
 [59980] = {
@@ -34399,19 +33113,9 @@ nil,
 "Scholomance",
 "enUS",
 },
-[36502] = {
-"Devourer of Souls",
-"The Forge of Souls",
-"enUS",
-},
 [61453] = {
 "Mu'Shiba",
 "Mogu'shan Palace",
-"enUS",
-},
-[233154] = {
-"Stagehand",
-"Liberation of Undermine",
 "enUS",
 },
 },
@@ -34517,7 +33221,7 @@ nil,
 ["nameplateShowFriends"] = "0",
 ["nameplateMotion"] = "1",
 },
-["login_counter"] = 1388,
+["login_counter"] = 1408,
 ["plate_config"] = {
 ["global_health_height"] = 12,
 ["global_health_width"] = 112,
@@ -35537,10 +34241,10 @@ nil,
 ["nameplateSelfBottomInset"] = "Interface/AddOns/Plater/Plater.lua:1600",
 ["nameplateTargetRadialPosition"] = "Interface/AddOns/Plater/Plater.lua:1600",
 ["nameplateShowFriendlyGuardians"] = "Interface/AddOns/Plater/Plater.lua:1600",
-["nameplateOccludedAlphaMult"] = "Interface/AddOns/Plater/Plater.lua:1600",
-["ShowNamePlateLoseAggroFlash"] = "Interface/AddOns/Plater/Plater.lua:1600",
-["NamePlateHorizontalScale"] = "Interface/AddOns/Plater/Plater.lua:1600",
 ["nameplateSelfAlpha"] = "Interface/AddOns/Plater/Plater.lua:1600",
+["ShowNamePlateLoseAggroFlash"] = "Interface/AddOns/Plater/Plater.lua:1600",
+["nameplateOccludedAlphaMult"] = "Interface/AddOns/Plater/Plater.lua:1600",
+["NamePlateHorizontalScale"] = "Interface/AddOns/Plater/Plater.lua:1600",
 ["nameplatePersonalShowAlways"] = "Interface/AddOns/Plater/Plater.lua:1600",
 },
 ["url"] = "https://wago.io/kvgdjO6_L/3",
@@ -40810,9 +39514,9 @@ nil,
 "Waycrest Manor",
 "enUS",
 },
-[233050] = {
-"Giga Controls",
-"Liberation of Undermine",
+[104275] = {
+"Imacu'tya",
+"Court of Stars",
 "enUS",
 },
 [166266] = {
@@ -40839,10 +39543,9 @@ nil,
 "Kul Tiran Marksman",
 "Siege of Boralus",
 },
-[104275] = {
-"Imacu'tya",
+[120651] = {
+"Explosives",
 "Court of Stars",
-"enUS",
 },
 [233306] = {
 "The Junkmaker",
@@ -41414,9 +40117,9 @@ nil,
 "Mists of Tirna Scithe",
 "enUS",
 },
-[58810] = {
-"Fragment of Hatred",
-"Shado-Pan Monastery",
+[66413] = {
+"Yeasty Brew Alemental",
+"Stormstout Brewery",
 "enUS",
 },
 [208245] = {
@@ -41424,9 +40127,9 @@ nil,
 "Earthcrawl Mines",
 "enUS",
 },
-[66413] = {
-"Yeasty Brew Alemental",
-"Stormstout Brewery",
+[56763] = {
+"Regenerating Sha",
+"Shado-Pan Monastery",
 "enUS",
 },
 [220003] = {
@@ -41750,14 +40453,14 @@ nil,
 "Matron Bryndle",
 "Waycrest Manor",
 },
-[36551] = {
-"Spiteful Apparition",
-"The Forge of Souls",
-"enUS",
-},
 [227956] = {
 "Crawler Mine",
 "Liberation of Undermine",
+"enUS",
+},
+[19307] = {
+"Nexus Terror",
+"Auchindoun: Mana-Tombs",
 "enUS",
 },
 [216364] = {
@@ -42223,9 +40926,9 @@ nil,
 "The Necrotic Wake",
 "enUS",
 },
-[57280] = {
-"Twilight Siege Captain",
-"Dragon Soul",
+[104293] = {
+"Avatar of Shadow",
+"Vault of the Wardens",
 "enUS",
 },
 [213895] = {
@@ -42238,14 +40941,14 @@ nil,
 "Halls of Infusion",
 "enUS",
 },
-[104293] = {
-"Avatar of Shadow",
-"Vault of the Wardens",
-"enUS",
-},
 [24554] = {
 "Eramas Brightblaze",
 "Magisters' Terrace",
+"enUS",
+},
+[57280] = {
+"Twilight Siege Captain",
+"Dragon Soul",
 "enUS",
 },
 [45062] = {
@@ -42286,9 +40989,10 @@ nil,
 "Valarjar Purifier",
 "Halls of Valor",
 },
-[139949] = {
-"Plague Doctor",
-"Temple of Sethraliss",
+[39625] = {
+"General Umbriss",
+"Grim Batol",
+"enUS",
 },
 [101991] = {
 "Nightmare Dweller",
@@ -42300,9 +41004,9 @@ nil,
 "Dragon Soul",
 "enUS",
 },
-[39625] = {
-"General Umbriss",
-"Grim Batol",
+[223876] = {
+"Impaling Spike",
+"Nerub-ar Palace",
 "enUS",
 },
 [29064] = {
@@ -42374,9 +41078,9 @@ nil,
 "Dawn of the Infinite",
 "enUS",
 },
-[29768] = {
-"Unyielding Constrictor",
-"Gundrak",
+[215435] = {
+"Foreseer Xix'amon",
+"Nerub-ar Palace",
 "enUS",
 },
 [53891] = {
@@ -42394,9 +41098,9 @@ nil,
 "Mogu'shan Palace",
 "enUS",
 },
-[215435] = {
-"Foreseer Xix'amon",
-"Nerub-ar Palace",
+[211341] = {
+"Manifested Shadow",
+"The Dawnbreaker",
 "enUS",
 },
 [104295] = {
@@ -42409,19 +41113,19 @@ nil,
 "Lost City of the Tol'vir",
 "enUS",
 },
+[29768] = {
+"Unyielding Constrictor",
+"Gundrak",
+"enUS",
+},
 [98538] = {
 "Lady Velandras Ravencrest",
 "Black Rook Hold",
 "enUS",
 },
-[47238] = {
-"Whipping Wind",
-"The Vortex Pinnacle",
-"enUS",
-},
-[187033] = {
-"Stinkbreath",
-"Brackenhide Hollow",
+[129371] = {
+"Riptide Shredder",
+"Siege of Boralus",
 "enUS",
 },
 [29832] = {
@@ -42438,18 +41142,18 @@ nil,
 "Kul Tiran Marksman",
 "Siege of Boralus",
 },
-[100713] = {
-"Rockbait Fisher",
-"Neltharion's Lair",
+[187033] = {
+"Stinkbreath",
+"Brackenhide Hollow",
 "enUS",
 },
 [130011] = {
 "Irontide Buccaneer",
 "Freehold",
 },
-[129371] = {
-"Riptide Shredder",
-"Siege of Boralus",
+[100713] = {
+"Rockbait Fisher",
+"Neltharion's Lair",
 "enUS",
 },
 [27977] = {
@@ -42472,9 +41176,9 @@ nil,
 "Court of Stars",
 "enUS",
 },
-[211341] = {
-"Manifested Shadow",
-"The Dawnbreaker",
+[47238] = {
+"Whipping Wind",
+"The Vortex Pinnacle",
 "enUS",
 },
 [77042] = {
@@ -42502,10 +41206,9 @@ nil,
 "Siege of Boralus",
 "enUS",
 },
-[223876] = {
-"Impaling Spike",
-"Nerub-ar Palace",
-"enUS",
+[139949] = {
+"Plague Doctor",
+"Temple of Sethraliss",
 },
 [216205] = {
 "Ravenous Spawn",
@@ -42774,9 +41477,9 @@ nil,
 "Liberation of Undermine",
 "enUS",
 },
-[19307] = {
-"Nexus Terror",
-"Auchindoun: Mana-Tombs",
+[36551] = {
+"Spiteful Apparition",
+"The Forge of Souls",
 "enUS",
 },
 [190342] = {
@@ -42907,8 +41610,8 @@ nil,
 "Executor of the Caliph",
 "The Vortex Pinnacle",
 },
-[56763] = {
-"Regenerating Sha",
+[58810] = {
+"Fragment of Hatred",
 "Shado-Pan Monastery",
 "enUS",
 },
@@ -43139,9 +41842,10 @@ nil,
 "Scholomance",
 "enUS",
 },
-[120651] = {
-"Explosives",
-"Court of Stars",
+[233050] = {
+"Giga Controls",
+"Liberation of Undermine",
+"enUS",
 },
 [227932] = {
 "Volatile Slimeling",
@@ -45707,9 +44411,9 @@ nil,
 },
 {
 ["OptionsValues"] = {
-["showIcon"] = false,
 ["useFullSize"] = false,
 ["iconOnLeftSide"] = false,
+["showIcon"] = false,
 },
 ["HooksTemp"] = {
 },
@@ -46499,9 +45203,9 @@ nil,
 [443500] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [427025] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [255567] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[372201] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[257288] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [323496] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[257288] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[426261] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [450854] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [387629] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [378818] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
@@ -46571,7 +45275,7 @@ nil,
 [448640] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [369828] = "Interface\\Addons\\SharedMedia_Causese\\sound\\CC.ogg",
 [435012] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
-[426261] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
+[372201] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [257862] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [413529] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
 [377383] = "Interface\\Addons\\SharedMedia_Causese\\sound\\Front.ogg",
@@ -47166,17 +45870,17 @@ true,
 "orangered",
 "",
 },
-[426261] = {
-true,
-"orangered",
-"",
-},
 [372201] = {
 true,
 "orangered",
 "",
 },
 [323496] = {
+true,
+"orangered",
+"",
+},
+[426261] = {
 true,
 "orangered",
 "",
@@ -47965,7 +46669,7 @@ true,
 ["Cast - Shining Green [P]"] = 3,
 ["Aura - Invalidate Unit"] = 1,
 ["Add - Important [P]"] = 4,
-["Cast - Heroic Leap [P]"] = 3,
+["Cast - Glowing [P]"] = 10,
 ["Unit - Main Target"] = 11,
 ["Aura - Blink Time Left"] = 13,
 ["Fixate"] = 11,
@@ -47973,7 +46677,7 @@ true,
 ["Unit - Health Markers"] = 12,
 ["Cast - Stop Casting"] = 4,
 ["Cast - Special Ability [P]"] = 3,
-["Cast - Glowing [P]"] = 10,
+["Cast - Tank Interrupt"] = 12,
 ["Fixate by Unit Buff [P]"] = 2,
 ["Cast - Spark Color [P]"] = 2,
 ["Cast - Heal Stun [P]"] = 2,
@@ -48005,7 +46709,7 @@ true,
 ["Cast - AoE With Range [P]"] = 2,
 ["Cast - Frontal Cone"] = 17,
 ["Add - Explode on Die [P]"] = 1,
-["Cast - Tank Interrupt"] = 12,
+["Cast - Heroic Leap [P]"] = 3,
 ["Countdown"] = 12,
 ["Unit Power"] = 1,
 ["Unit - Show Energy"] = 11,
@@ -50822,11 +49526,11 @@ false,
 ["nameplateMinScale"] = "1",
 ["nameplateTargetRadialPosition"] = "1",
 ["nameplateOtherTopInset"] = "0.085",
-["nameplateSelfAlpha"] = "0.75",
-["nameplateSelfBottomInset"] = "0.2",
 ["NamePlateHorizontalScale"] = "1",
-["nameplateShowFriendlyGuardians"] = "0",
+["nameplateSelfBottomInset"] = "0.2",
 ["nameplateOccludedAlphaMult"] = "1",
+["nameplateShowFriendlyGuardians"] = "0",
+["nameplateSelfAlpha"] = "0.75",
 ["nameplateSelfTopInset"] = "0.5",
 ["ShowClassColorInNameplate"] = "1",
 ["nameplateLargeTopInset"] = "0.085",
@@ -51592,12 +50296,12 @@ false,
 },
 },
 ["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \nend\n\n\n",
-["version"] = -1,
+["Name"] = "Aura - Debuff Alert [Plater]",
 ["PlaterCore"] = 1,
+["version"] = -1,
+["Prio"] = 99,
 ["SpellIds"] = {
 },
-["Prio"] = 99,
-["Name"] = "Aura - Debuff Alert [Plater]",
 ["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    if (scriptTable.config.glowEnabled) then\n        envTable.buffIconGlow:Show()\n    end\n    \n    if (scriptTable.config.dotsEnabled) then\n        envTable.dotAnimation = Plater.PlayDotAnimation(self, 6, scriptTable.config.dotsColor, 6, 3) \n    end\nend\n\n\n",
 },
 {
@@ -57656,6 +56360,7 @@ nil,
 [430238] = true,
 [351252] = true,
 [320462] = true,
+[77472] = true,
 [340544] = true,
 [188443] = true,
 [320336] = true,
@@ -57687,12 +56392,14 @@ nil,
 [188196] = true,
 [20537] = true,
 [429110] = true,
+[116858] = true,
 [335143] = true,
 [429812] = true,
 [11972] = true,
 [434786] = true,
 [194509] = true,
 [351338] = true,
+[30283] = true,
 [450215] = true,
 [1766] = true,
 [348] = true,
@@ -57714,7 +56421,9 @@ nil,
 [448248] = true,
 [452201] = true,
 [52885] = true,
+[446657] = true,
 [29722] = true,
+[427469] = true,
 [420330] = true,
 [157159] = true,
 [434802] = true,
@@ -57722,66 +56431,80 @@ nil,
 [397892] = true,
 [326046] = true,
 [327130] = true,
+[196447] = true,
+[427260] = true,
 [328406] = true,
 [97547] = true,
 [431044] = true,
+[434589] = true,
+[12555] = true,
+[426677] = true,
 [57994] = true,
 [34797] = true,
 [338353] = true,
 [427157] = true,
-[324776] = true,
-[431303] = true,
-[115175] = true,
-[461904] = true,
-[428563] = true,
-[328667] = true,
-[51505] = true,
-[423479] = true,
-[426677] = true,
 [451113] = true,
 [434793] = true,
 [324293] = true,
+[51505] = true,
+[424322] = true,
+[324776] = true,
+[11978] = true,
+[430109] = true,
+[431303] = true,
+[115175] = true,
+[461904] = true,
 [433841] = true,
-[427609] = true,
-[32747] = true,
-[36033] = true,
+[424419] = true,
+[428563] = true,
+[328667] = true,
+[46036] = true,
+[424420] = true,
+[116705] = true,
+[451871] = true,
+[275826] = true,
+[424421] = true,
 [451261] = true,
-[442210] = true,
-[191527] = true,
-[432520] = true,
+[190984] = true,
+[429422] = true,
+[36033] = true,
+[32747] = true,
+[333602] = true,
+[162617] = true,
+[427357] = true,
 [430097] = true,
 [272571] = true,
 [426145] = true,
 [431309] = true,
-[11978] = true,
+[420090] = true,
 [445207] = true,
-[76369] = true,
+[391403] = true,
 [257732] = true,
 [449734] = true,
-[391403] = true,
+[76369] = true,
 [257063] = true,
-[162617] = true,
-[46036] = true,
-[420090] = true,
-[275826] = true,
-[451871] = true,
+[442210] = true,
+[427356] = true,
+[454440] = true,
+[432520] = true,
+[191527] = true,
 [450756] = true,
-[333602] = true,
+[427609] = true,
 [324914] = true,
 [322938] = true,
-[454440] = true,
 [323057] = true,
+[423536] = true,
 [183752] = true,
-[429422] = true,
-[116705] = true,
-[443427] = true,
-[12555] = true,
-[430109] = true,
+[423664] = true,
 [436679] = true,
-[424322] = true,
+[443427] = true,
+[425536] = true,
+[444743] = true,
+[423479] = true,
+[423051] = true,
 [452162] = true,
 [442536] = true,
-[425536] = true,
+[194153] = true,
 },
 ["performance_units"] = {
 [176920] = true,
@@ -58183,6 +56906,13 @@ nil,
 ["source"] = "Vileshard Chunk",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 101438,
+},
+[446368] = {
+["encounterName"] = "Baron Braunpyke",
+["source"] = "Baron Braunpyke",
+["npcID"] = 207939,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2835,
 },
 [154113] = {
 ["encounterName"] = "Araknath",
@@ -59920,6 +58650,13 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1121,
 },
+[422969] = {
+["encounterName"] = "Baron Braunpyke",
+["source"] = "Baron Braunpyke",
+["npcID"] = 207939,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2835,
+},
 [350283] = {
 ["encounterName"] = "The Nine",
 ["source"] = "Signe",
@@ -61308,6 +60045,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 216320,
 },
+[1216815] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Xal'atath",
+["npcID"] = 236933,
+},
 [439467] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Yes Man",
@@ -61563,6 +60305,13 @@ nil,
 ["npcID"] = 207940,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2848,
+},
+[446657] = {
+["encounterName"] = "Baron Braunpyke",
+["source"] = "Baron Braunpyke",
+["encounterID"] = 2835,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 207939,
 },
 [153234] = {
 ["encounterName"] = "Azzakel, Vanguard of the Legion",
@@ -64787,18 +63536,32 @@ nil,
 ["source"] = "Void-Bound Despoiler",
 ["npcID"] = 212765,
 },
+[107356] = {
+["encounterName"] = "Taran Zhu",
+["source"] = "Taran Zhu",
+["encounterID"] = 1306,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56884,
+},
 [272888] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ashvane Destroyer",
 ["npcID"] = 137517,
 },
-[107356] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["isChanneled"] = true,
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56884,
+[446649] = {
+["encounterName"] = "Baron Braunpyke",
+["source"] = "Baron Braunpyke",
+["npcID"] = 207939,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2835,
+},
+[464809] = {
+["encounterName"] = "One-Armed Bandit",
+["source"] = "One-Armed Bandit",
+["npcID"] = 228458,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3014,
 },
 [447950] = {
 ["encounterName"] = "Queen Ansurek",
@@ -64806,19 +63569,6 @@ nil,
 ["encounterID"] = 2922,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 223150,
-},
-[84521] = {
-["encounterName"] = "Siamat",
-["source"] = "Servant of Siamat",
-["npcID"] = 45259,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["encounterID"] = 1055,
-},
-[464817] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Scrapbeak",
-["npcID"] = 230931,
 },
 [444324] = {
 ["encounterName"] = "Kyrioss",
@@ -64832,32 +63582,42 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220891,
 },
-[1217993] = {
+[443482] = {
+["source"] = "Shadowtide Bulwark",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Cave Snail",
-["npcID"] = 235108,
-},
-[451758] = {
-["source"] = "Sharpfang",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 213718,
+["npcID"] = 220886,
 },
 [458080] = {
 ["source"] = "Croakit",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214757,
 },
+[1217993] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Cave Snail",
+["npcID"] = 235108,
+},
 [194284] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Dark Iron Grenadier",
 ["npcID"] = 131814,
+},
+[457993] = {
+["source"] = "Croakit",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 214757,
+},
+[1216937] = {
+["source"] = "The Underpin",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 236948,
 },
 [458068] = {
 ["source"] = "Croakit",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214757,
 },
-[440376] = {
+[440372] = {
 ["source"] = "Shadow-Blind Matriarch",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 206078,
@@ -64888,10 +63648,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1686,
 },
-[440372] = {
-["source"] = "Shadow-Blind Matriarch",
+[428266] = {
+["encounterName"] = "The Darkness",
+["source"] = "The Darkness",
+["npcID"] = 208747,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 206078,
+["encounterID"] = 2788,
 },
 [333294] = {
 ["event"] = "SPELL_CAST_START",
@@ -64924,12 +63686,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 213428,
 },
-[1213776] = {
-["encounterName"] = "Harbinger Ul'thul",
-["source"] = "Harbinger Ul'thul",
-["encounterID"] = 3096,
+[474482] = {
+["source"] = "Dark Walker",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 234339,
+["npcID"] = 234553,
 },
 [1217721] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -64937,15 +63697,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 237264,
 },
-[474482] = {
-["source"] = "Dark Walker",
+[31623] = {
+["encounterName"] = "Swamplord Musel'ek",
+["source"] = "Swamplord Musel'ek",
+["npcID"] = 17826,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 234553,
+["encounterID"] = 1947,
 },
-[474511] = {
-["source"] = "Dark Walker",
+[231901] = {
+["encounterName"] = "The Crown Chemical Co.",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 234553,
+["source"] = "Overspritzed Guard",
+["npcID"] = 116285,
 },
 [473550] = {
 ["event"] = "SPELL_CAST_START",
@@ -64979,12 +63742,10 @@ nil,
 ["source"] = "Sporbit",
 ["npcID"] = 213434,
 },
-[31623] = {
-["encounterName"] = "Swamplord Musel'ek",
-["source"] = "Swamplord Musel'ek",
-["npcID"] = 17826,
+[474001] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1947,
+["source"] = "Masked Freelancer",
+["npcID"] = 231910,
 },
 [154396] = {
 ["encounterName"] = "High Sage Viryx",
@@ -64993,11 +63754,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1701,
 },
-[231901] = {
-["encounterName"] = "The Crown Chemical Co.",
+[156722] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Overspritzed Guard",
-["npcID"] = 116285,
+["source"] = "Shadowmoon Exhumer",
+["npcID"] = 77700,
 },
 [413151] = {
 ["encounterName"] = "Grand Vizier Ertan",
@@ -65021,15 +63781,17 @@ nil,
 ["source"] = "Scarab Captain Vul'akan",
 ["npcID"] = 218306,
 },
-[474001] = {
+[1215647] = {
+["encounterName"] = "Underpin",
+["source"] = "Crony",
+["npcID"] = 235162,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Masked Freelancer",
-["npcID"] = 231910,
+["encounterID"] = 3126,
 },
-[156722] = {
+[474052] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Shadowmoon Exhumer",
-["npcID"] = 77700,
+["source"] = "Bloodfueled Junker",
+["npcID"] = 225814,
 },
 [1217449] = {
 ["event"] = "SPELL_CAST_START",
@@ -65041,10 +63803,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 205152,
 },
-[473537] = {
+[1215677] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Causticaria",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Punchy Thug",
-["npcID"] = 231904,
+["npcID"] = 225433,
 },
 [196883] = {
 ["event"] = "SPELL_CAST_START",
@@ -65062,40 +63825,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 237934,
 },
-[1215677] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Causticaria",
+[473993] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225433,
-},
-[1215693] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Causticaria",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 225433,
-},
-[473376] = {
-["source"] = "The Junk-Wall",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 230793,
+["source"] = "Masked Freelancer",
+["npcID"] = 231910,
 },
 [473541] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Punchy Thug",
 ["npcID"] = 231904,
 },
-[473533] = {
+[473376] = {
+["source"] = "The Junk-Wall",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Obedient-ish Predator",
-["npcID"] = 231930,
-},
-[438749] = {
-["encounterName"] = "The Silken Court",
-["source"] = "Shattershell Scarab",
-["encounterID"] = 2921,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 218884,
+["npcID"] = 230793,
 },
 [1213656] = {
 ["event"] = "SPELL_CAST_START",
@@ -65107,16 +63850,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225860,
 },
-[1213778] = {
-["source"] = "Darkfuse Riot Negotiator",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 233781,
+[438749] = {
+["encounterName"] = "The Silken Court",
+["source"] = "Shattershell Scarab",
+["encounterID"] = 2921,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 218884,
 },
-[472323] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Resourceful Bombshell",
+[472458] = {
+["encounterName"] = "Mug'Zee, Heads of Security",
+["source"] = "Mug'Zee",
+["encounterID"] = 3015,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 229650,
+["npcID"] = 229953,
+},
+[251626] = {
+["encounterName"] = "Felhounds of Sargeras",
+["source"] = "Clubfist Beastlord",
+["npcID"] = 126767,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2074,
 },
 [106546] = {
 ["source"] = "Bloated Brew Alemental",
@@ -65130,20 +63884,31 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2391,
 },
-[470926] = {
-["source"] = "Ethereal Mind-Scraper",
+[448691] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Rampaging Deepflayer",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 233391,
+["npcID"] = 218657,
+},
+[473388] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "The Junk-Wall",
+["npcID"] = 230793,
+},
+[473277] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Chief Foreman Gutso",
+["npcID"] = 230828,
 },
 [116886] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Cannon Master Jin'chu",
 ["npcID"] = 227486,
 },
-[474228] = {
+[450424] = {
+["source"] = "Congealed Wax-Hulk",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Silent Slitherer",
-["npcID"] = 234210,
+["npcID"] = 223206,
 },
 [31405] = {
 ["event"] = "SPELL_CAST_START",
@@ -65155,10 +63920,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214483,
 },
-[473277] = {
+[419116] = {
+["source"] = "Jaedenar Adherent",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Chief Foreman Gutso",
-["npcID"] = 230828,
+["npcID"] = 205905,
 },
 [447966] = {
 ["encounterName"] = "Drahga Shadowburner",
@@ -65172,22 +63937,22 @@ nil,
 ["source"] = "Defias Cannon",
 ["npcID"] = 48266,
 },
-[419116] = {
-["source"] = "Jaedenar Adherent",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 205905,
-},
-[450424] = {
-["source"] = "Congealed Wax-Hulk",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 223206,
-},
 [1217371] = {
 ["encounterName"] = "Underpin",
 ["source"] = "The Underpin",
 ["npcID"] = 234168,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3126,
+},
+[474223] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Hideous Amalgamation",
+["npcID"] = 234208,
+},
+[1217452] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Underpin's Well-Connected Friend",
+["npcID"] = 234901,
 },
 [55636] = {
 ["encounterName"] = "Drakkari Colossus",
@@ -65196,33 +63961,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1983,
 },
-[474223] = {
+[369751] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Hideous Amalgamation",
-["npcID"] = 234208,
+["source"] = "Deep-King Grobrosh",
+["npcID"] = 235113,
 },
 [1215660] = {
 ["encounterName"] = "Cauldron of Carnage",
 ["source"] = "Causticaria",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225433,
-},
-[369751] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Deep-King Grobrosh",
-["npcID"] = 235113,
-},
-[257288] = {
-["encounterName"] = "Chopper Redhook",
-["source"] = "Irontide Cleaver",
-["npcID"] = 129879,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2098,
-},
-[472327] = {
-["source"] = "Grease",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 230935,
 },
 [438343] = {
 ["encounterName"] = "The Silken Court",
@@ -65231,10 +63979,29 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 217491,
 },
+[257288] = {
+["encounterName"] = "Chopper Redhook",
+["source"] = "Irontide Cleaver",
+["npcID"] = 129879,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2098,
+},
 [470948] = {
 ["source"] = "Ethereal Mind-Scraper",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 233391,
+},
+[1216334] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Radioactive Rat",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 228494,
+},
+[69128] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Soulguard Animator",
+["npcID"] = 36516,
 },
 [424423] = {
 ["event"] = "SPELL_CAST_START",
@@ -65245,23 +64012,6 @@ nil,
 ["source"] = "Wretched Husk",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 24690,
-},
-[1216334] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Radioactive Rat",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 228494,
-},
-[147500] = {
-["source"] = "Eroded Cliffdweller",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 72809,
-},
-[69128] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Soulguard Animator",
-["npcID"] = 36516,
 },
 [149997] = {
 ["encounterName"] = "Magmolatus",
@@ -65276,22 +64026,25 @@ nil,
 ["source"] = "Risen Conjuror",
 ["npcID"] = 10419,
 },
-[398632] = {
+[1216790] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Arathor Scout",
-["npcID"] = 227719,
+["source"] = "Hovering Menace",
+["npcID"] = 236886,
+},
+[471287] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Nitro",
+["npcID"] = 230995,
 },
 [1213270] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Zirdo",
 ["npcID"] = 225705,
 },
-[91038] = {
-["encounterName"] = "Glubtok",
-["source"] = "Mining Monkey",
-["npcID"] = 48440,
+[446325] = {
+["source"] = "Infected Peafowl",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2981,
+["npcID"] = 212710,
 },
 [115003] = {
 ["encounterName"] = "Yan-Zhu the Uncasked",
@@ -65300,25 +64053,39 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59479,
 },
-[446325] = {
-["source"] = "Infected Peafowl",
+[91038] = {
+["encounterName"] = "Glubtok",
+["source"] = "Mining Monkey",
+["npcID"] = 48440,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 212710,
+["encounterID"] = 2981,
 },
-[474237] = {
+[398632] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Silent Slitherer",
-["npcID"] = 234210,
+["source"] = "Arathor Scout",
+["npcID"] = 227719,
+},
+[463905] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Patreux",
+["npcID"] = 211061,
+},
+[39849] = {
+["encounterName"] = "Illidan Stormrage",
+["source"] = "Illidan Stormrage",
+["encounterID"] = 609,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 22917,
 },
 [429545] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Turned Speaker",
 ["npcID"] = 214350,
 },
-[463905] = {
+[472544] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Patreux",
-["npcID"] = 211061,
+["source"] = "Darkfuse Watcherbot",
+["npcID"] = 232172,
 },
 [427498] = {
 ["encounterName"] = "Ancient Protectors",
@@ -65339,17 +64106,17 @@ nil,
 ["source"] = "Yor",
 ["npcID"] = 22927,
 },
+[440181] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Boskroot Mycomancer",
+["npcID"] = 212698,
+},
 [439784] = {
 ["encounterName"] = "Rasha'nan",
 ["source"] = "Rasha'nan",
 ["npcID"] = 214504,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2918,
-},
-[472544] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Darkfuse Watcherbot",
-["npcID"] = 232172,
 },
 [1213990] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -65359,20 +64126,20 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 235187,
 },
-[433045] = {
+[32908] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Underpin's Well-Connected Friend",
-["npcID"] = 234901,
+["source"] = "Bloodwarder Falconer",
+["npcID"] = 17994,
 },
 [470383] = {
 ["source"] = "Premium Surveillance B.I.R.D.",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228107,
 },
-[440181] = {
+[433045] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Boskroot Mycomancer",
-["npcID"] = 212698,
+["source"] = "Underpin's Well-Connected Friend",
+["npcID"] = 234901,
 },
 [424429] = {
 ["event"] = "SPELL_CAST_START",
@@ -65393,10 +64160,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2064,
 },
-[32908] = {
+[246505] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Bloodwarder Falconer",
-["npcID"] = 17994,
+["source"] = "Fanatical Pyromancer",
+["npcID"] = 127724,
 },
 [465380] = {
 ["source"] = "Darkfuse Houndmaster",
@@ -65417,10 +64184,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 229953,
 },
-[246505] = {
+[1217418] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Fanatical Pyromancer",
-["npcID"] = 127724,
+["source"] = "Underpin's Well-Connected Friend",
+["npcID"] = 234901,
 },
 [181535] = {
 ["event"] = "SPELL_CAST_START",
@@ -65432,17 +64199,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 24690,
 },
-[444546] = {
-["encounterName"] = "Prioress Murrpray",
-["source"] = "Prioress Murrpray",
-["npcID"] = 207940,
+[448787] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2848,
+["source"] = "Lightspawn",
+["npcID"] = 206710,
 },
-[1217418] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Underpin's Well-Connected Friend",
-["npcID"] = 234901,
+[267354] = {
+["isChanneled"] = true,
+["source"] = "Hired Assassin",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 134232,
 },
 [420337] = {
 ["source"] = "Hel'nurathian Defender",
@@ -65477,23 +64243,25 @@ nil,
 ["npcID"] = 186739,
 ["encounterID"] = 2585,
 },
-[448787] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Lightspawn",
-["npcID"] = 206710,
-},
-[424419] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Captain Dailcry",
-["npcID"] = 207946,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2847,
-},
 [165663] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Bleeding Hollow Ritualist",
 ["npcID"] = 78830,
+},
+[469327] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 231075,
+},
+[424212] = {
+["encounterName"] = "Blazikon",
+["source"] = "Blazikon",
+["npcID"] = 208743,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2826,
 },
 [372223] = {
 ["npcID"] = 189265,
@@ -65515,12 +64283,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1047,
 },
-[469327] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[472980] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["source"] = "Scrapbeak",
+["npcID"] = 230931,
 },
 [153896] = {
 ["encounterName"] = "Rukhran",
@@ -65554,12 +64320,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2922,
 },
-[424212] = {
-["encounterName"] = "Blazikon",
-["source"] = "Blazikon",
-["npcID"] = 208743,
+[467234] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2826,
+["source"] = "Princeguard Enforcer",
+["npcID"] = 224175,
 },
 [11898] = {
 ["source"] = "Sandfury Blood Drinker",
@@ -65576,15 +64340,15 @@ nil,
 ["source"] = "Risen Battle Mage",
 ["npcID"] = 10425,
 },
-[472980] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Scrapbeak",
-["npcID"] = 230931,
-},
 [1218127] = {
 ["source"] = "The Junkmaker",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 233306,
+},
+[465771] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Tidal Sandskitter",
+["npcID"] = 227664,
 },
 [385536] = {
 ["isChanneled"] = true,
@@ -65592,12 +64356,13 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 190206,
 },
-[439795] = {
-["encounterName"] = "Rasha'nan",
-["source"] = "Rasha'nan",
-["encounterID"] = 2918,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 214504,
+[427510] = {
+["encounterName"] = "Ancient Protectors",
+["source"] = "Dulhu",
+["encounterID"] = 1757,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 83894,
 },
 [473579] = {
 ["event"] = "SPELL_CAST_START",
@@ -65609,12 +64374,14 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 24689,
 },
-[1217249] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Gallagio Customer Care",
-["npcID"] = 237109,
-},
 [466340] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 231075,
+},
+[1224669] = {
 ["encounterName"] = "Chrome King Gallywix",
 ["source"] = "Chrome King Gallywix",
 ["encounterID"] = 3016,
@@ -65626,22 +64393,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 78734,
 },
-[465771] = {
+[424431] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Elaena Emberlanz",
+["npcID"] = 211290,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Tidal Sandskitter",
-["npcID"] = 227664,
+["encounterID"] = 2847,
 },
 [422393] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Skittering Darkness",
 ["npcID"] = 208457,
 },
-[1224669] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[1218061] = {
+["source"] = "Underpin's Explosive Ally",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["npcID"] = 234902,
 },
 [358921] = {
 ["event"] = "SPELL_CAST_START",
@@ -65662,15 +64429,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231978,
 },
-[1218061] = {
-["source"] = "Underpin's Explosive Ally",
+[164357] = {
+["encounterName"] = "Witherbark",
+["source"] = "Witherbark",
+["encounterID"] = 1746,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 234902,
+["npcID"] = 81522,
 },
-[154623] = {
-["source"] = "Sargerei Spirit-Tender",
+[474212] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 77131,
+["source"] = "Darkfuse Wretch",
+["npcID"] = 230028,
 },
 [1218117] = {
 ["source"] = "Torchsnarl",
@@ -65683,34 +64452,17 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 92782,
 },
-[474212] = {
+[357735] = {
+["encounterName"] = "Painsmith Raznal",
+["source"] = "Shadowsteel Horror",
+["npcID"] = 179847,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Darkfuse Wretch",
-["npcID"] = 230028,
+["encounterID"] = 2430,
 },
 [80549] = {
 ["source"] = "Raging Firestorm",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 39939,
-},
-[1216699] = {
-["encounterName"] = "Sprocketmonger Lockenstock",
-["source"] = "Void Launcher",
-["npcID"] = 231903,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 3013,
-},
-[1214052] = {
-["encounterName"] = "Underpin",
-["source"] = "The Underpin",
-["npcID"] = 234168,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 3126,
-},
-[440687] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Royal Jelly Purveyor",
-["npcID"] = 220141,
 },
 [474087] = {
 ["encounterName"] = "Kul'tharok",
@@ -65719,10 +64471,31 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2364,
 },
+[1214052] = {
+["encounterName"] = "Underpin",
+["source"] = "The Underpin",
+["npcID"] = 234168,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3126,
+},
 [426295] = {
 ["source"] = "Sootsnout",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 212412,
+},
+[471403] = {
+["encounterName"] = "Vexie and the Geargrinders",
+["source"] = "The Geargrinder",
+["encounterID"] = 3009,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 225821,
+},
+[350280] = {
+["encounterName"] = "The Tarragrue",
+["source"] = "The Tarragrue",
+["npcID"] = 175611,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2423,
 },
 [118940] = {
 ["encounterName"] = "Gekkan",
@@ -65741,40 +64514,44 @@ nil,
 ["source"] = "Ascended Webfriar",
 ["npcID"] = 219022,
 },
-[200817] = {
-["source"] = "Rage Rot",
+[195037] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 101660,
-},
-[427356] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Devout Priest",
-["npcID"] = 206697,
-},
-[431612] = {
-["source"] = "Siegehold Defender",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 216016,
+["source"] = "Hatecoil Oracle",
+["npcID"] = 95861,
 },
 [466303] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Scrapbeak",
 ["npcID"] = 230931,
 },
-[83877] = {
+[431612] = {
+["source"] = "Siegehold Defender",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Oathsworn Pathfinder",
-["npcID"] = 44932,
-},
-[195037] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Hatecoil Oracle",
-["npcID"] = 95861,
+["npcID"] = 216016,
 },
 [448485] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Guard Captain Suleyman",
 ["npcID"] = 212826,
+},
+[83877] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Oathsworn Pathfinder",
+["npcID"] = 44932,
+},
+[424421] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Taener Duelmal",
+["npcID"] = 211289,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2847,
+},
+[442525] = {
+["encounterName"] = "Brewmaster Aldryr",
+["source"] = "Brew Master Aldryr",
+["npcID"] = 210271,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2900,
 },
 [428542] = {
 ["event"] = "SPELL_CAST_START",
@@ -65786,20 +64563,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 40167,
 },
-[424421] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Taener Duelmal",
-["npcID"] = 211289,
+[1213354] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2847,
+["source"] = "Princeguard Muscle",
+["npcID"] = 229440,
 },
-[427157] = {
-["encounterName"] = "The Darkness",
-["source"] = "The Darkness",
-["encounterID"] = 2788,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 208747,
+[226347] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Stoneclaw Grubmaster",
+["npcID"] = 102404,
 },
 [432638] = {
 ["source"] = "Void Ascendant",
@@ -65812,15 +64584,19 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 216856,
 },
-[1213354] = {
+[465952] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Princeguard Muscle",
-["npcID"] = 229440,
+["npcID"] = 231075,
 },
-[226347] = {
+[424414] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Captain Dailcry",
+["npcID"] = 207946,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Stoneclaw Grubmaster",
-["npcID"] = 102404,
+["encounterID"] = 2847,
 },
 [202019] = {
 ["encounterName"] = "Lord Kur'talos Ravencrest",
@@ -65836,12 +64612,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2423,
 },
-[465952] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[1218120] = {
+["source"] = "The Junkmaker",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["npcID"] = 233306,
 },
 [154415] = {
 ["encounterName"] = "Soulbinder Nyami",
@@ -65860,17 +64634,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 222273,
 },
-[424414] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Captain Dailcry",
-["npcID"] = 207946,
+[473955] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2847,
+["source"] = "Darkfuse Machinist",
+["npcID"] = 229272,
 },
-[1218120] = {
-["source"] = "The Junkmaker",
+[466342] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 233306,
+["npcID"] = 231075,
 },
 [338456] = {
 ["source"] = "Kyrian Stitchwerk",
@@ -65884,12 +64658,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 217491,
 },
-[466342] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[474461] = {
+["encounterName"] = "Mug'Zee, Heads of Security",
+["source"] = "Mug'Zee",
+["encounterID"] = 3015,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["npcID"] = 229953,
 },
 [345623] = {
 ["source"] = "Nar'zudah",
@@ -65902,10 +64676,12 @@ nil,
 ["source"] = "Shatug",
 ["npcID"] = 122135,
 },
-[473955] = {
+[1214090] = {
+["encounterName"] = "Craggle Fritzbrains",
+["source"] = "Craggle Fritzbrains",
+["npcID"] = 234291,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Darkfuse Machinist",
-["npcID"] = 229272,
+["encounterID"] = 3095,
 },
 [86182] = {
 ["encounterName"] = "Conclave of Wind",
@@ -65919,12 +64695,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 93802,
 },
-[1214090] = {
-["encounterName"] = "Craggle Fritzbrains",
-["source"] = "Craggle Fritzbrains",
-["npcID"] = 234291,
+[63830] = {
+["encounterName"] = "Yogg-Saron",
+["source"] = "Sara",
+["encounterID"] = 1143,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3095,
+["npcID"] = 33134,
 },
 [396812] = {
 ["npcID"] = 196576,
@@ -65934,12 +64710,8 @@ nil,
 ["source"] = "Whirling Dervish",
 ["npcID"] = 77605,
 },
-[474461] = {
-["encounterName"] = "Mug'Zee, Heads of Security",
-["source"] = "Mug'Zee",
-["encounterID"] = 3015,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229953,
+[367484] = {
+["npcID"] = 185508,
 },
 [249114] = {
 ["event"] = "SPELL_CAST_START",
@@ -65952,10 +64724,12 @@ nil,
 ["source"] = "Nerubian Oracle",
 ["npcID"] = 227581,
 },
-[1213621] = {
+[424420] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Taener Duelmal",
+["npcID"] = 211289,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Princeguard Demolisher",
-["npcID"] = 227929,
+["encounterID"] = 2847,
 },
 [439811] = {
 ["encounterName"] = "Rasha'nan",
@@ -65964,20 +64738,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2918,
 },
-[424420] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Taener Duelmal",
-["npcID"] = 211289,
+[427950] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2847,
+["source"] = "Forge Master Damian",
+["npcID"] = 212831,
 },
-[367484] = {
-["npcID"] = 185508,
-},
-[270481] = {
+[450407] = {
+["source"] = "Orta",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Demonic Tyrant",
-["npcID"] = 135002,
+["npcID"] = 221067,
+},
+[448859] = {
+["source"] = "Enraged Drunkard",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 218655,
 },
 [448002] = {
 ["source"] = "Dire Stormhowl",
@@ -65991,22 +64765,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1869,
 },
-[448859] = {
-["source"] = "Enraged Drunkard",
+[193505] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218655,
+["source"] = "Vileshard Hulk",
+["npcID"] = 91000,
 },
-[450407] = {
-["source"] = "Orta",
+[426860] = {
+["encounterName"] = "Anub'ikkaj",
+["source"] = "Anub'ikkaj",
+["npcID"] = 211089,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 221067,
-},
-[464810] = {
-["encounterName"] = "One-Armed Bandit",
-["source"] = "One-Armed Bandit",
-["npcID"] = 228458,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 3014,
+["encounterID"] = 2838,
 },
 [464801] = {
 ["encounterName"] = "One-Armed Bandit",
@@ -66015,17 +64784,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3014,
 },
+[470379] = {
+["source"] = "Slimy Sewage",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 234571,
+},
 [153395] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Carrion Worm",
 ["npcID"] = 76057,
 },
-[426860] = {
-["encounterName"] = "Anub'ikkaj",
-["source"] = "Anub'ikkaj",
-["npcID"] = 211089,
+[384366] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2838,
+["source"] = "Ashwhite Kestrel",
+["npcID"] = 215070,
 },
 [439814] = {
 ["encounterName"] = "Queen Ansurek",
@@ -66039,16 +64811,6 @@ nil,
 ["source"] = "Frostbound Devoted",
 ["npcID"] = 180840,
 },
-[357343] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Loom Guardian",
-["npcID"] = 180427,
-},
-[384366] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Ashwhite Kestrel",
-["npcID"] = 215070,
-},
 [31717] = {
 ["encounterName"] = "The Black Stalker",
 ["source"] = "The Black Stalker",
@@ -66056,16 +64818,28 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1948,
 },
-[465826] = {
-["isChanneled"] = true,
-["source"] = "Darkfuse Crossfire",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 230299,
-},
-[419157] = {
-["source"] = "Jaedenar Warrior",
+[92042] = {
+["encounterName"] = "Admiral Ripsnarl",
+["source"] = "Vapor",
+["npcID"] = 47714,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 205907,
+["encounterID"] = 2979,
+},
+[1219617] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Maddened Eyestalk",
+["npcID"] = 234382,
+},
+[468832] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Stalagnarok",
+["npcID"] = 229992,
+},
+[451428] = {
+["isChanneled"] = true,
+["source"] = "Xeph'itik",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 219984,
 },
 [434697] = {
 ["encounterName"] = "Ulgrax the Devourer",
@@ -66079,10 +64853,10 @@ nil,
 ["source"] = "Proto-Drake Handler",
 ["npcID"] = 24082,
 },
-[1219617] = {
+[419157] = {
+["source"] = "Jaedenar Warrior",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Maddened Eyestalk",
-["npcID"] = 234382,
+["npcID"] = 205907,
 },
 [347679] = {
 ["encounterName"] = "The Tarragrue",
@@ -66091,10 +64865,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2423,
 },
-[468832] = {
+[1216687] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Stalagnarok",
-["npcID"] = 229992,
+["source"] = "The Gobfather",
+["npcID"] = 231821,
 },
 [197418] = {
 ["encounterName"] = "Ilysanna Ravencrest",
@@ -66108,46 +64882,49 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 218654,
 },
-[451428] = {
-["isChanneled"] = true,
-["source"] = "Xeph'itik",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 219984,
+[113] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Defias Wizard",
+["npcID"] = 4418,
 },
 [422414] = {
 ["source"] = "Shuffling Horror",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208456,
 },
-[1216687] = {
+[121601] = {
+["source"] = "Harthak Stormcaller",
 ["event"] = "SPELL_CAST_START",
-["source"] = "The Gobfather",
-["npcID"] = 231821,
+["npcID"] = 61946,
 },
 [424462] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Taener Duelmal",
 ["npcID"] = 239834,
 },
-[113] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Defias Wizard",
-["npcID"] = 4418,
-},
-[121601] = {
-["source"] = "Harthak Stormcaller",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 61946,
-},
 [451812] = {
 ["source"] = "Burkhalt",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228671,
 },
-[453129] = {
-["source"] = "Caustic Bomber",
+[437721] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Venture Co. Pyromaniac",
+["npcID"] = 218671,
+},
+[464149] = {
+["encounterName"] = "Stix Bunkjunker",
+["source"] = "Stix Bunkjunker",
+["npcID"] = 230322,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 3012,
+},
+[449034] = {
+["source"] = "Nerubian Slashjaw",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 224970,
+["npcID"] = 218654,
 },
 [117665] = {
 ["encounterName"] = "Sha of Doubt",
@@ -66168,10 +64945,10 @@ nil,
 ["source"] = "Invasive Sporecap",
 ["npcID"] = 207482,
 },
-[449034] = {
-["source"] = "Nerubian Slashjaw",
+[453129] = {
+["source"] = "Caustic Bomber",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218654,
+["npcID"] = 224970,
 },
 [1214135] = {
 ["encounterName"] = "Craggle Fritzbrains",
@@ -66185,21 +64962,22 @@ nil,
 ["source"] = "Shadowmoon Warlock",
 ["npcID"] = 17371,
 },
-[437721] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Venture Co. Pyromaniac",
-["npcID"] = 218671,
-},
-[474125] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Darkfuse Growler",
-["npcID"] = 227903,
-},
 [1216709] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "The Gobfather",
 ["npcID"] = 231821,
+},
+[437093] = {
+["encounterName"] = "Queen Ansurek",
+["source"] = "Queen Ansurek",
+["encounterID"] = 2922,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 218370,
+},
+[470498] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Goblin Sapper Bot",
+["npcID"] = 228053,
 },
 [183088] = {
 ["event"] = "SPELL_CAST_START",
@@ -66213,12 +64991,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3009,
 },
-[437093] = {
-["encounterName"] = "Queen Ansurek",
-["source"] = "Queen Ansurek",
-["encounterID"] = 2922,
+[462686] = {
+["source"] = "Reno Jackson",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218370,
+["npcID"] = 228044,
 },
 [46044] = {
 ["source"] = "Sunblade Imp",
@@ -66248,10 +65024,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 3126,
 },
-[470498] = {
+[1221384] = {
+["source"] = "Stix Bunkjunker",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Goblin Sapper Bot",
-["npcID"] = 228053,
+["npcID"] = 230322,
 },
 [15802] = {
 ["event"] = "SPELL_CAST_START",
@@ -66263,10 +65039,10 @@ nil,
 ["source"] = "Anub'vir",
 ["npcID"] = 227573,
 },
-[1221384] = {
-["source"] = "Stix Bunkjunker",
+[463218] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 230322,
+["source"] = "Hired Muscle",
+["npcID"] = 210269,
 },
 [438801] = {
 ["encounterName"] = "The Silken Court",
@@ -66282,10 +65058,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1818,
 },
-[462686] = {
-["source"] = "Reno Jackson",
+[434137] = {
+["source"] = "Royal Venomshell",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 228044,
+["npcID"] = 220730,
 },
 [11899] = {
 ["source"] = "Sandfury Witch Doctor",
@@ -66302,20 +65078,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208438,
 },
-[450492] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Zekvir",
-["npcID"] = 217208,
-},
-[1217496] = {
-["source"] = "Bubbles",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 231197,
-},
 [385024] = {
 ["source"] = "Overgrown Fly",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 234566,
+},
+[440162] = {
+["source"] = "Boskroot Guardener",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 212697,
+},
+[473067] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Nitro",
+["npcID"] = 230995,
 },
 [431637] = {
 ["source"] = "Nightfall Shadowalker",
@@ -66329,15 +65105,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3010,
 },
-[440162] = {
-["source"] = "Boskroot Guardener",
+[464399] = {
+["encounterName"] = "Stix Bunkjunker",
+["source"] = "Stix Bunkjunker",
+["npcID"] = 230322,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 212697,
+["encounterID"] = 3012,
 },
-[431639] = {
+[448351] = {
+["source"] = "Kobold Snuffercrusher",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Direweb Marauder",
-["npcID"] = 221302,
+["npcID"] = 218662,
 },
 [468493] = {
 ["source"] = "Asbjorn the Bloodsoaked",
@@ -66360,29 +65138,25 @@ nil,
 ["source"] = "Tempest Talon",
 ["npcID"] = 231353,
 },
-[464399] = {
-["encounterName"] = "Stix Bunkjunker",
-["source"] = "Stix Bunkjunker",
-["npcID"] = 230322,
+[431639] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3012,
+["source"] = "Direweb Marauder",
+["npcID"] = 221302,
 },
 [465165] = {
 ["source"] = "Darkfuse Flare",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 229603,
 },
-[472452] = {
-["encounterName"] = "Big M.O.M.M.A.",
-["source"] = "Darkfuse Mechadrone",
-["encounterID"] = 3020,
+[9734] = {
+["source"] = "Murta Grimgut",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 228424,
+["npcID"] = 7608,
 },
-[448351] = {
-["source"] = "Kobold Snuffercrusher",
+[465754] = {
+["source"] = "Shreddinator 3000",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218662,
+["npcID"] = 230740,
 },
 [162617] = {
 ["encounterName"] = "Rocketspark and Borka",
@@ -66391,16 +65165,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 77816,
 },
-[470047] = {
+[439202] = {
+["encounterName"] = "I'pa",
+["source"] = "I'pa",
+["npcID"] = 210267,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2929,
+},
+[474168] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Gozzic's Bloody Shredder",
-["npcID"] = 225754,
-},
-[9734] = {
-["source"] = "Murta Grimgut",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 7608,
+["source"] = "Darkfuse Wretch",
+["npcID"] = 230028,
 },
 [438807] = {
 ["encounterName"] = "Broodtwister Ovi'nax",
@@ -66409,10 +65185,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 219045,
 },
-[465754] = {
-["source"] = "Shreddinator 3000",
+[428526] = {
+["encounterName"] = "Ozumat",
+["source"] = "Splotch",
+["npcID"] = 213806,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 230740,
+["encounterID"] = 1047,
 },
 [453140] = {
 ["encounterName"] = "Speaker Shadowcrown",
@@ -66421,31 +65199,13 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211087,
 },
-[474168] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Darkfuse Wretch",
-["npcID"] = 230028,
-},
-[377383] = {
-["npcID"] = 192333,
-},
-[428526] = {
-["encounterName"] = "Ozumat",
-["source"] = "Splotch",
-["npcID"] = 213806,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1047,
-},
-[159035] = {
-["source"] = "Shaadum",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 78728,
-},
 [256639] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Blacktar Bomber",
 ["npcID"] = 129372,
+},
+[377383] = {
+["npcID"] = 192333,
 },
 [459671] = {
 ["encounterName"] = "Vexie and the Geargrinders",
@@ -66454,22 +65214,31 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3009,
 },
+[159035] = {
+["source"] = "Shaadum",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 78728,
+},
 [463206] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Chef Chewie",
 ["npcID"] = 214697,
 },
+[461796] = {
+["source"] = "Darkfuse Demolitionist",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 229212,
+},
+[204243] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Nightmare Dweller",
+["npcID"] = 101991,
+},
 [453142] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Web Marauder",
 ["npcID"] = 219034,
-},
-[348094] = {
-["encounterName"] = "Sylvanas Windrunner",
-["source"] = "Sylvanas Windrunner",
-["npcID"] = 175732,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2435,
 },
 [28299] = {
 ["encounterName"] = "Thaddius",
@@ -66477,6 +65246,11 @@ nil,
 ["npcID"] = 15928,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1120,
+},
+[443487] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Worker Bee",
+["npcID"] = 210265,
 },
 [443929] = {
 ["event"] = "SPELL_CAST_START",
@@ -66493,11 +65267,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 92782,
 },
-[204243] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Nightmare Dweller",
-["npcID"] = 101991,
+[439365] = {
+["encounterName"] = "I'pa",
+["source"] = "I'pa",
+["npcID"] = 210267,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2929,
 },
 [431645] = {
 ["event"] = "SPELL_CAST_START",
@@ -66524,10 +65299,10 @@ nil,
 ["source"] = "Crystalline Protector",
 ["npcID"] = 26792,
 },
-[443487] = {
+[465751] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Worker Bee",
-["npcID"] = 210265,
+["source"] = "Seafeather Albatross",
+["npcID"] = 227668,
 },
 [212784] = {
 ["event"] = "SPELL_CAST_START",
@@ -66550,12 +65325,12 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 221845,
 },
-[439365] = {
-["encounterName"] = "I'pa",
-["source"] = "I'pa",
-["npcID"] = 210267,
+[352293] = {
+["encounterName"] = "Kel'Thuzad",
+["source"] = "Kel'Thuzad",
+["npcID"] = 175559,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2929,
+["encounterID"] = 2422,
 },
 [451099] = {
 ["source"] = "Sureki Militant",
@@ -66576,20 +65351,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3014,
 },
+[474453] = {
+["source"] = "Mechanized Peacekeeper",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 227961,
+},
 [1213497] = {
 ["source"] = "Compliance Enforcer",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225695,
 },
-[465751] = {
+[1217589] = {
+["source"] = "Sporbit",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Seafeather Albatross",
-["npcID"] = 227668,
-},
-[474453] = {
-["source"] = "Mechanized Peacekeeper",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 227961,
+["npcID"] = 237337,
 },
 [391723] = {
 ["npcID"] = 197697,
@@ -66624,10 +65399,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211261,
 },
-[1217589] = {
-["source"] = "Sporbit",
+[466178] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Torq",
+["npcID"] = 229177,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 237337,
+["encounterID"] = 3010,
 },
 [412200] = {
 ["source"] = "Time-Lost Aerobot",
@@ -66653,17 +65430,30 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211089,
 },
-[466178] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Torq",
-["npcID"] = 229177,
+[330614] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3010,
+["source"] = "Rancid Gasbag",
+["npcID"] = 163086,
 },
 [472196] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Imagined Rug Monster",
 ["npcID"] = 233755,
+},
+[465326] = {
+["source"] = "Bloodfang Hyena",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 227843,
+},
+[200658] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Dreadsoul Ruiner",
+["npcID"] = 95771,
+},
+[470241] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Gozzic's Bloody Shredder",
+["npcID"] = 225754,
 },
 [436637] = {
 ["encounterName"] = "Goldie Baronbottom",
@@ -66671,23 +65461,6 @@ nil,
 ["npcID"] = 214661,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2930,
-},
-[330614] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Rancid Gasbag",
-["npcID"] = 163086,
-},
-[470241] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Gozzic's Bloody Shredder",
-["npcID"] = 225754,
-},
-[350385] = {
-["encounterName"] = "The Nine",
-["source"] = "Signe",
-["npcID"] = 177094,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2429,
 },
 [44639] = {
 ["source"] = "Coilskar Witch",
@@ -66709,22 +65482,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2397,
 },
-[200658] = {
+[350385] = {
+["encounterName"] = "The Nine",
+["source"] = "Signe",
+["npcID"] = 177094,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Dreadsoul Ruiner",
-["npcID"] = 95771,
+["encounterID"] = 2429,
 },
 [419370] = {
 ["source"] = "Hel'nurathian Conjuror",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 210610,
 },
-[445936] = {
-["encounterName"] = "The Bloodbound Horror",
-["source"] = "The Bloodbound Horror",
-["encounterID"] = 2917,
+[332708] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 214502,
+["source"] = "Heavin the Breaker",
+["npcID"] = 167532,
 },
 [323138] = {
 ["encounterName"] = "Ingra Maloch",
@@ -66739,33 +65512,15 @@ nil,
 ["source"] = "Skyreach Raven Whisperer",
 ["npcID"] = 76154,
 },
-[441518] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Failed Batch",
-["npcID"] = 220368,
-},
-[1214238] = {
-["source"] = "Treasure Crab",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 236892,
-},
-[332708] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Heavin the Breaker",
-["npcID"] = 167532,
-},
-[58460] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Azure Enforcer",
-["npcID"] = 26734,
-},
 [465939] = {
 ["source"] = "Darkfuse Skyfire",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 227955,
 },
-[375351] = {
-["npcID"] = 190403,
+[1214238] = {
+["source"] = "Treasure Crab",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 236892,
 },
 [351091] = {
 ["encounterName"] = "Sylvanas Windrunner",
@@ -66773,6 +65528,28 @@ nil,
 ["npcID"] = 177787,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
+},
+[58460] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Azure Enforcer",
+["npcID"] = 26734,
+},
+[153680] = {
+["encounterName"] = "Bonemaw",
+["source"] = "Bonemaw",
+["npcID"] = 75452,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1679,
+},
+[375351] = {
+["npcID"] = 190403,
+},
+[291865] = {
+["encounterName"] = "King Mechagon",
+["source"] = "Aerial Unit R-21/X",
+["npcID"] = 150396,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2260,
 },
 [340544] = {
 ["isChanneled"] = true,
@@ -66795,10 +65572,10 @@ nil,
 ["source"] = "Crimson Cannon",
 ["npcID"] = 11199,
 },
-[467169] = {
+[434706] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Professor Boomspark",
-["npcID"] = 229287,
+["source"] = "Tasting Room Attendant",
+["npcID"] = 214920,
 },
 [431659] = {
 ["source"] = "Direweb Ritualist",
@@ -66825,15 +65602,15 @@ nil,
 ["source"] = "Atik",
 ["npcID"] = 217533,
 },
-[434706] = {
+[169445] = {
+["source"] = "Twisted Abomination",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Tasting Room Attendant",
-["npcID"] = 214920,
+["npcID"] = 84767,
 },
-[465801] = {
-["source"] = "Darkfuse Crossfire",
+[471467] = {
+["source"] = "Darkfuse Houndmaster",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 230299,
+["npcID"] = 229162,
 },
 [450088] = {
 ["encounterName"] = "Erudax",
@@ -66843,6 +65620,21 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 40484,
 },
+[448341] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Kobold Thwacker",
+["npcID"] = 203877,
+},
+[245888] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Antoran Champion",
+["npcID"] = 123480,
+},
+[1218353] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Melbo the Magnificent",
+["npcID"] = 229434,
+},
 [99235] = {
 ["encounterName"] = "Ragnaros",
 ["source"] = "Ragnaros",
@@ -66850,30 +65642,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 52409,
 },
-[471467] = {
-["source"] = "Darkfuse Houndmaster",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229162,
-},
-[1218353] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Melbo the Magnificent",
-["npcID"] = 229434,
-},
-[472329] = {
-["source"] = "Counterfeit Potion-Maker",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 232992,
-},
 [451113] = {
 ["source"] = "Sureki Webmage",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 210966,
 },
-[448341] = {
+[352663] = {
+["encounterName"] = "Sylvanas Windrunner",
+["source"] = "Sylvanas Windrunner",
+["npcID"] = 175732,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Kobold Thwacker",
-["npcID"] = 203877,
+["encounterID"] = 2435,
 },
 [453161] = {
 ["source"] = "Hulking Bloodguard",
@@ -66895,12 +65674,10 @@ nil,
 ["source"] = "Siris the Sea Scorpion",
 ["npcID"] = 229853,
 },
-[466470] = {
-["encounterName"] = "Mug'Zee, Heads of Security",
-["source"] = "Mug'Zee",
-["encounterID"] = 3015,
+[472153] = {
+["source"] = "Venture Enforcer",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 229953,
+["npcID"] = 238624,
 },
 [445996] = {
 ["encounterName"] = "Speaker Shadowcrown",
@@ -66909,17 +65686,19 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211087,
 },
-[352663] = {
-["encounterName"] = "Sylvanas Windrunner",
-["source"] = "Sylvanas Windrunner",
-["npcID"] = 175732,
+[350339] = {
+["encounterName"] = "The Nine",
+["source"] = "Formless Mass",
+["npcID"] = 177407,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2435,
+["encounterID"] = 2429,
 },
-[472153] = {
-["source"] = "Venture Enforcer",
+[200898] = {
+["encounterName"] = "Inquisitor Tormentorum",
+["source"] = "Inquisitor Tormentorum",
+["npcID"] = 96015,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 238624,
+["encounterID"] = 1850,
 },
 [257326] = {
 ["encounterName"] = "Chopper Redhook",
@@ -66928,12 +65707,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2098,
 },
-[350339] = {
-["encounterName"] = "The Nine",
-["source"] = "Formless Mass",
-["npcID"] = 177407,
+[348074] = {
+["encounterName"] = "The Eye of the Jailer",
+["source"] = "Stygian Abductor",
+["npcID"] = 176521,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2429,
+["encounterID"] = 2433,
 },
 [397881] = {
 ["encounterName"] = "Wise Mari",
@@ -66947,17 +65726,17 @@ nil,
 ["source"] = "Siris the Sea Scorpion",
 ["npcID"] = 229853,
 },
-[352538] = {
-["encounterName"] = "Guardian of the First Ones",
-["source"] = "Guardian of the First Ones",
-["npcID"] = 175731,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2436,
-},
 [471594] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Tempest Talon",
 ["npcID"] = 231353,
+},
+[347609] = {
+["encounterName"] = "Sylvanas Windrunner",
+["source"] = "Sylvanas Windrunner",
+["npcID"] = 175732,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2435,
 },
 [451117] = {
 ["source"] = "Ixkreten the Unbreakable",
@@ -67009,12 +65788,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211262,
 },
-[348074] = {
-["encounterName"] = "The Eye of the Jailer",
-["source"] = "Stygian Abductor",
-["npcID"] = 176521,
+[362566] = {
+["encounterName"] = "Kel'Thuzad",
+["source"] = "Kel'Thuzad",
+["npcID"] = 175559,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2433,
+["encounterID"] = 2422,
 },
 [358982] = {
 ["event"] = "SPELL_CAST_START",
@@ -67041,31 +65820,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 77890,
 },
-[347609] = {
-["encounterName"] = "Sylvanas Windrunner",
-["source"] = "Sylvanas Windrunner",
-["npcID"] = 175732,
+[194682] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2435,
-},
-[362566] = {
-["encounterName"] = "Kel'Thuzad",
-["source"] = "Kel'Thuzad",
-["npcID"] = 175559,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2422,
-},
-[154442] = {
-["encounterName"] = "Ner'zhul",
-["source"] = "Ner'zhul",
-["npcID"] = 76407,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1682,
-},
-[428563] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Kobold Flametender",
-["npcID"] = 213913,
+["source"] = "Blazing Imp",
+["npcID"] = 98963,
 },
 [347490] = {
 ["encounterName"] = "The Tarragrue",
@@ -67074,15 +65832,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2423,
 },
-[164168] = {
-["source"] = "Grimrail Overseer",
+[154442] = {
+["encounterName"] = "Ner'zhul",
+["source"] = "Ner'zhul",
+["npcID"] = 76407,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 81212,
-},
-[466308] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Litter Nibbler",
-["npcID"] = 230611,
+["encounterID"] = 1682,
 },
 [68607] = {
 ["encounterName"] = "The Crown Chemical Co.",
@@ -67092,16 +65847,20 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 36296,
 },
-[76612] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Twilight Zealot",
-["npcID"] = 39990,
-},
-[397888] = {
-["source"] = "Fallen Waterspeaker",
+[466308] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 200126,
+["source"] = "Litter Nibbler",
+["npcID"] = 230611,
+},
+[164168] = {
+["source"] = "Grimrail Overseer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 81212,
+},
+[428563] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Kobold Flametender",
+["npcID"] = 213913,
 },
 [99236] = {
 ["encounterName"] = "Ragnaros",
@@ -67109,6 +65868,21 @@ nil,
 ["encounterID"] = 1203,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 52409,
+},
+[79868] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Azure Scale-Binder",
+["npcID"] = 26735,
+},
+[397888] = {
+["source"] = "Fallen Waterspeaker",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 200126,
+},
+[412505] = {
+["source"] = "Tyr's Vanguard",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 205151,
 },
 [457266] = {
 ["event"] = "SPELL_CAST_START",
@@ -67127,10 +65901,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 200126,
 },
-[440266] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Dark Hound",
-["npcID"] = 217698,
+[76612] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Twilight Zealot",
+["npcID"] = 39990,
 },
 [387652] = {
 ["event"] = "SPELL_CAST_START",
@@ -67144,16 +65919,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[79868] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Azure Scale-Binder",
-["npcID"] = 26735,
-},
-[412505] = {
-["source"] = "Tyr's Vanguard",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 205151,
-},
 [1218173] = {
 ["source"] = "Gallagio Garbage",
 ["event"] = "SPELL_CAST_START",
@@ -67164,22 +65929,32 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 229769,
 },
-[154175] = {
-["encounterName"] = "Bonemaw",
-["source"] = "Bonemaw",
-["npcID"] = 75452,
+[352752] = {
+["encounterName"] = "The Nine",
+["source"] = "Signe",
+["npcID"] = 178736,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1679,
+["encounterID"] = 2429,
+},
+[59033] = {
+["source"] = "Dark Rune Scholar",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 27964,
+},
+[441627] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Flavor Scientist",
+["npcID"] = 214673,
 },
 [325205] = {
 ["source"] = "Keeneye Bowman",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 166936,
 },
-[59033] = {
-["source"] = "Dark Rune Scholar",
+[1219526] = {
+["source"] = "Crawler Mine",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 27964,
+["npcID"] = 227956,
 },
 [1214315] = {
 ["encounterName"] = "Kyrioss",
@@ -67206,15 +65981,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3010,
 },
-[441627] = {
+[357396] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Flavor Scientist",
-["npcID"] = 214673,
+["source"] = "Vazzaren the Seeker",
+["npcID"] = 180690,
 },
-[1219526] = {
-["source"] = "Crawler Mine",
+[459779] = {
+["encounterName"] = "Demolition Duo",
+["source"] = "Bront",
+["encounterID"] = 3019,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 227956,
+["npcID"] = 226402,
 },
 [448057] = {
 ["encounterName"] = "Erudax",
@@ -67249,10 +66026,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2816,
 },
-[357396] = {
+[463811] = {
+["source"] = "Darkfuse Gunner",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Vazzaren the Seeker",
-["npcID"] = 180690,
+["npcID"] = 229180,
 },
 [425536] = {
 ["event"] = "SPELL_CAST_START",
@@ -67292,22 +66069,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 61444,
 },
-[459779] = {
-["encounterName"] = "Demolition Duo",
-["source"] = "Bront",
-["encounterID"] = 3019,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 226402,
-},
-[463811] = {
-["source"] = "Darkfuse Gunner",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229180,
-},
 [474018] = {
 ["source"] = "Voidrider",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 212786,
+},
+[352379] = {
+["encounterName"] = "Kel'Thuzad",
+["source"] = "Remnant of Kel'Thuzad",
+["npcID"] = 176929,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2422,
+},
+[455975] = {
+["source"] = "Voidstone Behemoth",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 221307,
 },
 [397897] = {
 ["encounterName"] = "Talixae Flamewreath",
@@ -67316,12 +66093,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 104273,
 },
-[362565] = {
-["encounterName"] = "Kel'Thuzad",
-["source"] = "Kel'Thuzad",
-["npcID"] = 175559,
+[40598] = {
+["encounterName"] = "Illidan Stormrage",
+["source"] = "Illidan Stormrage",
+["encounterID"] = 609,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2422,
+["npcID"] = 22917,
 },
 [473655] = {
 ["encounterName"] = "Rik Reverb",
@@ -67330,15 +66107,19 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228648,
 },
-[455975] = {
-["source"] = "Voidstone Behemoth",
+[101810] = {
+["encounterName"] = "Echo of Jaina",
+["source"] = "Echo of Jaina",
+["npcID"] = 54445,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 221307,
+["encounterID"] = 1883,
 },
-[69562] = {
+[59359] = {
+["encounterName"] = "Anub'arak",
+["source"] = "Anub'ar Venomancer",
+["npcID"] = 29217,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Soulguard Bonecaster",
-["npcID"] = 36564,
+["encounterID"] = 1973,
 },
 [42723] = {
 ["encounterName"] = "Ingvar the Plunderer",
@@ -67354,12 +66135,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1928,
 },
-[59359] = {
-["encounterName"] = "Anub'arak",
-["source"] = "Anub'ar Venomancer",
-["npcID"] = 29217,
+[69562] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1973,
+["source"] = "Soulguard Bonecaster",
+["npcID"] = 36564,
 },
 [397899] = {
 ["source"] = "Sha-Touched Guardian",
@@ -67371,36 +66150,30 @@ nil,
 ["source"] = "Royal Whisperer",
 ["npcID"] = 219723,
 },
-[40598] = {
-["encounterName"] = "Illidan Stormrage",
-["source"] = "Illidan Stormrage",
-["encounterID"] = 609,
+[211401] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 22917,
-},
-[102472] = {
-["encounterName"] = "Echo of Tyrande",
-["source"] = "Echo of Tyrande",
-["npcID"] = 54544,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1884,
+["source"] = "Blazing Imp",
+["npcID"] = 104295,
 },
 [272571] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Bilge Rat Tempest",
 ["npcID"] = 129367,
 },
-[211401] = {
+[465735] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Blazing Imp",
-["npcID"] = 104295,
+["source"] = "Abyssal Dreadshell",
+["npcID"] = 231383,
 },
-[59528] = {
-["encounterName"] = "Volkhan",
-["source"] = "Volkhan",
-["npcID"] = 28587,
+[340289] = {
+["source"] = "Mistveil Nightblossom",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1985,
+["npcID"] = 173714,
+},
+[65215] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Lord Magmathar",
+["npcID"] = 34295,
 },
 [470587] = {
 ["source"] = "Kobyss Witherer",
@@ -67412,10 +66185,10 @@ nil,
 ["source"] = "Tortured Amalgamation",
 ["npcID"] = 177004,
 },
-[465735] = {
+[434756] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Abyssal Dreadshell",
-["npcID"] = 231383,
+["source"] = "Hired Muscle",
+["npcID"] = 210269,
 },
 [440899] = {
 ["encounterName"] = "Queen Ansurek",
@@ -67429,10 +66202,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214251,
 },
-[65215] = {
+[1214362] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Lord Magmathar",
-["npcID"] = 34295,
+["source"] = "Enveloping Bloodeater",
+["npcID"] = 228300,
 },
 [69051] = {
 ["encounterName"] = "Devourer of Souls",
@@ -67447,12 +66220,10 @@ nil,
 ["source"] = "Careless Hopgoblin",
 ["npcID"] = 223423,
 },
-[408141] = {
-["encounterName"] = "Blight of Galakrond",
-["source"] = "Dazhak",
-["npcID"] = 201788,
+[464710] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2668,
+["source"] = "Spineskin Horker",
+["npcID"] = 227643,
 },
 [114864] = {
 ["event"] = "SPELL_CAST_START",
@@ -67464,10 +66235,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 223844,
 },
-[1214362] = {
+[408141] = {
+["encounterName"] = "Blight of Galakrond",
+["source"] = "Dazhak",
+["npcID"] = 201788,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Enveloping Bloodeater",
-["npcID"] = 228300,
+["encounterID"] = 2668,
 },
 [466495] = {
 ["event"] = "SPELL_CAST_START",
@@ -67484,12 +66257,10 @@ nil,
 ["source"] = "Clobex",
 ["npcID"] = 127732,
 },
-[1214369] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[246589] = {
+["source"] = "Dark Keeper",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["npcID"] = 123532,
 },
 [470591] = {
 ["source"] = "Nightfall Hopestealer",
@@ -67501,15 +66272,17 @@ nil,
 ["encounterID"] = 2623,
 ["npcID"] = 190484,
 },
-[246589] = {
-["source"] = "Dark Keeper",
+[1214369] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 123532,
+["npcID"] = 231075,
 },
-[464710] = {
+[464966] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Spineskin Horker",
-["npcID"] = 227643,
+["source"] = "Darktide Oracle",
+["npcID"] = 227656,
 },
 [470592] = {
 ["source"] = "Nightfall Shadeguard",
@@ -67564,15 +66337,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[464966] = {
+[209033] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Darktide Oracle",
-["npcID"] = 227656,
+["source"] = "Duskwatch Guard",
+["npcID"] = 111563,
 },
-[76813] = {
+[318312] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Naz'jar Oracle",
-["npcID"] = 41096,
+["source"] = "Spectral Hateweaver",
+["npcID"] = 170803,
 },
 [350816] = {
 ["encounterName"] = "The Eye of the Jailer",
@@ -67581,42 +66354,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2433,
 },
-[197240] = {
-["source"] = "Prolifica",
+[468803] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 98986,
+["source"] = "Gravesludge",
+["npcID"] = 228201,
 },
-[15228] = {
+[76813] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Murkblood Oracle",
-["npcID"] = 17771,
+["source"] = "Naz'jar Oracle",
+["npcID"] = 41096,
 },
 [325223] = {
 ["source"] = "Mistveil Stinger",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 166304,
-},
-[318312] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Spectral Hateweaver",
-["npcID"] = 170803,
-},
-[458311] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Venombite",
-["npcID"] = 227632,
-},
-[438860] = {
-["encounterName"] = "Izo, the Grand Splicer",
-["source"] = "Izo, the Grand Splicer",
-["encounterID"] = 2909,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 216658,
-},
-[468803] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Gravesludge",
-["npcID"] = 228201,
 },
 [53520] = {
 ["encounterName"] = "Anub'arak",
@@ -67625,6 +66376,30 @@ nil,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1973,
+},
+[15228] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Murkblood Oracle",
+["npcID"] = 17771,
+},
+[438860] = {
+["encounterName"] = "Izo, the Grand Splicer",
+["source"] = "Izo, the Grand Splicer",
+["encounterID"] = 2909,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 216658,
+},
+[458311] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Venombite",
+["npcID"] = 227632,
+},
+[427852] = {
+["encounterName"] = "Void Speaker Eirich",
+["source"] = "Void Speaker Eirich",
+["npcID"] = 213119,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2883,
 },
 [323177] = {
 ["encounterName"] = "Ingra Maloch",
@@ -67646,17 +66421,15 @@ nil,
 ["source"] = "Evolved Twilight Zealot",
 ["npcID"] = 39987,
 },
+[353682] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Soulscream Tormentor",
+["npcID"] = 176880,
+},
 [118905] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Capacitor Totem",
 ["npcID"] = 61245,
-},
-[427852] = {
-["encounterName"] = "Void Speaker Eirich",
-["source"] = "Void Speaker Eirich",
-["npcID"] = 213119,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2883,
 },
 [471622] = {
 ["event"] = "SPELL_CAST_START",
@@ -67668,20 +66441,22 @@ nil,
 ["source"] = "Lightspawn",
 ["npcID"] = 206710,
 },
-[353682] = {
+[101809] = {
+["encounterName"] = "Echo of Jaina",
+["source"] = "Echo of Jaina",
+["npcID"] = 54445,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Soulscream Tormentor",
-["npcID"] = 176880,
+["encounterID"] = 1883,
 },
 [147289] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Death Adder",
 ["npcID"] = 72841,
 },
-[440912] = {
-["source"] = "Sporescatter Lashroom",
+[76473] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 229215,
+["source"] = "Twilight Flame Caller",
+["npcID"] = 39708,
 },
 [431697] = {
 ["event"] = "SPELL_CAST_START",
@@ -67693,15 +66468,15 @@ nil,
 ["source"] = "Bloodfang Hyena",
 ["npcID"] = 227843,
 },
-[34791] = {
+[183633] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Tempest-Forge Peacekeeper",
-["npcID"] = 18405,
+["source"] = "Rockbound Pelter",
+["npcID"] = 91008,
 },
-[397914] = {
-["source"] = "Depraved Mistweaver",
+[1214404] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 200137,
+["source"] = "Enveloping Bloodeater",
+["npcID"] = 228300,
 },
 [106933] = {
 ["encounterName"] = "Striker Ga'dok",
@@ -67711,18 +66486,15 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1405,
 },
-[191823] = {
-["encounterName"] = "Tirathon Saltheril",
-["source"] = "Tirathon Saltheril",
-["npcID"] = 95885,
+[440912] = {
+["source"] = "Sporescatter Lashroom",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1815,
+["npcID"] = 229215,
 },
-[55266] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Dark Touched Warrior",
-["npcID"] = 16156,
+[34791] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Tempest-Forge Peacekeeper",
+["npcID"] = 18405,
 },
 [381535] = {
 ["source"] = "Scornful Sandshoal",
@@ -67736,22 +66508,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1818,
 },
-[101809] = {
-["encounterName"] = "Echo of Jaina",
-["source"] = "Echo of Jaina",
-["npcID"] = 54445,
+[348117] = {
+["encounterName"] = "The Eye of the Jailer",
+["source"] = "Eye of the Jailer",
+["npcID"] = 175725,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1883,
+["encounterID"] = 2433,
 },
 [450127] = {
 ["source"] = "Siegehold Defender",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 216016,
 },
-[76473] = {
+[52905] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Twilight Flame Caller",
-["npcID"] = 39708,
+["source"] = "Stormfury Revenant",
+["npcID"] = 28826,
 },
 [76584] = {
 ["event"] = "SPELL_CAST_START",
@@ -67804,10 +66576,10 @@ nil,
 ["source"] = "Venture Co. Patron",
 ["npcID"] = 214668,
 },
-[394512] = {
+[57984] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Void Spawn",
-["npcID"] = 75652,
+["source"] = "Greater Fire Elemental",
+["npcID"] = 95061,
 },
 [269456] = {
 ["encounterName"] = "Viq'Goth",
@@ -67816,20 +66588,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2100,
 },
-[82760] = {
+[432967] = {
+["source"] = "Sentry Stagshell",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Neferset Darkcaster",
-["npcID"] = 44982,
+["npcID"] = 216340,
 },
 [118963] = {
 ["source"] = "Glintrok Skulker",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 61240,
-},
-[57984] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Greater Fire Elemental",
-["npcID"] = 95061,
 },
 [357729] = {
 ["encounterName"] = "Sylvanas Windrunner",
@@ -67838,15 +66605,21 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
+[91004] = {
+["encounterName"] = "Helix Gearbreaker",
+["event"] = "SPELL_CAST_START",
+["source"] = "Defias Envoker",
+["npcID"] = 48418,
+},
 [425561] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Pack Mole",
 ["npcID"] = 211977,
 },
-[432967] = {
-["source"] = "Sentry Stagshell",
+[358836] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 216340,
+["source"] = "Mawsworn Infuser",
+["npcID"] = 180664,
 },
 [427609] = {
 ["event"] = "SPELL_CAST_START",
@@ -67860,33 +66633,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2433,
 },
-[91004] = {
-["encounterName"] = "Helix Gearbreaker",
+[1219477] = {
+["source"] = "Propaganda Pusher",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Defias Envoker",
-["npcID"] = 48418,
+["npcID"] = 225826,
 },
-[358836] = {
+[436592] = {
+["encounterName"] = "Goldie Baronbottom",
+["source"] = "Goldie Baronbottom",
+["npcID"] = 214661,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Infuser",
-["npcID"] = 180664,
+["encounterID"] = 2930,
 },
 [386660] = {
 ["encounterName"] = "Leymor",
 ["encounterID"] = 2582,
 ["npcID"] = 186644,
-},
-[54801] = {
-["encounterName"] = "Drakkari Colossus",
-["source"] = "Drakkari Elemental",
-["npcID"] = 29573,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1983,
-},
-[1219477] = {
-["source"] = "Propaganda Pusher",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 225826,
 },
 [73564] = {
 ["encounterName"] = "Siamat",
@@ -67895,10 +66657,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1055,
 },
+[54801] = {
+["encounterName"] = "Drakkari Colossus",
+["source"] = "Drakkari Elemental",
+["npcID"] = 29573,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1983,
+},
 [468561] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Siris the Sea Scorpion",
 ["npcID"] = 229853,
+},
+[101816] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Time-Twisted Sorceress",
+["npcID"] = 54691,
 },
 [85692] = {
 ["event"] = "SPELL_CAST_START",
@@ -67918,10 +66692,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1985,
 },
-[467106] = {
-["source"] = "Snacker",
+[44163] = {
+["source"] = "Ellrys Duskhallow",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231090,
+["npcID"] = 24558,
 },
 [445016] = {
 ["encounterName"] = "The Bloodbound Horror",
@@ -67972,27 +66746,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 233474,
 },
-[195046] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Hatecoil Oracle",
-["npcID"] = 95861,
-},
-[44518] = {
-["source"] = "Sunblade Warlock",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24686,
-},
-[44163] = {
-["source"] = "Ellrys Duskhallow",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24558,
-},
 [353417] = {
 ["encounterName"] = "Sylvanas Windrunner",
 ["source"] = "Sylvanas Windrunner",
 ["npcID"] = 175732,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
+},
+[44518] = {
+["source"] = "Sunblade Warlock",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 24686,
+},
+[340304] = {
+["source"] = "Mistveil Gorgegullet",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 173720,
+},
+[82794] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Oathsworn Wanderer",
+["npcID"] = 44926,
 },
 [473684] = {
 ["event"] = "SPELL_CAST_START",
@@ -68016,10 +66790,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 207186,
 },
-[340304] = {
-["source"] = "Mistveil Gorgegullet",
+[76572] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 173720,
+["source"] = "Twilight Sadist",
+["npcID"] = 39980,
 },
 [458329] = {
 ["encounterName"] = "Admiral Ripsnarl",
@@ -68027,16 +66801,16 @@ nil,
 ["source"] = "Kordac",
 ["npcID"] = 221084,
 },
-[118903] = {
-["source"] = "Glintrok Hexxer",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 61216,
+[383823] = {
+["npcID"] = 192796,
 },
-[28434] = {
+[468794] = {
+["encounterName"] = "Mug'Zee, Heads of Security",
+["source"] = "Mug'Zee",
+["encounterID"] = 3015,
 ["isChanneled"] = true,
-["source"] = "Carrion Spinner",
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 15975,
+["npcID"] = 229953,
 },
 [445021] = {
 ["encounterName"] = "Queen Ansurek",
@@ -68059,8 +66833,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 52409,
 },
-[383823] = {
-["npcID"] = 192796,
+[446271] = {
+["isChanneled"] = true,
+["source"] = "Congealed Mass",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 222461,
 },
 [453212] = {
 ["encounterName"] = "Speaker Shadowcrown",
@@ -68068,14 +66845,6 @@ nil,
 ["encounterID"] = 2837,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211087,
-},
-[468794] = {
-["encounterName"] = "Mug'Zee, Heads of Security",
-["source"] = "Mug'Zee",
-["encounterID"] = 3015,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 229953,
 },
 [428086] = {
 ["encounterName"] = "Speaker Shadowcrown",
@@ -68088,6 +66857,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Soulguard Reaper",
 ["npcID"] = 36499,
+},
+[431714] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Zik'tex",
+["npcID"] = 227427,
 },
 [38760] = {
 ["encounterName"] = "Pandemonius",
@@ -68120,24 +66894,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1833,
 },
-[446271] = {
+[31598] = {
 ["isChanneled"] = true,
-["source"] = "Congealed Mass",
+["source"] = "Oro Eyegouge",
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 222461,
+["npcID"] = 7606,
 },
 [471240] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Infused Stormfeather",
 ["npcID"] = 229532,
-},
-[434786] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Trilling Attendant",
-["npcID"] = 216293,
-},
-[388392] = {
-["npcID"] = 196044,
 },
 [102410] = {
 ["event"] = "SPELL_CAST_START",
@@ -68151,12 +66917,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2429,
 },
+[201298] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Bloodtainted Burster",
+["npcID"] = 100532,
+},
 [102569] = {
 ["encounterName"] = "Murozond",
 ["source"] = "Murozond",
 ["npcID"] = 54432,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1271,
+},
+[59147] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Hardened Steel Skycaller",
+["npcID"] = 28580,
 },
 [473691] = {
 ["event"] = "SPELL_CAST_START",
@@ -68198,20 +66974,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59614,
 },
-[358769] = {
+[351835] = {
+["encounterName"] = "The Eye of the Jailer",
+["source"] = "Deathseeker Eye",
+["npcID"] = 176531,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Consumed Soul",
-["npcID"] = 180782,
+["encounterID"] = 2433,
 },
 [391793] = {
 ["source"] = "Frenzied Tidecore",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 213699,
 },
-[59147] = {
+[451387] = {
+["source"] = "Twilight Lavabender",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Hardened Steel Skycaller",
-["npcID"] = 28580,
+["npcID"] = 224249,
 },
 [447076] = {
 ["encounterName"] = "Queen Ansurek",
@@ -68225,30 +67003,6 @@ nil,
 ["source"] = "Black Blood Harvester",
 ["npcID"] = 222455,
 },
-[351835] = {
-["encounterName"] = "The Eye of the Jailer",
-["source"] = "Deathseeker Eye",
-["npcID"] = 176531,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2433,
-},
-[463459] = {
-["encounterName"] = "The Silken Court",
-["source"] = "Skeinspinner Takazj",
-["encounterID"] = 2921,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217491,
-},
-[451387] = {
-["source"] = "Twilight Lavabender",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 224249,
-},
-[156515] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Whirling Dervish",
-["npcID"] = 77605,
-},
 [446268] = {
 ["isChanneled"] = true,
 ["source"] = "Congealed Mass",
@@ -68261,6 +67015,31 @@ nil,
 ["npcID"] = 204188,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2878,
+},
+[1219448] = {
+["isChanneled"] = true,
+["source"] = "Darkfuse Shredder",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 227904,
+},
+[156515] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Whirling Dervish",
+["npcID"] = 77605,
+},
+[121468] = {
+["encounterName"] = "Commander Ri'mok",
+["source"] = "Raigonn",
+["npcID"] = 61177,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1406,
+},
+[1214504] = {
+["encounterName"] = "Craggle Fritzbrains",
+["source"] = "Craggle Fritzbrains",
+["npcID"] = 234291,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3095,
 },
 [434793] = {
 ["isChanneled"] = true,
@@ -68283,18 +67062,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225647,
 },
-[1214504] = {
-["encounterName"] = "Craggle Fritzbrains",
-["source"] = "Craggle Fritzbrains",
-["npcID"] = 234291,
+[463459] = {
+["encounterName"] = "The Silken Court",
+["source"] = "Skeinspinner Takazj",
+["encounterID"] = 2921,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3095,
-},
-[1219448] = {
-["isChanneled"] = true,
-["source"] = "Darkfuse Shredder",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 227904,
+["npcID"] = 217491,
 },
 [350847] = {
 ["encounterName"] = "The Eye of the Jailer",
@@ -68303,12 +67076,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2433,
 },
-[347283] = {
-["encounterName"] = "The Tarragrue",
-["source"] = "The Tarragrue",
-["npcID"] = 175611,
+[78530] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2423,
+["source"] = "Petrified Treant",
+["npcID"] = 11458,
+},
+[141427] = {
+["source"] = "Podling Squirt",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 74148,
 },
 [114873] = {
 ["event"] = "SPELL_CAST_START",
@@ -68320,27 +67096,10 @@ nil,
 ["source"] = "Fervent Sharpshooter",
 ["npcID"] = 206694,
 },
-[141427] = {
-["source"] = "Podling Squirt",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 74148,
-},
-[23601] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Shattered Hand Sharpshooter",
-["npcID"] = 16704,
-},
 [467137] = {
 ["source"] = "Snacker",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231090,
-},
-[448105] = {
-["encounterName"] = "Drahga Shadowburner",
-["source"] = "Valiona",
-["npcID"] = 40320,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1048,
 },
 [209410] = {
 ["event"] = "SPELL_CAST_START",
@@ -68352,13 +67111,29 @@ nil,
 ["source"] = "Vileshard Hulk",
 ["npcID"] = 91000,
 },
-[326281] = {
-["encounterName"] = "Tred'ova",
-["source"] = "Tred'ova",
-["encounterID"] = 2393,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 164517,
+[448105] = {
+["encounterName"] = "Drahga Shadowburner",
+["source"] = "Valiona",
+["npcID"] = 40320,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1048,
+},
+[88308] = {
+["encounterName"] = "Altairus",
+["source"] = "Altairus",
+["npcID"] = 43873,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1041,
+},
+[1219438] = {
+["source"] = "Darkfuse Shredder",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 227904,
+},
+[99503] = {
+["source"] = "Lava Wielder",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 53575,
 },
 [423536] = {
 ["encounterName"] = "Prioress Murrpray",
@@ -68382,28 +67157,31 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59613,
 },
-[88308] = {
-["encounterName"] = "Altairus",
-["source"] = "Altairus",
-["npcID"] = 43873,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1041,
-},
 [202075] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Burning Geode",
 ["npcID"] = 101437,
 },
+[326281] = {
+["encounterName"] = "Tred'ova",
+["source"] = "Tred'ova",
+["encounterID"] = 2393,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 164517,
+},
 [1214523] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Void Ascendant",
 ["npcID"] = 212793,
 },
-[1219438] = {
-["source"] = "Darkfuse Shredder",
+[43650] = {
+["encounterName"] = "Skarvold & Dalronn",
+["source"] = "Dalronn the Controller",
+["npcID"] = 24201,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 227904,
+["encounterID"] = 2024,
 },
 [423538] = {
 ["encounterName"] = "Skarmorak",
@@ -68437,33 +67215,33 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214343,
 },
+[465715] = {
+["source"] = "Darkfuse Stunner",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 229175,
+},
+[470277] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Brined Monstrosity",
+["npcID"] = 230263,
+},
 [452205] = {
 ["encounterName"] = "The Crown Chemical Co.",
 ["source"] = "Aggregation of Horrors",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220999,
 },
-[43650] = {
-["encounterName"] = "Skarvold & Dalronn",
-["source"] = "Dalronn the Controller",
-["npcID"] = 24201,
+[192631] = {
+["encounterName"] = "Ash'Golm",
+["source"] = "Ash'Golm",
+["npcID"] = 95886,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2024,
-},
-[154472] = {
-["source"] = "Leaf-Reader Kurri",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 72537,
+["encounterID"] = 1816,
 },
 [434802] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ixin",
 ["npcID"] = 217531,
-},
-[465715] = {
-["source"] = "Darkfuse Stunner",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229175,
 },
 [455277] = {
 ["source"] = "Tidelord Teethwretch",
@@ -68484,12 +67262,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1109,
 },
-[472158] = {
-["encounterName"] = "Zekvir",
-["source"] = "Zekvir",
-["encounterID"] = 2987,
+[257459] = {
+["encounterName"] = "Chopper Redhook",
+["source"] = "Chopper Redhook",
+["npcID"] = 128650,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225204,
+["encounterID"] = 2098,
 },
 [434803] = {
 ["encounterName"] = "Ulgrax the Devourer",
@@ -68511,12 +67289,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 162689,
 },
-[192631] = {
-["encounterName"] = "Ash'Golm",
-["source"] = "Ash'Golm",
-["npcID"] = 95886,
+[121174] = {
+["source"] = "Harthak Flameseeker",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1816,
+["npcID"] = 61392,
 },
 [442994] = {
 ["encounterName"] = "The Silken Court",
@@ -68537,10 +67313,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 212793,
 },
-[121174] = {
-["source"] = "Harthak Flameseeker",
+[86331] = {
+["encounterName"] = "Grand Vizier Ertan",
+["source"] = "Grand Vizier Ertan",
+["npcID"] = 43878,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 61392,
+["encounterID"] = 1043,
 },
 [442995] = {
 ["event"] = "SPELL_CAST_START",
@@ -68552,19 +67330,15 @@ nil,
 ["source"] = "Coralweaver Calliso",
 ["npcID"] = 229852,
 },
-[257459] = {
-["encounterName"] = "Chopper Redhook",
-["source"] = "Chopper Redhook",
-["npcID"] = 128650,
+[385005] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2098,
+["source"] = "Understone Drudge",
+["npcID"] = 105636,
 },
-[86331] = {
-["encounterName"] = "Grand Vizier Ertan",
-["source"] = "Grand Vizier Ertan",
-["npcID"] = 43878,
+[470290] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1043,
+["source"] = "Brined Monstrosity",
+["npcID"] = 230263,
 },
 [455281] = {
 ["source"] = "Grimslice",
@@ -68600,20 +67374,22 @@ nil,
 ["source"] = "Gnarled Lasher",
 ["npcID"] = 207740,
 },
-[385005] = {
+[59148] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Understone Drudge",
-["npcID"] = 105636,
+["source"] = "Hardened Steel Skycaller",
+["npcID"] = 28580,
 },
 [12542] = {
 ["source"] = "Shadowmoon Darkcaster",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 17694,
 },
-[151548] = {
-["source"] = "Bloodmaul Ogre Mage",
+[352833] = {
+["encounterName"] = "Guardian of the First Ones",
+["source"] = "Guardian of the First Ones",
+["npcID"] = 175731,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 75272,
+["encounterID"] = 2436,
 },
 [444023] = {
 ["source"] = "Unstable Experiment",
@@ -68644,28 +67420,30 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 230947,
 },
-[59148] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Hardened Steel Skycaller",
-["npcID"] = 28580,
-},
-[352833] = {
-["encounterName"] = "Guardian of the First Ones",
-["source"] = "Guardian of the First Ones",
-["npcID"] = 175731,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2436,
-},
 [53334] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Anub'ar Necromancer",
 ["npcID"] = 29064,
 },
-[279118] = {
-["source"] = "Zanchuli Witch-Doctor",
+[362568] = {
+["encounterName"] = "Kel'Thuzad",
+["source"] = "Kel'Thuzad",
+["npcID"] = 175559,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 122969,
+["encounterID"] = 2422,
+},
+[439341] = {
+["encounterName"] = "Izo, the Grand Splicer",
+["source"] = "Izo, the Grand Splicer",
+["encounterID"] = 2909,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 216658,
+},
+[433785] = {
+["source"] = "Reinforced Drone",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 216363,
 },
 [152941] = {
 ["encounterName"] = "Roltall",
@@ -68673,16 +67451,6 @@ nil,
 ["encounterID"] = 1652,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 75786,
-},
-[445524] = {
-["source"] = "Shrillwing Hunter En'kilah",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 222038,
-},
-[433785] = {
-["source"] = "Reinforced Drone",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 216363,
 },
 [443649] = {
 ["source"] = "Royal Scribe",
@@ -68693,6 +67461,14 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Risen Archer",
 ["npcID"] = 98275,
+},
+[451378] = {
+["source"] = "Twilight Overseer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 224221,
+},
+[372311] = {
+["npcID"] = 189266,
 },
 [384648] = {
 ["event"] = "SPELL_CAST_START",
@@ -68706,8 +67482,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2918,
 },
-[372311] = {
-["npcID"] = 189266,
+[455895] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Ramstein the Gorger",
+["npcID"] = 10439,
 },
 [350865] = {
 ["encounterName"] = "Sylvanas Windrunner",
@@ -68716,10 +67494,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[451378] = {
-["source"] = "Twilight Overseer",
+[397878] = {
+["encounterName"] = "Wise Mari",
+["source"] = "Corrupt Living Water",
+["encounterID"] = 1418,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 224221,
+["npcID"] = 56511,
 },
 [443003] = {
 ["encounterName"] = "Broodtwister Ovi'nax",
@@ -68735,60 +67515,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 22917,
 },
-[455895] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Ramstein the Gorger",
-["npcID"] = 10439,
-},
-[397878] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Corrupt Living Water",
-["encounterID"] = 1418,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 56511,
-},
-[471669] = {
-["source"] = "Giant Gorewalker",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 225740,
-},
 [106421] = {
 ["source"] = "Shado-Pan Guardian",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59741,
-},
-[445052] = {
-["encounterName"] = "Ulgrax the Devourer",
-["source"] = "Ulgrax the Devourer",
-["npcID"] = 215657,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2902,
 },
 [465749] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Skittersong Krolusk",
 ["npcID"] = 229625,
 },
-[244057] = {
-["encounterName"] = "Felhounds of Sargeras",
-["source"] = "F'harg",
-["npcID"] = 122477,
+[471669] = {
+["source"] = "Giant Gorewalker",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2074,
-},
-[55635] = {
-["encounterName"] = "Drakkari Colossus",
-["source"] = "Drakkari Golem",
-["npcID"] = 29832,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1983,
-},
-[334488] = {
-["encounterName"] = "Surgeon Stitchflesh",
-["source"] = "Surgeon Stitchflesh",
-["encounterID"] = 2389,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 162689,
+["npcID"] = 225740,
 },
 [198079] = {
 ["encounterName"] = "Smashspite the Hateful",
@@ -68798,20 +67538,24 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1834,
 },
-[471671] = {
-["source"] = "Darkfuse Manager",
+[445052] = {
+["encounterName"] = "Ulgrax the Devourer",
+["source"] = "Ulgrax the Devourer",
+["npcID"] = 215657,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225680,
+["encounterID"] = 2902,
 },
-[53047] = {
-["source"] = "Stormforged Sentinel",
+[46036] = {
+["source"] = "Sunblade Magister",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 28837,
+["npcID"] = 24685,
 },
-[375439] = {
-["encounterName"] = "Magmatusk",
-["npcID"] = 181861,
-["encounterID"] = 2610,
+[244057] = {
+["encounterName"] = "Felhounds of Sargeras",
+["source"] = "F'harg",
+["npcID"] = 122477,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2074,
 },
 [320336] = {
 ["encounterName"] = "Amarth, The Harvester",
@@ -68820,25 +67564,42 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 164414,
 },
-[340279] = {
-["source"] = "Mistveil Nightblossom",
+[334488] = {
+["encounterName"] = "Surgeon Stitchflesh",
+["source"] = "Surgeon Stitchflesh",
+["encounterID"] = 2389,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 173714,
+["npcID"] = 162689,
+},
+[53047] = {
+["source"] = "Stormforged Sentinel",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 28837,
+},
+[471671] = {
+["source"] = "Darkfuse Manager",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 225680,
 },
 [196031] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Hatecoil Wavebinder",
 ["npcID"] = 97170,
 },
-[438823] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Diabolic Imp",
-["npcID"] = 219161,
+[375439] = {
+["encounterName"] = "Magmatusk",
+["npcID"] = 181861,
+["encounterID"] = 2610,
 },
-[372369] = {
+[340279] = {
+["source"] = "Mistveil Nightblossom",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Gutter Cramhunter",
-["npcID"] = 217716,
+["npcID"] = 173714,
+},
+[200782] = {
+["source"] = "Fiendish Creeper",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 99759,
 },
 [441395] = {
 ["encounterName"] = "The Coaglamation",
@@ -68854,10 +67615,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1813,
 },
-[420486] = {
-["source"] = "Cultist Nethus",
+[372369] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 205940,
+["source"] = "Gutter Cramhunter",
+["npcID"] = 217716,
 },
 [435012] = {
 ["encounterName"] = "Anub'zekt",
@@ -68866,17 +67627,34 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 215405,
 },
-[211299] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Watchful Inquisitor",
-["npcID"] = 105715,
-},
 [321834] = {
 ["encounterName"] = "Mistcaller",
 ["source"] = "Mistcaller",
 ["npcID"] = 164501,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2392,
+},
+[420486] = {
+["source"] = "Cultist Nethus",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 205940,
+},
+[446255] = {
+["source"] = "Congealing Mass",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 222459,
+},
+[211299] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Watchful Inquisitor",
+["npcID"] = 105715,
+},
+[107018] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["npcID"] = 56173,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1299,
 },
 [191848] = {
 ["encounterName"] = "Serpentrix",
@@ -68893,18 +67671,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231075,
 },
-[107018] = {
-["encounterName"] = "Madness of Deathwing",
-["source"] = "Deathwing",
-["npcID"] = 56173,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1299,
-},
-[446255] = {
-["source"] = "Congealing Mass",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 222459,
-},
 [427456] = {
 ["encounterName"] = "Commander Ulthok",
 ["source"] = "Commander Ulthok",
@@ -68912,34 +67678,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1044,
 },
-[325469] = {
-["source"] = "Decrepit Bilespawn",
+[415253] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 166928,
+["source"] = "Invasive Sporecap",
+["npcID"] = 207482,
 },
-[449154] = {
+[88080] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Forge Loader",
-["npcID"] = 213343,
-},
-[472700] = {
-["source"] = "V.V. Goosworth",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 230946,
-},
-[1214614] = {
-["encounterName"] = "Maulspike",
-["source"] = "Maulspike",
-["npcID"] = 234958,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 3121,
-},
-[200551] = {
-["encounterName"] = "Dargrul the Underking",
-["source"] = "Dargrul",
-["npcID"] = 91007,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1793,
+["source"] = "Whipping Wind",
+["npcID"] = 47238,
 },
 [59021] = {
 ["event"] = "SPELL_CAST_START",
@@ -68953,15 +67700,42 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 164501,
 },
+[472700] = {
+["source"] = "V.V. Goosworth",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 230946,
+},
+[449154] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Forge Loader",
+["npcID"] = 213343,
+},
+[200551] = {
+["encounterName"] = "Dargrul the Underking",
+["source"] = "Dargrul",
+["npcID"] = 91007,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1793,
+},
 [68895] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Spiteful Apparition",
 ["npcID"] = 36551,
 },
-[169839] = {
-["source"] = "Putrid Pyromancer",
+[466728] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 84957,
+["source"] = "Ikir the Flotsurge",
+["npcID"] = 227545,
+},
+[15587] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Risen Initiate",
+["npcID"] = 10420,
+},
+[458369] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Kas'dru",
+["npcID"] = 227635,
 },
 [1214620] = {
 ["encounterName"] = "Maulspike",
@@ -68970,15 +67744,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3121,
 },
-[169840] = {
-["source"] = "Infested Icecaller",
+[322486] = {
+["source"] = "Tirnenn Villager",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 84989,
+["npcID"] = 164929,
 },
-[466728] = {
+[398634] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Ikir the Flotsurge",
-["npcID"] = 227545,
+["source"] = "Arathor Scout",
+["npcID"] = 227719,
 },
 [466560] = {
 ["event"] = "SPELL_CAST_START",
@@ -68990,10 +67764,10 @@ nil,
 ["source"] = "Ixin",
 ["npcID"] = 217531,
 },
-[15587] = {
+[169840] = {
+["source"] = "Infested Icecaller",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Risen Initiate",
-["npcID"] = 10420,
+["npcID"] = 84989,
 },
 [157043] = {
 ["source"] = "Sargerei Ritualist",
@@ -69011,15 +67785,15 @@ nil,
 ["source"] = "Consuming Voidstone",
 ["npcID"] = 212739,
 },
-[322486] = {
-["source"] = "Tirnenn Villager",
+[446533] = {
+["source"] = "Mycotic Shalehorn",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 164929,
+["npcID"] = 212704,
 },
-[398634] = {
+[445882] = {
+["source"] = "Stonehoofed Hog",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Arathor Scout",
-["npcID"] = 227719,
+["npcID"] = 214928,
 },
 [450182] = {
 ["event"] = "SPELL_CAST_START",
@@ -69031,10 +67805,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208456,
 },
-[446533] = {
-["source"] = "Mycotic Shalehorn",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 212704,
+[374839] = {
+["encounterName"] = "Forgemaster Gorek",
+["npcID"] = 189478,
+["encounterID"] = 2612,
 },
 [54878] = {
 ["encounterName"] = "Drakkari Colossus",
@@ -69048,22 +67822,8 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 84990,
 },
-[374839] = {
-["encounterName"] = "Forgemaster Gorek",
-["npcID"] = 189478,
-["encounterID"] = 2612,
-},
-[456174] = {
-["encounterName"] = "The Silken Court",
-["source"] = "Anub'arash",
-["encounterID"] = 2921,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217489,
-},
-[446000] = {
-["source"] = "Deeps Larva",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 215733,
+[384597] = {
+["npcID"] = 193293,
 },
 [257882] = {
 ["encounterName"] = "Hadal Darkfathom",
@@ -69071,6 +67831,18 @@ nil,
 ["npcID"] = 128651,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2099,
+},
+[163550] = {
+["encounterName"] = "Nitrogg Thundertower",
+["source"] = "Nitrogg Thundertower",
+["encounterID"] = 1732,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 79545,
+},
+[374361] = {
+["encounterName"] = "Echo of Doragosa",
+["npcID"] = 190609,
+["encounterID"] = 2565,
 },
 [52586] = {
 ["encounterName"] = "Hadronox",
@@ -69091,29 +67863,24 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 212739,
 },
-[163550] = {
-["encounterName"] = "Nitrogg Thundertower",
-["source"] = "Nitrogg Thundertower",
-["encounterID"] = 1732,
+[440107] = {
+["encounterName"] = "Fangs of the Queen",
+["source"] = "Vx",
+["encounterID"] = 2908,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 79545,
+["npcID"] = 216649,
 },
-[434829] = {
-["encounterName"] = "Orator Krix'vizk",
-["source"] = "Orator Krix'vizk",
-["encounterID"] = 2907,
+[56937] = {
+["encounterName"] = "Grand Magus Telestra",
+["source"] = "Grand Magus Telestra",
+["npcID"] = 26930,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 216619,
+["encounterID"] = 2010,
 },
 [69069] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Soulguard Bonecaster",
 ["npcID"] = 36564,
-},
-[374361] = {
-["encounterName"] = "Echo of Doragosa",
-["npcID"] = 190609,
-["encounterID"] = 2565,
 },
 [209628] = {
 ["encounterName"] = "Advisor Melandrus",
@@ -69121,6 +67888,13 @@ nil,
 ["npcID"] = 104218,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1870,
+},
+[38759] = {
+["encounterName"] = "Pandemonius",
+["source"] = "Pandemonius",
+["encounterID"] = 1900,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 18341,
 },
 [320170] = {
 ["encounterName"] = "Amarth, The Harvester",
@@ -69156,61 +67930,49 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59520,
 },
-[440107] = {
-["encounterName"] = "Fangs of the Queen",
-["source"] = "Vx",
-["encounterID"] = 2908,
+[196027] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 216649,
+["source"] = "Hatecoil Arcanist",
+["npcID"] = 97171,
 },
 [450188] = {
 ["source"] = "Sweetsnuffler",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 219799,
 },
-[377502] = {
-["source"] = "Proscenium Puddlestomper",
+[1214656] = {
+["encounterName"] = "Maulspike",
+["source"] = "Maulspike",
+["npcID"] = 234958,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 216072,
+["encounterID"] = 3121,
 },
 [1214657] = {
 ["source"] = "Ultra-Deluxe Riotguard",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 230519,
 },
-[38759] = {
-["encounterName"] = "Pandemonius",
-["source"] = "Pandemonius",
-["encounterID"] = 1900,
+[434722] = {
+["encounterName"] = "Orator Krix'vizk",
+["source"] = "Orator Krix'vizk",
+["encounterID"] = 2907,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 18341,
-},
-[31407] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Murkblood Spearman",
-["npcID"] = 17729,
-},
-[196027] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Hatecoil Arcanist",
-["npcID"] = 97171,
+["npcID"] = 216619,
 },
 [157797] = {
 ["source"] = "Sargerei Arbiter",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 77080,
 },
-[164887] = {
-["source"] = "Everbloom Mender",
+[31407] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 81820,
+["source"] = "Murkblood Spearman",
+["npcID"] = 17729,
 },
-[34799] = {
-["encounterName"] = "Commander Sarannis",
-["source"] = "Commander Sarannis",
-["npcID"] = 17976,
+[466060] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1925,
+["source"] = "Kvaldir Tidewalker",
+["npcID"] = 232362,
 },
 [28089] = {
 ["encounterName"] = "Thaddius",
@@ -69219,16 +67981,30 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1120,
 },
+[34799] = {
+["encounterName"] = "Commander Sarannis",
+["source"] = "Commander Sarannis",
+["npcID"] = 17976,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1925,
+},
+[447271] = {
+["source"] = "Hulking Warshell",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 221103,
+},
 [197486] = {
 ["isChanneled"] = true,
 ["source"] = "Brood Queen Tyranna",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 93802,
 },
-[152953] = {
+[449167] = {
+["encounterName"] = "Master Machinists",
+["source"] = "Speaker Dorlita",
+["npcID"] = 213216,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Solar Familiar",
-["npcID"] = 76097,
+["encounterID"] = 2888,
 },
 [450191] = {
 ["encounterName"] = "Queen Ansurek",
@@ -69254,10 +68030,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225748,
 },
-[466060] = {
+[427672] = {
+["encounterName"] = "Commander Ulthok",
+["source"] = "Commander Ulthok",
+["npcID"] = 40765,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Kvaldir Tidewalker",
-["npcID"] = 232362,
+["encounterID"] = 1044,
 },
 [1214672] = {
 ["isChanneled"] = true,
@@ -69279,22 +68057,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 75839,
 },
-[427672] = {
-["encounterName"] = "Commander Ulthok",
-["source"] = "Commander Ulthok",
-["npcID"] = 40765,
+[449318] = {
+["source"] = "Nerubian Darkcaster",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1044,
+["npcID"] = 208242,
 },
 [443027] = {
 ["source"] = "Webwarden Enforcer",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 223361,
 },
-[447271] = {
-["source"] = "Hulking Warshell",
+[152953] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 221103,
+["source"] = "Solar Familiar",
+["npcID"] = 76097,
 },
 [424600] = {
 ["event"] = "SPELL_CAST_START",
@@ -69342,25 +68118,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2388,
 },
-[157051] = {
-["source"] = "Grom'tash the Destructor",
+[447270] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Captain Dailcry",
+["encounterID"] = 2847,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 77889,
+["npcID"] = 207946,
 },
 [450196] = {
 ["source"] = "Displaced Mole",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 215846,
 },
-[449318] = {
-["source"] = "Nerubian Darkcaster",
+[157051] = {
+["source"] = "Grom'tash the Destructor",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 208242,
+["npcID"] = 77889,
 },
-[164218] = {
-["source"] = "Grimrail Bombardier",
+[324909] = {
+["source"] = "Drust Boughbreaker",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 81407,
+["npcID"] = 164926,
 },
 [1214690] = {
 ["event"] = "SPELL_CAST_START",
@@ -69372,12 +68150,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208245,
 },
-[447270] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Captain Dailcry",
-["encounterID"] = 2847,
+[164218] = {
+["source"] = "Grimrail Bombardier",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 207946,
+["npcID"] = 81407,
 },
 [451222] = {
 ["source"] = "Hollows Resident",
@@ -69411,10 +68187,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228648,
 },
-[324909] = {
-["source"] = "Drust Boughbreaker",
+[452928] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 164926,
+["source"] = "Balnazzar",
+["npcID"] = 10813,
 },
 [162171] = {
 ["encounterName"] = "Rocketspark and Borka",
@@ -69423,10 +68199,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 77803,
 },
-[82765] = {
+[420512] = {
+["source"] = "Cultist Nethus",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Neferset Darkcaster",
-["npcID"] = 44982,
+["npcID"] = 205940,
 },
 [200050] = {
 ["encounterName"] = "Shade of Xavius",
@@ -69435,10 +68211,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1839,
 },
-[420512] = {
-["source"] = "Cultist Nethus",
+[427668] = {
+["encounterName"] = "Commander Ulthok",
+["source"] = "Commander Ulthok",
+["npcID"] = 40765,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 205940,
+["encounterID"] = 1044,
 },
 [451224] = {
 ["source"] = "Twilight Warlock",
@@ -69462,10 +68240,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 129231,
 },
-[452928] = {
+[439506] = {
+["encounterName"] = "Anub'zekt",
+["source"] = "Anub'zekt",
+["npcID"] = 215405,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Balnazzar",
-["npcID"] = 10813,
+["encounterID"] = 2906,
 },
 [353969] = {
 ["encounterName"] = "Sylvanas Windrunner",
@@ -69498,29 +68278,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 205363,
 },
-[427668] = {
-["encounterName"] = "Commander Ulthok",
-["source"] = "Commander Ulthok",
-["npcID"] = 40765,
+[443325] = {
+["encounterName"] = "Queen Ansurek",
+["source"] = "Queen Ansurek",
+["encounterID"] = 2922,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1044,
-},
-[439506] = {
-["encounterName"] = "Anub'zekt",
-["source"] = "Anub'zekt",
-["npcID"] = 215405,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2906,
-},
-[55659] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Drakkari Fire Weaver",
-["npcID"] = 29822,
-},
-[22907] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Shattered Hand Sharpshooter",
-["npcID"] = 16704,
+["npcID"] = 218370,
 },
 [163966] = {
 ["isChanneled"] = true,
@@ -69533,10 +68296,29 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 164921,
 },
+[22907] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Shattered Hand Sharpshooter",
+["npcID"] = 16704,
+},
 [22661] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Alzzin the Wildshaper",
 ["npcID"] = 11492,
+},
+[196587] = {
+["encounterName"] = "Amalgam of Souls",
+["source"] = "Amalgam of Souls",
+["npcID"] = 98542,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1832,
+},
+[207906] = {
+["encounterName"] = "Talixae Flamewreath",
+["source"] = "Talixae Flamewreath",
+["npcID"] = 104217,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1869,
 },
 [115010] = {
 ["encounterName"] = "Taran Zhu",
@@ -69550,21 +68332,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 80936,
 },
-[412012] = {
-["isChanneled"] = true,
-["source"] = "Infinite Timeslicer",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 205408,
+[69148] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Spectral Warden",
+["npcID"] = 36666,
 },
 [430754] = {
 ["source"] = "Corrupted Oracle",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214439,
 },
-[209027] = {
+[41117] = {
+["encounterName"] = "Illidan Stormrage",
+["source"] = "Illidan Stormrage",
+["npcID"] = 22917,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Duskwatch Guard",
-["npcID"] = 111563,
+["encounterID"] = 609,
 },
 [31673] = {
 ["encounterName"] = "Hungarfen",
@@ -69581,42 +68364,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[69148] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Spectral Warden",
-["npcID"] = 36666,
-},
-[31865] = {
-["source"] = "Seductress",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 17399,
-},
-[471706] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Brinebough",
-["npcID"] = 231356,
-},
-[458397] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Kas'dru",
-["npcID"] = 227635,
-},
-[459421] = {
-["source"] = "Sir Finley Mrrgglton",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 228030,
-},
-[436781] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Scarab Captain Vul'akan",
-["npcID"] = 218306,
-},
-[424614] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Fungal Stabber",
-["npcID"] = 207450,
-},
 [438471] = {
 ["encounterName"] = "Avanoxx",
 ["source"] = "Avanoxx",
@@ -69624,15 +68371,53 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2926,
 },
-[76497] = {
+[31865] = {
+["source"] = "Seductress",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Twilight Sadist",
-["npcID"] = 39980,
+["npcID"] = 17399,
+},
+[459421] = {
+["source"] = "Sir Finley Mrrgglton",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 228030,
+},
+[458397] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Kas'dru",
+["npcID"] = 227635,
+},
+[83151] = {
+["encounterName"] = "Siamat",
+["source"] = "Siamat",
+["npcID"] = 44819,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1055,
 },
 [200630] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Mindshattered Screecher",
 ["npcID"] = 95769,
+},
+[424614] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Fungal Stabber",
+["npcID"] = 207450,
+},
+[4979] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Defias Evoker",
+["npcID"] = 1729,
+},
+[451913] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Ascended Webfriar",
+["npcID"] = 219022,
+},
+[76497] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Twilight Sadist",
+["npcID"] = 39980,
 },
 [152962] = {
 ["encounterName"] = "Nhallish",
@@ -69646,15 +68431,15 @@ nil,
 ["source"] = "Darkfuse Melter",
 ["npcID"] = 229222,
 },
-[4979] = {
+[102156] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Defias Evoker",
-["npcID"] = 1729,
+["source"] = "Time-Twisted Seer",
+["npcID"] = 54553,
 },
-[451913] = {
+[257732] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Ascended Webfriar",
-["npcID"] = 219022,
+["source"] = "Scrimshaw Enforcer",
+["npcID"] = 129374,
 },
 [428711] = {
 ["encounterName"] = "Master Machinists",
@@ -69663,46 +68448,37 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2888,
 },
-[102156] = {
+[76369] = {
+["source"] = "Twilight Beguiler",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Time-Twisted Seer",
-["npcID"] = 54553,
+["npcID"] = 40167,
 },
 [5137] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Undead Postman",
 ["npcID"] = 11142,
 },
-[257732] = {
+[34945] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Scrimshaw Enforcer",
-["npcID"] = 129374,
-},
-[115656] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Fragmented Crawler",
-["npcID"] = 229994,
+["source"] = "Azure Scale-Binder",
+["npcID"] = 26735,
 },
 [315076] = {
 ["source"] = "Cackling Stitchsurgeon",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 170821,
 },
-[76369] = {
-["source"] = "Twilight Beguiler",
+[470686] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 40167,
+["source"] = "Mechano Wolf",
+["npcID"] = 228050,
 },
-[34945] = {
+[1219333] = {
+["encounterName"] = "Chrome King Gallywix",
+["source"] = "Chrome King Gallywix",
+["encounterID"] = 3016,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Azure Scale-Binder",
-["npcID"] = 26735,
-},
-[371383] = {
-["source"] = "Sunblade Magister",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24685,
+["npcID"] = 231075,
 },
 [207881] = {
 ["encounterName"] = "Talixae Flamewreath",
@@ -69711,17 +68487,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 104217,
 },
+[371383] = {
+["source"] = "Sunblade Magister",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 24685,
+},
+[448458] = {
+["encounterName"] = "Queen Ansurek",
+["source"] = "Devoted Worshipper",
+["encounterID"] = 2922,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 223318,
+},
 [447141] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Repurposed Loaderbot",
 ["npcID"] = 222923,
 },
-[1219333] = {
-["encounterName"] = "Chrome King Gallywix",
-["source"] = "Chrome King Gallywix",
-["encounterID"] = 3016,
+[31601] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 231075,
+["source"] = "Crypt Crawler",
+["npcID"] = 10412,
 },
 [440999] = {
 ["event"] = "SPELL_CAST_START",
@@ -69760,10 +68546,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 165919,
 },
-[31601] = {
+[460582] = {
+["encounterName"] = "One-Armed Bandit",
+["source"] = "Reel Assistant",
+["npcID"] = 228463,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Crypt Crawler",
-["npcID"] = 10412,
+["encounterID"] = 3014,
 },
 [424621] = {
 ["event"] = "SPELL_CAST_START",
@@ -69775,10 +68563,10 @@ nil,
 ["npcID"] = 189719,
 ["encounterID"] = 2615,
 },
-[221117] = {
+[155524] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "General Tel'arn",
-["npcID"] = 110993,
+["source"] = "Sargerei Spirit-Tender",
+["npcID"] = 77131,
 },
 [114062] = {
 ["encounterName"] = "Jandice Barov",
@@ -69788,10 +68576,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 59184,
 },
-[155524] = {
+[195944] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Sargerei Spirit-Tender",
-["npcID"] = 77131,
+["source"] = "Skrog Wavecrasher",
+["npcID"] = 91796,
 },
 [106646] = {
 ["source"] = "Flying Snow",
@@ -69805,22 +68593,17 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 162689,
 },
-[59019] = {
-["encounterName"] = "Slad'ran",
-["source"] = "Spitting Cobra",
-["npcID"] = 29774,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1978,
-},
 [468585] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Coralweaver Calliso",
 ["npcID"] = 229852,
 },
-[451241] = {
-["source"] = "Twilight Flamerender",
+[106526] = {
+["encounterName"] = "Wise Mari",
+["source"] = "Wise Mari",
+["encounterID"] = 1418,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 224240,
+["npcID"] = 56448,
 },
 [447146] = {
 ["encounterName"] = "The Coaglamation",
@@ -69829,18 +68612,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 216320,
 },
+[451241] = {
+["source"] = "Twilight Flamerender",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 224240,
+},
 [135029] = {
 ["source"] = "Water Elemental",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208441,
 },
-[321226] = {
-["encounterName"] = "Amarth, The Harvester",
-["source"] = "Amarth",
-["encounterID"] = 2388,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 163157,
+[421665] = {
+["encounterName"] = "Ol' Waxbeard",
+["source"] = "Ol' Waxbeard",
+["encounterID"] = 2829,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 210149,
 },
 [204666] = {
 ["encounterName"] = "Oakheart",
@@ -69872,10 +68659,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[8364] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Skeletal Guardian",
-["npcID"] = 10390,
+[441116] = {
+["isChanneled"] = true,
+["source"] = "Regurgitating Monstrosity",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 220138,
 },
 [161090] = {
 ["encounterName"] = "Rocketspark and Borka",
@@ -69889,24 +68677,23 @@ nil,
 ["source"] = "Executor of the Caliph",
 ["npcID"] = 45928,
 },
-[421665] = {
-["encounterName"] = "Ol' Waxbeard",
-["source"] = "Ol' Waxbeard",
-["encounterID"] = 2829,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 210149,
-},
-[441116] = {
-["isChanneled"] = true,
-["source"] = "Regurgitating Monstrosity",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 220138,
-},
 [427359] = {
 ["isChanneled"] = true,
 ["source"] = "Arathi Footman",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 206705,
+},
+[157931] = {
+["source"] = "Sargerei Magus",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 76263,
+},
+[80009] = {
+["encounterName"] = "Rhahk'Zor",
+["source"] = "Defias Watchman",
+["npcID"] = 222866,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2967,
 },
 [202108] = {
 ["event"] = "SPELL_CAST_START",
@@ -69925,10 +68712,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1817,
 },
-[157931] = {
-["source"] = "Sargerei Magus",
+[36807] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 76263,
+["source"] = "Murkblood Oracle",
+["npcID"] = 17771,
 },
 [1214790] = {
 ["event"] = "SPELL_CAST_START",
@@ -69940,10 +68727,10 @@ nil,
 ["source"] = "Xal'atath",
 ["npcID"] = 229227,
 },
-[36807] = {
+[397892] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Murkblood Oracle",
-["npcID"] = 17771,
+["source"] = "Imacu'tya",
+["npcID"] = 104275,
 },
 [65301] = {
 ["encounterName"] = "Yogg-Saron",
@@ -69967,22 +68754,20 @@ nil,
 ["source"] = "Sootsnout",
 ["npcID"] = 212412,
 },
+[200256] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Arcane Minion",
+["npcID"] = 101549,
+},
 [87762] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Minister of Air",
 ["npcID"] = 45930,
 },
-[465580] = {
-["encounterName"] = "One-Armed Bandit",
-["source"] = "One-Armed Bandit",
-["npcID"] = 228458,
+[472165] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3014,
-},
-[433845] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Blood Overseer",
-["npcID"] = 216364,
+["source"] = "Zek'ul the Shipbreaker",
+["npcID"] = 231357,
 },
 [320208] = {
 ["encounterName"] = "Surgeon Stitchflesh",
@@ -70001,20 +68786,24 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 167731,
 },
-[470700] = {
-["source"] = "Marina Zapper",
+[433845] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 227645,
+["source"] = "Blood Overseer",
+["npcID"] = 216364,
 },
-[200256] = {
+[430097] = {
+["encounterName"] = "Master Machinists",
+["source"] = "Speaker Brokk",
+["npcID"] = 213217,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Arcane Minion",
-["npcID"] = 101549,
+["encounterID"] = 2888,
 },
-[472165] = {
+[42730] = {
+["encounterName"] = "Ingvar the Plunderer",
+["source"] = "Ingvar the Plunderer",
+["npcID"] = 23954,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Zek'ul the Shipbreaker",
-["npcID"] = 231357,
+["encounterID"] = 2025,
 },
 [461487] = {
 ["encounterName"] = "Ki'katal the Harvester",
@@ -70026,12 +68815,12 @@ nil,
 [388801] = {
 ["npcID"] = 195855,
 },
-[430097] = {
-["encounterName"] = "Master Machinists",
-["source"] = "Speaker Brokk",
-["npcID"] = 213217,
+[47773] = {
+["encounterName"] = "Grand Magus Telestra",
+["source"] = "Grand Magus Telestra",
+["npcID"] = 26731,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2888,
+["encounterID"] = 2010,
 },
 [341709] = {
 ["encounterName"] = "Mistcaller",
@@ -70040,20 +68829,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 164501,
 },
-[42730] = {
-["encounterName"] = "Ingvar the Plunderer",
-["source"] = "Ingvar the Plunderer",
-["npcID"] = 23954,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2025,
-},
-[47773] = {
-["encounterName"] = "Grand Magus Telestra",
-["source"] = "Grand Magus Telestra",
-["npcID"] = 26731,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2010,
-},
 [150776] = {
 ["encounterName"] = "Gug'rokk",
 ["source"] = "Gug'rokk",
@@ -70061,10 +68836,31 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 74790,
 },
+[159290] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Solar Familiar",
+["npcID"] = 76097,
+},
+[445207] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Void Bound Howler",
+["npcID"] = 221979,
+},
 [472750] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Swigs Farsight",
 ["npcID"] = 231288,
+},
+[12739] = {
+["source"] = "Witch Doctor Zum'rah",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 7271,
+},
+[50653] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Enslaved Proto-Drake",
+["npcID"] = 24083,
 },
 [68821] = {
 ["encounterName"] = "The Crown Chemical Co.",
@@ -70072,26 +68868,6 @@ nil,
 ["encounterID"] = 2879,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 36565,
-},
-[439857] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Royal Whisperer",
-["npcID"] = 219723,
-},
-[445207] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Void Bound Howler",
-["npcID"] = 221979,
-},
-[12739] = {
-["source"] = "Witch Doctor Zum'rah",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 7271,
-},
-[160312] = {
-["source"] = "Sargerei Cleric",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 77134,
 },
 [13901] = {
 ["event"] = "SPELL_CAST_START",
@@ -70104,15 +68880,26 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 222572,
 },
-[69080] = {
+[455443] = {
+["encounterName"] = "The Crown Chemical Co.",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Soulguard Bonecaster",
-["npcID"] = 36564,
+["source"] = "Waxx",
+["npcID"] = 226267,
 },
 [193164] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Blade Dancer Illianna",
 ["npcID"] = 96657,
+},
+[69080] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Soulguard Bonecaster",
+["npcID"] = 36564,
+},
+[153485] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Carrion Worm",
+["npcID"] = 76057,
 },
 [106447] = {
 ["source"] = "Shado-Pan Novice",
@@ -70137,32 +68924,34 @@ nil,
 ["source"] = "Defense Construct",
 ["npcID"] = 76087,
 },
-[153485] = {
+[470706] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Carrion Worm",
-["npcID"] = 76057,
+["source"] = "Darkfuse Machinist",
+["npcID"] = 229272,
 },
-[455443] = {
-["encounterName"] = "The Crown Chemical Co.",
+[448276] = {
+["source"] = "Fungarian Sporeflinger",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Waxx",
-["npcID"] = 226267,
+["npcID"] = 218667,
 },
-[462264] = {
-["isChanneled"] = true,
-["source"] = "Blood Drainer",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 229399,
+[207278] = {
+["encounterName"] = "Patrol Captain Gerdo",
+["source"] = "Patrol Captain Gerdo",
+["npcID"] = 104215,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1868,
 },
 [461741] = {
 ["source"] = "Sir Finley Mrrgglton",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228030,
 },
-[448276] = {
-["source"] = "Fungarian Sporeflinger",
+[113141] = {
+["encounterName"] = "Darkmaster Gandling",
+["source"] = "Darkmaster Gandling",
+["encounterID"] = 1430,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218667,
+["npcID"] = 59080,
 },
 [438971] = {
 ["encounterName"] = "Benk Buzzbee",
@@ -70192,24 +68981,23 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231356,
 },
-[207278] = {
-["encounterName"] = "Patrol Captain Gerdo",
-["source"] = "Patrol Captain Gerdo",
-["npcID"] = 104215,
+[269029] = {
+["encounterName"] = "Dread Captain Lockwood",
+["source"] = "Dread Captain Lockwood",
+["encounterID"] = 2109,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1868,
+["npcID"] = 129208,
 },
 [257397] = {
 ["source"] = "Irontide Bonesaw",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 129788,
 },
-[113141] = {
-["encounterName"] = "Darkmaster Gandling",
-["source"] = "Darkmaster Gandling",
-["encounterID"] = 1430,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 59080,
+[123651] = {
+["isChanneled"] = true,
+["source"] = "Kargesh Ribcrusher",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 61947,
 },
 [438973] = {
 ["event"] = "SPELL_CAST_START",
@@ -70228,36 +69016,16 @@ nil,
 ["source"] = "Angerhoof Bull",
 ["npcID"] = 96611,
 },
-[123651] = {
-["isChanneled"] = true,
-["source"] = "Kargesh Ribcrusher",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 61947,
-},
-[34659] = {
-["encounterName"] = "Thorngrin the Tender",
-["source"] = "Thorngrin the Tender",
-["npcID"] = 17978,
+[455016] = {
+["source"] = "Caustic Skyrazor",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1928,
-},
-[44189] = {
-["encounterName"] = "Kael'thas Sunstrider",
-["source"] = "Kael'thas Sunstrider",
-["encounterID"] = 1894,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24664,
+["npcID"] = 225817,
 },
 [433448] = {
 ["isChanneled"] = true,
 ["source"] = "Gem Hoarder",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 220148,
-},
-[200580] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Festerhide Grizzly",
-["npcID"] = 95779,
 },
 [118988] = {
 ["encounterName"] = "Gekkan",
@@ -70271,32 +69039,27 @@ nil,
 ["source"] = "Nerathor",
 ["npcID"] = 229982,
 },
-[451261] = {
-["source"] = "Twilight Earthcaller",
+[200580] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 224219,
+["source"] = "Festerhide Grizzly",
+["npcID"] = 95779,
 },
 [453392] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Sureki Eradicator",
 ["npcID"] = 225408,
 },
-[438976] = {
-["encounterName"] = "Queen Ansurek",
-["source"] = "Queen Ansurek",
-["encounterID"] = 2922,
+[463104] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218370,
+["source"] = "Brood Infuser",
+["npcID"] = 222167,
 },
-[464570] = {
+[260894] = {
+["encounterName"] = "Elder Leaxa",
+["source"] = "Elder Leaxa",
+["encounterID"] = 2111,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Vulpera Toe-Slasher",
-["npcID"] = 227677,
-},
-[199476] = {
-["source"] = "Sledge",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 92990,
+["npcID"] = 131318,
 },
 [106400] = {
 ["encounterName"] = "Madness of Deathwing",
@@ -70306,10 +69069,15 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1299,
 },
-[90325] = {
+[451261] = {
+["source"] = "Twilight Earthcaller",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Hatecoil Gargantuan",
-["npcID"] = 109154,
+["npcID"] = 224219,
+},
+[464570] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Vulpera Toe-Slasher",
+["npcID"] = 227677,
 },
 [200185] = {
 ["encounterName"] = "Shade of Xavius",
@@ -70318,20 +69086,37 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1839,
 },
-[152893] = {
+[22883] = {
+["source"] = "Ethereal Priest",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Herald of Sunrise",
-["npcID"] = 78933,
+["npcID"] = 18317,
+},
+[90325] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Hatecoil Gargantuan",
+["npcID"] = 109154,
+},
+[164592] = {
+["source"] = "Bloodmaul Geomancer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 75198,
+},
+[37965] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Underbog Shambler",
+["npcID"] = 17871,
 },
 [13952] = {
 ["source"] = "Murkblood Healer",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 17730,
 },
-[164592] = {
-["source"] = "Bloodmaul Geomancer",
+[449295] = {
+["encounterName"] = "Tomb-Raider Drywhisker",
+["source"] = "Tomb-Raider Drywhisker",
+["npcID"] = 204188,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 75198,
+["encounterID"] = 2878,
 },
 [321247] = {
 ["encounterName"] = "Amarth, The Harvester",
@@ -70340,10 +69125,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 163157,
 },
-[37965] = {
+[317231] = {
+["encounterName"] = "Xav the Unfallen",
+["source"] = "Xav the Unfallen",
+["npcID"] = 162329,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Underbog Shambler",
-["npcID"] = 17871,
+["encounterID"] = 2366,
 },
 [245627] = {
 ["encounterName"] = "The Coven of Shivarra",
@@ -70358,19 +69145,17 @@ nil,
 ["source"] = "Dragonflayer Bonecrusher",
 ["npcID"] = 24069,
 },
-[449295] = {
-["encounterName"] = "Tomb-Raider Drywhisker",
-["source"] = "Tomb-Raider Drywhisker",
-["npcID"] = 204188,
+[320637] = {
+["encounterName"] = "Blightbone",
+["source"] = "Blightbone",
+["encounterID"] = 2387,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2878,
+["npcID"] = 162691,
 },
-[317231] = {
-["encounterName"] = "Xav the Unfallen",
-["source"] = "Xav the Unfallen",
-["npcID"] = 162329,
+[195284] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2366,
+["source"] = "Restless Tides",
+["npcID"] = 97173,
 },
 [437956] = {
 ["event"] = "SPELL_CAST_START",
@@ -70425,10 +69210,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 163618,
 },
-[195284] = {
+[22938] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Restless Tides",
-["npcID"] = 97173,
+["source"] = "Mana Burst",
+["npcID"] = 14397,
 },
 [354011] = {
 ["encounterName"] = "Sylvanas Windrunner",
@@ -70437,10 +69222,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[357083] = {
+[111801] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "High Torturer",
-["npcID"] = 180864,
+["source"] = "Risen Guard",
+["npcID"] = 58822,
 },
 [470719] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -70453,40 +69238,43 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 217670,
 },
-[22938] = {
+[448269] = {
+["source"] = "Foreseer Xix'amon",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mana Burst",
-["npcID"] = 14397,
+["npcID"] = 215435,
 },
-[111801] = {
+[59734] = {
+["encounterName"] = "Ingvar the Plunderer",
+["source"] = "Ingvar the Plunderer",
+["npcID"] = 23954,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Risen Guard",
-["npcID"] = 58822,
+["encounterID"] = 2025,
 },
 [471744] = {
 ["source"] = "Brinebough",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231356,
 },
-[377559] = {
-["encounterName"] = "Treemouth",
-["npcID"] = 186120,
-["encounterID"] = 2568,
+[357084] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Mawsworn Arbalest",
+["npcID"] = 180379,
 },
 [42740] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Dragonflayer Runecaster",
 ["npcID"] = 23960,
 },
-[448269] = {
-["source"] = "Foreseer Xix'amon",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 215435,
+[377559] = {
+["encounterName"] = "Treemouth",
+["npcID"] = 186120,
+["encounterID"] = 2568,
 },
-[398631] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Arathor Scout",
-["npcID"] = 227719,
+[438622] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Engorged Crawler",
+["npcID"] = 214840,
 },
 [82137] = {
 ["event"] = "SPELL_CAST_START",
@@ -70498,16 +69286,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 114399,
 },
-[438622] = {
+[17620] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Engorged Crawler",
-["npcID"] = 214840,
+["source"] = "Maleki the Pallid",
+["npcID"] = 10438,
 },
-[52904] = {
+[457881] = {
+["source"] = "Zekvir",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Titanium Thunderer",
-["npcID"] = 28965,
+["npcID"] = 227471,
 },
 [47731] = {
 ["encounterName"] = "Grand Magus Telestra",
@@ -70533,21 +69321,21 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 229953,
 },
-[1214897] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Dockmaster Skeez",
-["npcID"] = 225706,
-},
 [464581] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ookin Scoundrel",
 ["npcID"] = 227641,
 },
-[17620] = {
+[1214897] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Dockmaster Skeez",
+["npcID"] = 225706,
+},
+[106942] = {
 ["isChanneled"] = true,
+["source"] = "Destroying Sha",
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Maleki the Pallid",
-["npcID"] = 10438,
+["npcID"] = 56765,
 },
 [15232] = {
 ["event"] = "SPELL_CAST_START",
@@ -70568,32 +69356,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1143,
 },
-[122832] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "The Unforgiven",
-["npcID"] = 10516,
-},
-[151447] = {
-["source"] = "Bloodmaul Enforcer",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 84978,
-},
-[44519] = {
-["source"] = "Sunblade Warlock",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24686,
-},
-[7713] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Undead Postman",
-["npcID"] = 11142,
-},
-[385578] = {
-["encounterName"] = "Azureblade",
-["npcID"] = 186739,
-["encounterID"] = 2585,
-},
 [81642] = {
 ["encounterName"] = "Lockmaw",
 ["source"] = "Lockmaw",
@@ -70602,15 +69364,20 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1054,
 },
-[154519] = {
-["source"] = "Leaf-Reader Kurri",
+[151447] = {
+["source"] = "Bloodmaul Enforcer",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 72537,
+["npcID"] = 84978,
 },
-[116178] = {
-["source"] = "Sudsy Brew Alemental",
+[385578] = {
+["encounterName"] = "Azureblade",
+["npcID"] = 186739,
+["encounterID"] = 2585,
+},
+[7713] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 59522,
+["source"] = "Undead Postman",
+["npcID"] = 11142,
 },
 [196656] = {
 ["source"] = "Malace Shade",
@@ -70622,6 +69389,30 @@ nil,
 ["source"] = "Stormforged Construct",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 28835,
+},
+[116178] = {
+["source"] = "Sudsy Brew Alemental",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 59522,
+},
+[464584] = {
+["encounterName"] = "Rik Reverb",
+["source"] = "Rik Reverb",
+["npcID"] = 228648,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3011,
+},
+[470976] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Seafury Spiker",
+["npcID"] = 227625,
+},
+[198428] = {
+["encounterName"] = "Ularogg Cragshaper",
+["source"] = "Ularogg Cragshaper",
+["npcID"] = 91004,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1791,
 },
 [451276] = {
 ["source"] = "Rotbark the Unfelled",
@@ -70652,20 +69443,20 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 217489,
 },
-[34984] = {
+[465723] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Fen Ray",
-["npcID"] = 17731,
+["source"] = "Macabea The Sea Banshee",
+["npcID"] = 227717,
 },
 [69564] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Soulguard Adept",
 ["npcID"] = 36620,
 },
-[465723] = {
+[109334] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Macabea The Sea Banshee",
-["npcID"] = 227717,
+["source"] = "Twilight Frost Evoker",
+["npcID"] = 57807,
 },
 [455373] = {
 ["encounterName"] = "Rasha'nan",
@@ -70674,37 +69465,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2918,
 },
-[112911] = {
-["source"] = "Fragment of Hatred",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 58810,
-},
-[109334] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Twilight Frost Evoker",
-["npcID"] = 57807,
-},
-[178067] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Sea Skrog",
-["npcID"] = 88094,
-},
 [355811] = {
 ["source"] = "Mawsworn Corruptor",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 177291,
 },
-[44276] = {
-["encounterName"] = "Priestess Delrissa",
-["source"] = "Zelfan",
-["encounterID"] = 1895,
+[441626] = {
+["encounterName"] = "The Silken Court",
+["source"] = "Skeinspinner Takazj",
+["encounterID"] = 2921,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 24556,
+["npcID"] = 217491,
 },
-[209404] = {
+[178067] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Duskwatch Arcanist",
-["npcID"] = 104247,
+["source"] = "Sea Skrog",
+["npcID"] = 88094,
 },
 [197546] = {
 ["encounterName"] = "Ilysanna Ravencrest",
@@ -70712,6 +69488,21 @@ nil,
 ["npcID"] = 98696,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1833,
+},
+[209404] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Duskwatch Arcanist",
+["npcID"] = 104247,
+},
+[34361] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Sunseeker Botanist",
+["npcID"] = 18422,
+},
+[445191] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Spitfire Charger",
+["npcID"] = 213577,
 },
 [430805] = {
 ["source"] = "Coalescing Void Diffuser",
@@ -70725,6 +69516,13 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 162689,
 },
+[149941] = {
+["encounterName"] = "Magmolatus",
+["source"] = "Ruination",
+["encounterID"] = 1655,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 74570,
+},
 [448663] = {
 ["encounterName"] = "Under-Lord Vik'tis",
 ["source"] = "Under-Lord Vik'tis",
@@ -70732,17 +69530,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220158,
 },
-[445191] = {
+[17470] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Spitfire Charger",
-["npcID"] = 213577,
-},
-[444687] = {
-["encounterName"] = "Rasha'nan",
-["source"] = "Rasha'nan",
-["npcID"] = 214504,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2918,
+["source"] = "Timmy the Cruel",
+["npcID"] = 10808,
 },
 [199567] = {
 ["encounterName"] = "Lord Kur'talos Ravencrest",
@@ -70756,12 +69547,10 @@ nil,
 ["source"] = "Infused Goliath",
 ["npcID"] = 176535,
 },
-[149941] = {
-["encounterName"] = "Magmolatus",
-["source"] = "Ruination",
-["encounterID"] = 1655,
+[378850] = {
+["source"] = "Babbling Book",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 74570,
+["npcID"] = 223852,
 },
 [41078] = {
 ["encounterName"] = "Illidan Stormrage",
@@ -70770,20 +69559,23 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 609,
 },
-[17470] = {
+[157049] = {
+["source"] = "Grom'tash the Destructor",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Timmy the Cruel",
-["npcID"] = 10808,
+["npcID"] = 77889,
 },
-[378850] = {
-["source"] = "Babbling Book",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 223852,
+[427899] = {
+["encounterName"] = "Archmage Sol",
+["source"] = "Archmage Sol",
+["encounterID"] = 1751,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 82682,
 },
-[201959] = {
+[465211] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Emberhusk Dominator",
-["npcID"] = 113536,
+["source"] = "Bloodwake Marauder",
+["npcID"] = 229101,
 },
 [472782] = {
 ["encounterName"] = "Mug'Zee, Heads of Security",
@@ -70797,23 +69589,24 @@ nil,
 ["source"] = "Gritslime Snail",
 ["npcID"] = 91786,
 },
-[427899] = {
-["encounterName"] = "Archmage Sol",
-["source"] = "Archmage Sol",
-["encounterID"] = 1751,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 82682,
+[86205] = {
+["encounterName"] = "Conclave of Wind",
+["source"] = "Anshal",
+["npcID"] = 45870,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1035,
 },
 [1214943] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Zirdo",
 ["npcID"] = 225705,
 },
-[465211] = {
+[452099] = {
+["encounterName"] = "Anub'ikkaj",
+["source"] = "Animated Shadow",
+["encounterID"] = 2838,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Bloodwake Marauder",
-["npcID"] = 229101,
+["npcID"] = 224616,
 },
 [448213] = {
 ["encounterName"] = "Rasha'nan",
@@ -70827,49 +69620,35 @@ nil,
 ["source"] = "Ramkahen Hunter",
 ["npcID"] = 162342,
 },
-[471760] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Underrider Pillager",
-["npcID"] = 228863,
-},
 [455380] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Malfunctioning Railbot",
 ["npcID"] = 218251,
+},
+[101592] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Murozond",
+["npcID"] = 54432,
 },
 [12737] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Mage Hunter Ascendant",
 ["npcID"] = 26727,
 },
-[86205] = {
-["encounterName"] = "Conclave of Wind",
-["source"] = "Anshal",
-["npcID"] = 45870,
+[343470] = {
+["source"] = "Skeletal Marauder",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1035,
-},
-[452099] = {
-["encounterName"] = "Anub'ikkaj",
-["source"] = "Animated Shadow",
-["encounterID"] = 2838,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 224616,
-},
-[151965] = {
-["source"] = "Bloodmaul Slaver",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 75191,
-},
-[384978] = {
-["encounterName"] = "Umbrelskul",
-["npcID"] = 186738,
-["encounterID"] = 2584,
+["npcID"] = 165919,
 },
 [325163] = {
 ["source"] = "Mistveil Defender",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 171772,
+},
+[151965] = {
+["source"] = "Bloodmaul Slaver",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 75191,
 },
 [431896] = {
 ["encounterName"] = "Brewmaster Aldryr",
@@ -70878,15 +69657,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2900,
 },
-[430812] = {
-["source"] = "Coalescing Void Diffuser",
+[156718] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 214421,
-},
-[424773] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Gnarled Reviver",
-["npcID"] = 207468,
+["source"] = "Monstrous Corpse Spider",
+["npcID"] = 76104,
 },
 [456900] = {
 ["encounterName"] = "Forgemaster Throngus",
@@ -70895,17 +69669,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 40177,
 },
+[430812] = {
+["source"] = "Coalescing Void Diffuser",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 214421,
+},
 [429422] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Cursedforge Stoneshaper",
 ["npcID"] = 214066,
-},
-[451288] = {
-["encounterName"] = "The Bloodbound Horror",
-["source"] = "Lost Watcher",
-["encounterID"] = 2917,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 221667,
 },
 [152964] = {
 ["event"] = "SPELL_CAST_START",
@@ -70919,11 +69691,30 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1793,
 },
-[330569] = {
+[451288] = {
+["encounterName"] = "The Bloodbound Horror",
+["source"] = "Lost Watcher",
+["encounterID"] = 2917,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 221667,
+},
+[226406] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Emberhusk Dominator",
+["npcID"] = 113537,
+},
+[443138] = {
+["source"] = "Royal Scribe",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 221035,
+},
+[468694] = {
+["encounterName"] = "Mug'Zee, Heads of Security",
+["source"] = "Mug'Zee",
+["encounterID"] = 3015,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Consumption",
-["npcID"] = 179768,
+["npcID"] = 229953,
 },
 [174489] = {
 ["event"] = "SPELL_CAST_START",
@@ -70949,13 +69740,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 59555,
 },
-[468694] = {
-["encounterName"] = "Mug'Zee, Heads of Security",
-["source"] = "Mug'Zee",
-["encounterID"] = 3015,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 229953,
+[444985] = {
+["source"] = "Pupating Stinger",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 216288,
 },
 [448219] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -70968,50 +69756,50 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 98406,
 },
-[443138] = {
-["source"] = "Royal Scribe",
+[390926] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 221035,
-},
-[457434] = {
-["source"] = "Riled Dirtdiver",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 225905,
-},
-[154527] = {
-["source"] = "Sargerei Soulbinder",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 77812,
+["source"] = "Waterworks Dynamo",
+["npcID"] = 223918,
 },
 [200084] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ghostly Retainer",
 ["npcID"] = 98366,
 },
-[444985] = {
-["source"] = "Pupating Stinger",
+[154527] = {
+["source"] = "Sargerei Soulbinder",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 216288,
+["npcID"] = 77812,
 },
-[390926] = {
+[249224] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Waterworks Dynamo",
-["npcID"] = 223918,
+["source"] = "Riftworld Assistant",
+["npcID"] = 125569,
+},
+[153521] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Adept of the Dawn",
+["npcID"] = 79467,
+},
+[324986] = {
+["source"] = "Mistveil Stalker",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 166301,
 },
 [464601] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ookin Scoundrel",
 ["npcID"] = 227641,
 },
+[196916] = {
+["source"] = "Lady Velandras Ravencrest",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 98538,
+},
 [194966] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Lord Etheldrin Ravencrest",
 ["npcID"] = 98521,
-},
-[153521] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Adept of the Dawn",
-["npcID"] = 79467,
 },
 [244106] = {
 ["encounterName"] = "Garothi Worldbreaker",
@@ -71021,30 +69809,31 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 2076,
 },
-[324986] = {
-["source"] = "Mistveil Stalker",
+[22651] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 166301,
+["source"] = "Zevrim Thornhoof",
+["npcID"] = 11490,
 },
-[196916] = {
-["source"] = "Lady Velandras Ravencrest",
+[159021] = {
+["source"] = "Durag the Dominator",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 98538,
+["npcID"] = 77890,
 },
 [34809] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Bloodwarder Mender",
 ["npcID"] = 19633,
 },
-[22651] = {
+[20831] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Zevrim Thornhoof",
-["npcID"] = 11490,
+["source"] = "Mana Remnant",
+["npcID"] = 11483,
 },
-[451280] = {
-["source"] = "Rotbark the Unfelled",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217670,
+[153926] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Skyreach Raven Whisperer",
+["npcID"] = 76154,
 },
 [355062] = {
 ["event"] = "SPELL_CAST_START",
@@ -71064,10 +69853,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 219983,
 },
-[20831] = {
+[152910] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mana Remnant",
-["npcID"] = 11483,
+["source"] = "Whirling Dervish",
+["npcID"] = 79469,
 },
 [355063] = {
 ["event"] = "SPELL_CAST_START",
@@ -71081,11 +69870,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 230316,
 },
-[153926] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Skyreach Raven Whisperer",
-["npcID"] = 76154,
+[33775] = {
+["encounterName"] = "Keli'dan the Breaker",
+["source"] = "Keli'dan the Breaker",
+["encounterID"] = 1923,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 17377,
 },
 [52469] = {
 ["encounterName"] = "Krik'thir the Gatewatcher",
@@ -71094,17 +69884,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1971,
 },
-[152910] = {
+[249121] = {
+["encounterName"] = "The Defense of Eonar",
+["source"] = "The Paraxis",
+["encounterID"] = 2075,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Whirling Dervish",
-["npcID"] = 79469,
-},
-[33775] = {
-["encounterName"] = "Keli'dan the Breaker",
-["source"] = "Keli'dan the Breaker",
-["encounterID"] = 1923,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 17377,
+["npcID"] = 124445,
 },
 [231823] = {
 ["isChanneled"] = true,
@@ -71112,15 +69897,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 214483,
 },
-[452927] = {
+[439012] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Balnazzar",
-["npcID"] = 10813,
-},
-[453345] = {
-["source"] = "Manifested Shadow",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 211341,
+["source"] = "Venommaster Nezarox",
+["npcID"] = 219006,
 },
 [57062] = {
 ["encounterName"] = "Anomalus",
@@ -71129,15 +69909,25 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2009,
 },
-[1219096] = {
+[453345] = {
+["source"] = "Manifested Shadow",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Trashmaster Blazedump",
-["npcID"] = 238011,
+["npcID"] = 211341,
+},
+[16866] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Venom Belcher",
+["npcID"] = 10417,
 },
 [464607] = {
 ["source"] = "Brinescale Cutthroat",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 227642,
+},
+[1219096] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Trashmaster Blazedump",
+["npcID"] = 238011,
 },
 [449251] = {
 ["source"] = "Nerubian Threadmancer",
@@ -71164,10 +69954,10 @@ nil,
 ["source"] = "Bloodwarder Greenkeeper",
 ["npcID"] = 18419,
 },
-[32330] = {
+[445781] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Lykul Wasp",
-["npcID"] = 17732,
+["source"] = "Stolen Loader",
+["npcID"] = 223541,
 },
 [200637] = {
 ["encounterName"] = "Dargrul the Underking",
@@ -71176,10 +69966,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1793,
 },
-[445781] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Stolen Loader",
-["npcID"] = 223541,
+[377204] = {
+["encounterName"] = "Warlord Sargha",
+["npcID"] = 189901,
+["encounterID"] = 2611,
 },
 [34170] = {
 ["event"] = "SPELL_CAST_START",
@@ -71203,48 +69993,37 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214503,
 },
-[162407] = {
-["encounterName"] = "Rocketspark and Borka",
-["source"] = "Railmaster Rocketspark",
-["encounterID"] = 1715,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 77803,
-},
-[369563] = {
-["encounterName"] = "The Lost Dwarves",
-["npcID"] = 184581,
-["encounterID"] = 2555,
-},
-[17473] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Lord Aurius Rivendare",
-["npcID"] = 45412,
-},
-[202181] = {
-["source"] = "Rockback Gnasher",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 91006,
-},
 [200099] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Ghostly Protector",
 ["npcID"] = 98368,
 },
+[202181] = {
+["source"] = "Rockback Gnasher",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 91006,
+},
+[17473] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Lord Aurius Rivendare",
+["npcID"] = 45412,
+},
+[130266] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Thunder Hold Soldier",
+["npcID"] = 66200,
+},
+[22273] = {
+["isChanneled"] = true,
+["source"] = "Ethereal Sorcerer",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 18313,
+},
 [186269] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Blightshard Shaper",
 ["npcID"] = 90998,
-},
-[69056] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Soulguard Watchman",
-["npcID"] = 36478,
-},
-[382712] = {
-["source"] = "Wilted Oak",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 186229,
 },
 [52086] = {
 ["encounterName"] = "Krik'thir the Gatewatcher",
@@ -71253,6 +70032,18 @@ nil,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1971,
+},
+[382712] = {
+["source"] = "Wilted Oak",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 186229,
+},
+[436971] = {
+["encounterName"] = "Nexus-Princess Ky'veza",
+["source"] = "Nexus-Princess Ky'veza",
+["encounterID"] = 2920,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 217748,
 },
 [176032] = {
 ["source"] = "Grom'kar Cinderseer",
@@ -71266,26 +70057,28 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211087,
 },
-[130266] = {
+[448249] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Colossal Titan Orb",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Thunder Hold Soldier",
-["npcID"] = 66200,
+["npcID"] = 221730,
 },
 [152998] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Grand Defense Construct",
 ["npcID"] = 76145,
 },
-[22273] = {
-["isChanneled"] = true,
-["source"] = "Ethereal Sorcerer",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 18313,
-},
-[429427] = {
-["source"] = "Cursedforge Stoneshaper",
+[69056] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 214066,
+["source"] = "Soulguard Watchman",
+["npcID"] = 36478,
+},
+[162407] = {
+["encounterName"] = "Rocketspark and Borka",
+["source"] = "Railmaster Rocketspark",
+["encounterID"] = 1715,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 77803,
 },
 [423664] = {
 ["encounterName"] = "Prioress Murrpray",
@@ -71294,11 +70087,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2848,
 },
-[448249] = {
-["encounterName"] = "Cauldron of Carnage",
-["source"] = "Colossal Titan Orb",
+[420808] = {
+["source"] = "Lord Hel'nurath",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 221730,
+["npcID"] = 205933,
 },
 [196508] = {
 ["encounterName"] = "Inquisitor Tormentorum",
@@ -71307,13 +70099,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 99657,
 },
-[447143] = {
-["encounterName"] = "Researcher Ven'kex",
-["source"] = "Researcher Ven'kex",
-["npcID"] = 219856,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["encounterID"] = 2991,
+[448248] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Bloodstained Webmage",
+["npcID"] = 223253,
 },
 [30846] = {
 ["event"] = "SPELL_CAST_START",
@@ -71347,15 +70136,19 @@ nil,
 ["source"] = "Murkblood Healer",
 ["npcID"] = 17730,
 },
-[420808] = {
-["source"] = "Lord Hel'nurath",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 205933,
+[447143] = {
+["encounterName"] = "Researcher Ven'kex",
+["source"] = "Researcher Ven'kex",
+["npcID"] = 219856,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 2991,
 },
-[448248] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Bloodstained Webmage",
-["npcID"] = 223253,
+[115421] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Krik'thik Wind Shaper",
+["npcID"] = 59801,
 },
 [326574] = {
 ["encounterName"] = "Surgeon Stitchflesh",
@@ -71364,12 +70157,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 162689,
 },
-[438012] = {
-["encounterName"] = "Ulgrax the Devourer",
-["source"] = "Ulgrax the Devourer",
-["npcID"] = 215657,
+[200689] = {
+["source"] = "Vile Soulmaster",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2902,
+["npcID"] = 97014,
 },
 [466665] = {
 ["event"] = "SPELL_CAST_START",
@@ -71378,17 +70169,6 @@ nil,
 },
 [369409] = {
 ["npcID"] = 184130,
-},
-[115421] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Krik'thik Wind Shaper",
-["npcID"] = 59801,
-},
-[200689] = {
-["source"] = "Vile Soulmaster",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 97014,
 },
 [355074] = {
 ["event"] = "SPELL_CAST_START",
@@ -71403,6 +70183,18 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1677,
 },
+[115002] = {
+["encounterName"] = "Taran Zhu",
+["source"] = "Taran Zhu",
+["encounterID"] = 1306,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 56884,
+},
+[130265] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Thunder Hold Soldier",
+["npcID"] = 66291,
+},
 [193951] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Barbed Spiderling",
@@ -71414,25 +70206,15 @@ nil,
 ["source"] = "Grand Defense Construct",
 ["npcID"] = 76145,
 },
-[369573] = {
-["encounterName"] = "The Lost Dwarves",
-["npcID"] = 184581,
-["encounterID"] = 2555,
+[458582] = {
+["source"] = "Sureki Darkblade",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 222274,
 },
 [426741] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Naz'jar Sentinel",
 ["npcID"] = 40577,
-},
-[130265] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Thunder Hold Soldier",
-["npcID"] = 66291,
-},
-[456453] = {
-["source"] = "Skardyn Devastator",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 215844,
 },
 [52960] = {
 ["encounterName"] = "Loken",
@@ -71441,10 +70223,21 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1986,
 },
-[157020] = {
+[456453] = {
+["source"] = "Skardyn Devastator",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Blinding Solar Flare",
-["npcID"] = 79462,
+["npcID"] = 215844,
+},
+[324372] = {
+["isChanneled"] = true,
+["source"] = "Skeletal Monstrosity",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 165197,
+},
+[257426] = {
+["source"] = "Irontide Enforcer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 129602,
 },
 [160680] = {
 ["encounterName"] = "Nitrogg Thundertower",
@@ -71460,12 +70253,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 75839,
 },
-[283422] = {
-["encounterName"] = "Tussle Tonks",
-["source"] = "Gnomercy 4.U.",
-["npcID"] = 145185,
+[202658] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2257,
+["source"] = "Malignant Defiler",
+["npcID"] = 102584,
 },
 [207261] = {
 ["encounterName"] = "Patrol Captain Gerdo",
@@ -71474,15 +70265,23 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1868,
 },
-[202658] = {
+[20801] = {
+["source"] = "Imp Minion",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Malignant Defiler",
-["npcID"] = 102584,
+["npcID"] = 12922,
 },
-[257426] = {
-["source"] = "Irontide Enforcer",
+[453271] = {
+["encounterName"] = "The Crown Chemical Co.",
+["source"] = "Aggregation of Horrors",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 129602,
+["npcID"] = 220999,
+},
+[154135] = {
+["encounterName"] = "Araknath",
+["source"] = "Araknath",
+["npcID"] = 76141,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1699,
 },
 [150324] = {
 ["encounterName"] = "Magmolatus",
@@ -71490,11 +70289,6 @@ nil,
 ["encounterID"] = 1655,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 74570,
-},
-[20801] = {
-["source"] = "Imp Minion",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 12922,
 },
 [160681] = {
 ["encounterName"] = "Nitrogg Thundertower",
@@ -71504,12 +70298,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 79548,
 },
-[154135] = {
-["encounterName"] = "Araknath",
-["source"] = "Araknath",
-["npcID"] = 76141,
+[157020] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1699,
+["source"] = "Blinding Solar Flare",
+["npcID"] = 79462,
 },
 [470766] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -71522,11 +70314,12 @@ nil,
 ["source"] = "Candy Stickemup",
 ["npcID"] = 231012,
 },
-[453271] = {
-["encounterName"] = "The Crown Chemical Co.",
-["source"] = "Aggregation of Horrors",
+[283422] = {
+["encounterName"] = "Tussle Tonks",
+["source"] = "Gnomercy 4.U.",
+["npcID"] = 145185,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 220999,
+["encounterID"] = 2257,
 },
 [87779] = {
 ["event"] = "SPELL_CAST_START",
@@ -71545,11 +70338,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2929,
 },
-[324372] = {
-["isChanneled"] = true,
-["source"] = "Skeletal Monstrosity",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 165197,
+[369573] = {
+["encounterName"] = "The Lost Dwarves",
+["npcID"] = 184581,
+["encounterID"] = 2555,
 },
 [445174] = {
 ["encounterName"] = "The Bloodbound Horror",
@@ -71575,24 +70367,24 @@ nil,
 ["source"] = "Nerubian Threadmancer",
 ["npcID"] = 208244,
 },
-[458582] = {
-["source"] = "Sureki Darkblade",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 222274,
-},
-[115002] = {
-["encounterName"] = "Taran Zhu",
-["source"] = "Taran Zhu",
-["encounterID"] = 1306,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 56884,
-},
 [150048] = {
 ["encounterName"] = "Magmolatus",
 ["source"] = "Molten Elemental",
 ["encounterID"] = 1655,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 74579,
+},
+[438012] = {
+["encounterName"] = "Ulgrax the Devourer",
+["source"] = "Ulgrax the Devourer",
+["npcID"] = 215657,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2902,
+},
+[211473] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Shadow Mistress",
+["npcID"] = 104300,
 },
 [59638] = {
 ["source"] = "Mirror Image",
@@ -71609,20 +70401,20 @@ nil,
 ["source"] = "Goblin Woodcarver",
 ["npcID"] = 641,
 },
-[211473] = {
+[355072] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Shadow Mistress",
-["npcID"] = 104300,
+["source"] = "Mawsworn Darkcaster",
+["npcID"] = 178628,
 },
 [456438] = {
 ["source"] = "Skardyn Reaver",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 215842,
 },
-[355072] = {
+[429427] = {
+["source"] = "Cursedforge Stoneshaper",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Darkcaster",
-["npcID"] = 178628,
+["npcID"] = 214066,
 },
 [196515] = {
 ["event"] = "SPELL_CAST_START",
@@ -71661,12 +70453,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 36272,
 },
-[436971] = {
-["encounterName"] = "Nexus-Princess Ky'veza",
-["source"] = "Nexus-Princess Ky'veza",
-["encounterID"] = 2920,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217748,
+[369563] = {
+["encounterName"] = "The Lost Dwarves",
+["npcID"] = 184581,
+["encounterID"] = 2555,
 },
 [424704] = {
 ["event"] = "SPELL_CAST_START",
@@ -71690,10 +70480,10 @@ nil,
 ["source"] = "Imperious Blaster",
 ["npcID"] = 229356,
 },
-[377204] = {
-["encounterName"] = "Warlord Sargha",
-["npcID"] = 189901,
-["encounterID"] = 2611,
+[32330] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Lykul Wasp",
+["npcID"] = 17732,
 },
 [37372] = {
 ["encounterName"] = "Keli'dan the Breaker",
@@ -71721,10 +70511,10 @@ nil,
 ["source"] = "Sureki Vanguard",
 ["npcID"] = 224066,
 },
-[16866] = {
+[452927] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Venom Belcher",
-["npcID"] = 10417,
+["source"] = "Balnazzar",
+["npcID"] = 10813,
 },
 [463609] = {
 ["encounterName"] = "Nexus-Princess Ky'veza",
@@ -71740,18 +70530,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[249121] = {
-["encounterName"] = "The Defense of Eonar",
-["source"] = "The Paraxis",
-["encounterID"] = 2075,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 124445,
-},
-[439012] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Venommaster Nezarox",
-["npcID"] = 219006,
-},
 [338357] = {
 ["source"] = "Kyrian Stitchwerk",
 ["event"] = "SPELL_CAST_START",
@@ -71762,20 +70540,20 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 167113,
 },
-[420613] = {
-["source"] = "Hel'nurathian Felmaw",
+[451280] = {
+["source"] = "Rotbark the Unfelled",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 210883,
+["npcID"] = 217670,
 },
 [466716] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ikir the Flotsurge",
 ["npcID"] = 227545,
 },
-[159021] = {
-["source"] = "Durag the Dominator",
+[420613] = {
+["source"] = "Hel'nurathian Felmaw",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 77890,
+["npcID"] = 210883,
 },
 [443842] = {
 ["encounterName"] = "Ulgrax the Devourer",
@@ -71789,15 +70567,25 @@ nil,
 ["source"] = "Wyrmtongue Scavenger",
 ["npcID"] = 98792,
 },
-[202661] = {
+[466820] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Fel Scorcher",
-["npcID"] = 102583,
+["source"] = "Grimgull",
+["npcID"] = 228155,
 },
 [191527] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Blade Dancer Illianna",
 ["npcID"] = 96657,
+},
+[202661] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Fel Scorcher",
+["npcID"] = 102583,
+},
+[457434] = {
+["source"] = "Riled Dirtdiver",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 225905,
 },
 [203685] = {
 ["encounterName"] = "Inquisitor Tormentorum",
@@ -71806,15 +70594,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1850,
 },
-[466820] = {
+[102573] = {
+["encounterName"] = "Gu Cloudstrike",
+["source"] = "Azure Serpent",
+["encounterID"] = 1303,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Grimgull",
-["npcID"] = 228155,
+["npcID"] = 56754,
 },
-[249224] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Riftworld Assistant",
-["npcID"] = 125569,
+[330569] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Consumption",
+["npcID"] = 179768,
 },
 [348953] = {
 ["encounterName"] = "Kel'Thuzad",
@@ -71828,18 +70619,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 215435,
 },
-[102573] = {
-["encounterName"] = "Gu Cloudstrike",
-["source"] = "Azure Serpent",
-["encounterID"] = 1303,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 56754,
-},
-[226406] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Emberhusk Dominator",
-["npcID"] = 113537,
-},
 [55077] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Savage Worg",
@@ -71852,10 +70631,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 207207,
 },
-[7154] = {
-["source"] = "Sandfury Soul Eater",
+[424773] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 7247,
+["source"] = "Gnarled Reviver",
+["npcID"] = 207468,
 },
 [20824] = {
 ["encounterName"] = "The Black Stalker",
@@ -71864,35 +70643,35 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 22299,
 },
-[156718] = {
+[7154] = {
+["source"] = "Sandfury Soul Eater",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Monstrous Corpse Spider",
-["npcID"] = 76104,
+["npcID"] = 7247,
 },
-[468734] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Gravesludge",
-["npcID"] = 228201,
+[384978] = {
+["encounterName"] = "Umbrelskul",
+["npcID"] = 186738,
+["encounterID"] = 2584,
 },
 [151566] = {
 ["source"] = "Bloodmaul Magma Binder",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 74349,
 },
-[343470] = {
-["source"] = "Skeletal Marauder",
+[468734] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 165919,
+["source"] = "Gravesludge",
+["npcID"] = 228201,
+},
+[471760] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Underrider Pillager",
+["npcID"] = 228863,
 },
 [463217] = {
 ["source"] = "Mistveil Guardian",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 166276,
-},
-[101592] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Murozond",
-["npcID"] = 54432,
 },
 [419211] = {
 ["source"] = "Feltouched Ancient",
@@ -71906,10 +70685,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 213937,
 },
-[324387] = {
-["source"] = "Skeletal Monstrosity",
+[201959] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 165197,
+["source"] = "Emberhusk Dominator",
+["npcID"] = 113536,
 },
 [447187] = {
 ["encounterName"] = "Researcher Ven'kex",
@@ -71918,10 +70697,24 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2991,
 },
-[157049] = {
-["source"] = "Grom'tash the Destructor",
+[324387] = {
+["source"] = "Skeletal Monstrosity",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 77889,
+["npcID"] = 165197,
+},
+[444687] = {
+["encounterName"] = "Rasha'nan",
+["source"] = "Rasha'nan",
+["npcID"] = 214504,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2918,
+},
+[188114] = {
+["encounterName"] = "Rokmora",
+["source"] = "Rokmora",
+["npcID"] = 91003,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1790,
 },
 [153524] = {
 ["event"] = "SPELL_CAST_START",
@@ -71950,12 +70743,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2931,
 },
-[188114] = {
-["encounterName"] = "Rokmora",
-["source"] = "Rokmora",
-["npcID"] = 91003,
+[44276] = {
+["encounterName"] = "Priestess Delrissa",
+["source"] = "Zelfan",
+["encounterID"] = 1895,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1790,
+["npcID"] = 24556,
 },
 [472833] = {
 ["event"] = "SPELL_CAST_START",
@@ -71967,25 +70760,23 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220138,
 },
-[34361] = {
+[112911] = {
+["source"] = "Fragment of Hatred",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Sunseeker Botanist",
-["npcID"] = 18422,
+["npcID"] = 58810,
 },
-[441626] = {
-["encounterName"] = "The Silken Court",
-["source"] = "Skeinspinner Takazj",
-["encounterID"] = 2921,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217491,
+[372201] = {
+["npcID"] = 189464,
 },
 [158644] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Solar Magnifier",
 ["npcID"] = 77559,
 },
-[372201] = {
-["npcID"] = 189464,
+[34984] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Fen Ray",
+["npcID"] = 17731,
 },
 [466692] = {
 ["event"] = "SPELL_CAST_START",
@@ -72004,17 +70795,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2423,
 },
-[198428] = {
-["encounterName"] = "Ularogg Cragshaper",
-["source"] = "Ularogg Cragshaper",
-["npcID"] = 91004,
+[154519] = {
+["source"] = "Leaf-Reader Kurri",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1791,
-},
-[470976] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Seafury Spiker",
-["npcID"] = 227625,
+["npcID"] = 72537,
 },
 [36705] = {
 ["encounterName"] = "Warp Splinter",
@@ -72023,12 +70807,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1929,
 },
-[464584] = {
-["encounterName"] = "Rik Reverb",
-["source"] = "Rik Reverb",
-["npcID"] = 228648,
+[122832] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "The Unforgiven",
+["npcID"] = 10516,
+},
+[44519] = {
+["source"] = "Sunblade Warlock",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3011,
+["npcID"] = 24686,
 },
 [449290] = {
 ["event"] = "SPELL_CAST_START",
@@ -72053,26 +70841,25 @@ nil,
 ["source"] = "Xur'khun the Defiled",
 ["npcID"] = 221845,
 },
-[106942] = {
-["isChanneled"] = true,
-["source"] = "Destroying Sha",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 56765,
-},
-[457881] = {
-["source"] = "Zekvir",
+[357086] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 227471,
+["source"] = "Mawsworn Soulmage",
+["npcID"] = 176959,
+},
+[52904] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Titanium Thunderer",
+["npcID"] = 28965,
 },
 [324394] = {
 ["source"] = "Skeletal Monstrosity",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 165197,
 },
-[357086] = {
+[398631] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Soulmage",
-["npcID"] = 176959,
+["source"] = "Arathor Scout",
+["npcID"] = 227719,
 },
 [15586] = {
 ["event"] = "SPELL_CAST_START",
@@ -72096,56 +70883,30 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231288,
 },
-[357084] = {
+[324323] = {
+["source"] = "Skeletal Marauder",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Arbalest",
-["npcID"] = 180379,
+["npcID"] = 165919,
 },
-[59734] = {
-["encounterName"] = "Ingvar the Plunderer",
-["source"] = "Ingvar the Plunderer",
-["npcID"] = 23954,
+[357083] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2025,
+["source"] = "High Torturer",
+["npcID"] = 180864,
 },
 [426771] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Void-Bound Despoiler",
 ["npcID"] = 212765,
 },
-[324323] = {
-["source"] = "Skeletal Marauder",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 165919,
-},
-[265019] = {
-["source"] = "Chosen Blood Matron",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 131436,
-},
-[320637] = {
-["encounterName"] = "Blightbone",
-["source"] = "Blightbone",
-["encounterID"] = 2387,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 162691,
-},
 [413387] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Executor of the Caliph",
 ["npcID"] = 45928,
 },
-[358181] = {
-["encounterName"] = "Sylvanas Windrunner",
-["source"] = "Sylvanas Windrunner",
-["npcID"] = 175732,
+[265019] = {
+["source"] = "Chosen Blood Matron",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2435,
-},
-[420630] = {
-["source"] = "Hel'nurathian Felguard",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 210888,
+["npcID"] = 131436,
 },
 [47772] = {
 ["encounterName"] = "Grand Magus Telestra",
@@ -72159,20 +70920,44 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 221067,
 },
-[472842] = {
+[358181] = {
+["encounterName"] = "Sylvanas Windrunner",
+["source"] = "Sylvanas Windrunner",
+["npcID"] = 175732,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Bomb Bot",
-["npcID"] = 231928,
+["encounterID"] = 2435,
+},
+[420630] = {
+["source"] = "Hel'nurathian Felguard",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 210888,
+},
+[152893] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Herald of Sunrise",
+["npcID"] = 78933,
 },
 [197105] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Hatecoil Arcanist",
 ["npcID"] = 97171,
 },
-[22883] = {
-["source"] = "Ethereal Priest",
+[472842] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 18317,
+["source"] = "Bomb Bot",
+["npcID"] = 231928,
+},
+[199476] = {
+["source"] = "Sledge",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 92990,
+},
+[438976] = {
+["encounterName"] = "Queen Ansurek",
+["source"] = "Queen Ansurek",
+["encounterID"] = 2922,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 218370,
 },
 [40062] = {
 ["event"] = "SPELL_CAST_START",
@@ -72187,22 +70972,24 @@ nil,
 ["source"] = "Death Knight Captain",
 ["npcID"] = 16145,
 },
-[463104] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Brood Infuser",
-["npcID"] = 222167,
-},
-[260894] = {
-["encounterName"] = "Elder Leaxa",
-["source"] = "Elder Leaxa",
-["encounterID"] = 2111,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 131318,
-},
 [451107] = {
 ["source"] = "Sureki Webmage",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 210966,
+},
+[44189] = {
+["encounterName"] = "Kael'thas Sunstrider",
+["source"] = "Kael'thas Sunstrider",
+["encounterID"] = 1894,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 24664,
+},
+[34659] = {
+["encounterName"] = "Thorngrin the Tender",
+["source"] = "Thorngrin the Tender",
+["npcID"] = 17978,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1928,
 },
 [428823] = {
 ["encounterName"] = "Yalnu",
@@ -72216,10 +71003,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214550,
 },
-[455016] = {
-["source"] = "Caustic Skyrazor",
+[443068] = {
+["encounterName"] = "The Silken Court",
+["source"] = "Anub'arash",
+["npcID"] = 217489,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225817,
+["encounterID"] = 2921,
 },
 [444180] = {
 ["isChanneled"] = true,
@@ -72227,19 +71016,18 @@ nil,
 ["source"] = "Xur'khun the Defiled",
 ["npcID"] = 221845,
 },
-[269029] = {
-["encounterName"] = "Dread Captain Lockwood",
-["source"] = "Dread Captain Lockwood",
-["encounterID"] = 2109,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 129208,
+[462264] = {
+["isChanneled"] = true,
+["source"] = "Blood Drainer",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 229399,
 },
-[443068] = {
-["encounterName"] = "The Silken Court",
-["source"] = "Anub'arash",
-["npcID"] = 217489,
+[107588] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Goriona",
+["npcID"] = 56781,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2921,
+["encounterID"] = 1298,
 },
 [190898] = {
 ["source"] = "Mirana Starlight",
@@ -72256,29 +71044,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 215023,
 },
-[107588] = {
-["encounterName"] = "Warmaster Blackhorn",
-["source"] = "Goriona",
-["npcID"] = 56781,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1298,
-},
-[205231] = {
-["source"] = "Darkglare",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 103673,
-},
-[470706] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Darkfuse Machinist",
-["npcID"] = 229272,
-},
 [465587] = {
 ["encounterName"] = "One-Armed Bandit",
 ["source"] = "One-Armed Bandit",
 ["npcID"] = 228458,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3014,
+},
+[205231] = {
+["source"] = "Darkglare",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 103673,
+},
+[160312] = {
+["source"] = "Sargerei Cleric",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 77134,
+},
+[439857] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Royal Whisperer",
+["npcID"] = 219723,
 },
 [12675] = {
 ["source"] = "Murkblood Oracle",
@@ -72309,17 +71095,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2026,
 },
-[50653] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Enslaved Proto-Drake",
-["npcID"] = 24083,
-},
-[159290] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Solar Familiar",
-["npcID"] = 76097,
-},
 [162058] = {
 ["encounterName"] = "Skylord Tovra",
 ["source"] = "Skylord Tovra",
@@ -72345,6 +71120,18 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1987,
 },
+[470700] = {
+["source"] = "Marina Zapper",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 227645,
+},
+[465580] = {
+["encounterName"] = "One-Armed Bandit",
+["source"] = "One-Armed Bandit",
+["npcID"] = 228458,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3014,
+},
 [437019] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Kaheti Vanguard",
@@ -72362,32 +71149,33 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 217870,
 },
-[397892] = {
+[11981] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Imacu'tya",
-["npcID"] = 104275,
+["source"] = "Crazed Mana-Surge",
+["npcID"] = 26737,
 },
 [445210] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Spitfire Charger",
 ["npcID"] = 213577,
 },
-[11981] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Crazed Mana-Surge",
-["npcID"] = 26737,
-},
-[80009] = {
-["encounterName"] = "Rhahk'Zor",
-["source"] = "Defias Watchman",
-["npcID"] = 222866,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2967,
-},
 [467313] = {
 ["source"] = "Ghostmaker",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228601,
+},
+[8364] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Skeletal Guardian",
+["npcID"] = 10390,
+},
+[321226] = {
+["encounterName"] = "Amarth, The Harvester",
+["source"] = "Amarth",
+["encounterID"] = 2388,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 163157,
 },
 [473876] = {
 ["event"] = "SPELL_CAST_START",
@@ -72420,12 +71208,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 207205,
 },
-[106526] = {
-["encounterName"] = "Wise Mari",
-["source"] = "Wise Mari",
-["encounterID"] = 1418,
+[59019] = {
+["encounterName"] = "Slad'ran",
+["source"] = "Spitting Cobra",
+["npcID"] = 29774,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 56448,
+["encounterID"] = 1978,
 },
 [1215228] = {
 ["event"] = "SPELL_CAST_START",
@@ -72446,10 +71234,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2432,
 },
-[195944] = {
+[221117] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Skrog Wavecrasher",
-["npcID"] = 91796,
+["source"] = "General Tel'arn",
+["npcID"] = 110993,
 },
 [447261] = {
 ["encounterName"] = "General Umbriss",
@@ -72468,12 +71256,10 @@ nil,
 ["source"] = "Bee Wrangler",
 ["npcID"] = 210264,
 },
-[460582] = {
-["encounterName"] = "One-Armed Bandit",
-["source"] = "Reel Assistant",
-["npcID"] = 228463,
+[461850] = {
+["source"] = "The Ringing Death",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3014,
+["npcID"] = 214162,
 },
 [426787] = {
 ["encounterName"] = "Anub'ikkaj",
@@ -72482,38 +71268,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 211089,
 },
-[461850] = {
-["source"] = "The Ringing Death",
+[22946] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 214162,
+["source"] = "Arcane Torrent",
+["npcID"] = 14399,
 },
 [59259] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Hardened Steel Berserker",
 ["npcID"] = 28579,
 },
-[22946] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Arcane Torrent",
-["npcID"] = 14399,
+[115656] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Fragmented Crawler",
+["npcID"] = 229994,
 },
 [201141] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Wrathguard Bladelord",
 ["npcID"] = 98810,
-},
-[448458] = {
-["encounterName"] = "Queen Ansurek",
-["source"] = "Devoted Worshipper",
-["encounterID"] = 2922,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 223318,
-},
-[470686] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Mechano Wolf",
-["npcID"] = 228050,
 },
 [465829] = {
 ["event"] = "SPELL_CAST_START",
@@ -72533,6 +71308,17 @@ nil,
 ["source"] = "Infinite Suppressor",
 ["npcID"] = 54920,
 },
+[200757] = {
+["source"] = "Volatile Minion",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 96280,
+},
+[436781] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Scarab Captain Vul'akan",
+["npcID"] = 218306,
+},
 [445217] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Cinderbee Worker",
@@ -72541,10 +71327,10 @@ nil,
 [388911] = {
 ["npcID"] = 196577,
 },
-[200757] = {
-["source"] = "Volatile Minion",
+[471706] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 96280,
+["source"] = "Brinebough",
+["npcID"] = 231356,
 },
 [333629] = {
 ["encounterName"] = "Amarth, The Harvester",
@@ -72553,20 +71339,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 168246,
 },
-[41117] = {
-["encounterName"] = "Illidan Stormrage",
-["source"] = "Illidan Stormrage",
-["npcID"] = 22917,
+[209027] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 609,
+["source"] = "Duskwatch Guard",
+["npcID"] = 111563,
 },
-[83151] = {
-["encounterName"] = "Siamat",
-["source"] = "Siamat",
-["npcID"] = 44819,
+[412012] = {
 ["isChanneled"] = true,
+["source"] = "Infinite Timeslicer",
 ["event"] = "SPELL_CAST_SUCCESS",
-["encounterID"] = 1055,
+["npcID"] = 205408,
 },
 [166335] = {
 ["source"] = "Grom'kar Far Seer",
@@ -72585,20 +71367,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 22917,
 },
-[207906] = {
-["encounterName"] = "Talixae Flamewreath",
-["source"] = "Talixae Flamewreath",
-["npcID"] = 104217,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1869,
-},
-[196587] = {
-["encounterName"] = "Amalgam of Souls",
-["source"] = "Amalgam of Souls",
-["npcID"] = 98542,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1832,
-},
 [443598] = {
 ["encounterName"] = "The Silken Court",
 ["source"] = "Anub'arash",
@@ -72606,47 +71374,55 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 217489,
 },
-[375605] = {
+[55659] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Ancient Construct",
-["npcID"] = 185272,
+["source"] = "Drakkari Fire Weaver",
+["npcID"] = 29822,
 },
 [440231] = {
 ["source"] = "Dark-Crazed Harvester",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 206067,
 },
-[443325] = {
-["encounterName"] = "Queen Ansurek",
-["source"] = "Queen Ansurek",
-["encounterID"] = 2922,
+[375605] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218370,
+["source"] = "Ancient Construct",
+["npcID"] = 185272,
 },
 [272609] = {
 ["source"] = "Faceless Corruptor",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 138281,
 },
+[428703] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Rock Smasher",
+["npcID"] = 213954,
+},
 [156301] = {
 ["source"] = "Grom'kar Boomer",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 80935,
 },
-[428703] = {
+[82765] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Rock Smasher",
-["npcID"] = 213954,
+["source"] = "Neferset Darkcaster",
+["npcID"] = 44982,
+},
+[14033] = {
+["source"] = "Ethereal Darkcaster",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 18331,
 },
 [451364] = {
 ["source"] = "Twilight Brute",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 224152,
 },
-[14033] = {
-["source"] = "Ethereal Darkcaster",
+[61353] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 18331,
+["source"] = "Dagna Flintlock",
+["npcID"] = 96779,
 },
 [198073] = {
 ["encounterName"] = "Smashspite the Hateful",
@@ -72655,18 +71431,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1834,
 },
-[61353] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Dagna Flintlock",
-["npcID"] = 96779,
-},
-[369465] = {
-["npcID"] = 186420,
-},
 [378413] = {
 ["source"] = "Frenzied Tidecore",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 213699,
+},
+[369465] = {
+["npcID"] = 186420,
+},
+[356010] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Mawsworn Shackler",
+["npcID"] = 178041,
 },
 [102124] = {
 ["isChanneled"] = true,
@@ -72674,37 +71450,35 @@ nil,
 ["source"] = "Time-Twisted Breaker",
 ["npcID"] = 54552,
 },
-[430171] = {
+[1214674] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Wandering Candle",
-["npcID"] = 208450,
+["source"] = "Unearthed Kaja'mite",
+["npcID"] = 235109,
 },
 [180670] = {
 ["source"] = "K'ute",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 90215,
 },
-[356010] = {
+[430171] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Shackler",
-["npcID"] = 178041,
+["source"] = "Wandering Candle",
+["npcID"] = 208450,
 },
-[1214674] = {
+[164887] = {
+["source"] = "Everbloom Mender",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Unearthed Kaja'mite",
-["npcID"] = 235109,
+["npcID"] = 81820,
 },
 [454438] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Ashvane Commander",
 ["npcID"] = 128969,
 },
-[449167] = {
-["encounterName"] = "Master Machinists",
-["source"] = "Speaker Dorlita",
-["npcID"] = 213216,
+[377502] = {
+["source"] = "Proscenium Puddlestomper",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2888,
+["npcID"] = 216072,
 },
 [15043] = {
 ["event"] = "SPELL_CAST_START",
@@ -72716,7 +71490,7 @@ nil,
 ["source"] = "Fungal Rotcaster",
 ["npcID"] = 207459,
 },
-[434722] = {
+[434829] = {
 ["encounterName"] = "Orator Krix'vizk",
 ["source"] = "Orator Krix'vizk",
 ["encounterID"] = 2907,
@@ -72733,29 +71507,27 @@ nil,
 ["source"] = "Nikki the Fixer",
 ["npcID"] = 233434,
 },
-[1214656] = {
-["encounterName"] = "Maulspike",
-["source"] = "Maulspike",
-["npcID"] = 234958,
+[333477] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3121,
+["source"] = "Goregrind",
+["npcID"] = 163621,
 },
 [454440] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Bilge Rat Pillager",
 ["npcID"] = 135241,
 },
-[56937] = {
-["encounterName"] = "Grand Magus Telestra",
-["source"] = "Grand Magus Telestra",
-["npcID"] = 26930,
+[446000] = {
+["source"] = "Deeps Larva",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2010,
+["npcID"] = 215733,
 },
-[333477] = {
+[456174] = {
+["encounterName"] = "The Silken Court",
+["source"] = "Anub'arash",
+["encounterID"] = 2921,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Goregrind",
-["npcID"] = 163621,
+["npcID"] = 217489,
 },
 [196028] = {
 ["event"] = "SPELL_CAST_START",
@@ -72769,8 +71541,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1271,
 },
-[384597] = {
-["npcID"] = 193293,
+[452567] = {
+["encounterName"] = "The Crown Chemical Co.",
+["source"] = "Oath-Eater",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 206844,
 },
 [1219384] = {
 ["encounterName"] = "Stix Bunkjunker",
@@ -72779,17 +71554,6 @@ nil,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 231839,
-},
-[452567] = {
-["encounterName"] = "The Crown Chemical Co.",
-["source"] = "Oath-Eater",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 206844,
-},
-[445882] = {
-["source"] = "Stonehoofed Hog",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 214928,
 },
 [53467] = {
 ["encounterName"] = "Anub'arak",
@@ -72805,6 +71569,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1426,
 },
+[169839] = {
+["source"] = "Putrid Pyromancer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 84957,
+},
+[15979] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Arcane Aberration",
+["npcID"] = 11480,
+},
 [420659] = {
 ["encounterName"] = "The Candle King",
 ["source"] = "The Candle King",
@@ -72818,20 +71592,22 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 222461,
 },
-[15979] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Arcane Aberration",
-["npcID"] = 11480,
-},
-[458369] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Kas'dru",
-["npcID"] = 227635,
-},
 [27891] = {
 ["source"] = "Sludge Belcher",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 16029,
+},
+[1214614] = {
+["encounterName"] = "Maulspike",
+["source"] = "Maulspike",
+["npcID"] = 234958,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 3121,
+},
+[325469] = {
+["source"] = "Decrepit Bilespawn",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 166928,
 },
 [153544] = {
 ["event"] = "SPELL_CAST_START",
@@ -72843,21 +71619,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 82579,
 },
-[88080] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Whipping Wind",
-["npcID"] = 47238,
-},
-[415253] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Invasive Sporecap",
-["npcID"] = 207482,
-},
-[225207] = {
-["source"] = "Felblade Assassin",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 100993,
-},
 [76634] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Tainted Sentry",
@@ -72867,6 +71628,11 @@ nil,
 ["source"] = "Nerubian Slasher",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 208243,
+},
+[225207] = {
+["source"] = "Felblade Assassin",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 100993,
 },
 [272581] = {
 ["event"] = "SPELL_CAST_START",
@@ -72878,6 +71644,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 75820,
 },
+[438823] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Diabolic Imp",
+["npcID"] = 219161,
+},
+[7068] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Ghostly Citizen",
+["npcID"] = 10385,
+},
 [43649] = {
 ["encounterName"] = "Skarvold & Dalronn",
 ["source"] = "Dalronn the Controller",
@@ -72885,20 +71661,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2024,
 },
-[7068] = {
+[82625] = {
+["source"] = "Reliquary Digger",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Ghostly Citizen",
-["npcID"] = 10385,
+["npcID"] = 38997,
 },
 [28099] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Tesla Coil",
 ["npcID"] = 16218,
 },
-[82625] = {
-["source"] = "Reliquary Digger",
+[55635] = {
+["encounterName"] = "Drakkari Colossus",
+["source"] = "Drakkari Golem",
+["npcID"] = 29832,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 38997,
+["encounterID"] = 1983,
 },
 [1219407] = {
 ["event"] = "SPELL_CAST_START",
@@ -72917,16 +71695,6 @@ nil,
 ["source"] = "Consumption",
 ["npcID"] = 179768,
 },
-[46036] = {
-["source"] = "Sunblade Magister",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 24685,
-},
-[200782] = {
-["source"] = "Fiendish Creeper",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 99759,
-},
 [28301] = {
 ["source"] = "Mad Scientist",
 ["event"] = "SPELL_CAST_START",
@@ -72938,17 +71706,6 @@ nil,
 ["encounterID"] = 2917,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 214502,
-},
-[221114] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Ranger General Feleor",
-["npcID"] = 110995,
-},
-[434998] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Chef Chewie",
-["npcID"] = 214697,
 },
 [244056] = {
 ["encounterName"] = "Felhounds of Sargeras",
@@ -72962,10 +71719,31 @@ nil,
 ["source"] = "Melbo the Magnificent",
 ["npcID"] = 229434,
 },
+[221114] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Ranger General Feleor",
+["npcID"] = 110995,
+},
+[434998] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Chef Chewie",
+["npcID"] = 214697,
+},
 [3589] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Shrieking Banshee",
 ["npcID"] = 10463,
+},
+[445524] = {
+["source"] = "Shrillwing Hunter En'kilah",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 222038,
+},
+[279118] = {
+["source"] = "Zanchuli Witch-Doctor",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 122969,
 },
 [451379] = {
 ["source"] = "Twilight Overseer",
@@ -72979,20 +71757,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1868,
 },
-[439341] = {
-["encounterName"] = "Izo, the Grand Splicer",
-["source"] = "Izo, the Grand Splicer",
-["encounterID"] = 2909,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 216658,
-},
-[362568] = {
-["encounterName"] = "Kel'Thuzad",
-["source"] = "Kel'Thuzad",
-["npcID"] = 175559,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2422,
-},
 [75610] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Corla, Herald of Twilight",
@@ -73003,18 +71767,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220253,
 },
-[473903] = {
+[151548] = {
+["source"] = "Bloodmaul Ogre Mage",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Globikus",
-["npcID"] = 234640,
+["npcID"] = 75272,
 },
 [391118] = {
 ["npcID"] = 191739,
 },
-[470290] = {
+[473903] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Brined Monstrosity",
-["npcID"] = 230263,
+["source"] = "Globikus",
+["npcID"] = 234640,
 },
 [87622] = {
 ["encounterName"] = "Asaad",
@@ -73023,26 +71787,38 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1042,
 },
-[473904] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Globikus",
-["npcID"] = 234640,
+[472158] = {
+["encounterName"] = "Zekvir",
+["source"] = "Zekvir",
+["encounterID"] = 2987,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 225204,
 },
 [423501] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Rank Overseer",
 ["npcID"] = 211121,
 },
-[471857] = {
-["source"] = "Wreckwater",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 228151,
+[473904] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Globikus",
+["npcID"] = 234640,
 },
 [265540] = {
 ["source"] = "Fetid Maggot",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 130909,
+},
+[471857] = {
+["source"] = "Wreckwater",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 228151,
+},
+[154472] = {
+["source"] = "Leaf-Reader Kurri",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 72537,
 },
 [387910] = {
 ["npcID"] = 196200,
@@ -73066,10 +71842,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1052,
 },
-[470277] = {
+[455273] = {
+["source"] = "Bloodswell Creation",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Brined Monstrosity",
-["npcID"] = 230263,
+["npcID"] = 220891,
 },
 [200642] = {
 ["event"] = "SPELL_CAST_START",
@@ -73082,31 +71858,33 @@ nil,
 ["source"] = "Chef Chewie",
 ["npcID"] = 214697,
 },
-[455273] = {
-["source"] = "Bloodswell Creation",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 220891,
-},
-[99503] = {
-["source"] = "Lava Wielder",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 53575,
-},
 [12248] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Murkblood Oracle",
 ["npcID"] = 17771,
 },
-[455480] = {
-["source"] = "Take",
+[23601] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 226272,
+["source"] = "Shattered Hand Sharpshooter",
+["npcID"] = 16704,
 },
 [183526] = {
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Understone Drummer",
 ["npcID"] = 92610,
+},
+[455480] = {
+["source"] = "Take",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 226272,
+},
+[347283] = {
+["encounterName"] = "The Tarragrue",
+["source"] = "The Tarragrue",
+["npcID"] = 175611,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2423,
 },
 [191941] = {
 ["encounterName"] = "Tirathon Saltheril",
@@ -73122,10 +71900,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3012,
 },
-[78530] = {
+[1214483] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Petrified Treant",
-["npcID"] = 11458,
+["source"] = "Lead Foreman Krome",
+["npcID"] = 225630,
 },
 [30851] = {
 ["event"] = "SPELL_CAST_START",
@@ -73149,17 +71927,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228151,
 },
-[121468] = {
-["encounterName"] = "Commander Ri'mok",
-["source"] = "Raigonn",
-["npcID"] = 61177,
+[358769] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1406,
+["source"] = "Consumed Soul",
+["npcID"] = 180782,
 },
-[1214483] = {
+[164192] = {
+["source"] = "Grimrail Technician",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Lead Foreman Krome",
-["npcID"] = 225630,
+["npcID"] = 81236,
 },
 [450364] = {
 ["event"] = "SPELL_CAST_START",
@@ -73171,15 +71947,13 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228151,
 },
-[164192] = {
-["source"] = "Grimrail Technician",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 81236,
+[388392] = {
+["npcID"] = 196044,
 },
-[201298] = {
+[434786] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Bloodtainted Burster",
-["npcID"] = 100532,
+["source"] = "Trilling Attendant",
+["npcID"] = 216293,
 },
 [1219458] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -73199,11 +71973,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3009,
 },
-[31598] = {
+[28434] = {
 ["isChanneled"] = true,
-["source"] = "Oro Eyegouge",
+["source"] = "Carrion Spinner",
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 7606,
+["npcID"] = 15975,
 },
 [34821] = {
 ["encounterName"] = "Commander Sarannis",
@@ -73213,10 +71987,10 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 18404,
 },
-[431714] = {
+[118903] = {
+["source"] = "Glintrok Hexxer",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Zik'tex",
-["npcID"] = 227427,
+["npcID"] = 61216,
 },
 [350039] = {
 ["encounterName"] = "The Nine",
@@ -73245,15 +72019,15 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 39392,
 },
-[76572] = {
+[195046] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Twilight Sadist",
-["npcID"] = 39980,
+["source"] = "Hatecoil Oracle",
+["npcID"] = 95861,
 },
-[82794] = {
+[467106] = {
+["source"] = "Snacker",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Oathsworn Wanderer",
-["npcID"] = 44926,
+["npcID"] = 231090,
 },
 [466748] = {
 ["encounterName"] = "Stix Bunkjunker",
@@ -73286,10 +72060,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 24697,
 },
-[101816] = {
+[462416] = {
+["source"] = "Darkfuse Flare",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Time-Twisted Sorceress",
-["npcID"] = 54691,
+["npcID"] = 229603,
 },
 [195528] = {
 ["event"] = "SPELL_CAST_START",
@@ -73302,24 +72076,22 @@ nil,
 ["source"] = "Remnant of Ner'zhul",
 ["npcID"] = 175729,
 },
-[436592] = {
-["encounterName"] = "Goldie Baronbottom",
-["source"] = "Goldie Baronbottom",
-["npcID"] = 214661,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2930,
-},
-[462416] = {
-["source"] = "Darkfuse Flare",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229603,
-},
 [436200] = {
 ["encounterName"] = "Ulgrax the Devourer",
 ["source"] = "Ulgrax the Devourer",
 ["npcID"] = 215657,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2902,
+},
+[394512] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Void Spawn",
+["npcID"] = 75652,
+},
+[82760] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Neferset Darkcaster",
+["npcID"] = 44982,
 },
 [351067] = {
 ["encounterName"] = "Remnant of Ner'zhul",
@@ -73369,22 +72141,23 @@ nil,
 ["source"] = "Candy Stickemup",
 ["npcID"] = 231012,
 },
-[52905] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Stormfury Revenant",
-["npcID"] = 28826,
+[55266] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Dark Touched Warrior",
+["npcID"] = 16156,
 },
-[348117] = {
-["encounterName"] = "The Eye of the Jailer",
-["source"] = "Eye of the Jailer",
-["npcID"] = 175725,
+[191823] = {
+["encounterName"] = "Tirathon Saltheril",
+["source"] = "Tirathon Saltheril",
+["npcID"] = 95885,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2433,
+["encounterID"] = 1815,
 },
-[1214404] = {
+[397914] = {
+["source"] = "Depraved Mistweaver",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Enveloping Bloodeater",
-["npcID"] = 228300,
+["npcID"] = 200137,
 },
 [472896] = {
 ["event"] = "SPELL_CAST_START",
@@ -73396,10 +72169,10 @@ nil,
 ["source"] = "Time-Twisted Breaker",
 ["npcID"] = 54552,
 },
-[183633] = {
+[471294] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Rockbound Pelter",
-["npcID"] = 91008,
+["source"] = "Defiled Earth Rager",
+["npcID"] = 40023,
 },
 [320358] = {
 ["encounterName"] = "Surgeon Stitchflesh",
@@ -73421,10 +72194,10 @@ nil,
 ["source"] = "Rattlecage of Agony",
 ["npcID"] = 177289,
 },
-[471294] = {
+[197240] = {
+["source"] = "Prolifica",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Defiled Earth Rager",
-["npcID"] = 40023,
+["npcID"] = 98986,
 },
 [47747] = {
 ["encounterName"] = "Anomalus",
@@ -73457,10 +72230,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 98538,
 },
-[209033] = {
+[352834] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Duskwatch Guard",
-["npcID"] = 111563,
+["source"] = "Mawsworn Soulmage",
+["npcID"] = 176959,
 },
 [351073] = {
 ["encounterName"] = "Remnant of Ner'zhul",
@@ -73468,10 +72241,12 @@ nil,
 ["source"] = "Remnant of Ner'zhul",
 ["npcID"] = 175729,
 },
-[352834] = {
+[52780] = {
+["encounterName"] = "Ionar",
+["source"] = "Ionar",
+["npcID"] = 28546,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Mawsworn Soulmage",
-["npcID"] = 176959,
+["encounterID"] = 1984,
 },
 [149975] = {
 ["encounterName"] = "Magmolatus",
@@ -73490,17 +72265,19 @@ nil,
 ["source"] = "Rock Smasher",
 ["npcID"] = 213954,
 },
-[52780] = {
-["encounterName"] = "Ionar",
-["source"] = "Ionar",
-["npcID"] = 28546,
+[59528] = {
+["encounterName"] = "Volkhan",
+["source"] = "Volkhan",
+["npcID"] = 28587,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1984,
+["encounterID"] = 1985,
 },
-[434756] = {
+[75823] = {
+["encounterName"] = "Corla, Herald of Twilight",
+["source"] = "Corla, Herald of Twilight",
+["npcID"] = 39679,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Hired Muscle",
-["npcID"] = 210269,
+["encounterID"] = 1038,
 },
 [22662] = {
 ["event"] = "SPELL_CAST_START",
@@ -73514,10 +72291,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[340289] = {
-["source"] = "Mistveil Nightblossom",
+[102472] = {
+["encounterName"] = "Echo of Tyrande",
+["source"] = "Echo of Tyrande",
+["npcID"] = 54544,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 173714,
+["encounterID"] = 1884,
 },
 [357218] = {
 ["event"] = "SPELL_CAST_START",
@@ -73531,24 +72310,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2435,
 },
-[75823] = {
-["encounterName"] = "Corla, Herald of Twilight",
-["source"] = "Corla, Herald of Twilight",
-["npcID"] = 39679,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1038,
-},
 [17434] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Lord Aurius Rivendare",
 ["npcID"] = 45412,
 },
-[101810] = {
-["encounterName"] = "Echo of Jaina",
-["source"] = "Echo of Jaina",
-["npcID"] = 54445,
+[362565] = {
+["encounterName"] = "Kel'Thuzad",
+["source"] = "Kel'Thuzad",
+["npcID"] = 175559,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1883,
+["encounterID"] = 2422,
+},
+[358695] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Feeding Horror",
+["npcID"] = 180426,
 },
 [427858] = {
 ["encounterName"] = "Archmage Sol",
@@ -73556,18 +72333,6 @@ nil,
 ["encounterID"] = 1751,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 82682,
-},
-[358695] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Feeding Horror",
-["npcID"] = 180426,
-},
-[352379] = {
-["encounterName"] = "Kel'Thuzad",
-["source"] = "Remnant of Kel'Thuzad",
-["npcID"] = 176929,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2422,
 },
 [1214190] = {
 ["encounterName"] = "Cauldron of Carnage",
@@ -73580,6 +72345,18 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Risen Swordsman",
 ["npcID"] = 102094,
+},
+[276068] = {
+["encounterName"] = "Hadal Darkfathom",
+["source"] = "Hadal Darkfathom",
+["npcID"] = 128651,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2099,
+},
+[468915] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Imperious Blaster",
+["npcID"] = 229356,
 },
 [428019] = {
 ["event"] = "SPELL_CAST_START",
@@ -73594,34 +72371,32 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 122469,
 },
-[276068] = {
-["encounterName"] = "Hadal Darkfathom",
-["source"] = "Hadal Darkfathom",
-["npcID"] = 128651,
+[154175] = {
+["encounterName"] = "Bonemaw",
+["source"] = "Bonemaw",
+["npcID"] = 75452,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2099,
-},
-[468915] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Imperious Blaster",
-["npcID"] = 229356,
-},
-[259519] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Brinefang Saurolisk",
-["npcID"] = 136901,
+["encounterID"] = 1679,
 },
 [352158] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Soulrender Dormazain",
 ["npcID"] = 175727,
 },
-[352752] = {
-["encounterName"] = "The Nine",
-["source"] = "Signe",
-["npcID"] = 178736,
+[259519] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2429,
+["source"] = "Brinefang Saurolisk",
+["npcID"] = 136901,
+},
+[440266] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Dark Hound",
+["npcID"] = 217698,
+},
+[358963] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "High Torturer",
+["npcID"] = 180864,
 },
 [472906] = {
 ["source"] = "Candy Stickemup",
@@ -73640,22 +72415,22 @@ nil,
 ["source"] = "Timestream Anomaly",
 ["npcID"] = 199749,
 },
-[358963] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "High Torturer",
-["npcID"] = 180864,
-},
-[28293] = {
-["source"] = "Living Monstrosity",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 16021,
-},
 [427176] = {
 ["encounterName"] = "The Darkness",
 ["source"] = "Wriggling Darkspawn",
 ["encounterID"] = 2788,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 213008,
+},
+[28293] = {
+["source"] = "Living Monstrosity",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 16021,
+},
+[357354] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Loom Guardian",
+["npcID"] = 180427,
 },
 [466765] = {
 ["encounterName"] = "Sprocketmonger Lockenstock",
@@ -73664,10 +72439,11 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 3013,
 },
-[357354] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Loom Guardian",
-["npcID"] = 180427,
+[57054] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Crystalline Tender",
+["npcID"] = 28231,
 },
 [468813] = {
 ["encounterName"] = "Geezle Gigazap",
@@ -73675,17 +72451,6 @@ nil,
 ["encounterID"] = 3054,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 226404,
-},
-[194682] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Blazing Imp",
-["npcID"] = 98963,
-},
-[57054] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Crystalline Tender",
-["npcID"] = 28231,
 },
 [59863] = {
 ["encounterName"] = "Tribunal of Ages",
@@ -73704,10 +72469,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 225681,
 },
-[214988] = {
+[352538] = {
+["encounterName"] = "Guardian of the First Ones",
+["source"] = "Guardian of the First Ones",
+["npcID"] = 175731,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Spirit of Vengeance",
-["npcID"] = 100364,
+["encounterID"] = 2436,
 },
 [90938] = {
 ["encounterName"] = "Foe Reaper 5000",
@@ -73715,12 +72482,10 @@ nil,
 ["source"] = "Defias Blood Wizard",
 ["npcID"] = 48417,
 },
-[200898] = {
-["encounterName"] = "Inquisitor Tormentorum",
-["source"] = "Inquisitor Tormentorum",
-["npcID"] = 96015,
+[214988] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 1850,
+["source"] = "Spirit of Vengeance",
+["npcID"] = 100364,
 },
 [428374] = {
 ["encounterName"] = "Lady Naz'jar",
@@ -73728,6 +72493,18 @@ nil,
 ["npcID"] = 40586,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1045,
+},
+[466470] = {
+["encounterName"] = "Mug'Zee, Heads of Security",
+["source"] = "Mug'Zee",
+["encounterID"] = 3015,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 229953,
+},
+[472329] = {
+["source"] = "Counterfeit Potion-Maker",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 232992,
 },
 [384868] = {
 ["npcID"] = 192789,
@@ -73744,10 +72521,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1109,
 },
-[245888] = {
+[465801] = {
+["source"] = "Darkfuse Crossfire",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Antoran Champion",
-["npcID"] = 123480,
+["npcID"] = 230299,
 },
 [214989] = {
 ["event"] = "SPELL_CAST_START",
@@ -73759,10 +72536,10 @@ nil,
 ["source"] = "Blazing Imp",
 ["npcID"] = 104295,
 },
-[169445] = {
-["source"] = "Twisted Abomination",
+[467169] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 84767,
+["source"] = "Professor Boomspark",
+["npcID"] = 229287,
 },
 [167385] = {
 ["source"] = "Dungeoneer's Training Dummy",
@@ -73781,26 +72558,24 @@ nil,
 ["source"] = "Bloodwarder Protector",
 ["npcID"] = 17993,
 },
-[291865] = {
-["encounterName"] = "King Mechagon",
-["source"] = "Aerial Unit R-21/X",
-["npcID"] = 150396,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2260,
-},
-[153680] = {
-["encounterName"] = "Bonemaw",
-["source"] = "Bonemaw",
-["npcID"] = 75452,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 1679,
-},
 [350467] = {
 ["encounterName"] = "The Nine",
 ["source"] = "Skyja",
 ["npcID"] = 175726,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2429,
+},
+[441518] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Failed Batch",
+["npcID"] = 220368,
+},
+[445936] = {
+["encounterName"] = "The Bloodbound Horror",
+["source"] = "The Bloodbound Horror",
+["encounterID"] = 2917,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 214502,
 },
 [426845] = {
 ["source"] = "Infested Icecaller",
@@ -73848,10 +72623,10 @@ nil,
 ["npcID"] = 186151,
 ["encounterID"] = 2580,
 },
-[465326] = {
-["source"] = "Bloodfang Hyena",
+[1216806] = {
+["source"] = "Malfunctioning Pummeler",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 227843,
+["npcID"] = 236895,
 },
 [57091] = {
 ["encounterName"] = "Keristrasza",
@@ -73860,20 +72635,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2011,
 },
-[1216806] = {
-["source"] = "Malfunctioning Pummeler",
+[470403] = {
+["source"] = "Forming Pusglob",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 236895,
+["npcID"] = 225739,
 },
 [69633] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Spectral Warden",
 ["npcID"] = 36666,
 },
-[470403] = {
-["source"] = "Forming Pusglob",
+[352589] = {
+["encounterName"] = "Guardian of the First Ones",
+["source"] = "Energy Core",
+["npcID"] = 176583,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225739,
+["encounterID"] = 2436,
 },
 [30853] = {
 ["event"] = "SPELL_CAST_START",
@@ -73885,24 +72662,22 @@ nil,
 ["source"] = "Underboss Paulie",
 ["npcID"] = 225725,
 },
-[352293] = {
-["encounterName"] = "Kel'Thuzad",
-["source"] = "Kel'Thuzad",
-["npcID"] = 175559,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2422,
-},
-[352589] = {
-["encounterName"] = "Guardian of the First Ones",
-["source"] = "Energy Core",
-["npcID"] = 176583,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 2436,
-},
 [357402] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Mawsworn Scryer",
 ["npcID"] = 180070,
+},
+[472111] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Underrider Roadhog",
+["npcID"] = 230626,
+},
+[348094] = {
+["encounterName"] = "Sylvanas Windrunner",
+["source"] = "Sylvanas Windrunner",
+["npcID"] = 175732,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2435,
 },
 [465752] = {
 ["event"] = "SPELL_CAST_START",
@@ -73913,16 +72688,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Armored Mistral",
 ["npcID"] = 45915,
-},
-[472111] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Underrider Roadhog",
-["npcID"] = 230626,
-},
-[461796] = {
-["source"] = "Darkfuse Demolitionist",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 229212,
 },
 [428103] = {
 ["encounterName"] = "Lady Naz'jar",
@@ -73943,6 +72708,19 @@ nil,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 1055,
+},
+[470047] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Gozzic's Bloody Shredder",
+["npcID"] = 225754,
+},
+[472452] = {
+["encounterName"] = "Big M.O.M.M.A.",
+["source"] = "Darkfuse Mechadrone",
+["encounterID"] = 3020,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 228424,
 },
 [1219588] = {
 ["event"] = "SPELL_CAST_START",
@@ -73976,12 +72754,10 @@ nil,
 [387950] = {
 ["npcID"] = 187919,
 },
-[439202] = {
-["encounterName"] = "I'pa",
-["source"] = "I'pa",
-["npcID"] = 210267,
+[1217496] = {
+["source"] = "Bubbles",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2929,
+["npcID"] = 231197,
 },
 [451423] = {
 ["source"] = "Xeph'itik",
@@ -73995,10 +72771,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1055,
 },
-[473067] = {
+[450492] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Nitro",
-["npcID"] = 230995,
+["source"] = "Zekvir",
+["npcID"] = 217208,
 },
 [442210] = {
 ["encounterName"] = "Anub'zekt",
@@ -74017,33 +72793,33 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 16021,
 },
-[434137] = {
-["source"] = "Royal Venomshell",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 220730,
-},
-[388976] = {
-["npcID"] = 196671,
-},
 [472457] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "G.O.L.E.M.",
 ["npcID"] = 230719,
 },
-[463218] = {
+[388976] = {
+["npcID"] = 196671,
+},
+[474125] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Hired Muscle",
-["npcID"] = 210269,
+["source"] = "Darkfuse Growler",
+["npcID"] = 227903,
+},
+[1213641] = {
+["source"] = "Compliance Enforcer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 225695,
 },
 [465758] = {
 ["source"] = "Sandsifting Hardshell",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 227660,
 },
-[1213641] = {
-["source"] = "Compliance Enforcer",
+[432030] = {
+["source"] = "Nerubian Slashjaw",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225695,
+["npcID"] = 218654,
 },
 [192985] = {
 ["encounterName"] = "Wrath of Azshara",
@@ -74051,19 +72827,6 @@ nil,
 ["npcID"] = 96028,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1814,
-},
-[432030] = {
-["source"] = "Nerubian Slashjaw",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 218654,
-},
-[464149] = {
-["encounterName"] = "Stix Bunkjunker",
-["source"] = "Stix Bunkjunker",
-["npcID"] = 230322,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["encounterID"] = 3012,
 },
 [443292] = {
 ["source"] = "Devouring Shade",
@@ -74081,15 +72844,26 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 218650,
 },
+[17843] = {
+["source"] = "Sandfury Witch Doctor",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 5650,
+},
 [467086] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Greater Acid Slime",
 ["npcID"] = 227930,
 },
-[17843] = {
-["source"] = "Sandfury Witch Doctor",
+[474031] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 5650,
+["source"] = "Void-Cursed Crusher",
+["npcID"] = 214419,
+},
+[465826] = {
+["isChanneled"] = true,
+["source"] = "Darkfuse Crossfire",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 230299,
 },
 [201176] = {
 ["event"] = "SPELL_CAST_START",
@@ -74115,27 +72889,27 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 220164,
 },
-[474031] = {
+[357343] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Void-Cursed Crusher",
-["npcID"] = 214419,
+["source"] = "Loom Guardian",
+["npcID"] = 180427,
 },
-[92042] = {
-["encounterName"] = "Admiral Ripsnarl",
-["source"] = "Vapor",
-["npcID"] = 47714,
+[449941] = {
+["source"] = "Emperor Pitfang",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2979,
+["npcID"] = 219265,
 },
 [433002] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Bloodstained Assistant",
 ["npcID"] = 216333,
 },
-[449941] = {
-["source"] = "Emperor Pitfang",
+[464810] = {
+["encounterName"] = "One-Armed Bandit",
+["source"] = "One-Armed Bandit",
+["npcID"] = 228458,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 219265,
+["encounterID"] = 3014,
 },
 [357245] = {
 ["event"] = "SPELL_CAST_START",
@@ -74147,10 +72921,10 @@ nil,
 ["source"] = "Spineskin Horker",
 ["npcID"] = 227643,
 },
-[470379] = {
-["source"] = "Slimy Sewage",
+[270481] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 234571,
+["source"] = "Demonic Tyrant",
+["npcID"] = 135002,
 },
 [111610] = {
 ["encounterName"] = "Instructor Chillheart",
@@ -74164,10 +72938,10 @@ nil,
 ["source"] = "Foreman Luddy",
 ["npcID"] = 225724,
 },
-[193505] = {
+[1213621] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Vileshard Hulk",
-["npcID"] = 91000,
+["source"] = "Princeguard Demolisher",
+["npcID"] = 227929,
 },
 [200154] = {
 ["event"] = "SPELL_CAST_START",
@@ -74179,10 +72953,10 @@ nil,
 ["source"] = "Maddened Eyestalk",
 ["npcID"] = 234382,
 },
-[427950] = {
+[1213469] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Forge Master Damian",
-["npcID"] = 212831,
+["source"] = "Princeguard Enforcer",
+["npcID"] = 224175,
 },
 [474203] = {
 ["event"] = "SPELL_CAST_START",
@@ -74196,18 +72970,6 @@ nil,
 ["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["encounterID"] = 3014,
-},
-[63830] = {
-["encounterName"] = "Yogg-Saron",
-["source"] = "Sara",
-["encounterID"] = 1143,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 33134,
-},
-[1213469] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Princeguard Enforcer",
-["npcID"] = 224175,
 },
 [1221226] = {
 ["event"] = "SPELL_CAST_START",
@@ -74224,27 +72986,38 @@ nil,
 ["source"] = "Junkyard Shredder",
 ["npcID"] = 229220,
 },
-[1219639] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Maddened Eyestalk",
-["npcID"] = 234382,
+[427157] = {
+["encounterName"] = "The Darkness",
+["source"] = "The Darkness",
+["encounterID"] = 2788,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 208747,
 },
 [463828] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Darkfuse Brute",
 ["npcID"] = 229161,
 },
-[442525] = {
-["encounterName"] = "Brewmaster Aldryr",
-["source"] = "Brew Master Aldryr",
-["npcID"] = 210271,
+[1219639] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2900,
+["source"] = "Maddened Eyestalk",
+["npcID"] = 234382,
 },
 [446776] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "War Lynx",
 ["npcID"] = 206699,
+},
+[200817] = {
+["source"] = "Rage Rot",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 101660,
+},
+[427356] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Devout Priest",
+["npcID"] = 206697,
 },
 [451435] = {
 ["encounterName"] = "Admiral Ripsnarl",
@@ -74262,19 +73035,17 @@ nil,
 ["source"] = "Flame Laser",
 ["npcID"] = 234671,
 },
-[350280] = {
-["encounterName"] = "The Tarragrue",
-["source"] = "The Tarragrue",
-["npcID"] = 175611,
+[440687] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2423,
+["source"] = "Royal Jelly Purveyor",
+["npcID"] = 220141,
 },
-[471403] = {
-["encounterName"] = "Vexie and the Geargrinders",
-["source"] = "The Geargrinder",
-["encounterID"] = 3009,
+[1216699] = {
+["encounterName"] = "Sprocketmonger Lockenstock",
+["source"] = "Void Launcher",
+["npcID"] = 231903,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 225821,
+["encounterID"] = 3013,
 },
 [193502] = {
 ["event"] = "SPELL_CAST_START",
@@ -74286,12 +73057,10 @@ nil,
 ["source"] = "Escaped Steam",
 ["npcID"] = 227383,
 },
-[357735] = {
-["encounterName"] = "Painsmith Raznal",
-["source"] = "Shadowsteel Horror",
-["npcID"] = 179847,
+[154623] = {
+["source"] = "Sargerei Spirit-Tender",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2430,
+["npcID"] = 77131,
 },
 [459627] = {
 ["encounterName"] = "Vexie and the Geargrinders",
@@ -74305,18 +73074,6 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 97632,
 },
-[164357] = {
-["encounterName"] = "Witherbark",
-["source"] = "Witherbark",
-["encounterID"] = 1746,
-["event"] = "SPELL_CAST_START",
-["npcID"] = 81522,
-},
-[59397] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Tunneling Ghoul",
-["npcID"] = 24084,
-},
 [451605] = {
 ["encounterName"] = "Prioress Murrpray",
 ["source"] = "Prioress Murrpray",
@@ -74324,12 +73081,22 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2848,
 },
-[424431] = {
-["encounterName"] = "Captain Dailcry",
-["source"] = "Elaena Emberlanz",
-["npcID"] = 211290,
+[59397] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2847,
+["source"] = "Tunneling Ghoul",
+["npcID"] = 24084,
+},
+[439795] = {
+["encounterName"] = "Rasha'nan",
+["source"] = "Rasha'nan",
+["encounterID"] = 2918,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 214504,
+},
+[1217249] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Gallagio Customer Care",
+["npcID"] = 237109,
 },
 [428916] = {
 ["event"] = "SPELL_CAST_START",
@@ -74346,19 +73113,6 @@ nil,
 ["source"] = "Waterworks Brute",
 ["npcID"] = 222979,
 },
-[427510] = {
-["encounterName"] = "Ancient Protectors",
-["source"] = "Dulhu",
-["encounterID"] = 1757,
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 83894,
-},
-[467234] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Princeguard Enforcer",
-["npcID"] = 224175,
-},
 [1221299] = {
 ["source"] = "Mug'Zee",
 ["event"] = "SPELL_CAST_START",
@@ -74369,10 +73123,12 @@ nil,
 ["source"] = "Shrieking Banshee",
 ["npcID"] = 10463,
 },
-[427894] = {
+[424419] = {
+["encounterName"] = "Captain Dailcry",
+["source"] = "Captain Dailcry",
+["npcID"] = 207946,
 ["event"] = "SPELL_CAST_START",
-["source"] = "Forge Master Damian",
-["npcID"] = 212831,
+["encounterID"] = 2847,
 },
 [471352] = {
 ["encounterName"] = "Chrome King Gallywix",
@@ -74381,32 +73137,44 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 231977,
 },
-[267354] = {
-["isChanneled"] = true,
-["source"] = "Hired Assassin",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 134232,
-},
-[398206] = {
+[427894] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Exhumed Spirit",
-["npcID"] = 75979,
+["source"] = "Forge Master Damian",
+["npcID"] = 212831,
+},
+[444546] = {
+["encounterName"] = "Prioress Murrpray",
+["source"] = "Prioress Murrpray",
+["npcID"] = 207940,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 2848,
 },
 [418791] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Bill",
 ["npcID"] = 211062,
 },
-[473964] = {
+[398206] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Gallagio Dealer",
-["npcID"] = 229437,
+["source"] = "Exhumed Spirit",
+["npcID"] = 75979,
 },
 [1217461] = {
 ["encounterName"] = "Cauldron of Carnage",
 ["source"] = "The Captain",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 228465,
+},
+[473964] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Gallagio Dealer",
+["npcID"] = 229437,
+},
+[473075] = {
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Chief Foreman Gutso",
+["npcID"] = 230828,
 },
 [377732] = {
 ["npcID"] = 184319,
@@ -74424,31 +73192,20 @@ nil,
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 164517,
 },
-[473075] = {
-["isChanneled"] = true,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Chief Foreman Gutso",
-["npcID"] = 230828,
-},
-[39849] = {
-["encounterName"] = "Illidan Stormrage",
-["source"] = "Illidan Stormrage",
-["encounterID"] = 609,
+[474237] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 22917,
-},
-[427897] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Forge Master Damian",
-["npcID"] = 212831,
+["source"] = "Silent Slitherer",
+["npcID"] = 234210,
 },
 [258201] = {
 ["source"] = "Spineskin Fuselighter",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 229794,
 },
-[372615] = {
-["npcID"] = 189247,
+[427897] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Forge Master Damian",
+["npcID"] = 212831,
 },
 [352756] = {
 ["encounterName"] = "The Nine",
@@ -74456,6 +73213,14 @@ nil,
 ["npcID"] = 178738,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2429,
+},
+[372615] = {
+["npcID"] = 189247,
+},
+[147500] = {
+["source"] = "Eroded Cliffdweller",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 72809,
 },
 [464753] = {
 ["source"] = "Brinescale Reaver",
@@ -74488,45 +73253,35 @@ nil,
 ["source"] = "Chitin Knight",
 ["npcID"] = 219725,
 },
-[1216790] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Hovering Menace",
-["npcID"] = 236886,
-},
-[471287] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Nitro",
-["npcID"] = 230995,
-},
 [448515] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Elaena Emberlanz",
 ["npcID"] = 239833,
 },
-[440185] = {
+[472327] = {
+["source"] = "Grease",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Rustul Titancap",
-["npcID"] = 213115,
+["npcID"] = 230935,
 },
 [1216056] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Blazefeather Peacock",
 ["npcID"] = 226561,
 },
-[153581] = {
+[440185] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Soaring Chakram Master",
-["npcID"] = 76132,
+["source"] = "Rustul Titancap",
+["npcID"] = 213115,
 },
 [474206] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Hideous Amalgamation",
 ["npcID"] = 234208,
 },
-[1217452] = {
+[153581] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Underpin's Well-Connected Friend",
-["npcID"] = 234901,
+["source"] = "Soaring Chakram Master",
+["npcID"] = 76132,
 },
 [28884] = {
 ["encounterName"] = "The Four Horsemen",
@@ -74535,15 +73290,25 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 1121,
 },
-[200674] = {
-["source"] = "Vile Soulmaster",
+[474228] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 97014,
+["source"] = "Silent Slitherer",
+["npcID"] = 234210,
 },
 [467223] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Princeguard Demolisher",
 ["npcID"] = 227929,
+},
+[200674] = {
+["source"] = "Vile Soulmaster",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 97014,
+},
+[470926] = {
+["source"] = "Ethereal Mind-Scraper",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 233391,
 },
 [464757] = {
 ["event"] = "SPELL_CAST_START",
@@ -74555,16 +73320,16 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 77132,
 },
-[473388] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "The Junk-Wall",
-["npcID"] = 230793,
-},
-[448691] = {
+[472323] = {
 ["encounterName"] = "Cauldron of Carnage",
-["source"] = "Rampaging Deepflayer",
+["source"] = "Resourceful Bombshell",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 218657,
+["npcID"] = 229650,
+},
+[1213778] = {
+["source"] = "Darkfuse Riot Negotiator",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 233781,
 },
 [440188] = {
 ["event"] = "SPELL_CAST_START",
@@ -74576,29 +73341,26 @@ nil,
 ["source"] = "Underpaid Brute",
 ["npcID"] = 231909,
 },
-[251626] = {
-["encounterName"] = "Felhounds of Sargeras",
-["source"] = "Clubfist Beastlord",
-["npcID"] = 126767,
+[473533] = {
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2074,
+["source"] = "Obedient-ish Predator",
+["npcID"] = 231930,
 },
-[472458] = {
-["encounterName"] = "Mug'Zee, Heads of Security",
-["source"] = "Mug'Zee",
-["encounterID"] = 3015,
+[279615] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 229953,
+["source"] = "Dark Iron Grenadier",
+["npcID"] = 131814,
 },
 [37132] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Azure Magus",
 ["npcID"] = 26722,
 },
-[279615] = {
+[1215693] = {
+["encounterName"] = "Cauldron of Carnage",
+["source"] = "Causticaria",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Dark Iron Grenadier",
-["npcID"] = 131814,
+["npcID"] = 225433,
 },
 [470902] = {
 ["source"] = "Ethereal Heartseeker",
@@ -74610,10 +73372,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 82597,
 },
-[473993] = {
+[473537] = {
 ["event"] = "SPELL_CAST_START",
-["source"] = "Masked Freelancer",
-["npcID"] = 231910,
+["source"] = "Punchy Thug",
+["npcID"] = 231904,
 },
 [441214] = {
 ["event"] = "SPELL_CAST_START",
@@ -74630,24 +73392,22 @@ nil,
 ["source"] = "Imacu'tya",
 ["npcID"] = 104275,
 },
-[474052] = {
-["event"] = "SPELL_CAST_START",
-["source"] = "Bloodfueled Junker",
-["npcID"] = 225814,
-},
-[1215647] = {
-["encounterName"] = "Underpin",
-["source"] = "Crony",
-["npcID"] = 235162,
-["event"] = "SPELL_CAST_START",
-["encounterID"] = 3126,
-},
 [429093] = {
 ["encounterName"] = "Ol' Waxbeard",
 ["source"] = "Dynamite Mine Cart",
 ["npcID"] = 213751,
 ["event"] = "SPELL_CAST_START",
 ["encounterID"] = 2829,
+},
+[474511] = {
+["source"] = "Dark Walker",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 234553,
+},
+[209495] = {
+["source"] = "Guardian Construct",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 104270,
 },
 [426883] = {
 ["event"] = "SPELL_CAST_START",
@@ -74666,10 +73426,12 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 224589,
 },
-[209495] = {
-["source"] = "Guardian Construct",
+[1213776] = {
+["encounterName"] = "Harbinger Ul'thul",
+["source"] = "Harbinger Ul'thul",
+["encounterID"] = 3096,
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 104270,
+["npcID"] = 234339,
 },
 [201189] = {
 ["isChanneled"] = true,
@@ -74687,12 +73449,10 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 166302,
 },
-[428266] = {
-["encounterName"] = "The Darkness",
-["source"] = "The Darkness",
-["npcID"] = 208747,
+[440376] = {
+["source"] = "Shadow-Blind Matriarch",
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 2788,
+["npcID"] = 206078,
 },
 [471930] = {
 ["encounterName"] = "One-Armed Bandit",
@@ -74711,30 +73471,33 @@ nil,
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 166302,
 },
-[1216937] = {
-["source"] = "The Underpin",
+[451758] = {
+["source"] = "Sharpfang",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 236948,
-},
-[457993] = {
-["source"] = "Croakit",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 214757,
-},
-[440195] = {
-["source"] = "Weeping Shade",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 217268,
+["npcID"] = 213718,
 },
 [474325] = {
 ["source"] = "Dark Walker",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 234553,
 },
-[443482] = {
-["source"] = "Shadowtide Bulwark",
+[440195] = {
+["source"] = "Weeping Shade",
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 220886,
+["npcID"] = 217268,
+},
+[464817] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Scrapbeak",
+["npcID"] = 230931,
+},
+[84521] = {
+["encounterName"] = "Siamat",
+["source"] = "Servant of Siamat",
+["npcID"] = 45259,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1055,
 },
 [199143] = {
 ["encounterName"] = "Lord Kur'talos Ravencrest",
@@ -74748,12 +73511,12 @@ nil,
 ["source"] = "Soulguard Animator",
 ["npcID"] = 36516,
 },
-[464809] = {
-["encounterName"] = "One-Armed Bandit",
-["source"] = "One-Armed Bandit",
-["npcID"] = 228458,
+[428169] = {
+["encounterName"] = "Prioress Murrpray",
+["source"] = "Prioress Murrpray",
+["npcID"] = 207940,
 ["event"] = "SPELL_CAST_START",
-["encounterID"] = 3014,
+["encounterID"] = 2848,
 },
 },
 }
@@ -74763,6 +73526,14 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 ["_general_logs"] = {
+"2025-03-17 20:19:59 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 20:19:26 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 20:14:50 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 18:12:15 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 17:49:10 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 17:47:46 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 12:12:23 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
+"2025-03-17 12:10:52 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbeef",
 "2025-03-16 20:19:04 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
 "2025-03-16 16:38:14 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
 "2025-03-16 16:33:14 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
@@ -74774,14 +73545,6 @@ PlaterLogs = {
 "2025-03-15 20:38:44 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
 "2025-03-15 17:48:01 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
 "2025-03-15 15:53:28 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
-"2025-03-15 14:46:30 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
-"2025-03-15 11:19:13 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
-"2025-03-15 11:14:54 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortlite",
-"2025-03-15 11:12:18 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortsited",
-"2025-03-15 10:59:08 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortblink",
-"2025-03-15 10:55:26 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortwire",
-"2025-03-15 10:53:57 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbeef",
-"2025-03-15 00:04:39 | INIT | Plater-v603-Retail | Framework v591 | 11.1.0 | enUS | Shortbowjob",
 },
 ["_error_logs"] = {
 },

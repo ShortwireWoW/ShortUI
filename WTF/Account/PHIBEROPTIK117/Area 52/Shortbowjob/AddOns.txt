@@ -24,7 +24,7 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 FixRaid: enabled
 FriendGroups: enabled
-LittleWigs: disabled
+LittleWigs: enabled
 LittleWigs_BattleForAzeroth: disabled
 LittleWigs_BurningCrusade: disabled
 LittleWigs_Cataclysm: disabled

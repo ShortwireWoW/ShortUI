@@ -133,10 +133,8 @@ false,
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Cinderbrew Meadery"] = {
-false,
-[8] = true,
-[23] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Halls of Stone"] = {
 [2] = false,
@@ -150,11 +148,16 @@ false,
 [8] = true,
 [23] = true,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
 ["Priory of the Sacred Flame"] = {
 false,
+[23] = true,
+[8] = true,
 },
 ["Coilfang: The Underbog"] = {
 [24] = false,
@@ -168,15 +171,14 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
-},
 ["Grim Batol"] = {
 [8] = true,
 [2] = false,
+[23] = true,
+},
+["Cinderbrew Meadery"] = {
+false,
+[8] = true,
 [23] = true,
 },
 ["Gundrak"] = {

@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 712,
+["session"] = 720,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -33,6 +33,14 @@ BugGrabberDB = {
 ["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n}\n",
 ["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'GuildControlSetRank'\n[return function()]:10: in function <[string \"return function()\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1127: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
 ["session"] = 708,
+["counter"] = 1,
+},
+{
+["message"] = "Lua error in aura 'BossMod - Timeline - Bar': Trigger 1\nWeakAuras Version: 5.19.5\nAura Version: 1.1.1\nStack trace:\nAfter(): C_Timer.After requires a non-negative duration\nLua Taint: WeakAuras",
+["time"] = "2025/03/17 20:15:08",
+["locals"] = "(*temporary) = \"After(): C_Timer.After requires a non-negative duration\nLua Taint: WeakAuras\"\n",
+["stack"] = "[C]: in function '?'\n[Interface/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua]:62: in function 'After'\n[return function(_weakAuraEvent, _event, _id, _message, _expirationTime)]:13: in function <[string \"return function(_weakAuraEvent, _event, _id...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'func'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:846: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:842>",
+["session"] = 718,
 ["counter"] = 1,
 },
 },

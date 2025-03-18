@@ -19,13 +19,13 @@ PremadeGroupsFilterState = {
 ["min"] = "",
 ["act"] = false,
 },
-["dps"] = {
+["partyfit"] = true,
+["dungeon6"] = true,
+["tanks"] = {
 ["max"] = "",
 ["min"] = "",
 ["act"] = false,
 },
-["dungeon6"] = true,
-["dungeon4"] = true,
 ["dungeon2"] = true,
 ["members"] = {
 ["max"] = "",
@@ -34,70 +34,26 @@ PremadeGroupsFilterState = {
 },
 ["expression"] = "",
 ["difficulty"] = {
-["val"] = 4,
 ["act"] = true,
+["val"] = 4,
 },
 ["dungeon1"] = true,
-["dungeon3"] = true,
+["dungeon7"] = true,
 ["dungeon5"] = true,
 ["dungeon8"] = true,
-["dungeon7"] = true,
-["tanks"] = {
+["dungeon3"] = true,
+["dungeon4"] = true,
+["dps"] = {
 ["max"] = "",
 ["min"] = "",
 ["act"] = false,
 },
-["partyfit"] = true,
 },
 },
 ["c3f6"] = {
 ["enabled"] = true,
 },
 ["version"] = 6,
-["c9f8"] = {
-["enabled"] = true,
-},
-["c114f6"] = {
-["enabled"] = true,
-},
-["c114f5"] = {
-["enabled"] = true,
-},
-["c3f5"] = {
-["enabled"] = true,
-["raid"] = {
-["difficulty"] = {
-["val"] = 2,
-["act"] = true,
-},
-["heals"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
-},
-["tanks"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
-},
-["members"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
-},
-["dps"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
-},
-["defeated"] = {
-["max"] = "",
-["min"] = "",
-["act"] = false,
-},
-["expression"] = "members>1",
-},
-},
 ["c121f4"] = {
 ["role"] = {
 ["heals"] = {
@@ -110,5 +66,49 @@ PremadeGroupsFilterState = {
 },
 ["expression"] = "",
 },
+},
+["c114f6"] = {
+["enabled"] = true,
+},
+["c114f5"] = {
+["enabled"] = true,
+},
+["c3f5"] = {
+["enabled"] = true,
+["raid"] = {
+["difficulty"] = {
+["act"] = true,
+["val"] = 2,
+},
+["heals"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["tanks"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["defeated"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["dps"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["members"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["expression"] = "members>1",
+},
+},
+["c9f8"] = {
+["enabled"] = true,
 },
 }

@@ -1,11 +1,9 @@
 
 EventTraceSavedVars = {
 ["ShowTimestamp"] = true,
-["Size"] = {
-["Height"] = 678.9747314453125,
-["Width"] = 912.7440185546875,
-},
+["LogEventsWhenHidden"] = false,
 ["ShowArguments"] = true,
+["LogCREvents"] = true,
 ["Filters"] = {
 ["User"] = {
 {
@@ -200,6 +198,21 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "GOSSIP_CLOSED",
+["displayEvent"] = "GOSSIP_CLOSED",
+},
+{
+["enabled"] = true,
+["event"] = "GOSSIP_CONFIRM_CANCEL",
+["displayEvent"] = "GOSSIP_CONFIRM_CANCEL",
+},
+{
+["enabled"] = true,
+["event"] = "GOSSIP_SHOW",
+["displayEvent"] = "GOSSIP_SHOW",
+},
+{
+["enabled"] = true,
 ["event"] = "GROUP_ROSTER_UPDATE",
 ["displayEvent"] = "GROUP_ROSTER_UPDATE",
 },
@@ -280,6 +293,11 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "MINIMAP_UPDATE_ZOOM",
+["displayEvent"] = "MINIMAP_UPDATE_ZOOM",
+},
+{
+["enabled"] = true,
 ["event"] = "MIRROR_TIMER_START",
 ["displayEvent"] = "MIRROR_TIMER_START",
 },
@@ -350,6 +368,11 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "PLAYER_CHOICE_UPDATE",
+["displayEvent"] = "PLAYER_CHOICE_UPDATE",
+},
+{
+["enabled"] = true,
 ["event"] = "PLAYER_DIFFICULTY_CHANGED",
 ["displayEvent"] = "PLAYER_DIFFICULTY_CHANGED",
 },
@@ -372,6 +395,16 @@ EventTraceSavedVars = {
 ["enabled"] = true,
 ["event"] = "PLAYER_GUILD_UPDATE",
 ["displayEvent"] = "PLAYER_GUILD_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYER_INTERACTION_MANAGER_FRAME_HIDE",
+["displayEvent"] = "PLAYER_INTERACTION_MANAGER_FRAME_HIDE",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYER_INTERACTION_MANAGER_FRAME_SHOW",
+["displayEvent"] = "PLAYER_INTERACTION_MANAGER_FRAME_SHOW",
 },
 {
 ["enabled"] = true,
@@ -455,6 +488,11 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "QUEST_DATA_LOAD_RESULT",
+["displayEvent"] = "QUEST_DATA_LOAD_RESULT",
+},
+{
+["enabled"] = true,
 ["event"] = "QUEUESTATUSBUTTON.ONHIDE",
 ["displayEvent"] = "QueueStatusButton.OnHide |cffffd100(CR)|r",
 },
@@ -512,6 +550,11 @@ EventTraceSavedVars = {
 ["enabled"] = true,
 ["event"] = "TOOLTIP_DATA_UPDATE",
 ["displayEvent"] = "TOOLTIP_DATA_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "TREASURE_PICKER_CACHE_FLUSH",
+["displayEvent"] = "TREASURE_PICKER_CACHE_FLUSH",
 },
 {
 ["enabled"] = true,
@@ -830,11 +873,18 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "VIGNETTE_MINIMAP_UPDATED",
+["displayEvent"] = "VIGNETTE_MINIMAP_UPDATED",
+},
+{
+["enabled"] = true,
 ["event"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 ["displayEvent"] = "WORLD_CURSOR_TOOLTIP_UPDATE",
 },
 },
 },
-["LogCREvents"] = true,
-["LogEventsWhenHidden"] = false,
+["Size"] = {
+["Height"] = 678.9747924804688,
+["Width"] = 912.7440185546875,
+},
 }

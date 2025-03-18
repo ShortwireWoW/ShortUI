@@ -1,21 +1,42 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
-["BigWigs_Bosses_Darkmaster Gandling"] = {
+["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Jandice Barov"] = {
+["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["Default"] = {
+["custom_off_-31087"] = true,
+},
+},
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Bosses_Gu Cloudstrike"] = {
+["BigWigs_Bosses_Priory of the Sacred Flame Trash"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
+["BigWigs_Bosses_Cauldron of Carnage"] = {
+},
+["BigWigs_Bosses_Captain Dailcry"] = {
+},
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
+},
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Bosses_Stix Bunkjunker"] = {
 },
-["BigWigs_Bosses_Liu Flameheart"] = {
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Bars"] = {
 },
 ["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
 ["profiles"] = {
@@ -25,48 +46,21 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Striker Ga'dok"] = {
+["BigWigs_Bosses_Prioress Murrpray"] = {
 },
-["BigWigs_Bosses_Rattlegore"] = {
+["BigWigs_Bosses_Baron Braunpyke"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_Hoptallus"] = {
-},
-["BigWigs_Bosses_Rik Reverb"] = {
-["profiles"] = {
-["Default"] = {
-["custom_off_-31087"] = true,
-},
-},
-},
-["BigWigs_Bosses_Sha of Violence"] = {
-},
-["BigWigs_Bosses_Taran Zhu"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Lilian Voss"] = {
-},
-["BigWigs_Bosses_Sha of Doubt"] = {
-},
-["BigWigs_Bosses_Wise Mari"] = {
-},
-["BigWigs_Bosses_Temple of the Jade Serpent Trash"] = {
-},
-["BigWigs_Bosses_Saboteur Kip'tilak"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Bosses_Master Snowdrift"] = {
-},
-["BigWigs_Bosses_Ook-Ook"] = {
-},
-["BigWigs_Plugins_Colors"] = {
-},
-["BigWigs_Bosses_Shado-Pan Monastery Trash"] = {
+["BigWigs_Plugins_Pull"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -79,28 +73,6 @@ nil,
 },
 },
 },
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["LibDualSpec-1.0"] = {
-},
-["BigWigs_Bosses_Yan-Zhu the Uncasked"] = {
-},
-["BigWigs_Bosses_Raigonn"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Commander Ri'mok"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Bosses_Instructor Chillheart"] = {
-},
-["BigWigs_Plugins_Pull"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["profileKeys"] = {
@@ -386,7 +358,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 399.5869999999995,
 },
 ["LFR"] = {
-["kills"] = 15,
+["kills"] = 16,
 ["fkDate"] = "2025/03/04",
 ["bestDate"] = "2025/03/11",
 ["best"] = 160.4170000000013,
@@ -408,7 +380,7 @@ BigWigsStatsDB = {
 ["wipes"] = 5,
 },
 ["LFR"] = {
-["kills"] = 11,
+["kills"] = 12,
 ["fkDate"] = "2025/03/05",
 ["bestDate"] = "2025/03/11",
 ["best"] = 202.1230000000069,
@@ -424,7 +396,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/03/07",
 },
 ["LFR"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 250.2229999999981,
 ["best"] = 241.5439999999944,
 ["bestDate"] = "2025/03/11",
@@ -458,7 +430,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/03/07",
 },
 ["LFR"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 212.2019999999902,
 ["best"] = 194.627999999997,
 ["bestDate"] = "2025/03/11",

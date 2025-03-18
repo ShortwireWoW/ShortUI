@@ -1,9 +1,11 @@
 
 EventTraceSavedVars = {
 ["ShowTimestamp"] = true,
-["LogEventsWhenHidden"] = false,
+["Size"] = {
+["Height"] = 678.9747924804688,
+["Width"] = 912.7440185546875,
+},
 ["ShowArguments"] = true,
-["LogCREvents"] = true,
 ["Filters"] = {
 ["User"] = {
 {
@@ -358,8 +360,28 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "PET_BAR_UPDATE_USABLE",
+["displayEvent"] = "PET_BAR_UPDATE_USABLE",
+},
+{
+["enabled"] = true,
 ["event"] = "PET_SPELL_POWER_UPDATE",
 ["displayEvent"] = "PET_SPELL_POWER_UPDATE",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYERSPELLSFRAME.OPENFRAME",
+["displayEvent"] = "PlayerSpellsFrame.OpenFrame |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYERSPELLSFRAME.TABSET",
+["displayEvent"] = "PlayerSpellsFrame.TabSet |cffffd100(CR)|r",
+},
+{
+["enabled"] = true,
+["event"] = "PLAYERSPELLSFRAME.TALENTTAB.SHOW",
+["displayEvent"] = "PlayerSpellsFrame.TalentTab.Show |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -763,6 +785,16 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
+["event"] = "UNIT_SPELLCAST_EMPOWER_START",
+["displayEvent"] = "UNIT_SPELLCAST_EMPOWER_START",
+},
+{
+["enabled"] = true,
+["event"] = "UNIT_SPELLCAST_EMPOWER_STOP",
+["displayEvent"] = "UNIT_SPELLCAST_EMPOWER_STOP",
+},
+{
+["enabled"] = true,
 ["event"] = "UNIT_SPELLCAST_FAILED",
 ["displayEvent"] = "UNIT_SPELLCAST_FAILED",
 },
@@ -883,8 +915,6 @@ EventTraceSavedVars = {
 },
 },
 },
-["Size"] = {
-["Height"] = 678.9747924804688,
-["Width"] = 912.7440185546875,
-},
+["LogCREvents"] = true,
+["LogEventsWhenHidden"] = false,
 }
