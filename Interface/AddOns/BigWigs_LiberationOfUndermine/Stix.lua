@@ -42,14 +42,18 @@ if L then
 	L.short_fuse = "Bombshell Explosion"
 	L.incinerator = "Fire Circles"
 	L.landing = "Landing" -- Landing down from the sky
+
+	L["467109_desc"] = 467135 -- XXX description fixed in 11.1.5
 end
 
 --------------------------------------------------------------------------------
 -- Initialization
 --
 
-local rollingRubbishMarker = mod:AddMarkerOption(false, "player", 1, 461536, 1, 2, 3, 4)
-local scrapmasterMarker = mod:AddMarkerOption(false, "npc", 8, -31645, 8, 7, 6, 5)
+local rollingRubbishMarkerMapTable = {1, 2, 3, 4} -- Easier to adjust which icons are used
+local rollingRubbishMarker = mod:AddMarkerOption(false, "player", rollingRubbishMarkerMapTable[1], 461536, unpack(rollingRubbishMarkerMapTable))
+local scrapmasterMarkerMapTable = {8, 7, 6, 5}
+local scrapmasterMarker = mod:AddMarkerOption(false, "npc", scrapmasterMarkerMapTable[1], -31645, unpack(scrapmasterMarkerMapTable))
 function mod:GetOptions()
 	return {
 		"berserk",
@@ -61,7 +65,7 @@ function mod:GetOptions()
 			464854, -- Garbage Pile
 				465747, -- Muffled Doomsplosion
 				1217975, -- Doomsploded
-			-- Territorial Bombshell -- XXX announce/count deaths? show bar until all dead?
+			-- Territorial Bombshell
 				473119, -- Short Fuse
 
 		-- Cleanup Crew
@@ -83,7 +87,7 @@ function mod:GetOptions()
 
 		-- Overdrive
 		467117, -- Overdrive
-			{467135, "CASTBAR"}, -- Trash Compactor
+			{467109, "CASTBAR"}, -- Trash Compactor
 		-- Mythic
 		1218704, -- Prototype Powercoil
 	},{ -- Sections
@@ -99,7 +103,7 @@ function mod:GetOptions()
 		[465747] = L.muffled_doomsplosion, -- Muffled Doomsplosion (Bomb Soaked)
 		[473119] = L.short_fuse, -- Short Fuse (Bombshell Explosion)
 		[464149] = L.incinerator, -- Incinerator (Fire Circles)
-		[467135] = L.landing, -- Trash Compactor (Landing)
+		[467109] = L.landing, -- Trash Compactor (Landing)
 	}
 end
 
@@ -188,7 +192,8 @@ end
 
 function mod:AddMarking(_, unit, guid)
 	if mobCollector[guid] then
-		self:CustomIcon(scrapmasterMarker, unit, mobCollector[guid])
+		local icon = scrapmasterMarkerMapTable[mobCollector[guid]]
+		self:CustomIcon(scrapmasterMarker, unit, icon)
 		mobCollector[guid] = false
 	end
 end
@@ -216,7 +221,8 @@ do
 		table.sort(iconList, sortPriority) -- Priority for tank > others > healers
 		for i = 1, #iconList do
 			local player = iconList[i].player
-			self:CustomIcon(rollingRubbishMarker, player, i)
+			local icon = rollingRubbishMarkerMapTable[i]
+			self:CustomIcon(rollingRubbishMarker, player, icon)
 		end
 	end
 
@@ -235,7 +241,7 @@ do
 		self:Bar(args.spellId, cd, CL.count:format(L.electromagnetic_sorting, electromagneticSortingCount))
 
 		muffledDoomsplosionCount = 0
-		mobMark = 8
+		mobMark = 1
 		iconList = {}
 	end
 
@@ -263,7 +269,7 @@ do
 		if self:Me(args.destGUID) then
 			ballSize = 0
 			self:RegisterUnitEvent("UNIT_POWER_UPDATE", nil, "player", "vehicle")
-			self:TargetBar(args.spellId, self:Mythic() and 20 or 24, args.destName)
+			self:TargetBar(args.spellId, 24, args.destName)
 		end
 	end
 
@@ -412,7 +418,7 @@ end
 function mod:MessedUp(args)
 	if self:MobId(args.sourceGUID) == 231839 then -- Scrapmaster
 		mobCollector[args.sourceGUID] = mobMark
-		mobMark = mobMark - 1
+		mobMark = mobMark + 1
 	end
 end
 
@@ -425,7 +431,7 @@ function mod:ScrapRockets(args)
 	-- flag the guid for marking if it wasn't rolled over
 	if mobCollector[args.sourceGUID] == nil then
 		mobCollector[args.sourceGUID] = mobMark
-		mobMark = mobMark - 1
+		mobMark = mobMark + 1
 	end
 end
 
@@ -464,9 +470,9 @@ function mod:OverdriveRemoved(args)
 end
 
 function mod:TrashCompactor(args)
-	self:Message(467135, "red", L.landing)
-	self:PlaySound(467135, "warning") -- watch drop location
-	self:CastBar(467135, 3.75, L.landing)
+	self:Message(args.spellId, "red", L.landing)
+	self:PlaySound(args.spellId, "warning") -- watch drop location
+	self:CastBar(args.spellId, 3.75, L.landing)
 end
 
 function mod:TrashCompactorSuccess(args)

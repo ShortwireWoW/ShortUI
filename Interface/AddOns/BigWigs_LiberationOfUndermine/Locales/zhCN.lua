@@ -1,11 +1,5 @@
-local L = BigWigs:NewBossLocale("Vexie and the Geargrinders", "zhCN")
+local L = BigWigs:NewBossLocale("Cauldron of Carnage", "zhCN")
 if not L then return end
-if L then
-	L.plating_removed = "剩余 %d 层防御护板"
-	L.exhaust_fumes = "废气"
-end
-
-L = BigWigs:NewBossLocale("Cauldron of Carnage", "zhCN")
 if L then
 	L.custom_on_fade_out_bars = "淡出计时器"
 	L.custom_on_fade_out_bars_desc = "当首领超出范围时，淡出其相关技能的计时器。"
@@ -15,7 +9,6 @@ if L then
 
 	L.eruption_stomp = "重踏" -- 喷发重踏
 	L.thunderdrum_salvo = "齐射" -- 雷鼓齐射
-	L.voltaic_image = "镜像" -- 流电镜像
 end
 
 L = BigWigs:NewBossLocale("Rik Reverb", "zhCN")
@@ -47,6 +40,7 @@ if L then
 	L.foot_blasters = "地雷"
 	L.unstable_shrapnel = "地雷爆炸"
 	L.screw_up = "钻头"
+	L.screw_up_single = "钻头" -- Singular of Drills
 	L.sonic_ba_boom = "声波爆轰"
 	L.polarization_generator = "极性转化"
 
@@ -60,6 +54,8 @@ if L then
 	L.jumbo_void_beam = "虚空光束" -- 大号虚空光束
 	L.void_barrage = "黑球" -- 虚空弹幕
 	L.everything = "组合技" -- 所有？全部？
+
+	L.under_you_comment = "在你脚下" -- Implies this setting is for the damage from the ground effect under you
 end
 
 L = BigWigs:NewBossLocale("The One-Armed Bandit", "zhCN")

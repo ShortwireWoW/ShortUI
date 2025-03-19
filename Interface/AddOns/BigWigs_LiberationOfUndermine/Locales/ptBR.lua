@@ -1,11 +1,5 @@
-local L = BigWigs:NewBossLocale("Vexie and the Geargrinders", "ptBR")
+local L = BigWigs:NewBossLocale("Cauldron of Carnage", "ptBR")
 if not L then return end
-if L then
-	--L.plating_removed = "%d Protective Plating left"
-	--L.exhaust_fumes = "Raid Damage"
-end
-
-L = BigWigs:NewBossLocale("Cauldron of Carnage", "ptBR")
 if L then
 	--L.custom_on_fade_out_bars = "Fade out bars"
 	--L.custom_on_fade_out_bars_desc = "Fade out bars which belong to the boss that is out of range."
@@ -15,7 +9,6 @@ if L then
 
 	--L.eruption_stomp = "Stomp" -- Short for Eruption Stomp
 	--L.thunderdrum_salvo = "Salvo" -- Short for Thunderdrum Salvo
-	--L.voltaic_image = "Fixates" -- Multiple of Fixate
 end
 
 L = BigWigs:NewBossLocale("Rik Reverb", "ptBR")
@@ -46,6 +39,7 @@ if L then
 	--L.foot_blasters = "Mines"
 	--L.unstable_shrapnel = "Mine Soaked"
 	--L.screw_up = "Drills"
+	--L.screw_up_single = "Drill" -- Singular of Drills
 	--L.sonic_ba_boom = "Raid Damage"
 	--L.polarization_generator = "Colors"
 
@@ -59,6 +53,8 @@ if L then
 	--L.jumbo_void_beam = "Big Beams"
 	--L.void_barrage = "Balls"
 	--L.everything = "Everything"
+
+	--L.under_you_comment = "Under You" -- Implies this setting is for the damage from the ground effect under you
 end
 
 L = BigWigs:NewBossLocale("The One-Armed Bandit", "ptBR")

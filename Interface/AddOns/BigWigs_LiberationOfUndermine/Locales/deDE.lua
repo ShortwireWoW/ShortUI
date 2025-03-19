@@ -1,11 +1,5 @@
-local L = BigWigs:NewBossLocale("Vexie and the Geargrinders", "deDE")
+local L = BigWigs:NewBossLocale("Cauldron of Carnage", "deDE")
 if not L then return end
-if L then
-	L.plating_removed = "%d Schutzpanzerung noch übrig"
-	L.exhaust_fumes = "Raid Schaden"
-end
-
-L = BigWigs:NewBossLocale("Cauldron of Carnage", "deDE")
 if L then
 	L.custom_on_fade_out_bars = "Leisten abblenden"
 	L.custom_on_fade_out_bars_desc = "Blendet die Leisten ab, welche zum aus der Reichweite befindlichen Boss gehören."
@@ -15,7 +9,6 @@ if L then
 
 	L.eruption_stomp = "Stampfen" -- Short for Eruption Stomp
 	L.thunderdrum_salvo = "Salve" -- Short for Thunderdrum Salvo
-	L.voltaic_image = "Fixierungen" -- Multiple of Fixate
 end
 
 L = BigWigs:NewBossLocale("Rik Reverb", "deDE")
@@ -46,6 +39,7 @@ if L then
 	L.foot_blasters = "Minen"
 	L.unstable_shrapnel = "Mine absorbiert"
 	L.screw_up = "Bohrer"
+	L.screw_up_single = "Bohrer" -- Singular of Drills
 	L.sonic_ba_boom = "Raid Schaden"
 	L.polarization_generator = "Farben"
 
@@ -59,6 +53,8 @@ if L then
 	L.jumbo_void_beam = "Große Strahlen"
 	L.void_barrage = "Bälle"
 	L.everything = "Alles"
+
+	L.under_you_comment = "Unter Dir" -- Implies this setting is for the damage from the ground effect under you
 end
 
 L = BigWigs:NewBossLocale("The One-Armed Bandit", "deDE")

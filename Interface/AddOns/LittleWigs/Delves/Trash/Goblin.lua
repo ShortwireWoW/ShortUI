@@ -52,6 +52,9 @@ end
 
 function mod:OnRegister()
 	self.displayName = L.goblin_trash
+	self:SetSpellRename(474001, CL.enrage) -- Bathe in Blood (Enrage)
+	self:SetSpellRename(473541, CL.frontal_cone) -- Flurry of Punches (Frontal Cone)
+	self:SetSpellRename(472842, CL.fixate) -- Destroy (Fixate)
 end
 
 local autotalk = mod:AddAutoTalkOption(false)
@@ -76,7 +79,7 @@ function mod:GetOptions()
 		473696, -- Molotov Cocktail
 		-- Bomb Bot
 		{472842, "ME_ONLY"}, -- Destroy
-	}, {
+	},{
 		[473684] = L.bopper_bot,
 		[473550] = L.aerial_support_bot,
 		[474001] = L.masked_freelancer,
@@ -85,6 +88,10 @@ function mod:GetOptions()
 		[473541] = L.punchy_thug,
 		[473696] = L.flinging_flicker,
 		[472842] = L.bomb_bot,
+	},{
+		[474001] = CL.enrage, -- Bathe in Blood (Enrage)
+		[473541] = CL.frontal_cone, -- Flurry of Punches (Frontal Cone)
+		[472842] = CL.fixate, -- Destroy (Fixate)
 	}
 end
 
@@ -184,7 +191,7 @@ end
 -- Masked Freelancer
 
 function mod:BatheInBlood(args)
-	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+	self:Message(args.spellId, "red", CL.casting:format(CL.enrage))
 	self:PlaySound(args.spellId, "alert")
 end
 
@@ -225,7 +232,7 @@ do
 	function mod:FlurryOfPunches(args)
 		if args.time - prev > 2 then
 			prev = args.time
-			self:Message(args.spellId, "red")
+			self:Message(args.spellId, "red", CL.frontal_cone)
 			self:PlaySound(args.spellId, "alarm")
 		end
 	end
@@ -250,7 +257,7 @@ end
 do
 	local prev = 0
 	function mod:Destroy(args)
-		self:TargetMessage(args.spellId, "yellow", args.destName)
+		self:TargetMessage(args.spellId, "yellow", args.destName, CL.fixate)
 		if args.time - prev > 2 then
 			prev = args.time
 			self:PlaySound(args.spellId, "info", nil, args.destName)

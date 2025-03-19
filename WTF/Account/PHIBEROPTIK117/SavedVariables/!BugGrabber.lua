@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 720,
 ["lastSanitation"] = 3,
+["session"] = 723,
 ["errors"] = {
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'MRT' tried to call the protected function 'Frame:Hide()'.",
@@ -41,6 +41,22 @@ BugGrabberDB = {
 ["locals"] = "(*temporary) = \"After(): C_Timer.After requires a non-negative duration\nLua Taint: WeakAuras\"\n",
 ["stack"] = "[C]: in function '?'\n[Interface/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua]:62: in function 'After'\n[return function(_weakAuraEvent, _event, _id, _message, _expirationTime)]:13: in function <[string \"return function(_weakAuraEvent, _event, _id...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:752: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'func'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:846: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:842>",
 ["session"] = 718,
+["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'RaiderIO' tried to call the protected function 'Frame:SetPropagateMouseClicks()'.",
+["time"] = "2025/03/18 14:02:04",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'SetPropagateMouseClicks'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua]:515: in function 'UpdateMousePropagation'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua]:520: in function 'OnAcquired'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua]:629: in function 'OnAcquired'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/FlightPointDataProvider.lua]:62: in function 'OnAcquired'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:297: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/FlightPointDataProvider.lua]:29: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:76: in function 'OnMapChanged'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:760: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:759>\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:765: in function 'OnMapChanged'\n...[C]: in function 'Show'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:493: in function 'SetUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:336: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:174: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:893: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua]:115: in function 'SetDisplayState'\n[Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua]:51: in function 'HandleUserActionToggleSelf'\n[Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua]:550: in function 'ToggleWorldMap'\n[TOGGLEWORLDMAP]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>",
+["session"] = 721,
+["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Prat-3.0-3.9.65' tried to call the protected function 'Button:SetPassThroughButtons()'.",
+["time"] = "2025/03/18 14:02:06",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'SetPassThroughButtons'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:280: in function 'CheckMouseButtonPassthrough'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:302: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:194: in function 'AddQuest'\n[Interface/AddOns/Blizzard_FlightMap/FM_QuestDataProvider.lua]:12: in function 'AddQuest'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:134: in function 'CheckAddQuest'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:141: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:39: in function <...lizzard_SharedMapDataProviders/QuestDataProvider.lua:39>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua]:59: in function 'CacheCurrentSuperTrackInfo'\n[Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua]:17: in function <...rameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua:15>",
+["session"] = 721,
 ["counter"] = 1,
 },
 },

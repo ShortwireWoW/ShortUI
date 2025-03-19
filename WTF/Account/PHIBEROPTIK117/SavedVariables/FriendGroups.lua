@@ -14,8 +14,12 @@ FriendGroups_SavedVars = {
 ["ingame_retail"] = false,
 ["show_btag"] = false,
 ["hide_empty_groups"] = false,
-["hide_afk"] = false,
-["collapsed"] = {
-},
 ["sort_by_status"] = false,
+["collapsed"] = {
+["LunarEffect"] = true,
+["[No Group]"] = true,
+["Incoherent Screaming"] = true,
+["Pirate Idiots"] = true,
+},
+["hide_afk"] = false,
 }
