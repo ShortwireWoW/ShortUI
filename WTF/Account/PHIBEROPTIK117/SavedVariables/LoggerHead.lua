@@ -10,7 +10,7 @@ LoggerHeadDB = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
@@ -21,7 +21,7 @@ LoggerHeadDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
@@ -127,8 +127,10 @@ false,
 [8] = true,
 [23] = true,
 },
-["Coilfang: The Underbog"] = {
-[24] = false,
+["Grim Batol"] = {
+[8] = true,
+[2] = false,
+[23] = true,
 },
 ["Shado-Pan Monastery"] = {
 [24] = false,
@@ -139,10 +141,8 @@ false,
 [23] = true,
 [8] = true,
 },
-["Grim Batol"] = {
-[8] = true,
-[2] = false,
-[23] = true,
+["Coilfang: The Underbog"] = {
+[24] = false,
 },
 ["The MOTHERLODE!!"] = {
 true,
@@ -204,19 +204,19 @@ false,
 ["Demolition Dome"] = {
 [208] = true,
 },
-["Excavation Site 9"] = {
-[208] = false,
-},
 ["The Dread Pit"] = {
 [208] = true,
 },
-["Nightfall Sanctum"] = {
+["Fungal Folly"] = {
+[208] = false,
+},
+["Excavation Site 9"] = {
 [208] = false,
 },
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["Fungal Folly"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
 },
 ["The Underkeep"] = {

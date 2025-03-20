@@ -7,8 +7,8 @@ SimulationCraftDB = {
 ["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 ["Shortbm - Stormrage"] = "Shortbm - Stormrage",
 ["Bighealnrg - Stormrage"] = "Bighealnrg - Stormrage",
-["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
 ["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
+["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
 ["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
 ["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Deleteitems - Area 52"] = "Deleteitems - Area 52",
@@ -50,9 +50,9 @@ SimulationCraftDB = {
 },
 ["Bighealnrg - Stormrage"] = {
 },
-["Loveachieve - Mal'Ganis"] = {
-},
 ["Raretrollrog - Mal'Ganis"] = {
+},
+["Loveachieve - Mal'Ganis"] = {
 },
 ["Guildsigzzs - Stormrage"] = {
 },

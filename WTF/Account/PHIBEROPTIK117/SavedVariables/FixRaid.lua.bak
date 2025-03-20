@@ -4,22 +4,8 @@ FixRaidDB = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Nagaltharg-Zul'jin"] = 1742262747,
-["Jaecee-Draenor"] = 1742263473,
-["Ericdelion-Zul'jin"] = 1742262725,
-["Elementalit-Drakkari"] = 1742263440,
 },
 ["ranged"] = {
-["Okbuddy-Illidan"] = 1742262735,
-["Family-Draenor"] = 1742261618,
-["Lonawan-Drenden"] = 1742263442,
-["Scalydad-Hyjal"] = 1742261682,
-["Kotondo-Arthas"] = 1742264391,
-["Aliceandreia-Gnomeregan"] = 1742263466,
-["Glitterable-Illidan"] = 1742261691,
-["Krilleon-ArgentDawn"] = 1742261689,
-["Papí-Blackrock"] = 1742263426,
-["Drutah-Mannoroth"] = 1742262731,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -60,12 +46,12 @@ FixRaidDB = {
 ["Shortbm - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortmalice - Stormrage"] = "Default",
-["Shortrouge - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {

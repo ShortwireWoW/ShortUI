@@ -8,7 +8,7 @@ OmniCCDB = {
 ["Shortbm - Stormrage"] = "Default",
 ["Bighealnrg - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
 ["Raidmates - Tichondrius"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
@@ -31,7 +31,7 @@ OmniCCDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 },
 ["global"] = {

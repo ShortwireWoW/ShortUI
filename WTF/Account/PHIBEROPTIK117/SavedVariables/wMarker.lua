@@ -10,7 +10,7 @@ wMarkerAceDB = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortkin - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
@@ -21,7 +21,7 @@ wMarkerAceDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortkin - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["global"] = {
