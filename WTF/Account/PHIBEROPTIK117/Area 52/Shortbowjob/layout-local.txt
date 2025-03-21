@@ -13,13 +13,6 @@ X: 519
 Y: -85
 W: 388
 H: 210
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: -77
-Y: 4
-W: 316
-H: 106
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -27,3 +20,10 @@ X: 21
 Y: 139
 W: 261
 H: 545
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: -77
+Y: 4
+W: 249
+H: 210

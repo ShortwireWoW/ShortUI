@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 724,
 ["lastSanitation"] = 3,
+["session"] = 725,
 ["errors"] = {
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'MRT' tried to call the protected function 'Frame:Hide()'.",
@@ -57,6 +57,22 @@ BugGrabberDB = {
 ["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
 ["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'SetPassThroughButtons'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:280: in function 'CheckMouseButtonPassthrough'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:302: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:194: in function 'AddQuest'\n[Interface/AddOns/Blizzard_FlightMap/FM_QuestDataProvider.lua]:12: in function 'AddQuest'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:134: in function 'CheckAddQuest'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:141: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua]:39: in function <...lizzard_SharedMapDataProviders/QuestDataProvider.lua:39>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua]:59: in function 'CacheCurrentSuperTrackInfo'\n[Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua]:17: in function <...rameXMLUtil/Mainline/Blizzard_QuestSuperTracking.lua:15>",
 ["session"] = 721,
+["counter"] = 1,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'RaiderIO' tried to call the protected function 'CheckInteractDistance()'.",
+["time"] = "2025/03/19 20:47:06",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'CheckInteractDistance'\n[Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedUtils.lua]:194: in function <...ns/Blizzard_UnitPopupShared/UnitPopupSharedUtils.lua:181>\n[tail call]: ?\n[tail call]: ?\n[Interface/AddOns/Blizzard_Menu/MenuTemplates.lua]:81: in function <Interface/AddOns/Blizzard_Menu/MenuTemplates.lua:79>\n[Interface/AddOns/Blizzard_Menu/MenuTemplates.lua]:85: in function 'OnEnter'\n[Interface/AddOns/Blizzard_Menu/Menu.lua]:741: in function 'HandleOnEnter'\n[Interface/AddOns/Blizzard_Menu/Menu.lua]:2251: in function 'EnterFrame'\n[Interface/AddOns/Blizzard_Menu/Menu.lua]:2316: in function <Interface/AddOns/Blizzard_Menu/Menu.lua:2315>",
+["session"] = 725,
+["counter"] = 1,
+},
+{
+["message"] = "Lua error in aura 'Repair Protective Plating progress': Trigger 1\nWeakAuras Version: 5.19.5\nAura Version: 1.0.3\nStack trace:\n[string \"return function(allstates, event, ...)\"]:34: attempt to perform arithmetic on field 'repaired' (a nil value)",
+["time"] = "2025/03/19 22:26:47",
+["locals"] = "Skipped (In Encounter)",
+["stack"] = "[return function(allstates, event, ...)]:34: in function <[string \"return function(allstates, event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:671: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'func'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:846: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:842>",
+["session"] = 725,
 ["counter"] = 1,
 },
 },
