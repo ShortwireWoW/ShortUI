@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 726,
 ["lastSanitation"] = 3,
-["session"] = 725,
 ["errors"] = {
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'MRT' tried to call the protected function 'Frame:Hide()'.",
@@ -74,6 +74,30 @@ BugGrabberDB = {
 ["stack"] = "[return function(allstates, event, ...)]:34: in function <[string \"return function(allstates, event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:671: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:963: in function 'ScanEventsInternal'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:897: in function 'func'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:846: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:842>",
 ["session"] = 725,
 ["counter"] = 1,
+},
+{
+["message"] = "...ns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua:257: attempt to index a nil value",
+["time"] = "2025/03/20 21:25:44",
+["locals"] = "self = Button {\n highlightWorldQuestsOnHover = false\n poiInfo = <table> {\n }\n Display = Frame {\n }\n NormalTexture = Texture {\n }\n selected = false\n normalizedX = 0.432600\n scaleFactor = 1\n areaPOIID = 8063\n areaPOIInfo = <table> {\n }\n type = 4\n style = 10\n HighlightTexture = Texture {\n }\n pinScale = 1.300000\n tags = <table> {\n }\n highlightVignettesOnHover = false\n normalizedY = 0.319212\n name = \"Awakening the Machine\"\n PushedTexture = Texture {\n }\n pinFrameLevelType = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n endScale = 1.300000\n Glow = Texture {\n }\n description = \"Speaker Kuldas needs help with routine maintenance! Speak with him to help.\"\n pinFrameLevel = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n startScale = 1.300000\n dataProvider = <table> {\n }\n shouldShowGlow = true\n tooltipWidgetSet = 1362\n pinHoverHighlightType = 3\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+["stack"] = "[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:257: in function <...ns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua:256>",
+["session"] = 726,
+["counter"] = 1,
+},
+{
+["message"] = "...ns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua:266: attempt to index a nil value",
+["time"] = "2025/03/20 21:25:44",
+["locals"] = "self = Button {\n highlightWorldQuestsOnHover = false\n poiInfo = <table> {\n }\n Display = Frame {\n }\n NormalTexture = Texture {\n }\n selected = false\n normalizedX = 0.432600\n scaleFactor = 1\n areaPOIID = 8063\n areaPOIInfo = <table> {\n }\n type = 4\n style = 10\n HighlightTexture = Texture {\n }\n pinScale = 1.300000\n tags = <table> {\n }\n highlightVignettesOnHover = false\n normalizedY = 0.319212\n name = \"Awakening the Machine\"\n PushedTexture = Texture {\n }\n pinFrameLevelType = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n endScale = 1.300000\n Glow = Texture {\n }\n description = \"Speaker Kuldas needs help with routine maintenance! Speak with him to help.\"\n pinFrameLevel = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n startScale = 1.300000\n dataProvider = <table> {\n }\n shouldShowGlow = true\n tooltipWidgetSet = 1362\n pinHoverHighlightType = 3\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+["stack"] = "[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:266: in function 'OnMouseUp'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:245: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:244>",
+["session"] = 726,
+["counter"] = 1,
+},
+{
+["message"] = "...zzard_SharedMapDataProviders/AreaPOIDataProvider.lua:195: attempt to index a nil value",
+["time"] = "2025/03/20 21:25:44",
+["locals"] = "self = Button {\n highlightWorldQuestsOnHover = false\n poiInfo = <table> {\n }\n Display = Frame {\n }\n NormalTexture = Texture {\n }\n selected = false\n normalizedX = 0.432600\n scaleFactor = 1\n areaPOIID = 8063\n areaPOIInfo = <table> {\n }\n type = 4\n style = 10\n HighlightTexture = Texture {\n }\n pinScale = 1.300000\n tags = <table> {\n }\n highlightVignettesOnHover = false\n normalizedY = 0.319212\n name = \"Awakening the Machine\"\n PushedTexture = Texture {\n }\n pinFrameLevelType = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n endScale = 1.300000\n Glow = Texture {\n }\n description = \"Speaker Kuldas needs help with routine maintenance! Speak with him to help.\"\n pinFrameLevel = \"PIN_FRAME_LEVEL_AREA_POI_EVENT\"\n startScale = 1.300000\n dataProvider = <table> {\n }\n shouldShowGlow = true\n tooltipWidgetSet = 1362\n pinHoverHighlightType = 3\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+["stack"] = "[Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIDataProvider.lua]:195: in function <...zzard_SharedMapDataProviders/AreaPOIDataProvider.lua:194>",
+["session"] = 726,
+["counter"] = 3,
 },
 },
 }

@@ -11,10 +11,10 @@ EncounterPlannerDB = {
 [468487] = true,
 [459627] = true,
 [459671] = true,
-[460603] = true,
+[466615] = true,
 [460116] = true,
 [459943] = true,
-[466615] = true,
+[460603] = true,
 },
 },
 ["plans"] = {
@@ -24,12 +24,11 @@ EncounterPlannerDB = {
 ["isPrimaryPlan"] = true,
 ["remindersEnabled"] = true,
 ["New"] = nil --[[ skipped inline function ]],
-["collapsed"] = {
+["content"] = {
 },
 ["instanceID"] = 2769,
 ["roster"] = {
 ["Shortbowjob"] = {
-["New"] = nil --[[ skipped inline function ]],
 ["class"] = "class:Hunter",
 ["role"] = "role:damager",
 ["classColoredName"] = "|cffaad372Shortbowjob|r",
@@ -40,7 +39,7 @@ EncounterPlannerDB = {
 ["ID"] = "0.9.7-Rpmega-jw29bd4nqm",
 ["customPhaseCounts"] = {
 },
-["content"] = {
+["collapsed"] = {
 },
 ["customPhaseDurations"] = {
 },

@@ -8,21 +8,21 @@ LoggerHeadDB = {
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",
 ["Shortloch - Stormrage"] = "Default",
 ["Shortrouge - Area 52"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
-["Shortmalice - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -116,28 +116,33 @@ false,
 [24] = false,
 [2] = false,
 },
-["The Rookery"] = {
+["Utgarde Keep"] = {
+[24] = false,
+},
+["Gundrak"] = {
+[24] = false,
+},
+["Cinderbrew Meadery"] = {
 false,
 [8] = true,
 [23] = true,
 },
-["Gate of the Setting Sun"] = {
-[24] = false,
-},
-["Mogu'shan Palace"] = {
-[24] = false,
-},
-["Temple of the Jade Serpent"] = {
+["Coilfang: The Underbog"] = {
 [24] = false,
 },
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Tempest Keep: The Botanica"] = {
-[24] = false,
+["The Stonevault"] = {
+true,
+false,
+[23] = true,
+[8] = true,
 },
-["Halls of Stone"] = {
+["Grim Batol"] = {
+[8] = true,
 [2] = false,
+[23] = true,
 },
 ["The MOTHERLODE!!"] = {
 true,
@@ -148,21 +153,16 @@ false,
 [8] = true,
 [23] = true,
 },
-["The Stonevault"] = {
-true,
-false,
-[23] = true,
-[8] = true,
+["Tempest Keep: The Botanica"] = {
+[24] = false,
 },
 ["Priory of the Sacred Flame"] = {
 false,
 [23] = true,
 [8] = true,
 },
-["Grim Batol"] = {
-[8] = true,
+["Halls of Stone"] = {
 [2] = false,
-[23] = true,
 },
 ["Zul'Farrak"] = {
 [24] = false,
@@ -173,19 +173,19 @@ false,
 [8] = true,
 [23] = true,
 },
-["Coilfang: The Underbog"] = {
+["Temple of the Jade Serpent"] = {
 [24] = false,
 },
-["Cinderbrew Meadery"] = {
+["Mogu'shan Palace"] = {
+[24] = false,
+},
+["Gate of the Setting Sun"] = {
+[24] = false,
+},
+["The Rookery"] = {
 false,
 [8] = true,
 [23] = true,
-},
-["Gundrak"] = {
-[24] = false,
-},
-["Utgarde Keep"] = {
-[24] = false,
 },
 },
 ["scenario"] = {
@@ -204,44 +204,50 @@ false,
 ["Demolition Dome"] = {
 [208] = true,
 },
-["Tak-Rethan Abyss"] = {
-[208] = true,
-},
-["Excavation Site 9"] = {
+["Fungal Folly"] = {
 [208] = false,
 },
 ["Nightfall Sanctum"] = {
 [208] = false,
 },
+["The Dread Pit"] = {
+[208] = true,
+},
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Excavation Site 9"] = {
+[208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,
 },
-["Fungal Folly"] = {
-[208] = false,
+["Tak-Rethan Abyss"] = {
+[208] = true,
 },
 },
 ["raid"] = {
-["Ulduar"] = {
-[24] = false,
-},
-["Antorus, the Burning Throne"] = {
-[16] = false,
-[14] = false,
-},
 ["Liberation of Undermine"] = {
 [14] = true,
 [17] = true,
 [15] = true,
 },
+["Antorus, the Burning Throne"] = {
+[16] = false,
+[14] = false,
+},
+["Ulduar"] = {
+[24] = false,
+},
 ["Sanctum of Domination"] = {
 [14] = false,
 [16] = false,
+},
+["Black Temple"] = {
+[24] = false,
+},
+["Naxxramas"] = {
+[3] = false,
 },
 ["Nerub-ar Palace"] = {
 [14] = true,
@@ -249,22 +255,16 @@ false,
 [15] = true,
 [17] = true,
 },
-["Naxxramas"] = {
-[3] = false,
-},
-["Black Temple"] = {
-[24] = false,
-},
 ["Firelands"] = {
 [24] = false,
 },
 },
 },
 ["version"] = 3,
-["chat"] = true,
 ["minimap"] = {
 ["hide"] = true,
 },
+["chat"] = true,
 },
 },
 }
