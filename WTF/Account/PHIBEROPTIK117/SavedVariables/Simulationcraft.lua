@@ -1,19 +1,19 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
-["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
+["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 ["Shortscales - Stormrage"] = "Shortscales - Stormrage",
 ["Shortbowjob - Dalaran"] = "Shortbowjob - Dalaran",
 ["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 ["Shortbm - Stormrage"] = "Shortbm - Stormrage",
 ["Bighealnrg - Stormrage"] = "Bighealnrg - Stormrage",
+["Shortbeef - Area 52"] = "Shortbeef - Area 52",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
-["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
 ["Guildsigzzs - Stormrage"] = "Guildsigzzs - Stormrage",
 ["Shortblink - Stormrage"] = "Shortblink - Stormrage",
 ["Deleteitems - Area 52"] = "Deleteitems - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
-["Shortmalice - Stormrage"] = "Shortmalice - Stormrage",
+["Shortsited - Stormrage"] = "Shortsited - Stormrage",
 ["Souplight - Tichondrius"] = "Souplight - Tichondrius",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
@@ -21,21 +21,21 @@ SimulationCraftDB = {
 ["Shortloch - Stormrage"] = "Shortloch - Stormrage",
 ["Stonesoup - Area 52"] = "Stonesoup - Area 52",
 ["Shortkin - Stormrage"] = "Shortkin - Stormrage",
-["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
-["Shortirony - Illidan"] = "Shortirony - Illidan",
+["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
+["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
-["Raidmates - Tichondrius"] = "Raidmates - Tichondrius",
+["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Shortrouge - Area 52"] = "Shortrouge - Area 52",
 ["Loveacheev - Mal'Ganis"] = "Loveacheev - Mal'Ganis",
-["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortmalice - Stormrage"] = "Shortmalice - Stormrage",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Shortbeef - Area 52"] = "Shortbeef - Area 52",
-["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
+["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
+["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
 },
 ["profiles"] = {
-["Shortshots - Mal'Ganis"] = {
+["Lildotnrg - Stormrage"] = {
 },
 ["Shortscales - Stormrage"] = {
 },
@@ -50,9 +50,12 @@ SimulationCraftDB = {
 },
 ["Bighealnrg - Stormrage"] = {
 },
-["Loveachieve - Mal'Ganis"] = {
+["Shortbeef - Area 52"] = {
+["minimap"] = {
+["hide"] = true,
 },
-["Raretrollrog - Mal'Ganis"] = {
+},
+["Loveachieve - Mal'Ganis"] = {
 },
 ["Guildsigzzs - Stormrage"] = {
 },
@@ -68,7 +71,13 @@ SimulationCraftDB = {
 ["hide"] = true,
 },
 },
-["Shortmalice - Stormrage"] = {
+["Shortsited - Stormrage"] = {
+["frame"] = {
+["ofsx"] = -0.8206341862678528,
+},
+["minimap"] = {
+["hide"] = true,
+},
 },
 ["Souplight - Tichondrius"] = {
 },
@@ -84,11 +93,11 @@ SimulationCraftDB = {
 },
 ["Shortkin - Stormrage"] = {
 },
-["Sentientsoup - Mal'Ganis"] = {
-},
-["Shortirony - Illidan"] = {
+["Raidmates - Tichondrius"] = {
 },
 ["Medimilk - Mal'Ganis"] = {
+},
+["Shortirony - Illidan"] = {
 },
 ["Shortlite - Stormrage"] = {
 ["minimap"] = {
@@ -97,31 +106,22 @@ SimulationCraftDB = {
 },
 ["Belfmaglove - Mal'Ganis"] = {
 },
-["Raidmates - Tichondrius"] = {
+["Sentientsoup - Mal'Ganis"] = {
 },
 ["Shortrouge - Area 52"] = {
 },
 ["Loveacheev - Mal'Ganis"] = {
 },
-["Shortsited - Stormrage"] = {
-["minimap"] = {
-["hide"] = true,
-},
-["frame"] = {
-["ofsx"] = -0.8206341862678528,
-},
+["Shortmalice - Stormrage"] = {
 },
 ["Shortwire - Stormrage"] = {
 ["minimap"] = {
 ["hide"] = true,
 },
 },
-["Shortbeef - Area 52"] = {
-["minimap"] = {
-["hide"] = true,
+["Raretrollrog - Mal'Ganis"] = {
 },
-},
-["Lildotnrg - Stormrage"] = {
+["Shortshots - Mal'Ganis"] = {
 },
 },
 }

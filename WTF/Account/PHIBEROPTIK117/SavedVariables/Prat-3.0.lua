@@ -5,20 +5,20 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["colors"] = {
-["trade"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
+["services"] = {
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["general"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
-["services"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
+["trade"] = {
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 },
 },
@@ -62,13 +62,13 @@ Prat3DB = {
 },
 ["Prat_History"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_KeyBindings"] = {
 },
 ["Prat_Font"] = {
 },
-["Prat_KeyBindings"] = {
+["Prat_Bubbles"] = {
 },
-["Prat_Sounds"] = {
+["Prat_UrlCopy"] = {
 },
 ["Prat_DebugModules"] = {
 },
@@ -76,15 +76,15 @@ Prat3DB = {
 },
 ["Prat_Achievements"] = {
 },
-["Prat_Alias"] = {
-},
 ["Prat_NewcomersChat"] = {
+},
+["Prat_Alias"] = {
 },
 ["Prat_OriginalButtons"] = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_ChannelNames"] = {
+["Prat_Paragraph"] = {
 },
 ["Prat_ChannelSticky"] = {
 },
@@ -92,7 +92,7 @@ Prat3DB = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_Paragraph"] = {
+["Prat_ChannelNames"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -100,7 +100,7 @@ Prat3DB = {
 },
 ["Prat_Buttons"] = {
 },
-["Prat_UrlCopy"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -111,18 +111,18 @@ Prat3DB = {
 ["Shortbm - Stormrage"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
-["Shortrouge - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["ChatLog"] = 2,
+["Alias"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -132,7 +132,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["Alias"] = 2,
+["ChatLog"] = 2,
 },
 },
 },

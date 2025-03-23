@@ -1,16 +1,8 @@
 
 BugGrabberDB = {
-["session"] = 726,
 ["lastSanitation"] = 3,
+["session"] = 727,
 ["errors"] = {
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'MRT' tried to call the protected function 'Frame:Hide()'.",
-["time"] = "2025/03/15 21:35:22",
-["locals"] = "Skipped (In Encounter)",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'Hide'\n[Interface/AddOns/MRT/RaidCheck.lua]:4146: in function <Interface/AddOns/MRT/RaidCheck.lua:4121>",
-["session"] = 704,
-["counter"] = 1,
-},
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'FriendGroups' tried to call the protected function 'RaidFrame:Show()'.",
 ["time"] = "2025/03/15 21:38:31",
@@ -98,6 +90,14 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIDataProvider.lua]:195: in function <...zzard_SharedMapDataProviders/AreaPOIDataProvider.lua:194>",
 ["session"] = 726,
 ["counter"] = 3,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'MRT' tried to call the protected function 'Frame:Hide()'.",
+["time"] = "2025/03/15 21:35:22",
+["locals"] = "Skipped (In Encounter)",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'Hide'\n[Interface/AddOns/MRT/RaidCheck.lua]:4146: in function <Interface/AddOns/MRT/RaidCheck.lua:4121>",
+["session"] = 727,
+["counter"] = 2,
 },
 },
 }

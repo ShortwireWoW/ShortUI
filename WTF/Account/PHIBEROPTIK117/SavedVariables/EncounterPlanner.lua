@@ -11,10 +11,10 @@ EncounterPlannerDB = {
 [468487] = true,
 [459627] = true,
 [459671] = true,
-[466615] = true,
+[460603] = true,
 [460116] = true,
 [459943] = true,
-[460603] = true,
+[466615] = true,
 },
 },
 ["plans"] = {
@@ -24,7 +24,7 @@ EncounterPlannerDB = {
 ["isPrimaryPlan"] = true,
 ["remindersEnabled"] = true,
 ["New"] = nil --[[ skipped inline function ]],
-["content"] = {
+["collapsed"] = {
 },
 ["instanceID"] = 2769,
 ["roster"] = {
@@ -39,7 +39,7 @@ EncounterPlannerDB = {
 ["ID"] = "0.9.7-Rpmega-jw29bd4nqm",
 ["customPhaseCounts"] = {
 },
-["collapsed"] = {
+["content"] = {
 },
 ["customPhaseDurations"] = {
 },
