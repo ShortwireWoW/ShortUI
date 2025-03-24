@@ -1,7 +1,11 @@
 
 EncounterPlannerDB = {
 ["profileKeys"] = {
+["Shortpeenpal - Stormrage"] = "Default",
+["Shortpeenpal - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -11,10 +15,10 @@ EncounterPlannerDB = {
 [468487] = true,
 [459627] = true,
 [459671] = true,
-[460603] = true,
+[466615] = true,
 [460116] = true,
 [459943] = true,
-[466615] = true,
+[460603] = true,
 },
 },
 ["plans"] = {
@@ -24,7 +28,7 @@ EncounterPlannerDB = {
 ["isPrimaryPlan"] = true,
 ["remindersEnabled"] = true,
 ["New"] = nil --[[ skipped inline function ]],
-["collapsed"] = {
+["content"] = {
 },
 ["instanceID"] = 2769,
 ["roster"] = {
@@ -39,7 +43,7 @@ EncounterPlannerDB = {
 ["ID"] = "0.9.7-Rpmega-jw29bd4nqm",
 ["customPhaseCounts"] = {
 },
-["content"] = {
+["collapsed"] = {
 },
 ["customPhaseDurations"] = {
 },

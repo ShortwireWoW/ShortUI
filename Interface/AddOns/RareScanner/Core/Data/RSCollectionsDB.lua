@@ -783,6 +783,7 @@ local function UpdateNotCollectedAppearanceItemIDs(routines, routineTextOutput)
 												
 												if (not previousVisualID or previousVisualID ~= sources[k].visualID) then
 													context.counter = context.counter + 1
+													previousVisualID = sources[k].visualID
 												end
 												
 												AddAppearanceClassItemID(classID, sources[k].itemID)

@@ -1,42 +1,44 @@
 
 OmniCCDB = {
-["profileKeys"] = {
-["Lildotnrg - Stormrage"] = "Default",
-["Shortscales - Stormrage"] = "Default",
-["Shortbowjob - Dalaran"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
-["Shortbm - Stormrage"] = "Default",
-["Bighealnrg - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Loveachieve - Mal'Ganis"] = "Default",
-["Raidmates - Tichondrius"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Deleteitems - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Souplight - Tichondrius"] = "Default",
-["Shortybear - Area 52"] = "Default",
-["Volatilespor - Stormrage"] = "Default",
-["Dagdese - Stormrage"] = "Default",
-["Shortloch - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Shortkin - Stormrage"] = "Default",
-["Guildsigzzs - Stormrage"] = "Default",
-["Shortirony - Illidan"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortlite - Stormrage"] = "Default",
-["Belfmaglove - Mal'Ganis"] = "Default",
-["Sentientsoup - Mal'Ganis"] = "Default",
-["Shortrouge - Area 52"] = "Default",
-["Loveacheev - Mal'Ganis"] = "Default",
-["Shortmalice - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-},
 ["global"] = {
 ["dbVersion"] = 6,
 ["addonVersion"] = "11.0.7",
+},
+["profileKeys"] = {
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Loveachieve - Mal'Ganis"] = "Default",
+["Guildsigzzs - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Souplight - Tichondrius"] = "Default",
+["Shortybear - Area 52"] = "Default",
+["Volatilespor - Stormrage"] = "Default",
+["Sentientsoup - Mal'Ganis"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Belfmaglove - Mal'Ganis"] = "Default",
+["Shortpeenpal - Area 52"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
+["Shortpeenpal - Stormrage"] = "Default",
+["Shortscales - Stormrage"] = "Default",
+["Shortbowjob - Dalaran"] = "Default",
+["Shortloch - Stormrage"] = "Default",
+["Bighealnrg - Stormrage"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
+["Raidmates - Tichondrius"] = "Default",
+["Deleteitems - Area 52"] = "Default",
+["Dagdese - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Shortirony - Illidan"] = "Default",
+["Shortlite - Stormrage"] = "Default",
+["Shortkin - Stormrage"] = "Default",
+["Lildotnrg - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
+["Loveacheev - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortbm - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -82,9 +84,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },
@@ -92,9 +94,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },

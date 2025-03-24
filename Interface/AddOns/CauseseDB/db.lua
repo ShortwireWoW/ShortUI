@@ -24,7 +24,7 @@ CauseseDB = {
         [268702] = {"AoE",0,"","ALL",false,true}, --Furious Quake
         [330810] = {"DoT",0,"","ALL",true,true}, --Bind Soul
         [427342] = {"DEFEND",2,"CC.ogg","ALL",false,true}, --Defend
-        [1215412] = {"HEALABSORB",2,"CC.ogg","ALL",false,true}, --Corrosive Gunk
+        [1215412] = {"HEALABSORB",2,"","ALL",false,true}, --Corrosive Gunk
         [465120] = {"FIXATE INC",2,"CC.ogg","ALL",true,true}, --Wind Up Cast
         [465127] = {"FIXATE",2,"","ALL",true,true}, --Wind Up Channel
         [341969] = {"AoE",0,"","ALL",false,true}, --Withering Discharge
@@ -34,6 +34,7 @@ CauseseDB = {
         [444743] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Fireball Volley
         [440687] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Honey Volley
         [330868] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Necrotic Bolt Volley
+        [301088] = {"Detonate",0,"","ALL",false,true}, --Detonate
     },
     timers = {
         --Cinderbrew Meadery
@@ -69,8 +70,8 @@ CauseseDB = {
         --Floodgate
         ["230748"] = {[465827] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 19.4}}, --Warp Blood
         ["231197"] = {
-            [469818] = {"SPELL_CAST_START", 2, "ALL", "Bait Inc", 4.5, 21.8} , --Bubble Burp
-            [469721] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 15.5, 21.8} , --Backwash
+            [469818] = {"SPELL_CAST_START", 2, "ALL", "Bait Inc", 4.5, 21.8}, --Bubble Burp
+            [469721] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 15.5, 21.8}, --Backwash
         },
         ["231014"] = {[465120] = {"SPELL_CAST_START", 2, "ALL", "Fixate Inc", 8.3, 17}}, --Wind Up
         --Mechagon
@@ -88,7 +89,7 @@ CauseseDB = {
             [263628] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 16.5, 27}, --Charged Shield
             [472041] = {"SPELL_CAST_START", 5, "ALL", "Bait Inc", 8.5, 19.4}, --Tear Gas
         },
-        ["134232"] = {[267354] = {"SPELL_CAST_SUCCESS", 0, "ALL", "Knives Inc", 13, 20.6}}, --Fan of Knives
+        ["134232"] = {[267354] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Knives Inc", 13, 20.6}}, --Fan of Knives
         ["136643"] = {[473168] = {"SPELL_CAST_START", 0, "ALL", "Dance Inc", 15.5, 26.7}}, --Rapid Extraction
         ["133430"] = {[473304] = {"SPELL_CAST_START", 2, "ALL", "Drop Inc", 7.9, 23}}, --Brainstorm
         ["133463"] = {[269429] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 7.4, 18.2}}, --Charged Shot
@@ -100,11 +101,15 @@ CauseseDB = {
             [330725] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Curse Inc", 3.6, 18.2}, --Shadow Vulnerability
         },
         ["163086"] = {[330614] = {"SPELL_CAST_START", 2, "ALL", "Dodge Inc", 7, 15.7}}, --Vile Eruption
+        ["164510"] = {[330532] = {"SPELL_CAST_START", 2, "ALL", "Bleed Inc", 8.5, 21.8}}, --Jagged Quarrel
         ["169927"] = {[330586] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 0.1, 26.7}}, --Devour Flesh
-        ["162744"] = {[342135] = {"SPELL_CAST_START", 0, "ALL", "Stopcast Inc", 10.4, 17.9}}, --Interrupting Roar
+        ["162744"] = {[342135] = {"SPELL_CAST_START", 2, "ALL", "Stopcast Inc", 10.4, 17.9}}, --Interrupting Roar
         ["167532"] = {[342135] = {"SPELL_CAST_START", 0, "ALL", "Stopcast Inc", 2.4, 17.9}}, --Interrupting Roar
-        ["167538"] = {[1215850] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 10.4, 13.2}}, --Earthcrusher
-        ["167533"] = {[333827] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 2.1, 9.7}}, --Seismic Stomp
+        ["167538"] = {
+            [1215850] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 10.4, 13.2}, --Earthcrusher
+            [331316] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 3, 13.3}, --Savage Flurry
+        },
+        ["167533"] = {[333827] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 9.7, 16.9}}, --Seismic Stomp
         ["169893"] = {[333299] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Curse Inc", 6.9, 12.1}}, --Curse of Desolation
         ["160495"] = {[330868] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 13.3, 24.2}}, --Necrotic Bolt Volley
     },

@@ -1,0 +1,20 @@
+VER 3 0100000000000002 "Flash Heal" "134400"
+#showtooltip
+/cast [@mouseover] Flash Heal
+END
+VER 3 0100000000000004 "Penance" "134400"
+#showtooltip
+/cast [@mouseover] Penance
+END
+VER 3 0100000000000001 "PoM" "134400"
+#showtooltip
+/cast [@mouseover] Prayer of Mending
+END
+VER 3 0100000000000003 "PW:Shield" "134400"
+#showtooltip
+/cast [@mouseover] Power Word: Shield
+END
+VER 3 0100000000000005 "Renew" "134400"
+#showtooltip
+/cast [@mouseover] Renew
+END

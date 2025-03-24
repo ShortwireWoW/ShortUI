@@ -5,20 +5,20 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["colors"] = {
-["services"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
+["trade"] = {
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["general"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
-["trade"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
+["services"] = {
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 },
 },
@@ -62,13 +62,13 @@ Prat3DB = {
 },
 ["Prat_History"] = {
 },
-["Prat_KeyBindings"] = {
+["Prat_Bubbles"] = {
 },
 ["Prat_Font"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_KeyBindings"] = {
 },
-["Prat_UrlCopy"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_DebugModules"] = {
 },
@@ -76,15 +76,15 @@ Prat3DB = {
 },
 ["Prat_Achievements"] = {
 },
-["Prat_NewcomersChat"] = {
-},
 ["Prat_Alias"] = {
+},
+["Prat_NewcomersChat"] = {
 },
 ["Prat_OriginalButtons"] = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_Paragraph"] = {
+["Prat_ChannelNames"] = {
 },
 ["Prat_ChannelSticky"] = {
 },
@@ -92,7 +92,7 @@ Prat3DB = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_ChannelNames"] = {
+["Prat_Paragraph"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -100,7 +100,7 @@ Prat3DB = {
 },
 ["Prat_Buttons"] = {
 },
-["Prat_Sounds"] = {
+["Prat_UrlCopy"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -109,20 +109,22 @@ Prat3DB = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
+["Shortpeenpal - Stormrage"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
+["Shortpeenpal - Area 52"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
-["Shortmalice - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortrouge - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -132,7 +134,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

@@ -29,7 +29,7 @@ LittleWigs_BattleForAzeroth: disabled
 LittleWigs_BurningCrusade: disabled
 LittleWigs_Cataclysm: disabled
 LittleWigs_Classic: disabled
-LittleWigs_Dragonflight: disabled
+LittleWigs_Dragonflight: enabled
 LittleWigs_Legion: disabled
 LittleWigs_MistsOfPandaria: enabled
 LittleWigs_Shadowlands: disabled
