@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.0.7",
+},
 ["profileKeys"] = {
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
@@ -24,8 +28,8 @@ OmniCCDB = {
 ["Raidmates - Tichondrius"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Stonesoup - Area 52"] = "Default",
-["Shortbm - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Shortirony - Illidan"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
 ["Lildotnrg - Stormrage"] = "Default",
@@ -33,12 +37,8 @@ OmniCCDB = {
 ["Loveacheev - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortirony - Illidan"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
-},
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.0.7",
+["Shortbm - Stormrage"] = "Default",
+["Stonesoup - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -84,9 +84,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },
@@ -94,9 +94,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },

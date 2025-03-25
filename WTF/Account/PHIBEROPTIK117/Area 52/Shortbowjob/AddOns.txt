@@ -25,7 +25,7 @@ Details_Vanguard: disabled
 FixRaid: enabled
 FriendGroups: enabled
 LittleWigs: enabled
-LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BattleForAzeroth: enabled
 LittleWigs_BurningCrusade: disabled
 LittleWigs_Cataclysm: disabled
 LittleWigs_Classic: disabled

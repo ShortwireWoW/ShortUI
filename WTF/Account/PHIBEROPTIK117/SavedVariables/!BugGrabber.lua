@@ -1,23 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 744,
 ["lastSanitation"] = 3,
-["session"] = 737,
 ["errors"] = {
-{
-["message"] = "...e/AddOns/Blizzard_EditMode/Mainline/EditModeUtil.lua:37: bad argument #1 to 'abs' (number expected, got nil)",
-["time"] = "2025/03/23 21:13:42",
-["locals"] = "(*temporary) = nil\n(*temporary) = \"number expected, got nil\"\n",
-["stack"] = "[C]: in function 'abs'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeUtil.lua]:37: in function <...e/AddOns/Blizzard_EditMode/Mainline/EditModeUtil.lua:23>\n[tail call]: ?\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:816: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:183: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:846: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua]:615: in function 'UpdateBottomActionBarPositions'\n[Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua]:509: in function 'UpdateActionBarLayout'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBar.lua]:364: in function 'UpdateVisibility'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBar.lua]:331: in function 'Hide'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/PetActionBar.lua]:172: in function 'Update'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/PetActionBar.lua]:83: in function <.../AddOns/Blizzard_ActionBar/Mainline/PetActionBar.lua:70>\n[C]: ?",
-["session"] = 736,
-["counter"] = 321,
-},
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Details' tried to call the protected function 'ActionButton7:SetAttribute()'.",
-["time"] = "2025/03/23 21:53:22",
-["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua]:498: in function 'UpdatePressAndHoldAction'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua]:564: in function 'Update'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua]:516: in function 'UpdateAction'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua]:1012: in function 'OnEvent'\n[Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua]:217: in function <.../AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua:214>",
-["session"] = 737,
-["counter"] = 1,
-},
 },
 }
