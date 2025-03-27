@@ -6,15 +6,16 @@ TomTomDB = {
 ["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
 ["Loveachieve - Mal'Ganis"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
+["Shortloch - Stormrage"] = "Default",
 ["Shortybear - Area 52"] = "Default",
 ["Volatilespor - Stormrage"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Shortloch - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
@@ -60,15 +61,16 @@ TomTomWaypointsM = {
 ["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
 ["Loveachieve - Mal'Ganis"] = "Loveachieve - Mal'Ganis",
+["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
 ["Deleteitems - Area 52"] = "Deleteitems - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
-["Shortshots - Mal'Ganis"] = "Shortshots - Mal'Ganis",
 ["Raretrollrog - Mal'Ganis"] = "Raretrollrog - Mal'Ganis",
+["Shortloch - Stormrage"] = "Shortloch - Stormrage",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
 ["Dagdese - Stormrage"] = "Dagdese - Stormrage",
-["Shortloch - Stormrage"] = "Shortloch - Stormrage",
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortonheals - Area 52"] = "Shortonheals - Area 52",
 ["Shortkin - Stormrage"] = "Shortkin - Stormrage",
 ["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
@@ -94,13 +96,15 @@ TomTomWaypointsM = {
 },
 ["Loveachieve - Mal'Ganis"] = {
 },
+["Shortshots - Mal'Ganis"] = {
+},
 ["Deleteitems - Area 52"] = {
 },
 ["Shortbowjob - Area 52"] = {
 },
-["Shortshots - Mal'Ganis"] = {
-},
 ["Raretrollrog - Mal'Ganis"] = {
+},
+["Shortloch - Stormrage"] = {
 },
 ["Shortybear - Area 52"] = {
 },
@@ -108,9 +112,9 @@ TomTomWaypointsM = {
 },
 ["Dagdese - Stormrage"] = {
 },
-["Shortloch - Stormrage"] = {
-},
 ["Shortsited - Stormrage"] = {
+},
+["Shortonheals - Area 52"] = {
 },
 ["Shortkin - Stormrage"] = {
 },

@@ -13,6 +13,7 @@ OmniCCDB = {
 ["Souplight - Tichondrius"] = "Default",
 ["Shortybear - Area 52"] = "Default",
 ["Volatilespor - Stormrage"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Belfmaglove - Mal'Ganis"] = "Default",

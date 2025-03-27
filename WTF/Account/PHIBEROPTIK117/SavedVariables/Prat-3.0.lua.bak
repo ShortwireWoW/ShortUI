@@ -48,8 +48,8 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["minchatwidthdefault"] = 250,
-["initialized"] = true,
 ["maxchatheightdefault"] = 800,
+["initialized"] = true,
 },
 },
 },
@@ -108,9 +108,10 @@ Prat3DB = {
 ["profileKeys"] = {
 ["Dagdese - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
-["Shortpeenpal - Stormrage"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Shortrouge - Area 52"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortpeenpal - Area 52"] = "Default",
@@ -118,7 +119,7 @@ Prat3DB = {
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortrouge - Area 52"] = "Default",
+["Shortpeenpal - Stormrage"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {

@@ -9,9 +9,10 @@ LoggerHeadDB = {
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortshots - Mal'Ganis"] = "Default",
-["Dagdese - Stormrage"] = "Default",
 ["Raretrollrog - Mal'Ganis"] = "Default",
+["Dagdese - Stormrage"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
 ["Shortmalice - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
@@ -84,6 +85,10 @@ false,
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
+},
 ["The Azure Vault"] = {
 false,
 },
@@ -92,6 +97,7 @@ false,
 },
 ["Operation: Mechagon"] = {
 [23] = true,
+[8] = true,
 },
 ["Gate of the Setting Sun"] = {
 [24] = false,
@@ -224,20 +230,20 @@ false,
 ["Demolition Dome"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
-},
-["Fungal Folly"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
 },
 ["Excavation Site 9"] = {
 [208] = false,
 },
+["Fungal Folly"] = {
+[208] = false,
+},
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["Nightfall Sanctum"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
 ["The Underkeep"] = {
 [208] = false,

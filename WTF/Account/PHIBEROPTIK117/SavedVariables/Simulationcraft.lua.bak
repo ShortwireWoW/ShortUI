@@ -9,6 +9,7 @@ SimulationCraftDB = {
 ["Souplight - Tichondrius"] = "Souplight - Tichondrius",
 ["Shortybear - Area 52"] = "Shortybear - Area 52",
 ["Volatilespor - Stormrage"] = "Volatilespor - Stormrage",
+["Shortonheals - Area 52"] = "Shortonheals - Area 52",
 ["Sentientsoup - Mal'Ganis"] = "Sentientsoup - Mal'Ganis",
 ["Shortirony - Illidan"] = "Shortirony - Illidan",
 ["Belfmaglove - Mal'Ganis"] = "Belfmaglove - Mal'Ganis",
@@ -58,6 +59,8 @@ SimulationCraftDB = {
 ["Shortybear - Area 52"] = {
 },
 ["Volatilespor - Stormrage"] = {
+},
+["Shortonheals - Area 52"] = {
 },
 ["Sentientsoup - Mal'Ganis"] = {
 },

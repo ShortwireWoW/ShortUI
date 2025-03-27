@@ -32,7 +32,7 @@ LittleWigs_Classic: disabled
 LittleWigs_Dragonflight: enabled
 LittleWigs_Legion: disabled
 LittleWigs_MistsOfPandaria: enabled
-LittleWigs_Shadowlands: disabled
+LittleWigs_Shadowlands: enabled
 LittleWigs_WarlordsOfDraenor: disabled
 LittleWigs_WrathOfTheLichKing: disabled
 LoggerHead: enabled

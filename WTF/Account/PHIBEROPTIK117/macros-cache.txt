@@ -4,7 +4,7 @@ END
 VER 3 0000000000000064 "AFK Level" "134400"
 #showtooltip
 /target Volatile Spore
-/cast Corruption
+/cast Shadow Word: Pain
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
 VER 3 0000000000000067 "CLEAR WM" "132212"
@@ -12,6 +12,16 @@ VER 3 0000000000000067 "CLEAR WM" "132212"
 END
 VER 3 0000000000000068 "Guild" "134331"
 /s |cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r 
+END
+VER 3 000000000000006B "guild spam" "134400"
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
+/g thanks for the spam invite
 END
 VER 3 000000000000005D "Lust" "134400"
 #showtooltip
@@ -38,50 +48,6 @@ END
 VER 3 0000000000000069 "Raid Invite Time" "132208"
 /run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))
 /rt inv
-END
-VER 3 000000000000006B "rolol" "134400"
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
-/roll
 END
 VER 3 0000000000000065 "Swap Blaster" "134400"
 #showtooltip

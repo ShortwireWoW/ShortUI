@@ -29,6 +29,7 @@ VER 3 0100000000000013 "Call of the Wild" "134400"
 /petassist
 /petattack
 /cast Call of the Wild
+/use Tempered Potion
 /cast [@pettarget]Claw
 /cast [@pettarget]Bite
 /cast [@pettarget]Smack

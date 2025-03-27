@@ -3,6 +3,7 @@ EncounterPlannerDB = {
 ["profileKeys"] = {
 ["Shortpeenpal - Stormrage"] = "Default",
 ["Shortpeenpal - Area 52"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",

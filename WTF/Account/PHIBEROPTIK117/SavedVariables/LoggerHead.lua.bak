@@ -9,9 +9,10 @@ LoggerHeadDB = {
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
-["Dagdese - Stormrage"] = "Default",
 ["Shortloch - Stormrage"] = "Default",
+["Dagdese - Stormrage"] = "Default",
 ["Shortkin - Stormrage"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
@@ -227,23 +228,23 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["Nightfall Sanctum"] = {
-[208] = false,
-},
-["Fungal Folly"] = {
-[208] = false,
-},
-["Kriegval's Rest"] = {
+["The Dread Pit"] = {
 [208] = true,
 },
 ["Excavation Site 9"] = {
 [208] = false,
 },
+["Kriegval's Rest"] = {
+[208] = true,
+},
+["Fungal Folly"] = {
+[208] = false,
+},
 ["The Underkeep"] = {
 [208] = false,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Nightfall Sanctum"] = {
+[208] = false,
 },
 },
 ["raid"] = {

@@ -1,6 +1,32 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Bosses_K.U.-J.0."] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Bosses_Demolition Duo"] = {
+},
+["BigWigs_Bosses_Geezle Gigazap"] = {
+},
+["BigWigs_Bosses_Kul'tharok"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
+["profiles"] = {
+["Default"] = {
+[440576] = 4113655,
+[440377] = 4116727,
+},
+},
+},
+["BigWigs_Bosses_Tussle Tonks"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
 ["BigWigs_Plugins_Victory"] = {
 },
 ["BigWigs_Bosses_Rik Reverb"] = {
@@ -10,19 +36,27 @@ BigWigs3DB = {
 },
 },
 },
-["LibDualSpec-1.0"] = {
+["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
+},
+["BigWigs_Bosses_Operation: Floodgate Trash"] = {
+},
+["BigWigs_Bosses_Swampface"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
+["BigWigs_Bosses_Theater Of Pain Trash"] = {
+},
+["BigWigs_Bosses_An Affront of Challengers"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
-["BigWigs_Plugins_AltPower"] = {
+["BigWigs_Bosses_Big M.O.M.M.A."] = {
+},
+["BigWigs_Bosses_Operation: Mechagon Trash"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Bosses_King Mechagon"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -38,27 +72,25 @@ nil,
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-["profiles"] = {
-["Default"] = {
-[440576] = 4113655,
-[440377] = 4116727,
-},
-},
-},
 ["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
+["BigWigs_Bosses_Xav the Unfallen"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Bosses_Gorechop"] = {
+},
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Bosses_Machinist's Garden"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["global"] = {
@@ -81,13 +113,14 @@ true,
 },
 ["profileKeys"] = {
 ["Shortpeenpal - Stormrage"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

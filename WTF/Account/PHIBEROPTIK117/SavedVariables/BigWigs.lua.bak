@@ -16,9 +16,13 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
+["BigWigs_Bosses_Ki'katal the Harvester"] = {
+},
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Bosses_Anub'zekt"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -46,15 +50,17 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_The Gobfather"] = {
+["BigWigs_Bosses_Avanoxx"] = {
+},
+["BigWigs_Bosses_Ara-Kara, City of Echoes Trash"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Messages"] = {
-},
 ["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
@@ -65,12 +71,13 @@ nil,
 },
 ["profileKeys"] = {
 ["Shortpeenpal - Stormrage"] = "Default",
-["Shortlite - Stormrage"] = "Default",
+["Shortonheals - Area 52"] = "Default",
 ["Shortbeef - Area 52"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 ["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
 ["Shortblink - Stormrage"] = "Default",
 },
 ["global"] = {
