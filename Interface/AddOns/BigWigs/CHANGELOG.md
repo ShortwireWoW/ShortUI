@@ -1,10 +1,16 @@
 # BigWigs
 
-## [v378.4](https://github.com/BigWigsMods/BigWigs/tree/v378.4) (2025-03-24)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v378.3...v378.4) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v378.5](https://github.com/BigWigsMods/BigWigs/tree/v378.5) (2025-03-27)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v378.4...v378.5) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Core/PluginPrototype: Create event table prior to enabling plugins  
-- Update zhTW (#1967)  
-- LiberationOfUndermine/Bandit: Tweak Stage 1 timer handling  
-- Update koKR (#1964)  
-- Update frFR (#1961)  
+- LiberationOfUndermine/Gallywix: Restore stage message on LFR with a slight delay  
+- LiberationOfUndermine/Stix: Normal/LFR update  
+- LiberationOfUndermine/Lockenstock: LFR update  
+- LiberationOfUndermine/Gallywix: Big Bombs timer tweak  
+- LiberationOfUndermine/Gallywix: Fix errors for missing Big Bad Bombs timers  
+- LiberationOfUndermine/Gallywix: Fix phase 2 in LFR and add another check for phase 3  
+- LiberationOfUndermine/MugZee: Fix Electro Shocker count  
+- LiberationOfUndermine/Bandit: Tweaks  
+- LiberationOfUndermine/Bandit: Play an alert sound in Mythic for non-tanks when The Big Hit is cast  
+- Update ruRU (#1969)  
+- Update zhCN (#1968)  

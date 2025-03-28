@@ -92,6 +92,12 @@ false,
 },
 ["Operation: Mechagon"] = {
 [23] = true,
+[8] = true,
+},
+["Lost City of the Tol'vir"] = {
+false,
+false,
+[24] = false,
 },
 ["Siege of Boralus"] = {
 true,
@@ -99,9 +105,7 @@ false,
 [8] = true,
 [23] = true,
 },
-["Lost City of the Tol'vir"] = {
-false,
-false,
+["Magisters' Terrace"] = {
 [24] = false,
 },
 ["Gate of the Setting Sun"] = {
@@ -113,7 +117,7 @@ false,
 [8] = true,
 [23] = true,
 },
-["Magisters' Terrace"] = {
+["Gundrak"] = {
 [24] = false,
 },
 ["Darkflame Cleft"] = {
@@ -130,7 +134,7 @@ false,
 ["Scholomance"] = {
 [24] = false,
 },
-["Gundrak"] = {
+["Utgarde Keep"] = {
 [24] = false,
 },
 ["Deadmines"] = {
@@ -143,22 +147,22 @@ false,
 ["Uldaman: Legacy of Tyr"] = {
 false,
 },
+["Coilfang: The Underbog"] = {
+[24] = false,
+},
 ["Cinderbrew Meadery"] = {
 false,
 [8] = true,
 [23] = true,
 },
-["Coilfang: The Underbog"] = {
+["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Shado-Pan Monastery"] = {
+["Tempest Keep: The Botanica"] = {
 [24] = false,
 },
 ["Halls of Stone"] = {
 [2] = false,
-},
-["Tempest Keep: The Botanica"] = {
-[24] = false,
 },
 ["The MOTHERLODE!!"] = {
 true,
@@ -196,8 +200,9 @@ false,
 [8] = true,
 [23] = true,
 },
-["Utgarde Keep"] = {
-[24] = false,
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
 },
 ["Ruby Life Pools"] = {
 false,
@@ -228,23 +233,26 @@ false,
 ["Tak-Rethan Abyss"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Fungal Folly"] = {
+[208] = false,
 },
 ["Excavation Site 9"] = {
 [208] = false,
 },
+["Skittering Breach"] = {
+[208] = true,
+},
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["Fungal Folly"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,
 },
-["Nightfall Sanctum"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
 },
 ["raid"] = {

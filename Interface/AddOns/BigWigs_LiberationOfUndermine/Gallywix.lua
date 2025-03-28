@@ -206,13 +206,6 @@ local function cd(spellId, count)
 	elseif stage == 2 then
 		coilCount = coilCount - 1 -- there's no before the first coil phase like in p3
 	end
-	if not timers[stage] then
-		mod:Error("Invalid stage ".. tostring(stage))
-		return 0
-	elseif not timers[stage][spellId] then
-		mod:Error("Invalid spellId ".. tostring(spellId))
-		return 0
-	end
 	return timers[stage][spellId][coilCount] and timers[stage][spellId][coilCount][count]
 end
 
@@ -605,7 +598,10 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
 		fullBombsCount = fullBombsCount + 1
 		spawnedDuds = 0
 		if not self:Story() then
-			self:CDBar(465952, cd(465952, bombsCount) - 2.3, CL.count:format(CL.bombs, fullBombsCount))
+			local bombsCD = cd(465952, bombsCount)
+			if bombsCD and bombsCD > 0 then
+				self:CDBar(465952, bombsCD - 2.3, CL.count:format(CL.bombs, fullBombsCount))
+			end
 			self:Bar(466153, 11.9) -- Bad Belated Boom
 		-- elseif fullBombsCount == 2 then -- 1 per Giga Blast, except 2 before the first Giga Blast
 		-- 	self:CDBar(465952, 25.1, CL.count:format(self:SpellName(465952), fullBombsCount))
@@ -618,7 +614,10 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
 		self:PlaySound(1218546, "alarm") -- avoid
 		bombsCount = bombsCount + 1
 		fullBombsCount = fullBombsCount + 1
-		self:Bar(1218546, cd(1218546, bombsCount) - 2.3, CL.count:format(CL.bombs, fullBombsCount))
+		local bombsCD = cd(1218546, bombsCount)
+		if bombsCD and bombsCD > 0 then
+			self:Bar(1218546, bombsCD - 2.3, CL.count:format(CL.bombs, fullBombsCount))
+		end
 
 		self:Bar(1214755, 7.7) -- Overloaded Rockets
 	end
@@ -779,8 +778,6 @@ function mod:TrickShotsRemoved()
 		self:StopBar(CL.count:format(self:SpellName(466751), fullVentingHeatCount)) -- Venting Heat
 
 		self:SetStage(2)
-		self:Message("stages", "cyan", CL.stage:format(2), false)
-		self:PlaySound("stages", "info")
 
 		fullCanistersCount = 1
 		fullBombsCount = 1
@@ -790,7 +787,16 @@ function mod:TrickShotsRemoved()
 		gigaCoilsCount = 1
 		gigaBlastCount = 1
 
-		self:CDBar(469286, timers[2][469286][1], CL.count:format(self:SpellName(469286), gigaCoilsCount)) -- Giga Coils
+		if not self:LFR() then
+			self:Message("stages", "cyan", CL.stage:format(2), false)
+			self:PlaySound("stages", "info")
+			self:CDBar(469286, timers[2][469286][1], CL.count:format(self:SpellName(469286), gigaCoilsCount)) -- Giga Coils
+		else
+			self:SimpleTimer(function() -- Delay a little on LFR so it doesn't show at the same time as the Giga Coils message
+				self:Message("stages", "cyan", CL.stage:format(2), false)
+				self:PlaySound("stages", "info")
+			end, 1)
+		end
 	end
 end
 
@@ -807,6 +813,11 @@ function mod:UNIT_SPELLCAST_START(_, unit, _, spellId)
 			self:StopBar(CL.count:format(self:SpellName(466958), egoCheckCount)) -- Ego Check
 
 			gigaBlastCount = 1
+
+			-- No Trick Shots in LFR
+			if self:LFR() and self:GetStage() == 1 then
+				self:TrickShotsRemoved()
+			end
 		end
 
 		self:Message(469286, "cyan", CL.count:format(self:SpellName(469286), gigaCoilsCount))
@@ -844,7 +855,10 @@ function mod:GigaCoilsRemoved()
 	local stage = self:GetStage()
 	if stage == 2 then
 		self:CDBar(466341, cd(466341, canistersCount), CL.count:format(L.fused_canisters, fullCanistersCount)) -- Fused Canisters
-		self:CDBar(465952, cd(465952, bombsCount) - 4.5, CL.count:format(CL.bombs, fullBombsCount)) -- Big Bad Buncha Bombs
+		local bombsCD = cd(465952, bombsCount)
+		if bombsCD and bombsCD > 0 then
+			self:CDBar(465952, bombsCD - 4.5, CL.count:format(CL.bombs, fullBombsCount)) -- Big Bad Buncha Bombs
+		end
 	elseif stage == 3 then
 		if not self:Easy() then
 			self:CDBar(466958, cd(466958, egoCheckCount), CL.count:format(self:SpellName(466958), egoCheckCount)) -- Ego Check
@@ -1022,7 +1036,7 @@ function mod:TotalDestruction(args)
 	self:CastBar(args.spellId, self:Mythic() and 27.6 or 33, L.total_destruction)
 end
 
-function mod:TotalDestructionRemoved(args)
+function mod:TotalDestructionRemoved()
 	self:StopCastBar(L.total_destruction)
 
 	if not self:Mythic() then
@@ -1072,6 +1086,11 @@ function mod:TotalDestructionRemoved(args)
 end
 
 function mod:TotalDestructionInterrupted(args)
+	-- You can break the shield and interrupt before Gallywix gains TOTAL DESTRUCTION!!!
+	if (not self:Mythic() and self:GetStage() < 3) or (self:Mythic() and self:GetStage() < 1) then
+		self:TotalDestructionRemoved()
+	end
+
 	self:Message(1214369, "green", CL.interrupted_by:format(args.extraSpellName, self:ColorName(args.sourceName)))
 end
 

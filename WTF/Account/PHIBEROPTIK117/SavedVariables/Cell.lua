@@ -3847,7 +3847,7 @@ true,
 ["orientation"] = "vertical",
 ["sortByRole"] = true,
 ["powerSize"] = 0,
-["hideSelf"] = true,
+["hideSelf"] = false,
 },
 ["spotlight"] = {
 ["enabled"] = false,
@@ -5236,7 +5236,7 @@ true,
 },
 ["main"] = {
 ["spacingY"] = 1,
-["hideSelf"] = true,
+["hideSelf"] = false,
 ["spacingX"] = 0,
 ["unitsPerColumn"] = 5,
 ["combineGroups"] = false,
@@ -5539,16 +5539,43 @@ true,
 ["common"] = {
 {
 "type1",
-"target",
+"spell",
+17,
 },
 {
 "type2",
-"togglemenu",
+"spell",
+139,
 },
 {
-"type-shiftR",
+"shift-type1",
 "spell",
-2006,
+47540,
+},
+{
+"shift-type2",
+"spell",
+2061,
+},
+{
+"ctrl-type1",
+"spell",
+194509,
+},
+{
+"ctrl-type2",
+"spell",
+527,
+},
+{
+"alt-type1",
+"spell",
+33206,
+},
+{
+"alt-type2",
+"spell",
+10060,
 },
 },
 ["alwaysTargeting"] = {
@@ -6634,9 +6661,9 @@ true,
 },
 ["quickAssistHelpViewed"] = true,
 ["optionsFramePosition"] = {
-"TOP",
-351.9,
--177.2,
+"TOPLEFT",
+399,
+-160.2,
 },
 ["debuffTypeColor"] = {
 [""] = {

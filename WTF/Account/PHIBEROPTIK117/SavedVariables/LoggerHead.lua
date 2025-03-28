@@ -85,22 +85,22 @@ false,
 ["The Vortex Pinnacle"] = {
 [24] = false,
 },
-["Theater of Pain"] = {
-[23] = true,
-[8] = true,
-},
 ["The Azure Vault"] = {
 false,
 },
 ["Mogu'shan Palace"] = {
 [24] = false,
 },
+["Gate of the Setting Sun"] = {
+[24] = false,
+},
 ["Operation: Mechagon"] = {
 [23] = true,
 [8] = true,
 },
-["Gate of the Setting Sun"] = {
-[24] = false,
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
 },
 ["Lost City of the Tol'vir"] = {
 false,
@@ -143,27 +143,27 @@ false,
 ["Uldaman: Legacy of Tyr"] = {
 false,
 },
-["Cinderbrew Meadery"] = {
-false,
-[8] = true,
-[23] = true,
-},
 ["Grim Batol"] = {
 [8] = true,
 [2] = false,
 [23] = true,
 },
+["Cinderbrew Meadery"] = {
+false,
+[8] = true,
+[23] = true,
+},
 ["Shado-Pan Monastery"] = {
 [24] = false,
-},
-["Halls of Stone"] = {
-[2] = false,
 },
 ["The Stonevault"] = {
 true,
 false,
 [23] = true,
 [8] = true,
+},
+["Halls of Stone"] = {
+[2] = false,
 },
 ["The MOTHERLODE!!"] = {
 true,
@@ -230,20 +230,23 @@ false,
 ["Demolition Dome"] = {
 [208] = true,
 },
-["Nightfall Sanctum"] = {
-[208] = false,
+["The Dread Pit"] = {
+[208] = true,
 },
 ["Excavation Site 9"] = {
 [208] = false,
 },
-["Fungal Folly"] = {
+["Nightfall Sanctum"] = {
 [208] = false,
+},
+["Skittering Breach"] = {
+[208] = true,
 },
 ["Kriegval's Rest"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
+["Fungal Folly"] = {
+[208] = false,
 },
 ["The Underkeep"] = {
 [208] = false,

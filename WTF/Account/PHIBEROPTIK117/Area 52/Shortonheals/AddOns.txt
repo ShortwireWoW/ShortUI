@@ -10,7 +10,7 @@ BugSack: enabled
 SharedMedia_Causese: enabled
 CauseseDB: enabled
 Cell: enabled
-Clique: disabled
+Clique: enabled
 Details: enabled
 Details_Compare2: disabled
 Details_EncounterDetails: disabled

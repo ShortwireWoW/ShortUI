@@ -1,17 +1,19 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
-["LibDualSpec-1.0"] = {
+["BigWigs_Bosses_I'pa"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Bosses_K.U.-J.0."] = {
 },
-["BigWigs_Plugins_AutoReply"] = {
+["BigWigs_Bosses_Azerokk"] = {
 },
-["BigWigs_Bosses_Demolition Duo"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Geezle Gigazap"] = {
+["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Kul'tharok"] = {
+["BigWigs_Bosses_Benk Buzzbee"] = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
@@ -23,11 +25,35 @@ BigWigs3DB = {
 },
 },
 },
+["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
+},
 ["BigWigs_Bosses_Tussle Tonks"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Bosses_Operation: Mechagon Trash"] = {
+},
+["BigWigs_Bosses_Cinderbrew Meadery Trash"] = {
+},
+["BigWigs_Bosses_Brew Master Aldryr"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Bosses_Rixxa Fluxflame"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
+},
+["BigWigs_Bosses_The MOTHERLODE!! Trash"] = {
+},
+["BigWigs_Bosses_Goldie Baronbottom"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Bars"] = {
 },
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
@@ -36,27 +62,21 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
+["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Operation: Floodgate Trash"] = {
+["BigWigs_Bosses_Mogul Razdunk"] = {
 },
-["BigWigs_Bosses_Swampface"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Bosses_Theater Of Pain Trash"] = {
-},
-["BigWigs_Bosses_An Affront of Challengers"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Bosses_Big M.O.M.M.A."] = {
-},
-["BigWigs_Bosses_Operation: Mechagon Trash"] = {
-},
-["BigWigs_Plugins_Colors"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Bosses_King Mechagon"] = {
+},
+["BigWigs_Bosses_Machinist's Garden"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -69,28 +89,6 @@ nil,
 },
 },
 },
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Xav the Unfallen"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_Gorechop"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Bosses_Machinist's Garden"] = {
-},
-["BigWigs_Plugins_Pull"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["global"] = {

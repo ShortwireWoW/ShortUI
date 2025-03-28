@@ -88,7 +88,7 @@ BigWigs:AddSounds("Sprocketmonger Lockenstock", {
 BigWigs:AddSounds("The One-Armed Bandit", {
 	[460181] = "alert",
 	[460444] = "info",
-	[460472] = {"alarm","warning"},
+	[460472] = {"alarm","alert","warning"},
 	[460582] = "alarm",
 	[461060] = "long",
 	[461068] = "alarm",

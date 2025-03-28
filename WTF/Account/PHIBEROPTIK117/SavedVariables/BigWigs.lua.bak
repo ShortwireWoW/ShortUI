@@ -16,17 +16,27 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
-["BigWigs_Bosses_Ki'katal the Harvester"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Anub'zekt"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
+["profiles"] = {
+["Default"] = {
+[440576] = 4113655,
+[440377] = 4116727,
+},
+},
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -40,33 +50,15 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_Nexus-Princess Ky'veza"] = {
-["profiles"] = {
-["Default"] = {
-[440576] = 4113655,
-[440377] = 4116727,
-},
-},
-},
-["BigWigs_Bosses_Avanoxx"] = {
-},
-["BigWigs_Bosses_Ara-Kara, City of Echoes Trash"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
 ["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_BossBlock"] = {
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 },
 ["profileKeys"] = {
