@@ -30,9 +30,10 @@ VER 3 0100000000000006 "PW Barrier" "134400"
 #showtooltip
 /cast [@cursor] Power Word: Barrier
 END
-VER 3 0100000000000002 "PWS" "134400"
-#showtooltip
-/cast [@mouseover] Power Word: Shield
+VER 3 0100000000000002 "PWS / Target" "134400"
+#showtooltip Power Word: Shield
+/target [nocombat,@mouseover,exists]
+/cast [combat,@mouseover,exists] Power Word: Shield
 END
 VER 3 0100000000000008 "Renew" "134400"
 #showtooltip

@@ -1,16 +1,18 @@
 # BigWigs
 
-## [v378.5](https://github.com/BigWigsMods/BigWigs/tree/v378.5) (2025-03-27)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v378.4...v378.5) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v378.6](https://github.com/BigWigsMods/BigWigs/tree/v378.6) (2025-03-28)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v378.5...v378.6) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- LiberationOfUndermine/Gallywix: Restore stage message on LFR with a slight delay  
-- LiberationOfUndermine/Stix: Normal/LFR update  
-- LiberationOfUndermine/Lockenstock: LFR update  
-- LiberationOfUndermine/Gallywix: Big Bombs timer tweak  
-- LiberationOfUndermine/Gallywix: Fix errors for missing Big Bad Bombs timers  
-- LiberationOfUndermine/Gallywix: Fix phase 2 in LFR and add another check for phase 3  
-- LiberationOfUndermine/MugZee: Fix Electro Shocker count  
-- LiberationOfUndermine/Bandit: Tweaks  
-- LiberationOfUndermine/Bandit: Play an alert sound in Mythic for non-tanks when The Big Hit is cast  
-- Update ruRU (#1969)  
-- Update zhCN (#1968)  
+- Merge plugin and core locale  
+- LiberationOfUndermine/Gallywix: Add a safety phase check  
+- Locales/Encounters\_Classic/encounter.itIT: Add Vanilla names (#1974)  
+- Update koKR (#1973)  
+- Move plugins locale files  
+- Update zhCN (#1972)  
+- Parser: Revert unintentional change  
+- Attempt to fix the parser for new locale naming structure  
+- Move common locale files  
+- Update deDE (#1971)  
+- Move encounter locale files  
+- LiberationOfUndermine/Cauldron: Remove warning for Static Charge applied, replace it with power based warnings  
+- Loader: Enable some locale prints  
