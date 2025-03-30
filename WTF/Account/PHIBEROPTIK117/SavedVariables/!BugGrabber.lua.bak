@@ -1,7 +1,39 @@
 
 BugGrabberDB = {
+["session"] = 774,
 ["lastSanitation"] = 3,
-["session"] = 769,
 ["errors"] = {
+{
+["message"] = "Lua error in aura 'Foot-Blaster overview map': init\nWeakAuras Version: 5.19.5\nAura Version: 1.0.3\nStack trace:\n[string \"return function() local auraWidth = WeakAur...\"]:59: attempt to index local 't' (a nil value)",
+["time"] = "2025/03/29 10:54:51",
+["locals"] = "set = 1\nmythic = false\nt = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 't' (a nil value)\"\nmapTextures = <table> {\n bottomLeftLightning = Texture {\n }\n rightConveyor = Texture {\n }\n leftConveyor = Texture {\n }\n middleConveyor = Texture {\n }\n smallLeftConveyor = Texture {\n }\n topRightLighting = Texture {\n }\n topLeftLightning = Texture {\n }\n background = Texture {\n }\n bottomRightLightning = Texture {\n }\n smallRightConveyor = Texture {\n }\n}\n",
+["stack"] = "[return function() local auraWidth = WeakAuras.GetData(aura_env.id).width]:59: in function 'ShowLightning'\n[return function() local auraWidth = WeakAuras.GetData(aura_env.id).width]:66: in function <[string \"return function() local auraWidth = WeakAur...\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/AuraEnvironment.lua]:374: in function 'ActivateAuraEnvironment'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1114: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
+["session"] = 771,
+["counter"] = 1,
+},
+{
+["message"] = "Lua error in aura 'Foot-Blaster overview map': Trigger 1\nWeakAuras Version: 5.19.5\nAura Version: 1.0.3\nStack trace:\n[string \"return function() local auraWidth = WeakAur...\"]:59: attempt to index local 't' (a nil value)",
+["time"] = "2025/03/29 10:54:51",
+["locals"] = "set = 1\nmythic = nil\nt = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 't' (a nil value)\"\nmapTextures = <table> {\n bottomLeftLightning = Texture {\n }\n rightConveyor = Texture {\n }\n leftConveyor = Texture {\n }\n middleConveyor = Texture {\n }\n smallLeftConveyor = Texture {\n }\n topRightLighting = Texture {\n }\n topLeftLightning = Texture {\n }\n background = Texture {\n }\n bottomRightLightning = Texture {\n }\n smallRightConveyor = Texture {\n }\n}\n",
+["stack"] = "[return function() local auraWidth = WeakAuras.GetData(aura_env.id).width]:59: in function 'ShowLightning'\n[return function(allstates, event, ...)]:3: in function <[string \"return function(allstates, event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:671: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1127: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
+["session"] = 771,
+["counter"] = 2,
+},
+{
+["message"] = "Lua error in aura 'Foot-Blaster overview map': Trigger 1\nWeakAuras Version: 5.19.5\nAura Version: 1.0.3\nStack trace:\n[string \"return function(allstates, event, ...)\"]:3: attempt to call field 'ShowLightning' (a nil value)",
+["time"] = "2025/03/29 10:48:53",
+["locals"] = "allstates = <table> {\n}\nevent = \"OPTIONS\"\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call field 'ShowLightning' (a nil value)\"\n",
+["stack"] = "[return function(allstates, event, ...)]:3: in function <[string \"return function(allstates, event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:671: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1127: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
+["session"] = 771,
+["counter"] = 4,
+},
+{
+["message"] = "Lua error in aura 'Foot-Blaster overview map': Trigger 1\nWeakAuras Version: 5.19.5\nAura Version: 1.0.3\nStack trace:\n[string \"return function() local auraWidth = WeakAur...\"]:191: bad argument #1 to 'pairs' (table expected, got nil)",
+["time"] = "2025/03/29 10:56:18",
+["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
+["stack"] = "[C]: in function 'pairs'\n[return function() local auraWidth = WeakAuras.GetData(aura_env.id).width]:191: in function 'ShowLightning'\n[return function(allstates, event, ...)]:3: in function <[string \"return function(allstates, event, ...)\"]:1>\n[C]: in function 'xpcall'\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:671: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:656>\n[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1127: in function 'CreateFakeStates'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4661: in function 'UpdateFakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:4637: in function 'FakeStatesFor'\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3238: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3091>\n[Interface/AddOns/WeakAuras/WeakAuras.lua]:3262: in function 'Add'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:1032: in function 'Close'\n[Interface/AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua]:213: in function <...AddOns/WeakAurasOptions/OptionsFrames/TextEditor.lua:212>",
+["session"] = 771,
+["counter"] = 2,
+},
 },
 }

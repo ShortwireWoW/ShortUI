@@ -1,8 +1,5 @@
 
 wMarkerAceDB = {
-["global"] = {
-["lastVer"] = "3.2.3",
-},
 ["profileKeys"] = {
 ["Shortpeenpal - Stormrage"] = "Default",
 ["Shortbowjob - Dalaran"] = "Default",
@@ -11,13 +8,13 @@ wMarkerAceDB = {
 ["Loveachieve - Mal'Ganis"] = "Default",
 ["Deleteitems - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
-["Shortblink - Stormrage"] = "Default",
-["Shortloch - Stormrage"] = "Default",
+["Shortshots - Mal'Ganis"] = "Default",
+["Raretrollrog - Mal'Ganis"] = "Default",
 ["Dagdese - Stormrage"] = "Default",
-["Shortkin - Stormrage"] = "Default",
-["Shortonheals - Area 52"] = "Default",
 ["Sentientsoup - Mal'Ganis"] = "Default",
-["Shortsited - Stormrage"] = "Default",
+["Shortonheals - Area 52"] = "Default",
+["Shortkin - Stormrage"] = "Default",
+["Shortmalice - Stormrage"] = "Default",
 ["Shortbm - Stormrage"] = "Default",
 ["Medimilk - Mal'Ganis"] = "Default",
 ["Shortlite - Stormrage"] = "Default",
@@ -25,10 +22,13 @@ wMarkerAceDB = {
 ["Shortpeenpal - Area 52"] = "Default",
 ["Shortrouge - Area 52"] = "Default",
 ["Loveacheev - Mal'Ganis"] = "Default",
-["Shortmalice - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Raretrollrog - Mal'Ganis"] = "Default",
-["Shortshots - Mal'Ganis"] = "Default",
+["Shortloch - Stormrage"] = "Default",
+["Shortblink - Stormrage"] = "Default",
+},
+["global"] = {
+["lastVer"] = "3.2.3",
 },
 ["profiles"] = {
 ["Default"] = {
