@@ -1,4 +1,0 @@
-VER 3 0100000000000001 "DD" "134400"
-#showtooltip
-/cast [@cursor] Death and Decay
-END

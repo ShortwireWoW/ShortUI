@@ -1,14 +1,16 @@
 local E = select(2, ...):unpack()
 local P, CM = E.Party, E.Comm
 
-local pairs, next, concat, tonumber, strmatch, strsplit, format, gsub, floor, abs = pairs, next, table.concat, tonumber, strmatch, strsplit, format, gsub, floor, abs
+local pairs, tonumber, abs, floor, format, gsub, strmatch, strsplit = pairs, tonumber, abs, floor, format, gsub, strmatch, strsplit
 local GetTime = GetTime
+
 local GetSpellCooldown = GetSpellCooldown or function(spellID)
 	local spellCooldownInfo = C_Spell.GetSpellCooldown(spellID)
 	if spellCooldownInfo then
 		return spellCooldownInfo.startTime, spellCooldownInfo.duration, spellCooldownInfo.isEnabled and 1 or 0, spellCooldownInfo.modRate
 	end
 end
+
 local GetSpellCharges = GetSpellCharges or function(spellID)
 	local spellChargeInfo = C_Spell.GetSpellCharges(spellID)
 	if spellChargeInfo then
@@ -32,15 +34,9 @@ CM.serializedSyncData = NULL
 
 function CM:SendComm(...)
 	local message = strjoin(",", ...)
-
-
-
-
 	if IsInRaid() then
-
 		self:SendCommMessage(self.AddonPrefix, message, (not IsInRaid(LE_PARTY_CATEGORY_HOME) and IsInRaid(LE_PARTY_CATEGORY_INSTANCE)) and "INSTANCE_CHAT" or "RAID")
 	elseif IsInGroup() then
-
 		self:SendCommMessage(self.AddonPrefix, message, (not IsInGroup(LE_PARTY_CATEGORY_HOME) and IsInGroup(LE_PARTY_CATEGORY_INSTANCE)) and "INSTANCE_CHAT" or "PARTY")
 	end
 end
@@ -79,28 +75,28 @@ function CM:CHAT_MSG_ADDON(prefix, message, _, sender)
 		return
 	end
 
-	local isSyncedUnit = self.syncedGroupMembers[guid]
+	local unitIsSynced = self.syncedGroupMembers[guid]
 	if header == MSG_COOLDOWN_SYNC then
-		if isSyncedUnit then
+		if unitIsSynced then
 			self.SyncCooldowns(guid, body)
 		end
 		return
 	elseif header == MSG_INFO_REQUEST then
 		self:SendUserSyncData(guid)
 	elseif header == MSG_INFO_UPDATE then
-		if not isSyncedUnit then
+		if not unitIsSynced then
 			return
 		end
 	elseif header == MSG_DESYNC then
-		if isSyncedUnit then
+		if unitIsSynced then
 			self.syncedGroupMembers[guid] = nil
 		end
 		self:ToggleCooldownSync()
 		return
 	elseif header == MSG_STRIVE_PVP then
-		if isSyncedUnit and (not P.loginsessionData[guid] or not P.loginsessionData[guid]["strivedPvpCD"]) then
-			local elapsed, cd = strsplit(":", body, 3)
-			self:SyncStrivePvpTalentCD(guid, tonumber(elapsed), tonumber(cd))
+		if unitIsSynced and (not P.loginsessionData[guid] or not P.loginsessionData[guid]["strivedPvpCD"]) then
+			local spellID, cd = strsplit(":", body)
+			self.SyncStrivePvpTalentCD(guid, tonumber(spellID), tonumber(cd))
 		end
 		return
 	elseif header ~= E.userGUID then
@@ -111,6 +107,7 @@ function CM:CHAT_MSG_ADDON(prefix, message, _, sender)
 	if not decodedData then
 		error("Error decoding sync message from " .. info.name)
 	end
+
 	local decompressedData = LibDeflate:DecompressDeflate(decodedData)
 	if not decompressedData then
 		error("Error decompressing sync message from " .. info.name)
@@ -219,7 +216,7 @@ function CM:CHAT_MSG_ADDON(prefix, message, _, sender)
 
 	self.syncedGroupMembers[guid] = true
 	self:DequeueInspect(guid)
-	P:UpdateUnitBar(guid)
+	info:SetupBar()
 
 	self:ToggleCooldownSync()
 end
@@ -242,7 +239,8 @@ local SendUserSyncData_OnTimerEnd = function()
 	equipmentTimer = nil
 end
 
-function CM:PLAYER_EQUIPMENT_CHANGED(slotID)
+function CM:PLAYER_EQUIPMENT_CHANGED()
+
 	if not equipmentTimer then
 		equipmentTimer = C_Timer.NewTicker(0.1, SendUserSyncData_OnTimerEnd, 1)
 	end
@@ -264,63 +262,7 @@ CM.TRAIT_CONFIG_UPDATED = SendUpdatedUserSyncData
 
 CM.PLAYER_LEAVING_WORLD = CM.DesyncFromGroup
 
-function CM:SyncStrivePvpTalentCD(guid, cd)
-	local info = P.groupInfo[guid]
-	if not info then
-		return
-	end
-
-	local spellID = info.talentData["essStrivedPvpID"]
-	local icon = info.spellIcons[spellID]
-	if icon then
-		local active = info.active[spellID]
-		if active then
-			local modRate = active.modRate or 1
-			local newCd = cd * modRate
-			icon.cooldown:SetCooldown(active.startTime, newCd, modRate)
-			active.duration = newCd
-		end
-		icon.duration = cd
-	end
-	P.loginsessionData[guid] = P.loginsessionData[guid] or {}
-	P.loginsessionData[guid]["strivedPvpCD"] = cd
-end
-
-function CM.SendStrivePvpTalentCD(spellID)
-	local st, cd, _, modRate = GetSpellCooldown(spellID)
-	if cd < 2 then
-		return
-	end
-
-	cd = cd/modRate
-	if not P.isUserDisabled then
-		CM:SyncStrivePvpTalentCD(E.userGUID, cd)
-	end
-	CM:SendComm(MSG_STRIVE_PVP, E.userGUID, cd)
-end
-
-function CM:FindSpellIcon(info, spellID)
-	local icon = info.spellIcons[spellID]
-	if icon then
-		return icon, spellID
-	end
-	spellID = E.spell_merged[spellID]
-	if spellID then
-		return self:FindSpellIcon(info, spellID)
-	end
-end
-
-function CM:SetHealthstoneCD(info, icon, charges, isEnabled)
-	if isEnabled then
-		icon.cooldown:Clear()
-		icon.icon:SetVertexColor(0.4, 0.4, 0.4)
-		local statusBar = icon.statusBar
-		if statusBar then
-			statusBar.BG:SetVertexColor(0.7, 0.7, 0.7)
-		end
-	else
-		icon.icon:SetVertexColor(1, 1, 1)
-	end
+local function SetHealthstoneCD(info, icon, charges, isEnabled)
 	icon.count:SetText(charges)
 	info.auras.healthStoneStacks = charges
 	info.preactiveIcons[6262] = isEnabled and icon
@@ -328,13 +270,22 @@ end
 
 function CM.SyncCooldowns(guid, encodedData)
 	local info = P.groupInfo[guid]
-	if not info then return end
+	if not info then
+		return
+	end
 
 	local compressedData = LibDeflate:DecodeForWoWAddonChannel(encodedData)
-	if not compressedData then return end
+	if not compressedData then
+		return
+	end
 
 	local serializedCooldownData = LibDeflate:DecompressDeflate(compressedData)
-	if not serializedCooldownData then return end
+	if not serializedCooldownData then
+		return
+	end
+
+	local isDeadOrOffline = info.isDeadOrOffline
+	local condition = E.db.highlight.glowBorderCondition
 
 	local now = GetTime()
 	while ( serializedCooldownData ) do
@@ -342,26 +293,25 @@ function CM.SyncCooldowns(guid, encodedData)
 		serializedCooldownData = rest
 		spellID = tonumber(spellID)
 		if ( spellID ) then
-			local icon, iconSpellID = CM:FindSpellIcon(info, spellID)
+			local icon, iconSpellID = info:FindIconFromCastID(spellID)
 			if ( icon ) then
-				duration, remainingTime, modRate, charges = tonumber(duration), tonumber(remainingTime), tonumber(modRate), tonumber(charges)
-				local normalizedCharges = icon.maxcharges and charges ~= -1 and charges or nil
+				duration, remainingTime, modRate = tonumber(duration), tonumber(remainingTime), tonumber(modRate)
+				charges = charges ~= "-1" and tonumber(charges) or nil
 				local active = icon.active and info.active[iconSpellID]
 
 				if ( active and duration == 0 ) then
+					if iconSpellID == 6262 then
+						SetHealthstoneCD(info, icon, charges, now - active.startTime < 10)
+					end
 					icon:ResetCooldown(true)
 					info.spellModRates[iconSpellID] = modRate
 					icon.modRate = modRate
-					if iconSpellID == 6262 then
-						CM:SetHealthstoneCD(info, icon, charges, now - active.startTime < 10)
-					end
 
-				elseif ( active and (abs(active.duration - (now - active.startTime) - remainingTime) > 1 or active.charges ~= normalizedCharges) )
+				elseif ( active and (abs(active.duration - (now - active.startTime) - remainingTime) > 1 or active.charges ~= charges) )
 					or ( not active and duration > 0 and E.sync_reset[spellID] ) then
 
 					local startTime = now - (duration - remainingTime)
 					icon.cooldown:SetCooldown(startTime, duration, modRate)
-					icon:SetCooldownElements(normalizedCharges)
 					if not active then
 						active = {}
 						info.active[iconSpellID] = active
@@ -369,20 +319,30 @@ function CM.SyncCooldowns(guid, encodedData)
 					active.startTime = startTime
 					active.duration = duration
 					active.modRate = modRate
-					if normalizedCharges then
-						active.charges = normalizedCharges
-						icon.count:SetText(normalizedCharges)
+
+					if charges and not icon.maxcharges then
+						icon.maxcharges = charges + 1
+					elseif not charges and icon.maxcharges then
+						icon.maxcharges = nil
 					end
-					icon.active = normalizedCharges or 1
+					charges = icon.maxcharges and charges
+					active.charges = charges
+					icon.count:SetText(charges or "")
+					icon.active = charges or 0
 					icon.modRate = modRate
 					info.spellModRates[iconSpellID] = modRate
 					if iconSpellID == 6262 then
-						CM:SetHealthstoneCD(info, icon, charges)
+						SetHealthstoneCD(info, icon, charges)
 					end
+
+					icon:SetCooldownElements()
+					icon:SetOpacity()
+					icon:SetColorSaturation()
+					icon:SetBorderGlow(isDeadOrOffline, condition)
 
 					local statusBar = icon.statusBar
 					if statusBar then
-						statusBar.CastingBar:OnEvent(statusBar.CastingBar.channeling and 'UNIT_SPELLCAST_CHANNEL_UPDATE' or 'UNIT_SPELLCAST_CAST_UPDATE')
+						statusBar.CastingBar:OnEvent(E.db.extraBars[statusBar.key].reverseFill and "UNIT_SPELLCAST_CHANNEL_START" or "UNIT_SPELLCAST_START")
 					end
 				end
 			end
@@ -438,7 +398,6 @@ local function CooldownSyncFrame_OnUpdate(_, elapsed)
 					cooldownData[c + 3] = charges
 					c = c + 3
 				end
-
 			else
 
 				if prevStart == 0 or abs(start - prevStart) > .49 or charges > prevCharges then
@@ -463,10 +422,6 @@ local function CooldownSyncFrame_OnUpdate(_, elapsed)
 				end
 			end
 		end
-
-
-
-
 	end
 
 	elapsedTime = 0
@@ -479,7 +434,7 @@ local function CooldownSyncFrame_OnUpdate(_, elapsed)
 		cooldownData[i] = nil
 	end
 
-	local serializedCooldownData = concat(cooldownData, ",")
+	local serializedCooldownData = table.concat(cooldownData, ",")
 	local compressedData = LibDeflate:CompressDeflate(serializedCooldownData)
 	local encodedData = LibDeflate:EncodeForWoWAddonChannel(compressedData)
 	if not P.isUserDisabled then
@@ -490,12 +445,47 @@ local function CooldownSyncFrame_OnUpdate(_, elapsed)
 	end
 end
 
+function CM.SyncStrivePvpTalentCD(guid, spellID, cd)
+	local info = P.groupInfo[guid]
+	if not info then
+		return
+	end
+
+	local icon = info.spellIcons[spellID]
+	if icon then
+		local active = info.active[spellID]
+		if active then
+			local modRate = active.modRate or 1
+			local newCd = cd * modRate
+			icon.cooldown:SetCooldown(active.startTime, newCd, modRate)
+			active.duration = newCd
+		end
+		icon.duration = cd
+	end
+	P.loginsessionData[guid] = P.loginsessionData[guid] or {}
+	P.loginsessionData[guid]["strivedPvpCD"] = cd
+end
+
+function CM.SendStrivePvpTalentCD(spellID)
+	local _, cd, modRate = GetCooldownFix(spellID)
+	if cd == 0 then
+		return
+	end
+
+
+	cd = cd/modRate
+	if not P.isUserDisabled then
+		CM.SyncStrivePvpTalentCD(E.userGUID, spellID, cd)
+	end
+	CM:SendComm(MSG_STRIVE_PVP, E.userGUID, cd)
+end
+
 function CM:ForceSyncCooldowns()
 	elapsedTime = 100
 end
 
 function CM:ToggleCooldownSync()
-	if E.preCata then
+	if E.preWOTLKC then
 		return
 	end
 	if next(self.cooldownSyncIDs) and P.disabled == false and (not P.isUserDisabled or next(self.syncedGroupMembers)) then
@@ -514,14 +504,12 @@ local CooldownSyncFrame_OnHide = function(self)
 end
 
 function CM:InitCooldownSync()
-	if self.initCooldownSync or E.preCata then
+	if self.initCooldownSync or E.preWOTLKC then
 		return
 	end
 	CooldownSyncFrame:Hide()
-
 	CooldownSyncFrame:SetScript("OnShow", CooldownSyncFrame_OnShow)
 	CooldownSyncFrame:SetScript("OnHide", CooldownSyncFrame_OnHide)
 	CooldownSyncFrame:SetScript("OnUpdate", CooldownSyncFrame_OnUpdate)
-
 	self.initCooldownSync = true
 end

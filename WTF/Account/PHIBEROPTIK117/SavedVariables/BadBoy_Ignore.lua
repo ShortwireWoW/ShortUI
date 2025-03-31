@@ -1,3 +1,0 @@
-
-BADBOY_IGNORE = {
-}

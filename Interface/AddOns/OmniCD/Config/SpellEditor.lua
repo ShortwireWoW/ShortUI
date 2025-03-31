@@ -3,7 +3,7 @@ local E, L = select(2, ...):unpack()
 local GetNumSpecializationsForClassID = GetNumSpecializationsForClassID
 local GetSpecializationInfoForClassID = GetSpecializationInfoForClassID
 local GetSpecializationInfoByID = GetSpecializationInfoByID
-if E.preMoP then
+if E.preCata then
 	GetNumSpecializationsForClassID = function() return 0 end
 	GetSpecializationInfoForClassID = E.Noop
 	GetSpecializationInfoByID = E.Noop
@@ -348,7 +348,7 @@ local customSpellInfo = {
 	},
 }
 
-if not E.preMoP then
+if E.postMoP then
 	local customSpellSpecInfo = {
 		enabled = {
 			name = L["Always Show"],
@@ -430,7 +430,9 @@ if not E.preMoP then
 	local customSpellSpecGroup = {
 		hidden = function(info)
 			local specID = GetSpecID(info, 0)
-			if not specID then return end
+			if not specID then
+				return
+			end
 			local id = GetSpellID(info)
 			local class = OmniCDDB.cooldowns[id].class
 			if class == "TRINKET" then return true end

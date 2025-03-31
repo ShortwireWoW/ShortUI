@@ -451,6 +451,8 @@ function P:UpdateSpellsOption(spellID, oldClass, oldType, v, force)
 end
 
 function P:AddSpellPicker()
+
+
 	if not E.spellsOptionTbl or next(E.spellsOptionTbl) == nil then
 		local spells = GetSpellsTbl()
 		self:AddSpellPickerSpells(spells)

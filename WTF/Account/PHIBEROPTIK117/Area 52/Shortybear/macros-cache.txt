@@ -1,4 +1,0 @@
-VER 3 0100000000000002 "Brez" "134400"
-#showtooltip
-/cast [@mouseover] Rebirth
-END
