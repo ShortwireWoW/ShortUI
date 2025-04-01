@@ -1,0 +1,11 @@
+## Interface: 110002
+## Title: Addon Update Notifications (WowUp Data)
+## Notes: Contains the data for addon updates available in WowUp. This addon is automatically installed through WowUp when the Addon Update Notifications addon is installed.
+## Author: WowUp
+## Version: 1.0.23
+## DefaultState: enabled
+## RequiredDeps: WowUp
+## X-Website: https://wowup.io
+## X-AddonProvider: wowup-app
+
+data.lua

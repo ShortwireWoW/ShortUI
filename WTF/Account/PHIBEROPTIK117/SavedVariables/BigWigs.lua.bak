@@ -23,16 +23,9 @@ BigWigs3DB = {
 ["profiles"] = {
 ["QuaziiUI"] = {
 ["outline"] = "OUTLINE",
-["fontSize"] = 16,
+["normalWidth"] = 196,
 ["visibleBarLimit"] = 3,
 ["growup"] = true,
-["normalHeight"] = 21,
-["texture"] = "ElvUI Blank",
-["emphasizeGrowup"] = true,
-["emphasize"] = false,
-["spacing"] = 4,
-["barStyle"] = "ElvUI",
-["normalWidth"] = 196,
 ["fontName"] = "Accidental Presidency",
 ["normalPosition"] = {
 nil,
@@ -40,14 +33,21 @@ nil,
 291,
 -201,
 },
+["emphasizeGrowup"] = true,
+["normalHeight"] = 21,
+["spacing"] = 4,
+["fontSize"] = 16,
+["barStyle"] = "ElvUI",
+["emphasize"] = false,
+["texture"] = "ElvUI Blank",
 },
 },
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 ["profiles"] = {
@@ -57,11 +57,11 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 },
 ["profileKeys"] = {
@@ -75,6 +75,7 @@ nil,
 },
 }
 BigWigsIconDB = {
+["hide"] = true,
 }
 BigWigsStatsDB = {
 }

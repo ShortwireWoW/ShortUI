@@ -6,6 +6,7 @@ MythicDungeonToolsDB = {
 ["global"] = {
 ["minimap"] = {
 ["showInCompartment"] = true,
+["hide"] = true,
 },
 },
 }

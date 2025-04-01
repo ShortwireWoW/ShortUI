@@ -19,7 +19,7 @@ VER 3 0100000000000007 "BW / BoT" "134400"
 #showtooltip
 /petassist
 /petattack
-/castsequence reset=10 Bestial Wrath, Bag of Tricks
+/cast Bestial Wrath
 /use 13
 /cast [@pettarget]Claw
 /cast [@pettarget]Bite

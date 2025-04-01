@@ -13,6 +13,9 @@ LoggerHeadDB = {
 },
 },
 ["version"] = 3,
+["minimap"] = {
+["hide"] = true,
+},
 },
 },
 }

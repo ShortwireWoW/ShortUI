@@ -13,3 +13,10 @@ X: -46
 Y: 108
 W: 600
 H: 500
+Frame: PremadeGroupsFilterDialog
+FrameLevel: 2
+Anchor: TOP
+X: -228
+Y: -162
+W: 420
+H: 428

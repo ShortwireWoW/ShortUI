@@ -23,6 +23,6 @@ Blizzard_CombatText: enabled
 ElvUI_Options: enabled
 OmniCC: disabled
 OmniCC_Config: disabled
-Cell: enabled
+Cell: disabled
 LittleWigs: enabled
 OmniCD: enabled

@@ -5,6 +5,12 @@ EncounterPlannerDB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["preferences"] = {
+["minimap"] = {
+["show"] = true,
+["minimapPos"] = 273.1591615530138,
+},
+},
 ["sharedRoster"] = {
 ["Shortbowjob"] = {
 ["class"] = "class:Hunter",
