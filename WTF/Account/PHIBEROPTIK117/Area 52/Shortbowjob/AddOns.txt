@@ -26,3 +26,6 @@ OmniCC_Config: disabled
 Cell: disabled
 LittleWigs: enabled
 OmniCD: enabled
+BigWigs_LiberationOfUndermine: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+LittleWigs_BattleForAzeroth: enabled

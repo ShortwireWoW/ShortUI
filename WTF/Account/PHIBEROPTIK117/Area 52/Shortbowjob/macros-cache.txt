@@ -84,6 +84,7 @@ VER 3 010000000000000A "Kill Command" "134400"
 /cast [@pettarget]Claw
 /cast [@pettarget]Bite
 /cast [@pettarget]Smack
+/use Wake Up
 END
 VER 3 010000000000000E "Kill Shot" "134400"
 #showtooltip
@@ -93,6 +94,7 @@ VER 3 010000000000000E "Kill Shot" "134400"
 /cast [@pettarget]Claw
 /cast [@pettarget]Bite
 /cast [@pettarget]Smack
+/use Wake Up
 END
 VER 3 010000000000000C "Kill Shot Mouseo" "134400"
 #showtooltip Kill Shot

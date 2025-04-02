@@ -1,10 +1,28 @@
 
 FixRaidDB = {
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 306.4989050639236,
+["faction"] = {
+["Horde"] = {
+["damagerRoleNonGuildCache"] = {
+["melee"] = {
+["Uglierest-Area52"] = 1743523301,
+},
+["ranged"] = {
+["Jeffbezo-Area52"] = 1743523245,
+["Shadowtwerk-Area52"] = 1743523257,
+["Kullomaa-Kael'thas"] = 1743523452,
+["Belìál-Area52"] = 1743523287,
+["Gobloom-Area52"] = 1743523285,
+["Thepumpypapi-Area52"] = 1743523440,
+["Boltbot-Tichondrius"] = 1743523307,
+["Bridgeowl-Area52"] = 1743523447,
+},
+},
+["damagerRoleGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+["Twistedwilds-Illidan"] = 1743468824,
+["Melzie-Draenor"] = 1743389759,
 },
 },
 },
@@ -12,20 +30,11 @@ FixRaidDB = {
 ["profileKeys"] = {
 ["Shortbowjob - Area 52"] = "Default",
 },
-["faction"] = {
-["Horde"] = {
-["damagerRoleNonGuildCache"] = {
-["melee"] = {
-},
-["ranged"] = {
-},
-},
-["damagerRoleGuildCache"] = {
-["melee"] = {
-},
-["ranged"] = {
-["Twistedwilds-Illidan"] = 1743466205,
-["Melzie-Draenor"] = 1743389759,
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 306.4989050639236,
 },
 },
 },

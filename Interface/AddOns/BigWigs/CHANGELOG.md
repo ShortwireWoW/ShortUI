@@ -1,11 +1,13 @@
 # BigWigs
 
-## [v379.1](https://github.com/BigWigsMods/BigWigs/tree/v379.1) (2025-03-30)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v379...v379.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v380](https://github.com/BigWigsMods/BigWigs/tree/v380) (2025-04-01)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v379.1...v380) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Loader: Remove a locale print  
-- Plugins/Pull: remove more old code  
-- Update esES (#1986)  
-- Update esES (#1983)  
-- LiberationOfUndermine/Cauldron: Add a note to the Static Charge option  
-- Update esES (#1982)  
+- Bump version  
+- Update koKR (#1989)  
+- Update ptBR (#1987)  
+- Plugins/Countdown: Tweak  
+- Plugins/Countdown: Support countdowns from nameplate timers  
+- Loader: Tweak  
+- Loader: Use GUID to check enabled state  
+- Tweak  

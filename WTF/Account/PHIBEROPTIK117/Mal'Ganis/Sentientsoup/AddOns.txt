@@ -22,3 +22,6 @@ WeakAurasArchive: enabled
 Blizzard_CombatText: enabled
 ElvUI_Options: enabled
 LittleWigs: enabled
+BigWigs_LiberationOfUndermine: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+LittleWigs_BattleForAzeroth: enabled

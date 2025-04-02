@@ -12,9 +12,9 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 379
+local BIGWIGS_VERSION = 380
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 21},
+	["LittleWigs"] = {11, 1, 22},
 	["BigWigs_Classic"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 2},
 	["BigWigs_Cataclysm"] = {11, 1, 2},
@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "ee99a58" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "72544db" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -105,6 +105,7 @@ local Ambiguate, UnitNameUnmodified, UnitGUID = Ambiguate, UnitNameUnmodified, U
 local debugstack, print = debugstack, print
 local myLocale = GetLocale()
 local myName = UnitNameUnmodified("player")
+local myGUID = UnitGUID("player")
 
 -- Try to grab unhooked copies of critical funcs (hooked by some crappy addons)
 public.date = date
@@ -776,7 +777,7 @@ do
 			EnableAddOn(i) -- Make sure it wasn't left disabled for whatever reason
 		end
 
-		if GetAddOnEnableState(name, myName) == 2 then -- if addonState ~= "DISABLED" then (only works when disabled on ALL characters)
+		if GetAddOnEnableState(name, myGUID) == 2 then -- if addonState ~= "DISABLED" then (only works when disabled on ALL characters)
 			local meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-CoreEnabled")
 			if meta then
 				if name == "BigWigs_Plugins" then -- Always first
@@ -1308,7 +1309,7 @@ do
 	-- Try to teach people not to force load our modules.
 	for i = 1, GetNumAddOns() do
 		local name, _, _, _, addonState = GetAddOnInfo(i)
-		if GetAddOnEnableState(name, myName) == 2 and not IsAddOnLoadOnDemand(i) then -- if addonState ~= "DISABLED" and not IsAddOnLoadOnDemand(i) then (only works when disabled on ALL characters)
+		if GetAddOnEnableState(name, myGUID) == 2 and not IsAddOnLoadOnDemand(i) then -- if addonState ~= "DISABLED" and not IsAddOnLoadOnDemand(i) then (only works when disabled on ALL characters)
 			for j = 1, select("#", GetAddOnOptionalDependencies(i)) do
 				local meta = select(j, GetAddOnOptionalDependencies(i))
 				local addonName = tostring(meta)
@@ -1354,21 +1355,25 @@ do
 		local addonToCheck = CONTENT_PACK_VERSIONS[name]
 		if addonToCheck then
 			local meta = GetAddOnMetadata(i, "Version")
-			local _, wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash = strsplit("v.-", meta) -- v1.2.3-hash returns "", 1, 2, 3, hash
-			local wowMajor, wowMinor, actualVersion = tonumber(wowMajorStr), tonumber(wowMinorStr), tonumber(actualVersionStr)
-			if wowMajor and wowMinor and actualVersion then
-				local versionDifference = addonToCheck[3] - actualVersion
-				if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference > 0 then -- Any version difference = chat print
-					delayedMessages[#delayedMessages+1] = L.outOfDateAddOnRaidWarning:format(name,
-						wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash and "-"..possibleRepoHash or "",
-						addonToCheck[1], addonToCheck[2], addonToCheck[3]
-					)
+			if meta then
+				local _, wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash = strsplit("v.-", meta) -- v1.2.3-hash returns "", 1, 2, 3, hash
+				local wowMajor, wowMinor, actualVersion = tonumber(wowMajorStr), tonumber(wowMinorStr), tonumber(actualVersionStr)
+				if wowMajor and wowMinor and actualVersion then
+					local versionDifference = addonToCheck[3] - actualVersion
+					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference > 0 then -- Any version difference = chat print
+						delayedMessages[#delayedMessages+1] = L.outOfDateAddOnRaidWarning:format(name,
+							wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash and "-"..possibleRepoHash or "",
+							addonToCheck[1], addonToCheck[2], addonToCheck[3]
+						)
+					end
+					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference >= 3 then -- Large version difference = popup
+						Popup(L.outOfDateAddOnPopup:format(name), true)
+					end
+				elseif not strfind(meta, "@", nil, true) then -- Don't error for repo users
+					geterrorhandler()(("BigWigs: Failed version check of %q. Got %q with split values of %q, %q, %q."):format(name, meta, tostring(wowMajorStr), tostring(wowMinorStr), tostring(actualVersionStr)))
 				end
-				if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference >= 3 then -- Large version difference = popup
-					Popup(L.outOfDateAddOnPopup:format(name), true)
-				end
-			elseif not strfind(meta, "@", nil, true) then -- Don't error for repo users
-				geterrorhandler()(("BigWigs: Failed version check of %q. Got %q with split values of %q, %q, %q."):format(name, meta, tostring(wowMajorStr), tostring(wowMinorStr), tostring(actualVersionStr)))
+			else
+				geterrorhandler()(("BigWigs: Failed to fetch version metadata for %q."):format(name))
 			end
 		end
 	end
@@ -1508,9 +1513,9 @@ end
 --
 
 do
-	local DBMdotRevision = "20250329042744" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "11.1.12" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20250329000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20250330173039" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "11.1.13" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20250330000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 	local protocol = 3
 	local versionPrefix = "V"
 	local PForceDisable = 16
@@ -2000,7 +2005,7 @@ function public:GetAddOnState(name)
 end
 
 function public:IsAddOnEnabled(name)
-	local addonState = GetAddOnEnableState(name, myName)
+	local addonState = GetAddOnEnableState(name, myGUID)
 	return addonState == 2
 end
 
