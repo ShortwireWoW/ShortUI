@@ -3,8 +3,6 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Underpin Rares"] = {
-},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
@@ -22,61 +20,27 @@ BigWigs3DB = {
 ["BigWigs_Plugins_InfoBox"] = {
 },
 ["BigWigs_Plugins_Bars"] = {
-["profiles"] = {
-["QuaziiUI"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 16,
-["visibleBarLimit"] = 3,
-["emphasizeGrowup"] = true,
-["spacing"] = 4,
-["normalWidth"] = 196,
-["texture"] = "ElvUI Blank",
-["barStyle"] = "ElvUI",
-["growup"] = true,
-["fontName"] = "Accidental Presidency",
-["emphasize"] = false,
-["normalHeight"] = 21,
-["normalPosition"] = {
-nil,
-nil,
-291,
--201,
 },
+["BigWigs_Plugins_Nameplates"] = {
 },
-},
-},
-["BigWigs_Bosses_Under-Lord Vik'tis"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Nerubian Delve Trash"] = {
-},
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
-["profiles"] = {
-["QuaziiUI"] = {
-["fontSize"] = 22,
-["fontName"] = "Accidental Presidency",
 },
-},
-},
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["LibDualSpec-1.0"] = {
 },
 },
 ["profileKeys"] = {
-["Shortbowjob - Area 52"] = "QuaziiUI",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-},
-["QuaziiUI"] = {
 },
 },
 }
@@ -85,13 +49,8 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 [2769] = {
-[2639] = {
+[2640] = {
 ["LFR"] = {
-["kills"] = 1,
-["fkDate"] = "2025/04/01",
-["bestDate"] = "2025/04/01",
-["best"] = 151.1900000000023,
-["fkDuration"] = 151.1900000000023,
 },
 },
 },

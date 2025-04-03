@@ -6,26 +6,15 @@ LoggerHeadDB = {
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
-["party"] = {
-["Darkflame Cleft"] = {
-[23] = true,
-[8] = true,
-},
-},
-["scenario"] = {
-["Kriegval's Rest"] = {
-[208] = true,
-},
-["Excavation Site 9"] = {
-[208] = true,
-},
-["The Dread Pit"] = {
-[208] = true,
-},
-},
 ["raid"] = {
 ["Liberation of Undermine"] = {
 [17] = true,
+},
+},
+["party"] = {
+["Operation: Floodgate"] = {
+[23] = true,
+[8] = true,
 },
 },
 },
