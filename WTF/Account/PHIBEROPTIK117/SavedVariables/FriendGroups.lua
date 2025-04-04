@@ -16,10 +16,10 @@ FriendGroups_SavedVars = {
 ["hide_empty_groups"] = false,
 ["hide_afk"] = false,
 ["collapsed"] = {
-["LunarEffect"] = false,
-["[No Group]"] = true,
+["LunarEffect"] = true,
+["[No Group]"] = false,
 ["Incoherent Screaming"] = true,
-["Pirate Idiots"] = true,
+["Pirate Idiots"] = false,
 },
 ["sort_by_status"] = false,
 }

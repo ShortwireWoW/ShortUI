@@ -11,6 +11,18 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
+["The MOTHERLODE!!"] = {
+[23] = true,
+[8] = true,
+},
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
+},
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
+},
 },
 ["raid"] = {
 ["Liberation of Undermine"] = {

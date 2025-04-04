@@ -164,7 +164,6 @@ BigWigs:AddColors("Chrome King Gallywix", {
 	[1218488] = "orange",
 	[1218546] = "red",
 	[1218696] = "yellow",
-	[1220669] = "green",
 	[1220761] = "blue",
 	[1222831] = "red",
 	["stages"] = "cyan",

@@ -16,22 +16,35 @@ FixRaidDB = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Tardamesha-Maelstrom"] = 1743647615,
+["Sazroz-Spirestone"] = 1743647613,
 ["Ursus-Turalyon"] = 1743642223,
 ["Pulseplagg-BleedingHollow"] = 1743642232,
 },
 ["ranged"] = {
 ["Idrisskel-Ragnaros"] = 1743642222,
-["Ethereumbb-Illidan"] = 1743642233,
-["Naoka-Rexxar"] = 1743642242,
-["Heumental-Ragnaros"] = 1743642241,
+["Korleti-Area52"] = 1743647881,
 ["Gromgart-Ragnaros"] = 1743642244,
+["Loganuwu-Area52"] = 1743647937,
+["Silverblu-Area52"] = 1743647906,
+["Naoka-Rexxar"] = 1743642242,
+["Bigburd-Tichondrius"] = 1743647896,
+["Sonorandog-Illidan"] = 1743647609,
 ["Shôcksfired-Thrall"] = 1743642231,
+["Archeris-Dalaran"] = 1743647884,
+["Ethereumbb-Illidan"] = 1743642233,
+["Orsin-Tichondrius"] = 1743647973,
+["Shamikaze-Hyjal"] = 1743647935,
+["Heumental-Ragnaros"] = 1743642241,
+["Ishixtotems-Mal'Ganis"] = 1743647629,
+["Monstresacre-Quel'Thalas"] = 1743647988,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
 },
 ["ranged"] = {
+["Magmos-Stormrage"] = 1743647636,
 },
 },
 },

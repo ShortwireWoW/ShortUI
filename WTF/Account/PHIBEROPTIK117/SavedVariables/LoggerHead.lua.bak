@@ -16,6 +16,10 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
+},
 },
 },
 ["version"] = 3,

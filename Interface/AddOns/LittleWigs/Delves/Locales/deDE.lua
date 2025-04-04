@@ -81,9 +81,15 @@ if L then
 	L.speaker_halven = "Sprecherin Halven"
 end
 
-L = BigWigs:NewBossLocale("Reformed Fury", "deDE")
+L = BigWigs:NewBossLocale("Speaker Davenruth", "deDE")
 if L then
 	L.speaker_davenruth = "Sprecher Davenruth"
+	L.reformed_fury = "Erneuerter Zorn"
+end
+
+L = BigWigs:NewBossLocale("Speaker Wicke", "deDE")
+if L then
+	L.speaker_wicke = "Sprecher Wicke"
 	L.reformed_fury = "Erneuerter Zorn"
 end
 

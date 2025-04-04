@@ -18,3 +18,5 @@ Blizzard_CombatText: enabled
 BigWigs_LiberationOfUndermine: enabled
 LittleWigs: enabled
 BigWigs_KhazAlgar: enabled
+LittleWigs_BattleForAzeroth: enabled
+LittleWigs_Shadowlands: enabled
