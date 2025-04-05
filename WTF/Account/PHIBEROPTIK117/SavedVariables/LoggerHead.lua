@@ -27,6 +27,7 @@ LoggerHeadDB = {
 ["raid"] = {
 ["Liberation of Undermine"] = {
 [17] = true,
+[15] = true,
 },
 },
 },

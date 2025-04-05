@@ -11,31 +11,31 @@ OmniCCDB = {
 ["Default"] = {
 ["rules"] = {
 {
-["id"] = "auras",
+["enabled"] = false,
 ["patterns"] = {
 "Aura",
 "Buff",
 "Debuff",
 },
 ["name"] = "Auras",
-["enabled"] = false,
+["id"] = "auras",
 },
 {
-["id"] = "plates",
+["enabled"] = false,
 ["patterns"] = {
 "Plate",
 },
 ["name"] = "Unit Nameplates",
-["enabled"] = false,
+["id"] = "plates",
 },
 {
-["id"] = "actions",
+["enabled"] = false,
 ["patterns"] = {
 "ActionButton",
 "MultiBar",
 },
 ["name"] = "Action Bars",
-["enabled"] = false,
+["id"] = "actions",
 },
 {
 ["patterns"] = {

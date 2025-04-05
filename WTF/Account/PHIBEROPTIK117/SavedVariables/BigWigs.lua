@@ -3,31 +3,18 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_An Affront of Challengers"] = {
+["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["Default"] = {
+["custom_off_-31087"] = true,
 },
-["BigWigs_Bosses_Theater Of Pain Trash"] = {
+},
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Bosses_Operation: Floodgate Trash"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Swampface"] = {
-},
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Azerokk"] = {
-},
-["BigWigs_Bosses_Rixxa Fluxflame"] = {
-},
 ["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Demolition Duo"] = {
-},
-["BigWigs_Bosses_The MOTHERLODE!! Trash"] = {
-},
-["BigWigs_Bosses_Geezle Gigazap"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
@@ -41,28 +28,21 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Big M.O.M.M.A."] = {
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-["profiles"] = {
-["Default"] = {
-["fontName"] = "Accidental Presidency",
-},
-},
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Bosses_Mogul Razdunk"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 },
 ["profileKeys"] = {
@@ -78,8 +58,55 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 [2769] = {
+[2639] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2025/04/04",
+["bestDate"] = "2025/04/04",
+["best"] = 253.7509999999893,
+["fkDuration"] = 253.7509999999893,
+},
+},
 [2640] = {
-["LFR"] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2025/04/04",
+["bestDate"] = "2025/04/04",
+["fkWipes"] = 1,
+["best"] = 274.5990000000165,
+["wipes"] = 1,
+["fkDuration"] = 274.5990000000165,
+},
+},
+[2641] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2025/04/04",
+["bestDate"] = "2025/04/04",
+["best"] = 246.4060000000172,
+["fkDuration"] = 246.4060000000172,
+},
+},
+[2642] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2025/04/04",
+["bestDate"] = "2025/04/04",
+["fkWipes"] = 3,
+["best"] = 391.5,
+["wipes"] = 3,
+["fkDuration"] = 391.5,
+},
+},
+[2653] = {
+["heroic"] = {
+["kills"] = 1,
+["bestDate"] = "2025/04/04",
+["best"] = 304.0679999999993,
+["fkWipes"] = 3,
+["fkDate"] = "2025/04/04",
+["wipes"] = 3,
+["fkDuration"] = 304.0679999999993,
 },
 },
 },

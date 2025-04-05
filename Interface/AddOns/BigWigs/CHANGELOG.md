@@ -1,8 +1,8 @@
 # BigWigs
 
-## [v380.1](https://github.com/BigWigsMods/BigWigs/tree/v380.1) (2025-04-03)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v380...v380.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v380.2](https://github.com/BigWigsMods/BigWigs/tree/v380.2) (2025-04-04)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v380.1...v380.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
+- Move the break timer code from the Bars plugin to its own plugin  
+- Loader: Tweaks  
 - Bump version  
-- LiberationOfUndermine/Bandit: Add Reel Assistant marker  
-- LiberationOfUndermine/Gallywix: LFR update  

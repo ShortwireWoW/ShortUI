@@ -8,6 +8,45 @@ PremadeGroupsFilterState = {
 },
 ["c2f4"] = {
 ["enabled"] = true,
+["dungeon"] = {
+["mprating"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["heals"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["dungeon6"] = true,
+["dps"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["members"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["expression"] = "",
+["difficulty"] = {
+["act"] = true,
+["val"] = 4,
+},
+["dungeon4"] = true,
+["tanks"] = {
+["max"] = "",
+["min"] = "",
+["act"] = false,
+},
+["dungeon3"] = false,
+["dungeon8"] = false,
+["dungeon2"] = true,
+["dungeon7"] = false,
+["partyfit"] = true,
+},
 },
 ["c3f6"] = {
 ["enabled"] = true,
