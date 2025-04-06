@@ -7,7 +7,7 @@ EncounterPlannerDB = {
 ["Default"] = {
 ["preferences"] = {
 ["minimap"] = {
-["minimapPos"] = 287.943626915336,
+["minimapPos"] = 339.2782153365747,
 },
 },
 ["sharedRoster"] = {

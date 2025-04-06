@@ -11,7 +11,7 @@ PlaterDBChr = {
 ["Player-3676-0EA88AB6"] = true,
 },
 ["minimap"] = {
-["minimapPos"] = 286.1293768030722,
+["minimapPos"] = 249.618131852501,
 ["hide"] = true,
 },
 ["resources_on_target"] = false,

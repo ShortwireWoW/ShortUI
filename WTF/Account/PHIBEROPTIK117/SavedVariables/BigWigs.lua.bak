@@ -3,13 +3,6 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Rik Reverb"] = {
-["profiles"] = {
-["Default"] = {
-["custom_off_-31087"] = true,
-},
-},
-},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
@@ -28,13 +21,15 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
@@ -43,13 +38,13 @@ BigWigs3DB = {
 ["BigWigs_Plugins_Pull"] = {
 },
 },
+["global"] = {
+["watchedMovies"] = {
+[-2406] = true,
+},
+},
 ["profileKeys"] = {
 ["Shortbowjob - Area 52"] = "Default",
-},
-["breakTime"] = {
-1743819980,
-600,
-"Shortbowjob",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -57,52 +52,30 @@ BigWigs3DB = {
 },
 }
 BigWigsIconDB = {
+["minimapPos"] = 155.4129648962899,
 ["hide"] = true,
 }
 BigWigsStatsDB = {
 [2769] = {
-[2639] = {
+[2644] = {
 ["heroic"] = {
 ["kills"] = 1,
-["fkDuration"] = 253.7509999999893,
-["best"] = 253.7509999999893,
-["bestDate"] = "2025/04/04",
-["fkDate"] = "2025/04/04",
+["fkDate"] = "2025/04/05",
+["bestDate"] = "2025/04/05",
+["fkWipes"] = 6,
+["best"] = 395.7529999999679,
+["wipes"] = 6,
+["fkDuration"] = 395.7529999999679,
 },
 },
-[2640] = {
+[2645] = {
 ["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 274.5990000000165,
-["wipes"] = 1,
-["fkWipes"] = 1,
-["best"] = 274.5990000000165,
-["bestDate"] = "2025/04/04",
-["fkDate"] = "2025/04/04",
-},
-},
-[2641] = {
-["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 246.4060000000172,
-["best"] = 246.4060000000172,
-["bestDate"] = "2025/04/04",
-["fkDate"] = "2025/04/04",
-},
-},
-[2642] = {
-["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 391.5,
-["wipes"] = 3,
-["fkWipes"] = 3,
-["best"] = 391.5,
-["bestDate"] = "2025/04/04",
-["fkDate"] = "2025/04/04",
+["wipes"] = 11,
 },
 },
 [2653] = {
 ["heroic"] = {
+["wipes"] = 3,
 },
 },
 },

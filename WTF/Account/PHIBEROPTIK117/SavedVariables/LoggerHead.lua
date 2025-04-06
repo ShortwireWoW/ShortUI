@@ -6,27 +6,8 @@ LoggerHeadDB = {
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
-["party"] = {
-["Operation: Floodgate"] = {
-[23] = true,
-[8] = true,
-},
-["The MOTHERLODE!!"] = {
-[23] = true,
-[8] = true,
-},
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
-},
-["Theater of Pain"] = {
-[23] = true,
-[8] = true,
-},
-},
 ["raid"] = {
 ["Liberation of Undermine"] = {
-[17] = true,
 [15] = true,
 },
 },

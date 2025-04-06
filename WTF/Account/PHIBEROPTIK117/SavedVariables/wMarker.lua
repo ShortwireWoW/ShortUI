@@ -1,10 +1,10 @@
 
 wMarkerAceDB = {
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
-},
 ["global"] = {
 ["lastVer"] = "3.2.3",
+},
+["profileKeys"] = {
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,15 +16,15 @@ wMarkerAceDB = {
 "TOPLEFT",
 nil,
 "TOPLEFT",
-47.50001525878906,
--9.666576385498047,
+19.4102840423584,
+-1.871892094612122,
 },
 ["wMarkerWorld"] = {
 "TOPLEFT",
 nil,
 "TOPLEFT",
-73.33328247070312,
--66.66661071777344,
+24.48708534240723,
+-39.20504760742188,
 },
 },
 ["world"] = {

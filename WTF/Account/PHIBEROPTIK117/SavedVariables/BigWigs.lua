@@ -3,13 +3,6 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Rik Reverb"] = {
-["profiles"] = {
-["Default"] = {
-["custom_off_-31087"] = true,
-},
-},
-},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
@@ -36,17 +29,22 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Messages"] = {
-},
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Messages"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 },
 ["profileKeys"] = {
 ["Shortbowjob - Area 52"] = "Default",
+},
+["global"] = {
+["watchedMovies"] = {
+[-2406] = true,
+},
 },
 ["profiles"] = {
 ["Default"] = {
@@ -54,59 +52,30 @@ BigWigs3DB = {
 },
 }
 BigWigsIconDB = {
+["minimapPos"] = 155.4129648962899,
 ["hide"] = true,
 }
 BigWigsStatsDB = {
 [2769] = {
-[2639] = {
+[2644] = {
 ["heroic"] = {
 ["kills"] = 1,
-["fkDate"] = "2025/04/04",
-["bestDate"] = "2025/04/04",
-["best"] = 253.7509999999893,
-["fkDuration"] = 253.7509999999893,
+["fkDuration"] = 395.7529999999679,
+["wipes"] = 6,
+["fkWipes"] = 6,
+["best"] = 395.7529999999679,
+["bestDate"] = "2025/04/05",
+["fkDate"] = "2025/04/05",
 },
 },
-[2640] = {
+[2645] = {
 ["heroic"] = {
-["kills"] = 1,
-["fkDate"] = "2025/04/04",
-["bestDate"] = "2025/04/04",
-["fkWipes"] = 1,
-["best"] = 274.5990000000165,
-["wipes"] = 1,
-["fkDuration"] = 274.5990000000165,
-},
-},
-[2641] = {
-["heroic"] = {
-["kills"] = 1,
-["fkDate"] = "2025/04/04",
-["bestDate"] = "2025/04/04",
-["best"] = 246.4060000000172,
-["fkDuration"] = 246.4060000000172,
-},
-},
-[2642] = {
-["heroic"] = {
-["kills"] = 1,
-["fkDate"] = "2025/04/04",
-["bestDate"] = "2025/04/04",
-["fkWipes"] = 3,
-["best"] = 391.5,
-["wipes"] = 3,
-["fkDuration"] = 391.5,
+["wipes"] = 11,
 },
 },
 [2653] = {
 ["heroic"] = {
-["kills"] = 1,
-["bestDate"] = "2025/04/04",
-["best"] = 304.0679999999993,
-["fkWipes"] = 3,
-["fkDate"] = "2025/04/04",
 ["wipes"] = 3,
-["fkDuration"] = 304.0679999999993,
 },
 },
 },
