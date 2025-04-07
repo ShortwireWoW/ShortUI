@@ -21,30 +21,28 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
-},
-["LibDualSpec-1.0"] = {
-},
 ["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Shortbowjob - Area 52"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2406] = true,
 },
-},
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -60,12 +58,12 @@ BigWigsStatsDB = {
 [2644] = {
 ["heroic"] = {
 ["kills"] = 1,
-["fkDate"] = "2025/04/05",
-["bestDate"] = "2025/04/05",
+["fkDuration"] = 395.7529999999679,
+["wipes"] = 6,
 ["fkWipes"] = 6,
 ["best"] = 395.7529999999679,
-["wipes"] = 6,
-["fkDuration"] = 395.7529999999679,
+["bestDate"] = "2025/04/05",
+["fkDate"] = "2025/04/05",
 },
 },
 [2645] = {
@@ -75,7 +73,7 @@ BigWigsStatsDB = {
 },
 [2653] = {
 ["heroic"] = {
-["wipes"] = 3,
+["wipes"] = 8,
 },
 },
 },

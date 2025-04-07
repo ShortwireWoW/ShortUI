@@ -1,28 +1,10 @@
 
 FixRaidDB = {
-["faction"] = {
-["Horde"] = {
-["damagerRoleNonGuildCache"] = {
-["melee"] = {
-["Kumboi-Frostmourne"] = 1743913436,
-["Stormtide-Hellscream"] = 1743911642,
-},
-["ranged"] = {
-["Lifeblack-Stormrage"] = 1743913427,
-["Wapishift-Proudmoore"] = 1743913869,
-["Lizardbrain-Zangarmarsh"] = 1743911072,
-["Deepleet-Zul'jin"] = 1743913870,
-["Methack-Ragnaros"] = 1743911355,
-["Bübuktyfuc-Anub'arak"] = 1743913418,
-},
-},
-["damagerRoleGuildCache"] = {
-["melee"] = {
-},
-["ranged"] = {
-["Twistedwilds-Illidan"] = 1743907052,
-["Melzie-Draenor"] = 1743907063,
-["Beernuts-Doomhammer"] = 1743910477,
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 30.01883473906691,
 },
 },
 },
@@ -30,11 +12,90 @@ FixRaidDB = {
 ["profileKeys"] = {
 ["Shortbowjob - Area 52"] = "Default",
 },
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 30.01883473906691,
+["faction"] = {
+["Horde"] = {
+["damagerRoleNonGuildCache"] = {
+["melee"] = {
+["Ishrí-Area52"] = 1743951228,
+["Beauvine-Windrunner"] = 1743951871,
+["Caveledruid-Thrall"] = 1743951258,
+["Semíranis-Quel'Thalas"] = 1743951677,
+["Archais-Illidan"] = 1743964874,
+["Tatankah-Quel'dorei"] = 1743951889,
+["Kastigore-Area52"] = 1743951883,
+["Kumboi-Frostmourne"] = 1743913436,
+["Stormtide-Hellscream"] = 1743911642,
+["Rndrz-Tichondrius"] = 1743970951,
+["Lubanu-Goldrinn"] = 1743964479,
+},
+["ranged"] = {
+["Deepleet-Zul'jin"] = 1743913870,
+["Ellennia-Shu'halo"] = 1743964846,
+["Tátiana-MoonGuard"] = 1743953760,
+["Zaranah-Azralon"] = 1743951648,
+["Kaneron-Area52"] = 1743963375,
+["Grimgrimy-Mal'Ganis"] = 1743985420,
+["Biggbird-BleedingHollow"] = 1743991631,
+["Dracnilo-Ragnaros"] = 1743951892,
+["Dragonmenutz-Aggramar"] = 1743993221,
+["Bownerd-Zul'jin"] = 1743993517,
+["Judgeevoker-Area52"] = 1743971070,
+["Mellomeim-Daggerspine"] = 1743994247,
+["Zulatakra-WyrmrestAccord"] = 1743951978,
+["Johndruid-Thaurissan"] = 1743948292,
+["Garopollo-Azralon"] = 1743964482,
+["Redhilda-Kilrogg"] = 1743987410,
+["Meatcurtin-Quel'dorei"] = 1743989538,
+["Flopshott-Area52"] = 1743951983,
+["Ojaba-Illidan"] = 1743985419,
+["Kamylien-WyrmrestAccord"] = 1743951985,
+["Katherineh-Azralon"] = 1743951657,
+["Hottshot-Drenden"] = 1743951862,
+["Hackytaky-Area52"] = 1743951948,
+["Kyori-EmeraldDream"] = 1743956486,
+["Swollenbruh-Tichondrius"] = 1743963099,
+["Thickster-Tichondrius"] = 1743970516,
+["Nazureser-Ravenholdt"] = 1743951992,
+["Dorralingis-Sargeras"] = 1743970949,
+["Zunne-Ragnaros"] = 1743965192,
+["Kaelvoker-Frostmourne"] = 1743951218,
+["Ogroc-Bloodhoof"] = 1743951852,
+["Zarinha-MoonGuard"] = 1743970516,
+["Lostshunt-Stormrage"] = 1743955270,
+["Aridella-Misha"] = 1743950877,
+["Fluxhoof-EmeraldDream"] = 1743951216,
+["Pictureplane-Agamaggan"] = 1743947812,
+["Narrezza-Moonrunner"] = 1743949772,
+["Sarahlina-Gnomeregan"] = 1743947886,
+["Crymake-Azralon"] = 1743951658,
+["Tejay-Thrall"] = 1743964880,
+["Erovok-Frostmourne"] = 1743955207,
+["Lsb-Stormrage"] = 1743963116,
+["Lizardbrain-Zangarmarsh"] = 1743911072,
+["Wapishift-Proudmoore"] = 1743913869,
+["Shamansuggz-Area52"] = 1743965206,
+["Bübuktyfuc-Anub'arak"] = 1743913418,
+["Crizelda-Azralon"] = 1743964835,
+["Sahacenea-Stormrage"] = 1743970164,
+["Cryopew-Area52"] = 1743951667,
+["Gearzworth-Stormrage"] = 1743963098,
+["Lifeblack-Stormrage"] = 1743913427,
+["Zukron-Area52"] = 1743951269,
+["Stickmovez-Magtheridon"] = 1743984922,
+["Purpleraine-Dalaran"] = 1743964857,
+["Twoflower-Lightning'sBlade"] = 1743963997,
+["Cmillennium-Zul'jin"] = 1743968706,
+["Methack-Ragnaros"] = 1743911355,
+["Strabismus-Kel'Thuzad"] = 1743969950,
+},
+},
+["damagerRoleGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+["Twistedwilds-Illidan"] = 1743907052,
+["Beernuts-Doomhammer"] = 1743910477,
+["Melzie-Draenor"] = 1743907063,
 },
 },
 },
