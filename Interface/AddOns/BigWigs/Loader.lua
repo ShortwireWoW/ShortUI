@@ -12,7 +12,7 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 380
+local BIGWIGS_VERSION = 381
 local CONTENT_PACK_VERSIONS = {
 	["LittleWigs"] = {11, 1, 24},
 	["BigWigs_Classic"] = {11, 1, 2},
@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "816c169" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "7cbabc7" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -300,6 +300,7 @@ do
 		[2791] = public.isSeasonOfDiscovery and c or nil, -- Storm Cliffs (Azuregos) [Classic Season of Discovery Only]
 		[2804] = public.isSeasonOfDiscovery and c or nil, -- The Crystal Vale (Thunderaan) [Classic Season of Discovery Only]
 		[2832] = public.isSeasonOfDiscovery and c or nil, -- Nightmare Grove (Emeriss/Lethon/Taerar/Ysondre) [Classic Season of Discovery Only]
+		[2856] = public.isSeasonOfDiscovery and c or nil, -- Scarlet Enclave [Classic Season of Discovery Only]
 		--[[ BigWigs: The Burning Crusade ]]--
 		[-101] = bc, -- Outland (Fake Menu)
 		[-1945] = bc, -- Outland (Fake Menu) [Classic Only]
@@ -484,6 +485,8 @@ do
 		[2097] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Operation: Mechagon
 		[2212] = lw_bfa, -- Horrific Vision of Orgrimmar
 		[2213] = lw_bfa, -- Horrific Vision of Stormwind
+		[2827] = lw_bfa, -- Horrific Vision of Stormwind (Revisited)
+		[2828] = lw_bfa, -- Horrific Vision of Orgrimmar (Revisited)
 		--[[ LittleWigs: Shadowlands ]]--
 		[2284] = lw_s, -- Sanguine Depths
 		[2285] = lw_s, -- Spires of Ascension
@@ -550,6 +553,10 @@ do
 		[2106] = cap, -- Warsong Gulch
 		[489] = cap, -- Warsong Gulch (Classic)
 		[2118] = cap, -- Wintergrasp
+	}
+	public.remappedZones = {
+		[2827] = 2213, -- Horrific Vision of Stormwind (Revisited) -> Horrific Vision of Stormwind
+		[2828] = 2212, -- Horrific Vision of Orgrimmar (Revisited) -> Horrific Vision of Orgrimmar
 	}
 
 	public.zoneTblWorld = {
@@ -1356,15 +1363,12 @@ do
 		if addonToCheck then
 			local meta = GetAddOnMetadata(i, "Version")
 			if meta then
-				local _, wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash = strsplit("v.-", meta) -- v1.2.3-hash returns "", 1, 2, 3, hash
+				local _, wowMajorStr, wowMinorStr, actualVersionStr = strsplit("v.-", meta) -- v1.2.3 returns "", 1, 2, 3
 				local wowMajor, wowMinor, actualVersion = tonumber(wowMajorStr), tonumber(wowMinorStr), tonumber(actualVersionStr)
 				if wowMajor and wowMinor and actualVersion then
 					local versionDifference = addonToCheck[3] - actualVersion
 					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference > 0 then -- Any version difference = chat print
-						delayedMessages[#delayedMessages+1] = L.outOfDateAddOnRaidWarning:format(name,
-							wowMajorStr, wowMinorStr, actualVersionStr, possibleRepoHash and "-"..possibleRepoHash or "",
-							addonToCheck[1], addonToCheck[2], addonToCheck[3]
-						)
+						delayedMessages[#delayedMessages+1] = L.outOfDateAddOnRaidWarning:format(name, wowMajor, wowMinor, actualVersion, addonToCheck[1], addonToCheck[2], addonToCheck[3])
 					end
 					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference >= 3 then -- Large version difference = popup
 						Popup(L.outOfDateAddOnPopup:format(name), true)

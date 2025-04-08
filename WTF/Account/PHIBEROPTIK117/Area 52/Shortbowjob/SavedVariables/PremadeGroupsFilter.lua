@@ -20,10 +20,10 @@ PremadeGroupsFilterState = {
 ["enabled"] = true,
 },
 ["c3f5"] = {
-["enabled"] = true,
+["enabled"] = false,
 ["raid"] = {
 ["difficulty"] = {
-["act"] = false,
+["act"] = true,
 ["val"] = 2,
 },
 ["heals"] = {

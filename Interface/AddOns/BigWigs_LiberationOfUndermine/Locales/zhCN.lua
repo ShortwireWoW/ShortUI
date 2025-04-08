@@ -23,8 +23,8 @@ end
 
 L = BigWigs:NewBossLocale("Stix Bunkjunker", "zhCN")
 if L then
-	L.ball_size_medium = "中型球！"
-	L.ball_size_large = "大型球！"
+	L.ball_size_medium = "中球！"
+	L.ball_size_large = "大球！"
 	L.rolled_on_you = "%s 碾过你" -- PlayerX rolled over you
 	L.rolled_from_you = "你碾过 %s" -- (you) Rolled over PlayerX
 	L.garbage_dump_message = "你对首领造成了 %s 伤害"
@@ -64,7 +64,7 @@ L = BigWigs:NewBossLocale("The One-Armed Bandit", "zhCN")
 if L then
 	L.rewards = "豪华大奖" -- Fabulous Prizes
 	L.rewards_desc = "当2种礼卷被组合后，将发放\"豪华大奖\"。\n信息会提醒你获得了哪种奖励。\n信息框也会显示哪些奖励任然可用。"
-	L.deposit_time = "投卷计时" -- Timer that indicates how long you have left to deposit the tokens.
+	L.deposit_time = "投卷计时：" -- Timer that indicates how long you have left to deposit the tokens.
 
 	L.pay_line = "凭证"
 	L.shock = "震击"

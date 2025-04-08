@@ -1074,10 +1074,10 @@ local function populateToggleOptions(widget, module)
 	scrollFrame:PauseLayout()
 
 	-- Add a small text label to the top right displaying the boss encounter ID
-	local encounterId, multiple = module:GetEncounterID()
-	if encounterId then
+	local encounterID, multiple = module:GetEncounterID()
+	if encounterID then
 		local idLabel = AceGUI:Create("Label")
-		idLabel.label:SetFormattedText(L.optionsKey, multiple and module:TableToString({module:GetEncounterID()}) or encounterId)
+		idLabel.label:SetFormattedText(L.optionsKey, multiple and module:TableToString({module:GetEncounterID()}) or encounterID)
 		idLabel:SetColor(0.65, 0.65, 0.65)
 		idLabel:SetFullWidth(true)
 		idLabel.label:SetJustifyH("RIGHT")
@@ -1085,13 +1085,13 @@ local function populateToggleOptions(widget, module)
 	end
 
 	local sDB = BigWigsStatsDB
-	local journalId = module:GetJournalID()
-	if not journalId and module:GetAllowWin() and encounterId then
-		journalId = -(encounterId) -- Fallback to show stats for modules with no journal ID, but set to allow win
+	local journalID = module:GetJournalID()
+	if not journalID and module:GetAllowWin() and encounterID then
+		journalID = -(encounterID) -- Fallback to show stats for modules with no journal ID, but set to allow win
 	end
-	local instanceId = type(module.instanceId) == "table" and module.instanceId[1] or module.instanceId
-	if journalId and instanceId and instanceId > 0 and sDB and sDB[instanceId] and sDB[instanceId][journalId] then
-		sDB = sDB[instanceId][journalId]
+	local instanceID = module:GetZoneID()
+	if journalID and instanceID and instanceID > 0 and sDB and sDB[instanceID] and sDB[instanceID][journalID] then
+		sDB = sDB[instanceID][journalID]
 
 		if next(sDB) then -- Create statistics table
 			local statGroup = AceGUI:Create("InlineGroup")
@@ -1404,6 +1404,7 @@ do
 	local statusTable = {}
 	local GetBestMapForUnit = loader.GetBestMapForUnit
 	local GetMapInfo = loader.GetMapInfo
+	local remappedZones = loader.remappedZones
 
 	local function onTreeGroupSelected(widget, event, value)
 		visibleSpellDescriptionWidgets = {}
@@ -1621,6 +1622,9 @@ do
 
 			-- Do we have content for the zone we're in? Then open straight to that zone.
 			local _, instanceType, _, _, _, _, _, id = loader.GetInstanceInfo()
+			if remappedZones[id] then
+				id = remappedZones[id]
+			end
 			local zoneAddon = loader.zoneTbl[id]
 			if type(zoneAddon) == "table" then
 				-- on Retail default to Current Season, on Classic default to the expansion addon

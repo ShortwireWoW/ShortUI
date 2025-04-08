@@ -674,6 +674,13 @@ function W:CreateAuraIcons(button, type)
     auraIcons._auraCount = 0
 
     for _, icon in ipairs(auraIcons) do
+        -- Make background transparent
+        icon:SetBackdrop({
+            edgeFile = Cell.vars.whiteTexture,
+            edgeSize = P.Scale(CELL_BORDER_SIZE)
+        })
+        icon:SetBackdropBorderColor(0, 0, 0, 1)
+
         ---@class CellAuraIcon.preview: Frame
         icon.preview = CreateFrame("Frame", nil, icon)
         icon.preview:Hide()
@@ -789,7 +796,7 @@ W:RegisterCreateWidgetFunc(const.WIDGET_KIND.DEBUFFS, W.CreateDebuffs)
 -------------------------------------------------
 -- MARK: Cell typing
 -------------------------------------------------
----@class CellAuraIcon: Frame
+---@class CellAuraIcon: Frame, BackdropTemplate
 ---@field icon Texture
 ---@field stack FontString
 ---@field duration FontString

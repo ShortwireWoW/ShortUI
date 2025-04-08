@@ -8,8 +8,12 @@ LoggerHeadDB = {
 ["log"] = {
 ["raid"] = {
 ["Liberation of Undermine"] = {
-[15] = true,
 [14] = true,
+[16] = true,
+[15] = true,
+},
+["Onyxia's Lair"] = {
+[4] = false,
 },
 },
 },

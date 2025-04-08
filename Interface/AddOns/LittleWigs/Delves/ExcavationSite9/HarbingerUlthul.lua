@@ -25,15 +25,18 @@ end
 function mod:OnRegister()
 	self.displayName = L.harbinger_ulthul
 	self:SetSpellRename(1213776, CL.curse) -- Hopeless Curse (Curse)
+	self:SetSpellRename(1213700, CL.fixate) -- Unanswered Call (Fixate)
+	self:SetSpellRename(1213838, CL.fixate) -- Unanswered Call (Fixate)
 end
 
 function mod:GetOptions()
 	return {
 		{1213776, "DISPEL"}, -- Hopeless Curse
 		1213785, -- Tear It Down
-		1213700, -- Unanswered Call
+		{1213700, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE", "CASTBAR", "CASTBAR_COUNTDOWN"}, -- Unanswered Call
 	},nil,{
 		[1213776] = CL.curse, -- Hopeless Curse (Curse)
+		[1213700] = CL.fixate, -- Unanswered Call (Fixate)
 	}
 end
 
@@ -43,12 +46,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "TearItDown", 1213785)
 	self:Log("SPELL_CAST_START", "UnansweredCall", 1213700)
 	self:Log("SPELL_AURA_APPLIED", "UnansweredCallApplied", 1213838)
+	self:Log("SPELL_AURA_REMOVED", "UnansweredCallRemoved", 1213838)
 end
 
 function mod:OnEngage()
 	self:CDBar(1213776, 4.7, CL.curse) -- Hopeless Curse
 	self:CDBar(1213785, 9.5) -- Tear It Down
-	self:CDBar(1213700, 30.4) -- Unanswered Call
+	self:CDBar(1213700, 30.4, CL.fixate) -- Unanswered Call
 end
 
 --------------------------------------------------------------------------------
@@ -79,14 +83,27 @@ function mod:TearItDown(args)
 end
 
 function mod:UnansweredCall(args)
-	self:Message(args.spellId, "red")
-	self:CDBar(args.spellId, 33.9)
-	self:PlaySound(args.spellId, "alarm")
+	self:Message(1213700, "red", CL.custom_sec:format(CL.fixate, 5))
+	self:CDBar(args.spellId, 33.9, CL.fixate)
+	self:CastBar(1213700, 5, CL.fixate)
+	self:PlaySound(1213700, "warning")
 end
 
 function mod:UnansweredCallApplied(args)
+	self:TargetMessage(1213700, "red", args.destName, CL.fixate)
+	self:CastBar(1213700, 8, CL.fixate)
 	if self:Me(args.destGUID) then
-		self:PersonalMessage(1213700)
-		self:PlaySound(1213700, "warning")
+		self:Say(1213700, CL.fixate, nil, "Fixate")
+		self:SayCountdown(1213700, 8)
+		self:PlaySound(1213700, "warning", nil, args.destName)
+	else
+		self:PlaySound(1213700, "alarm", nil, args.destName)
+	end
+end
+
+function mod:UnansweredCallRemoved(args)
+	self:StopCastBar(CL.fixate)
+	if self:Me(args.destGUID) then
+		self:CancelSayCountdown(1213700)
 	end
 end

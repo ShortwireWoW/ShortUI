@@ -3,6 +3,13 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
+["BigWigs_Bosses_Rik Reverb"] = {
+["profiles"] = {
+["Default"] = {
+["custom_off_-31087"] = true,
+},
+},
+},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
@@ -23,26 +30,27 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Messages"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 ["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Messages"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
+["BigWigs_Plugins_Pull"] = {
 },
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
+["BigWigs_Plugins_Nameplates"] = {
+},
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2406] = true,
+[-2409] = true,
 },
+},
+["profileKeys"] = {
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -65,15 +73,81 @@ BigWigsStatsDB = {
 ["bestDate"] = "2025/04/05",
 ["fkDate"] = "2025/04/05",
 },
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 286.9560000000056,
+["best"] = 286.9560000000056,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
 },
 [2645] = {
 ["heroic"] = {
 ["wipes"] = 11,
 },
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 324.3170000000391,
+["best"] = 324.3170000000391,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
 },
 [2653] = {
 ["heroic"] = {
-["wipes"] = 8,
+["wipes"] = 14,
+},
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 217.7639999999665,
+["best"] = 217.7639999999665,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
+},
+[2640] = {
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 222.9720000000089,
+["best"] = 222.9720000000089,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
+},
+[2641] = {
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 258.8989999999758,
+["best"] = 258.8989999999758,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
+},
+[2642] = {
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 291.6670000000158,
+["best"] = 291.6670000000158,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
+},
+[2639] = {
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 210.3829999999725,
+["best"] = 210.3829999999725,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
+},
+},
+[2646] = {
+["normal"] = {
+["kills"] = 1,
+["fkDuration"] = 458.6010000000242,
+["best"] = 458.6010000000242,
+["bestDate"] = "2025/04/06",
+["fkDate"] = "2025/04/06",
 },
 },
 },
