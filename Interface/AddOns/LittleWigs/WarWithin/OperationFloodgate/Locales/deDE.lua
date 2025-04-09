@@ -20,4 +20,6 @@ if L then
 	L.bubbles = "Blubbi"
 	L.venture_co_electrician = "Elektriker der Venture Co."
 	L.darkfuse_jumpstarter = "Überbrücker der Düsternisverschmolzenen"
+
+	L.geezle_gigazap_warmup = "Dieses Projekt funktioniert nicht ohne den Wissenschaftler dahinter. Macht dem Hirni den Garaus!"
 end

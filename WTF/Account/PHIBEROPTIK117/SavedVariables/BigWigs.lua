@@ -14,11 +14,17 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
+["BigWigs_Bosses_Rixxa Fluxflame"] = {
+},
 ["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Bosses_Azerokk"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
@@ -30,17 +36,21 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Nameplates"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Bosses_The MOTHERLODE!! Trash"] = {
+},
+["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Bosses_Mogul Razdunk"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_Wipe"] = {
+["BigWigs_Plugins_Pull"] = {
 },
 },
 ["profileKeys"] = {
@@ -98,10 +108,11 @@ BigWigsStatsDB = {
 ["wipes"] = 14,
 },
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 7,
 ["fkDate"] = "2025/04/06",
-["bestDate"] = "2025/04/06",
-["best"] = 217.7639999999665,
+["bestDate"] = "2025/04/08",
+["best"] = 183.2049999999981,
+["wipes"] = 1,
 ["fkDuration"] = 217.7639999999665,
 },
 },

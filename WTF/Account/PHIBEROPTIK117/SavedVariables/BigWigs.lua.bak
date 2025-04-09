@@ -28,13 +28,15 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
+["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
+},
 ["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
-},
 ["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
@@ -98,10 +100,11 @@ BigWigsStatsDB = {
 ["wipes"] = 14,
 },
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 7,
+["wipes"] = 1,
 ["fkDuration"] = 217.7639999999665,
-["best"] = 217.7639999999665,
-["bestDate"] = "2025/04/06",
+["best"] = 183.2049999999981,
+["bestDate"] = "2025/04/08",
 ["fkDate"] = "2025/04/06",
 },
 },

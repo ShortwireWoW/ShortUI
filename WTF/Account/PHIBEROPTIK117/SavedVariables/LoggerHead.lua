@@ -6,6 +6,12 @@ LoggerHeadDB = {
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
+["party"] = {
+["The MOTHERLODE!!"] = {
+[23] = true,
+[8] = true,
+},
+},
 ["raid"] = {
 ["Liberation of Undermine"] = {
 [14] = true,
