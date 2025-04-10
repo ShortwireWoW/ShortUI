@@ -24,25 +24,23 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
-["BigWigs_Plugins_InfoBox"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Plugins_InfoBox"] = {
 },
 ["LibDualSpec-1.0"] = {
 },
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
 },
 ["global"] = {
@@ -101,8 +99,8 @@ BigWigsStatsDB = {
 },
 ["normal"] = {
 ["kills"] = 7,
-["wipes"] = 1,
 ["fkDuration"] = 217.7639999999665,
+["wipes"] = 1,
 ["best"] = 183.2049999999981,
 ["bestDate"] = "2025/04/08",
 ["fkDate"] = "2025/04/06",

@@ -191,10 +191,10 @@ DetailsDataStorage = {
 ["dps_best_raid_when"] = 1743823099,
 },
 ["normal"] = {
-["time_incombat"] = 1616.740999999965,
+["time_incombat"] = 1815.701999999961,
 ["time_fasterkill"] = 183.2049999999981,
 ["wipes"] = 0,
-["kills"] = 7,
+["kills"] = 8,
 ["dps_best"] = 1497424.428814827,
 ["dps_best_raid"] = 23196282.39286924,
 ["time_fasterkill_when"] = 1744160879,

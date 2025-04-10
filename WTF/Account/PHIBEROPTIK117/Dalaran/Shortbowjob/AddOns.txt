@@ -18,3 +18,4 @@ RaiderIO_DB_EU_F: disabled
 BigWigs_LiberationOfUndermine: enabled
 SMLS_DevTools: disabled
 LittleWigs_BattleForAzeroth: enabled
+BigWigs_KhazAlgar: enabled

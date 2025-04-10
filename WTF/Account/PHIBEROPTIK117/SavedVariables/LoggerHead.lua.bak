@@ -16,6 +16,12 @@ LoggerHeadDB = {
 [4] = false,
 },
 },
+["party"] = {
+["The MOTHERLODE!!"] = {
+[23] = true,
+[8] = true,
+},
+},
 },
 ["version"] = 3,
 ["minimap"] = {
