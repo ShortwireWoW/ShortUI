@@ -1,24 +1,20 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 244.7710206525717,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 244.7710206525717,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Zárgoa-area-52"] = true,
-["us-Spxgo-area-52"] = true,
-["us-Polenth-stormrage"] = true,
-["us-Wallychamp-zangarmarsh"] = true,
-["us-Voodoomaam-stormreaver"] = true,
+["us-Lananis-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

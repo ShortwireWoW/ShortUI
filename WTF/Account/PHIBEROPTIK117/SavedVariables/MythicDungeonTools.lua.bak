@@ -1,6 +1,7 @@
 
 MythicDungeonToolsDB = {
 ["profileKeys"] = {
+["Shortbeef - Area 52"] = "Shortbeef - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 },
 ["global"] = {

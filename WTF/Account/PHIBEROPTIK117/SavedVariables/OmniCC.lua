@@ -1,11 +1,12 @@
 
 OmniCCDB = {
+["profileKeys"] = {
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
 ["global"] = {
 ["dbVersion"] = 6,
-["addonVersion"] = "11.0.7",
-},
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
+["addonVersion"] = "11.0.8",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -51,9 +52,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 ["minutes"] = {
 },
@@ -61,9 +62,9 @@ OmniCCDB = {
 },
 ["Plater Nameplates Theme"] = {
 ["textStyles"] = {
-["seconds"] = {
-},
 ["soon"] = {
+},
+["seconds"] = {
 },
 ["minutes"] = {
 },

@@ -19,3 +19,5 @@ BigWigs_LiberationOfUndermine: enabled
 SMLS_DevTools: disabled
 LittleWigs_BattleForAzeroth: enabled
 BigWigs_KhazAlgar: enabled
+LittleWigs_Shadowlands: enabled
+LittleWigs: enabled

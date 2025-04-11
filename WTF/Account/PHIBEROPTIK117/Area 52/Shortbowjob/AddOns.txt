@@ -70,4 +70,4 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
 Blizzard_CombatText: enabled
-SMLS_DevTools: enabled
+SMLS_DevTools: disabled

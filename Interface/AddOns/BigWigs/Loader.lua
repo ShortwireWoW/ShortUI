@@ -14,8 +14,8 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 381
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 24},
-	["BigWigs_Classic"] = {11, 1, 2},
+	["LittleWigs"] = {11, 1, 27},
+	["BigWigs_Classic"] = {11, 1, 3},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 2},
 	["BigWigs_Cataclysm"] = {11, 1, 2},
 }
@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "7cbabc7" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "f69f30a" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -285,7 +285,7 @@ do
 		[533] = public.isVanilla and c or wotlk, -- Naxxramas
 		[249] = public.isVanilla and c or wotlk, -- Onyxia's Lair
 		[568] = (public.isTBC or public.isWrath) and bc or lw_cata, -- Zul'Aman
-		[-947] = public.isClassic and c or bfa, -- Azeroth (Fake Menu)
+		[-947] = public.isRetail and bfa or (public.isVanilla and not public.isSeasonOfDiscovery and c) or nil, -- Azeroth (Fake Menu)
 
 		--[[ BigWigs: Classic ]]--
 		[48] = public.isSeasonOfDiscovery and c or nil, -- Blackfathom Deeps [Classic Season of Discovery Only]
@@ -1416,13 +1416,24 @@ do
 		[1425] = locales.esMX, [1427] = locales.esMX, [1428] = locales.esMX, -- esMX
 		[1309] = locales.itIT, [1316] = locales.itIT, -- itIT
 		--[1378] = locales.esES, [1379] = locales.esES, [1380] = locales.esES, [1381] = locales.esES, [1382] = locales.esES, [1383] = locales.esES, -- esES
+		--[1384] = locales.esES, [1385] = locales.esES, [1386] = locales.esES, [1387] = locales.esES, [1395] = locales.esES, -- esES
 	}
+	local criticalList = {
+		[locales.esMX] = true,
+	}
+
 	local language = locales[myLocale]
 	local realmLanguage = realms[GetRealmID()]
 	if public.isRetail and (language or realmLanguage) then
-		delayedMessages[#delayedMessages+1] = ("BigWigs is missing translations for %s."):format(language or realmLanguage)
-		delayedMessages[#delayedMessages+1] = "Can you help?"
-		delayedMessages[#delayedMessages+1] = "Ask us on Discord for more info."
+		local msg1 = ("BigWigs is missing translations for %s."):format(language or realmLanguage)
+		local msg2 = "Can you help?"
+		local msg3 = "Ask us on Discord for more info."
+		delayedMessages[#delayedMessages+1] = msg1
+		delayedMessages[#delayedMessages+1] = msg2
+		delayedMessages[#delayedMessages+1] = msg3
+		if criticalList[language or realmLanguage] then
+			Popup(msg1.. "\n" ..msg2.. "\n" ..msg3, true)
+		end
 	end
 
 	if #delayedMessages > 0 then

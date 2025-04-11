@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 ["characters"] = {
+["Shortbeef - Area 52"] = "Shortbowjob - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 },
 ["profiles"] = {
@@ -15,7 +16,7 @@ Details_StreamerDB = {
 },
 ["scale"] = 1,
 ["main_frame_size"] = {
-299.9999694824219,
+300.0000305175781,
 500.0000610351563,
 },
 ["minimap"] = {
@@ -38,7 +39,17 @@ Details_StreamerDB = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["use_spark"] = true,
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = -6.103515625e-05,
+["x"] = 0.00030517578125,
+["size"] = 32,
+["update_speed"] = 0.05,
+["attribute_type"] = 1,
+},
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -48,22 +59,12 @@ Details_StreamerDB = {
 },
 ["author"] = "Terciob",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["y"] = 3.0517578125e-05,
 ["font_size"] = 10,
-["y"] = 0.0007171630859375,
-["x"] = 6.103515625e-05,
+["x"] = 0.0001220703125,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["per_second"] = {
-["enabled"] = false,
-["point"] = "CENTER",
-["scale"] = 1,
-["font_shadow"] = true,
-["y"] = 0.00372314453125,
-["x"] = 0.0008544921875,
-["size"] = 32,
-["update_speed"] = 0.05,
-["attribute_type"] = 1,
-},
+["use_spark"] = true,
 ["row_color"] = {
 0.1,
 0.1,

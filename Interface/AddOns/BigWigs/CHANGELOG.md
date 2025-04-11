@@ -1,15 +1,14 @@
 # BigWigs
 
-## [v381](https://github.com/BigWigsMods/BigWigs/tree/v381) (2025-04-07)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v380.2...v381) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v381.1](https://github.com/BigWigsMods/BigWigs/tree/v381.1) (2025-04-10)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v381...v381.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
 - Bump version  
-- Core: Cleanups  
-- Plugins: Cleanup timers  
-- Loader: Add Scarlet Enclave instance ID  
-- LiberationOfUndermine/Bandit: Fix deposit time locale, closes #1992  
-- Add a way to remap zones in options, add Horrific Visions Revisited (#1988)  
-- Core/BossPrototype: Add `GetZoneID()`  
-- Update zhCN (#1993)  
-- LiberationOfUndermine/Gallywix: More heroic p2 timers  
-- Loader: Tweak a chat print  
+- Loader: Don't show the "Azeroth" menu on Season of Discovery  
+- Core/BossPrototype: Make Private Aura registration work for modules that don't engage  
+- Locales: Add more common locale  
+- Loader: Tweak locale print  
+- Plugins/Proximity: Remove check for Wrath  
+- Core/BossPrototype: Cleanup `UnitTokenFromGUID` now that it exists on vanilla  
+- LiberationOfUndermine/Gallywix: More LFR p3 timers  
+- Update frFR (#1994)  

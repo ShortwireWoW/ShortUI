@@ -1,17 +1,12 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
+["Shortbeef - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
-["party"] = {
-["The MOTHERLODE!!"] = {
-[23] = true,
-[8] = true,
-},
-},
 ["raid"] = {
 ["Liberation of Undermine"] = {
 [14] = true,
@@ -20,6 +15,20 @@ LoggerHeadDB = {
 },
 ["Onyxia's Lair"] = {
 [4] = false,
+},
+},
+["party"] = {
+["Darkflame Cleft"] = {
+[23] = true,
+[8] = true,
+},
+["The MOTHERLODE!!"] = {
+[23] = true,
+[8] = true,
+},
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
 },
 },
 },
