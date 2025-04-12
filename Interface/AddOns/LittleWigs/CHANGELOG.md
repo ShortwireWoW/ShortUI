@@ -1,9 +1,6 @@
 # LittleWigs
 
-## [v11.1.27](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.27) (2025-04-10)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.26...v11.1.27) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.28](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.28) (2025-04-11)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.27...v11.1.28) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Update zhCN (#1328)  
-- Delves/ExcavationSite9/XelaneghTheMany: Show messages when killing tentacles  
-- Delves/Trash/Kobold: Rename Battle Cry to Enrage  
-- Update zhCN / zhTW (#1327)  
+- WarWithin/DarkflameCleft/Trash: Make something a bit more standard for clearing timers to prevent future copy/paste issues leaving behind stuck bars  

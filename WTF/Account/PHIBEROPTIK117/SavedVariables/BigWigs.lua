@@ -12,57 +12,37 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
-["BigWigs_Bosses_Darkflame Cleft Trash"] = {
-},
-["BigWigs_Bosses_The Darkness"] = {
-},
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Blazikon"] = {
+["BigWigs_Plugins_Statistics"] = {
 },
-["BigWigs_Bosses_Theater Of Pain Trash"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_The Candle King"] = {
-},
-["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
-},
-["BigWigs_Bosses_Ol' Waxbeard"] = {
+["BigWigs_Bosses_The One-Armed Bandit"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Kul'tharok"] = {
-},
 ["BigWigs_Plugins_Colors"] = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
+["BigWigs_Plugins_InfoBox"] = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Gorechop"] = {
-},
-["BigWigs_Bosses_An Affront of Challengers"] = {
-},
-["BigWigs_Bosses_Xav the Unfallen"] = {
-},
-["BigWigs_Plugins_InfoBox"] = {
-},
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 },
-["BigWigs_Plugins_Pull"] = {
+["BigWigs_Plugins_Proximity"] = {
 },
-["BigWigs_Plugins_Statistics"] = {
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Pull"] = {
 },
 },
 ["global"] = {
@@ -87,20 +67,20 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 1,
-["fkDuration"] = 395.7529999999679,
-["wipes"] = 6,
-["fkWipes"] = 6,
-["best"] = 395.7529999999679,
-["bestDate"] = "2025/04/05",
+["kills"] = 2,
 ["fkDate"] = "2025/04/05",
+["bestDate"] = "2025/04/11",
+["fkWipes"] = 6,
+["best"] = 393.6020000000026,
+["wipes"] = 6,
+["fkDuration"] = 395.7529999999679,
 },
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 286.9560000000056,
-["best"] = 286.9560000000056,
-["bestDate"] = "2025/04/06",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 286.9560000000056,
+["fkDuration"] = 286.9560000000056,
 },
 },
 [2645] = {
@@ -109,68 +89,104 @@ BigWigsStatsDB = {
 },
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 324.3170000000391,
-["best"] = 324.3170000000391,
-["bestDate"] = "2025/04/06",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 324.3170000000391,
+["fkDuration"] = 324.3170000000391,
 },
 },
 [2653] = {
 ["heroic"] = {
-["wipes"] = 14,
+["kills"] = 1,
+["fkDuration"] = 282.1749999999993,
+["wipes"] = 18,
+["fkWipes"] = 18,
+["best"] = 282.1749999999993,
+["bestDate"] = "2025/04/11",
+["fkDate"] = "2025/04/11",
 },
 ["normal"] = {
 ["kills"] = 8,
-["fkDuration"] = 217.7639999999665,
-["wipes"] = 1,
-["best"] = 183.2049999999981,
-["bestDate"] = "2025/04/08",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/08",
+["best"] = 183.2049999999981,
+["wipes"] = 1,
+["fkDuration"] = 217.7639999999665,
 },
 },
 [2640] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 222.9720000000089,
-["best"] = 222.9720000000089,
-["bestDate"] = "2025/04/06",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 222.9720000000089,
+["fkDuration"] = 222.9720000000089,
+},
+["heroic"] = {
+["kills"] = 1,
+["fkDuration"] = 246.1599999999999,
+["best"] = 246.1599999999999,
+["bestDate"] = "2025/04/11",
+["fkDate"] = "2025/04/11",
 },
 },
 [2641] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 258.8989999999758,
-["best"] = 258.8989999999758,
-["bestDate"] = "2025/04/06",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 258.8989999999758,
+["fkDuration"] = 258.8989999999758,
+},
+["heroic"] = {
+["kills"] = 1,
+["fkDuration"] = 240.4179999999997,
+["best"] = 240.4179999999997,
+["bestDate"] = "2025/04/11",
+["fkDate"] = "2025/04/11",
 },
 },
 [2642] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 291.6670000000158,
+["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
 ["best"] = 291.6670000000158,
-["bestDate"] = "2025/04/06",
-["fkDate"] = "2025/04/06",
+["fkDuration"] = 291.6670000000158,
 },
-},
-[2639] = {
-["normal"] = {
+["heroic"] = {
 ["kills"] = 1,
-["fkDuration"] = 210.3829999999725,
-["best"] = 210.3829999999725,
-["bestDate"] = "2025/04/06",
-["fkDate"] = "2025/04/06",
+["fkDuration"] = 408.0670000000009,
+["wipes"] = 1,
+["fkWipes"] = 1,
+["best"] = 408.0670000000009,
+["bestDate"] = "2025/04/11",
+["fkDate"] = "2025/04/11",
 },
 },
 [2646] = {
 ["normal"] = {
 ["kills"] = 1,
-["fkDuration"] = 458.6010000000242,
-["best"] = 458.6010000000242,
-["bestDate"] = "2025/04/06",
 ["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 458.6010000000242,
+["fkDuration"] = 458.6010000000242,
+},
+},
+[2639] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/04/06",
+["bestDate"] = "2025/04/06",
+["best"] = 210.3829999999725,
+["fkDuration"] = 210.3829999999725,
+},
+["heroic"] = {
+["kills"] = 1,
+["fkDuration"] = 237.723,
+["best"] = 237.723,
+["bestDate"] = "2025/04/11",
+["fkDate"] = "2025/04/11",
 },
 },
 },

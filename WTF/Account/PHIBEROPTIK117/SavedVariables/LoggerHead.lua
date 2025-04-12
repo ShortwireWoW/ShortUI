@@ -7,16 +7,6 @@ LoggerHeadDB = {
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
-["raid"] = {
-["Liberation of Undermine"] = {
-[14] = true,
-[16] = true,
-[15] = true,
-},
-["Onyxia's Lair"] = {
-[4] = false,
-},
-},
 ["party"] = {
 ["Darkflame Cleft"] = {
 [23] = true,
@@ -29,6 +19,16 @@ LoggerHeadDB = {
 ["Theater of Pain"] = {
 [23] = true,
 [8] = true,
+},
+},
+["raid"] = {
+["Liberation of Undermine"] = {
+[14] = true,
+[16] = true,
+[15] = true,
+},
+["Onyxia's Lair"] = {
+[4] = false,
 },
 },
 },
