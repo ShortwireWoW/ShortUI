@@ -1,35 +1,35 @@
 
 FixRaidDB = {
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 30.01883473906691,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortbeef - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Yurot-Ragnaros"] = 1744337659,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
-["Twistedwilds-Illidan"] = 1744427411,
 },
 ["ranged"] = {
 ["Celéstion-Stormrage"] = 1744248499,
+["Beernuts-Doomhammer"] = 1744515446,
+["Twistedwilds-Illidan"] = 1744515447,
 ["Melzie-Draenor"] = 1743907063,
-["Beernuts-Doomhammer"] = 1743910477,
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortbeef - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 30.01883473906691,
 },
 },
 },

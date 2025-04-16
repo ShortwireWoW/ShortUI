@@ -324,86 +324,46 @@ L["RAID_BOSS_FCN_6"] = "Dame Inerva Sombreveine"
 L["RAID_BOSS_FCN_7"] = "Le conseil du Sang"
 L["RAID_BOSS_FCN_8"] = "Fangepoing"
 L["RAID_BOSS_FCN_9"] = "Généraux de la Légion de pierre"
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSFO_9"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FSOD_9"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_12"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ICC_9"] = ""--]] 
+L["RAID_BOSS_FL_1"] = "Beth'tilac"
+L["RAID_BOSS_FL_2"] = "Seigneur Rhyolith"
+L["RAID_BOSS_FL_3"] = "Shannox"
+L["RAID_BOSS_FL_4"] = "Alysrazor"
+L["RAID_BOSS_FL_5"] = "Baleroc"
+L["RAID_BOSS_FL_6"] = "Chambellan Forteramure"
+L["RAID_BOSS_FL_7"] = "Ragnaros"
+L["RAID_BOSS_FSFO_1"] = "Gardien vigilant"
+L["RAID_BOSS_FSFO_10"] = "Rygelon"
+L["RAID_BOSS_FSFO_11"] = "Le Geôlier"
+L["RAID_BOSS_FSFO_2"] = "Skolex, l’Insatiable vorace"
+L["RAID_BOSS_FSFO_3"] = "Artificier Xy’mox"
+L["RAID_BOSS_FSFO_4"] = "Dausegne, l’Oracle déchu"
+L["RAID_BOSS_FSFO_5"] = "Panthéon des prototypes"
+L["RAID_BOSS_FSFO_6"] = "Lihuvim, architecte principal"
+L["RAID_BOSS_FSFO_7"] = "Halondrus le Récupérateur"
+L["RAID_BOSS_FSFO_8"] = "Anduin Wrynn"
+L["RAID_BOSS_FSFO_9"] = "Seigneurs de l’effroi"
+L["RAID_BOSS_FSOD_1"] = "Le Naphtrémens"
+L["RAID_BOSS_FSOD_10"] = "Sylvanas Coursevent"
+L["RAID_BOSS_FSOD_2"] = "Oeil du Geôlier"
+L["RAID_BOSS_FSOD_3"] = "Les Neufs"
+L["RAID_BOSS_FSOD_4"] = "Vestige de Ner'zhul"
+L["RAID_BOSS_FSOD_5"] = "Etripeur d'âme Dormazain"
+L["RAID_BOSS_FSOD_6"] = "Mal-ferrant Raznal"
+L["RAID_BOSS_FSOD_7"] = "Gardien des Fondateurs"
+L["RAID_BOSS_FSOD_8"] = "Scribe du destin Roh-Kalo"
+L["RAID_BOSS_FSOD_9"] = "Kel'Thuzad"
+L["RAID_BOSS_ICC_1"] = "Seigneur Gargamoelle"
+L["RAID_BOSS_ICC_10"] = "Valithria Marcherêve"
+L["RAID_BOSS_ICC_11"] = "Sindragosa"
+L["RAID_BOSS_ICC_12"] = "Le roi-liche"
+L["RAID_BOSS_ICC_2"] = "Dame Murmemort"
+L["RAID_BOSS_ICC_3"] = "Bataille des canonnières de la Couronne de glace"
+L["RAID_BOSS_ICC_4"] = "Haut seigneur Saurcroc"
+L["RAID_BOSS_ICC_5"] = "Pulentraille"
+L["RAID_BOSS_ICC_6"] = "Trognepus"
+L["RAID_BOSS_ICC_7"] = "Professeur Putricide"
+L["RAID_BOSS_ICC_8"] = "Conseil du sang"
+L["RAID_BOSS_ICC_9"] = "Reine de sang Lana'thel"
 L["RAID_BOSS_LOU_1"] = "Vexie et les Écrouabouilles"
 L["RAID_BOSS_LOU_2"] = "Chaudron du carnage"
 L["RAID_BOSS_LOU_3"] = "Rik Rebond"
@@ -412,46 +372,26 @@ L["RAID_BOSS_LOU_5"] = "Pignonneur Crosseplatine"
 L["RAID_BOSS_LOU_6"] = "Le Bandit manchot"
 L["RAID_BOSS_LOU_7"] = "Verr’Minh, chefs de la sécurité"
 L["RAID_BOSS_LOU_8"] = "Roi du chrome Gallywix"
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NP_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_RS_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_9"] = ""--]] 
+L["RAID_BOSS_NP_1"] = "Ulgrax le Dévoreur"
+L["RAID_BOSS_NP_2"] = "L'horreur liée par le sang"
+L["RAID_BOSS_NP_3"] = "Sikran"
+L["RAID_BOSS_NP_4"] = "Rasha'nan"
+L["RAID_BOSS_NP_5"] = "Toressaim Ovi'nax"
+L["RAID_BOSS_NP_6"] = "Princesse-nexus Ky'veza"
+L["RAID_BOSS_NP_7"] = "Anub'arash"
+L["RAID_BOSS_NP_8"] = "Reine Ansurek"
+L["RAID_BOSS_RS_1"] = "Halion"
+L["RAID_BOSS_SFO_1"] = "Gardien vigilant"
+L["RAID_BOSS_SFO_10"] = "Rygelon"
+L["RAID_BOSS_SFO_11"] = "Le Geôlier"
+L["RAID_BOSS_SFO_2"] = "Skolex"
+L["RAID_BOSS_SFO_3"] = "Artificier Xy’mox"
+L["RAID_BOSS_SFO_4"] = "Dausegne"
+L["RAID_BOSS_SFO_5"] = "Prototype de la guerre"
+L["RAID_BOSS_SFO_6"] = "Lihuvim"
+L["RAID_BOSS_SFO_7"] = "Halondrus"
+L["RAID_BOSS_SFO_8"] = "Anduin Wrynn"
+L["RAID_BOSS_SFO_9"] = "Seigneurs de l’effroi"
 L["RAID_BOSS_SOD_1"] = "Le Naphtrémens"
 L["RAID_BOSS_SOD_10"] = "Sylvanas Coursevent"
 L["RAID_BOSS_SOD_2"] = "L’œil du Geôlier"

@@ -5,7 +5,6 @@ CauseseDB = {
         [426619] = {"Charge", "Charge.ogg"}, --One-Hand Headlock
         [474031] = {"Spread", "Spread.ogg"}, --Void Crush
         [430179] = {"Drop", "Drop.ogg"}, --Seeping Corruption
-        [424423] = {"Spread", "Spread.ogg"}, --Lunging Strike
         [448787] = {"Targeted", "Targeted.ogg"}, --Purification
         [427616] = {"Targeted", "Targeted.ogg"}, --Energized Barrage
         [430805] = {"Spread", "Spread.ogg"}, --Arcing Void
@@ -29,6 +28,8 @@ CauseseDB = {
         [465127] = {"FIXATE",2,"","ALL",true,true}, --Wind Up Channel
         [341969] = {"AoE",0,"","ALL",false,true}, --Withering Discharge
         [471733] = {"Heal",0,"","ALL",false,true}, --Restorative Algae
+        [471736] = {"Kelp",2,"","ALL",false,true}, --Jettison Kelp
+        [330532] = {"Bleed",2,"","ALL",true,true}, --Jagged Quarrel
         [424322] = {"AoE",0,"","ALL",false,true}, --Explosive Flame
         [1214780] = {"AoE",0,"Interrupt.ogg","ALL",false,true}, --Maximum Distortion
         [444743] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Fireball Volley
@@ -66,7 +67,6 @@ CauseseDB = {
         ["212831"] = {[427897] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.8, 18.2}}, --Heat Wave
         ["239833"] = {[424431] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 26.1, 37.6}}, --Holy Radiance
         ["206704"] = {[448791] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 15.5, 21.7}}, --Sacred Toll
-        ["206710"] = {[427601] = {"SPELL_CAST_START", 2, "ALL", "Heal Inc", 36, 0.1}}, --Burst of Light
         --Floodgate
         ["230748"] = {[465827] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 19.4}}, --Warp Blood
         ["231197"] = {
@@ -74,12 +74,14 @@ CauseseDB = {
             [469721] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 15.5, 21.8}, --Backwash
         },
         ["231014"] = {[465120] = {"SPELL_CAST_START", 2, "ALL", "Fixate Inc", 8.3, 17}}, --Wind Up
+        ["231223"] = {[471736] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Jet Inc", 5.6, 15.8}}, --Jettison Kelp
         --Mechagon
         ["144293"] = {[1215409] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 25.4}}, --Mega Drill
         ["144298"] = {[297128] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.8, 27.9}}, --Short Out
         ["151476"] = {[295169] = {"SPELL_CAST_START", 2, "ALL", "Hide Inc", 16.7, 27.9}}, --Capacitor Discharge
         ["144299"] = {[293683] = {"SPELL_CAST_SUCCESS", 5, "ALL", "Shield Inc", 9.7, 21.9}}, --Shield Generator
         ["236033"] = {[1215412] = {"SPELL_CAST_START", 2, "ALL", "Absorb Inc", 8.5, 24.3}}, --Corrosive Gunk
+        ["151773"] = {[1217819] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Leap Inc", 8.5, 18.2}}, --Fiery Jaws
         --Motherlode
         ["136139"] = {
             [263628] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 16.5, 27}, --Charged Shield

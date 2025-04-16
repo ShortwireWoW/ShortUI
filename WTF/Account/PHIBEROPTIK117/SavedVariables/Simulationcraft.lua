@@ -2,10 +2,16 @@
 SimulationCraftDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Shortbeef - Area 52",
+["Shortbreath - Area 52"] = "Shortbreath - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 },
 ["profiles"] = {
 ["Shortbeef - Area 52"] = {
+["minimap"] = {
+["hide"] = true,
+},
+},
+["Shortbreath - Area 52"] = {
 },
 ["Shortbowjob - Area 52"] = {
 ["minimap"] = {

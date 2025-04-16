@@ -1,32 +1,15 @@
 
 EventTraceSavedVars = {
 ["ShowTimestamp"] = true,
-["Size"] = {
-["Height"] = 400.0000305175781,
-["Width"] = 715.0000610351562,
-},
+["LogEventsWhenHidden"] = false,
 ["ShowArguments"] = true,
+["LogCREvents"] = true,
 ["Filters"] = {
 ["User"] = {
 {
 ["enabled"] = true,
-["event"] = "ACTIONBAR_SLOT_CHANGED",
-["displayEvent"] = "ACTIONBAR_SLOT_CHANGED",
-},
-{
-["enabled"] = true,
 ["event"] = "ACTIONBAR_UPDATE_COOLDOWN",
 ["displayEvent"] = "ACTIONBAR_UPDATE_COOLDOWN",
-},
-{
-["enabled"] = true,
-["event"] = "ACTION_RANGE_CHECK_UPDATE",
-["displayEvent"] = "ACTION_RANGE_CHECK_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "ADDON_LOADED",
-["displayEvent"] = "ADDON_LOADED",
 },
 {
 ["enabled"] = true,
@@ -35,23 +18,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "BN_FRIEND_INFO_CHANGED",
-["displayEvent"] = "BN_FRIEND_INFO_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "BN_INFO_CHANGED",
-["displayEvent"] = "BN_INFO_CHANGED",
-},
-{
-["enabled"] = true,
 ["event"] = "CHAT_MSG_ADDON",
 ["displayEvent"] = "CHAT_MSG_ADDON",
-},
-{
-["enabled"] = true,
-["event"] = "CHAT_MSG_CHANNEL",
-["displayEvent"] = "CHAT_MSG_CHANNEL",
 },
 {
 ["enabled"] = true,
@@ -60,23 +28,8 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "COMPANION_UPDATE",
-["displayEvent"] = "COMPANION_UPDATE",
-},
-{
-["enabled"] = true,
 ["event"] = "CRITERIA_UPDATE",
 ["displayEvent"] = "CRITERIA_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "CURSOR_CHANGED",
-["displayEvent"] = "CURSOR_CHANGED",
-},
-{
-["enabled"] = true,
-["event"] = "FRIENDSFRAME.ONFRIENDSONLINEUPDATED",
-["displayEvent"] = "FriendsFrame.OnFriendsOnlineUpdated |cffffd100(CR)|r",
 },
 {
 ["enabled"] = true,
@@ -87,46 +40,6 @@ EventTraceSavedVars = {
 ["enabled"] = true,
 ["event"] = "GLOBAL_MOUSE_UP",
 ["displayEvent"] = "GLOBAL_MOUSE_UP",
-},
-{
-["enabled"] = true,
-["event"] = "GUILD_NEWS_UPDATE",
-["displayEvent"] = "GUILD_NEWS_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "GUILD_ROSTER_UPDATE",
-["displayEvent"] = "GUILD_ROSTER_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "GUILD_TRADESKILL_UPDATE",
-["displayEvent"] = "GUILD_TRADESKILL_UPDATE",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_LIST_APPLICANT_UPDATED",
-["displayEvent"] = "LFG_LIST_APPLICANT_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "LFG_LIST_SEARCH_RESULT_UPDATED",
-["displayEvent"] = "LFG_LIST_SEARCH_RESULT_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "LOBBYMATCHMAKER.UPDATEQUEUESTATE",
-["displayEvent"] = "LobbyMatchmaker.UpdateQueueState |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
-["event"] = "PERKS_ACTIVITIES_TRACKED_UPDATED",
-["displayEvent"] = "PERKS_ACTIVITIES_TRACKED_UPDATED",
-},
-{
-["enabled"] = true,
-["event"] = "PERKS_ACTIVITIES_UPDATED",
-["displayEvent"] = "PERKS_ACTIVITIES_UPDATED",
 },
 {
 ["enabled"] = true,
@@ -170,11 +83,6 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "QUEUESTATUSUPDATE.QUEUESUPDATED",
-["displayEvent"] = "QueueStatusUpdate.QueuesUpdated |cffffd100(CR)|r",
-},
-{
-["enabled"] = true,
 ["event"] = "SOCIAL_QUEUE_UPDATE",
 ["displayEvent"] = "SOCIAL_QUEUE_UPDATE",
 },
@@ -210,11 +118,6 @@ EventTraceSavedVars = {
 },
 {
 ["enabled"] = true,
-["event"] = "UPDATE_UI_WIDGET",
-["displayEvent"] = "UPDATE_UI_WIDGET",
-},
-{
-["enabled"] = true,
 ["event"] = "VIGNETTES_UPDATED",
 ["displayEvent"] = "VIGNETTES_UPDATED",
 },
@@ -225,6 +128,8 @@ EventTraceSavedVars = {
 },
 },
 },
-["LogCREvents"] = true,
-["LogEventsWhenHidden"] = false,
+["Size"] = {
+["Height"] = 400.0000915527344,
+["Width"] = 715.0000610351562,
+},
 }

@@ -143,6 +143,7 @@ function mod:OnBossEnable()
 	-- Stage One: That's RNG, Baby!
 	self:Log("SPELL_CAST_START", "PayLine", 460181)
 	self:Log("SPELL_AURA_APPLIED", "HighRollerApplied", 460444)
+	self:Log("SPELL_AURA_REFRESH", "HighRollerApplied", 460444)
 	self:Log("SPELL_CAST_START", "FoulExhaust", 469993)
 	self:Log("SPELL_CAST_START", "TheBigHit", 460472)
 	self:Log("SPELL_AURA_APPLIED", "TheBigHitApplied", 460472)
@@ -252,19 +253,23 @@ function mod:PayLine(args)
 	if self:Mythic() and self:GetStage() == 1 then
 		cd = payLineCount == 2 and 26.7 or 0 -- 2 per rewards round
 	elseif self:GetStage() == 2 then
-		local stageTwoTimers = { 24.2, 36.7 } -- Heroic XXX Need to check normal/lfr
-		if self:Mythic() then
-			stageTwoTimers = { 23.5, 36.5 } -- Mythic
+		local stageTwoTimers = { 23.5, 36.5, 0 }
+		if self:Easy() then -- 1 extra cast
+			stageTwoTimers = { 23.5, 36.5, 36.4, 0 }
 		end
 		cd = stageTwoTimers[payLineCount]
 	end
 	self:CDBar(args.spellId, cd, CL.count:format(L.pay_line, payLineTotalCount))
 end
 
-function mod:HighRollerApplied(args)
-	if self:Me(args.destGUID) then
-		self:Message(args.spellId, "green", CL.you:format(args.spellName))
-		self:PlaySound(args.spellId, "info") --	buffed
+do
+	local prev = 0
+	function mod:HighRollerApplied(args)
+		if self:Me(args.destGUID) and args.time - prev > 3 then -- Throttle when coins are thrown at the same time
+			prev = args.time
+			self:Message(args.spellId, "green", CL.you:format(args.spellName))
+			self:PlaySound(args.spellId, "info") --	buffed
+		end
 	end
 end
 
@@ -274,13 +279,13 @@ function mod:FoulExhaust(args)
 	self:PlaySound(args.spellId, "alert") -- debuffs inc
 	foulExhauntCount = foulExhauntCount + 1
 	foulExhaustTotalCount = foulExhaustTotalCount + 1
-	local cd = 31.0
+	local cd = foulExhauntCount == 2 and 31.5 or 0
 	if self:Mythic() and self:GetStage() == 1 then
 		cd = foulExhauntCount == 2 and 32.0 or 0 -- 2 per rewards round
 	elseif self:GetStage() == 2 then
-		local stageTwoTimers = { 18.1, 26.9, 30.2 } -- Heroic XXX Need to check normal/lfr
-		if self:Mythic() then
-			stageTwoTimers = { 17.45, 25.5, 30.44 } -- Mythic
+		local stageTwoTimers = { 17.45, 25.5, 30.4, 0 }
+		if self:Easy() then -- 1 extra cast
+			stageTwoTimers = { 17.45, 25.5, 30.4, 28.0, 0 }
 		end
 		cd = stageTwoTimers[foulExhauntCount]
 	end
@@ -306,10 +311,7 @@ function mod:TheBigHit(args)
 			cd = theBigHitCount == 2 and 20.5 or 0 -- 2 per rewards round
 		end
 	elseif self:GetStage() == 2 then
-		local stageTwoTimers = {28.7, 22.0, 18.3, 18.8} -- Heroic
-		if self:Mythic() then
-			stageTwoTimers = {28.4, 20.7, 18.27, 18.2} -- Mythic
-		end
+		local stageTwoTimers = {28.5, 20.7, 18.25, 18.2, 0}
 		cd = stageTwoTimers[theBigHitCount]
 	end
 	self:CDBar(args.spellId, cd, CL.count:format(args.spellName, theBigHitTotalCount))

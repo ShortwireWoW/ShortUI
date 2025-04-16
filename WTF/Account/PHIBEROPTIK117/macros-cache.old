@@ -38,6 +38,9 @@ VER 3 0000000000000065 "Swap Blaster" "134400"
 #showtooltip
 /cast [@mouseover] Swapblaster
 END
+VER 3 000000000000006A "test" "134400"
+i
+END
 VER 3 0000000000000062 "Toys" "134400"
 #showtooltip
 /use Acolyte's Guise

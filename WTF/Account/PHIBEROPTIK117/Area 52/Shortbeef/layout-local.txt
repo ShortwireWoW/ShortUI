@@ -13,3 +13,10 @@ X: 36
 Y: 131
 W: 261
 H: 637
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: BOTTOM
+X: -262
+Y: 74
+W: 128
+H: 64

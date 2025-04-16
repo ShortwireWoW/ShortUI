@@ -1,22 +1,10 @@
 
 FixRaidDB = {
-["faction"] = {
-["Horde"] = {
-["damagerRoleNonGuildCache"] = {
-["melee"] = {
-},
-["ranged"] = {
-["Yurot-Ragnaros"] = 1744337659,
-},
-},
-["damagerRoleGuildCache"] = {
-["melee"] = {
-["Twistedwilds-Illidan"] = 1744426495,
-},
-["ranged"] = {
-["Beernuts-Doomhammer"] = 1743910477,
-["Celéstion-Stormrage"] = 1744248499,
-["Melzie-Draenor"] = 1743907063,
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 30.01883473906691,
 },
 },
 },
@@ -24,12 +12,24 @@ FixRaidDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 30.01883473906691,
+["faction"] = {
+["Horde"] = {
+["damagerRoleNonGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+},
+},
+["damagerRoleGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+["Celéstion-Stormrage"] = 1744248499,
+["Melzie-Draenor"] = 1743907063,
+["Twistedwilds-Illidan"] = 1744515447,
+["Beernuts-Doomhammer"] = 1744515446,
 },
 },
 },

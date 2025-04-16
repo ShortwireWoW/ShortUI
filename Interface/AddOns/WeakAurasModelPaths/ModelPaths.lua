@@ -8363,17 +8363,6 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
-      fileId = "6035284",
-      text = "doomguard_pet2.m2",
-      value = "doomguard_pet2.m2",
-     },
-    },
-    text = "doomguard_pet2",
-    value = "doomguard_pet2",
-   },
-   {
-    children = {
-     {
       fileId = "123443",
       text = "doomguardoutland.m2",
       value = "doomguardoutland.m2",
@@ -8386,6 +8375,17 @@ WeakAuras.ModelPaths = {
     },
     text = "doomguardoutland",
     value = "doomguardoutland",
+   },
+   {
+    children = {
+     {
+      fileId = "6035284",
+      text = "doomguardpet.m2",
+      value = "doomguardpet.m2",
+     },
+    },
+    text = "doomguardpet",
+    value = "doomguardpet",
    },
    {
     children = {
