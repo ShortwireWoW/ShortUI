@@ -71,3 +71,5 @@ Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
 Blizzard_CombatText: enabled
 SMLS_DevTools: disabled
+DnDNet: disabled
+DnDTools: disabled

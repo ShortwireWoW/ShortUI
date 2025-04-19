@@ -1,8 +1,0 @@
-## Dependencies: Blizzard_GroupFinder
-
-## Title: DnD Leader
-## Interface: 100207
-## Author: Shorty
-## Version: 1.0
-
-DnDLeader.lua

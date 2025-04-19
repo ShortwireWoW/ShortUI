@@ -12,6 +12,9 @@ SimulationCraftDB = {
 },
 },
 ["Shortbreath - Area 52"] = {
+["minimap"] = {
+["hide"] = true,
+},
 },
 ["Shortbowjob - Area 52"] = {
 ["minimap"] = {

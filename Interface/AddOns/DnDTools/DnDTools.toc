@@ -1,0 +1,8 @@
+## Interface: 100207
+## Title: DnDTools
+## Notes: Generate MD5 hash from BTags
+## Author: Shorty
+## Version: 1.0
+
+libs/md5.lua
+DnDTools.lua

@@ -4,17 +4,27 @@ FixRaidDB = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Rustlin-Blackhand"] = 1744949561,
+["Kuujia-WyrmrestAccord"] = 1744949582,
+["Larsz-Stonemaul"] = 1744949582,
 },
 ["ranged"] = {
+["Biwa-Anub'arak"] = 1744945814,
+["Déúsvult-BlackDragonflight"] = 1744949553,
+["Rantroz-Tichondrius"] = 1744946690,
+["Slauson-BoreanTundra"] = 1744949563,
+["Greeley-Zangarmarsh"] = 1744949557,
+["Fts-Anub'arak"] = 1744946327,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Celéstion-Stormrage"] = 1744248499,
 ["Beernuts-Doomhammer"] = 1744515446,
-["Twistedwilds-Illidan"] = 1744515447,
+["Celéstion-Stormrage"] = 1744248499,
+["Stallos-Doomhammer"] = 1745033603,
+["Twistedwilds-Illidan"] = 1745027794,
 ["Melzie-Draenor"] = 1743907063,
 },
 },
@@ -29,7 +39,7 @@ FixRaidDB = {
 ["Default"] = {
 ["options"] = {
 ["minimapIcon"] = {
-["minimapPos"] = 30.01883473906691,
+["minimapPos"] = 19.57961261808111,
 },
 },
 },

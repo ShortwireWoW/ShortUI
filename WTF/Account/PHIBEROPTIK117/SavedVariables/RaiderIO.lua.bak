@@ -1,7 +1,7 @@
 
 RaiderIO_Config = {
 ["minimapIcon"] = {
-["minimapPos"] = 244.7710206525717,
+["minimapPos"] = 317.0438055810013,
 ["showInCompartment"] = true,
 ["hide"] = false,
 ["lock"] = false,
@@ -12,9 +12,9 @@ RaiderIO_Config = {
 ["point"] = "TOPLEFT",
 },
 }
-RaiderIO_LastCharacter = "us-Shortbreath-area-52"
+RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Shortbreath-area-52"] = true,
+["us-Mournesto-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

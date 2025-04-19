@@ -20,11 +20,16 @@ OmniCDDB = {
 ["raidBar1"] = {
 ["manualPos"] = {
 ["raidBar1"] = {
-["y"] = 173.1249783910243,
-["x"] = 871.6746445408353,
+["y"] = 118.192442564141,
+["x"] = 437.5405173983745,
 },
 },
 },
+},
+["position"] = {
+["anchor"] = "TOPRIGHT",
+["attach"] = "TOPLEFT",
+["preset"] = "TOPLEFT",
 },
 },
 },

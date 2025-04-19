@@ -6,24 +6,17 @@ RaiderIO_Config = {
 ["point"] = "TOPLEFT",
 },
 ["minimapIcon"] = {
-["minimapPos"] = 244.7710206525717,
+["minimapPos"] = 317.0438055810013,
 ["showInCompartment"] = true,
 ["lock"] = false,
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
+RaiderIO_LastCharacter = "us-Shortbreath-area-52"
 RaiderIO_MissingCharacters = {
-["us-Anõra-stormrage"] = true,
-["us-Ebyn-area-52"] = true,
-["us-Gweneveré-stormrage"] = true,
-["us-Eerie-alterac-mountains"] = true,
-["us-Aillinna-moon-guard"] = true,
-["us-Hawkerion-stormrage"] = true,
-["us-Grabmytotém-area-52"] = true,
-["us-Rhosowen-stormrage"] = true,
-["us-Twistedtraps-illidan"] = true,
-["us-Tandrex-hyjal"] = true,
+["us-Nuggetfather-nerzhul"] = true,
+["us-Realevasive-area-52"] = true,
+["us-Shortbreath-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }
