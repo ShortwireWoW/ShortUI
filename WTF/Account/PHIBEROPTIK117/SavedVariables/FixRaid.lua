@@ -1,45 +1,41 @@
 
 FixRaidDB = {
-["faction"] = {
-["Horde"] = {
-["damagerRoleNonGuildCache"] = {
-["melee"] = {
-["Rustlin-Blackhand"] = 1744949561,
-["Kuujia-WyrmrestAccord"] = 1744949582,
-["Larsz-Stonemaul"] = 1744949582,
-},
-["ranged"] = {
-["Biwa-Anub'arak"] = 1744945814,
-["Déúsvult-BlackDragonflight"] = 1744949553,
-["Rantroz-Tichondrius"] = 1744946690,
-["Slauson-BoreanTundra"] = 1744949563,
-["Greeley-Zangarmarsh"] = 1744949557,
-["Fts-Anub'arak"] = 1744946327,
-},
-},
-["damagerRoleGuildCache"] = {
-["melee"] = {
-},
-["ranged"] = {
-["Beernuts-Doomhammer"] = 1744515446,
-["Celéstion-Stormrage"] = 1744248499,
-["Stallos-Doomhammer"] = 1745033603,
-["Twistedwilds-Illidan"] = 1745027794,
-["Melzie-Draenor"] = 1743907063,
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 19.57961261808111,
 },
 },
 },
 },
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 19.57961261808111,
+["faction"] = {
+["Horde"] = {
+["damagerRoleNonGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+["Metaltits-Area52"] = 1745374155,
+["Velinos-Area52"] = 1745369941,
+},
+},
+["damagerRoleGuildCache"] = {
+["melee"] = {
+},
+["ranged"] = {
+["Beernuts-Doomhammer"] = 1745120124,
+["Zenjinn-Thunderlord"] = 1745370571,
+["Turtleflap-Bonechewer"] = 1745367335,
+["Village-Bonechewer"] = 1745369199,
+["Celéstion-Stormrage"] = 1744248499,
+["Stallos-Doomhammer"] = 1745033603,
+["Melzie-Draenor"] = 1743907063,
+["Twistedwilds-Illidan"] = 1745120132,
 },
 },
 },

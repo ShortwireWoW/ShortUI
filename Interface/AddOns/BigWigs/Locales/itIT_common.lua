@@ -74,6 +74,8 @@ L.flying_available = "Adesso puoi volare"
 --L.stand_still = "Stand still" -- An ability that forces you to stand still or you will take damage
 --L.safe_to_stop = "Safe to stop" -- When an ability that forces you to keep moving fades from you, allowing you to stop moving
 --L.safe_to_move = "Safe to move" -- When an ability to forces you to stand still fades from you, allowing you to move again
+--L.safe = "Safe" -- You are safe from a bad ability
+--L.unsafe = "Unsafe" -- You are unsafe (in danger) of a bad ability
 
 -- Add related
 L.add_spawned = "Add Apparso" -- singular
@@ -131,6 +133,7 @@ L.marker = "Icona bersaglio %s"
 L.marker_player_desc = "Marchia i giocatori affetti da %s con %s, necessario ruolo assistente o capo." -- Mark players affected by 'SPELL_NAME' with SKULL_ICON
 L.marker_npc_desc = "Marchia %s con %s, necessario ruolo assistente o capo." -- Mark NPC_NAME with SKULL_ICON
 L.marker_npc_aura_desc = "Marchia NPCs che hanno '%s' con %s, richiede promozione or capogruppo." -- Mark NPCs affected by 'SPELL_NAME' with SKULL_ICON
+L.disabled = "Disattivato"
 
 -- Ability where two players have to move close to each other
 L.link = "Vincolo"
@@ -169,6 +172,11 @@ L.south = "Sud"
 L.south_west = "Sud-Ovest"
 L.west = "Ovest"
 L.north_west = "Nord-Ovest"
+
+-- Sizes
+--L.small = "Small"
+--L.medium = "Medium"
+--L.large = "Large"
 
 -- Schools
 L.fire = "Fuoco"
@@ -234,6 +242,8 @@ L.spell_reflection = "Rifletti Incantesimo" -- Any ability that reflects spells
 L.rooted = "Immobilizzato" -- Any ability that roots you in place, preventing you from moving
 
 -- Common ability name replacements A-Z
+--L.ball = "Ball" -- A ball, like a football, basketball, etc
+--L.balls = "Balls" -- Plural of L.ball
 L.blind = "Accecamento" -- Any ability that blinds or disorientates you. Usually an ability a boss casts and you need to turn away from the boss or it will blind you.
 L.dodge = "Schiva" -- When you need to continually run around to dodge abilities, like missiles landing on the ground under you
 L.enrage = "Rabbia" -- Any enrage buff that can be removed by players using abilities like Soothe (Druid), Tranquilizing Shot (Hunter) and Shiv (Rogue)

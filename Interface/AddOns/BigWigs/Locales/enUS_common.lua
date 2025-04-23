@@ -73,6 +73,8 @@ L.keep_moving = "Keep moving" -- An ability that forces you to keep moving or yo
 L.stand_still = "Stand still" -- An ability that forces you to stand still or you will take damage
 L.safe_to_stop = "Safe to stop" -- When an ability that forces you to keep moving fades from you, allowing you to stop moving
 L.safe_to_move = "Safe to move" -- When an ability to forces you to stand still fades from you, allowing you to move again
+L.safe = "Safe" -- You are safe from a bad ability
+L.unsafe = "Unsafe" -- You are unsafe (in danger) of a bad ability
 
 -- Add related
 L.add_spawned = "Add spawned" -- singular
@@ -130,6 +132,7 @@ L.marker = "%s marker"
 L.marker_player_desc = "Mark players affected by '%s' with %s, requires promoted or leader." -- Mark players affected by 'SPELL_NAME' with SKULL_ICON
 L.marker_npc_desc = "Mark %s with %s, requires promoted or leader." -- Mark NPC_NAME with SKULL_ICON
 L.marker_npc_aura_desc = "Mark NPCs affected by '%s' with %s, requires promoted or leader." -- Mark NPCs affected by 'SPELL_NAME' with SKULL_ICON
+L.disabled = "Disabled"
 
 -- Ability where two players have to move close to each other
 L.link = "Link"
@@ -168,6 +171,11 @@ L.south = "South"
 L.south_west = "South-West"
 L.west = "West"
 L.north_west = "North-West"
+
+-- Sizes
+L.small = "Small"
+L.medium = "Medium"
+L.large = "Large"
 
 -- Schools
 L.fire = "Fire"
@@ -233,6 +241,8 @@ L.spell_reflection = "Spell Reflection" -- Any ability that reflects spells
 L.rooted = "Rooted" -- Any ability that roots you in place, preventing you from moving
 
 -- Common ability name replacements A-Z
+L.ball = "Ball" -- A ball, like a football, basketball, etc
+L.balls = "Balls" -- Plural of L.ball
 L.blind = "Blind" -- Any ability that blinds or disorientates you. Usually an ability a boss casts and you need to turn away from the boss or it will blind you.
 L.dodge = "Dodge" -- When you need to continually run around to dodge abilities, like missiles landing on the ground under you
 L.enrage = "Enrage" -- Any enrage buff that can be removed by players using abilities like Soothe (Druid), Tranquilizing Shot (Hunter) and Shiv (Rogue)

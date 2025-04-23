@@ -74,3 +74,5 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
 Blizzard_CombatText: enabled
+DnDTools: enabled
+DnDNet: enabled

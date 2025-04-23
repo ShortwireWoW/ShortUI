@@ -1,9 +1,7 @@
 # LittleWigs
 
-## [v11.1.31](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.31) (2025-04-18)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.30...v11.1.31) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.34](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.34) (2025-04-22)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.33...v11.1.34) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- WarWithin/PrioryOfTheSacredFlame/Trash: Impale  
-- Delves/Trash/Nerubian: Additional gossip NPC  
 - Locale cleanup  
-- BfA/HorrificVisionOfOrgrimmar/Thrall: Update encounter detection  
+- Update koKR (#1333)  

@@ -4,8 +4,8 @@
 
 ## Title: Cell - Unit Frames
 ## Author: Vollmer
-## Version: v1.4.66
-## X-Date: 2025-04-10T09:40:00Z
+## Version: v1.4.67
+## X-Date: 2025-04-21T09:17:21Z
 ## X-License: MIT
 ## X-Curse-Project-ID: 1085605
 ## X-Wago-ID: ZKxqRdGk

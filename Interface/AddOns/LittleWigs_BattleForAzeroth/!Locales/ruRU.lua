@@ -66,9 +66,6 @@ if L then
 	L.lightning_caught = "Молния поймана спустя %.1f секунд!"
 	L.ludwig = "Людвиг фон Тортоллен"
 	L.trothak = "Тротак"
-
-	L.left = "%s (Левая)"
-	L.right = "%s (Правая)"
 end
 
 -- Horrific Vision of Orgrimmar
@@ -100,6 +97,7 @@ if L then
 	L.aqir_bonecrusher = "Акир-костекрушитель"
 	L.aqir_mindhunter = "Акир - подчинитель разума"
 	L.aqir_venomweaver = "Акир - повелитель ядов"
+	L.gamon = "Гамон"
 end
 
 L = BigWigs:NewBossLocale("Thrall", "ruRU")
@@ -220,9 +218,6 @@ if L then
 	L.beastmaster = "Призрачная повелительница животных"
 	L.brute = "Призрачный громила"
 	L.zul = "Тень Зула"
-
-	L.casting_on_you = "Чтение %s на ТЕБЕ"
-	L.casting_on_other = "Чтение %s: %s"
 end
 
 -- Operation: Mechagon
@@ -263,11 +258,6 @@ end
 L = BigWigs:NewBossLocale("Tussle Tonks", "ruRU")
 if L then
 	L.warmup_trigger = "Что это? Ошибка в расчетах? Наши гости еще живы!"
-end
-
-L = BigWigs:NewBossLocale("K.U.-J.0.", "ruRU")
-if L then
-	--L.safe = "Safe"
 end
 
 L = BigWigs:NewBossLocale("King Mechagon", "ruRU")
@@ -351,11 +341,6 @@ if L then
 	L.incubator = "Бешеная наседка"
 	L.nimbus = "Беспокойное облако"
 	L.doctor = "Чумная знахарка"
-end
-
-L = BigWigs:NewBossLocale("Galvazzt", "ruRU")
-if L then
-	--L.percent = "%s (%d%%)"
 end
 
 -- The MOTHERLODE!!

@@ -74,6 +74,8 @@ L.bosses_too_close = "Разведи боссов" -- When 2 or more bosses are 
 --L.stand_still = "Stand still" -- An ability that forces you to stand still or you will take damage
 --L.safe_to_stop = "Safe to stop" -- When an ability that forces you to keep moving fades from you, allowing you to stop moving
 --L.safe_to_move = "Safe to move" -- When an ability to forces you to stand still fades from you, allowing you to move again
+--L.safe = "Safe" -- You are safe from a bad ability
+--L.unsafe = "Unsafe" -- You are unsafe (in danger) of a bad ability
 
 -- Add related
 L.add_spawned = "Помощник появился" -- singular
@@ -131,6 +133,7 @@ L.marker = "Метка %s"
 L.marker_player_desc = "Отмечать игроков, затронутых %s меткой %s, требуется быть помощником или лидером рейда." -- Mark players affected by 'SPELL_NAME' with SKULL_ICON
 L.marker_npc_desc = "Отмечать %s меткой %s, требуется быть помощником или лидером рейда." -- Mark NPC_NAME with SKULL_ICON
 L.marker_npc_aura_desc = "Отмечает НПЦ под воздействием '%s' меткой %s, требуется быть помощником или лидером рейда." -- Mark NPCs affected by 'SPELL_NAME' with SKULL_ICON
+L.disabled = "Отключено"
 
 -- Ability where two players have to move close to each other
 L.link = "Связь"
@@ -169,6 +172,11 @@ L.south = "Юг"
 L.south_west = "Юго-Запад"
 L.west = "Запад"
 L.north_west = "Северо-Запад"
+
+-- Sizes
+--L.small = "Small"
+--L.medium = "Medium"
+--L.large = "Large"
 
 -- Schools
 L.fire = "Огонь"
@@ -234,6 +242,8 @@ L.spell_reflection = "Отражение заклинаний" -- Any ability th
 L.rooted = "Обездвиживание" -- Any ability that roots you in place, preventing you from moving
 
 -- Common ability name replacements A-Z
+--L.ball = "Ball" -- A ball, like a football, basketball, etc
+--L.balls = "Balls" -- Plural of L.ball
 L.blind = "Ослепление" -- Any ability that blinds or disorientates you. Usually an ability a boss casts and you need to turn away from the boss or it will blind you.
 L.dodge = "Избегай" -- When you need to continually run around to dodge abilities, like missiles landing on the ground under you
 L.enrage = "Исступление" -- Any enrage buff that can be removed by players using abilities like Soothe (Druid), Tranquilizing Shot (Hunter) and Shiv (Rogue)

@@ -118,9 +118,7 @@ L["Use WLM Export Sequence Format"] = "使用WLM格式导出序列"
 L["Variable"] = "变量"
 L["Variable Menu"] = "变量菜单"
 --[[Translation missing --]]
-L["WhatsNew"] = [=[|cFFFFFFFFGS|r|cFF00FFFFE|r 3.2.25 has finally fixed being able to use castsequences and their resets within GSE.
-
-The GUI Menu and the Editor have been redesigned.  Details are in Discord.]=]
+L["WhatsNew"] = "|cFFFFFFFFGS|r|cFF00FFFFE|r 3.2.28 changes the import and export strings.  Each GSE import will now start with !GSEx! where the x shows the version number going forward.  https://wago.io/gse has been updated toi handle these new import strings and wago.io exports will switch to exporting these style strings around 11.2.  These new strings will be picked up by the classic variants when they are next updated by Blizzard.  As always details are in Discord."
 L["When creating a macro, if there is not a personal character macro space, create an account wide macro."] = "创建宏时,如果没有角色宏空间,创建帐户通用的宏."
 L["When exporting from GSE create a descriptive export for Discord/Discource forums."] = "从 GSE 导出时创建适合 Discord/Discourse 论坛的描述性导出。"
 L["When loading or creating a sequence, if it is a macro of the same class automatically create the Macro Stub"] = "当加载或创建序列时,如果它是同职业的宏,则自动创建宏存根"

@@ -66,9 +66,6 @@ if L then
 	L.lightning_caught = "Blitz nach %.1f Sekunden gefangen!"
 	L.ludwig = "Ludwig Von Tortollen"
 	L.trothak = "Trothak"
-
-	L.left = "%s (Links)"
-	L.right = "%s (Rechts)"
 end
 
 -- Horrific Vision of Orgrimmar
@@ -100,6 +97,7 @@ if L then
 	L.aqir_bonecrusher = "Knochenzermalmer der Aqir"
 	L.aqir_mindhunter = "Geistjäger der Aqir"
 	L.aqir_venomweaver = "Giftweber der Aqir"
+	L.gamon = "Gamon"
 end
 
 L = BigWigs:NewBossLocale("Thrall", "deDE")
@@ -220,9 +218,6 @@ if L then
 	L.beastmaster = "Spektrale Bestienmeisterin"
 	L.brute = "Spektraler Schläger"
 	L.zul = "Zuls Schatten"
-
-	L.casting_on_you = "Wirkt %s auf DICH"
-	L.casting_on_other = "Wirkt %s: %s"
 end
 
 -- Operation: Mechagon
@@ -263,11 +258,6 @@ end
 L = BigWigs:NewBossLocale("Tussle Tonks", "deDE")
 if L then
 	L.warmup_trigger = "Also, das ist mal eine statistische Anomalie. Unsere Besucher leben noch!"
-end
-
-L = BigWigs:NewBossLocale("K.U.-J.0.", "deDE")
-if L then
-	L.safe = "Schrott"
 end
 
 L = BigWigs:NewBossLocale("King Mechagon", "deDE")
@@ -351,11 +341,6 @@ if L then
 	L.incubator = "Wahnsinniger Inkubator"
 	L.nimbus = "Aufgebrachter Nimbus"
 	L.doctor = "Seuchenärztin"
-end
-
-L = BigWigs:NewBossLocale("Galvazzt", "deDE")
-if L then
-	--L.percent = "%s (%d%%)"
 end
 
 -- The MOTHERLODE!!

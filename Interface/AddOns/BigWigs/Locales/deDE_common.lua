@@ -74,6 +74,8 @@ L.keep_moving = "In Bewegung bleiben" -- An ability that forces you to keep movi
 L.stand_still = "Stehen bleiben" -- An ability that forces you to stand still or you will take damage
 L.safe_to_stop = "Stehen möglich" -- When an ability that forces you to keep moving fades from you, allowing you to stop moving
 L.safe_to_move = "Bewegen möglich" -- When an ability to forces you to stand still fades from you, allowing you to move again
+L.safe = "Sicher" -- You are safe from a bad ability
+L.unsafe = "Unsicher" -- You are unsafe (in danger) of a bad ability
 
 -- Add related
 L.add_spawned = "Add erschienen" -- singular
@@ -131,6 +133,7 @@ L.marker = "%s markieren"
 L.marker_player_desc = "Markiert Spieler, die von %s betroffen sind, mit %s. Benötigt Leiter oder Assistent." -- Mark players affected by 'SPELL_NAME' with SKULL_ICON
 L.marker_npc_desc = "Markiert %s mit %s. Benötigt Leiter oder Assistent." -- Mark NPC_NAME with SKULL_ICON
 L.marker_npc_aura_desc = "Von '%s' betroffene NPCs mit %s markieren. Benötigt Leiter oder Assistent." -- Mark NPCs affected by 'SPELL_NAME' with SKULL_ICON
+L.disabled = "Deaktiviert"
 
 -- Ability where two players have to move close to each other
 L.link = "Verbindung"
@@ -169,6 +172,11 @@ L.south = "Süden"
 L.south_west = "Südwesten"
 L.west = "Westen"
 L.north_west = "Nordwesten"
+
+-- Sizes
+L.small = "Klein"
+L.medium = "Mittel"
+L.large = "Groß"
 
 -- Schools
 L.fire = "Feuer"
@@ -234,6 +242,8 @@ L.spell_reflection = "Zauberreflexion" -- Any ability that reflects spells
 L.rooted = "Bewegungsunfähig" -- Any ability that roots you in place, preventing you from moving
 
 -- Common ability name replacements A-Z
+L.ball = "Ball" -- A ball, like a football, basketball, etc
+L.balls = "Bälle" -- Plural of L.ball
 L.blind = "Blenden" -- Any ability that blinds or disorientates you. Usually an ability a boss casts and you need to turn away from the boss or it will blind you.
 L.dodge = "Ausweichen" -- When you need to continually run around to dodge abilities, like missiles landing on the ground under you
 L.enrage = "Wutanfall" -- Any enrage buff that can be removed by players using abilities like Soothe (Druid), Tranquilizing Shot (Hunter) and Shiv (Rogue)

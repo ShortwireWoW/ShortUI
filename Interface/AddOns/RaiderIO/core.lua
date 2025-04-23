@@ -5887,6 +5887,10 @@ do
         -- if unit simply refresh the unit and the original hook will force update the tooltip with the desired behavior
         local _, tooltipUnit = tooltip:GetUnit()
         if tooltipUnit then
+            if tooltip.RefreshData then
+                tooltip:RefreshData()
+                return
+            end
             tooltip:SetUnit(tooltipUnit)
             return
         end
@@ -6665,7 +6669,14 @@ if IS_RETAIL then
         end
         hooked = true
         hooksecurefunc(frame, "PlayBanner", OnChallengeModeCompleteBannerPlay)
-        local mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = C_ChallengeMode.GetCompletionInfo()
+        ---@type number, number, number, boolean, number, boolean, number, number, boolean, boolean, 0, boolean, ChallengeModeCompletionMemberInfo[]
+        local mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers
+        if C_ChallengeMode.GetChallengeCompletionInfo then
+            local info = C_ChallengeMode.GetChallengeCompletionInfo()
+            mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = info.mapChallengeModeID, info.level, info.time, info.onTime, info.keystoneUpgradeLevels, info.practiceRun, info.oldOverallDungeonScore, info.newOverallDungeonScore, info.isAffixRecord, info.isMapRecord, 0, info.isEligibleForScore, info.members
+        else
+            mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = C_ChallengeMode.GetCompletionInfo()
+        end
         if not practiceRun then
             local bannerData = { mapID = mapID, level = level, time = time, onTime = onTime, keystoneUpgradeLevels = keystoneUpgradeLevels or 0, oldDungeonScore = oldDungeonScore, newDungeonScore = newDungeonScore, isAffixRecord = isAffixRecord, isMapRecord = isMapRecord, primaryAffix = primaryAffix, isEligibleForScore = isEligibleForScore, upgradeMembers = upgradeMembers } ---@type ChallengeModeCompleteBannerData
             OnChallengeModeCompleteBannerPlay(frame, bannerData)
@@ -9386,21 +9397,6 @@ if IS_RETAIL then
         ---@field public UpdatePartitions fun(self: UIWidgetBaseStatusBarTemplateMixin, barValue: number)
         ---@field public OnReset fun(self: UIWidgetBaseStatusBarTemplateMixin)
 
-        ---@class UIWidgetBaseStatusBarTemplate : StatusBar, UIWidgetBaseStatusBarTemplateMixin
-        ---@field public BackgroundGlow Texture
-        ---@field public BGLeft Texture
-        ---@field public BGRight Texture
-        ---@field public BGCenter Texture
-        ---@field public GlowLeft Texture
-        ---@field public GlowRight Texture
-        ---@field public GlowCenter Texture
-        ---@field public BorderLeft Texture
-        ---@field public BorderRight Texture
-        ---@field public BorderCenter Texture
-        ---@field public Spark Texture
-        ---@field public SparkMask Texture
-        ---@field public Label UIWidgetBaseTextMixin
-
         ---@class UIWidgetTemplateStatusBarMixin
         ---@field public SanitizeTextureKits fun(self: UIWidgetTemplateStatusBarMixin, widgetInfo: StatusBarWidgetVisualizationInfoPolyfill)
         ---@field public Setup fun(self: UIWidgetTemplateStatusBarMixin, widgetInfo: StatusBarWidgetVisualizationInfoPolyfill, widgetContainer: Region)
@@ -9408,8 +9404,6 @@ if IS_RETAIL then
         ---@field public OnReset fun(self: UIWidgetTemplateStatusBarMixin)
 
         ---@class UIWidgetTemplateStatusBar : Frame, UIWidgetTemplateStatusBarMixin
-        ---@field public Bar UIWidgetBaseStatusBarTemplate
-        ---@field public Label FontString
         ---@field public widgetContainer Region @Custom property assigned to be the same as the object used when calling `Setup`.
         ---@field public SetBarValue fun(self: UIWidgetTemplateStatusBar, barValue: number, barMin?: number, barMax?: number, forceUpdate?: boolean) @Custom function assigned to wrap around `Setup` for updating the bar widget.
 
@@ -12485,7 +12479,10 @@ if IS_RETAIL then
 
         ---@class RaiderIORWFLootFrameButton : Button
         ---@field public tooltip string
-        ---@field public GetAppropriateTooltip fun()
+        ---@field public GetAppropriateTooltip fun(): GameTooltip
+
+        ---@type fun(): GameTooltip
+        local GetAppropriateTooltip = GetAppropriateTooltip or UIButtonMixin.GetAppropriateTooltip
 
         frame.EnableModule = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate") ---@type RaiderIORWFLootFrameButton
         frame.EnableModule:SetSize(80, 22)
@@ -12493,7 +12490,7 @@ if IS_RETAIL then
         frame.EnableModule:SetScript("OnClick", function() config:Set("rwfMode", true) ReloadUI() end)
         frame.EnableModule:SetText(L.ENABLE_RWF_MODE_BUTTON)
         frame.EnableModule.tooltip = L.ENABLE_RWF_MODE_BUTTON_TOOLTIP
-        frame.EnableModule.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.EnableModule.GetAppropriateTooltip = GetAppropriateTooltip
         frame.EnableModule:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.EnableModule:SetScript("OnLeave", UIButtonMixin.OnLeave)
 
@@ -12503,7 +12500,7 @@ if IS_RETAIL then
         frame.DisableModule:SetScript("OnClick", function() config:Set("rwfMode", false) _G.RaiderIO_RWF = {} ReloadUI() end)
         frame.DisableModule:SetText(L.DISABLE_RWF_MODE_BUTTON)
         frame.DisableModule.tooltip = L.DISABLE_RWF_MODE_BUTTON_TOOLTIP
-        frame.DisableModule.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.DisableModule.GetAppropriateTooltip = GetAppropriateTooltip
         frame.DisableModule:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.DisableModule:SetScript("OnLeave", UIButtonMixin.OnLeave)
 
@@ -12513,7 +12510,7 @@ if IS_RETAIL then
         frame.ReloadUI:SetScript("OnClick", ReloadUI)
         frame.ReloadUI:SetText(L.RELOAD_RWF_MODE_BUTTON)
         frame.ReloadUI.tooltip = L.RELOAD_RWF_MODE_BUTTON_TOOLTIP
-        frame.ReloadUI.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.ReloadUI.GetAppropriateTooltip = GetAppropriateTooltip
         frame.ReloadUI:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.ReloadUI:SetScript("OnLeave", UIButtonMixin.OnLeave)
 
@@ -12523,7 +12520,7 @@ if IS_RETAIL then
         frame.WipeLog:SetScript("OnClick", function() _G.RaiderIO_RWF = {} ReloadUI() end)
         frame.WipeLog:SetText(L.WIPE_RWF_MODE_BUTTON)
         frame.WipeLog.tooltip = L.WIPE_RWF_MODE_BUTTON_TOOLTIP
-        frame.WipeLog.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.WipeLog.GetAppropriateTooltip = GetAppropriateTooltip
         frame.WipeLog:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.WipeLog:SetScript("OnLeave", UIButtonMixin.OnLeave)
 
@@ -12555,7 +12552,7 @@ if IS_RETAIL then
         frame.MiniFrame:SetHighlightFontObject(GameFontHighlightHuge)
         frame.MiniFrame:SetNormalFontObject(GameFontHighlightHuge)
         frame.MiniFrame.tooltip = L.RWF_MINIBUTTON_TOOLTIP
-        frame.MiniFrame.GetAppropriateTooltip = UIButtonMixin.GetAppropriateTooltip
+        frame.MiniFrame.GetAppropriateTooltip = GetAppropriateTooltip
         frame.MiniFrame:SetScript("OnEnter", UIButtonMixin.OnEnter)
         frame.MiniFrame:SetScript("OnLeave", UIButtonMixin.OnLeave)
         frame.MiniFrame:SetMotionScriptsWhileDisabled(true)

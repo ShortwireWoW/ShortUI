@@ -2,8 +2,8 @@
 OmniCDDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {
@@ -20,8 +20,8 @@ OmniCDDB = {
 ["raidBar1"] = {
 ["manualPos"] = {
 ["raidBar1"] = {
-["y"] = 118.192442564141,
-["x"] = 437.5405173983745,
+["y"] = 146.4592094106229,
+["x"] = 875.4073836617317,
 },
 },
 },

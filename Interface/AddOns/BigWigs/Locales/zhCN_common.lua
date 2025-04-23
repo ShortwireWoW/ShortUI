@@ -69,11 +69,13 @@ L.next_ability = "下个技能" -- We don't know what ability will be next, we o
 L.boss_landing = "%s 正在着陆" -- "NPC_NAME is landing" Used when a flying NPC/dragon/boss is landing
 L.landing = "着陆" -- Used when a flying NPC/dragon/boss is landing
 L.flying_available = "可以起飞"  --改为简短提示
-L.bosses_too_close = "首领过于靠近" -- When 2 or more bosses are too close to each other, buffing each other with a shield, extra damage, etc.
+L.bosses_too_close = "首领距离过近" -- When 2 or more bosses are too close to each other, buffing each other with a shield, extra damage, etc.
 L.keep_moving = "保持移动" -- An ability that forces you to keep moving or you will take damage
 L.stand_still = "禁止移动" -- An ability that forces you to stand still or you will take damage
 L.safe_to_stop = "停止移动" -- When an ability that forces you to keep moving fades from you, allowing you to stop moving
 L.safe_to_move = "可以移动" -- When an ability to forces you to stand still fades from you, allowing you to move again
+L.safe = "安全" -- You are safe from a bad ability
+L.unsafe = "危险" -- You are unsafe (in danger) of a bad ability
 
 -- Add related
 L.add_spawned = "增援出现" -- singular
@@ -131,6 +133,7 @@ L.marker = "%s标记"
 L.marker_player_desc = "标记受到%s影响的玩家为%s，需要权限。" -- Mark players affected by 'SPELL_NAME' with SKULL_ICON
 L.marker_npc_desc = "标记%s为%s，需要权限。" -- Mark NPC_NAME with SKULL_ICON
 L.marker_npc_aura_desc = "标记受到'%s'影响的 NPC 为%s，需要权限。" -- Mark NPCs affected by 'SPELL_NAME' with SKULL_ICON
+L.disabled = "禁用"
 
 -- Ability where two players have to move close to each other
 L.link = "连接"
@@ -169,6 +172,11 @@ L.south = "南"
 L.south_west = "西南"
 L.west = "西"
 L.north_west = "西北"
+
+-- Sizes
+L.small = "小"
+L.medium = "中"
+L.large = "大"
 
 -- Schools
 L.fire = "火焰"
@@ -234,6 +242,8 @@ L.spell_reflection = "法术反射" -- Any ability that reflects spells
 L.rooted = "定身" -- Any ability that roots you in place, preventing you from moving
 
 -- Common ability name replacements A-Z
+L.ball = "球" -- A ball, like a football, basketball, etc
+L.balls = "球" -- Plural of L.ball
 L.blind = "致盲" -- Any ability that blinds or disorientates you. Usually an ability a boss casts and you need to turn away from the boss or it will blind you.
 L.dodge = "躲开" -- When you need to continually run around to dodge abilities, like missiles landing on the ground under you
 L.enrage = "激怒" -- Any enrage buff that can be removed by players using abilities like Soothe (Druid), Tranquilizing Shot (Hunter) and Shiv (Rogue)

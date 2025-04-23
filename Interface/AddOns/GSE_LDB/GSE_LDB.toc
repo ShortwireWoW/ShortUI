@@ -1,9 +1,9 @@
-## Interface: 40402, 11507, 110100
+## Interface: 40402, 11507, 110105
 
 ## Title: |cFFFFFFFFGS|r|cFF00FFFFE|r |cFF808080Data Feeds and Minimap|r
 ## Notes: LibDataBroker Plugin for GSE
 ## Author: TimothyLuke
-## Version: 3.2.27
+## Version: 3.2.28
 ## Dependencies: GSE GSE_Utils
 ## IconTexture: Interface\Addons\GSE_GUI\Assets\GSE_Logo_Dark_512
 ## Category-enUS: Combat

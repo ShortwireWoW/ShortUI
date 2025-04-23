@@ -1,0 +1,5 @@
+## Interface: 100207
+## Title: DnDPoC
+## Notes: Debug LFG group titles from Custom Groups
+## Author: Shorty
+DnDPoC.lua

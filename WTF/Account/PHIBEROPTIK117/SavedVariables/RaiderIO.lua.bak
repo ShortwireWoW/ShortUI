@@ -1,20 +1,55 @@
 
 RaiderIO_Config = {
-["minimapIcon"] = {
-["minimapPos"] = 317.0438055810013,
-["showInCompartment"] = true,
-["hide"] = false,
-["lock"] = false,
-},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
+["minimapIcon"] = {
+["minimapPos"] = 319.851038817746,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
 }
-RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
+RaiderIO_LastCharacter = "us-Shortbreath-area-52"
 RaiderIO_MissingCharacters = {
-["us-Mournesto-area-52"] = true,
+["us-Baraker-aegwynn"] = true,
+["us-Pobsterlenis-hakkar"] = true,
+["us-Ardrielor-aegwynn"] = true,
+["us-Kayaciah-garrosh"] = true,
+["us-Assata-aegwynn"] = true,
+["us-Nathanion-gurubashi"] = true,
+["us-Illiderpy-garrosh"] = true,
+["us-Xelyndra-bonechewer"] = true,
+["us-Shadowranger-hakkar"] = true,
+["us-Rookh-garrosh"] = true,
+["us-Sythos-aegwynn"] = true,
+["us-Goldsilver-daggerspine"] = true,
+["us-Nomaelle-bonechewer"] = true,
+["us-Retàsa-daggerspine"] = true,
+["us-Reservoir-garrosh"] = true,
+["us-Blazik-daggerspine"] = true,
+["us-Bobadu-daggerspine"] = true,
+["us-Tatì-gurubashi"] = true,
+["us-Palachez-garrosh"] = true,
+["us-Zelliza-moon-guard"] = true,
+["us-Lifebinder-garrosh"] = true,
+["us-Deylith-gurubashi"] = true,
+["us-Trard-garrosh"] = true,
+["us-Sherah-bonechewer"] = true,
+["us-Shegotheals-hakkar"] = true,
+["us-Snc-daggerspine"] = true,
+["us-Amoraladis-daggerspine"] = true,
+["us-Fenryrwolf-hakkar"] = true,
+["us-Neilkar-daggerspine"] = true,
+["us-Happyhunter-garrosh"] = true,
+["us-Lilbadazz-garrosh"] = true,
+["us-Zenjinn-thunderlord"] = true,
+["us-Martyrion-garrosh"] = true,
+["us-Indoranyon-daggerspine"] = true,
+["us-Arathuum-bonechewer"] = true,
+["us-Emazoke-daggerspine"] = true,
 }
 RaiderIO_MissingServers = {
 }

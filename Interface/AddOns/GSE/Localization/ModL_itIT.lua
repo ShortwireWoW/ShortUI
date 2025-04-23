@@ -86,7 +86,7 @@ L["GSE: Middle Click to open the Keybinding Interface"] = "GSE: Middle Click to 
 --[[Translation missing --]]
 L["GSE: Record your rotation to a macro."] = "GSE: Record your rotation to a macro."
 --[[Translation missing --]]
-L["GSE: Whats New in "] = "GSE: Whats New in "
+L["GSE: Whats New in "] = "GSE: What's new in "
 --[[Translation missing --]]
 L["How many pixels high should Keybindings start at.  Defaults to 500"] = "How many pixels high should Keybindings start at.  Defaults to 500"
 --[[Translation missing --]]
@@ -222,9 +222,7 @@ L["Variable"] = "Variable"
 --[[Translation missing --]]
 L["Variable Menu"] = "Variable Menu"
 --[[Translation missing --]]
-L["WhatsNew"] = [=[|cFFFFFFFFGS|r|cFF00FFFFE|r 3.2.25 has finally fixed being able to use castsequences and their resets within GSE.
-
-The GUI Menu and the Editor have been redesigned.  Details are in Discord.]=]
+L["WhatsNew"] = "|cFFFFFFFFGS|r|cFF00FFFFE|r 3.2.28 changes the import and export strings.  Each GSE import will now start with !GSEx! where the x shows the version number going forward.  https://wago.io/gse has been updated toi handle these new import strings and wago.io exports will switch to exporting these style strings around 11.2.  These new strings will be picked up by the classic variants when they are next updated by Blizzard.  As always details are in Discord."
 --[[Translation missing --]]
 L["When creating a macro, if there is not a personal character macro space, create an account wide macro."] = "When creating a macro, if there is not a personal character macro space, create an account wide macro."
 --[[Translation missing --]]

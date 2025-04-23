@@ -2,8 +2,8 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -13,6 +13,7 @@ LoggerHeadDB = {
 [14] = true,
 [16] = true,
 [15] = true,
+[17] = false,
 },
 ["Onyxia's Lair"] = {
 [4] = false,
@@ -24,6 +25,12 @@ LoggerHeadDB = {
 },
 },
 ["party"] = {
+["Eye of Azshara"] = {
+[24] = false,
+},
+["Court of Stars"] = {
+[24] = false,
+},
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
@@ -41,11 +48,17 @@ false,
 false,
 [23] = true,
 },
+["Darkheart Thicket"] = {
+[24] = false,
+},
 ["Theater of Pain"] = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
+["Black Rook Hold"] = {
+[24] = false,
+},
+["City of Threads"] = {
 false,
 },
 ["Darkflame Cleft"] = {
@@ -53,7 +66,7 @@ false,
 [8] = true,
 [23] = true,
 },
-["City of Threads"] = {
+["Cinderbrew Meadery"] = {
 false,
 },
 },
