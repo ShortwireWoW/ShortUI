@@ -1,11 +1,11 @@
-## Interface: 110100
+## Interface: 110105
 ## SavedVariables: CUF_DB
 ## IconTexture: Interface\ICONS\spell_progenitor_buff
 
 ## Title: Cell - Unit Frames
 ## Author: Vollmer
-## Version: v1.4.67
-## X-Date: 2025-04-21T09:17:21Z
+## Version: v1.4.68
+## X-Date: 2025-04-23T08:13:49Z
 ## X-License: MIT
 ## X-Curse-Project-ID: 1085605
 ## X-Wago-ID: ZKxqRdGk

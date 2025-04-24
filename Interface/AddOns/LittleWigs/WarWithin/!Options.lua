@@ -92,7 +92,7 @@ BigWigs:AddSounds("Ara-Kara, City of Echoes Trash", {
 
 BigWigs:AddColors("Brew Master Aldryr", {
 	[431895] = {"blue","green"},
-	[432179] = "red",
+	[432179] = {"blue","red","yellow"},
 	[432196] = "blue",
 	[432198] = "orange",
 	[432229] = "purple",
@@ -101,7 +101,7 @@ BigWigs:AddColors("Brew Master Aldryr", {
 
 BigWigs:AddSounds("Brew Master Aldryr", {
 	[431895] = "info",
-	[432179] = "alert",
+	[432179] = "info",
 	[432196] = "underyou",
 	[432198] = "alarm",
 	[432229] = "alert",
@@ -128,14 +128,14 @@ BigWigs:AddColors("Benk Buzzbee", {
 	[438025] = "yellow",
 	[438971] = "orange",
 	[439524] = "red",
-	[440134] = {"blue","purple"},
+	[440134] = {"blue","green","purple"},
 })
 
 BigWigs:AddSounds("Benk Buzzbee", {
 	[438025] = "info",
 	[438971] = "info",
 	[439524] = "alert",
-	[440134] = {"alarm","underyou"},
+	[440134] = {"alarm","info","underyou"},
 })
 
 BigWigs:AddColors("Goldie Baronbottom", {
@@ -626,7 +626,7 @@ BigWigs:AddColors("Priory of the Sacred Flame Trash", {
 	[448485] = "purple",
 	[448492] = "red",
 	[448515] = {"blue","purple"},
-	[448787] = "blue",
+	[448787] = {"blue","red"},
 	[448791] = "yellow",
 	[453458] = {"blue","yellow"},
 	[462859] = {"blue","orange"},
