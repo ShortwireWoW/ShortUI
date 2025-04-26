@@ -1,25 +1,13 @@
 
 BigWigs3DB = {
+["profileKeys"] = {
+["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
+},
 ["namespaces"] = {
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Advisor Melandrus"] = {
-},
-["BigWigs_Bosses_Black Rook Hold Trash"] = {
-},
-["BigWigs_Bosses_Archdruid Glaidalis"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_The Candle King"] = {
-},
-["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
 ["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Bosses_Vexie and the Geargrinders"] = {
 },
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
@@ -28,47 +16,23 @@ BigWigs3DB = {
 },
 },
 },
-["BigWigs_Bosses_Darkflame Cleft Trash"] = {
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Blazikon"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
-["BigWigs_Bosses_Ol' Waxbeard"] = {
-},
-["BigWigs_Bosses_Smashspite"] = {
-},
-["BigWigs_Bosses_Talixae Flamewreath"] = {
-},
-["BigWigs_Bosses_Amalgam of Souls"] = {
+["BigWigs_Bosses_The One-Armed Bandit"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 },
-["BigWigs_Bosses_Patrol Captain Gerdo"] = {
+["BigWigs_Plugins_AltPower"] = {
 },
-["BigWigs_Bosses_Kurtalos Ravencrest"] = {
+["BigWigs_Bosses_Chrome King Gallywix"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 },
-["LibDualSpec-1.0"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Bosses_Illysanna Ravencrest"] = {
-},
-["BigWigs_Bosses_Court of Stars Trash"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Oakheart"] = {
-},
-["BigWigs_Bosses_Shade of Xavius"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
+["BigWigs_Plugins_Wipe"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -82,9 +46,23 @@ BigWigs3DB = {
 },
 },
 },
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Plugins_Messages"] = {
+},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Bosses_Darkheart Thicket Trash"] = {
+["BigWigs_Plugins_Nameplates"] = {
 },
 },
 ["global"] = {
@@ -92,10 +70,6 @@ BigWigs3DB = {
 [-2406] = true,
 [-2409] = true,
 },
-},
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -110,12 +84,12 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDate"] = "2025/04/05",
-["bestDate"] = "2025/04/18",
+["bestDate"] = "2025/04/25",
 ["fkWipes"] = 6,
-["best"] = 329.747000000003,
-["wipes"] = 9,
+["best"] = 327.6170000000057,
+["wipes"] = 11,
 ["fkDuration"] = 395.7529999999679,
 },
 ["normal"] = {
@@ -128,12 +102,12 @@ BigWigsStatsDB = {
 },
 [2645] = {
 ["heroic"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 361.8979999999865,
-["wipes"] = 21,
+["wipes"] = 25,
 ["fkWipes"] = 17,
-["best"] = 339.5950000000012,
-["bestDate"] = "2025/04/18",
+["best"] = 339.2679999999964,
+["bestDate"] = "2025/04/25",
 ["fkDate"] = "2025/04/12",
 },
 ["normal"] = {
@@ -226,7 +200,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 458.6010000000242,
 },
 ["heroic"] = {
-["wipes"] = 36,
+["wipes"] = 50,
 },
 },
 [2639] = {
@@ -238,10 +212,10 @@ BigWigsStatsDB = {
 ["fkDuration"] = 210.3829999999725,
 },
 ["heroic"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 237.723,
-["best"] = 219.5149999999994,
-["bestDate"] = "2025/04/18",
+["best"] = 218.1569999999992,
+["bestDate"] = "2025/04/25",
 ["fkDate"] = "2025/04/11",
 },
 },

@@ -12,10 +12,10 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 384
+local BIGWIGS_VERSION = 385
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 35},
-	["BigWigs_Classic"] = {11, 1, 31},
+	["LittleWigs"] = {11, 1, 36},
+	["BigWigs_Classic"] = {11, 1, 34},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 2},
 	["BigWigs_Cataclysm"] = {11, 1, 3},
 }
@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "549cf89" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "4a28ab8" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -118,7 +118,7 @@ public.GetBestMapForUnit = GetBestMapForUnit
 public.GetInstanceInfo = GetInstanceInfo
 public.GetMapInfo = GetMapInfo
 public.GetPlayerAuraBySpellID = C_UnitAuras.GetPlayerAuraBySpellID
-public.GetSpellCooldown = C_Spell.GetSpellCooldown
+public.GetSpellCooldown = C_Spell.GetSpellCooldown or GetSpellCooldown -- XXX doesn't exist on Cata + Vanilla
 public.GetSpellDescription = C_Spell.GetSpellDescription
 public.GetSpellLink = C_Spell.GetSpellLink
 public.GetSpellName = C_Spell.GetSpellName
@@ -139,11 +139,11 @@ public.UnitIsDeadOrGhost = UnitIsDeadOrGhost
 public.UnitName = UnitNameUnmodified
 public.UnitSex = UnitSex
 public.UnitTokenFromGUID = UnitTokenFromGUID
-public.isTestBuild = GetCurrentRegion() == 72 or GetCurrentRegion() == 90 or (IsPublicTestClient and IsPublicTestClient()) -- PTR/beta
+public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX [Supported on Retail + Mists, not Cata + Vanilla]
 do
 	local _, _, _, build = GetBuildInfo()
 	public.isBeta = build >= 120000
-	public.isNext = build >= 110105
+	public.isNext = build >= 110107
 end
 
 -- Version
@@ -182,7 +182,7 @@ do
 	local bc = "BigWigs_BurningCrusade"
 	local wotlk = "BigWigs_WrathOfTheLichKing"
 	local cata = "BigWigs_Cataclysm"
-	local mop = "BigWigs_MistsOfPandaria"
+	local mists = "BigWigs_MistsOfPandaria"
 	local wod = "BigWigs_WarlordsOfDraenor"
 	local l = "BigWigs_Legion"
 	local bfa = "BigWigs_BattleForAzeroth"
@@ -193,7 +193,7 @@ do
 	local lw_bc = "LittleWigs_BurningCrusade"
 	local lw_wotlk = "LittleWigs_WrathOfTheLichKing"
 	local lw_cata = "LittleWigs_Cataclysm"
-	local lw_mop = "LittleWigs_MistsOfPandaria"
+	local lw_mists = "LittleWigs_MistsOfPandaria"
 	local lw_wod = "LittleWigs_WarlordsOfDraenor"
 	local lw_l = "LittleWigs_Legion"
 	local lw_bfa = "LittleWigs_BattleForAzeroth"
@@ -233,6 +233,14 @@ do
 			name = cata,
 			bigWigsBundled = {},
 			littlewigsDefault = lw_cata,
+			littleWigsBundled = {},
+			zones = {},
+		}
+	elseif public.isMists then
+		public.currentExpansion = {
+			name = mists,
+			bigWigsBundled = {},
+			littlewigsDefault = lw_mists,
 			littleWigsBundled = {},
 			zones = {},
 		}
@@ -328,12 +336,12 @@ do
 		[720] = cata, -- Firelands
 		[967] = cata, -- Dragon Soul
 		--[[ BigWigs: Mists of Pandaria ]]--
-		[-424] = mop, -- Pandaria (Fake Menu)
-		[1009] = mop, -- Heart of Fear
-		[996] = mop, -- Terrace of Endless Spring
-		[1008] = mop, -- Mogu'shan Vaults
-		[1098] = mop, -- Throne of Thunder
-		[1136] = mop, -- Siege of Orgrimmar
+		[-424] = mists, -- Pandaria (Fake Menu)
+		[1009] = mists, -- Heart of Fear
+		[996] = mists, -- Terrace of Endless Spring
+		[1008] = mists, -- Mogu'shan Vaults
+		[1098] = mists, -- Throne of Thunder
+		[1136] = mists, -- Siege of Orgrimmar
 		--[[ BigWigs: Warlords of Draenor ]]--
 		[-572] = wod, -- Draenor (Fake Menu)
 		[1228] = wod, -- Highmaul
@@ -437,16 +445,16 @@ do
 		[657] = lw_cata, -- The Vortex Pinnacle
 		[670] = lw_cata, -- Grim Batol
 		--[[ LittleWigs: Mists of Pandaria ]]--
-		[959] = lw_mop, -- Shado-Pan Monastery
-		[960] = lw_mop, -- Temple of the Jade Serpent
-		[961] = lw_mop, -- Stormstout Brewery
-		[962] = lw_mop, -- Gate of the Setting Sun
-		[994] = lw_mop, -- Mogu'shan Palace
-		[1001] = lw_mop, -- Scarlet Halls
-		[1007] = lw_mop, -- Scholomance
-		[1011] = lw_mop, -- Siege of Niuzao Temple
-		[1112] = lw_mop, -- Pursuing the Black Harvest
-		[1004] = lw_mop, -- Scarlet Monastery
+		[959] = lw_mists, -- Shado-Pan Monastery
+		[960] = lw_mists, -- Temple of the Jade Serpent
+		[961] = lw_mists, -- Stormstout Brewery
+		[962] = lw_mists, -- Gate of the Setting Sun
+		[994] = lw_mists, -- Mogu'shan Palace
+		[1001] = lw_mists, -- Scarlet Halls
+		[1007] = lw_mists, -- Scholomance
+		[1011] = lw_mists, -- Siege of Niuzao Temple
+		[1112] = lw_mists, -- Pursuing the Black Harvest
+		[1004] = lw_mists, -- Scarlet Monastery
 		--[[ LittleWigs: Warlords of Draenor ]]--
 		[1209] = lw_wod, -- Skyreach
 		[1176] = lw_wod, -- Shadowmoon Burial Grounds
@@ -590,6 +598,7 @@ local GetAddOnOptionalDependencies = C_AddOns.GetAddOnOptionalDependencies
 local GetNumAddOns = C_AddOns.GetNumAddOns
 local IsAddOnLoadOnDemand = C_AddOns.IsAddOnLoadOnDemand
 local GetAddOnEnableState = C_AddOns.GetAddOnEnableState
+local DoesAddOnHaveLoadError = C_AddOns.DoesAddOnHaveLoadError
 local IsInGroup, IsInRaid = IsInGroup, IsInRaid
 public.EnableAddOn = EnableAddOn
 
@@ -598,6 +607,34 @@ local reqFuncAddons = {
 	BigWigs_Options = true,
 	BigWigs_Plugins = true,
 }
+
+local function Popup(msg, focus)
+	local frame = CreateFrame("Frame")
+	frame:SetFrameStrata("DIALOG")
+	frame:SetToplevel(true)
+	frame:SetSize(400, 150)
+	frame:SetPoint("CENTER", "UIParent", "CENTER")
+	local text = frame:CreateFontString(nil, "ARTWORK", "GameFontRedLarge")
+	text:SetSize(380, 0)
+	text:SetJustifyH("CENTER")
+	text:SetJustifyV("TOP")
+	text:SetNonSpaceWrap(true)
+	text:SetPoint("TOP", 0, -16)
+	local border = CreateFrame("Frame", nil, frame, focus and "DialogBorderOpaqueTemplate" or "DialogBorderTemplate")
+	border:SetAllPoints(frame)
+	local button = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+	button:SetSize(128, 32)
+	button:SetPoint("BOTTOM", 0, 16)
+	button:SetScript("OnClick", function(self)
+		self:GetParent():Hide()
+	end)
+	button:SetText(L.okay)
+	button:SetNormalFontObject("DialogButtonNormalText")
+	button:SetHighlightFontObject("DialogButtonHighlightText")
+
+	text:SetText(msg)
+	frame:Show()
+end
 
 local function sysprint(msg)
 	print("|cFF33FF99BigWigs|r: "..msg)
@@ -625,7 +662,15 @@ local function load(obj, index)
 	EnableAddOn(index) -- Make sure it wasn't left disabled for whatever reason
 	local loaded, reason = LoadAddOn(index)
 	if not loaded then
-		sysprint(ADDON_LOAD_FAILED:format(GetAddOnInfo(index), _G["ADDON_"..reason]))
+		local addonName = GetAddOnInfo(index)
+		local msg = L.addOnLoadFailedWithReason:format(addonName, reason)
+		sysprint(msg)
+		Popup(msg, true)
+	elseif DoesAddOnHaveLoadError and DoesAddOnHaveLoadError(index) then -- XXX added in 11.1.5, compat code for classic
+		local addonName = GetAddOnInfo(index)
+		local msg = L.addOnLoadFailedUnknownError:format(addonName)
+		sysprint(msg)
+		Popup(msg, true)
 	end
 	return loaded
 end
@@ -674,34 +719,6 @@ local function loadCoreAndOpenOptions()
 	if BigWigsOptions then
 		BigWigsOptions:Open()
 	end
-end
-
-local function Popup(msg, focus)
-	local frame = CreateFrame("Frame")
-	frame:SetFrameStrata("DIALOG")
-	frame:SetToplevel(true)
-	frame:SetSize(400, 150)
-	frame:SetPoint("CENTER", "UIParent", "CENTER")
-	local text = frame:CreateFontString(nil, "ARTWORK", "GameFontRedLarge")
-	text:SetSize(380, 0)
-	text:SetJustifyH("CENTER")
-	text:SetJustifyV("TOP")
-	text:SetNonSpaceWrap(true)
-	text:SetPoint("TOP", 0, -16)
-	local border = CreateFrame("Frame", nil, frame, focus and "DialogBorderOpaqueTemplate" or "DialogBorderTemplate")
-	border:SetAllPoints(frame)
-	local button = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
-	button:SetSize(128, 32)
-	button:SetPoint("BOTTOM", 0, 16)
-	button:SetScript("OnClick", function(self)
-		self:GetParent():Hide()
-	end)
-	button:SetText(L.okay)
-	button:SetNormalFontObject("DialogButtonNormalText")
-	button:SetHighlightFontObject("DialogButtonHighlightText")
-
-	text:SetText(msg)
-	frame:Show()
 end
 
 C_PartyInfo.DoCountdown = function(num) -- Overwrite Blizz countdown

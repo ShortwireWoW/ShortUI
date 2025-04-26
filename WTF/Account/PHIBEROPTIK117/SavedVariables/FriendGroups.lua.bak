@@ -17,8 +17,8 @@ FriendGroups_SavedVars = {
 ["sort_by_status"] = false,
 ["collapsed"] = {
 ["[No Group]"] = false,
-["LunarEffect"] = false,
-["Incoherent Screaming"] = true,
+["LunarEffect"] = true,
+["Incoherent Screaming"] = false,
 ["Pirate Idiots"] = true,
 },
 ["hide_afk"] = false,

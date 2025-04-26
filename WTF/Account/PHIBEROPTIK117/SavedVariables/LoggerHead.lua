@@ -28,14 +28,14 @@ LoggerHeadDB = {
 ["Eye of Azshara"] = {
 [24] = false,
 },
-["Cinderbrew Meadery"] = {
+["Ara-Kara, City of Echoes"] = {
 false,
 },
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Ara-Kara, City of Echoes"] = {
+["Cinderbrew Meadery"] = {
 false,
 },
 ["The Stonevault"] = {
@@ -44,8 +44,9 @@ false,
 ["Priory of the Sacred Flame"] = {
 false,
 },
-["Court of Stars"] = {
-[24] = false,
+["The Rookery"] = {
+false,
+[23] = true,
 },
 ["Darkheart Thicket"] = {
 [24] = false,
@@ -65,9 +66,8 @@ false,
 ["Black Rook Hold"] = {
 [24] = false,
 },
-["The Rookery"] = {
-false,
-[23] = true,
+["Court of Stars"] = {
+[24] = false,
 },
 },
 },

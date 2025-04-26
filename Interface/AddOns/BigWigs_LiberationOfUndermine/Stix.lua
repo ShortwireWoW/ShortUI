@@ -21,6 +21,7 @@ local meltdownCount = 1
 local powercoilCount = 1
 
 local muffledDoomsplosionCount = 0
+local muffledDoomsplosionPlayersHit = {}
 
 local mobCollector = {}
 local mobMark = 0
@@ -242,6 +243,7 @@ do
 		self:Bar(args.spellId, cd, CL.count:format(L.electromagnetic_sorting, electromagneticSortingCount))
 
 		muffledDoomsplosionCount = 0
+		muffledDoomsplosionPlayersHit = {}
 		mobMark = 1
 		iconList = {}
 	end
@@ -288,10 +290,9 @@ do
 			local power = UnitPower(unit, 10)
 			if power >= 200 and ballSize < 200 then
 				self:Message(461536, "green", CL.medium) -- Rolling Rubbish
-				self:PlaySound(461536, "info")
 			elseif power >= 100 and ballSize < 100 then
 				self:Message(461536, "green", CL.large) -- Rolling Rubbish
-				self:PlaySound(461536, "alert")
+				self:PlaySound(461536, "long")
 			end
 			ballSize = power
 		end
@@ -335,15 +336,17 @@ do
 	end
 end
 
-do
-	local prev = 0
-	function mod:MuffledDoomsplosionDamage(args)
-		if args.time - prev > 0.2 then
-			prev = args.time
-			muffledDoomsplosionCount = muffledDoomsplosionCount + 1
+function mod:MuffledDoomsplosionDamage(args)
+	if not muffledDoomsplosionPlayersHit[args.destGUID] then
+		muffledDoomsplosionPlayersHit[args.destGUID] = true
+		if muffledDoomsplosionCount == 0 then
+			muffledDoomsplosionCount = 1
 			self:Message(args.spellId, "green", CL.count_amount:format(L.muffled_doomsplosion, muffledDoomsplosionCount, self:GetStage()))
-			-- self:PlaySound(args.spellId, "info")
 		end
+	elseif muffledDoomsplosionCount == 1 then
+		muffledDoomsplosionCount = 2
+		self:Message(args.spellId, "green", CL.count_amount:format(L.muffled_doomsplosion, muffledDoomsplosionCount, self:GetStage()))
+		self:PlaySound(args.spellId, "info")
 	end
 end
 

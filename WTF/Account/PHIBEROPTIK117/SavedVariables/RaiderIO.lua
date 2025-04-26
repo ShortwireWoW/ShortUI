@@ -14,17 +14,16 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortbreath-area-52"
 RaiderIO_MissingCharacters = {
-["us-Twistedsham-stormrage"] = true,
-["us-Feralspree-stormrage"] = true,
-["us-Uplíft-stormrage"] = true,
-["us-Demonaka-stormrage"] = true,
-["us-Wonuhunt-area-52"] = true,
-["us-Hécathe-stormrage"] = true,
-["us-Evictora-area-52"] = true,
-["us-Hipsterjezus-stormrage"] = true,
-["us-party5-area-52"] = true,
-["us-Locknike-stormrage"] = true,
-["us-Liadrian-area-52"] = true,
+["us-Mätthew-stormrage"] = true,
+["us-Troglit-malganis"] = true,
+["us-Kiwibolt-area-52"] = true,
+["us-Trevieedh-area-52"] = true,
+["us-Scruzi-area-52"] = true,
+["us-Stevejäbbs-area-52"] = true,
+["us-Shíragoshi-area-52"] = true,
+["us-Vegvisir-area-52"] = true,
+["us-Frza-area-52"] = true,
+["us-Lunasey-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

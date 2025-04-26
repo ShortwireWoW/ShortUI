@@ -3,7 +3,7 @@
 ## Title: |cFFFFFFFFGS|r|cFF00FFFFE|r |cFF808080Editor and User Interface|r
 ## Notes: GSE GUI
 ## Author: TimothyLuke
-## Version: 3.2.28
+## Version: 3.2.28-a
 ## Dependencies: GSE GSE_Utils
 ## OptionalDeps: GSE2
 ## LoadOnDemand: 1

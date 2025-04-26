@@ -73778,13 +73778,24 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
-        fileId = "6246204",
-        text = "6246204.m2",
-        value = "6246204.m2",
+        fileId = "4618885",
+        text = "4618885.m2",
+        value = "4618885.m2",
        },
       },
-      text = "unk_exp10_6246204",
-      value = "unk_exp10_6246204",
+      text = "unk_exp02_4618885",
+      value = "unk_exp02_4618885",
+     },
+     {
+      children = {
+       {
+        fileId = "4618900",
+        text = "4618900.m2",
+        value = "4618900.m2",
+       },
+      },
+      text = "unk_exp02_4618900",
+      value = "unk_exp02_4618900",
      },
     },
     text = "world",
@@ -137072,6 +137083,23 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6246204",
+        text = "11xp_shateaset01.m2",
+        value = "11xp_shateaset01.m2",
+       },
+      },
+      text = "doodads",
+      value = "doodads",
+     },
+    },
+    text = "expansion10",
+    value = "expansion10",
+   },
+   {
+    children = {
+     {
+      children = {
+       {
         fileId = "196911",
         text = "ed_dragonshrine_a.m2",
         value = "ed_dragonshrine_a.m2",
@@ -165284,28 +165312,6 @@ WeakAuras.ModelPaths = {
     },
     text = "skillactivated",
     value = "skillactivated",
-   },
-   {
-    children = {
-     {
-      fileId = "4618885",
-      text = "4618885.m2",
-      value = "4618885.m2",
-     },
-    },
-    text = "unk_exp09_4618885",
-    value = "unk_exp09_4618885",
-   },
-   {
-    children = {
-     {
-      fileId = "4618900",
-      text = "4618900.m2",
-      value = "4618900.m2",
-     },
-    },
-    text = "unk_exp09_4618900",
-    value = "unk_exp09_4618900",
    },
    {
     children = {

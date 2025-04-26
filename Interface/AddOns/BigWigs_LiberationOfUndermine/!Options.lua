@@ -117,13 +117,14 @@ BigWigs:AddColors("Stix Bunkjunker", {
 })
 
 BigWigs:AddSounds("Stix Bunkjunker", {
-	[461536] = {"alert","info","warning"},
+	[461536] = {"info","long","warning"},
 	[464112] = {"alarm","info","warning"},
 	[464149] = "alert",
 	[464248] = "underyou",
 	[464399] = "long",
 	[464854] = "underyou",
 	[465611] = "alarm",
+	[465747] = "info",
 	[466748] = "alarm",
 	[467109] = "warning",
 	[467117] = "long",
