@@ -1,48 +1,25 @@
 
 RaiderIO_Config = {
-["minimapIcon"] = {
-["minimapPos"] = 319.851038817746,
-["showInCompartment"] = true,
-["hide"] = false,
-["lock"] = false,
-},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
+["minimapIcon"] = {
+["minimapPos"] = 319.851038817746,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Atkins-thrall"] = true,
-["us-Quitollis-Mal"] = true,
-["us-Lunarielmus-thrall"] = true,
-["us-Krelesa-thrall"] = true,
-["us-Redpala-thrall"] = true,
-["us-Lilithxix-thrall"] = true,
-["us-Madmexx-area-52"] = true,
-["us-Zacharywarr-thrall"] = true,
-["us-Cognitae-thrall"] = true,
-["us-Aquarias-stormrage"] = true,
-["us-Homander-thrall"] = true,
-["us-Daelinpm-illidan"] = true,
-["us-Burstistis-thrall"] = true,
-["us-Landonk-thrall"] = true,
-["us-Hãwkë-stormrage"] = true,
-["us-Czerebus-thrall"] = true,
-["us-Clanhamma-thrall"] = true,
-["us-Cryptsicle-thrall"] = true,
-["us-Krashaman-thrall"] = true,
-["us-Protaorouge-stormrage"] = true,
-["us-Arcanusmaxim-thrall"] = true,
-["us-Applelock-area-52"] = true,
-["us-Loloshots-thrall"] = true,
-["us-Screetch-thrall"] = true,
-["us-Letyb-thrall"] = true,
-["us-Daian-stormrage"] = true,
-["us-Mw-Shu"] = true,
-["us-Pogrunnerup-Mal"] = true,
-["us-Lunasey-stormrage"] = true,
+["us-Rovistorm-Area 52"] = true,
+["us-Chillybone-area-52"] = true,
+["us-Lebül-area-52"] = true,
+["us-Elondh-area-52"] = true,
+["us-Hontuk-thrall"] = true,
+["us-Vaggie-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

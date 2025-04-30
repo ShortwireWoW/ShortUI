@@ -14,8 +14,8 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 385
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 36},
-	["BigWigs_Classic"] = {11, 1, 34},
+	["LittleWigs"] = {11, 1, 38},
+	["BigWigs_Classic"] = {11, 1, 35},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 2},
 	["BigWigs_Cataclysm"] = {11, 1, 3},
 }
@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "4a28ab8" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "995ea2e" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -1145,12 +1145,18 @@ function mod:ADDON_LOADED(addon)
 		end
 		-- Cleanup function.
 		-- TODO: look into having a way for our boss modules not to create a table when no options are changed.
+		local toDelete = {}
 		if BigWigs3DB.namespaces then
 			for k,v in next, BigWigs3DB.namespaces do
-				if strfind(k, "BigWigs_Bosses_", nil, true) and not next(v) then
-					BigWigs3DB.namespaces[k] = nil
+				if not next(v) then
+					toDelete[k] = true
+				elseif strfind(k, " Trash", nil, true) and public:GetAddOnState("QuaziiUI") ~= "MISSING" then
+					toDelete[k] = true
 				end
 			end
+		end
+		for k in next, toDelete do
+			BigWigs3DB.namespaces[k] = nil
 		end
 	end
 	self:BigWigs_CoreOptionToggled(nil, "fakeDBMVersion", self.isFakingDBM)

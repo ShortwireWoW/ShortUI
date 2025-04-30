@@ -2,8 +2,8 @@
 LoggerHeadDB = {
 ["profileKeys"] = {
 ["Shortbeef - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
 ["Shortbreath - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -28,15 +28,14 @@ LoggerHeadDB = {
 ["Eye of Azshara"] = {
 [24] = false,
 },
-["The Rookery"] = {
+["Cinderbrew Meadery"] = {
 false,
-[23] = true,
 },
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
+["Ara-Kara, City of Echoes"] = {
 false,
 },
 ["The Stonevault"] = {
@@ -55,19 +54,20 @@ false,
 [23] = true,
 [8] = true,
 },
-["Black Rook Hold"] = {
-[24] = false,
-},
-["City of Threads"] = {
-false,
-},
 ["Darkflame Cleft"] = {
 false,
 [8] = true,
 [23] = true,
 },
-["Ara-Kara, City of Echoes"] = {
+["City of Threads"] = {
 false,
+},
+["Black Rook Hold"] = {
+[24] = false,
+},
+["The Rookery"] = {
+false,
+[23] = true,
 },
 },
 },
