@@ -1,5 +1,11 @@
 
 BigWigs3DB = {
+["global"] = {
+["watchedMovies"] = {
+[-2406] = true,
+[-2409] = true,
+},
+},
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
@@ -16,6 +22,8 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
+["BigWigs_Bosses_The One-Armed Bandit"] = {
+},
 ["BigWigs_Plugins_Countdown"] = {
 },
 ["BigWigs_Plugins_AltPower"] = {
@@ -28,7 +36,7 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Bars"] = {
 },
-["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
+["BigWigs_Bosses_Chrome King Gallywix"] = {
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
@@ -59,12 +67,6 @@ BigWigs3DB = {
 ["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
-["global"] = {
-["watchedMovies"] = {
-[-2406] = true,
-[-2409] = true,
-},
-},
 ["profiles"] = {
 ["Default"] = {
 },
@@ -80,7 +82,7 @@ BigWigsStatsDB = {
 ["heroic"] = {
 ["kills"] = 4,
 ["fkDuration"] = 395.7529999999679,
-["wipes"] = 11,
+["wipes"] = 12,
 ["fkWipes"] = 6,
 ["best"] = 327.6170000000057,
 ["bestDate"] = "2025/04/25",
@@ -210,7 +212,13 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/04/06",
 },
 ["heroic"] = {
-["wipes"] = 50,
+["kills"] = 1,
+["bestDate"] = "2025/05/02",
+["best"] = 543.5379999999996,
+["fkWipes"] = 57,
+["fkDate"] = "2025/05/02",
+["wipes"] = 57,
+["fkDuration"] = 543.5379999999996,
 },
 },
 },

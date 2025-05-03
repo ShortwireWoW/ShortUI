@@ -47,7 +47,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "995ea2e" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "6db2cb9" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -666,11 +666,13 @@ local function load(obj, index)
 		local msg = L.addOnLoadFailedWithReason:format(addonName, reason)
 		sysprint(msg)
 		Popup(msg, true)
-	elseif DoesAddOnHaveLoadError and DoesAddOnHaveLoadError(index) then -- XXX added in 11.1.5, compat code for classic
+	elseif DoesAddOnHaveLoadError then
 		local addonName = GetAddOnInfo(index)
-		local msg = L.addOnLoadFailedUnknownError:format(addonName)
-		sysprint(msg)
-		Popup(msg, true)
+		if DoesAddOnHaveLoadError(addonName) then -- XXX added in 11.1.5, compat code for classic
+			local msg = L.addOnLoadFailedUnknownError:format(addonName)
+			sysprint(msg)
+			Popup(msg, true)
+		end
 	end
 	return loaded
 end

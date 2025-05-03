@@ -1,6 +1,6 @@
 # Simple Item Level
 
-## [v47](https://github.com/kemayo/wow-simpleitemlevel/tree/v47) (2025-04-27)
-[Full Changelog](https://github.com/kemayo/wow-simpleitemlevel/compare/v46...v47) [Previous Releases](https://github.com/kemayo/wow-simpleitemlevel/releases)
+## [v48](https://github.com/kemayo/wow-simpleitemlevel/tree/v48) (2025-04-30)
+[Full Changelog](https://github.com/kemayo/wow-simpleitemlevel/compare/v47...v48) [Previous Releases](https://github.com/kemayo/wow-simpleitemlevel/releases)
 
-- TOC for 11.1.5, 1.15.7  
+- Fix battle pets, gems, enchantments for new quality color syntax  

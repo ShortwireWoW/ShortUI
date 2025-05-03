@@ -1,12 +1,42 @@
 
 BigWigs3DB = {
 ["namespaces"] = {
+["BigWigs_Plugins_Victory"] = {
+},
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
 ["Default"] = {
 ["custom_off_-31087"] = true,
 },
 },
+},
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Bosses_The One-Armed Bandit"] = {
+},
+["BigWigs_Plugins_Wipe"] = {
+},
+["BigWigs_Plugins_Countdown"] = {
+},
+["BigWigs_Plugins_AltPower"] = {
+},
+["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Plugins_Colors"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Plugins_Nameplates"] = {
+},
+["BigWigs_Plugins_Bars"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
 ["profiles"] = {
@@ -20,16 +50,20 @@ BigWigs3DB = {
 },
 },
 },
+["BigWigs_Plugins_Messages"] = {
+},
+["BigWigs_Plugins_Pull"] = {
+},
+},
+["profileKeys"] = {
+["Shortbowjob - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2406] = true,
 [-2409] = true,
 },
-},
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -44,12 +78,12 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDate"] = "2025/04/05",
 ["bestDate"] = "2025/04/25",
 ["fkWipes"] = 6,
 ["best"] = 327.6170000000057,
-["wipes"] = 11,
+["wipes"] = 15,
 ["fkDuration"] = 395.7529999999679,
 },
 ["normal"] = {
@@ -160,7 +194,13 @@ BigWigsStatsDB = {
 ["fkDuration"] = 458.6010000000242,
 },
 ["heroic"] = {
-["wipes"] = 50,
+["kills"] = 1,
+["fkDuration"] = 543.5379999999996,
+["wipes"] = 57,
+["fkWipes"] = 57,
+["best"] = 543.5379999999996,
+["bestDate"] = "2025/05/02",
+["fkDate"] = "2025/05/02",
 },
 },
 [2639] = {

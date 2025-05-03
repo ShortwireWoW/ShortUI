@@ -14,12 +14,10 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Rovistorm-Area 52"] = true,
-["us-Chillybone-area-52"] = true,
-["us-Lebül-area-52"] = true,
-["us-Elondh-area-52"] = true,
-["us-Hontuk-thrall"] = true,
-["us-Vaggie-area-52"] = true,
+["us-Quitollis-Mal"] = true,
+["us-Wardgrundy-Area 52"] = true,
+["us-Anõra-stormrage"] = true,
+["us-Loosemagic-sargeras"] = true,
 }
 RaiderIO_MissingServers = {
 }

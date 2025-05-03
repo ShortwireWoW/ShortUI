@@ -14,6 +14,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
+["us-Ragnac-thrall"] = true,
+["us-Wardgrundy-Area 52"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -23,14 +23,14 @@ L.already_registered = "|cffff0000警告：|r |cff00ff00%s|r（|cffffff00%s|r）
 
 -- Loader / Options.lua
 L.okay = "确定"
-L.officialRelease = "你所使用的 BigWigs %s 为官方正式版（%s）"
-L.alphaRelease = "你所使用的 BigWigs %s 为“α测试版”（%s）"
+L.officialRelease = "你所使用的 BigWigs %s 为官方正式版（%s）。"
+L.alphaRelease = "你所使用的 BigWigs %s 为“α测试版”（%s）。"
 L.sourceCheckout = "你所使用的 BigWigs %s 是从原始代码仓库直接下载的。"
-L.littlewigsOfficialRelease = "你所使用的 LittleWigs 为官方正式版（%s）"
-L.littlewigsAlphaRelease = "你所使用的 LittleWigs 为“α测试版”（%s）"
+L.littlewigsOfficialRelease = "你所使用的 LittleWigs 为官方正式版（%s）。"
+L.littlewigsAlphaRelease = "你所使用的 LittleWigs 为“α测试版”（%s）。"
 L.littlewigsSourceCheckout = "你所使用的 LittleWigs 是从原始代码仓库直接下载的。"
 L.guildRelease = "你正在使用 BigWigs 公会版，版本 %d ，其基于官方版本 %d 。"
-L.getNewRelease = "你的 BigWigs 已过期（/bwv）但是可以使用 CurseForge 客户端轻松升级。另外，也可以从 curseforge.com 或 wowinterface.com 手动升级。"
+L.getNewRelease = "你的 BigWigs 已过期（/bwv）但是可以使用 CurseForge 客户端轻松升级。另外，也可以从 curseforge.com 或 addons.wago.io 手动升级。"
 L.warnTwoReleases = "你的 BigWigs 已过期2个发行版！你的版本可能有错误，功能缺失或不正确的计时器。所以强烈建议你升级。"
 L.warnSeveralReleases = "|cffff0000你的 BigWigs 已过期 %d 个发行版！！我们*强烈*建议你更新，以防止把问题同步给其他玩家！|r"
 L.warnOldBase = "你正在使用公会版本 BigWigs（%d），但是它是基于官方版本（%d）已过期 %d 个版本。可能出现一些问题。"
@@ -54,7 +54,7 @@ L.removeAddOn = "请移除“|cFF436EEE%s|r”，其已被“|cFF436EEE%s|r”�
 L.alternativeName = "%s（|cFF436EEE%s|r）"
 L.outOfDateContentPopup = "警告！\n你更新了 |cFF436EEE%s|r 但你还需要更新 |cFF436EEEBigWigs|r 主插件。\n忽略这一点将导致功能崩溃。"
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r 需要安装 %d 版本的 |cFF436EEEBigWigs|r 主插件才能正常运行，但你使用了 %d 版本。"
-L.addOnLoadFailedWithReason = "BigWigs 无法加载 |cFF436EEE%s|r 插件，原因为 %q。请通知 BigWigs 的开发者！"
+L.addOnLoadFailedWithReason = "BigWigs 未能加载 |cFF436EEE%s|r 插件，原因： %q。请通知 BigWigs 的开发者！"
 L.addOnLoadFailedUnknownError = "BigWigs 在加载 |cFF436EEE%s|r 插件时遇到了错误。请通知 BigWigs 的开发者！"
 
 L.expansionNames = {

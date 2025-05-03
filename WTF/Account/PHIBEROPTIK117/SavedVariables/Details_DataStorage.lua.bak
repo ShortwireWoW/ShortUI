@@ -30,10 +30,21 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1464523.072517485,
-["dps_best_raid_when"] = 1743995231,
-["time_fasterkill_when"] = 1744599629,
 ["dps_best_when"] = 1745810199,
+["time_fasterkill_when"] = 1744599629,
+["dps_best_raid_when"] = 1743995231,
 ["dps_best_raid"] = 17952761.89738734,
+},
+["heroic"] = {
+["time_incombat"] = 543.5749999999998,
+["time_fasterkill"] = 543.5749999999998,
+["wipes"] = 0,
+["kills"] = 1,
+["dps_best"] = 1738176.869812175,
+["dps_best_raid_when"] = 1746238558,
+["time_fasterkill_when"] = 1746238558,
+["dps_best_when"] = 1746238558,
+["dps_best_raid"] = 16919950.41346641,
 },
 },
 [3009] = {
@@ -45,8 +56,8 @@ DetailsDataStorage = {
 ["dps_best"] = 1639488.886462476,
 ["dps_best_raid"] = 23036994.57440272,
 ["time_fasterkill_when"] = 1745629772,
-["dps_best_raid_when"] = 1745024890,
 ["dps_best_when"] = 1745629772,
+["dps_best_raid_when"] = 1745024890,
 },
 ["normal"] = {
 ["time_incombat"] = 871.9019999999437,
@@ -54,9 +65,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 2189768.452174726,
-["dps_best_raid_when"] = 1743988112,
-["time_fasterkill_when"] = 1743988112,
 ["dps_best_when"] = 1745802856,
+["time_fasterkill_when"] = 1743988112,
+["dps_best_raid_when"] = 1743988112,
 ["dps_best_raid"] = 28614504.51795433,
 },
 },
@@ -69,8 +80,8 @@ DetailsDataStorage = {
 ["dps_best"] = 1703783.556019917,
 ["dps_best_raid"] = 14969940.00657656,
 ["time_fasterkill_when"] = 1744421172,
-["dps_best_raid_when"] = 1745025332,
 ["dps_best_when"] = 1745025332,
+["dps_best_raid_when"] = 1745025332,
 },
 ["normal"] = {
 ["time_incombat"] = 895.4860000000044,
@@ -78,9 +89,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1535006.516522247,
-["dps_best_raid_when"] = 1743988778,
-["time_fasterkill_when"] = 1744593715,
 ["dps_best_when"] = 1743988778,
+["time_fasterkill_when"] = 1744593715,
+["dps_best_raid_when"] = 1743988778,
 ["dps_best_raid"] = 20024884.19622115,
 },
 },
@@ -93,18 +104,18 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3016] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 50,
+["wipes"] = 57,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_raid_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_raid_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3010] = {
@@ -115,8 +126,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3012] = {
 ["time_incombat"] = 0,
@@ -126,30 +137,30 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3013] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 24,
+["wipes"] = 25,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_raid_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_raid_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3014] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 11,
+["wipes"] = 12,
 ["kills"] = 0,
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 },
 [3011] = {
@@ -161,8 +172,8 @@ DetailsDataStorage = {
 ["dps_best"] = 1368907.066055135,
 ["dps_best_raid"] = 17153995.28270678,
 ["time_fasterkill_when"] = 1744421762,
-["dps_best_raid_when"] = 1745026172,
 ["dps_best_when"] = 1744421762,
+["dps_best_raid_when"] = 1745026172,
 },
 ["normal"] = {
 ["time_incombat"] = 1025.411000000022,
@@ -170,9 +181,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1550732.966959705,
-["dps_best_raid_when"] = 1743989521,
-["time_fasterkill_when"] = 1744594489,
 ["dps_best_when"] = 1745804543,
+["time_fasterkill_when"] = 1744594489,
+["dps_best_raid_when"] = 1743989521,
 ["dps_best_raid"] = 18497614.3816579,
 },
 },
@@ -185,8 +196,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["dps_best_when"] = 0,
 },
 },
 [3013] = {
@@ -196,9 +207,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 3,
 ["dps_best"] = 1600470.735943161,
-["dps_best_raid_when"] = 1745028988,
-["time_fasterkill_when"] = 1745028988,
 ["dps_best_when"] = 1745028988,
+["time_fasterkill_when"] = 1745028988,
+["dps_best_raid_when"] = 1745028988,
 ["dps_best_raid"] = 21969793.57721771,
 },
 ["normal"] = {
@@ -207,9 +218,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 11,
 ["dps_best"] = 1568552.671359013,
-["dps_best_raid_when"] = 1743991445,
-["time_fasterkill_when"] = 1744160879,
 ["dps_best_when"] = 1745807044,
+["time_fasterkill_when"] = 1744160879,
+["dps_best_raid_when"] = 1743991445,
 ["dps_best_raid"] = 23196282.39286924,
 },
 ["raidfinder"] = {
@@ -220,8 +231,8 @@ DetailsDataStorage = {
 ["dps_best"] = 206424.4316219343,
 ["dps_best_raid"] = 9516229.451500703,
 ["time_fasterkill_when"] = 1743874160,
-["dps_best_when"] = 1743874160,
 ["dps_best_raid_when"] = 1743874160,
+["dps_best_when"] = 1743874160,
 },
 },
 [3014] = {
@@ -233,8 +244,8 @@ DetailsDataStorage = {
 ["dps_best"] = 1482499.003513393,
 ["dps_best_raid"] = 22268919.99138799,
 ["time_fasterkill_when"] = 1745631079,
-["dps_best_raid_when"] = 1745031040,
 ["dps_best_when"] = 1745631079,
+["dps_best_raid_when"] = 1745031040,
 },
 ["normal"] = {
 ["time_incombat"] = 1204.576000000001,
@@ -242,9 +253,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1699426.013235346,
-["dps_best_raid_when"] = 1743993169,
-["time_fasterkill_when"] = 1744597600,
 ["dps_best_when"] = 1744597600,
+["time_fasterkill_when"] = 1744597600,
+["dps_best_raid_when"] = 1743993169,
 ["dps_best_raid"] = 21729862.06944576,
 },
 },
@@ -255,9 +266,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1417274.514548259,
-["dps_best_raid_when"] = 1743994166,
-["time_fasterkill_when"] = 1745203822,
 ["dps_best_when"] = 1745809304,
+["time_fasterkill_when"] = 1745203822,
+["dps_best_raid_when"] = 1743994166,
 ["dps_best_raid"] = 18946974.21658211,
 },
 ["heroic"] = {
@@ -266,9 +277,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 3,
 ["dps_best"] = 1464543.98765714,
-["dps_best_raid_when"] = 1745033465,
-["time_fasterkill_when"] = 1745633329,
 ["dps_best_when"] = 1744509637,
+["time_fasterkill_when"] = 1745633329,
+["dps_best_raid_when"] = 1745033465,
 ["dps_best_raid"] = 20200153.4102956,
 },
 },
@@ -281,8 +292,8 @@ DetailsDataStorage = {
 ["dps_best"] = 1281899.666708663,
 ["dps_best_raid"] = 25897356.75633585,
 ["time_fasterkill_when"] = 1745027585,
-["dps_best_raid_when"] = 1745027585,
 ["dps_best_when"] = 1743819647,
+["dps_best_raid_when"] = 1745027585,
 },
 ["normal"] = {
 ["time_incombat"] = 1268.900000000023,
@@ -290,9 +301,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 1346475.324036124,
-["dps_best_raid_when"] = 1743990407,
-["time_fasterkill_when"] = 1743990407,
 ["dps_best_when"] = 1745805518,
+["time_fasterkill_when"] = 1743990407,
+["dps_best_raid_when"] = 1743990407,
 ["dps_best_raid"] = 26573645.7501177,
 },
 ["raidfinder"] = {
@@ -303,8 +314,8 @@ DetailsDataStorage = {
 ["dps_best"] = 478211.3916596459,
 ["dps_best_raid"] = 14597221.55373814,
 ["time_fasterkill_when"] = 1743873316,
-["dps_best_when"] = 1743873316,
 ["dps_best_raid_when"] = 1743873316,
+["dps_best_when"] = 1743873316,
 },
 },
 ["normal"] = {
@@ -314,9 +325,9 @@ DetailsDataStorage = {
 ["wipes"] = 2,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3012] = {
@@ -325,9 +336,9 @@ DetailsDataStorage = {
 ["wipes"] = 2,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3013] = {
@@ -338,8 +349,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3009] = {
 ["time_incombat"] = 0,
@@ -349,8 +360,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 },
 },
@@ -358,9 +369,28 @@ DetailsDataStorage = {
 ["heroic"] = {
 [3015] = {
 {
-["guild"] = "Lunar Effect",
 ["time"] = 1744509637,
+["guild"] = "Lunar Effect",
 ["elapsed"] = 361.8629999999976,
+["date"] = "22:00 12/04/25",
+["servertime"] = 1744509636,
+["HEALER"] = {
+["Øya-Illidan"] = {
+["total"] = 399473170,
+["itemLevel"] = 654.625,
+["classId"] = 5,
+},
+["Anòra-Stormrage"] = {
+["total"] = 483738047,
+["itemLevel"] = 654.5625,
+["classId"] = 5,
+},
+["Onfleek-Gorefiend"] = {
+["total"] = 564758344,
+["itemLevel"] = 659.375,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 517538921,
@@ -413,49 +443,11 @@ DetailsDataStorage = {
 ["classId"] = 11,
 },
 },
-["servertime"] = 1744509636,
-["HEALER"] = {
-["Øya-Illidan"] = {
-["total"] = 399473170,
-["itemLevel"] = 654.625,
-["classId"] = 5,
-},
-["Anòra-Stormrage"] = {
-["total"] = 483738047,
-["itemLevel"] = 654.5625,
-["classId"] = 5,
-},
-["Onfleek-Gorefiend"] = {
-["total"] = 564758344,
-["itemLevel"] = 659.375,
-["classId"] = 5,
-},
-},
-["date"] = "22:00 12/04/25",
 },
 {
-["time"] = 1745033465,
 ["guild"] = "Lunar Effect",
+["time"] = 1745033465,
 ["elapsed"] = 339.5600000000013,
-["date"] = "23:31 18/04/25",
-["servertime"] = 1745033465,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 537165796,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 429177569,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-["Mistafista-Thunderlord"] = {
-["total"] = 499666991,
-["itemLevel"] = 666.4375,
-["classId"] = 10,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 740522367,
@@ -518,30 +510,30 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-},
-{
-["time"] = 1745633329,
-["guild"] = "Lunar Effect",
-["elapsed"] = 339.2969999999987,
-["date"] = "22:08 25/04/25",
-["servertime"] = 1745633329,
+["servertime"] = 1745033465,
 ["HEALER"] = {
-["Smdx-Thrall"] = {
-["total"] = 516345524,
-["itemLevel"] = 668.75,
-["classId"] = 7,
+["Onfleek-Gorefiend"] = {
+["total"] = 537165796,
+["itemLevel"] = 660.4375,
+["classId"] = 5,
 },
-["Anòra-Stormrage"] = {
-["total"] = 507753004,
-["itemLevel"] = 660.6875,
+["Øya-Illidan"] = {
+["total"] = 429177569,
+["itemLevel"] = 658.3125,
 ["classId"] = 5,
 },
 ["Mistafista-Thunderlord"] = {
-["total"] = 461207696,
+["total"] = 499666991,
 ["itemLevel"] = 666.4375,
 ["classId"] = 10,
 },
 },
+["date"] = "23:31 18/04/25",
+},
+{
+["guild"] = "Lunar Effect",
+["time"] = 1745633329,
+["elapsed"] = 339.2969999999987,
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 392025527,
@@ -594,12 +586,29 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745633329,
+["HEALER"] = {
+["Smdx-Thrall"] = {
+["total"] = 516345524,
+["itemLevel"] = 668.75,
+["classId"] = 7,
+},
+["Anòra-Stormrage"] = {
+["total"] = 507753004,
+["itemLevel"] = 660.6875,
+["classId"] = 5,
+},
+["Mistafista-Thunderlord"] = {
+["total"] = 461207696,
+["itemLevel"] = 666.4375,
+["classId"] = 10,
+},
+},
+["date"] = "22:08 25/04/25",
 },
 },
 [3009] = {
 {
-["date"] = "21:18 04/04/25",
-["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 374954271,
@@ -652,6 +661,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1743815902,
+["date"] = "21:18 04/04/25",
 ["elapsed"] = 253.6199999999953,
 ["servertime"] = 1743815902,
 ["HEALER"] = {
@@ -666,9 +677,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1743815902,
+["guild"] = "Lunar Effect",
 },
 {
+["date"] = "21:15 11/04/25",
+["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 562767571,
@@ -716,8 +729,6 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["time"] = 1744420537,
-["date"] = "21:15 11/04/25",
 ["elapsed"] = 237.723,
 ["servertime"] = 1744420536,
 ["HEALER"] = {
@@ -732,26 +743,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Lunar Effect",
+["time"] = 1744420537,
 },
 {
-["time"] = 1745024890,
 ["guild"] = "Lunar Effect",
+["time"] = 1745024890,
 ["elapsed"] = 219.5149999999994,
-["date"] = "21:08 18/04/25",
-["servertime"] = 1745024889,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 478776967,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 271883354,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 558446714,
@@ -804,30 +801,25 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-},
-{
-["time"] = 1745629772,
-["guild"] = "Lunar Effect",
-["elapsed"] = 218.1569999999992,
-["date"] = "21:09 25/04/25",
-["servertime"] = 1745629772,
+["servertime"] = 1745024889,
 ["HEALER"] = {
-["Smdx-Thrall"] = {
-["total"] = 323822477,
-["itemLevel"] = 668.75,
-["classId"] = 7,
-},
-["Anòra-Stormrage"] = {
-["total"] = 347354028,
-["itemLevel"] = 660.6875,
+["Onfleek-Gorefiend"] = {
+["total"] = 478776967,
+["itemLevel"] = 660.4375,
 ["classId"] = 5,
 },
-["Mistafista-Thunderlord"] = {
-["total"] = 362620365,
-["itemLevel"] = 666.4375,
-["classId"] = 10,
+["Øya-Illidan"] = {
+["total"] = 271883354,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
 },
 },
+["date"] = "21:08 18/04/25",
+},
+{
+["guild"] = "Lunar Effect",
+["time"] = 1745629772,
+["elapsed"] = 218.1569999999992,
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 344239752,
@@ -880,12 +872,29 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745629772,
+["HEALER"] = {
+["Smdx-Thrall"] = {
+["total"] = 323822477,
+["itemLevel"] = 668.75,
+["classId"] = 7,
+},
+["Anòra-Stormrage"] = {
+["total"] = 347354028,
+["itemLevel"] = 660.6875,
+["classId"] = 5,
+},
+["Mistafista-Thunderlord"] = {
+["total"] = 362620365,
+["itemLevel"] = 666.4375,
+["classId"] = 10,
+},
+},
+["date"] = "21:09 25/04/25",
 },
 },
 [3010] = {
 {
-["date"] = "21:34 04/04/25",
-["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 283552620,
@@ -938,6 +947,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1743816887,
+["date"] = "21:34 04/04/25",
 ["elapsed"] = 274.6290000000154,
 ["servertime"] = 1743816886,
 ["HEALER"] = {
@@ -952,9 +963,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1743816887,
+["guild"] = "Lunar Effect",
 },
 {
+["date"] = "21:26 11/04/25",
+["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 423673269,
@@ -1002,8 +1015,6 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["time"] = 1744421172,
-["date"] = "21:26 11/04/25",
 ["elapsed"] = 246.1599999999999,
 ["servertime"] = 1744421171,
 ["HEALER"] = {
@@ -1018,26 +1029,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Lunar Effect",
+["time"] = 1744421172,
 },
 {
-["time"] = 1745025332,
 ["guild"] = "Lunar Effect",
+["time"] = 1745025332,
 ["elapsed"] = 246.3270000000011,
-["date"] = "21:15 18/04/25",
-["servertime"] = 1745025331,
-["HEALER"] = {
-["Øya-Illidan"] = {
-["total"] = 93395017,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-["Onfleek-Gorefiend"] = {
-["total"] = 399120913,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 455866362,
@@ -1090,12 +1087,24 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745025331,
+["HEALER"] = {
+["Øya-Illidan"] = {
+["total"] = 93395017,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
+},
+["Onfleek-Gorefiend"] = {
+["total"] = 399120913,
+["itemLevel"] = 660.4375,
+["classId"] = 5,
+},
+},
+["date"] = "21:15 18/04/25",
 },
 },
 [3011] = {
 {
-["date"] = "21:47 04/04/25",
-["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 264861502,
@@ -1148,6 +1157,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1743817641,
+["date"] = "21:47 04/04/25",
 ["elapsed"] = 246.4410000000207,
 ["servertime"] = 1743817641,
 ["HEALER"] = {
@@ -1162,9 +1173,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1743817641,
+["guild"] = "Lunar Effect",
 },
 {
+["date"] = "21:36 11/04/25",
+["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 412436532,
@@ -1212,8 +1225,6 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["time"] = 1744421762,
-["date"] = "21:36 11/04/25",
 ["elapsed"] = 240.4179999999997,
 ["servertime"] = 1744421761,
 ["HEALER"] = {
@@ -1228,26 +1239,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Lunar Effect",
+["time"] = 1744421762,
 },
 {
-["time"] = 1745026172,
 ["guild"] = "Lunar Effect",
+["time"] = 1745026172,
 ["elapsed"] = 256.9269999999997,
-["date"] = "21:29 18/04/25",
-["servertime"] = 1745026172,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 560049840,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 353673415,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 481430000,
@@ -1315,12 +1312,24 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745026172,
+["HEALER"] = {
+["Onfleek-Gorefiend"] = {
+["total"] = 560049840,
+["itemLevel"] = 660.4375,
+["classId"] = 5,
+},
+["Øya-Illidan"] = {
+["total"] = 353673415,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
+},
+},
+["date"] = "21:29 18/04/25",
 },
 },
 [3012] = {
 {
-["date"] = "22:20 04/04/25",
-["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 595583141,
@@ -1378,6 +1387,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1743819647,
+["date"] = "22:20 04/04/25",
 ["elapsed"] = 391.5350000000035,
 ["servertime"] = 1743819646,
 ["HEALER"] = {
@@ -1392,9 +1403,11 @@ DetailsDataStorage = {
 ["classId"] = 10,
 },
 },
-["time"] = 1743819647,
+["guild"] = "Lunar Effect",
 },
 {
+["date"] = "21:56 11/04/25",
+["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 1073612088,
@@ -1447,8 +1460,6 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["time"] = 1744422971,
-["date"] = "21:56 11/04/25",
 ["elapsed"] = 408.0990000000002,
 ["servertime"] = 1744422970,
 ["HEALER"] = {
@@ -1463,26 +1474,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Lunar Effect",
+["time"] = 1744422971,
 },
 {
-["time"] = 1745027585,
 ["guild"] = "Lunar Effect",
+["time"] = 1745027585,
 ["elapsed"] = 308.0589999999975,
-["date"] = "21:53 18/04/25",
-["servertime"] = 1745027584,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 606338323,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 401223462,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 789273477,
@@ -1550,13 +1547,41 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745027584,
+["HEALER"] = {
+["Onfleek-Gorefiend"] = {
+["total"] = 606338323,
+["itemLevel"] = 660.4375,
+["classId"] = 5,
+},
+["Øya-Illidan"] = {
+["total"] = 401223462,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
+},
+},
+["date"] = "21:53 18/04/25",
 },
 },
 [3013] = {
 {
-["guild"] = "Lunar Effect",
 ["time"] = 1743823099,
+["guild"] = "Lunar Effect",
 ["elapsed"] = 302.3420000000042,
+["date"] = "23:18 04/04/25",
+["servertime"] = 1743823099,
+["HEALER"] = {
+["Mistafista-Thunderlord"] = {
+["total"] = 409916289,
+["itemLevel"] = 658.1875,
+["classId"] = 10,
+},
+["Onfleek-Gorefiend"] = {
+["total"] = 500107485,
+["itemLevel"] = 655.5625,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 324925876,
@@ -1614,22 +1639,10 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1743823099,
-["HEALER"] = {
-["Mistafista-Thunderlord"] = {
-["total"] = 409916289,
-["itemLevel"] = 658.1875,
-["classId"] = 10,
-},
-["Onfleek-Gorefiend"] = {
-["total"] = 500107485,
-["itemLevel"] = 655.5625,
-["classId"] = 5,
-},
-},
-["date"] = "23:18 04/04/25",
 },
 {
+["date"] = "22:50 11/04/25",
+["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 542524222,
@@ -1677,8 +1690,6 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["time"] = 1744426253,
-["date"] = "22:50 11/04/25",
 ["elapsed"] = 282.2119999999995,
 ["servertime"] = 1744426252,
 ["HEALER"] = {
@@ -1693,26 +1704,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Lunar Effect",
+["time"] = 1744426253,
 },
 {
-["time"] = 1745028988,
 ["guild"] = "Lunar Effect",
+["time"] = 1745028988,
 ["elapsed"] = 246.1549999999988,
-["date"] = "22:16 18/04/25",
-["servertime"] = 1745028988,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 511289868,
-["itemLevel"] = 660.4375,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 343322604,
-["itemLevel"] = 658.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 588747539,
@@ -1780,12 +1777,24 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745028988,
+["HEALER"] = {
+["Onfleek-Gorefiend"] = {
+["total"] = 511289868,
+["itemLevel"] = 660.4375,
+["classId"] = 5,
+},
+["Øya-Illidan"] = {
+["total"] = 343322604,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
+},
+},
+["date"] = "22:16 18/04/25",
 },
 },
 [3014] = {
 {
-["date"] = "22:08 05/04/25",
-["guild"] = "Lunar Effect",
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 510671346,
@@ -1843,6 +1852,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1743905294,
+["date"] = "22:08 05/04/25",
 ["elapsed"] = 395.7839999999851,
 ["servertime"] = 1743905293,
 ["HEALER"] = {
@@ -1857,31 +1868,12 @@ DetailsDataStorage = {
 ["classId"] = 10,
 },
 },
-["time"] = 1743905294,
+["guild"] = "Lunar Effect",
 },
 {
-["time"] = 1744427301,
 ["guild"] = "Lunar Effect",
+["time"] = 1744427301,
 ["elapsed"] = 393.6020000000026,
-["date"] = "23:08 11/04/25",
-["servertime"] = 1744427300,
-["HEALER"] = {
-["Onfleek-Gorefiend"] = {
-["total"] = 743236943,
-["itemLevel"] = 659.0666666666667,
-["classId"] = 5,
-},
-["Anòra-Stormrage"] = {
-["total"] = 546581664,
-["itemLevel"] = 653.3125,
-["classId"] = 5,
-},
-["Øya-Illidan"] = {
-["total"] = 479281545,
-["itemLevel"] = 654.625,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Bloodhawke-Stormrage"] = {
 ["total"] = 360704947,
@@ -1924,25 +1916,30 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-},
-{
-["time"] = 1745031040,
-["guild"] = "Lunar Effect",
-["elapsed"] = 329.7770000000019,
-["date"] = "22:50 18/04/25",
-["servertime"] = 1745031040,
+["servertime"] = 1744427300,
 ["HEALER"] = {
 ["Onfleek-Gorefiend"] = {
-["total"] = 691221799,
-["itemLevel"] = 660.4375,
+["total"] = 743236943,
+["itemLevel"] = 659.0666666666667,
+["classId"] = 5,
+},
+["Anòra-Stormrage"] = {
+["total"] = 546581664,
+["itemLevel"] = 653.3125,
 ["classId"] = 5,
 },
 ["Øya-Illidan"] = {
-["total"] = 454961133,
-["itemLevel"] = 658.3125,
+["total"] = 479281545,
+["itemLevel"] = 654.625,
 ["classId"] = 5,
 },
 },
+["date"] = "23:08 11/04/25",
+},
+{
+["guild"] = "Lunar Effect",
+["time"] = 1745031040,
+["elapsed"] = 329.7770000000019,
 ["DAMAGER"] = {
 ["Bwansamdeezz-Zul'jin"] = {
 ["total"] = 760900012,
@@ -2010,30 +2007,25 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-},
-{
-["time"] = 1745631079,
-["guild"] = "Lunar Effect",
-["elapsed"] = 327.6430000000037,
-["date"] = "21:31 25/04/25",
-["servertime"] = 1745631079,
+["servertime"] = 1745031040,
 ["HEALER"] = {
-["Smdx-Thrall"] = {
-["total"] = 583684887,
-["itemLevel"] = 668.75,
-["classId"] = 7,
-},
-["Anòra-Stormrage"] = {
-["total"] = 452875050,
-["itemLevel"] = 660.6875,
+["Onfleek-Gorefiend"] = {
+["total"] = 691221799,
+["itemLevel"] = 660.4375,
 ["classId"] = 5,
 },
-["Mistafista-Thunderlord"] = {
-["total"] = 503633761,
-["itemLevel"] = 666.4375,
-["classId"] = 10,
+["Øya-Illidan"] = {
+["total"] = 454961133,
+["itemLevel"] = 658.3125,
+["classId"] = 5,
 },
 },
+["date"] = "22:50 18/04/25",
+},
+{
+["guild"] = "Lunar Effect",
+["time"] = 1745631079,
+["elapsed"] = 327.6430000000037,
 ["DAMAGER"] = {
 ["Beernuts-Doomhammer"] = {
 ["total"] = 429120838,
@@ -2086,6 +2078,118 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1745631079,
+["HEALER"] = {
+["Smdx-Thrall"] = {
+["total"] = 583684887,
+["itemLevel"] = 668.75,
+["classId"] = 7,
+},
+["Anòra-Stormrage"] = {
+["total"] = 452875050,
+["itemLevel"] = 660.6875,
+["classId"] = 5,
+},
+["Mistafista-Thunderlord"] = {
+["total"] = 503633761,
+["itemLevel"] = 666.4375,
+["classId"] = 10,
+},
+},
+["date"] = "21:31 25/04/25",
+},
+},
+[3016] = {
+{
+["guild"] = "Lunar Effect",
+["time"] = 1746238558,
+["elapsed"] = 543.5749999999998,
+["DAMAGER"] = {
+["Beernuts-Doomhammer"] = {
+["total"] = 631402554,
+["itemLevel"] = 652.625,
+["classId"] = 11,
+},
+["Letyb-Thrall"] = {
+["total"] = 1245662903,
+["itemLevel"] = 669.625,
+["classId"] = 6,
+},
+["Wardgrundy"] = {
+["total"] = 1198069784,
+["itemLevel"] = 669.25,
+["classId"] = 1,
+},
+["Melzie-Draenor"] = {
+["total"] = 77877256,
+["itemLevel"] = 655.375,
+["classId"] = 3,
+},
+["Bloodhawke-Stormrage"] = {
+["total"] = 603837900,
+["itemLevel"] = 666.4375,
+["classId"] = 6,
+},
+["Shortbowjob"] = {
+["total"] = 944829492,
+["itemLevel"] = 664.3125,
+["classId"] = 3,
+},
+["Bwansamdeezz-Zul'jin"] = {
+["total"] = 1284678991,
+["itemLevel"] = 669.1875,
+["classId"] = 9,
+},
+["Twistedwilds-Illidan"] = {
+["total"] = 1029096414,
+["itemLevel"] = 667.4,
+["classId"] = 11,
+},
+["Xarlo-Stormrage"] = {
+["total"] = 1149597942,
+["itemLevel"] = 666.9375,
+["classId"] = 9,
+},
+["Seraphiel-Hyjal"] = {
+["total"] = 557681241,
+["itemLevel"] = 669.3125,
+["classId"] = 2,
+},
+["Kymemage-Stormrage"] = {
+["total"] = 637311602,
+["itemLevel"] = 657.9375,
+["classId"] = 8,
+},
+},
+["servertime"] = 1746238558,
+["HEALER"] = {
+["Mistafista-Thunderlord"] = {
+["total"] = 918527429,
+["itemLevel"] = 667.875,
+["classId"] = 10,
+},
+["Smdx-Thrall"] = {
+["total"] = 1245172166,
+["itemLevel"] = 670,
+["classId"] = 7,
+},
+["Onfleek-Gorefiend"] = {
+["total"] = 1154672858,
+["itemLevel"] = 663.4375,
+["classId"] = 5,
+},
+["Anòra-Stormrage"] = {
+["total"] = 940811080,
+["itemLevel"] = 664.3125,
+["classId"] = 5,
+},
+["Øya-Illidan"] = {
+["total"] = 769638353,
+["itemLevel"] = 658.75,
+["classId"] = 5,
+},
+},
+["date"] = "22:15 02/05/25",
 },
 },
 },
