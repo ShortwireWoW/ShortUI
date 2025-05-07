@@ -6,6 +6,10 @@ VER 3 0100000000000007 "Echo" "134400"
 #showtooltip
 /cast [@mouseover] Echo(Bronze)
 END
+VER 3 010000000000000C "Emerald Blossom" "134400"
+#showtooltip
+/cast [@mouseover] Emerald Blossom
+END
 VER 3 0100000000000001 "Living Flame" "134400"
 #showtooltip
 /cast [@mouseover] Living Flame

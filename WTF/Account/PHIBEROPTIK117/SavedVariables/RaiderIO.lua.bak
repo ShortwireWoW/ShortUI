@@ -1,23 +1,30 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 319.851038817746,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16.00000190734863,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 319.851038817746,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
 RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Quitollis-Mal"] = true,
-["us-Wardgrundy-Area 52"] = true,
-["us-Anõra-stormrage"] = true,
-["us-Loosemagic-sargeras"] = true,
+["us-Torchek-area-52"] = true,
+["us-Buzzybrielle-area-52"] = true,
+["us-Krustrasza-area-52"] = true,
+["us-Pallybran-area-52"] = true,
+["us-Yegoth-area-52"] = true,
+["us-Deathsdue-area-52"] = true,
+["us-Freetoss-area-52"] = true,
+["us-Zenasdanoth-area-52"] = true,
+["us-Healzafk-area-52"] = true,
+["us-Kisch-area-52"] = true,
+["us-Gamalon-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -1,7 +1,15 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 339,
+["session"] = 395,
 ["errors"] = {
+{
+["message"] = "[string \"return function() do\"]:54: attempt to index global 'aura_env' (a nil value)",
+["time"] = "2025/05/06 13:29:06",
+["locals"] = "fullname = \"Matheney-Tichondrius\"\nfactionID = 1\nprofile = <table> {\n guid = \"us Tichondrius Matheney\"\n raidProfile = <table> {\n }\n mythicKeystoneProfile = <table> {\n }\n success = true\n region = \"us\"\n name = \"Matheney\"\n realm = \"Tichondrius\"\n}\nprogress = 5\ndifficulty = 3\nbossCount = 8\n(*temporary) = nil\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n}\n(*temporary) = 5\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 5\n(*temporary) = 6\n(*temporary) = nil\n(*temporary) = false\n(*temporary) = 3\n(*temporary) = \"attempt to index global 'aura_env' (a nil value)\"\nFACTIONS = <table> {\n Horde = 2\n Alliance = 1\n Neutral = 3\n}\n",
+["stack"] = "[return function() do]:54: in function <[string \"return function() do\"]:16>\n[return function() do]:101: in function <[string \"return function() do\"]:96>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'LFGListApplicationViewer_UpdateApplicantMember'\n[Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua]:1802: in function <...ace/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua:1790>\n[C]: in function 'LFGListApplicationViewer_UpdateApplicant'\n...[C]: in function 'Show'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:494: in function 'SetUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:337: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:174: in function <...ParentPanelManager/Mainline/UIParentPanelManager.lua:169>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Mainline/UIParentPanelManager.lua]:894: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua]:105: in function <...ce/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua:59>\n[C]: in function 'PVEFrame_ShowFrame'\n[Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua]:56: in function 'PVEFrame_ToggleFrame'\n[TOGGLEGROUPFINDER]:1: in function <[string \"TOGGLEGROUPFINDER\"]:1>",
+["session"] = 392,
+["counter"] = 6,
+},
 },
 }

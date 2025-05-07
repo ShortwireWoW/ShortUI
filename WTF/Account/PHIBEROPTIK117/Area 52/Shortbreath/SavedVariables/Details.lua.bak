@@ -31,9 +31,9 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["framme_locked"] = false,
 ["cooldowns"] = {
 },
+["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +41,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["last_version"] = "11.1.5 13552",
+["last_version"] = "11.1.5 13555",
 ["player_stats"] = {
 },
 ["force_font_outline"] = "",
@@ -180,8 +180,23 @@ _detalhes_database = {
 },
 },
 ["cached_talents"] = {
+["Player-76-0BDA0F69"] = "C4DAJHMkDNl9e4q1zfgySSx9jbMMbzCmZmxs4BYMzwYaegxMAAAAAAMQAzMTLz2yMAQsBAAAAAAAWGDmZZWmHYmxMzMMzMzMGGjB",
+["Player-3676-0EAC74D1"] = "CwbBV7//nP39x/JJympTqouKSAAAAAAYmZMLzghZmZWwMbMzAAAmZYMwYGhZAAAAmZmJmtZmZWmZGAMjZgFwCYGmQ2gNDD",
+["Player-60-0FA92856"] = "CsQAYIOwXTfhprvln24ZeRPDbMMmxMzMjY2MMmNzMDzysZMmxsY2MLLzMDAAAAMMz2yMzy8AWgBmFjGzAysFbYAAAAAAAMjxMAA",
+["Player-57-0DEF24F9"] = "CgGAkuH5GdQpDrgY32rlVGnyqBAAAAAAAAAAAAzYMzMzyMMmZwYxMMzsYZAgRTmmZmlZ2mZGjZYAAAAAAYMzAAAQA1MbzyMzyACwCjBgFzgB",
+["Player-3209-0BFCADDF"] = "C4QACdq2zyOHcHaPcZ/HhhelgDAAAAAAAAMbMzyYWMbzMzMLMbYjhlZz2MzyCzoZmZgZYGMYZmZGmtxYYWMBAAAAYWm2mtZ2mFLzy2sNzMBBAWA",
+["Player-3675-0A50C0D9"] = "CcEAO9DBjZzKcjSu6RJDto0RCCwMmZGzYegZbWWWmZAAAAwgphZmlZmhZMYGbmZGMMDDAAAAAAAPwYWmZmBQGjttBWADYGmQGYD",
+["Player-57-0DEF62A2"] = "CwPAtbMOTHlnKIwUyAn+DK70SDAzMjZMGDzYmZmphZmZGzYAAAAAAAAAgZGzYMmBAMbmhZZGzMzMmZGDMwMGNW2AsNxGAMDA",
+["Player-53-0DC9AB19"] = "CAQAmmmbZv0rzNjRHT4p8IjZfDA2MmxMjxYmhZ2YbmZmZmZGAAAAAAAAAAYWmlZbwMzgZhxMMjBLsNTjJWGAmZBLUMmtBYshFAA",
+["Player-3676-0EA2D361"] = "CgEAO9DBjZzKcjSu6RJDto0RCCAAAAAAAAA0YGjZzMDzYwMLMzMjZYGmZbbMmZmFMzMzMjZGLDDMzAAAAxYbZgFwEMDTgBbA",
+["Player-60-0FA24B1E"] = "C4DAJHMkDNl9e4q1zfgySSx9jbGYbW8AmhZmFzYMzwYaMmBAAAAAgBCYmZaZWWmZmZbZZZmJWAAAAAAYBglxwMzysMMMzMDzMzMzMmxYA",
+["Player-11-0DDA9813"] = "CgQAL+iDLHPJSLC+6fqMJ8tubCAAAAAGAAAAAjZmZZmtZmZMWmlxihlxCsAzYTjlBkZCbMGLWGbzMzMZ2WMzMNmBzCWmZmBjhZZMAAYA",
+["Player-125-0A7231B1"] = "CgGAkuH5GdQpDrgY32rlVGnyqBAAAAAAAAAAAAzYmhZWmZMjZMzYhZGmFLDYzwoJyMzyYZmZWGzYAAAAAAwwYALbzshxsMCMFAACwmxMAsYMM",
+["Player-76-0B65DBCA"] = "CEkAEDLOxe3SEPP2R8Hw6bhoSYGMzMzYMzMjZmJmZGAAAAAAwsZMbz8AGzsNzMbYZGMzMmxy2sNzysMzMzy2sNNNDzMDYB",
+["Player-60-0F9E1546"] = "CIQAmmmbZv0rzNjRHT4p8IjZfjBmZAAAAAAAAAAAAMMLegxMzsNGzMzMGzsMY2YmZmxsxAjxwsY2mamBLYGAzsZZqZzAQGjFAA",
+["Player-3725-0B051BDB"] = "CYEAN/WrsXv0CO5mzTm8Icl8KAAAAYAAamltZmtltxYbMz22MbAAAAAAY00MMMzYbGMbDjZZGGGMMDLLsBAmlZbmZ2amZabWmtZAAbADAGjZMzA",
 },
-["last_instance_id"] = 2651,
+["last_instance_id"] = 2769,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
@@ -243,7 +258,7 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["on_death_menu"] = false,
+["combat_counter"] = 2249,
 ["mythic_plus_log"] = {
 "23/04/25 21:16:47|Activity Time: 720.587",
 "23/04/25 21:16:47|GetChallengeCompletionInfo() Found, Time: 1801",
@@ -295,152 +310,13 @@ _detalhes_database = {
 "22/04/25 22:10:36|Activity Time: 1105.341",
 "22/04/25 22:10:36|GetChallengeCompletionInfo() and World State Timers not Found, Activity Time: 1105.341",
 },
-["data_harvested_for_charts"] = {
-},
+["last_realversion"] = 164,
 ["cached_roles"] = {
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["on_death_menu"] = false,
+["data_harvested_for_charts"] = {
 },
 ["nick_tag_cache"] = {
-["Datbubblelol"] = {
-"Datbubblelol",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-3,
-},
-["Bwansamdeezz-Zul'jin"] = {
-"Bad Lock",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-5,
-},
-["Anòra-Stormrage"] = {
-"Pretend Priest",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-2,
-},
-["Beernuts-Doomhammer"] = {
-"",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-24,
-},
-["Letyb-Thrall"] = {
-"Bad Dk",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-2,
-},
-["Quitolis-AltarofStorms"] = {
-"Quit",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-2,
-},
 ["last_version"] = 16,
 ["Xarlo-Stormrage"] = {
 ">:[",
@@ -465,98 +341,6 @@ _detalhes_database = {
 },
 4,
 },
-["Bloodhawke-Stormrage"] = {
-"Greatest Gut",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-4,
-},
-["Twistedsham-Stormrage"] = {
-"Bad Sham",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-2,
-},
-["Datbubblelol-Bonechewer"] = {
-"Datbubblelol",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-3,
-},
-["Mistafista-Thunderlord"] = {
-"Garbage Monk",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-5,
-},
 ["Twistedwilds-Illidan"] = {
 "Twisted",
 "",
@@ -579,6 +363,29 @@ _detalhes_database = {
 1,
 },
 7,
+},
+["Letyb-Thrall"] = {
+"Bad Dk",
+"",
+{
+0,
+1,
+0,
+1,
+},
+"",
+{
+0,
+1,
+0,
+1,
+},
+{
+1,
+1,
+1,
+},
+2,
 },
 ["Zenshama-Tichondrius"] = {
 "Garbage Shaman",
@@ -603,8 +410,8 @@ _detalhes_database = {
 },
 2,
 },
-["Seraphiel-Hyjal"] = {
-"Ghoul",
+["Anòra-Stormrage"] = {
+"Pretend Priest",
 "",
 {
 0,
@@ -624,11 +431,10 @@ _detalhes_database = {
 1,
 1,
 },
-8,
+2,
 },
-["nextreset"] = 1746051962,
+["nextreset"] = 1747618643,
 },
-["combat_counter"] = 2244,
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_TINY_THREAT"] = {
 ["enabled"] = true,
@@ -715,7 +521,10 @@ _detalhes_database = {
 0.5,
 },
 ["scale"] = 1,
-["arrow_anchor_y"] = 0,
+["main_frame_size"] = {
+300.0000305175781,
+500.0000610351563,
+},
 ["minimap"] = {
 ["minimapPos"] = 160,
 ["radius"] = 160,
@@ -736,22 +545,6 @@ _detalhes_database = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["y"] = 3.0517578125e-05,
-["row_spacement"] = 21,
-["main_frame_color"] = {
-0,
-0,
-0,
-0.2,
-},
-["row_color"] = {
-0.1,
-0.1,
-0.1,
-0.4,
-},
-["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-["use_spark"] = true,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -763,25 +556,38 @@ _detalhes_database = {
 ["update_speed"] = 0.05,
 ["attribute_type"] = 1,
 },
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["author"] = "Terciob",
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["y"] = 3.0517578125e-05,
+["font_size"] = 10,
 ["x"] = 0.0001220703125,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["font_size"] = 10,
-["author"] = "Terciob",
+["use_spark"] = true,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
 ["main_frame_locked"] = false,
-["main_frame_size"] = {
-300.0000305175781,
-500.0000610351563,
+["arrow_anchor_y"] = 0,
 },
 },
-},
-["last_instance_time"] = 1745456431,
+["last_instance_time"] = 1746324499,
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
-["last_day"] = "26",
+["last_day"] = "03",
 ["character_data"] = {
-["logons"] = 113,
+["logons"] = 115,
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -817,7 +623,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 1745641468,
+["tempo_start"] = 1746324498,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -880,11 +686,11 @@ _detalhes_database = {
 ["data_inicio"] = 0,
 ["amountCasts"] = {
 },
-["mapId"] = 2552,
+["mapId"] = 2769,
 ["cleu_events"] = {
 ["n"] = 1,
 },
-["zoneName"] = "Khaz Algar (Surface)",
+["zoneName"] = "Liberation of Undermine",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
 ["frags"] = {
@@ -913,14 +719,16 @@ _detalhes_database = {
 ["Raid Damage Done"] = {
 },
 },
-["combat_counter"] = 2243,
+["combat_counter"] = 2249,
 },
 ["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["last_realversion"] = 164,
 ["ignore_nicktag"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["announce_cooldowns"] = {
 ["enabled"] = false,
 ["ignored_cooldowns"] = {
@@ -937,13 +745,25 @@ _detalhes_database = {
 ["channel"] = "SELF",
 },
 ["cached_specs"] = {
-["Player-3676-0E495502"] = 105,
-["Player-3676-0EA4C12D"] = 73,
-["Player-57-0DCA4665"] = 254,
-["Player-3676-0E62967D"] = 581,
-["Player-3676-0E510969"] = 264,
-["Player-76-0B9DC077"] = 105,
-["Player-3676-0E1E1CCA"] = 260,
+["Player-3676-0EAC02C5"] = 265,
+["Player-3676-0E1DEFF1"] = 253,
 ["Player-3676-0EAC74D1"] = 1468,
+["Player-3676-0D8D0D2E"] = 253,
+["Player-57-0DEF62A2"] = 252,
+["Player-3676-0EA2D361"] = 72,
+["Player-3725-0B051BDB"] = 70,
+["Player-60-0FA92856"] = 267,
+["Player-57-0DEF24F9"] = 104,
+["Player-3209-0BFCADDF"] = 270,
+["Player-3675-0A50C0D9"] = 71,
+["Player-3676-06D631B8"] = 73,
+["Player-76-0BDA0F69"] = 62,
+["Player-60-0F9E1546"] = 258,
+["Player-3676-0E02A959"] = 253,
+["Player-11-0DDA9813"] = 264,
+["Player-125-0A7231B1"] = 104,
+["Player-76-0B65DBCA"] = 577,
+["Player-53-0DC9AB19"] = 256,
+["Player-60-0E863722"] = 70,
 },
 }

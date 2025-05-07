@@ -12,12 +12,14 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 385
+local BIGWIGS_VERSION = 386
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 38},
-	["BigWigs_Classic"] = {11, 1, 35},
-	["BigWigs_WrathOfTheLichKing"] = {11, 1, 2},
-	["BigWigs_Cataclysm"] = {11, 1, 3},
+	["LittleWigs"] = {11, 1, 41},
+	["BigWigs_Classic"] = {11, 1, 43},
+	["BigWigs_BurningCrusade"] = {11, 1, 2},
+	["BigWigs_WrathOfTheLichKing"] = {11, 1, 4},
+	["BigWigs_Cataclysm"] = {11, 1, 5},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 0},
 }
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -39,6 +41,7 @@ do
 	public.isTBC = tbl.isTBC
 	public.isWrath = tbl.isWrath
 	public.isCata = tbl.isCata
+	public.isMists = tbl.isMists
 	public.dbmPrefix = "D5"
 	public.littlewigsVersionString = L.missingAddOnPopup:format("LittleWigs")
 
@@ -47,7 +50,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "6db2cb9" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "0d07b1a" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -640,23 +643,14 @@ local function sysprint(msg)
 	print("|cFF33FF99BigWigs|r: "..msg)
 end
 
-local function load(obj, index)
-	if obj then return true end
+local function load(index)
+	if IsAddOnLoaded(index) then return true end
 
-	if loadOnSlash[index] then
-		if not IsAddOnLoaded(index) then -- Check if we need remove our slash handler stub.
-			for _, slash in next, loadOnSlash[index] do
-				hash_SlashCmdList[slash] = nil
-			end
+	if loadOnSlash[index] then -- Check if we need remove our slash handler stub.
+		for _, slash in next, loadOnSlash[index] do
+			hash_SlashCmdList[slash] = nil
 		end
 		loadOnSlash[index] = nil
-	end
-
-	if reqFuncAddons[index] then
-		reqFuncAddons[index] = nil
-		if index == "BigWigs_Core" then
-			reqFuncAddons.BigWigs_Plugins = nil
-		end
 	end
 
 	EnableAddOn(index) -- Make sure it wasn't left disabled for whatever reason
@@ -666,13 +660,11 @@ local function load(obj, index)
 		local msg = L.addOnLoadFailedWithReason:format(addonName, reason)
 		sysprint(msg)
 		Popup(msg, true)
-	elseif DoesAddOnHaveLoadError then
-		local addonName = GetAddOnInfo(index)
-		if DoesAddOnHaveLoadError(addonName) then -- XXX added in 11.1.5, compat code for classic
-			local msg = L.addOnLoadFailedUnknownError:format(addonName)
-			sysprint(msg)
-			Popup(msg, true)
-		end
+	--elseif DoesAddOnHaveLoadError and DoesAddOnHaveLoadError(index) then -- XXX only available in 11.1.5 and 1.15.7 atm
+	--	local addonName = GetAddOnInfo(index)
+	--	local msg = L.addOnLoadFailedUnknownError:format(addonName)
+	--	sysprint(msg)
+	--	Popup(msg, true)
 	end
 	return loaded
 end
@@ -682,7 +674,7 @@ local function loadAddons(tbl)
 
 	for i = 1, #tbl do
 		local index = tbl[i]
-		if not IsAddOnLoaded(index) and load(nil, index) then
+		if not IsAddOnLoaded(index) and load(index) then
 			local name = GetAddOnInfo(index)
 			public:SendMessage("BigWigs_ModulePackLoaded", name)
 		end
@@ -698,17 +690,23 @@ local function loadZone(zone)
 	end
 end
 
+local indexOfCore
 local function loadAndEnableCore()
-	local loaded = load(BigWigs, "BigWigs_Core")
+	if indexOfCore then -- Repo users don't have separate addons
+		load(indexOfCore)
+	end
 	if not BigWigs then return end
 	loadAddons(loadOnCoreEnabled)
 	BigWigs:Enable()
-	return loaded
+	return true
 end
 
+local indexOfOptions
 local function loadCoreAndOptions()
 	loadAndEnableCore()
-	load(BigWigsOptions, "BigWigs_Options")
+	if indexOfOptions then -- Repo users don't have separate addons
+		load(indexOfOptions)
+	end
 end
 
 do
@@ -799,6 +797,11 @@ do
 
 	for i = 1, GetNumAddOns() do
 		local name, _, _, _, addonState = GetAddOnInfo(i)
+		if name == "BigWigs_Core" then
+			indexOfCore = i
+		elseif name == "BigWigs_Options" then
+			indexOfOptions = i
+		end
 		if reqFuncAddons[name] then
 			EnableAddOn(i) -- Make sure it wasn't left disabled for whatever reason
 		end
@@ -851,7 +854,7 @@ do
 							-- Attempting to be smart. Only load core & config if it's a BW plugin.
 							loadCoreAndOptions()
 						end
-						if load(nil, i) then -- Load the addon/plugin
+						if load(i) then -- Load the addon/plugin
 							-- Call the slash command again, which should have been set by the addon.
 							-- Authors, do NOT delay setting it in OnInitialize/OnEnable/etc.
 							ChatFrame_ImportListToHash(SlashCmdList, hash_SlashCmdList)

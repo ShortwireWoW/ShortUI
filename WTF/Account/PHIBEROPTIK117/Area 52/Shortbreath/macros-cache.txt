@@ -28,6 +28,10 @@ VER 3 0100000000000002 "Rez" "134400"
 #showtooltip
 /cast [@mouseover] Return(Bronze)
 END
+VER 3 010000000000000D "Source of Magic" "134400"
+#showtooltip
+/cast [@mouseover] Source of Magic
+END
 VER 3 010000000000000B "Time Dilation" "134400"
 #showtooltip
 /cast [@mouseover] Time Dilation(Bronze)

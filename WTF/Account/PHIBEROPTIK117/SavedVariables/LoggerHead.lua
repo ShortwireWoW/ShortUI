@@ -1,8 +1,10 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortbeef - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortleaf - Stormrage"] = "Default",
 ["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
@@ -31,6 +33,7 @@ LoggerHeadDB = {
 ["The Rookery"] = {
 false,
 [23] = true,
+[8] = true,
 },
 ["The MOTHERLODE!!"] = {
 [23] = true,

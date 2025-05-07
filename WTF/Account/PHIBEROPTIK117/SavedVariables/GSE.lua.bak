@@ -6,10 +6,10 @@ GSEOptions = {
 ["msClickRate"] = 250,
 ["COMMENT"] = "|cff55cc55",
 ["filterList"] = {
-["All"] = true,
 ["Spec"] = true,
-["Global"] = true,
 ["Class"] = true,
+["Global"] = true,
+["All"] = true,
 },
 ["EQUALS"] = "|cffccddee",
 ["NUMBER"] = "|cffffaa00",
@@ -21,10 +21,9 @@ GSEOptions = {
 ["showCurrentSpells"] = true,
 ["KEYWORD"] = "|cff88bbdd",
 ["editorHeight"] = 500.0001831054688,
-["UseWLMExportFormat"] = true,
+["saveAllMacrosLocal"] = true,
 ["sendDebugOutputToDebugOutput"] = false,
-["ActiveSequenceVersions"] = {
-},
+["UseWLMExportFormat"] = true,
 ["Multiclick"] = true,
 ["DisabledSequences"] = {
 },
@@ -83,12 +82,13 @@ GSEOptions = {
 ["autoCreateMacroStubsGlobal"] = false,
 ["NormalColour"] = "|cFFFFFFFF",
 ["CreateGlobalButtons"] = false,
-["saveAllMacrosLocal"] = true,
+["ActiveSequenceVersions"] = {
+},
 ["setDefaultIconQuestionMark"] = true,
 ["Updates"] = {
+["3218"] = true,
 ["3200"] = true,
 ["3225"] = true,
-["3218"] = true,
 ["3225-d"] = true,
 },
 ["frameLocations"] = {

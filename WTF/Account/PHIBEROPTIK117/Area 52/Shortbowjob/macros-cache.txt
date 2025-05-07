@@ -76,6 +76,10 @@ VER 3 0100000000000011 "Interrupt" "134400"
 /petassist
 /castsequence reset=22 Counter Shot, Intimidation
 END
+VER 3 0100000000000015 "Intimidation" "134400"
+#showtooltip
+/cast [@mouseover] Intimidation
+END
 VER 3 010000000000000A "Kill Command" "134400"
 #showtooltip
 /petassist
@@ -125,4 +129,8 @@ END
 VER 3 0100000000000004 "Tar Trap" "134400"
 #showtooltip
 /cast [@cursor] Tar Trap
+END
+VER 3 0100000000000014 "Volley" "134400"
+#showtooltip
+/cast [@cursor] Volley
 END

@@ -30,10 +30,10 @@ local BigWigsAPI = BigWigsAPI
 local L = BigWigsAPI:GetLocale("BigWigs: Common")
 local LibSpec = LibStub("LibSpecialization", true)
 local loader = BigWigsLoader
-local isClassic, isRetail, isClassicEra, isCata, season = loader.isClassic, loader.isRetail, loader.isVanilla, loader.isCata, loader.season
+local isClassic, isRetail, isClassicEra, isCata, isMists, season = loader.isClassic, loader.isRetail, loader.isVanilla, loader.isCata, loader.isMists, loader.season
 local C_EncounterJournal_GetSectionInfo = isCata and function(key)
 	return C_EncounterJournal.GetSectionInfo(key) or BigWigsAPI:GetLocale("BigWigs: Encounter Info")[key]
-end or isRetail and C_EncounterJournal.GetSectionInfo or function(key)
+end or (isRetail or isMists) and C_EncounterJournal.GetSectionInfo or function(key)
 	return BigWigsAPI:GetLocale("BigWigs: Encounter Info")[key]
 end
 local UnitIsPlayer, UnitPosition, UnitIsConnected, UnitClass, UnitTokenFromGUID = UnitIsPlayer, UnitPosition, UnitIsConnected, UnitClass, loader.UnitTokenFromGUID
@@ -41,7 +41,7 @@ local GetSpellName, GetSpellTexture, GetTime, IsSpellKnown, IsPlayerSpell = load
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local EJ_GetEncounterInfo = isCata and function(key)
 	return EJ_GetEncounterInfo(key) or BigWigsAPI:GetLocale("BigWigs: Encounters")[key]
-end or isRetail and EJ_GetEncounterInfo or function(key)
+end or (isRetail or isMists) and EJ_GetEncounterInfo or function(key)
 	return BigWigsAPI:GetLocale("BigWigs: Encounters")[key]
 end
 local SendChatMessage, GetInstanceInfo, SimpleTimer, SetRaidTarget = loader.SendChatMessage, loader.GetInstanceInfo, loader.CTimerAfter, loader.SetRaidTarget
@@ -674,6 +674,7 @@ function boss:Disable(isWipe)
 		self.missing = nil
 		self.isWiping = nil
 		self.isEngaged = nil
+		self.isWinning = nil
 		self.bossTargetChecks = nil
 
 		if not isWiping then
@@ -1431,7 +1432,7 @@ do
 
 	--- Start a repeating timer checking if your group has left combat with a boss.
 	function boss:CheckForWipe()
-		if self:IsEnabled() and self:IsEngaged() then
+		if self:IsEnabled() and self:IsEngaged() and not self.isWinning then
 			for mobId in next, self.enableMobs do
 				local unit = findTargetByGUID(mobId)
 				if unit and UnitAffectingCombat(unit) then
@@ -1499,6 +1500,7 @@ do
 			twipe(spells)
 			if self.OnWin then self:OnWin() end
 			SimpleTimer(1, function() self:Disable() end) -- Delay a little to prevent re-enabling
+			self.isWinning = true -- Prevent a :CheckForWipe returning true during this 1 second delay
 			self:SendMessage("BigWigs_OnBossWin", self)
 			self:SendMessage("BigWigs_VictorySound", self)
 		end

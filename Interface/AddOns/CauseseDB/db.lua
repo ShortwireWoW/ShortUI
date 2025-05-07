@@ -67,6 +67,7 @@ CauseseDB = {
         ["212831"] = {[427897] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.8, 18.2}}, --Heat Wave
         ["239833"] = {[424431] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 26.1, 37.6}}, --Holy Radiance
         ["206704"] = {[448791] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 15.5, 21.7}}, --Sacred Toll
+        ["206699"] = {[446776] = {"SPELL_CAST_START", 2, "ALL", "Pounce Inc", 7, 17}}, --Pounce
         --Floodgate
         ["230748"] = {[465827] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 19.4}}, --Warp Blood
         ["231197"] = {
@@ -81,7 +82,7 @@ CauseseDB = {
         ["151476"] = {[295169] = {"SPELL_CAST_START", 2, "ALL", "Hide Inc", 16.7, 27.9}}, --Capacitor Discharge
         ["144299"] = {[293683] = {"SPELL_CAST_SUCCESS", 5, "ALL", "Shield Inc", 9.7, 21.9}}, --Shield Generator
         ["236033"] = {[1215412] = {"SPELL_CAST_START", 2, "ALL", "Absorb Inc", 8.5, 24.3}}, --Corrosive Gunk
-        ["151773"] = {[1217819] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Leap Inc", 8.5, 18.2}}, --Fiery Jaws
+        ["151773"] = {[1217819] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Leap Inc", 8.5, 20.6}}, --Fiery Jaws
         --Motherlode
         ["136139"] = {
             [263628] = {"SPELL_CAST_START", 4, "TANK", "Buster Inc", 16.5, 27}, --Charged Shield

@@ -1,12 +1,15 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
 
-<!-- Vanilla through WotLK and War Within+ only: <Include file="Deadmines\modules.xml"/> -->
-<!-- Vanilla through Cata only: <Include file="BlackrockSpire\modules.xml"/> -->
-<!-- Vanilla only: <Include file="DemonFallCanyon\modules.xml"/> -->
-<!-- Vanilla only: <Include file="KarazhanCrypts\modules.xml"/> -->
-
 <!--<Include file="BlackrockDepths\modules.xml"/>-->
+
+<Script file="Deadmines\RhahkZor.lua"/>
+<Script file="Deadmines\Sneed.lua"/>
+<Script file="Deadmines\Gilnid.lua"/>
+<Script file="Deadmines\MrSmite.lua"/>
+<Script file="Deadmines\CaptainGreenskin.lua"/>
+<Script file="Deadmines\EdwinVanCleef.lua"/>
+<Script file="Deadmines\Cookie.lua"/>
 
 <Script file="DireMaul\TendrisWarpwood.lua"/>
 <Script file="DireMaul\IllyannaRavenoak.lua"/>

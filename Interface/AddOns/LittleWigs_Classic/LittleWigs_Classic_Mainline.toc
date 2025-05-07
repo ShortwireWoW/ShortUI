@@ -1,4 +1,4 @@
-## Interface: 110105, 110007, 110100
+## Interface: 110105, 110107, 110100
 
 ## Title: LittleWigs [|cffeda55fClassic|r]
 ## Title-deDE: LittleWigs [|cffeda55fClassic|r]
@@ -19,7 +19,6 @@
 ## X-Category: Party
 ## X-BigWigs-LoadOn-InstanceId: 36, 209, 329, 429
 
-Deadmines\modules.xml
 modules.xml
 
 !Locales\deDE.lua
