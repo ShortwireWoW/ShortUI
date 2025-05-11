@@ -1,0 +1,28 @@
+
+ElvCharacterDB = {
+["ConvertKeybindings"] = true,
+["ChatEditHistory"] = {
+"/bw",
+"/pull 109",
+"/pull 10",
+"/cw Seraphiel-Hyjal am I fucking up Gravi Gunk?",
+"/cw Seraphiel-Hyjal am I not supposed to have the Gravi Gunk debuff before taking party pack?",
+"/cw Twistedwilds-Illidan Tank this one",
+"/break 5",
+"/rc",
+"/cw Xarlo-Stormrage yeah",
+"/cw Xarlo-Stormrage because we lost all our good dps",
+"/mrt",
+"/details reset",
+"/cw Xarlo-Stormrage it's gonna be rough",
+"/mrt n",
+"/dance",
+"/wa",
+"/fstack",
+"/simc",
+"/macro",
+"/omnicd",
+},
+["ChatHistoryLog"] = {
+},
+}

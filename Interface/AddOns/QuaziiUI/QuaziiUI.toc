@@ -1,0 +1,19 @@
+## Interface: 110005
+## Title: |cFF30D1FFQuazii|r UI (Retail)
+## IconTexture: Interface\AddOns\QuaziiUI\assets\quaziiLogo
+## AddonCompartmentFunc: QuaziiUI_CompartmentClick
+## AddonCompartmentFuncOnEnter: QuaziiUI_CompartmentOnEnter
+## AddonCompartmentFuncOnLeave: QuaziiUI_CompartmentOnLeave
+## Notes: Installer for |cFF30D1FFQuazii|r UI
+## Author: Chats
+## Version: 20241101
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: QuaziiUI_DB
+## OptionalDeps: ElvUI, Cell, OmniCD, WeakAuras, Details, Plater, MythicDungeonTools
+
+## X-Contributors: Quazii, Knuffelpanda
+## X-License: GPLv3
+## X-Website: https://quazii.com
+
+load.xml

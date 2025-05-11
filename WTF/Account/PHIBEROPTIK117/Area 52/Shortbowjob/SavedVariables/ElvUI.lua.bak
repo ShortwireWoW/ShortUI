@@ -1,0 +1,14 @@
+
+ElvCharacterDB = {
+["ConvertKeybindings"] = true,
+["ChatEditHistory"] = {
+"/details opt",
+"/details",
+"/details options",
+"/qui",
+"/wa",
+"/elvui",
+},
+["ChatHistoryLog"] = {
+},
+}

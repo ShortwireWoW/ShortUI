@@ -1,76 +1,33 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
-["Shortbeef - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortleaf - Stormrage"] = "Default",
-["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
 ["raid"] = {
 ["Liberation of Undermine"] = {
-[14] = true,
-[16] = true,
 [15] = true,
-[17] = false,
-},
-["Onyxia's Lair"] = {
-[4] = false,
 },
 },
 ["scenario"] = {
 ["Earthcrawl Mines"] = {
-[208] = false,
+[208] = true,
 },
 },
 ["party"] = {
-["Eye of Azshara"] = {
-[24] = false,
-},
-["The Rookery"] = {
-false,
-[23] = true,
-[8] = true,
-},
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
-false,
+["The Rookery"] = {
+[23] = false,
 },
-["The Stonevault"] = {
-false,
-},
-["Priory of the Sacred Flame"] = {
-false,
-},
-["Court of Stars"] = {
-[24] = false,
-},
-["Darkheart Thicket"] = {
-[24] = false,
-},
-["Theater of Pain"] = {
+["Operation: Mechagon"] = {
 [23] = true,
 [8] = true,
-},
-["Black Rook Hold"] = {
-[24] = false,
-},
-["City of Threads"] = {
-false,
-},
-["Darkflame Cleft"] = {
-false,
-[8] = true,
-[23] = true,
-},
-["Ara-Kara, City of Echoes"] = {
-false,
 },
 },
 },

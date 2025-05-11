@@ -1,6 +1,8 @@
 # LittleWigs
 
-## [v11.1.41](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.41) (2025-05-03)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.40...v11.1.41) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.43](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.43) (2025-05-09)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.42...v11.1.43) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Classic: Refactor locale and options (#1335)  
+- MoP: Add Mists toc (#1339)  
+- Delves/SidestreetSluice/Geargrave: Cleanup  
+- Delves/SidestreetSluice/Geargrave: Fix enablement in The Spiral Weave  

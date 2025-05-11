@@ -1,7 +1,0 @@
-## Interface: 100207
-## Title: SMLS_DevTools
-## Notes: Adds debug buttons for SMLS dev tools.
-## Author: You
-## Version: 1.0.0
-
-SMLS_DevTools.lua

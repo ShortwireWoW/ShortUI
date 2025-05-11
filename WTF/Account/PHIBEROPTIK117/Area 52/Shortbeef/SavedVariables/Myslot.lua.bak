@@ -1,7 +1,0 @@
-
-MyslotSettings = {
-["minimap"] = {
-["minimapPos"] = 193.5818374416099,
-["hide"] = true,
-},
-}
