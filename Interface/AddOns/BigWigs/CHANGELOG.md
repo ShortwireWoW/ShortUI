@@ -1,7 +1,18 @@
 # BigWigs
 
-## [v386.1](https://github.com/BigWigsMods/BigWigs/tree/v386.1) (2025-05-08)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v386...v386.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v386.2](https://github.com/BigWigsMods/BigWigs/tree/v386.2) (2025-05-12)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v386.1...v386.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
+- Update deDE (#2041)  
+- Update zhCN/zhTW (#2040)  
+- Plugins: Hard embed the older version of LibCustomGlow until the issues in the new version are resolved, closes #2036  
 - Bump version  
-- Options: Fix not being able to disable options represented by a string key, regression from 2345e1f646d48d7551e029d56bb3d5baf40375d5  
+- Locales: Add more common locale  
+- Update deDE (#2039)  
+- Update zhCN/zhTW (#2038)  
+- Update koKR (#2037)  
+- Locales: Add more common locale  
+- Loader: Remove locale compat code  
+- Loader: Remove `BigWigsLoader:RegisterTooltipInfo()`  
+- Update zhTW (#2035)  
+- Remove `BigWigsLoader:GetVersionString()`  

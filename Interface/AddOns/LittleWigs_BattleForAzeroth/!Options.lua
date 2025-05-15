@@ -1239,7 +1239,7 @@ BigWigs:AddSounds("Temple of Sethraliss Trash", {
 })
 
 BigWigs:AddColors("Coin-Operated Crowd Pummeler", {
-	[256493] = {"blue","green"},
+	[256493] = "green",
 	[262347] = "red",
 	[269493] = "cyan",
 	[271784] = "yellow",
@@ -1249,7 +1249,7 @@ BigWigs:AddColors("Coin-Operated Crowd Pummeler", {
 })
 
 BigWigs:AddSounds("Coin-Operated Crowd Pummeler", {
-	[256493] = {"alarm","info"},
+	[256493] = "info",
 	[262347] = "alert",
 	[269493] = "long",
 	[271784] = "info",
@@ -1308,6 +1308,7 @@ BigWigs:AddColors("The MOTHERLODE!! Trash", {
 	[262092] = "orange",
 	[262377] = {"blue","yellow"},
 	[262383] = "cyan",
+	[262794] = {"blue","yellow"},
 	[263202] = "red",
 	[263215] = "orange",
 	[263628] = "purple",
@@ -1337,6 +1338,7 @@ BigWigs:AddSounds("The MOTHERLODE!! Trash", {
 	[262092] = "alert",
 	[262377] = "info",
 	[262383] = "info",
+	[262794] = "info",
 	[263202] = "alert",
 	[263215] = "alert",
 	[263628] = "alert",

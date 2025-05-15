@@ -1,8 +1,13 @@
 # LittleWigs
 
-## [v11.1.43](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.43) (2025-05-09)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.42...v11.1.43) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.44](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.44) (2025-05-12)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.43...v11.1.44) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- MoP: Add Mists toc (#1339)  
-- Delves/SidestreetSluice/Geargrave: Cleanup  
-- Delves/SidestreetSluice/Geargrave: Fix enablement in The Spiral Weave  
+- Delves/Trash/Overcharged: Add trash module (#1340)  
+- BfA/TheMotherlode/Trash: Mind Lash  
+- BfA/TheMotherlode/CrowdPummeler: Cleanup  
+- MoP/TempleOfTheJadeSerpent/ShaOfDoubt: Mists Classic support  
+- MoP/TempleOfTheJadeSerpent/LiuFlameheart: Mists Classic support  
+- MoP/TempleOfTheJadeSerpent/LorewalkerStonestep: Mists Classic support  
+- MoP/TempleOfTheJadeSerpent/WiseMari: Mists Classic support  
+- MoP/TempleOfTheJadeSerpent/Trash: Don't load on Mists Classic  

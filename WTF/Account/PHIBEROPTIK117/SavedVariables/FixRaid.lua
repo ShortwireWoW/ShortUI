@@ -4,7 +4,7 @@ FixRaidDB = {
 ["Default"] = {
 ["options"] = {
 ["minimapIcon"] = {
-["minimapPos"] = 277.5946806938569,
+["minimapPos"] = 287.5534346376314,
 },
 },
 },
@@ -31,15 +31,25 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Shamzerg-Duskwood"] = 1747157822,
 },
 ["ranged"] = {
+["Hawkeyef-Area52"] = 1747187223,
+["Bigdraco-Khadgar"] = 1747273889,
+["Whoflungpoop-Aegwynn"] = 1747186115,
+["Deadlyalba-Quel'dorei"] = 1747157882,
+["Khurthalos-Stormrage"] = 1747157872,
+["Basarsaris-Stormrage"] = 1747157812,
+["Camboni-Area52"] = 1747157821,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
+["Twistedtraps-Illidan"] = 1747010292,
 },
 ["ranged"] = {
-["Skronkles-Bonechewer"] = 1746928511,
+["Skronkles-Bonechewer"] = 1747188734,
+["Twistedsham-Stormrage"] = 1747018719,
 ["Beernuts-Doomhammer"] = 1746839663,
 ["Twistedwilds-Illidan"] = 1746934239,
 ["Stallos-Doomhammer"] = 1746838938,

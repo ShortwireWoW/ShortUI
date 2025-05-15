@@ -14,14 +14,14 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 386
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 42},
-	["BigWigs_Classic"] = {11, 1, 44},
+	["LittleWigs"] = {11, 1, 44},
+	["BigWigs_Classic"] = {11, 1, 47},
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 4},
 	["BigWigs_Cataclysm"] = {11, 1, 5},
 	["BigWigs_MistsOfPandaria"] = {11, 1, 0},
 }
-local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING
+local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
 local customGuildName = false
 local BIGWIGS_GUILD_VERSION = 0
@@ -50,7 +50,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "a431793" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "8608853" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -85,11 +85,9 @@ do
 		releaseString = L.guildRelease:format(BIGWIGS_GUILD_VERSION, BIGWIGS_VERSION)
 		versionQueryString = versionQueryString:format(BIGWIGS_VERSION, myGitHash, tbl.guildVersion, tbl.guildName)
 		versionResponseString = versionResponseString:format(BIGWIGS_VERSION, myGitHash, tbl.guildVersion, tbl.guildName)
-		BIGWIGS_VERSION_STRING = ("%d/%d-%s"):format(BIGWIGS_GUILD_VERSION, BIGWIGS_VERSION, myGitHash)
 	else
 		versionQueryString = versionQueryString:format(BIGWIGS_VERSION, myGitHash, 0, "")
 		versionResponseString = versionResponseString:format(BIGWIGS_VERSION, myGitHash, 0, "")
-		BIGWIGS_VERSION_STRING = ("%d-%s"):format(BIGWIGS_VERSION, myGitHash)
 	end
 
 	BIGWIGS_RELEASE_STRING = releaseString
@@ -100,7 +98,6 @@ end
 -- Locals
 --
 
-local tooltipFunctions = {}
 local next, tonumber, type, strsplit, strsub = next, tonumber, type, strsplit, string.sub
 local SendAddonMessage, RegisterAddonMessagePrefix, CTimerAfter, CTimerNewTimer = C_ChatInfo.SendAddonMessage, C_ChatInfo.RegisterAddonMessagePrefix, C_Timer.After, C_Timer.NewTimer
 local GetInstanceInfo, GetBestMapForUnit, GetMapInfo = GetInstanceInfo, C_Map.GetBestMapForUnit, C_Map.GetMapInfo
@@ -765,23 +762,13 @@ function dataBroker.OnTooltipShow(tt)
 			end
 		end
 	end
-	for i = 1, #tooltipFunctions do
-		tooltipFunctions[i](tt)
-	end
-	tt:AddLine(L.tooltipHint, 0.2, 1, 0.2, true)
-end
-
------------------------------------------------------------------------
--- Version listing functions
---
-
-tooltipFunctions[#tooltipFunctions+1] = function(tt)
 	for _, version in next, usersVersion do
 		if version < highestFoundVersion then
 			tt:AddLine(L.oldVersionsInGroup, 1, 1, 1, true)
 			break
 		end
 	end
+	tt:AddLine(L.tooltipHint, 0.2, 1, 0.2, true)
 end
 
 -----------------------------------------------------------------------
@@ -2017,21 +2004,8 @@ public.RegisterMessage(mod, "BigWigs_CoreDisabled")
 -- API
 --
 
-function public:RegisterTooltipInfo(func)
-	for i = 1, #tooltipFunctions do
-		if tooltipFunctions[i] == func then
-			error(("The function %q has already been registered."):format(func))
-		end
-	end
-	tooltipFunctions[#tooltipFunctions+1] = func
-end
-
 function public:GetReleaseString()
 	return BIGWIGS_RELEASE_STRING
-end
-
-function public:GetVersionString()
-	return BIGWIGS_VERSION_STRING
 end
 
 function public:GetZoneMenus()
@@ -2156,11 +2130,3 @@ end
 --
 
 BigWigsLoader = setmetatable({}, { __index = public, __newindex = function() end, __metatable = false })
-
--- XXX Temp locale compat
-local tempLocale = BigWigsAPI:NewLocale("BigWigs: Plugins", myLocale)
-if tempLocale then
-	for k,v in next, L do
-		tempLocale[k] = v
-	end
-end

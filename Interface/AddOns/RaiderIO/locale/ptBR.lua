@@ -139,6 +139,10 @@ L["DUNGEON_SHORT_NAME_YARD"] = "Gnomecan - Ferro-velho"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar o Quadro de Perfil do Raider.IO Automaticamente."
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Ativar isso manterá o Quadro de perfil de M+ ao lado do \"Localizador de grupos\"."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Você está ativando o modo de depuração. Destina-se apenas a fins de teste e desenvolvimento e incorrerá em uso adicional de memória. Clicar em Confirmar recarregará sua interface."
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Bloquear quadro de perfil do Raider.IO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Impede que o quadro de perfil M+ seja arrastado. Isso não tem efeito se o quadro de perfil M+ estiver definido para ser posicionado automaticamente."
 L["ENABLE_NO_SCORE_COLORS"] = "Desativar todas as cores de pontuação de Míticas+"
@@ -190,6 +194,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Botão de travar"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Habilitar botão de minimapa"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Ative para exibir o ícone ao redor do minimapa."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Trancar botão de minimapa"
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "Américas"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Coréia"

@@ -155,6 +155,10 @@ L["DUNGEON_SHORT_NAME_WORK"] = "OFFICINA"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posiziona Automaticamente la Cornice del Profilo RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Abilitando questa Opzione manterrai la Descrizione del Profilo M+ accanto Finestra della Ricerca delle Incursioni o al Tooltip del Giocatore."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Stai abilitando la modalità Debug. Questa modalità è indicata solo per test e sviluppatori e richiederà un ulteriore utilizzo di memoria. Premere Conferma farà ricaricare l'interfaccia"
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Blocca Finestra del Profilo RaiderIO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Impedisce il Trascinamento della Finestra del Profilo M+. Questo non ha alcun Effetto se la Finestra del Profilo M+ è impostata per essere Posizionata Automaticamente."
 L["ENABLE_NO_SCORE_COLORS"] = "Disabilita Colori Punteggio"
@@ -209,6 +213,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Pulsante di blocco"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Abilita il pulsante della minimappa"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Abilita per visualizzare l'icona attorno alla minimappa."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Blocca pulsante della minimappa"
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "America"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Korea"

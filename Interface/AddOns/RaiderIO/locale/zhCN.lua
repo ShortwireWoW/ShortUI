@@ -135,6 +135,10 @@ L["DUNGEON_SHORT_NAME_YARD"] = "麦卡贡垃圾场"
 L["ENABLE_AUTO_FRAME_POSITION"] = "自动调整Raider.IO个人页面的位置"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "开启此项将会在地下城查找器或者玩家框体上显示大秘境个人信息的鼠标提示。"
 L["ENABLE_DEBUG_MODE_RELOAD"] = "你正在开启Debug模式。该模式仅是为了测试插件，并且会使用额外的内存空间。点击确认将会重载你的界面。"
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "锁定Raider.IO个人信息框架"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "阻止大秘境个人信息框架被拖拽。如果你已经选择了自动调整其位置，则该选项将不会有任何作用。"
 L["ENABLE_NO_SCORE_COLORS"] = "关闭所有大秘境分数颜色"
@@ -191,6 +195,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "锁定按钮"
 --[[ L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "美洲"
 L["MODULE_EUROPE"] = "欧洲"
 L["MODULE_KOREA"] = "韩国"

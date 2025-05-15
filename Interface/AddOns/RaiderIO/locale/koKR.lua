@@ -164,6 +164,10 @@ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "활성화시 프로필 툴팁이 파티 
 L["ENABLE_DEBUG_MODE_RELOAD"] = [=[디버그 모드를 활성화합니다.
 이것은 테스트 및 개발 목적으로만 사용되며 추가 메모리를 사용합니다.
 확인을 클릭하면 인터페이스가 다시 로드됩니다.]=]
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "내 프로필 고정"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "내 프로필이 드래그 이동되는걸 방지합니다. 위치 자동화 설정을 사용중일 경우 효과가 없습니다."
 L["ENABLE_NO_SCORE_COLORS"] = "점수 색상 끄기"
@@ -242,6 +246,8 @@ L["MAINS_SCORE"] = "주 캐릭터 점수"
 --[[ L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "북미"
 L["MODULE_EUROPE"] = "유럽"
 L["MODULE_KOREA"] = "한국"

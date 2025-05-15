@@ -33,3 +33,5 @@ RaiderIO_DB_EU_F: disabled
 LittleWigs: enabled
 BigWigs_LiberationOfUndermine: enabled
 LittleWigs_BattleForAzeroth: enabled
+BigWigs_KhazAlgar: enabled
+LittleWigs_Shadowlands: enabled

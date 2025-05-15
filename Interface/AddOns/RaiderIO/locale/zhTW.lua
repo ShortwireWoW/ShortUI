@@ -124,6 +124,10 @@ L["DUNGEON_SHORT_NAME_YARD"] = "廢料場"
 L["ENABLE_AUTO_FRAME_POSITION"] = "自動定位Raider.IO紀錄框架"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "啟用此選項會將M+紀錄保持在隊伍搜尋器與玩家提示旁。"
 L["ENABLE_DEBUG_MODE_RELOAD"] = "您正在啟用偵錯模式。 這僅用於測試和開發目的，並且會使用額外的記憶體。單擊確認將重新載入您的介面。"
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "鎖定Raider.IO紀錄框架"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "防止M+紀錄框架被拖動。如果將M +紀錄框架設置為自動定位，則不起作用。"
 L["ENABLE_NO_SCORE_COLORS"] = "停用所有傳奇+分數著色"
@@ -175,6 +179,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "鎖定按鈕"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "啟用小地圖按鈕"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "啟用以在小地圖周圍顯示圖示。"
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "鎖定小地圖按鈕"
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "美洲"
 L["MODULE_EUROPE"] = "歐洲"
 L["MODULE_KOREA"] = "韓國"

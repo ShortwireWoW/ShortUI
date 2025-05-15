@@ -154,6 +154,10 @@ L["DUNGEON_SHORT_NAME_WORK"] = "Mécagone"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positionner automatiquement le cadre de profil Raider.IO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "L'activation de cette option conservera l'info-bulle du profil M+ à côté du cadre de Recherche de groupe ou de l'info-bulle du joueur."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Vous activez le mode débogage. Ceci est destiné uniquement à des fins de test et de développement et entraînera une utilisation supplémentaire de la mémoire. En cliquant sur Confirmer, vous rechargerez votre interface."
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Verrouiller le cadre de profil Raider.IO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Empêche le déplacement du cadre de profil M+. Cela n'a aucun effet si le cadre de profil M+ est configuré pour être positionné automatiquement."
 L["ENABLE_NO_SCORE_COLORS"] = "Désactiver les couleurs de score"
@@ -206,6 +210,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Verrouiller le bouton"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Activer le bouton de la mini-carte"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Activez pour afficher le bouton autour de la mini-carte."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Verrouiller le bouton sur la mini-carte"
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "Amérique"
 L["MODULE_EUROPE"] = "Europe"
 L["MODULE_KOREA"] = "Corée"

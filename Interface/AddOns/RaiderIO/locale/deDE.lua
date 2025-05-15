@@ -126,6 +126,10 @@ L["DUNGEON_SHORT_NAME_YARD"] = "Operation Mechagon - Schrottplatz"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positioniert den Raider.IO Profilrahmen automatisch"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Wenn du dies aktivierst, wird der M+ Profile-Tooltip neben dem Dungeonbrowserrahmen oder dem Spieler-Tooltip angezeigt."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Du aktivierst den Debug-Modus. Dies ist nur zu Test- und Entwicklungszwecken gedacht und führt zu einer zusätzlichen Speichernutzung. Klicke auf Bestätigen, um das Interface neu zu laden."
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Sperre Raider.IO Profilrahmen"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Verhindert, dass der M+ Profilrahmen gezogen wird. Dies hat keine Auswirkung, wenn der M+ Profilrahmen so eingestellt ist, dass er automatisch positioniert wird."
 L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviert alle Mythisch+ Wertungsfarben"
@@ -177,6 +181,8 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Knopf sperren"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Minimap Button anzeigen"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Aktiviert die Anzeige des Symbols an der Minimap."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Minimap Button sperren"
+--[[Translation missing --]]
+--[[ L["MISC_SETTINGS"] = ""--]] 
 L["MODULE_AMERICAS"] = "Amerika"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Korea"

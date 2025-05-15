@@ -35,6 +35,9 @@ VER 3 0000000000000069 "Raid Invite Time" "132208"
 /run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))
 /rt inv
 END
+VER 3 000000000000006B "RaidHowTo" "413580"
+/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("SHORT_RI", UnitName("target"), "WHISPER", UnitName("player")) end
+END
 VER 3 0000000000000065 "Swap Blaster" "134400"
 #showtooltip
 /cast [@mouseover] Swapblaster

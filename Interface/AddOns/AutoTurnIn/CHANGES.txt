@@ -1,0 +1,12 @@
+tag 7c2df9939aeecc828a8a213dd660aef9ef765119 11.0.1
+Author:	Lure <alex.shubert@gmail.com>
+Date:	Thu Aug 15 20:38:29 2024 -0400
+
+11.0.1
+
+commit 2f43c471fb8d28634de4bf616faa0366c6686163
+Author: Lure <alex.shubert@gmail.com>
+Date:   Thu Aug 15 20:38:08 2024 -0400
+
+    fix deprecations
+
