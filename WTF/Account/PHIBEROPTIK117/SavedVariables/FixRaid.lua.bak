@@ -1,5 +1,18 @@
 
 FixRaidDB = {
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 287.5534346376314,
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -18,42 +31,68 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Shamzerg-Duskwood"] = 1747157822,
+["Bruuyin-Quel'Thalas"] = 1747344144,
+["Dáriá-Stormrage"] = 1747405243,
+["Wargenfreema-Zuluhed"] = 1747404216,
+["Thundrstruck-Frostmourne"] = 1747405130,
+["Moneyshaht-Illidan"] = 1747342717,
+["Louseephur-Tichondrius"] = 1747405241,
+["Shamanation-BlackwaterRaiders"] = 1747343632,
+["Rogrigar-Dalaran"] = 1747358877,
 },
 ["ranged"] = {
-["Hawkeyef-Area52"] = 1747187223,
-["Camboni-Area52"] = 1747157821,
-["Basarsaris-Stormrage"] = 1747157812,
-["Khurthalos-Stormrage"] = 1747157872,
-["Deadlyalba-Quel'dorei"] = 1747157882,
-["Whoflungpoop-Aegwynn"] = 1747186115,
+["Ilthurial-Thunderhorn"] = 1747345592,
+["Philipy-Sargeras"] = 1747345105,
+["Gunde-Feathermoon"] = 1747404215,
+["Tukula-Hyjal"] = 1747343644,
+["Terminaty-Area52"] = 1747343646,
+["Mexrex-Area52"] = 1747342705,
+["Melon-Coilfang"] = 1747343018,
+["Soulzhunter-Area52"] = 1747345137,
+["Edmônd-Thrall"] = 1747404194,
+["Temuchin-Winterhoof"] = 1747343019,
+["Cormech-SilverHand"] = 1747360692,
+["Loonghuang-Winterhoof"] = 1747344914,
+["Hawrk-Frostmourne"] = 1747405182,
+["Redik-Undermine"] = 1747344932,
+["Madgarre-Stormrage"] = 1747344133,
+["Mittzu-Area52"] = 1747343634,
+["Kuncumm-Frostmourne"] = 1747404811,
+["Azphar-Bonechewer"] = 1747404883,
+["Bobwire-Bloodscalp"] = 1747345195,
+["Khalneesia-Proudmoore"] = 1747342701,
+["Dalarien-Stormrage"] = 1747404236,
+["Rusdd-Quel'Thalas"] = 1747346784,
+["Dixiendrag-Area52"] = 1747360223,
+["Onetwøtree-Area52"] = 1747345562,
+["Coldrotha-BleedingHollow"] = 1747342921,
+["Bigperc-Dalaran"] = 1747345561,
+["Eooman-Ragnaros"] = 1747346926,
+["Kilara-Thunderlord"] = 1747343638,
+["Cabetyr-Quel'Thalas"] = 1747343658,
+["Moneyshõt-Illidan"] = 1747343652,
+["Icemaw-Velen"] = 1747405211,
+["Melaphistele-Bronzebeard"] = 1747405138,
+["Bluehydra-BlackwaterRaiders"] = 1747344130,
+["Röllback-Azralon"] = 1747343020,
+["Volpy-Zul'jin"] = 1747405232,
+["Tumudruid-Ragnaros"] = 1747345139,
+["Slymensträ-AeriePeak"] = 1747345560,
+["Brimstones-Silvermoon"] = 1747405179,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
+["Twistedwilds-Illidan"] = 1747442459,
 ["Twistedtraps-Illidan"] = 1747010292,
 },
 ["ranged"] = {
-["Skronkles-Bonechewer"] = 1747188734,
+["Skronkles-Bonechewer"] = 1747443317,
 ["Twistedsham-Stormrage"] = 1747018719,
 ["Metaltits-Area52"] = 1746925234,
-["Twistedwilds-Illidan"] = 1746934239,
 ["Stallos-Doomhammer"] = 1746838938,
 ["Beernuts-Doomhammer"] = 1746839663,
 ["Melzie-Draenor"] = 1746934305,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 277.5946806938569,
 },
 },
 },

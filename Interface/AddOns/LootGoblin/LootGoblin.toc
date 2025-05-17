@@ -1,0 +1,7 @@
+## Interface: 100207
+## Title: LootGoblin
+## Notes: Written for Drunk n' Disorderly. Scans raid members for their equipped items, watches for players rolling on items they may not need to prevent loot goblins.
+## Author: ShortWire (Shorty)
+## Version: 1.0.0
+
+LootGoblin_Debug.lua

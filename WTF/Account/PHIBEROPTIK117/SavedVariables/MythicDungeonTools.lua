@@ -27,9 +27,19 @@ MythicDungeonToolsDB = {
 ["difficulty"] = 21,
 ["uid"] = "Pl8cdUJoJhw",
 ["addonVersion"] = 530,
+["week"] = 1,
 ["value"] = {
 ["currentPull"] = 11,
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 115,
+["teeming"] = false,
+["selection"] = {
+11,
+},
 ["pulls"] = {
 {
 {
@@ -142,13 +152,13 @@ MythicDungeonToolsDB = {
 [14] = {
 3,
 },
+["color"] = "ff9b3e",
 [7] = {
 10,
 },
 [9] = {
 8,
 },
-["color"] = "ff9b3e",
 },
 {
 ["color"] = "3e3eff",
@@ -362,24 +372,10 @@ MythicDungeonToolsDB = {
 ["color"] = "ff3e3e",
 },
 },
-["currentDungeonIdx"] = 115,
-["teeming"] = false,
-["selection"] = {
-11,
-},
-["riftOffsets"] = {
-{
-},
-},
-},
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
 },
 ["text"] = "Priory Pug (2025.03.02)",
 ["objects"] = {
 {
-["n"] = true,
 ["d"] = {
 629.7083431381536,
 -257.6333805305099,
@@ -387,8 +383,18 @@ MythicDungeonToolsDB = {
 true,
 "kill on right side; to spawn Shaynemail",
 },
+["n"] = true,
 },
 {
+["d"] = {
+5,
+1.1,
+1,
+true,
+"00ffe4",
+-8,
+true,
+},
 ["l"] = {
 "552.7",
 "-277.7",
@@ -519,17 +525,17 @@ true,
 "621.7",
 "-258.6",
 },
+},
+{
 ["d"] = {
 5,
 1.1,
 1,
 true,
 "00ffe4",
--8,
+-7,
 true,
 },
-},
-{
 ["l"] = {
 "619.3",
 "-253.0",
@@ -556,17 +562,17 @@ true,
 "614.3",
 "-260.6",
 },
+},
+{
 ["d"] = {
 5,
 1.1,
 1,
-true,
+false,
 "00ffe4",
--7,
+-8,
 true,
 },
-},
-{
 ["l"] = {
 "535.9",
 "-253.4",
@@ -673,23 +679,8 @@ true,
 "569.1",
 "-205.1",
 },
-["d"] = {
-5,
-1.1,
-1,
-false,
-"00ffe4",
--8,
-true,
-},
 },
 {
-["l"] = {
-"569.8",
-"-206.2",
-"568.4",
-"-204.6",
-},
 ["d"] = {
 5,
 1.1,
@@ -699,9 +690,18 @@ false,
 0,
 true,
 },
+["l"] = {
+"569.8",
+"-206.2",
+"568.4",
+"-204.6",
 },
 },
-["week"] = 1,
+},
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
 },
 {
 ["value"] = 0,
@@ -717,6 +717,7 @@ true,
 {
 ["objects"] = {
 {
+["n"] = true,
 ["d"] = {
 270.557708804282,
 -290.6771228934683,
@@ -724,9 +725,9 @@ true,
 true,
 "not more than 2 Muscles per pull; lust the first pull; also never play Chewie with too many mobs.",
 },
-["n"] = true,
 },
 {
+["n"] = true,
 ["d"] = {
 291.3614008677607,
 -75.12787730943693,
@@ -734,9 +735,9 @@ true,
 true,
 "can skip this with CCs - soothe, ring para, cage; if not just play it",
 },
-["n"] = true,
 },
 {
+["n"] = true,
 ["d"] = {
 398.8471542179193,
 -139.8504380996405,
@@ -744,9 +745,9 @@ true,
 true,
 "room is dangerous if you point charges into other mobs; recommend pulling into previous room if possible. ",
 },
-["n"] = true,
 },
 {
+["n"] = true,
 ["d"] = {
 527.1364673653287,
 -452.4834918024203,
@@ -754,9 +755,9 @@ true,
 true,
 "jump down via ledge to the left, to avoid pulliing G40",
 },
-["n"] = true,
 },
 {
+["n"] = true,
 ["d"] = {
 390.7567597193907,
 -372.1582115644432,
@@ -764,23 +765,22 @@ true,
 true,
 "jump to the right, to avoid pulling G49",
 },
-["n"] = true,
 },
 },
 ["uid"] = "AZJojP9lKf2",
 ["addonVersion"] = 530,
-["difficulty"] = 21,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
-["text"] = "Cinderbrew Pug (2025.02.03)",
-["week"] = 1,
 ["value"] = {
 ["selection"] = {
 13,
 },
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 116,
+["teeming"] = false,
+["currentPull"] = 13,
 ["pulls"] = {
 {
 {
@@ -880,10 +880,10 @@ true,
 2,
 3,
 },
-["color"] = "3eff3e",
 [13] = {
 2,
 },
+["color"] = "3eff3e",
 },
 {
 [11] = {
@@ -894,9 +894,9 @@ true,
 4,
 },
 ["color"] = "ff3e9e",
-[12] = {
-},
 [2] = {
+},
+[12] = {
 },
 },
 {
@@ -932,11 +932,11 @@ true,
 [14] = {
 8,
 },
-["color"] = "3e3eff",
 [2] = {
 15,
 16,
 },
+["color"] = "3e3eff",
 },
 {
 [11] = {
@@ -1050,12 +1050,12 @@ true,
 11,
 },
 ["color"] = "fffb3e",
+[24] = {
+},
 [23] = {
 },
 [9] = {
 4,
-},
-[24] = {
 },
 },
 {
@@ -1142,7 +1142,7 @@ true,
 },
 [10] = {
 },
-[2] = {
+[6] = {
 },
 [11] = {
 },
@@ -1153,7 +1153,7 @@ true,
 },
 [12] = {
 },
-[6] = {
+[2] = {
 },
 },
 {
@@ -1174,14 +1174,14 @@ true,
 },
 },
 },
-["currentDungeonIdx"] = 116,
-["teeming"] = false,
-["currentPull"] = 13,
-["riftOffsets"] = {
-{
 },
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
 },
-},
+["text"] = "Cinderbrew Pug (2025.02.03)",
+["week"] = 1,
+["difficulty"] = 21,
 },
 {
 ["value"] = 0,
@@ -1204,6 +1204,7 @@ true,
 ["text"] = "Darkflame PUG (2025.03.02)",
 ["objects"] = {
 {
+["n"] = true,
 ["d"] = {
 195.5172282650758,
 -249.4370459735623,
@@ -1211,9 +1212,9 @@ true,
 true,
 "be careful not to pull the right side on the AOE STOMP; tank needs to position mobs so they dont get knocked into proxy aggro.",
 },
-["n"] = true,
 },
 {
+["n"] = true,
 ["d"] = {
 234.0081518112011,
 -108.3546983156659,
@@ -1221,22 +1222,12 @@ true,
 true,
 "tank needs to watch debuff stacks + move elites out of corpses to avoid buffing them.",
 },
-["n"] = true,
 },
 },
 ["uid"] = "yeCiZtdC(21",
 ["value"] = {
 ["currentPull"] = 16,
 ["currentSublevel"] = 1,
-["riftOffsets"] = {
-{
-},
-},
-["currentDungeonIdx"] = 117,
-["teeming"] = false,
-["selection"] = {
-16,
-},
 ["pulls"] = {
 {
 {
@@ -1522,7 +1513,10 @@ nil,
 [27] = {
 2,
 },
-["color"] = "3e9eff",
+[14] = {
+7,
+9,
+},
 [12] = {
 48,
 42,
@@ -1530,10 +1524,7 @@ nil,
 52,
 53,
 },
-[14] = {
-7,
-9,
-},
+["color"] = "3e9eff",
 },
 {
 {
@@ -1543,7 +1534,14 @@ nil,
 [27] = {
 1,
 },
+[14] = {
+8,
+},
 ["color"] = "fffb3e",
+[26] = {
+},
+[30] = {
+},
 [12] = {
 47,
 46,
@@ -1551,13 +1549,6 @@ nil,
 49,
 50,
 51,
-},
-[26] = {
-},
-[30] = {
-},
-[14] = {
-8,
 },
 },
 {
@@ -1574,9 +1565,18 @@ nil,
 ["color"] = "3eff3e",
 },
 },
+["currentDungeonIdx"] = 117,
+["teeming"] = false,
+["selection"] = {
+16,
 },
-["difficulty"] = 10,
+["riftOffsets"] = {
+{
+},
+},
+},
 ["week"] = 1,
+["difficulty"] = 10,
 },
 {
 ["value"] = 0,
@@ -1593,15 +1593,26 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "V6WzZBMwh0u",
 ["addonVersion"] = 530,
+["week"] = 1,
 ["colorPaletteInfo"] = {
 ["autoColoring"] = true,
 ["colorPaletteIdx"] = 4,
+},
+["text"] = "Rookery PUG (2025.03.02)",
+["objects"] = {
 },
 ["value"] = {
 ["selection"] = {
 20,
 },
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 118,
+["teeming"] = false,
+["currentPull"] = 20,
 ["pulls"] = {
 {
 {
@@ -1694,10 +1705,10 @@ nil,
 6,
 1,
 },
-["color"] = "3eff3e",
 [5] = {
 5,
 },
+["color"] = "3eff3e",
 },
 {
 ["color"] = "ff3e9e",
@@ -1709,16 +1720,16 @@ nil,
 [8] = {
 3,
 },
+["color"] = "3effff",
+[9] = {
+2,
+},
 [3] = {
 13,
 27,
 16,
 28,
 },
-[9] = {
-2,
-},
-["color"] = "3effff",
 },
 {
 [7] = {
@@ -1750,15 +1761,15 @@ nil,
 [3] = {
 24,
 },
-[8] = {
-1,
-7,
-},
+["color"] = "a1ff3e",
 [7] = {
 8,
 4,
 },
-["color"] = "a1ff3e",
+[8] = {
+1,
+7,
+},
 },
 {
 ["color"] = "ff3eff",
@@ -1903,18 +1914,7 @@ nil,
 },
 },
 },
-["currentDungeonIdx"] = 118,
-["teeming"] = false,
-["currentPull"] = 20,
-["riftOffsets"] = {
-{
 },
-},
-},
-["text"] = "Rookery PUG (2025.03.02)",
-["objects"] = {
-},
-["week"] = 1,
 },
 {
 ["value"] = 0,
@@ -1940,6 +1940,15 @@ nil,
 ["value"] = {
 ["currentPull"] = 17,
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 119,
+["teeming"] = false,
+["selection"] = {
+17,
+},
 ["pulls"] = {
 {
 {
@@ -2010,17 +2019,17 @@ nil,
 },
 {
 ["color"] = "3e9eff",
-[3] = {
-15,
-16,
-14,
+[9] = {
+3,
+4,
 },
 [7] = {
 5,
 },
-[9] = {
-3,
-4,
+[3] = {
+15,
+16,
+14,
 },
 },
 {
@@ -2121,11 +2130,11 @@ nil,
 6,
 7,
 },
+["color"] = "3e3eff",
 [5] = {
 24,
 25,
 },
-["color"] = "3e3eff",
 },
 {
 {
@@ -2237,20 +2246,9 @@ nil,
 },
 },
 },
-["currentDungeonIdx"] = 119,
-["teeming"] = false,
-["selection"] = {
-17,
 },
-["riftOffsets"] = {
-{
-},
-},
-},
-["uid"] = "PiVELd1rOeM",
 ["objects"] = {
 {
-["n"] = true,
 ["d"] = {
 264.4157268980882,
 -111.5779614636026,
@@ -2258,9 +2256,9 @@ nil,
 true,
 "for pulls 1, 2 - you want to make sure you dont pull the patrol G9; be patient around this.",
 },
+["n"] = true,
 },
 {
-["n"] = true,
 ["d"] = {
 297.7549570261815,
 -213.3737678614743,
@@ -2268,9 +2266,9 @@ true,
 true,
 "jump off ledge here from pull 1 to pull 2",
 },
+["n"] = true,
 },
 {
-["n"] = true,
 ["d"] = {
 239.352203775621,
 -429.368348205731,
@@ -2278,8 +2276,18 @@ true,
 true,
 "take glider here to the next pull",
 },
+["n"] = true,
 },
 {
+["d"] = {
+5,
+1.1,
+1,
+true,
+"00ffe4",
+-8,
+true,
+},
 ["l"] = {
 "242.2",
 "-419.0",
@@ -2358,17 +2366,17 @@ true,
 "363.6",
 "-338.6",
 },
+},
+{
 ["d"] = {
 5,
 1.1,
 1,
 true,
 "00ffe4",
--8,
+-7,
 true,
 },
-},
-{
 ["l"] = {
 "355.5",
 "-325.9",
@@ -2391,17 +2399,9 @@ true,
 "363.0",
 "-342.1",
 },
-["d"] = {
-5,
-1.1,
-1,
-true,
-"00ffe4",
--7,
-true,
 },
 },
-},
+["uid"] = "PiVELd1rOeM",
 },
 {
 ["value"] = 0,
@@ -2418,15 +2418,26 @@ true,
 ["difficulty"] = 21,
 ["uid"] = "iUFvgq38Noa",
 ["addonVersion"] = 530,
+["week"] = 1,
 ["colorPaletteInfo"] = {
 ["autoColoring"] = true,
 ["colorPaletteIdx"] = 4,
+},
+["text"] = "Motherlode Pug Route (2025.03.02)",
+["objects"] = {
 },
 ["value"] = {
 ["selection"] = {
 20,
 },
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 120,
+["teeming"] = false,
+["currentPull"] = 20,
 ["pulls"] = {
 {
 [6] = {
@@ -2508,11 +2519,11 @@ nil,
 5,
 },
 ["color"] = "fffb3e",
-[12] = {
+[10] = {
 },
 [9] = {
 },
-[10] = {
+[12] = {
 },
 },
 {
@@ -2536,19 +2547,19 @@ nil,
 },
 {
 ["color"] = "ff3e9e",
+[9] = {
+4,
+7,
+8,
+},
+[12] = {
+4,
+},
 [11] = {
 4,
 5,
 8,
 7,
-},
-[12] = {
-4,
-},
-[9] = {
-4,
-7,
-8,
 },
 },
 {
@@ -2714,25 +2725,14 @@ nil,
 1,
 2,
 },
-["color"] = "ff9b3e",
 [30] = {
 1,
 2,
 },
-},
-},
-["currentDungeonIdx"] = 120,
-["teeming"] = false,
-["currentPull"] = 20,
-["riftOffsets"] = {
-{
+["color"] = "ff9b3e",
 },
 },
 },
-["text"] = "Motherlode Pug Route (2025.03.02)",
-["objects"] = {
-},
-["week"] = 1,
 },
 {
 ["value"] = 0,
@@ -2749,15 +2749,26 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "p)m6WlC)Cbk",
 ["addonVersion"] = 530,
+["week"] = 1,
 ["colorPaletteInfo"] = {
 ["autoColoring"] = true,
 ["colorPaletteIdx"] = 4,
+},
+["text"] = "TOP Pug (2025.03.02)",
+["objects"] = {
 },
 ["value"] = {
 ["selection"] = {
 9,
 },
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 121,
+["teeming"] = false,
+["currentPull"] = 9,
 ["pulls"] = {
 {
 {
@@ -2869,19 +2880,23 @@ nil,
 [22] = {
 1,
 },
+[30] = {
+1,
+},
 [21] = {
 1,
 2,
 4,
 3,
 },
-[30] = {
-1,
-},
 },
 {
 [30] = {
 2,
+},
+["color"] = "ff3eff",
+[23] = {
+1,
 },
 [21] = {
 7,
@@ -2889,10 +2904,6 @@ nil,
 5,
 6,
 },
-[23] = {
-1,
-},
-["color"] = "ff3eff",
 },
 {
 [30] = {
@@ -2912,19 +2923,21 @@ nil,
 [22] = {
 2,
 },
-["color"] = "ff3e3e",
-[30] = {
-6,
-},
 [23] = {
 3,
 },
+[30] = {
+6,
+},
+["color"] = "ff3e3e",
 },
 {
 [30] = {
 5,
 },
-["color"] = "3e9eff",
+[24] = {
+3,
+},
 [21] = {
 15,
 21,
@@ -2932,9 +2945,7 @@ nil,
 12,
 11,
 },
-[24] = {
-3,
-},
+["color"] = "3e9eff",
 },
 {
 ["color"] = "fffb3e",
@@ -2962,13 +2973,13 @@ nil,
 1,
 2,
 },
-["color"] = "ff3e9e",
-[9] = {
-1,
-},
 [7] = {
 1,
 },
+[9] = {
+1,
+},
+["color"] = "ff3e9e",
 },
 {
 ["color"] = "3effff",
@@ -2980,15 +2991,15 @@ nil,
 [11] = {
 1,
 },
-[8] = {
-4,
-3,
-},
+["color"] = "ff9b3e",
 [7] = {
 3,
 2,
 },
-["color"] = "ff9b3e",
+[8] = {
+4,
+3,
+},
 },
 {
 ["color"] = "3e3eff",
@@ -3020,18 +3031,7 @@ nil,
 },
 },
 },
-["currentDungeonIdx"] = 121,
-["teeming"] = false,
-["currentPull"] = 9,
-["riftOffsets"] = {
-{
 },
-},
-},
-["text"] = "TOP Pug (2025.03.02)",
-["objects"] = {
-},
-["week"] = 1,
 },
 {
 ["value"] = 0,
@@ -3048,15 +3048,36 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "RCP6Mn3TI(0",
 ["addonVersion"] = 530,
+["week"] = 1,
 ["colorPaletteInfo"] = {
 ["autoColoring"] = true,
 ["colorPaletteIdx"] = 4,
+},
+["text"] = "Workshop Pug (2025.02.26)",
+["objects"] = {
+{
+["d"] = {
+347.4159796662984,
+-303.9683708518472,
+1,
+true,
+"HONESTLY - For a Pug W route, you have to go overcount, there isn't much skips that is easy to perform in a pug. Maybe if you have a lock gate skip on last pull before boss - but that's about it.",
+},
+["n"] = true,
+},
 },
 ["value"] = {
 ["selection"] = {
 18,
 },
 ["currentSublevel"] = 1,
+["riftOffsets"] = {
+{
+},
+},
+["currentDungeonIdx"] = 122,
+["teeming"] = false,
+["currentPull"] = 18,
 ["pulls"] = {
 {
 [14] = {
@@ -3111,7 +3132,9 @@ nil,
 1,
 2,
 },
-["color"] = "3e9eff",
+[11] = {
+1,
+},
 [12] = {
 1,
 4,
@@ -3119,16 +3142,16 @@ nil,
 20,
 3,
 },
-[11] = {
-1,
-},
+["color"] = "3e9eff",
 },
 {
 [21] = {
 3,
 4,
 },
-["color"] = "fffb3e",
+[11] = {
+2,
+},
 [12] = {
 8,
 9,
@@ -3136,15 +3159,16 @@ nil,
 7,
 15,
 },
-[11] = {
-2,
-},
+["color"] = "fffb3e",
 },
 {
 [11] = {
 3,
 },
-["color"] = "3eff3e",
+[21] = {
+5,
+7,
+},
 [12] = {
 10,
 11,
@@ -3157,10 +3181,7 @@ nil,
 18,
 19,
 },
-[21] = {
-5,
-7,
-},
+["color"] = "3eff3e",
 },
 {
 ["color"] = "ff3e9e",
@@ -3248,28 +3269,28 @@ nil,
 2,
 3,
 },
-["color"] = "3e9eff",
+[3] = {
+4,
+},
 [4] = {
 2,
 3,
 },
-[3] = {
-4,
-},
+["color"] = "3e9eff",
 },
 {
 [3] = {
 5,
 7,
 },
+["color"] = "fffb3e",
+[4] = {
+4,
+},
 [5] = {
 2,
 3,
 },
-[4] = {
-4,
-},
-["color"] = "fffb3e",
 },
 {
 ["color"] = "3eff3e",
@@ -3291,28 +3312,7 @@ nil,
 },
 },
 },
-["currentDungeonIdx"] = 122,
-["teeming"] = false,
-["currentPull"] = 18,
-["riftOffsets"] = {
-{
 },
-},
-},
-["text"] = "Workshop Pug (2025.02.26)",
-["objects"] = {
-{
-["n"] = true,
-["d"] = {
-347.4159796662984,
--303.9683708518472,
-1,
-true,
-"HONESTLY - For a Pug W route, you have to go overcount, there isn't much skips that is easy to perform in a pug. Maybe if you have a lock gate skip on last pull before boss - but that's about it.",
-},
-},
-},
-["week"] = 1,
 },
 {
 ["value"] = 0,

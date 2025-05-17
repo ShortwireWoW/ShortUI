@@ -8,6 +8,8 @@ ElvCharacterDB = {
 "/qui",
 "/wa",
 "/elvui",
+"/ginvite Metaltits-Area52",
+"/simc minimap",
 },
 ["ChatHistoryLog"] = {
 },

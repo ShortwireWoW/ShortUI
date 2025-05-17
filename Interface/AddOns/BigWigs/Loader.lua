@@ -12,14 +12,14 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 386
+local BIGWIGS_VERSION = 387
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 44},
-	["BigWigs_Classic"] = {11, 1, 47},
+	["LittleWigs"] = {11, 1, 45},
+	["BigWigs_Classic"] = {11, 1, 49},
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 4},
 	["BigWigs_Cataclysm"] = {11, 1, 5},
-	["BigWigs_MistsOfPandaria"] = {11, 1, 0},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 1},
 }
 local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -50,7 +50,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "8608853" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "bdbbdcc" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -1417,7 +1417,7 @@ do
 		--ruRU = "Russian (ruRU)",
 		--zhCN = "Simplified Chinese (zhCN)",
 		--zhTW = "Traditional Chinese (zhTW)",
-		itIT = "Italian (itIT)",
+		--itIT = "Italian (itIT)",
 		--koKR = "Korean (koKR)",
 		--esES = "Spanish (esES)",
 		--esMX = "Spanish (esMX)",
@@ -1429,7 +1429,7 @@ do
 		--[542] = locales.frFR, -- frFR
 		--[3207] = locales.ptBR, [3208] = locales.ptBR, [3209] = locales.ptBR, [3210] = locales.ptBR, [3234] = locales.ptBR, -- ptBR
 		--[1425] = locales.esMX, [1427] = locales.esMX, [1428] = locales.esMX, -- esMX
-		[1309] = locales.itIT, [1316] = locales.itIT, -- itIT
+		--[1309] = locales.itIT, [1316] = locales.itIT, -- itIT
 		--[1378] = locales.esES, [1379] = locales.esES, [1380] = locales.esES, [1381] = locales.esES, [1382] = locales.esES, [1383] = locales.esES, -- esES
 		--[1384] = locales.esES, [1385] = locales.esES, [1386] = locales.esES, [1387] = locales.esES, [1395] = locales.esES, -- esES
 	}

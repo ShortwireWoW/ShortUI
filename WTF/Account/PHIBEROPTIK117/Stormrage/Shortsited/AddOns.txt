@@ -37,3 +37,4 @@ LittleWigs_BattleForAzeroth: enabled
 Cell: enabled
 BigWigs_KhazAlgar: enabled
 LittleWigs_Shadowlands: enabled
+LootGoblin: disabled

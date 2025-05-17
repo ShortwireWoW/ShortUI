@@ -1,13 +1,10 @@
 # LittleWigs
 
-## [v11.1.44](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.44) (2025-05-12)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.43...v11.1.44) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.45](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.45) (2025-05-16)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.44...v11.1.45) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Delves/Trash/Overcharged: Add trash module (#1340)  
-- BfA/TheMotherlode/Trash: Mind Lash  
-- BfA/TheMotherlode/CrowdPummeler: Cleanup  
-- MoP/TempleOfTheJadeSerpent/ShaOfDoubt: Mists Classic support  
-- MoP/TempleOfTheJadeSerpent/LiuFlameheart: Mists Classic support  
-- MoP/TempleOfTheJadeSerpent/LorewalkerStonestep: Mists Classic support  
-- MoP/TempleOfTheJadeSerpent/WiseMari: Mists Classic support  
-- MoP/TempleOfTheJadeSerpent/Trash: Don't load on Mists Classic  
+- Classic/DireMaul: Update encounter detection  
+- Classic/ZulFarrak: Update encounter detection  
+- Classic/Stratholme: Update encounter detection  
+- Update koKR (#1342)  
+- Update zhCN (#1341)  
