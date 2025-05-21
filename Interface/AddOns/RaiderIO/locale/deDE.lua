@@ -126,10 +126,8 @@ L["DUNGEON_SHORT_NAME_YARD"] = "Operation Mechagon - Schrottplatz"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positioniert den Raider.IO Profilrahmen automatisch"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Wenn du dies aktivierst, wird der M+ Profile-Tooltip neben dem Dungeonbrowserrahmen oder dem Spieler-Tooltip angezeigt."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Du aktivierst den Debug-Modus. Dies ist nur zu Test- und Entwicklungszwecken gedacht und führt zu einer zusätzlichen Speichernutzung. Klicke auf Bestätigen, um das Interface neu zu laden."
---[[Translation missing --]]
---[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
+L["ENABLE_LFG_EXPORT_BUTTON"] = "Zeigt die Exportgruppen-Taste im LFG an"
+L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = "Zeigt eine Vergrößerungsglas-Taste am unteren Rand im LFG-Fenster an, der beim Klicken auf deine aktuelle Gruppe und in der Warteschlange für Bewerber zum Kopieren und Einfügen in die Raider.IO -Webseite ist, um alle Profile zu suchen, kopieren und einfügen."
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Sperre Raider.IO Profilrahmen"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Verhindert, dass der M+ Profilrahmen gezogen wird. Dies hat keine Auswirkung, wenn der M+ Profilrahmen so eingestellt ist, dass er automatisch positioniert wird."
 L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviert alle Mythisch+ Wertungsfarben"
@@ -181,8 +179,7 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Knopf sperren"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Minimap Button anzeigen"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Aktiviert die Anzeige des Symbols an der Minimap."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Minimap Button sperren"
---[[Translation missing --]]
---[[ L["MISC_SETTINGS"] = ""--]] 
+L["MISC_SETTINGS"] = "Verschiedenes"
 L["MODULE_AMERICAS"] = "Amerika"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Korea"
@@ -455,8 +452,8 @@ L["REPLAY_MENU_UNLOCK"] = "Entsperren"
 L["REPLAY_REPLAY_CHANGING"] = "Durch das Ändern deiner Wiederholung werden die Live-Daten zurückgesetzt."
 L["REPLAY_SETTINGS_TOOLTIP"] = "Einstellungen"
 L["REPLAY_STYLE_TITLE_MDI"] = "MDI"
-L["REPLAY_STYLE_TITLE_MODERN"] = "Modern"
-L["REPLAY_STYLE_TITLE_MODERN_COMPACT"] = "Modern (Kompakt)"
+L["REPLAY_STYLE_TITLE_MODERN"] = "Standard"
+L["REPLAY_STYLE_TITLE_MODERN_COMPACT"] = "Kompakt"
 L["REPLAY_STYLE_TITLE_MODERN_SPLITS"] = "Nur Bosse"
 L["REPLAY_SUMMARY_LOGGED"] = "|cffFFFFFF%s|r protokollierte deine Fertigstellung davon |cffFFFFFF+%s|r in |cffFFFFFF%s|r."
 L["REPLAY_TIMING_TITLE_BOSS"] = "Bosszeit"

@@ -31,10 +31,15 @@ LoggerHeadDB = {
 [8] = true,
 },
 ["The Rookery"] = {
-[23] = false,
 [8] = true,
+[2] = false,
+[23] = false,
 },
 ["Operation: Mechagon"] = {
+[23] = true,
+[8] = true,
+},
+["Theater of Pain"] = {
 [23] = true,
 [8] = true,
 },
@@ -42,7 +47,7 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["Theater of Pain"] = {
+["Cinderbrew Meadery"] = {
 [23] = true,
 [8] = true,
 },

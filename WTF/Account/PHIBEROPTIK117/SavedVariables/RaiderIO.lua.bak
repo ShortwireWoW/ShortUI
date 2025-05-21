@@ -31,9 +31,9 @@ RaiderIO_Config = {
 },
 ["mplusHeadlineMode"] = 0,
 ["showScoreInCombat"] = true,
-["showWarbandScore"] = true,
-["enableWhoTooltips"] = true,
+["inverseProfileModifier"] = false,
 ["replaySelection"] = "user_best_replay",
+["enableWhoTooltips"] = true,
 ["hidePersonalRaiderIOProfile"] = false,
 ["enableGuildTooltips"] = true,
 ["enableLFGTooltips"] = true,
@@ -47,7 +47,7 @@ RaiderIO_Config = {
 ["showRaiderIOProfile"] = true,
 ["enableProfileModifier"] = true,
 ["showScoreModifier"] = false,
-["inverseProfileModifier"] = false,
+["showWarbandScore"] = true,
 ["lockProfile"] = false,
 ["showSimpleScoreColors"] = false,
 ["enableCombatLogTracking"] = false,
@@ -55,7 +55,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Ironhawke-stormrage"] = true,
+["us-Jaquelinn-stormrage"] = true,
+["us-Dayraven-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

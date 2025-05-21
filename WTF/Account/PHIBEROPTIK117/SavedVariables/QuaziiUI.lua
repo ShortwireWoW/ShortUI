@@ -19,24 +19,24 @@ QuaziiUI_DB = {
 ["date"] = 1746829623,
 ["versionNumber"] = 20241101,
 },
-["Details"] = {
-["date"] = 1746829595,
-["versionNumber"] = 20241101,
-},
 ["tankdps"] = {
 ["date"] = 1746835386,
 ["version"] = 20241101,
 },
-["Cell"] = {
-["date"] = 1746829601,
+["Details"] = {
+["date"] = 1746829595,
+["versionNumber"] = 20241101,
+},
+["OmniCD"] = {
+["date"] = 1746829662,
 ["versionNumber"] = 20241101,
 },
 ["cell"] = {
 ["date"] = 1746829553,
 ["version"] = 20241101,
 },
-["OmniCD"] = {
-["date"] = 1746829662,
+["Cell"] = {
+["date"] = 1746829601,
 ["versionNumber"] = 20241101,
 },
 },

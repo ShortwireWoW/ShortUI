@@ -365,7 +365,7 @@ function KeystonePercentageHelper:UpdatePercentageText()
         if remainingPercent < 0.05 and remainingPercent > 0.00 then 
             remainingPercent = 0.00
         end
-        
+
         local displayPercent = string.format("%.2f%%", remainingPercent)
         local color = self.db.profile.color.inProgress
         
@@ -415,7 +415,7 @@ function KeystonePercentageHelper:UpdatePercentageText()
                 self.displayFrame.text:SetText(L["DUNGEON_DONE"]) -- Dungeon has been completed
             end
         end
-        
+
         -- Apply text color based on status
         self.displayFrame.text:SetTextColor(color.r, color.g, color.b, color.a)
     end
@@ -429,15 +429,10 @@ function KeystonePercentageHelper:OnEnable()
     -- Mythic+ mode triggers
     self:RegisterEvent("CHALLENGE_MODE_START")
     self:RegisterEvent("CHALLENGE_MODE_COMPLETED")
-	self:RegisterEvent("WORLD_STATE_TIMER_START")
 
 	-- Scenario triggers
 	self:RegisterEvent("SCENARIO_POI_UPDATE")
 	self:RegisterEvent("SCENARIO_CRITERIA_UPDATE")
-
-	-- Combat triggers
-	self:RegisterEvent("ENCOUNTER_END")
-	self:RegisterEvent("PLAYER_REGEN_ENABLED")
 
     self:RegisterEvent("PLAYER_ENTERING_WORLD")
 
@@ -445,25 +440,8 @@ function KeystonePercentageHelper:OnEnable()
     self:UpdatePercentageText()
 end
 
-function KeystonePercentageHelper:WORLD_STATE_TIMER_START()
-    self.currentDungeonID = nil
-
-    self:InitiateDungeon()
-    self:UpdatePercentageText()
-end
-
 -- Event handler for POI updates (boss positions)
 function KeystonePercentageHelper:SCENARIO_POI_UPDATE()
-    self:UpdatePercentageText()
-end
-
--- Event handler for combat end
-function KeystonePercentageHelper:ENCOUNTER_END()
-    self:UpdatePercentageText()
-end
-
--- Event handler for combat end
-function KeystonePercentageHelper:PLAYER_REGEN_ENABLED()
     self:UpdatePercentageText()
 end
 

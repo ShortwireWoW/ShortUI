@@ -10,6 +10,7 @@ ElvCharacterDB = {
 "/elvui",
 "/ginvite Metaltits-Area52",
 "/simc minimap",
+"/cw Bloodhawke-Stormrage you sure?",
 },
 ["ChatHistoryLog"] = {
 },

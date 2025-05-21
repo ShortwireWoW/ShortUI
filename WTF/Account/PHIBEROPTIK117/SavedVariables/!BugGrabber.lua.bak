@@ -1,23 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 57,
+["session"] = 67,
 ["errors"] = {
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI_Libraries' tried to call the protected function 'UNKNOWN()'.",
-["time"] = "2025/05/16 10:15:33",
-["locals"] = "Skipped (In Encounter)",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: ?\n[C]: ?\n[Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua]:612: in function 'method'\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:791: in function <...erface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua:783>\n[C]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:810: in function 'CallMethod'\n[		if self:GetAttribute(\"type\") == \"action\" then\n			local type, action = GetActionInfo(self:GetAttribute(\"action\"))\n\n			if type == \"flyout\" and self:GetAttribute(\"LABUseCustomFlyout\") then\n				local flyoutHandler = owner:GetFrameRef(\"flyoutHandler\")\n				if not down and flyoutHandler then\n					flyoutHandler:SetAttribute(\"flyoutParentHandle\", self)\n					flyoutHandler:RunAttribute(\"HandleFlyout\", action)\n				end\n\n				self:CallMethod(\"UpdateFlyout\")\n				return false\n			end\n\n			-- hide the flyout\n			local flyoutHandler = owner:GetFrameRef(\"flyoutHandler\")\n			if flyoutHandler then\n				flyoutHandler:Hide()\n			end\n\n			-- if this is a pickup click, disable on-down casting\n			-- it should get re-enabled in the post handler, or the OnDragStart handler, whichever occurs\n			if button ~= \"Keybind\" and ((self:GetAttribute(\"unlockedpreventdrag\") and not self:GetAttribute(\"buttonlock\")) or IsModifiedClick(\"PICKUPACTION\")) and not self:GetAttribute(\"LABdisableDragNDrop\") then\n				self:CallMethod(\"ToggleOnDownForPickup\", true)\n				self:SetAttribute(\"LABToggledOnDown\", true)\n			end\n\n			return (button == \"Keybind\") and \"LeftButton\" or nil, format(\"%s|%s\", tostring(type), tostring(action))\n		end\n\n		-- hide the flyout, the extra down/ownership check is needed to not hide the button we're currently pressing too early\n		local flyoutHandler = owner:GetFrameRef(\"flyoutHandler\")\n		if flyoutHandler and (not down or self:GetParent() ~= flyoutHandler) then\n			flyoutHandler:Hide()\n		end\n\n		if button == \"Keybind\" then\n			return \"LeftButton\"\n		end\n	]:24: in function <[string \"		if self:GetAttribute(\"type\") == \"action\" ...\"]:1>\n[tail call]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua]:483: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:446>\n[tail call]: ?\n[Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua]:285: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:279>\n[tail call]: ?",
-["session"] = 51,
-["counter"] = 1,
-},
-{
-["message"] = "bad argument #1 to '?' (Usage: local result = UnitGUID(unit))",
-["time"] = "2025/05/16 20:52:21",
-["locals"] = "(*temporary) = \"bad argument #1 to '?' (Usage: local result = UnitGUID(unit))\"\n",
-["stack"] = "[C]: in function 'UnitGUID'\n[Interface/AddOns/LootGoblin/LootGoblin_Debug.lua]:89: in function <Interface/AddOns/LootGoblin/LootGoblin_Debug.lua:71>",
-["session"] = 56,
-["counter"] = 16,
-},
 },
 }

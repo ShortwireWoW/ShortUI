@@ -18,24 +18,71 @@ CauseseDB = {
         [448619] = {"Charge", ""}, --Reckless Delivery
     },
     trash_cc = {
-        --[spellID] = {"name",category,"soundFile","role", "show target" (true/false), "important" (true/false)},
-        [267354] = {"KNIVES",2,"CC.ogg","ALL",false,true}, --Fan of Knives
-        [268702] = {"AoE",0,"","ALL",false,true}, --Furious Quake
+        --[spellID] = {"name", category, "soundFile", "role", "show target" (true/false), "important" (true/false)},
+        --Rookery
+        [430109] = {"Bolt",1,"","ALL",true,false}, --Lightning Bolt
+        [427260] = {"Surge",0,"","ALL",false,false}, --Lightning Surge
+        --[430179] = {"Curse",2,"","ALL",true,false}, --Seeping Corruption
+        [430238] = {"Bolt",1,"","ALL",true,false}, --Void Bolt
+        --[474031] = {"Crush",2,"","ALL",true,false}, --Void Crush
+        --Darkflame
+        [424322] = {"Explosive Flame",0,"","ALL",false,true}, --Explosive Flame
+        [422541] = {"Drain Light",0,"","ALL",false,false}, --Drain Light
+        [427176] = {"Drain Light",0,"","ALL",false,false}, --Drain Light
+        --[428563] = {"Bolt",1,"","ALL",true,false}, --Flame Bolt
+        [423479] = {"Bolt",1,"","ALL",true,false}, --Wicklighter Bolt
+        [425536] = {"Mole Frenzy",0,"","ALL",false,false}, --Mole Frenzy
+        [428089] = {"Throw",2,"","ALL",true,false}, --Throw Rock
+        --Motherlode
+        [267354] = {"Knives",2,"CC.ogg","ALL",false,true}, --Fan of Knives
+        [268702] = {"Furious Quake",0,"","ALL",false,true}, --Furious Quake
+        [268846] = {"Echo",2,"","ALL",true,false}, --Echo Blade
+        [280604] = {"Iced",1,"","ALL",true,false}, --Iced Spritzer
+        [263202] = {"Bolt",1,"","ALL",true,false}, --Rock Lance
+        [269302] = {"Toxic Blades",0,"","ALL",false,false}, --Toxic Blades
+        [268797] = {"Trans",0,"","ALL",true,false}, --Transmute: Enemy to Goo
+        --ToP
         [330810] = {"DoT",0,"","ALL",true,true}, --Bind Soul
-        [427342] = {"DEFEND",2,"CC.ogg","ALL",false,true}, --Defend
-        [1215412] = {"HEALABSORB",2,"","ALL",false,true}, --Corrosive Gunk
-        [465120] = {"FIXATE INC",2,"CC.ogg","ALL",true,true}, --Wind Up Cast
-        [465127] = {"FIXATE",2,"","ALL",true,true}, --Wind Up Channel
-        [341969] = {"AoE",0,"","ALL",false,true}, --Withering Discharge
-        [471733] = {"Heal",0,"","ALL",false,true}, --Restorative Algae
-        [471736] = {"Kelp",2,"","ALL",false,true}, --Jettison Kelp
-        [330532] = {"Bleed",2,"","ALL",true,true}, --Jagged Quarrel
-        [424322] = {"AoE",0,"","ALL",false,true}, --Explosive Flame
-        [1214780] = {"AoE",0,"Interrupt.ogg","ALL",false,true}, --Maximum Distortion
-        [444743] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Fireball Volley
-        [440687] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Honey Volley
         [330868] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Necrotic Bolt Volley
+        [341969] = {"AoE",0,"","ALL",false,true}, --Withering Discharge
+        [330532] = {"Bleed",2,"","ALL",true,true}, --Jagged Quarrel
+        [342675] = {"Spear",1,"","ALL",true,false}, --Bone Spear
+        [324589] = {"Bolt",1,"","ALL",true,false}, --Death Bolt
+        [330703] = {"Bolt",1,"","ALL",true,false}, --Decaying Filth
+        [330784] = {"Bolt",1,"","ALL",true,false}, --Necrotic Bolt
+        --[330875] = {"Bolt",1,"","ALL",true,false}, --Spirit Frost
+        [330562] = {"Demoralizing Shout",0,"","ALL",false,false}, --Demoralizing Shout
+        [341902] = {"Unholy Fervor",0,"","ALL",false,false}, --Unholy Fervor
+        --Priory
+        [427342] = {"Defend",2,"CC.ogg","ALL",false,true}, --Defend
+        [444743] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Fireball Volley
+        [424421] = {"Bolt",1,"","ALL",true,false}, --Fireball
+        [427469] = {"Bolt",1,"","ALL",true,false}, --Fireball
+        [427357] = {"Smite",1,"","ALL",true,false}, --Holy Smite
+        [462859] = {"Shot",2,"","ALL",true,false}, --Pot Shot
+        [427356] = {"Greater Heal",0,"","ALL",false,false}, --Greater Heal
+        --Mechagon
+        [1215412] = {"Corrosive Gunk",2,"","ALL",false,true}, --Corrosive Gunk
         [301088] = {"Detonate",0,"","ALL",false,true}, --Detonate
+        [293827] = {"Bolt",1,"","ALL",true,false}, --Giga-Wallop
+        --Floodgate
+        [465120] = {"Fixate Inc",2,"CC.ogg","ALL",true,true}, --Wind Up Cast
+        [465127] = {"Fixate",2,"","ALL",true,true}, --Wind Up Channel
+        [471733] = {"Restorative Algae",0,"","ALL",false,true}, --Restorative Algae
+        [471736] = {"Jettison Kelp",2,"","ALL",false,true}, --Jettison Kelp
+        [1214780] = {"Maximum Distortion",0,"Interrupt.ogg","ALL",false,true}, --Maximum Distortion
+        [465871] = {"Bolt",1,"","ALL",true,false}, --Blood Blast
+        [468631] = {"Bolt",1,"","ALL",true,false}, --Harpoon
+        [465595] = {"Bolt",1,"","ALL",true,false}, --Lightning Bolt
+        [462771] = {"Beam",1,"","ALL",true,false}, --Surveying Beam
+        [1214468] = {"Shot",1,"","ALL",true,false}, --Trickshot
+        [461796] = {"Reload",2,"","ALL",false,false}, --Reload
+        --Cinderbrew
+        [440687] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Honey Volley
+        [441351] = {"Bee-stial Wrath",0,"","ALL",false,false}, --Bee-stial Wrath
+        [441627] = {"Rejuvenating Honey",0,"","ALL",false,false}, --Rejuvenating Honey
+        [441242] = {"Bolt",1,"","ALL",true,false}, --Free Samples?
+        [437721] = {"Boiling",1,"","ALL",true,false}, --Boiling Flames
     },
     timers = {
         --Cinderbrew Meadery
@@ -52,7 +99,7 @@ CauseseDB = {
         --The Rookery
         ["209801"] = {[426893] = {"SPELL_CAST_START", 2, "ALL", "Dodge Inc", 4.9, 13.3}}, --Bounding Void
         ["212786"] = {[427404] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 15.4, 23}}, --Localized Storm
-        ["214421"] = {[430812] = {"SPELL_CAST_START", 0, "ALL", "DoT Inc", 5.2, 21.8}}, --Attracting Shadows
+        ["214421"] = {[430812] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 5.2, 21.8}}, --Attracting Shadows
         ["212793"] = {[1214523] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 5.2, 24.2}}, --Feasting Void
         --Priory of the Scared Flame
         ["206696"] = {
@@ -95,7 +142,7 @@ CauseseDB = {
         ["134232"] = {[267354] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Knives Inc", 13, 20.6}}, --Fan of Knives
         ["136643"] = {[473168] = {"SPELL_CAST_START", 0, "ALL", "Dance Inc", 15.5, 26.7}}, --Rapid Extraction
         ["133430"] = {[473304] = {"SPELL_CAST_START", 2, "ALL", "Drop Inc", 7.9, 23}}, --Brainstorm
-        ["133463"] = {[269429] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 7.4, 18.2}}, --Charged Shot
+        ["133463"] = {[269429] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 7.4, 17}}, --Charged Shot
         ["134012"] = {[1214751] = {"SPELL_CAST_SUCCESS", 0, "ALL", "Charge Inc", 9.9, 18.2}}, --Brutal Charge
         --Theater of Pain
         ["170850"] = {[333241] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 7.2, 18.2}}, --Raging Tantrum

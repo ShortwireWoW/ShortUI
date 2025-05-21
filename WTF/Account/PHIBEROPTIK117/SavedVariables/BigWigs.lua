@@ -1,13 +1,6 @@
 
 BigWigs3DB = {
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-},
 ["namespaces"] = {
-["BigWigs_Plugins_Victory"] = {
-},
-["BigWigs_Bosses_Vexie and the Geargrinders"] = {
-},
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -15,50 +8,9 @@ BigWigs3DB = {
 },
 },
 },
-["LibDualSpec-1.0"] = {
 },
-["BigWigs_Bosses_Chrome King Gallywix"] = {
-},
-["BigWigs_Plugins_Sounds"] = {
-},
-["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Sprocketmonger Lockenstock"] = {
-},
-["BigWigs_Plugins_AutoReply"] = {
-},
-["BigWigs_Bosses_Cauldron of Carnage"] = {
-},
-["BigWigs_Bosses_The One-Armed Bandit"] = {
-},
-["BigWigs_Plugins_Wipe"] = {
-},
-["BigWigs_Plugins_Countdown"] = {
-},
-["BigWigs_Plugins_AltPower"] = {
-},
-["BigWigs_Bosses_Stix Bunkjunker"] = {
-},
-["BigWigs_Plugins_Colors"] = {
-},
-["BigWigs_Plugins_Raid Icons"] = {
-},
-["BigWigs_Plugins_Nameplates"] = {
-},
-["BigWigs_Plugins_Bars"] = {
-},
-["BigWigs_Plugins_Proximity"] = {
-},
-["BigWigs_Plugins_InfoBox"] = {
-},
-["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Mug'Zee, Heads of Security"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-},
-["BigWigs_Plugins_Pull"] = {
-},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
@@ -86,25 +38,26 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/10",
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/11",
 ["best"] = 243.4510000000009,
+["wipes"] = 1,
 ["fkDuration"] = 243.4510000000009,
 },
 },
 [2645] = {
 ["heroic"] = {
 ["kills"] = 1,
-["bestDate"] = "2025/05/16",
-["best"] = 320.8870000000024,
-["fkWipes"] = 3,
 ["fkDate"] = "2025/05/16",
+["bestDate"] = "2025/05/16",
+["fkWipes"] = 3,
+["best"] = 320.8870000000024,
 ["wipes"] = 3,
 ["fkDuration"] = 320.8870000000024,
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/15",
 ["best"] = 268.7189999999828,
@@ -120,7 +73,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 315.3449999999721,
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/16",
 ["best"] = 200.5100000000093,
@@ -136,10 +89,10 @@ BigWigsStatsDB = {
 ["fkDuration"] = 280.609999999986,
 },
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/05/11",
-["bestDate"] = "2025/05/11",
-["best"] = 211.0819999999949,
+["bestDate"] = "2025/05/18",
+["best"] = 195.5849999999919,
 ["fkDuration"] = 211.0819999999949,
 },
 },
@@ -154,7 +107,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 271.1240000000689,
 },
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/11",
 ["best"] = 237.0210000000079,
@@ -170,7 +123,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 419.2560000000522,
 },
 ["normal"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/11",
 ["best"] = 291.7039999999979,
@@ -179,14 +132,20 @@ BigWigsStatsDB = {
 },
 [2646] = {
 ["normal"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/15",
 ["best"] = 341.4780000000028,
 ["fkDuration"] = 455.8499999999913,
 },
 ["heroic"] = {
-["wipes"] = 7,
+["kills"] = 1,
+["fkDate"] = "2025/05/17",
+["bestDate"] = "2025/05/17",
+["fkWipes"] = 14,
+["best"] = 521.9089999999997,
+["wipes"] = 14,
+["fkDuration"] = 521.9089999999997,
 },
 },
 [2653] = {
@@ -200,7 +159,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/10",
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/05/11",
 ["bestDate"] = "2025/05/15",
 ["best"] = 213.8919999999926,

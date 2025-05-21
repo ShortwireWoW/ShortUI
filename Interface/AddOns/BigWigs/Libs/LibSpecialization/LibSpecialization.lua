@@ -4,7 +4,7 @@ local cataWowID = 14
 local mistsWowID = 19
 if wowID ~= 1 and wowID ~= cataWowID and wowID ~= mistsWowID then return end -- Retail, Cata, Mists
 
-local LS, oldminor = LibStub:NewLibrary("LibSpecialization", 12)
+local LS, oldminor = LibStub:NewLibrary("LibSpecialization", 13)
 if not LS then return end -- No upgrade needed
 
 LS.callbackMap = LS.callbackMap or {}
@@ -296,7 +296,6 @@ local roleTable = wowID == cataWowID and {
 }
 -- Starter specs
 local starterSpecs = {
-	[0] = true, -- 0 can happen when called too early on Mists
 	[1444] = true, -- Shaman
 	[1446] = true, -- Warrior
 	[1447] = true, -- Druid
@@ -479,7 +478,7 @@ function LS:MySpecialization()
 		local specIndex = GetPrimaryTalentTree()
 		if specIndex then
 			local specId = GetTalentTabInfo(specIndex)
-			if specId then
+			if type(specId) == "number" and specId > 0 then
 				local position = positionTable[specId]
 				local role = roleTable[specId]
 				if position and role then
@@ -497,7 +496,7 @@ function LS:MySpecialization()
 		if type(spec) == "number" and spec > 0 then
 			local specId = C_SpecializationInfo.GetSpecializationInfo(spec)
 
-			if specId then
+			if type(specId) == "number" and specId > 0 then
 				local position = positionTable[specId]
 				local role = roleTable[specId]
 				if position and role then
@@ -517,7 +516,7 @@ function LS:MySpecialization()
 		if type(spec) == "number" and spec > 0 then
 			local specId = GetSpecializationInfo(spec)
 
-			if specId then
+			if type(specId) == "number" and specId > 0 then
 				local position = positionTable[specId]
 				local role = roleTable[specId]
 				if position and role then

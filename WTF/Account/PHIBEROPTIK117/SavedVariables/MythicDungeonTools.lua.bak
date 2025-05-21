@@ -27,6 +27,10 @@ MythicDungeonToolsDB = {
 ["difficulty"] = 21,
 ["uid"] = "Pl8cdUJoJhw",
 ["addonVersion"] = 530,
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
 ["value"] = {
 ["currentPull"] = 11,
 ["currentSublevel"] = 1,
@@ -142,11 +146,11 @@ MythicDungeonToolsDB = {
 [14] = {
 3,
 },
-[7] = {
-10,
-},
 [9] = {
 8,
+},
+[7] = {
+10,
 },
 ["color"] = "ff9b3e",
 },
@@ -371,10 +375,6 @@ MythicDungeonToolsDB = {
 {
 },
 },
-},
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
 },
 ["text"] = "Priory Pug (2025.03.02)",
 ["objects"] = {
@@ -770,12 +770,6 @@ true,
 ["uid"] = "AZJojP9lKf2",
 ["addonVersion"] = 530,
 ["difficulty"] = 21,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
-["text"] = "Cinderbrew Pug (2025.02.03)",
-["week"] = 1,
 ["value"] = {
 ["selection"] = {
 13,
@@ -1050,10 +1044,10 @@ true,
 11,
 },
 ["color"] = "fffb3e",
-[23] = {
-},
 [9] = {
 4,
+},
+[23] = {
 },
 [24] = {
 },
@@ -1146,14 +1140,14 @@ true,
 },
 [11] = {
 },
+[6] = {
+},
+[12] = {
+},
 [22] = {
 1,
 2,
 3,
-},
-[12] = {
-},
-[6] = {
 },
 },
 {
@@ -1181,6 +1175,12 @@ true,
 {
 },
 },
+},
+["text"] = "Cinderbrew Pug (2025.02.03)",
+["week"] = 1,
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
 },
 },
 {
@@ -1543,7 +1543,6 @@ nil,
 [27] = {
 1,
 },
-["color"] = "fffb3e",
 [12] = {
 47,
 46,
@@ -1552,12 +1551,13 @@ nil,
 50,
 51,
 },
-[26] = {
+["color"] = "fffb3e",
+[14] = {
+8,
 },
 [30] = {
 },
-[14] = {
-8,
+[26] = {
 },
 },
 {
@@ -1593,10 +1593,6 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "V6WzZBMwh0u",
 ["addonVersion"] = 530,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
 ["value"] = {
 ["selection"] = {
 20,
@@ -1911,6 +1907,10 @@ nil,
 },
 },
 },
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
 ["text"] = "Rookery PUG (2025.03.02)",
 ["objects"] = {
 },
@@ -2015,12 +2015,12 @@ nil,
 16,
 14,
 },
-[7] = {
-5,
-},
 [9] = {
 3,
 4,
+},
+[7] = {
+5,
 },
 },
 {
@@ -2418,10 +2418,6 @@ true,
 ["difficulty"] = 21,
 ["uid"] = "iUFvgq38Noa",
 ["addonVersion"] = 530,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
 ["value"] = {
 ["selection"] = {
 20,
@@ -2542,13 +2538,13 @@ nil,
 8,
 7,
 },
-[12] = {
-4,
-},
 [9] = {
 4,
 7,
 8,
+},
+[12] = {
+4,
 },
 },
 {
@@ -2729,6 +2725,10 @@ nil,
 },
 },
 },
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
 ["text"] = "Motherlode Pug Route (2025.03.02)",
 ["objects"] = {
 },
@@ -2749,10 +2749,6 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "p)m6WlC)Cbk",
 ["addonVersion"] = 530,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
 ["value"] = {
 ["selection"] = {
 9,
@@ -2913,11 +2909,11 @@ nil,
 2,
 },
 ["color"] = "ff3e3e",
-[30] = {
-6,
-},
 [23] = {
 3,
+},
+[30] = {
+6,
 },
 },
 {
@@ -2963,10 +2959,10 @@ nil,
 2,
 },
 ["color"] = "ff3e9e",
-[9] = {
+[7] = {
 1,
 },
-[7] = {
+[9] = {
 1,
 },
 },
@@ -3028,6 +3024,10 @@ nil,
 },
 },
 },
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
 ["text"] = "TOP Pug (2025.03.02)",
 ["objects"] = {
 },
@@ -3048,10 +3048,6 @@ nil,
 ["difficulty"] = 21,
 ["uid"] = "RCP6Mn3TI(0",
 ["addonVersion"] = 530,
-["colorPaletteInfo"] = {
-["autoColoring"] = true,
-["colorPaletteIdx"] = 4,
-},
 ["value"] = {
 ["selection"] = {
 18,
@@ -3298,6 +3294,10 @@ nil,
 {
 },
 },
+},
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
 },
 ["text"] = "Workshop Pug (2025.02.26)",
 ["objects"] = {
