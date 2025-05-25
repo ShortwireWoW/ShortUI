@@ -1,13 +1,8 @@
 # BigWigs
 
-## [v387.2](https://github.com/BigWigsMods/BigWigs/tree/v387.2) (2025-05-17)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v387.1...v387.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v387.5](https://github.com/BigWigsMods/BigWigs/tree/v387.5) (2025-05-20)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v387.4...v387.5) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Loader: AceDB now cleans up empty tables  
-- Remove this now we validate boss options  
-- Core: Add some option validation for boss modules  
-- Clarify notes  
-- Loader: Don't force load on an early event, let it happen on PLAYER\_ENTERING\_WORLD  
-- Workaround more tampering  
-- Update deDE (#2047)  
-- Plugins/BossBlock: Lower emote hold time on PTR  
+- Loader: Add Horrific Visions to Current Season (#2052)  
+- Update koKR (#2051)  
+- Parser: Fix locale detection (#2050)  

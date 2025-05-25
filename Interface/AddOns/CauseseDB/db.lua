@@ -4,7 +4,7 @@ CauseseDB = {
         [441119] = {"Knock", "Knock.ogg"}, --Bee-Zooka
         [426619] = {"Charge", "Charge.ogg"}, --One-Hand Headlock
         [474031] = {"Spread", "Spread.ogg"}, --Void Crush
-        [430179] = {"Drop", "Drop.ogg"}, --Seeping Corruption
+        [430179] = {"Drop", ""}, --Seeping Corruption
         [448787] = {"Targeted", "Targeted.ogg"}, --Purification
         [427616] = {"Targeted", "Targeted.ogg"}, --Energized Barrage
         [430805] = {"Spread", "Spread.ogg"}, --Arcing Void
@@ -16,6 +16,7 @@ CauseseDB = {
         [330532] = {"Bleed", "Bleed.ogg"}, --Jagged Quarrel
         [333861] = {"Bleed", "Bleed.ogg"}, --Ricocheting Blade
         [448619] = {"Charge", ""}, --Reckless Delivery
+        [1213805] = {"Targeted", ""}, --Nailgun
     },
     trash_cc = {
         --[spellID] = {"name", category, "soundFile", "role", "show target" (true/false), "important" (true/false)},

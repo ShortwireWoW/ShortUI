@@ -1,5 +1,5 @@
 
-local L = BigWigsAPI:GetLocale("BigWigs")
+local L
 local mod, public = {}, {}
 local bwFrame = CreateFrame("Frame")
 
@@ -14,12 +14,12 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 387
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 45},
+	["LittleWigs"] = {11, 1, 46},
 	["BigWigs_Classic"] = {11, 1, 49},
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 4},
 	["BigWigs_Cataclysm"] = {11, 1, 5},
-	["BigWigs_MistsOfPandaria"] = {11, 1, 1},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 2},
 }
 local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -30,6 +30,7 @@ local guildDisableContentWarnings = false
 
 do
 	local _, tbl = ...
+	L = tbl.API:GetLocale("BigWigs")
 	tbl.loaderPublic = public
 	tbl.loaderPrivate = mod
 	tbl.version = BIGWIGS_VERSION
@@ -50,7 +51,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "792fe0c" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "b3088df" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -491,8 +492,8 @@ do
 		[1841] = lw_bfa, -- Underrot
 		[1862] = lw_bfa, -- Waycrest Manor
 		[2097] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Operation: Mechagon
-		[2212] = lw_bfa, -- Horrific Vision of Orgrimmar
-		[2213] = lw_bfa, -- Horrific Vision of Stormwind
+		[2212] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Orgrimmar
+		[2213] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Stormwind
 		[2827] = lw_bfa, -- Horrific Vision of Stormwind (Revisited)
 		[2828] = lw_bfa, -- Horrific Vision of Orgrimmar (Revisited)
 		--[[ LittleWigs: Shadowlands ]]--
