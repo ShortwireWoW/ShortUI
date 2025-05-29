@@ -1,5 +1,10 @@
 
 BigWigs3DB = {
+["global"] = {
+["watchedMovies"] = {
+[-2409] = true,
+},
+},
 ["namespaces"] = {
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
@@ -11,11 +16,6 @@ BigWigs3DB = {
 },
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Default",
-},
-["global"] = {
-["watchedMovies"] = {
-[-2409] = true,
-},
 },
 ["profiles"] = {
 ["Default"] = {
@@ -38,7 +38,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 404.4740000000002,
 },
 ["normal"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 243.4510000000009,
 ["wipes"] = 1,
 ["best"] = 243.4510000000009,
@@ -57,7 +57,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/16",
 },
 ["normal"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 294.9330000000045,
 ["best"] = 268.7189999999828,
 ["bestDate"] = "2025/05/15",
@@ -73,10 +73,10 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/09",
 },
 ["normal"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 212.5529999999999,
-["best"] = 200.5100000000093,
-["bestDate"] = "2025/05/16",
+["best"] = 191.8940000000002,
+["bestDate"] = "2025/05/25",
 ["fkDate"] = "2025/05/11",
 },
 },
@@ -89,7 +89,7 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/09",
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 211.0819999999949,
 ["best"] = 195.5849999999919,
 ["bestDate"] = "2025/05/18",
@@ -107,10 +107,10 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/09",
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDuration"] = 237.0210000000079,
-["best"] = 237.0210000000079,
-["bestDate"] = "2025/05/11",
+["best"] = 227.5179999999964,
+["bestDate"] = "2025/05/25",
 ["fkDate"] = "2025/05/11",
 },
 },
@@ -124,10 +124,11 @@ BigWigsStatsDB = {
 ["fkDate"] = "2025/05/09",
 },
 ["normal"] = {
-["kills"] = 2,
+["kills"] = 3,
+["wipes"] = 1,
 ["fkDuration"] = 291.7039999999979,
-["best"] = 291.7039999999979,
-["bestDate"] = "2025/05/11",
+["best"] = 263.5789999999979,
+["bestDate"] = "2025/05/25",
 ["fkDate"] = "2025/05/11",
 },
 },
@@ -142,7 +143,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 304.9470000000001,
 },
 ["normal"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 227.5380000000005,
 ["best"] = 213.8919999999926,
 ["bestDate"] = "2025/05/15",
@@ -151,7 +152,7 @@ BigWigsStatsDB = {
 },
 [2646] = {
 ["normal"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDuration"] = 455.8499999999913,
 ["best"] = 341.4780000000028,
 ["bestDate"] = "2025/05/15",

@@ -72,6 +72,11 @@ end
 
 L = BigWigs:NewBossLocale("Horrific Vision of Orgrimmar Trash", "koKR")
 if L then
+	L.sanity_change = "%d 이성"
+	L.madnesses = "광기"
+	L.potions = "물약"
+	L.buffs = "버프"
+
 	L.voidbound_shaman = "공허결속단 주술사"
 	L.endless_hunger_totem = "끝없는 허기의 토템"
 	L.crawling_corruption = "엄습하는 타락"
@@ -132,6 +137,13 @@ end
 
 L = BigWigs:NewBossLocale("Horrific Vision of Stormwind Trash", "koKR")
 if L then
+	L.sanity_change = "%d 이성"
+	L.portal_closed = "차원문 닫힘"
+	L.portal_closed_desc = "마법사 지구의 차원문이 닫히면 메시지를 표시합니다."
+	L.madnesses = "광기"
+	L.potions = "물약"
+	L.buffs = "버프"
+
 	L.crawling_corruption = "엄습하는 타락"
 	L.enthralled_footman = "속박된 보병"
 	L.fallen_voidspeaker = "타락한 공허신봉자"
@@ -156,6 +168,7 @@ if L then
 	L.zardeth_of_the_black_claw = "검은발톱 자데스"
 	L.unstable_servant = "불안정한 하수인"
 	L.hogger = "들창코"
+	L.void_scarred_gryphon = "공허의 자취가 남은 그리핀"
 
 	L.therum_deepforge_warmup_trigger = "폭발물로 장난치는 거 좋아하나 봐, 엉? 그럼 어디 놀아 보자고."
 	L.alleria_windrunner_warmup_trigger = "어머니... 속삭임에 굴복하시면 안 됩니다!"

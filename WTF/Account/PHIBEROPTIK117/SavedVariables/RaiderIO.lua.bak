@@ -31,9 +31,9 @@ RaiderIO_Config = {
 },
 ["enableCombatLogTracking"] = false,
 ["showSimpleScoreColors"] = false,
-["replaySelection"] = "user_best_replay",
-["showWarbandScore"] = true,
+["enableWhoTooltips"] = true,
 ["inverseProfileModifier"] = false,
+["showWarbandScore"] = true,
 ["showScoreModifier"] = false,
 ["enableGuildTooltips"] = true,
 ["enableProfileModifier"] = true,
@@ -47,7 +47,7 @@ RaiderIO_Config = {
 ["enableClientEnhancements"] = true,
 ["enableLFGTooltips"] = true,
 ["hidePersonalRaiderIOProfile"] = false,
-["enableWhoTooltips"] = true,
+["replaySelection"] = "user_best_replay",
 ["lockProfile"] = false,
 ["showScoreInCombat"] = true,
 ["mplusHeadlineMode"] = 0,
@@ -55,8 +55,14 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Datbubblelol-bonechewer"] = true,
-["us-Shiphtmage-area-52"] = true,
+["us-Holynuva-stormrage"] = true,
+["us-Bjww-stormrage"] = true,
+["us-Elus-stormrage"] = true,
+["us-Empflap-stormrage"] = true,
+["us-Courtdweller-stormrage"] = true,
+["us-Gnomesage-stormrage"] = true,
+["us-Ayzên-stormrage"] = true,
+["us-Ignaciousqc-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

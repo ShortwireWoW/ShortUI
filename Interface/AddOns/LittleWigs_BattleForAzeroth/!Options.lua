@@ -322,7 +322,7 @@ BigWigs:AddColors("Horrific Vision of Orgrimmar Trash", {
 	[305875] = "red",
 	[306001] = "orange",
 	[306199] = "yellow",
-	[306583] = {"blue","green"},
+	[306583] = "blue",
 	[306770] = "orange",
 	[307870] = "green",
 	[308018] = "orange",
@@ -332,6 +332,9 @@ BigWigs:AddColors("Horrific Vision of Orgrimmar Trash", {
 	[312584] = "yellow",
 	[314720] = "orange",
 	[314723] = "yellow",
+	[315385] = "blue",
+	[315807] = "yellow",
+	[315814] = "green",
 	[319304] = {"blue","yellow"},
 })
 
@@ -365,7 +368,7 @@ BigWigs:AddSounds("Horrific Vision of Orgrimmar Trash", {
 	[305875] = "alarm",
 	[306001] = "alert",
 	[306199] = "alarm",
-	[306583] = {"alert","info"},
+	[306583] = "alert",
 	[306770] = "alarm",
 	[307870] = "info",
 	[308018] = "alarm",
@@ -375,6 +378,9 @@ BigWigs:AddSounds("Horrific Vision of Orgrimmar Trash", {
 	[312584] = "info",
 	[314720] = "alarm",
 	[314723] = "info",
+	[315385] = "info",
+	[315807] = "warning",
+	[315814] = "info",
 	[319304] = "alert",
 })
 
@@ -442,6 +448,8 @@ BigWigs:AddSounds("Magister Umbric", {
 
 BigWigs:AddColors("Horrific Vision of Stormwind Trash", {
 	[86736] = "orange",
+	[250505] = "red",
+	[258768] = "orange",
 	[264398] = "yellow",
 	[296492] = "orange",
 	[296510] = "cyan",
@@ -453,7 +461,7 @@ BigWigs:AddColors("Horrific Vision of Stormwind Trash", {
 	[298033] = "red",
 	[298074] = "orange",
 	[298584] = "cyan",
-	[306583] = {"blue","green"},
+	[306583] = "blue",
 	[306770] = "red",
 	[307870] = "green",
 	[308265] = {"blue","red"},
@@ -477,12 +485,22 @@ BigWigs:AddColors("Horrific Vision of Stormwind Trash", {
 	[311399] = "orange",
 	[311456] = "yellow",
 	[311996] = "cyan",
+	[312355] = "green",
+	[314087] = "green",
+	[314165] = "green",
+	[314203] = "green",
+	[315385] = "blue",
+	[315807] = "yellow",
+	[315814] = "green",
 	[1223111] = {"blue","yellow"},
 	[1223112] = "red",
+	["portal_closed"] = "green",
 })
 
 BigWigs:AddSounds("Horrific Vision of Stormwind Trash", {
 	[86736] = "info",
+	[250505] = "warning",
+	[258768] = "alarm",
 	[264398] = "alarm",
 	[296492] = "alarm",
 	[296510] = "info",
@@ -494,7 +512,7 @@ BigWigs:AddSounds("Horrific Vision of Stormwind Trash", {
 	[298033] = "warning",
 	[298074] = "alarm",
 	[298584] = "info",
-	[306583] = {"alert","info"},
+	[306583] = "alert",
 	[306770] = "alarm",
 	[307870] = "info",
 	[308265] = {"info","warning"},
@@ -518,8 +536,16 @@ BigWigs:AddSounds("Horrific Vision of Stormwind Trash", {
 	[311399] = "alarm",
 	[311456] = "warning",
 	[311996] = "long",
+	[312355] = "info",
+	[314087] = "info",
+	[314165] = "info",
+	[314203] = "info",
+	[315385] = "info",
+	[315807] = "warning",
+	[315814] = "info",
 	[1223111] = "alarm",
 	[1223112] = "alert",
+	["portal_closed"] = "info",
 })
 
 BigWigs:AddColors("The Golden Serpent", {
@@ -1291,7 +1317,7 @@ BigWigs:AddSounds("Rixxa Fluxflame", {
 BigWigs:AddColors("Mogul Razdunk", {
 	[260280] = "yellow",
 	[260813] = {"blue","orange"},
-	[271456] = {"blue","orange"},
+	[271456] = {"blue","green","orange"},
 	[276229] = "red",
 	["stages"] = "cyan",
 })
@@ -1299,7 +1325,7 @@ BigWigs:AddColors("Mogul Razdunk", {
 BigWigs:AddSounds("Mogul Razdunk", {
 	[260280] = "alert",
 	[260813] = {"alarm","warning"},
-	[271456] = "alert",
+	[271456] = {"alert","info","warning"},
 	[276229] = "long",
 	["stages"] = {"info","long"},
 })

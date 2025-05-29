@@ -12,13 +12,13 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 387
+local BIGWIGS_VERSION = 388
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 46},
-	["BigWigs_Classic"] = {11, 1, 49},
+	["LittleWigs"] = {11, 1, 47},
+	["BigWigs_Classic"] = {11, 1, 51},
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
-	["BigWigs_WrathOfTheLichKing"] = {11, 1, 4},
-	["BigWigs_Cataclysm"] = {11, 1, 5},
+	["BigWigs_WrathOfTheLichKing"] = {11, 1, 5},
+	["BigWigs_Cataclysm"] = {11, 1, 6},
 	["BigWigs_MistsOfPandaria"] = {11, 1, 2},
 }
 local BIGWIGS_RELEASE_STRING
@@ -51,7 +51,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "b3088df" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "3d8d9ce" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -137,6 +137,7 @@ public.UnitGUID = UnitGUID
 public.UnitHealth = UnitHealth
 public.UnitHealthMax = UnitHealthMax
 public.UnitIsDeadOrGhost = UnitIsDeadOrGhost
+public.UnitIsPlayer = UnitIsPlayer
 public.UnitName = UnitNameUnmodified
 public.UnitSex = UnitSex
 public.UnitTokenFromGUID = UnitTokenFromGUID
@@ -1529,12 +1530,12 @@ end
 --
 
 do
-	local DBMdotRevision = "20250508031405" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "11.1.18" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20250507000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20250520034044" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "11.1.19" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20250519000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 	local protocol = 3
 	local versionPrefix = "V"
-	local PForceDisable = 17
+	local PForceDisable = 18
 
 	local timer = nil
 	local function sendDBMMsg()

@@ -72,6 +72,11 @@ end
 
 L = BigWigs:NewBossLocale("Horrific Vision of Orgrimmar Trash", "zhCN")
 if L then
+	L.sanity_change = "理智：%d"
+	L.madnesses = "疯狂"
+	L.potions = "药水"
+	L.buffs = "增益"
+
 	L.voidbound_shaman = "虚缚萨满祭司"
 	L.endless_hunger_totem = "无尽饥饿图腾"
 	L.crawling_corruption = "蠕行腐蚀"
@@ -132,6 +137,13 @@ end
 
 L = BigWigs:NewBossLocale("Horrific Vision of Stormwind Trash", "zhCN")
 if L then
+	L.sanity_change = "理智：%d"
+	L.portal_closed = "传送门关闭"
+	L.portal_closed_desc = "当法师区的传送门关闭时显示一条信息。"
+	L.madnesses = "疯狂"
+	L.potions = "药水"
+	L.buffs = "增益"
+
 	L.crawling_corruption = "蠕行腐蚀"
 	L.enthralled_footman = "被奴役的步兵"
 	L.fallen_voidspeaker = "堕落的虚空语者"
@@ -156,6 +168,7 @@ if L then
 	L.zardeth_of_the_black_claw = "黑爪加尔德斯"
 	L.unstable_servant = "不稳定的仆从"
 	L.hogger = "霍格"
+	L.void_scarred_gryphon = "虚痕狮鹫"
 
 	L.therum_deepforge_warmup_trigger = "你们喜欢放烟花是吧？那我们就好好玩玩。"
 	L.alleria_windrunner_warmup_trigger = "母亲……别再听那些低语了！"

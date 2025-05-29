@@ -1,10 +1,5 @@
 
 BigWigs3DB = {
-["global"] = {
-["watchedMovies"] = {
-[-2409] = true,
-},
-},
 ["namespaces"] = {
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
@@ -12,6 +7,11 @@ BigWigs3DB = {
 ["custom_off_-31087"] = true,
 },
 },
+},
+},
+["global"] = {
+["watchedMovies"] = {
+[-2409] = true,
 },
 },
 ["profileKeys"] = {
@@ -117,8 +117,8 @@ BigWigsStatsDB = {
 [2642] = {
 ["heroic"] = {
 ["kills"] = 3,
-["wipes"] = 1,
 ["fkDate"] = "2025/05/09",
+["wipes"] = 1,
 ["bestDate"] = "2025/05/23",
 ["best"] = 291.7790000000096,
 ["fkDuration"] = 419.2560000000522,
@@ -145,7 +145,7 @@ BigWigsStatsDB = {
 ["bestDate"] = "2025/05/17",
 ["fkWipes"] = 14,
 ["best"] = 521.9089999999997,
-["wipes"] = 16,
+["wipes"] = 21,
 ["fkDuration"] = 521.9089999999997,
 },
 },
