@@ -1,18 +1,5 @@
 
 FixRaidDB = {
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 287.5534346376314,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -31,16 +18,8 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Vivivikan-MoonGuard"] = 1748227755,
-["Amunathen-Stormrage"] = 1748227736,
 },
 ["ranged"] = {
-["Druidbod-Ysera"] = 1748221800,
-["Bochese-Scilla"] = 1748226787,
-["Tavat-Zul'jin"] = 1748220895,
-["Dracshot-Area52"] = 1748224635,
-["Taunakw-Ysera"] = 1748223889,
-["Aqquilla-Ysera"] = 1748221818,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -55,8 +34,21 @@ FixRaidDB = {
 ["Caegon-Stormrage"] = 1748135465,
 ["Twistedwilds-Illidan"] = 1747537750,
 ["Stallos-Doomhammer"] = 1746838938,
-["Metaltits-Area52"] = 1746925234,
 ["Beernuts-Doomhammer"] = 1746839663,
+["Metaltits-Area52"] = 1746925234,
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 287.5534346376314,
 },
 },
 },

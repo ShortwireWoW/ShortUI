@@ -18,11 +18,11 @@ LoggerHeadDB = {
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
-},
 ["Fungal Folly"] = {
 [208] = false,
+},
+["The Dread Pit"] = {
+[208] = true,
 },
 },
 ["party"] = {
@@ -39,7 +39,7 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["Theater of Pain"] = {
+["Priory of the Sacred Flame"] = {
 [23] = true,
 [8] = true,
 },
@@ -51,7 +51,7 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["Priory of the Sacred Flame"] = {
+["Theater of Pain"] = {
 [23] = true,
 [8] = true,
 },

@@ -4,7 +4,6 @@ ElvCharacterDB = {
 ["ChatEditHistory"] = {
 "/cw Bloodhawke good",
 "/wa",
-"/details reset",
 "/RC",
 "/PULL 10",
 "/mrt n",
@@ -17,11 +16,12 @@ ElvCharacterDB = {
 "/cell opt",
 "/cw Xarlo it's gonna be a rough night",
 "/cw Xarlo I'm really annoyed at how quickly they gave up.",
-"/simc",
 "/cw Ironhawke I'm really annoyed how quickly everyone just voted to not even try tonight.",
 "/break 5",
 "/rc",
 "/pull 10",
+"/simc",
+"/details reset",
 },
 ["ChatHistoryLog"] = {
 },
