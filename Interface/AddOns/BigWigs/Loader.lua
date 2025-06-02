@@ -19,7 +19,7 @@ local CONTENT_PACK_VERSIONS = {
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 5},
 	["BigWigs_Cataclysm"] = {11, 1, 6},
-	["BigWigs_MistsOfPandaria"] = {11, 1, 2},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 3},
 }
 local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -51,7 +51,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "3d8d9ce" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "a65f755" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -1138,9 +1138,9 @@ function mod:ADDON_LOADED(addon)
 				end
 			end
 		end
-		if BigWigs3DB.namespaces then
+		if BigWigs3DB.namespaces and public:GetAddOnState("QuaziiUI") ~= "MISSING" then
 			for k,v in next, BigWigs3DB.namespaces do
-				if (strfind(k, " Trash", nil, true) or strfind(k, " Rares", nil, true)) and (public:GetAddOnState("QuaziiUI") ~= "MISSING" or public:GetAddOnState("ElvUI_ProjectHopes") ~= "MISSING") then
+				if strfind(k, " Trash", nil, true) or strfind(k, " Rares", nil, true) then
 					BigWigs3DB.namespaces[k] = nil
 				end
 			end
@@ -1338,18 +1338,21 @@ do
 			if name == "BigWigs_Shadowlands" then
 				local meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-InstanceId")
 				if not meta then
+					DisableAddOn(i)
 					local msg = L.removeAddOn:format(name, old[name])
 					delayedMessages[#delayedMessages+1] = msg
 					if not BasicMessageDialog:IsShown() then -- Don't overwrite other messages with this as the message is confusing, show it last
 						Popup(msg, true)
 					end
+				else
+					EnableAddOn(i) -- XXX temp as we were accidentally disabling the Shadowlands addon for a while
 				end
 			else
+				DisableAddOn(i)
 				local msg = L.removeAddOn:format(name, old[name])
 				delayedMessages[#delayedMessages+1] = msg
 				Popup(msg, true)
 			end
-			DisableAddOn(i)
 		end
 
 		if reqFuncAddons[name] then

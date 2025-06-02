@@ -79,7 +79,7 @@ function mod:GetOptions()
 		473748, -- Amplification!
 			1217122, -- Lingering Voltage
 			468119, -- Resonant Echoes
-				1214598, -- Entranced!
+				1214598, -- Entranced
 			-- 465795, -- Noise Pollution
 			466093, -- Haywire -- XXX Check if this warning is needed
 		466866, -- Echoing Chant
@@ -96,6 +96,7 @@ function mod:GetOptions()
 		[473260] = -31655, -- Stage 2
 	},{ -- Renames
 		[473748] = L.amplification, -- Amplification! (Amplifiers)
+		[1214598] = CL.mind_control, -- Entranced (Mind Control)
 		[466866] = L.echoing_chant, -- Echoing Chant (Echoes)
 		[466979] = L.faulty_zap, -- Faulty Zap (Zaps)
 		[472306] = L.sparkblast_ignition, -- Sparkblast Ignition (Barrels)
@@ -105,6 +106,7 @@ end
 
 function mod:OnRegister()
 	self:SetSpellRename(473748, L.amplification) -- Amplification! (Amplifiers)
+	self:SetSpellRename(1214598, CL.mind_control) -- Entranced (Mind Control)
 	self:SetSpellRename(466866, L.echoing_chant) -- Echoing Chant (Echoes)
 	self:SetSpellRename(466979, L.faulty_zap) -- Faulty Zap (Zaps)
 	self:SetSpellRename(472306, L.sparkblast_ignition) -- Sparkblast Ignition (Barrels)
@@ -127,7 +129,6 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "FaultyZap", 466979)
 	self:Log("SPELL_AURA_APPLIED", "FaultyZapApplied", 467108) -- pre debuffs
 	self:Log("SPELL_SUMMON", "PyrotechnicsSpawn", 1214688) -- Sparkblast Ignition
-	self:Log("SPELL_AURA_APPLIED", "ExcitementApplied", 1214164)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "ExcitementApplied", 1214164)
 	self:Log("SPELL_AURA_APPLIED", "TinnitusApplied", 464518)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "TinnitusApplied", 464518)
@@ -238,16 +239,26 @@ end
 function mod:ResonantEchoesApplied(args)
 	if self:Me(args.destGUID) then
 		self:StackMessage(args.spellId, "blue", args.destName, args.amount, 1)
-		if self:Easy() then -- Warning sound in heroic+ from Entranced!
-			self:PlaySound(args.spellId, "alarm") -- watch stacks
+		if not self:Mythic() then -- We warn for Entranced (Mind Control) on mythic
+			self:PlaySound(args.spellId, "warning") -- watch stacks
 		end
 	end
 end
 
-function mod:EntrancedApplied(args)
-	self:TargetMessage(args.spellId, "red", args.destName)
-	if self:Me(args.destGUID) then
-		self:PlaySound(args.spellId, "warning") -- lured in
+do
+	local playerList = {}
+	local prev = 0
+	function mod:EntrancedApplied(args) -- Mind Control (Mythic)
+		if args.time - prev > 0.5 then
+			prev = args.time
+			playerList = {}
+		end
+
+		playerList[#playerList + 1] = args.destName
+		self:TargetsMessage(args.spellId, "red", playerList, nil, CL.mind_control, nil, 0.5)
+		if self:Me(args.destGUID) then
+			self:PlaySound(args.spellId, "warning")
+		end
 	end
 end
 
@@ -340,12 +351,9 @@ do
 end
 
 function mod:ExcitementApplied(args)
-	if self:Me(args.destGUID) then
-		local amount = args.amount or 1
-		if amount % 2 == 1 then
-			self:Message(args.spellId, "green", CL.stackyou:format(amount, args.spellName))
-			self:PlaySound(args.spellId, "info") -- buffs!
-		end
+	if self:Me(args.destGUID) and args.amount == 3 then -- 3 is the max
+		self:Message(args.spellId, "green", CL.stackyou:format(args.amount, args.spellName))
+		self:PlaySound(args.spellId, "info") -- buffs!
 	end
 end
 

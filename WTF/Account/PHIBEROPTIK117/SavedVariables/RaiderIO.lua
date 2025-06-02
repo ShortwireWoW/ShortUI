@@ -55,20 +55,12 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Bigboywolf-stormrage"] = true,
-["us-Ezflowelbow-stormrage"] = true,
-["us-Sailus-stormrage"] = true,
-["us-Ðineomight-stormrage"] = true,
-["us-Stephmage-stormrage"] = true,
-["us-Guuss-stormrage"] = true,
-["us-Birlão-stormrage"] = true,
-["us-Scrooty-stormrage"] = true,
-["us-Chaoticdevil-stormrage"] = true,
-["us-Assasinoodle-stormrage"] = true,
+["us-Sevoro-stormrage"] = true,
+["us-Gida-bonechewer"] = true,
+["us-Peglegs-bonechewer"] = true,
 ["us-Sessile-stormrage"] = true,
-["us-Kysama-stormrage"] = true,
-["us-Amaelyn-stormrage"] = true,
-["us-Xzur-stormrage"] = true,
+["us-Echovolk-stormrage"] = true,
+["us-Lunasey-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

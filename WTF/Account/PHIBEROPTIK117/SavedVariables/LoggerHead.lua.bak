@@ -13,6 +13,9 @@ LoggerHeadDB = {
 [15] = true,
 [17] = false,
 },
+["Karazhan"] = {
+[3] = false,
+},
 },
 ["scenario"] = {
 ["Earthcrawl Mines"] = {

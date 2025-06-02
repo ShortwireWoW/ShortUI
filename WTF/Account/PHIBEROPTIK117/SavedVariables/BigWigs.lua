@@ -9,13 +9,13 @@ BigWigs3DB = {
 },
 },
 },
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-},
 ["global"] = {
 ["watchedMovies"] = {
 [-2409] = true,
 },
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -29,7 +29,7 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 404.4740000000002,
 ["wipes"] = 3,
 ["fkWipes"] = 3,
@@ -48,12 +48,12 @@ BigWigsStatsDB = {
 },
 [2645] = {
 ["heroic"] = {
-["kills"] = 2,
+["kills"] = 3,
 ["fkDate"] = "2025/05/16",
 ["bestDate"] = "2025/05/23",
 ["fkWipes"] = 3,
 ["best"] = 304.7360000000044,
-["wipes"] = 9,
+["wipes"] = 10,
 ["fkDuration"] = 320.8870000000024,
 },
 ["normal"] = {
@@ -66,7 +66,7 @@ BigWigsStatsDB = {
 },
 [2639] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/05/23",
 ["best"] = 178.4549999999872,
@@ -141,12 +141,12 @@ BigWigsStatsDB = {
 ["fkDuration"] = 455.8499999999913,
 },
 ["heroic"] = {
-["kills"] = 1,
+["kills"] = 2,
 ["fkDate"] = "2025/05/17",
-["bestDate"] = "2025/05/17",
+["bestDate"] = "2025/05/30",
 ["fkWipes"] = 14,
-["best"] = 521.9089999999997,
-["wipes"] = 21,
+["best"] = 464.320000000007,
+["wipes"] = 22,
 ["fkDuration"] = 521.9089999999997,
 },
 },

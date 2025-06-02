@@ -31,16 +31,8 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Vivivikan-MoonGuard"] = 1748227755,
-["Amunathen-Stormrage"] = 1748227736,
 },
 ["ranged"] = {
-["Druidbod-Ysera"] = 1748221800,
-["Bochese-Scilla"] = 1748226787,
-["Tavat-Zul'jin"] = 1748220895,
-["Dracshot-Area52"] = 1748224635,
-["Taunakw-Ysera"] = 1748223889,
-["Aqquilla-Ysera"] = 1748221818,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -48,15 +40,11 @@ FixRaidDB = {
 ["Twistedtraps-Illidan"] = 1747010292,
 },
 ["ranged"] = {
-["Skronkles-Bonechewer"] = 1748135066,
+["Skronkles-Bonechewer"] = 1748800664,
+["Twistedsham-Stormrage"] = 1748657438,
+["Caegon-Stormrage"] = 1748657472,
 ["Jacobgmm-Area52"] = 1748052824,
-["Melzie-Draenor"] = 1746934305,
-["Twistedsham-Stormrage"] = 1748056612,
-["Caegon-Stormrage"] = 1748135465,
-["Twistedwilds-Illidan"] = 1747537750,
-["Stallos-Doomhammer"] = 1746838938,
-["Metaltits-Area52"] = 1746925234,
-["Beernuts-Doomhammer"] = 1746839663,
+["Twistedwilds-Illidan"] = 1748800665,
 },
 },
 },

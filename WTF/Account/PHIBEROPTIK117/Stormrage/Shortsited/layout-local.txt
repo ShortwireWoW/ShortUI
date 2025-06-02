@@ -15,11 +15,11 @@ W: 388
 H: 250
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 31
-Y: -23
+Anchor: LEFT
+X: 67
+Y: -123
 W: 261
-H: 590
+H: 544
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER

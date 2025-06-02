@@ -4,7 +4,7 @@ local cataWowID = 14
 local mistsWowID = 19
 if wowID ~= 1 and wowID ~= cataWowID and wowID ~= mistsWowID then return end -- Retail, Cata, Mists
 
-local LS, oldminor = LibStub:NewLibrary("LibSpecialization", 14)
+local LS, oldminor = LibStub:NewLibrary("LibSpecialization", 15)
 if not LS then return end -- No upgrade needed
 
 LS.callbackMap = LS.callbackMap or {}
@@ -420,12 +420,12 @@ do
 					return
 				end
 
-				local spec, talentString = strmatch("(%d+),(.+)", msg)
+				local spec, talentString = strmatch(msg, "(%d+),(.+)")
 				local specId = tonumber(spec)
 				local cataDruidRole
 				if specId == 750 then -- Cataclysm Feral Druids
 					talentString = nil
-					cataDruidRole = strmatch("%d+,,(.+)", msg)
+					cataDruidRole = strmatch(msg, "%d+,,(.+)")
 				end
 
 				local role, position = roleTable[specId], positionTable[specId]
