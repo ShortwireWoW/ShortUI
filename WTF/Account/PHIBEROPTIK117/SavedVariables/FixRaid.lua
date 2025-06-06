@@ -1,5 +1,18 @@
 
 FixRaidDB = {
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 287.5534346376314,
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -24,7 +37,6 @@ FixRaidDB = {
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
-["Twistedtraps-Illidan"] = 1747010292,
 },
 ["ranged"] = {
 ["Skronkles-Bonechewer"] = 1748800664,
@@ -32,19 +44,6 @@ FixRaidDB = {
 ["Caegon-Stormrage"] = 1748657472,
 ["Jacobgmm-Area52"] = 1748052824,
 ["Twistedwilds-Illidan"] = 1748800665,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 287.5534346376314,
 },
 },
 },
