@@ -24,7 +24,6 @@ FixRaidDB = {
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
-["Twistedtraps-Illidan"] = 1747010292,
 },
 ["ranged"] = {
 ["Skronkles-Bonechewer"] = 1748800664,

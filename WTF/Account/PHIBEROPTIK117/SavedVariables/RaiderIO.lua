@@ -55,9 +55,31 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Brangennan-stormrage"] = true,
-["us-Rukegar-illidan"] = true,
-["us-Borzak-stormrage"] = true,
+["us-Darkemourne-stormrage"] = true,
+["us-Veleadra-stormrage"] = true,
+["us-Admirie-stormrage"] = true,
+["us-Stalfrunir-stormrage"] = true,
+["us-Zarimiah-stormrage"] = true,
+["us-Aditivada-stormrage"] = true,
+["us-Rìcochet-proudmoore"] = true,
+["us-Leonxiv-stormrage"] = true,
+["us-Hiralina-stormrage"] = true,
+["us-Ramblnrose-stormrage"] = true,
+["us-Sewenitymage-stormrage"] = true,
+["us-Ozempicz-stormrage"] = true,
+["us-Piorities-stormrage"] = true,
+["us-Pinkiiz-dalaran"] = true,
+["us-Lexiir-stormrage"] = true,
+["us-Tabbitos-stormrage"] = true,
+["us-Voidwalk-stormrage"] = true,
+["us-Narekz-stormrage"] = true,
+["us-Køreanswap-stormrage"] = true,
+["us-Hellzmonk-stormrage"] = true,
+["us-Elgrongo-stormrage"] = true,
+["us-Shrimpeena-stormrage"] = true,
+["us-Niccorobin-stormrage"] = true,
+["us-Quenche-stormrage"] = true,
+["us-Sordall-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

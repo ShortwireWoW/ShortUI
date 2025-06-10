@@ -33,6 +33,7 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
+["Ðréams-Kil'jaeden"] = 1749349941,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -40,7 +41,7 @@ FixRaidDB = {
 },
 ["ranged"] = {
 ["Skronkles-Bonechewer"] = 1748800664,
-["Twistedsham-Stormrage"] = 1748657438,
+["Twistedsham-Stormrage"] = 1749346012,
 ["Caegon-Stormrage"] = 1748657472,
 ["Jacobgmm-Area52"] = 1748052824,
 ["Twistedwilds-Illidan"] = 1748800665,
