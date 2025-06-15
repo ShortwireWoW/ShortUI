@@ -7,6 +7,11 @@ VER 3 0000000000000064 "AFK Level" "134400"
 /cast Heroic Throw
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
+VER 3 000000000000006C "Fish" "319458"
+/target Sleepy Fish
+/ping [@target]
+/sleep
+END
 VER 3 0000000000000068 "Guild" "134331"
 /s |cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r 
 END
