@@ -76,6 +76,10 @@ if L then
 	L.madnesses = "광기"
 	L.potions = "물약"
 	L.buffs = "버프"
+	L.slowed = "이감"
+	L.sluggish_potion_effect = "5초마다 2% 회복"
+	L.sickening_potion_effect = "5% 피해 감소"
+	L.spicy_potion_effect = "불 브레스"
 
 	L.voidbound_shaman = "공허결속단 주술사"
 	L.endless_hunger_totem = "끝없는 허기의 토템"
@@ -143,6 +147,10 @@ if L then
 	L.madnesses = "광기"
 	L.potions = "물약"
 	L.buffs = "버프"
+	L.slowed = "이감"
+	L.sluggish_potion_effect = "5초마다 2% 회복"
+	L.sickening_potion_effect = "5% 피해 감소"
+	L.spicy_potion_effect = "불 브레스"
 
 	L.crawling_corruption = "엄습하는 타락"
 	L.enthralled_footman = "속박된 보병"

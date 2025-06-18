@@ -76,6 +76,10 @@ if L then
 	--L.madnesses = "Madnesses"
 	--L.potions = "Potions"
 	--L.buffs = "Buffs"
+	--L.slowed = "Slowed"
+	--L.sluggish_potion_effect = "Heal 2% every 5 sec"
+	--L.sickening_potion_effect = "5% damage reduction"
+	--L.spicy_potion_effect = "Breathe fire"
 
 	L.voidbound_shaman = "Sciamano Vincolato dal Vuoto"
 	L.endless_hunger_totem = "Totem della Fame Eterna"
@@ -143,6 +147,10 @@ if L then
 	--L.madnesses = "Madnesses"
 	--L.potions = "Potions"
 	--L.buffs = "Buffs"
+	--L.slowed = "Slowed"
+	--L.sluggish_potion_effect = "Heal 2% every 5 sec"
+	--L.sickening_potion_effect = "5% damage reduction"
+	--L.spicy_potion_effect = "Breathe fire"
 
 	L.crawling_corruption = "Corruzione Strisciante"
 	L.enthralled_footman = "Coscritto Ammaliato"

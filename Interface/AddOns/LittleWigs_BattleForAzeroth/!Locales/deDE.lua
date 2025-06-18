@@ -76,6 +76,10 @@ if L then
 	L.madnesses = "Wahnsinn"
 	L.potions = "Tränke"
 	L.buffs = "Buffs"
+	L.slowed = "Verlangsamt"
+	L.sluggish_potion_effect = "Heilt alle 5 Sek. 2%"
+	L.sickening_potion_effect = "5% weniger erlittener Schaden"
+	L.spicy_potion_effect = "Speit Feuer"
 
 	L.voidbound_shaman = "Leerengebundener Schamane"
 	L.endless_hunger_totem = "Totem des endlosen Hungers"
@@ -143,6 +147,10 @@ if L then
 	L.madnesses = "Wahnsinn"
 	L.potions = "Tränke"
 	L.buffs = "Buffs"
+	L.slowed = "Verlangsamt"
+	L.sluggish_potion_effect = "Heilt alle 5 Sek. 2%"
+	L.sickening_potion_effect = "5% weniger erlittener Schaden"
+	L.spicy_potion_effect = "Speit Feuer"
 
 	L.crawling_corruption = "Krabbelnde Verderbnis"
 	L.enthralled_footman = "Bezauberter Fußsoldat"

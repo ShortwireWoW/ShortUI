@@ -31,9 +31,9 @@ RaiderIO_Config = {
 },
 ["mplusHeadlineMode"] = 0,
 ["showScoreInCombat"] = true,
-["inverseProfileModifier"] = false,
-["replaySelection"] = "user_best_replay",
+["showWarbandScore"] = true,
 ["enableWhoTooltips"] = true,
+["replaySelection"] = "user_best_replay",
 ["hidePersonalRaiderIOProfile"] = false,
 ["enableGuildTooltips"] = true,
 ["enableLFGTooltips"] = true,
@@ -47,7 +47,7 @@ RaiderIO_Config = {
 ["showRaiderIOProfile"] = true,
 ["enableProfileModifier"] = true,
 ["showScoreModifier"] = false,
-["showWarbandScore"] = true,
+["inverseProfileModifier"] = false,
 ["lockProfile"] = false,
 ["showSimpleScoreColors"] = false,
 ["enableCombatLogTracking"] = false,
@@ -55,15 +55,10 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Avaginar-hellscream"] = true,
-["us-Onfleek-gorefiend"] = true,
-["us-Ldyjayde-eredar"] = true,
-["us-Ghettopirate-tichondrius"] = true,
-["us-Wyldstallion-zangarmarsh"] = true,
-["us-Farstrider-eredar"] = true,
-["us-Arturzão-stormrage"] = true,
+["us-Corrynn-stormrage"] = true,
+["us-Ohshiftno-stormrage"] = true,
 ["us-Rukegar-illidan"] = true,
-["us-Slonntou-illidan"] = true,
+["us-Thorkel-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

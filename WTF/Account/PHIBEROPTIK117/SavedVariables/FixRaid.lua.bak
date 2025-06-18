@@ -33,7 +33,6 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Darkivie-Hakkar"] = 1749862767,
 },
 },
 ["damagerRoleGuildCache"] = {
@@ -44,7 +43,6 @@ FixRaidDB = {
 ["Skronkles-Bonechewer"] = 1748800664,
 ["Twistedsham-Stormrage"] = 1749346012,
 ["Caegon-Stormrage"] = 1749862659,
-["Jacobgmm-Area52"] = 1748052824,
 ["Landreielea-Eitrigg"] = 1749863542,
 },
 },

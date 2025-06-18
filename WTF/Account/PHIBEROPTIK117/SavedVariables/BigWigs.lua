@@ -1,10 +1,5 @@
 
 BigWigs3DB = {
-["global"] = {
-["watchedMovies"] = {
-[-2409] = true,
-},
-},
 ["namespaces"] = {
 ["BigWigs_Bosses_Rik Reverb"] = {
 ["profiles"] = {
@@ -12,6 +7,11 @@ BigWigs3DB = {
 ["custom_off_-31087"] = true,
 },
 },
+},
+},
+["global"] = {
+["watchedMovies"] = {
+[-2409] = true,
 },
 },
 ["profileKeys"] = {

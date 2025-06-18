@@ -1500,6 +1500,7 @@ do
     ---@field public replaySelection ReplayFrameSelections Defaults to `user_best_replay`
     ---@field public replayPoint ConfigProfilePoint Defaults to `{ point = nil, x = 0, y = 0 }`
     ---@field public profilePoint ConfigProfilePoint Defaults to `{ point = nil, x = 0, y = 0 }`
+    ---@field public rwfMiniPoint ConfigProfilePoint Defaults to `{ point = nil, x = 0, y = 0 }`
     ---@field public replayBackground ConfigReplayColor Defaults to `{ r = 0, g = 0, b = 0, a = 0.5 }`
     ---@field public minimapIcon MinimapIconDB Defaults to `{ hide = false, lock = false, showInCompartment = true, minimapPos = 180 }`
 
@@ -1508,6 +1509,69 @@ do
     ---@field public lock boolean `false`
     ---@field public showInCompartment boolean `true`
     ---@field public minimapPos number `180`
+
+    -- These settings have no other way to be changed other than directly setting their value:
+    -- /run RaiderIO_Config.alwaysExtendTooltip = false
+    -- /run RaiderIO_Config.disableCheckingRegion = false
+    -- /run RaiderIO_Config.rwfBackgroundMode = true
+    -- /run RaiderIO_Config.rwfBackgroundRemindAt = 10
+    -- /run RaiderIO_Config.showMedalsInsteadOfText = false
+
+    --- Manually updated to match `fallbackConfig` keys. This can be replaced once `keyof` becomes supported.
+    ---@alias FallbackConfigKey
+    ---|"enableUnitTooltips"
+    ---|"enableLFGTooltips"
+    ---|"enableFriendsTooltips"
+    ---|"enableLFGDropdown"
+    ---|"enableWhoTooltips"
+    ---|"enableWhoMessages"
+    ---|"enableGuildTooltips"
+    ---|"enableKeystoneTooltips"
+    ---|"showAverageScore"
+    ---|"mplusHeadlineMode"
+    ---|"useEnglishAbbreviations"
+    ---|"showMainsScore"
+    ---|"showMainBestScore"
+    ---|"showWarbandScore"
+    ---|"showDropDownCopyURL"
+    ---|"showSimpleScoreColors"
+    ---|"showScoreInCombat"
+    ---|"showScoreModifier" @NEW in 9.0
+    ---|"disableScoreColors"
+    ---|"enableClientEnhancements"
+    ---|"showClientGuildBest"
+    ---|"displayWeeklyGuildBest"
+    ---|"allowClientToControlCombatLog"
+    ---|"enableCombatLogTracking"
+    ---|"previouslyEnabledLogging"
+    ---|"showRaiderIOProfile"
+    ---|"hidePersonalRaiderIOProfile"
+    ---|"showRaidEncountersInProfile"
+    ---|"enableProfileModifier"
+    ---|"inverseProfileModifier"
+    ---|"alwaysExtendTooltip"
+    ---|"positionProfileAuto"
+    ---|"lockProfile"
+    ---|"enableLFGExportButton" @NEW in 11.1
+    ---|"showRoleIcons"
+    ---|"profilePoint" @`ConfigProfilePoint`
+    ---|"debugMode"
+    ---|"disableCheckingRegion" @NEW in 11.1.5
+    ---|"rwfMode" @NEW in 9.1
+    ---|"rwfBackgroundMode" @NEW in 9.2
+    ---|"rwfBackgroundRemindAt" @NEW in 9.2
+    ---|"rwfMiniPoint" @`ConfigProfilePoint` NEW in 9.2
+    ---|"showMedalsInsteadOfText" @NEW in 9.1.5
+    ---|"replayStyle" @NEW in 10.0.7
+    ---|"replayTiming" @NEW in 10.1.5
+    ---|"replaySelection" @NEW in 10.1.5
+    ---|"replayBackground" @`ConfigReplayColor` NEW in 10.1.5
+    ---|"replayAlpha" @NEW in 10.1.5
+    ---|"enableReplay" @NEW in 10.1.5
+    ---|"dockReplay" @NEW in 10.1.5
+    ---|"lockReplay" @NEW in 10.1.5
+    ---|"replayPoint" @`ConfigProfilePoint` NEW in 10.1.5
+    ---|"minimapIcon" @`MinimapIconDB` NEW in 10.2.6
 
     -- fallback saved variables
     ---@class FallbackConfig
@@ -1520,6 +1584,7 @@ do
         enableWhoMessages = true,
         enableGuildTooltips = true,
         enableKeystoneTooltips = true,
+        showAverageScore = false,
         mplusHeadlineMode = 0,
         useEnglishAbbreviations = false,
         showMainsScore = true,
@@ -1535,37 +1600,40 @@ do
         displayWeeklyGuildBest = false,
         allowClientToControlCombatLog = true,
         enableCombatLogTracking = false,
+        previouslyEnabledLogging = false,
         showRaiderIOProfile = true,
         hidePersonalRaiderIOProfile = false,
         showRaidEncountersInProfile = true,
         enableProfileModifier = true,
         inverseProfileModifier = false,
+        alwaysExtendTooltip = false,
         positionProfileAuto = true,
         lockProfile = false,
         enableLFGExportButton = true, -- NEW in 11.1
         showRoleIcons = true,
-        profilePoint = { point = nil, x = 0, y = 0 },
+        profilePoint = { point = nil, x = 0, y = 0 }, -- `ConfigProfilePoint`
         debugMode = false,
+        disableCheckingRegion = false, -- NEW in 11.1.5
         rwfMode = false, -- NEW in 9.1
         rwfBackgroundMode = true, -- NEW in 9.2
         rwfBackgroundRemindAt = 10, -- NEW in 9.2
-        rwfMiniPoint = { point = nil, x = 0, y = 0 }, -- NEW in 9.2
+        rwfMiniPoint = { point = nil, x = 0, y = 0 }, -- `ConfigProfilePoint` NEW in 9.2
         showMedalsInsteadOfText = false, -- NEW in 9.1.5
         replayStyle = "MODERN", -- NEW in 10.0.7
         replayTiming = "BOSS", -- NEW in 10.1.5
         replaySelection = "user_best_replay", -- NEW in 10.1.5
-        replayBackground = { r = 0, g = 0, b = 0, a = 0.5 }, -- NEW in 10.1.5
+        replayBackground = { r = 0, g = 0, b = 0, a = 0.5 }, -- `ConfigReplayColor` NEW in 10.1.5
         replayAlpha = 1, -- NEW in 10.1.5
         enableReplay = true, -- NEW in 10.1.5
         dockReplay = true, -- NEW in 10.1.5
         lockReplay = false, -- NEW in 10.1.5
-        replayPoint = { point = nil, x = 0, y = 0 }, -- NEW in 10.1.5
-        minimapIcon = { hide = false, lock = false, showInCompartment = true, minimapPos = 180 }, -- NEW in 10.2.6
+        replayPoint = { point = nil, x = 0, y = 0 }, -- `ConfigProfilePoint` NEW in 10.1.5
+        minimapIcon = { hide = false, lock = false, showInCompartment = true, minimapPos = 180 }, -- `MinimapIconDB` NEW in 10.2.6
     }
 
     -- fallback metatable looks up missing keys into the fallback config table
     local fallbackMetatable = {
-        ---@param key string
+        ---@param key FallbackConfigKey
         __index = function(_, key)
             return fallbackConfig[key]
         end
@@ -1598,14 +1666,14 @@ do
         callback:RegisterEventOnce(OnPlayerLogin, "RAIDERIO_PLAYER_LOGIN")
     end
 
-    ---@param key string
+    ---@param key FallbackConfigKey
     ---@param val any
     function config:Set(key, val)
         assert(self:IsEnabled(), "Raider.IO Config expects Set(key, val) to only be used after the addon saved variables have been loaded.")
         RaiderIO_Config[key] = val
     end
 
-    ---@param key string
+    ---@param key FallbackConfigKey
     ---@param fallback? any
     ---@return any
     function config:Get(key, fallback)
@@ -1617,7 +1685,7 @@ do
         return val
     end
 
-    ---@param key string
+    ---@param key FallbackConfigKey
     ---@return any
     function config:GetDefault(key)
         return fallbackConfig[key]
@@ -2254,8 +2322,8 @@ do
     ---@param playerLink string @The player link can be any valid clickable chat link for messaging
     ---@return string?, string?, number? @Returns the name and realm, or nil for both if invalid
     function util:GetNameRealmFromPlayerLink(playerLink)
-        local linkString, linkText = LinkUtil.SplitLink(playerLink)
-        local linkType, linkData = ExtractLinkData(linkString) ---@type string, string
+        local linkString, linkText = playerLink:match("^|H(.+)|h(.*)|h$") ---@type string, string
+        local linkType, linkData = linkString:match("(.-):(.*)")---@type string, string
         if linkType == "player" then
             local name, realm, unit = util:GetNameRealm(linkData)
             return name, realm
@@ -3396,7 +3464,7 @@ do
                     outdated = outdated and max(outdated, provider.outdated) or provider.outdated
                 end
                 if not config:Get("debugMode") then
-                    if provider.region ~= ns.PLAYER_REGION then
+                    if provider.region ~= ns.PLAYER_REGION and not config:Get("disableCheckingRegion") then
                         C_AddOns.DisableAddOn(provider.name)
                         table.wipe(provider)
                         table.remove(providers, i)
@@ -5887,8 +5955,10 @@ do
         -- if unit simply refresh the unit and the original hook will force update the tooltip with the desired behavior
         local _, tooltipUnit = tooltip:GetUnit()
         if tooltipUnit then
-            if tooltip.RefreshData then
-                tooltip:RefreshData()
+            ---@diagnostic disable-next-line: undefined-field
+            local refreshData = tooltip.RefreshData ---@type fun(self: GameTooltip)?
+            if refreshData then
+                refreshData(tooltip)
                 return
             end
             tooltip:SetUnit(tooltipUnit)
@@ -6675,7 +6745,7 @@ if IS_RETAIL then
             local info = C_ChallengeMode.GetChallengeCompletionInfo()
             mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = info.mapChallengeModeID, info.level, info.time, info.onTime, info.keystoneUpgradeLevels, info.practiceRun, info.oldOverallDungeonScore, info.newOverallDungeonScore, info.isAffixRecord, info.isMapRecord, 0, info.isEligibleForScore, info.members
         else
-            mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = C_ChallengeMode.GetCompletionInfo()
+            mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = C_ChallengeMode.GetCompletionInfo() ---@diagnostic disable-line: deprecated
         end
         if not practiceRun then
             local bannerData = { mapID = mapID, level = level, time = time, onTime = onTime, keystoneUpgradeLevels = keystoneUpgradeLevels or 0, oldDungeonScore = oldDungeonScore, newDungeonScore = newDungeonScore, isAffixRecord = isAffixRecord, isMapRecord = isMapRecord, primaryAffix = primaryAffix, isEligibleForScore = isEligibleForScore, upgradeMembers = upgradeMembers } ---@type ChallengeModeCompleteBannerData
@@ -8888,7 +8958,6 @@ if IS_RETAIL then
                         if isTrash then
                             -- `quantityString` is not provided, but we attempt to read it in case it comes back
                             -- https://github.com/Stanzilla/WoWUIBugs/issues/592
-                            ---@diagnostic disable-next-line: undefined-field
                             local quantityString = criteriaInfo.quantityString ---@type string?
                             local quantity = criteriaInfo.quantity
                             local totalQuantity = criteriaInfo.totalQuantity
@@ -9403,8 +9472,12 @@ if IS_RETAIL then
         ---@field public EvaluateTutorials fun(self: UIWidgetTemplateStatusBarMixin)
         ---@field public OnReset fun(self: UIWidgetTemplateStatusBarMixin)
 
+        ---@class UIWidgetBaseStatusBarTemplate : StatusBar
+        ---@field public value number
+
         ---@class UIWidgetTemplateStatusBar : Frame, UIWidgetTemplateStatusBarMixin
         ---@field public widgetContainer Region @Custom property assigned to be the same as the object used when calling `Setup`.
+        ---@field public Bar UIWidgetBaseStatusBarTemplate
         ---@field public SetBarValue fun(self: UIWidgetTemplateStatusBar, barValue: number, barMin?: number, barMax?: number, forceUpdate?: boolean) @Custom function assigned to wrap around `Setup` for updating the bar widget.
 
         ---@type StatusBarWidgetVisualizationInfoPolyfill
@@ -13848,11 +13921,11 @@ do
 
         ---@class RaiderIOSettingsToggleWidget : RaiderIOSettingsBaseWidget
         ---@field public tooltip? string
-        ---@field public cvar? string
+        ---@field public cvar? FallbackConfigKey
 
         ---@param label string
         ---@param description? string
-        ---@param cvar? string
+        ---@param cvar? FallbackConfigKey
         ---@param configOptions? RaiderIOSettingsBaseWidgetConfigOptions
         ---| RaiderIOSettingsDropDownWidgetOptions
         ---| RaiderIOSettingsColorPickerWidgetOptions
@@ -13882,7 +13955,7 @@ do
 
         ---@param label string
         ---@param description? string
-        ---@param cvar? string
+        ---@param cvar? FallbackConfigKey
         ---@param configOptions? RaiderIOSettingsBaseWidgetConfigOptions
         function configOptions.CreateOptionToggle(self, label, description, cvar, configOptions)
             ---@class RaiderIOSettingsToggleWidget
@@ -13899,7 +13972,7 @@ do
 
         ---@param label string
         ---@param description? string
-        ---@param cvar string
+        ---@param cvar FallbackConfigKey
         ---@param value? any
         ---@param configOptions? RaiderIOSettingsBaseWidgetConfigOptions
         function configOptions.CreateRadioToggle(self, label, description, cvar, value, configOptions)
@@ -14025,7 +14098,7 @@ do
         ---@param self RaiderIOConfigOptions
         ---@param label string
         ---@param description string
-        ---@param cvar string
+        ---@param cvar FallbackConfigKey
         ---@param configOptions RaiderIOSettingsDropDownWidgetOptions
         function configOptions.CreateDropDown(self, label, description, cvar, configOptions)
             ---@class RaiderIOSettingsDropDownWidget
@@ -14142,7 +14215,7 @@ do
         ---@param self RaiderIOConfigOptions
         ---@param label string
         ---@param description string
-        ---@param cvar string
+        ---@param cvar FallbackConfigKey
         ---@param configOptions RaiderIOSettingsColorPickerWidgetOptions
         function configOptions.CreateColorPicker(self, label, description, cvar, configOptions)
             ---@class RaiderIOSettingsColorPickerWidget
@@ -14218,7 +14291,7 @@ do
         ---@param self RaiderIOConfigOptions
         ---@param label string
         ---@param description string
-        ---@param cvar string
+        ---@param cvar FallbackConfigKey
         ---@param configOptions RaiderIOSettingsSliderWidgetOptions
         function configOptions.CreateSlider(self, label, description, cvar, configOptions)
             ---@class RaiderIOSettingsSliderWidget
@@ -14787,10 +14860,10 @@ do
         "UNIT_TARGET",
     }
 
-    local COMBATLOG_OBJECT_AFFILIATION_MINE = _G.COMBATLOG_OBJECT_AFFILIATION_MINE or 0x00000001
-    local COMBATLOG_OBJECT_AFFILIATION_OUTSIDER = _G.COMBATLOG_OBJECT_AFFILIATION_OUTSIDER or 0x00000008
-    local COMBATLOG_OBJECT_CONTROL_PLAYER = _G.COMBATLOG_OBJECT_CONTROL_PLAYER or 0x00000100
-    local COMBATLOG_OBJECT_TYPE_PLAYER = _G.COMBATLOG_OBJECT_TYPE_PLAYER or 0x00000400
+    local COMBATLOG_OBJECT_AFFILIATION_MINE = _G.COMBATLOG_OBJECT_AFFILIATION_MINE or 0x00000001 ---@diagnostic disable-line: undefined-field
+    local COMBATLOG_OBJECT_AFFILIATION_OUTSIDER = _G.COMBATLOG_OBJECT_AFFILIATION_OUTSIDER or 0x00000008 ---@diagnostic disable-line: undefined-field
+    local COMBATLOG_OBJECT_CONTROL_PLAYER = _G.COMBATLOG_OBJECT_CONTROL_PLAYER or 0x00000100 ---@diagnostic disable-line: undefined-field
+    local COMBATLOG_OBJECT_TYPE_PLAYER = _G.COMBATLOG_OBJECT_TYPE_PLAYER or 0x00000400 ---@diagnostic disable-line: undefined-field
 
     local MINE = bor(COMBATLOG_OBJECT_AFFILIATION_MINE, COMBATLOG_OBJECT_CONTROL_PLAYER)
     local OTHER_PLAYER = bor(COMBATLOG_OBJECT_AFFILIATION_OUTSIDER, COMBATLOG_OBJECT_CONTROL_PLAYER, COMBATLOG_OBJECT_TYPE_PLAYER)

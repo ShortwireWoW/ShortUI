@@ -20,8 +20,6 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Darkivie-Hakkar"] = 1749862767,
-["Dragokhan-Mal'Ganis"] = 1749954873,
 },
 },
 ["damagerRoleGuildCache"] = {
