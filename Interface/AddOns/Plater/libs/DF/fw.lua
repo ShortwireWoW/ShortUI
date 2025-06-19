@@ -1,6 +1,6 @@
 
 
-local dversion = 607
+local dversion = 611
 local major, minor = "DetailsFramework-1.0", dversion
 local DF, oldminor = LibStub:NewLibrary(major, minor)
 
@@ -804,7 +804,8 @@ function DF.table.setfrompath(t, path, value)
 		local lastTable
 		local lastKey
 
-		for key in path:gmatch("[%w_]+") do
+		--for key in path:gmatch("[%w_]+") do
+		for key in path:gmatch("[^%.%[%]]+") do
 			lastTable = t
 			lastKey = key
 
@@ -4095,7 +4096,13 @@ function DF:CreateGlowOverlay(parent, antsColor, glowColor)
 		frameName = string.sub(frameName, string.len(frameName)-49)
 	end
 
-	local glowFrame = CreateFrame("frame", frameName, parent, "ActionBarButtonSpellActivationAlert")
+	local glowFrame
+	if (buildInfo >= 110107) then --24-05-2025: in the 11.1.7 patch, the template used here does not exist anymore, replacement used
+		glowFrame = CreateFrame("frame", frameName, parent, "ActionButtonSpellAlertTemplate")
+	else
+		glowFrame = CreateFrame("frame", frameName, parent, "ActionBarButtonSpellActivationAlert")
+	end
+
 	--local glowFrame = CreateFrame("frame", frameName, parent)
 	glowFrame:HookScript("OnShow", glow_overlay_onshow)
 	glowFrame:HookScript("OnHide", glow_overlay_onhide)

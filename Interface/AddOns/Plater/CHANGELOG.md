@@ -1,8 +1,6 @@
-@Terciob:
-- Bug fixes for Mists and framework updates.
-
 @cont1nuity:
-- Enable 'Shadowburn' for WL execute in classic.
-- Preparation for Mists.
-- Enable support for native compression API for import/export, when available.
+- Fixing broken glow.
+- Fixing broken load conditions for affixes.
+- Adding option to only show buffs on the personal bar which would show on the default one.
+- Adding 'resetcvar(s)' command.
 
