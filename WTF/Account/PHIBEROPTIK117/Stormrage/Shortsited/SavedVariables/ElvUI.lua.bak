@@ -2,8 +2,6 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/g DON'T DO IT IT'S A TRAP",
-"/cw Rukegar-Illidan I think I might change my icon thing to a picture of Elon",
 "/cw Rukegar-Illidan done",
 "/cw Rukegar-Illidan omfg yes",
 "/g GET FUCKED IDIOT",
@@ -22,6 +20,8 @@ ElvCharacterDB = {
 "/g |cnIQ4:|Hitem:228885::::::::80:581::5:7:40:12176:11967:10355:11987:1504:10255:1:28:2462:::::|h[Hustler's Ante-Uppers]|h|r",
 "/simc",
 "/invite Wardgrundy",
+"/g |cnIQ4:|Hitem:224025::::::::80:581:::::::::|h[Crackling Shard]|h|r",
+"/g |cff71d5ff|Hmount:132036:45797:|h[Thundering Ruby Cloud Serpent]|h|r",
 },
 ["ChatHistoryLog"] = {
 },

@@ -2,6 +2,8 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "zhCN")
 if not L then return end
 
+L.tempNew = "新：现在输入 |cFFFFFFFF/bwtemp|r 可以查看队伍的史诗钥石信息。"
+
 -- Core.lua
 L.berserk = "狂暴"
 L.berserk_desc = "为首领狂暴显示计时器和警报。"
@@ -261,7 +263,29 @@ L.N25 = "25人普通"
 L.H10 = "10人英雄"
 L.H25 = "25人英雄"
 
+-----------------------------------------------------------------------
+-- TOOLS
+-----------------------------------------------------------------------
 
+L.youAreInCombat = "你不能在战斗中这样做"
+
+-----------------------------------------------------------------------
+-- Keystones.lua
+--
+
+L.keystoneTitle = "BigWigs 钥石信息"
+L.keystoneHeaderParty = "队伍"
+L.keystoneRefreshParty = "刷新队伍"
+L.keystoneHeaderGuild = "公会"
+L.keystoneRefreshGuild = "刷新公会"
+L.keystoneLevelTooltip = "钥石等级：|cFFFFFFFF%s|r"
+L.keystoneMapTooltip = "地下城：|cFFFFFFFF%s|r"
+L.keystoneRatingTooltip = "史诗评分：|cFFFFFFFF%d|r"
+L.keystoneHiddenTooltip = "该玩家选择隐藏此信息。"
+L.keystoneTabOnline = "在线"
+L.keystoneTabAlts = "角色"
+L.keystoneTabTeleports = "传送"
+L.keystoneHeaderMyCharacters = "我的角色"
 
 -----------------------------------------------------------------------
 -- PLUGINS

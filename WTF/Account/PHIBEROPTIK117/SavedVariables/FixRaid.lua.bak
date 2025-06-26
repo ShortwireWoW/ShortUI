@@ -1,5 +1,18 @@
 
 FixRaidDB = {
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 287.5534346376314,
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -35,19 +48,6 @@ FixRaidDB = {
 ["Landreielea-Eitrigg"] = 1750471028,
 ["Zenshama-Tichondrius"] = 1750470286,
 ["Beernuts-Doomhammer"] = 1750472115,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 287.5534346376314,
 },
 },
 },

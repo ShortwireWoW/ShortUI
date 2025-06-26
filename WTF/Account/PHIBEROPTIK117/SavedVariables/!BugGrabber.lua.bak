@@ -1,23 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 94,
 ["lastSanitation"] = 3,
+["session"] = 95,
 ["errors"] = {
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI_Libraries' tried to call the protected function 'UNKNOWN()'.",
-["time"] = "2025/06/21 22:14:14",
-["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: ?\n[C]: in function 'RegisterForClicks'\n[Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua]:640: in function <...ies/Core/LibActionButton-1.0/LibActionButton-1.0.lua:636>\n[Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua]:2121: in function <...ies/Core/LibActionButton-1.0/LibActionButton-1.0.lua:1948>\n[Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua]:1944: in function 'method'\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:791: in function <...erface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua:783>\n[C]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:810: in function 'CallMethod'\n[		self:RunAttribute(\"UpdateState\", message)\n		self:CallMethod(\"UpdateAction\")\n	]:2: in function <[string \"		self:RunAttribute(\"UpdateState\", message)...\"]:1>\n[tail call]: ?\n...[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:780: in function 'ChildUpdate'\n[		if newstate == 'possess' or newstate == '11' then\n			if HasVehicleActionBar() then\n				newstate = GetVehicleBarIndex()\n			elseif HasOverrideActionBar() then\n				newstate = GetOverrideBarIndex()\n			elseif HasTempShapeshiftActionBar() then\n				newstate = GetTempShapeshiftBarIndex()\n			elseif HasBonusActionBar() then\n				newstate = GetBonusBarIndex()\n			else\n				newstate = 12\n			end\n		end\n\n		self:SetAttribute('state', newstate)\n		control:ChildUpdate('state', newstate)\n	]:16: in function <[string \"		if newstate == 'possess' or newstate == '...\"]:1>\n[tail call]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua]:483: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:446>\n[tail call]: ?\n[Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua]:115: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:110>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua]:114: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:95>\n[Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua]:127: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:119>",
-["session"] = 94,
-["counter"] = 1,
-},
-{
-["message"] = "Interface/AddOns/LootGoblin/LootGoblin_Debug.lua:158: attempt to concatenate a nil value",
-["time"] = "2025/06/21 22:14:18",
-["locals"] = "self = <table> {\n scanData = <table> {\n }\n isScanning = false\n totalPlayersToScan = 0\n scanStartTime = 0\n lastScanTime = <table> {\n }\n scanInterval = 300\n inspectQueue = <table> {\n }\n statusFrame = LootGoblinStatusFrame {\n }\n frame = Frame {\n }\n zoneID = 2406\n failedQueue = <table> {\n }\n}\ntotal = 2\n(for index) = 1\n(for limit) = 2\n(for step) = 1\ni = 1\nunit = \"raid1\"\nguid = nil\n(*temporary) = \"[LootGoblin Debug] Skipped: \"\n(*temporary) = nil\n(*temporary) = \"raid1\"\n(*temporary) = \"attempt to concatenate a nil value\"\nLG = <table> {\n scanData = <table> {\n }\n isScanning = false\n totalPlayersToScan = 0\n scanStartTime = 0\n lastScanTime = <table> {\n }\n scanInterval = 300\n inspectQueue = <table> {\n }\n statusFrame = LootGoblinStatusFrame {\n }\n frame = Frame {\n }\n zoneID = 2406\n failedQueue = <table> {\n }\n}\n",
-["stack"] = "[Interface/AddOns/LootGoblin/LootGoblin_Debug.lua]:158: in function 'QueueScans'\n[Interface/AddOns/LootGoblin/LootGoblin_Debug.lua]:86: in function <Interface/AddOns/LootGoblin/LootGoblin_Debug.lua:71>",
-["session"] = 94,
-["counter"] = 1,
-},
 },
 }

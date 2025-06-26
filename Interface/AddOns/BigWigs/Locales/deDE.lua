@@ -2,6 +2,8 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "deDE")
 if not L then return end
 
+L.tempNew = "NEU: Du kannst jetzt |cFFFFFFFF/bwtemp|r eingeben, um die Mythisch+ Schlüsselsteine Deiner Gruppenmitglieder zu sehen."
+
 -- Core.lua
 L.berserk = "Berserker"
 L.berserk_desc = "Warnt, wenn der Boss zum Berserker wird."
@@ -261,7 +263,29 @@ L.N25 = "Normal 25"
 L.H10 = "Heroisch 10"
 L.H25 = "Heroisch 25"
 
+-----------------------------------------------------------------------
+-- TOOLS
+-----------------------------------------------------------------------
 
+L.youAreInCombat = "Das ist im Kampf nicht möglich."
+
+-----------------------------------------------------------------------
+-- Keystones.lua
+--
+
+L.keystoneTitle = "BigWigs Schlüsselsteine"
+L.keystoneHeaderParty = "Gruppe"
+L.keystoneRefreshParty = "Gruppe aktualisieren"
+L.keystoneHeaderGuild = "Gilde"
+L.keystoneRefreshGuild = "Gilde aktualisieren"
+L.keystoneLevelTooltip = "Schlüsselstein Stufe: |cFFFFFFFF%s|r"
+L.keystoneMapTooltip = "Dungeon: |cFFFFFFFF%s|r"
+L.keystoneRatingTooltip = "Mythisch+ Wertung: |cFFFFFFFF%d|r"
+L.keystoneHiddenTooltip = "Der Spieler hat entschieden diese Information zu verstecken."
+L.keystoneTabOnline = "Online"
+L.keystoneTabAlts = "Twinks"
+L.keystoneTabTeleports = "Teleports"
+L.keystoneHeaderMyCharacters = "Meine Charaktere"
 
 -----------------------------------------------------------------------
 -- PLUGINS

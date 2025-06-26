@@ -2,6 +2,8 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "koKR")
 if not L then return end
 
+L.tempNew = "신규: 이제 |cFFFFFFFF/bwtemp|r을 입력하면 파티원의 신화+ 쐐기돌을 볼 수 있습니다."
+
 -- Core.lua
 L.berserk = "광폭화"
 L.berserk_desc = "보스가 언제 광폭화하는지 바와 시간 경고를 표시합니다."
@@ -261,7 +263,29 @@ L.N25 = "일반 25"
 L.H10 = "영웅 10"
 L.H25 = "영웅 25"
 
+-----------------------------------------------------------------------
+-- TOOLS
+-----------------------------------------------------------------------
 
+L.youAreInCombat = "전투 중에는 그렇게 할 수 없습니다."
+
+-----------------------------------------------------------------------
+-- Keystones.lua
+--
+
+L.keystoneTitle = "BigWigs 쐐기돌"
+L.keystoneHeaderParty = "파티"
+L.keystoneRefreshParty = "파티 새로 고침"
+L.keystoneHeaderGuild = "길드"
+L.keystoneRefreshGuild = "길드 새로 고침"
+L.keystoneLevelTooltip = "쐐기돌 레벨: |cFFFFFFFF%s|r"
+L.keystoneMapTooltip = "던전: |cFFFFFFFF%s|r"
+L.keystoneRatingTooltip = "신화+ 등급: |cFFFFFFFF%d|r"
+L.keystoneHiddenTooltip = "플레이어가 이 정보를 숨기도록 선택했습니다."
+L.keystoneTabOnline = "온라인"
+L.keystoneTabAlts = "부캐"
+L.keystoneTabTeleports = "순간이동"
+L.keystoneHeaderMyCharacters = "내 캐릭터"
 
 -----------------------------------------------------------------------
 -- PLUGINS

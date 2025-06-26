@@ -118,6 +118,24 @@ if L then
 	L.wriggling_darkspawn = "蠕動的暗裔"
 end
 
+-- Eco-Dome Al'dani
+
+L = BigWigs:NewBossLocale("Eco-Dome Al'dani Trash", "zhTW")
+if L then
+	L.terrified_broker = "驚恐的仲介者"
+	L.arcane_siphon = "秘法虹吸"
+	L.voracious_gorger = "饑渴吞食者"
+	L.ravenous_destroyer = "飢餓的毀滅者"
+	L.overcharged_sentinel = "過載啃兵"
+	L.wastelander_farstalker = "荒地居民遠獵者"
+	L.tamed_ruinstalker = "馴服的廢墟潛獵者"
+	L.wastelander_ritualist = "荒地居民祭儀師"
+	L.wastelander_pactspeaker = "荒地居民獸群語者"
+	L.karesh_elemental = "凯瑞西元素"
+	L.burrowing_creeper = "鑽地潛伏者"
+	L.wastes_creeper = "荒地潛伏者"
+end
+
 -- Operation: Floodgate
 
 L = BigWigs:NewBossLocale("Operation: Floodgate Trash", "zhTW")

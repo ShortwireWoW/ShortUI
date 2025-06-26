@@ -12,9 +12,9 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 389
+local BIGWIGS_VERSION = 390
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 53},
+	["LittleWigs"] = {11, 1, 56},
 	["BigWigs_Classic"] = {11, 1, 51},
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 6},
@@ -51,7 +51,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "372c05d" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "c891478" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -99,7 +99,7 @@ end
 -- Locals
 --
 
-local next, tonumber, type, strsplit, strsub = next, tonumber, type, strsplit, string.sub
+local next, tonumber, type, strsplit = next, tonumber, type, strsplit
 local SendAddonMessage, RegisterAddonMessagePrefix, CTimerAfter, CTimerNewTimer = C_ChatInfo.SendAddonMessage, C_ChatInfo.RegisterAddonMessagePrefix, C_Timer.After, C_Timer.NewTimer
 local GetInstanceInfo, GetBestMapForUnit, GetMapInfo = GetInstanceInfo, C_Map.GetBestMapForUnit, C_Map.GetMapInfo
 local Ambiguate, UnitNameUnmodified, UnitGUID = Ambiguate, UnitNameUnmodified, UnitGUID
@@ -107,6 +107,9 @@ local debugstack, print = debugstack, print
 local myLocale = GetLocale()
 local myName = UnitNameUnmodified("player")
 local myGUID = UnitGUID("player")
+local function sysprint(msg)
+	print("|cFF33FF99BigWigs|r: "..msg)
+end
 
 -- Try to grab unhooked copies of critical funcs (hooked by some crappy addons)
 public.date = date
@@ -119,7 +122,7 @@ public.GetBestMapForUnit = GetBestMapForUnit
 public.GetInstanceInfo = GetInstanceInfo
 public.GetMapInfo = GetMapInfo
 public.GetPlayerAuraBySpellID = C_UnitAuras.GetPlayerAuraBySpellID
-public.GetSpellCooldown = C_Spell.GetSpellCooldown or GetSpellCooldown -- XXX doesn't exist on Cata + Vanilla
+public.GetSpellCooldown = C_Spell.GetSpellCooldown or GetSpellCooldown -- XXX [Mainline:✓ MoP:✓ Wrath:✗ Vanilla:✗]
 public.GetSpellDescription = C_Spell.GetSpellDescription
 public.GetSpellLink = C_Spell.GetSpellLink
 public.GetSpellName = C_Spell.GetSpellName
@@ -129,7 +132,7 @@ public.PlaySoundFile = PlaySoundFile
 public.RegisterAddonMessagePrefix = RegisterAddonMessagePrefix
 public.SendAddonMessage = SendAddonMessage
 public.SetRaidTarget = SetRaidTarget
-public.SendChatMessage = SendChatMessage
+public.SendChatMessage = C_ChatInfo and C_ChatInfo.SendChatMessage or SendChatMessage -- XXX [11.1.7:✗ 11.2:✓ MoP:✗ Wrath:✗ Vanilla:✗]
 public.UnitCanAttack = UnitCanAttack
 public.UnitDetailedThreatSituation = UnitDetailedThreatSituation
 public.UnitThreatSituation = UnitThreatSituation
@@ -138,14 +141,16 @@ public.UnitHealth = UnitHealth
 public.UnitHealthMax = UnitHealthMax
 public.UnitIsDeadOrGhost = UnitIsDeadOrGhost
 public.UnitIsPlayer = UnitIsPlayer
+public.UnitLevel = UnitLevel
 public.UnitName = UnitNameUnmodified
 public.UnitSex = UnitSex
 public.UnitTokenFromGUID = UnitTokenFromGUID
-public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX [Supported on Retail + Mists, not Cata + Vanilla]
+public.Print = sysprint
+public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX [Mainline:✓ MoP:✓ Wrath:✗ Vanilla:✗]
 do
 	local _, _, _, build = GetBuildInfo()
 	public.isBeta = build >= 120000
-	public.isNext = build >= 110107
+	public.isNext = build >= 110200
 end
 
 -- Version
@@ -162,7 +167,6 @@ local dbmPrefix = public.dbmPrefix
 local isMouseDown = false
 local loadOnCoreEnabled = {} -- BigWigs modulepacks that should load when a hostile zone is entered or the core is manually enabled, this would be the default plugins Bars, Messages etc
 local loadOnZone = {} -- BigWigs modulepack that should load on a specific zone
-local loadOnSlash = {} -- BigWigs modulepacks that can load from a chat command
 local menus = {} -- contains the menus for BigWigs, once the core is loaded they will get injected
 local enableZones = {} -- contains the zones in which BigWigs will enable
 local disabledZones -- contains the zones in which BigWigs will enable, but the user has disabled the addon
@@ -377,6 +381,7 @@ do
 		[-2274] = tww, -- Khaz Algar (Fake Menu)
 		[2657] = tww, -- Nerub'ar Palace
 		[2769] = tww, -- Liberation of Undermine
+		[2810] = tww, -- Manaforge Omega
 
 		--[[ LittleWigs: Classic ]]--
 		[33] = not (public.isVanilla or public.isTBC or public.isWrath) and lw_cata or nil, -- Shadowfang Keep
@@ -488,25 +493,25 @@ do
 		[1864] = lw_bfa, -- Shrine of the Storm
 		[1822] = lw_bfa, -- Siege of Boralus
 		[1877] = lw_bfa, -- Temple of Sethraliss
-		[1594] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- The Motherlode!!
+		[1594] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- The MOTHERLODE!!
 		[1771] = lw_bfa, -- Tol Dagor
 		[1841] = lw_bfa, -- Underrot
 		[1862] = lw_bfa, -- Waycrest Manor
-		[2097] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Operation: Mechagon
-		[2212] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Orgrimmar
-		[2213] = public.isRetail and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Stormwind
+		[2097] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Operation: Mechagon
+		[2212] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Orgrimmar
+		[2213] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Stormwind
 		[2827] = lw_bfa, -- Horrific Vision of Stormwind (Revisited)
 		[2828] = lw_bfa, -- Horrific Vision of Orgrimmar (Revisited)
 		--[[ LittleWigs: Shadowlands ]]--
 		[2284] = lw_s, -- Sanguine Depths
 		[2285] = lw_s, -- Spires of Ascension
 		[2286] = lw_s, -- The Necrotic Wake
-		[2287] = lw_s, -- Halls of Atonement
+		[2287] = (public.isRetail and public.isNext) and {lw_s, lw_cs} or lw_s, -- Halls of Atonement
 		[2289] = lw_s, -- Plaguefall
 		[2290] = lw_s, -- Mists of Tirna Scithe
 		[2291] = lw_s, -- De Other Side
-		[2293] = public.isRetail and {lw_s, lw_cs} or lw_s, -- Theater of Pain
-		[2441] = lw_s, -- Tazavesh, the Veiled Market
+		[2293] = (public.isRetail and not public.isNext) and {lw_s, lw_cs} or lw_s, -- Theater of Pain
+		[2441] = (public.isRetail and public.isNext) and {lw_s, lw_cs} or lw_s, -- Tazavesh, the Veiled Market
 		--[[ LittleWigs: Dragonflight ]]--
 		[2451] = lw_df, -- Uldaman: Legacy of Tyr
 		[2515] = lw_df, -- The Azure Vault
@@ -518,17 +523,18 @@ do
 		[2527] = lw_df, -- Halls of Infusion
 		[2579] = lw_df, -- Dawn of the Infinite
 		--[[ LittleWigs: The War Within ]]--
-		[2648] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- The Rookery
+		[2648] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- The Rookery
 		[2649] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Priory of the Sacred Flame
-		[2651] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Darkflame Cleft
+		[2651] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Darkflame Cleft
 		[2652] = lw_tww, -- The Stonevault
-		[2660] = lw_tww, -- Ara-Kara, City of Echoes
-		[2661] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Cinderbrew Meadery
-		[2662] = lw_tww, -- The Dawnbreaker
+		[2660] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Ara-Kara, City of Echoes
+		[2661] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Cinderbrew Meadery
+		[2662] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or lw_tww, -- The Dawnbreaker
 		[2669] = lw_tww, -- City of Threads
 		[2710] = lw_tww, -- Awakening the Machine
 		[2773] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Operation: Floodgate
-		[2849] = public.isRetail and {lw_tww, lw_cs} or nil, -- Dastardly Dome
+		[2830] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or nil, -- Eco-Dome Al'dani
+		[2849] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or nil, -- Dastardly Dome
 		--[[ LittleWigs: Delves ]]--
 		[2664] = lw_delves, -- Fungal Folly
 		[2679] = lw_delves, -- Mycomancer Cavern
@@ -611,7 +617,36 @@ local reqFuncAddons = {
 	BigWigs_Plugins = true,
 }
 
-local function Popup(msg, focus)
+local Popup = public.isRetail and function(msg, focus)
+	local frame = CreateFrame("Frame", nil, UIParent, focus and "PortraitFrameTexturedBaseTemplate" or "PortraitFrameFlatBaseTemplate")
+	frame:SetFrameStrata("DIALOG")
+	frame:SetToplevel(true)
+	frame:SetSize(400, 150)
+	frame:SetPoint("CENTER")
+	frame:SetTitle("BigWigs")
+	frame:SetTitleOffsets(0, 0)
+	frame:SetBorder("HeldBagLayout")
+	frame:SetPortraitTextureSizeAndOffset(38, -5, 0)
+	frame:SetPortraitTextureRaw("Interface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid.tga")
+
+	local text = frame:CreateFontString(nil, nil, "GameFontRedLarge")
+	text:SetSize(380, 0)
+	text:SetJustifyH("CENTER")
+	text:SetJustifyV("TOP")
+	text:SetNonSpaceWrap(true)
+	text:SetPoint("TOP", 0, -40)
+
+	local button = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+	button:SetSize(128, 32)
+	button:SetPoint("BOTTOM", 0, 16)
+	button:SetScript("OnClick", function(self)
+		self:GetParent():Hide()
+	end)
+	button:SetText(L.okay)
+
+	text:SetText(msg)
+	frame:Show()
+end or function(msg, focus)
 	local frame = CreateFrame("Frame")
 	frame:SetFrameStrata("DIALOG")
 	frame:SetToplevel(true)
@@ -636,22 +671,10 @@ local function Popup(msg, focus)
 	button:SetHighlightFontObject("DialogButtonHighlightText")
 
 	text:SetText(msg)
-	frame:Show()
-end
-
-local function sysprint(msg)
-	print("|cFF33FF99BigWigs|r: "..msg)
 end
 
 local function load(index)
 	if IsAddOnLoaded(index) then return true end
-
-	if loadOnSlash[index] then -- Check if we need remove our slash handler stub.
-		for _, slash in next, loadOnSlash[index] do
-			hash_SlashCmdList[slash] = nil
-		end
-		loadOnSlash[index] = nil
-	end
 
 	EnableAddOn(index) -- Make sure it wasn't left disabled for whatever reason
 	local loaded, reason = LoadAddOn(index)
@@ -784,6 +807,11 @@ do
 	local extraMenus = {} -- Addons that contain extra zone menus to appear in the GUI
 	local noMenus = {} -- Addons that contain zones that shouldn't create a menu
 	local blockedMenus = {} -- Zones that shouldn't create a menu
+	local RegisterSlashCommand
+	do
+		local _, tbl = ...
+		RegisterSlashCommand = tbl.API.RegisterSlashCommand
+	end
 
 	for i = 1, GetNumAddOns() do
 		local name, _, _, _, addonState = GetAddOnInfo(i)
@@ -833,32 +861,16 @@ do
 			end
 			meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-Slash")
 			if meta then
-				loadOnSlash[i] = {}
-				local tbl = {strsplit(",", meta)}
-				for j=1, #tbl do
-					local slash = tbl[j]:trim():upper()
-					local slashName = "BIGWIGS"..strsub(slash, 2) -- strip the "/"
-					_G["SLASH_"..slashName.."1"] = slash
-					SlashCmdList[slashName] = function(text)
+				local slashCommandsTable = {strsplit(",", meta)}
+				for slashNumInTable = 1, #slashCommandsTable do
+					local slash = slashCommandsTable[slashNumInTable]:trim()
+					RegisterSlashCommand(slash, function()
 						if strfind(name, "BigWigs", nil, true) then
 							-- Attempting to be smart. Only load core & config if it's a BW plugin.
 							loadCoreAndOptions()
 						end
-						if load(i) then -- Load the addon/plugin
-							-- Call the slash command again, which should have been set by the addon.
-							-- Authors, do NOT delay setting it in OnInitialize/OnEnable/etc.
-							ChatFrame_ImportListToHash(SlashCmdList, hash_SlashCmdList)
-							local func = hash_SlashCmdList[slash]
-							if func then
-								func(text)
-								return
-							end
-						end
-						-- Addon didn't register the slash command for whatever reason, print the default invalid slash message.
-						local info = ChatTypeInfo["SYSTEM"]
-						DEFAULT_CHAT_FRAME:AddMessage(HELP_TEXT_SIMPLE, info.r, info.g, info.b, info.id)
-					end
-					loadOnSlash[i][j] = slash
+						load(i) -- Load the addon/plugin
+					end)
 				end
 			end
 		else
@@ -891,10 +903,6 @@ do
 					end
 				end
 			end
-		end
-
-		if next(loadOnSlash) then
-			ChatFrame_ImportListToHash(SlashCmdList, hash_SlashCmdList) -- Add our slashes to the hash.
 		end
 	end
 

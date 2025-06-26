@@ -430,6 +430,104 @@ BigWigs:AddSounds("Darkflame Cleft Trash", {
 	["minecart"] = {"info","long"},
 })
 
+BigWigs:AddColors("Azhiccar", {
+	[1217232] = "cyan",
+	[1217247] = {"blue","red"},
+	[1217327] = "yellow",
+	[1217446] = "blue",
+	[1217664] = "purple",
+	[1227745] = {"blue","orange"},
+})
+
+BigWigs:AddSounds("Azhiccar", {
+	[1217232] = "long",
+	[1217247] = {"alarm","info"},
+	[1217327] = "alert",
+	[1217446] = "underyou",
+	[1217664] = "warning",
+	[1227745] = "alarm",
+})
+
+BigWigs:AddColors("Taah'bat and A'wazj", {
+	[1219457] = "yellow",
+	[1219482] = "purple",
+	[1219700] = {"cyan","green"},
+	[1227918] = {"blue","orange"},
+	[1236130] = {"blue","red"},
+})
+
+BigWigs:AddSounds("Taah'bat and A'wazj", {
+	[1219457] = "info",
+	[1219482] = "alert",
+	[1219700] = {"info","long"},
+	[1227918] = {"alarm","warning"},
+	[1236130] = "info",
+})
+
+BigWigs:AddColors("Soul-Scribe", {
+	[1224793] = "cyan",
+	[1224865] = "green",
+	[1225174] = "red",
+	[1225218] = "orange",
+	[1226444] = "blue",
+	[1236703] = "yellow",
+	[1237184] = "cyan",
+})
+
+BigWigs:AddSounds("Soul-Scribe", {
+	[1224793] = "alert",
+	[1224865] = "info",
+	[1225174] = "alarm",
+	[1225218] = "alarm",
+	[1226444] = "warning",
+	[1236703] = "long",
+	[1237184] = "alert",
+})
+
+BigWigs:AddColors("Eco-Dome Al'dani Trash", {
+	[1215850] = "orange",
+	[1221152] = "orange",
+	[1221190] = {"blue","yellow"},
+	[1221483] = {"blue","yellow"},
+	[1221532] = "yellow",
+	[1222202] = "blue",
+	[1222341] = "purple",
+	[1222356] = "orange",
+	[1223000] = {"orange","red"},
+	[1223007] = "orange",
+	[1226111] = "orange",
+	[1226306] = "red",
+	[1229510] = "red",
+	[1231244] = "yellow",
+	[1235368] = "purple",
+	[1236981] = {"blue","green"},
+	[1237195] = "yellow",
+	[1237220] = "red",
+	[1239229] = "green",
+})
+
+BigWigs:AddSounds("Eco-Dome Al'dani Trash", {
+	[1215850] = "alarm",
+	[1221152] = "alarm",
+	[1221190] = "info",
+	[1221483] = "alert",
+	[1221532] = "info",
+	[1222202] = "underyou",
+	[1222341] = "alert",
+	[1222356] = "alarm",
+	[1223000] = {"alert","info"},
+	[1223007] = "alarm",
+	[1226111] = "alarm",
+	[1226306] = "long",
+	[1229510] = "alert",
+	[1231244] = "long",
+	[1235368] = "alarm",
+	[1236981] = "info",
+	[1237195] = "alarm",
+	[1237220] = "info",
+	[1239229] = "info",
+})
+
 BigWigs:AddColors("Big M.O.M.M.A.", {
 	[460156] = "green",
 	[469981] = "cyan",
