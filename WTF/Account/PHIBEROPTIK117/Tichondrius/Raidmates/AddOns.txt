@@ -35,3 +35,5 @@ BigWigs_LiberationOfUndermine: enabled
 LittleWigs_BattleForAzeroth: enabled
 BigWigs_KhazAlgar: enabled
 LittleWigs_Shadowlands: enabled
+Plater: disabled
+LittleWigs_MistsOfPandaria: enabled

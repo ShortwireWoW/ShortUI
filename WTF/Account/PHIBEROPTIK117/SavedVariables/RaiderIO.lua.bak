@@ -31,9 +31,9 @@ RaiderIO_Config = {
 },
 ["mplusHeadlineMode"] = 0,
 ["showScoreInCombat"] = true,
-["inverseProfileModifier"] = false,
-["replaySelection"] = "user_best_replay",
+["showWarbandScore"] = true,
 ["enableWhoTooltips"] = true,
+["replaySelection"] = "user_best_replay",
 ["hidePersonalRaiderIOProfile"] = false,
 ["enableGuildTooltips"] = true,
 ["enableLFGTooltips"] = true,
@@ -47,20 +47,25 @@ RaiderIO_Config = {
 ["showRaiderIOProfile"] = true,
 ["enableProfileModifier"] = true,
 ["showScoreModifier"] = false,
-["showWarbandScore"] = true,
+["inverseProfileModifier"] = false,
 ["lockProfile"] = false,
 ["showSimpleScoreColors"] = false,
 ["enableCombatLogTracking"] = false,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortsited-stormrage"
+RaiderIO_LastCharacter = "us-Bigfurboi-malganis"
 RaiderIO_MissingCharacters = {
-["us-Wardgrundy-area-52"] = true,
-["us-Tenka-stormrage"] = true,
-["us-Shadespikez-kelthuzad"] = true,
-["us-Evìselì-stormrage"] = true,
-["us-Shortsited-stormrage"] = true,
-["us-Snilf-stormrage"] = true,
+["us-Itsaturtle-bonechewer"] = true,
+["us-Vèxâhlià-stormrage"] = true,
+["us-Anoralin-stormrage"] = true,
+["us-Moridea-stormrage"] = true,
+["us-Beerchan-proudmoore"] = true,
+["us-Fusrohshiv-illidan"] = true,
+["us-Felhawke-stormrage"] = true,
+["us-Sendai-lightnings-blade"] = true,
+["us-Rhosowen-stormrage"] = true,
+["us-Anõra-stormrage"] = true,
+["us-Bigfurboi-malganis"] = true,
 }
 RaiderIO_MissingServers = {
 }

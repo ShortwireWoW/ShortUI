@@ -6,6 +6,16 @@ QuaziiUI_DB = {
 ["selectedPage"] = 2,
 ["shownPages"] = 6,
 },
+["Reheatedsoup - Mal'Ganis"] = {
+["selectedPage"] = 2,
+["shownPages"] = 6,
+["openPage"] = 2,
+},
+["Bigfurboi - Mal'Ganis"] = {
+["selectedPage"] = 2,
+["openPage"] = 2,
+["shownPages"] = 6,
+},
 ["Shortbowjob - Area 52"] = {
 ["selectedPage"] = 4,
 ["openPage"] = 4,
@@ -19,24 +29,24 @@ QuaziiUI_DB = {
 ["date"] = 1746829623,
 ["versionNumber"] = 20241101,
 },
-["tankdps"] = {
-["date"] = 1746835386,
-["version"] = 20241101,
-},
 ["Details"] = {
 ["date"] = 1746829595,
 ["versionNumber"] = 20241101,
 },
-["OmniCD"] = {
-["date"] = 1746829662,
+["tankdps"] = {
+["date"] = 1746835386,
+["version"] = 20241101,
+},
+["Cell"] = {
+["date"] = 1746829601,
 ["versionNumber"] = 20241101,
 },
 ["cell"] = {
 ["date"] = 1746829553,
 ["version"] = 20241101,
 },
-["Cell"] = {
-["date"] = 1746829601,
+["OmniCD"] = {
+["date"] = 1746829662,
 ["versionNumber"] = 20241101,
 },
 },
@@ -44,6 +54,8 @@ QuaziiUI_DB = {
 },
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Bigfurboi - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 }

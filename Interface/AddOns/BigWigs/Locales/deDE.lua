@@ -305,6 +305,7 @@ L.sizeDesc = "Normalerweise wird die Größe festgelegt, indem Du den Anker bewe
 L.fontSizeDesc = "Schriftgröße über den Schieberegler oder durch Eingabe eines Wertes in der Box (maximal 200) festlegen."
 L.disabled = "Deaktivieren"
 L.disableDesc = "Du bist dabei, das Feature '%s' zu deaktivieren, was |cffff4411nicht empfohlen|r wird.\n\nBist Du sicher, dass Du das tun willst?"
+L.keybinding = "Tastenbelegung"
 
 -- Anchor Points
 L.UP = "Hoch"
@@ -712,6 +713,8 @@ L.sendPull = "Sendet einen Pull-Timer an die Gruppe."
 L.wrongPullFormat = "Ungültiger Pull-Timer. Ein korrektes Beispiel ist: /pull 5"
 L.countdownBegins = "Countdown starten"
 L.countdownBegins_desc = "Verbleibende Zeit des Pulltimers (in Sekunden) wählen, wenn der Countdown beginnt."
+L.pullExplainer = "\n|cFF33FF99/pull|r startet einen normalen Pulltimer.\n|cFF33FF99/pull 7|r startet einen 7-sekündigen Pulltimer, es kann jede Zahl verwendet werden.\nAlternativ kann unten auch eine Tastenbelegung festgelegt werden.\n\n"
+L.pullKeybindingDesc = "Tastenbelegung für den Start eines Pulltimers wählen."
 
 -----------------------------------------------------------------------
 -- RaidIcon.lua

@@ -304,6 +304,7 @@ L.sizeDesc = "In genere regoli la dimesione trascinando l'ancora. Se hai necessi
 L.fontSizeDesc = "Regola la dimensione del carattere usando la barra slide o digitando i valori nella casella che ha un valore molto maggiore di 200."
 L.disabled = "Disabilitato"
 L.disableDesc = "Stai per disabilitare la funzionalità '%s' che |cffff4411non è consigliata|r.\n\nSei sicuro di questo?"
+--L.keybinding = "Keybinding"
 
 -- Anchor Points
 L.UP = "Su"
@@ -711,6 +712,8 @@ L.sendPull = "Manda un timer di ingaggio al tuo gruppo."
 L.wrongPullFormat = "Formato di timer di ingaggio non valido. Un formato corretto è: /pull 5"
 L.countdownBegins = "Inizia Conto alla Rovescia"
 L.countdownBegins_desc = "Scegli quanto tempo dovrebbe rimanere al timer di Ingaggio (in secondi) quando inizia il conto alla rovescia."
+--L.pullExplainer = "\n|cFF33FF99/pull|r will start a normal pull timer.\n|cFF33FF99/pull 7|r will start a 7 second pull timer, you can use any number.\nAlternatively, you can also set a keybinding below.\n\n"
+--L.pullKeybindingDesc = "Choose a keybinding for starting a pull timer."
 
 -----------------------------------------------------------------------
 -- RaidIcon.lua

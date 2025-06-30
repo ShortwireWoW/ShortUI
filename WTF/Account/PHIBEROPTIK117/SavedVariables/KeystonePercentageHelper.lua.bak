@@ -3,6 +3,8 @@ KeystonePercentageHelperDB = {
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Bigfurboi - Mal'Ganis"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -119,11 +121,11 @@ KeystonePercentageHelperDB = {
 ["BossTwoInform"] = false,
 ["BossThree"] = 71.59,
 ["BossOneInform"] = false,
-["BossFour"] = 100,
+["BossFive"] = 100,
 ["BossFourInform"] = false,
 ["BossFiveInform"] = true,
 ["BossTwo"] = 37.27,
-["BossFive"] = 100,
+["BossFour"] = 100,
 },
 ["DFC"] = {
 ["BossTwoInform"] = true,
@@ -141,11 +143,11 @@ KeystonePercentageHelperDB = {
 ["BossTwoInform"] = false,
 ["BossThree"] = 71.59,
 ["BossOneInform"] = false,
-["BossFour"] = 100,
+["BossFive"] = 100,
 ["BossFourInform"] = false,
 ["BossFiveInform"] = true,
 ["BossTwo"] = 37.27,
-["BossFive"] = 100,
+["BossFour"] = 100,
 },
 ["OMGW"] = {
 ["BossTwoInform"] = true,

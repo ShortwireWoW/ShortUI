@@ -31,9 +31,9 @@ RaiderIO_Config = {
 },
 ["enableCombatLogTracking"] = false,
 ["showSimpleScoreColors"] = false,
-["replaySelection"] = "user_best_replay",
-["showWarbandScore"] = true,
+["enableWhoTooltips"] = true,
 ["inverseProfileModifier"] = false,
+["showWarbandScore"] = true,
 ["showScoreModifier"] = false,
 ["enableGuildTooltips"] = true,
 ["enableProfileModifier"] = true,
@@ -47,7 +47,7 @@ RaiderIO_Config = {
 ["enableClientEnhancements"] = true,
 ["enableLFGTooltips"] = true,
 ["hidePersonalRaiderIOProfile"] = false,
-["enableWhoTooltips"] = true,
+["replaySelection"] = "user_best_replay",
 ["lockProfile"] = false,
 ["showScoreInCombat"] = true,
 ["mplusHeadlineMode"] = 0,
@@ -55,8 +55,16 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Shortsited-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Lummeey-stormrage"] = true,
-["us-Imzadi-stormrage"] = true,
+["us-Ragkan-stormrage"] = true,
+["us-Muertostrasz-stormrage"] = true,
+["us-Torbrill-stormrage"] = true,
+["us-Nimaus-stormrage"] = true,
+["us-Gridalyn-stormrage"] = true,
+["us-Raegolas-stormrage"] = true,
+["us-Cindall-stormrage"] = true,
+["us-Felhawke-stormrage"] = true,
+["us-Animuhl-stormrage"] = true,
+["us-ßartleby-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -19,7 +19,7 @@ local CONTENT_PACK_VERSIONS = {
 	["BigWigs_BurningCrusade"] = {11, 1, 2},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 6},
 	["BigWigs_Cataclysm"] = {11, 1, 6},
-	["BigWigs_MistsOfPandaria"] = {11, 1, 5},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 6},
 }
 local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -51,7 +51,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "c891478" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "f0a5680" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -549,9 +549,11 @@ do
 		[2688] = lw_delves, -- The Spiral Weave
 		[2689] = lw_delves, -- Tak-Rethan Abyss
 		[2690] = lw_delves, -- The Underkeep
+		[2803] = lw_delves, -- Archival Assault
 		[2815] = lw_delves, -- Excavation Site 9
 		[2826] = lw_delves, -- Sidestreet Sluice
 		[2831] = lw_delves, -- Demolition Dome
+		[2951] = lw_delves, -- Voidrazor Sanctuary
 
 		--[[ Capping ]]--
 		[30] = cap, -- Alterac Valley
@@ -746,9 +748,7 @@ end
 
 C_PartyInfo.DoCountdown = function(num) -- Overwrite Blizz countdown
 	loadAndEnableCore()
-	if SlashCmdList.BIGWIGSPULL then
-		SlashCmdList.BIGWIGSPULL(num)
-	end
+	SlashCmdList.pull(num)
 end
 
 -----------------------------------------------------------------------
@@ -2027,6 +2027,9 @@ end
 -----------------------------------------------------------------------
 -- Slash commands
 --
+
+-- XXX compat code
+SlashCmdList.BIGWIGSPULL = function() Popup("Use /pull to start pull timers.", true) error("Use /pull to start pull timers.") end
 
 SLASH_BigWigs1 = "/bw"
 SLASH_BigWigs2 = "/bigwigs"

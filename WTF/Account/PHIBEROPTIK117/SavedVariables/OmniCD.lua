@@ -2,6 +2,8 @@
 OmniCDDB = {
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Quazii OmniCD v2",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Bigfurboi - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["namespaces"] = {
@@ -11,6 +13,20 @@ OmniCDDB = {
 ["version"] = 4,
 ["profiles"] = {
 ["Default"] = {
+["Party"] = {
+["party"] = {
+["extraBars"] = {
+["raidBar1"] = {
+["manualPos"] = {
+["raidBar1"] = {
+["y"] = 346.3999855140828,
+["x"] = 1215.200063377619,
+},
+},
+},
+},
+},
+},
 },
 ["Quazii OmniCD v2"] = {
 ["Party"] = {
@@ -118,19 +134,19 @@ OmniCDDB = {
 ["104773"] = false,
 ["102793"] = true,
 ["115203"] = false,
-["197214"] = true,
-["2139"] = false,
+["116705"] = false,
+["209258"] = false,
 ["96231"] = false,
 ["20594"] = true,
 ["404381"] = false,
 ["1766"] = false,
-["122783"] = false,
+["187707"] = false,
 ["20549"] = true,
 ["63560"] = true,
 ["78675"] = false,
 ["325197"] = true,
 ["231895"] = false,
-["122278"] = false,
+["48707"] = false,
 ["61336"] = false,
 ["23920"] = false,
 ["45438"] = false,
@@ -142,15 +158,15 @@ OmniCDDB = {
 ["57994"] = false,
 ["740"] = false,
 ["122470"] = false,
-["47568"] = true,
+["51533"] = false,
 ["258860"] = false,
-["116705"] = false,
+["197214"] = true,
 ["106839"] = false,
-["187707"] = false,
-["19574"] = true,
+["122278"] = false,
+["122783"] = false,
 ["108280"] = false,
-["209258"] = false,
-["342245"] = false,
+["47568"] = true,
+["19574"] = true,
 ["198103"] = true,
 ["374251"] = true,
 ["204021"] = false,
@@ -166,7 +182,7 @@ OmniCDDB = {
 ["383121"] = false,
 ["5277"] = false,
 ["49028"] = false,
-["48707"] = false,
+["2139"] = false,
 ["383269"] = true,
 ["109248"] = true,
 ["196555"] = false,
@@ -176,7 +192,7 @@ OmniCDDB = {
 ["642"] = false,
 ["207289"] = false,
 ["343721"] = false,
-["51533"] = false,
+["342245"] = false,
 ["184364"] = false,
 },
 ["icons"] = {
@@ -200,12 +216,12 @@ OmniCDDB = {
 ["202137"] = true,
 ["116844"] = true,
 ["116849"] = true,
-["46968"] = true,
+["199452"] = true,
 ["51490"] = true,
 ["179057"] = true,
+["33206"] = true,
 ["357170"] = true,
 ["157981"] = true,
-["33206"] = true,
 ["132469"] = true,
 ["119381"] = true,
 ["20549"] = true,
@@ -215,7 +231,7 @@ OmniCDDB = {
 ["30283"] = true,
 ["192058"] = true,
 ["374251"] = true,
-["199452"] = true,
+["46968"] = true,
 },
 ["position"] = {
 ["offsetX"] = 2,

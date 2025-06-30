@@ -2,10 +2,12 @@
 BigWigs3DB = {
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Default",
+["Bigfurboi - Mal'Ganis"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
 [-2409] = true,
+[-437] = true,
 },
 },
 ["namespaces"] = {
@@ -19,8 +21,8 @@ BigWigs3DB = {
 },
 ["myKeystones"] = {
 ["Player-60-0FA0FEBE"] = {
-["playerRating"] = 1528,
-["specId"] = 581,
+["playerRating"] = 0,
+["specId"] = 0,
 ["keyMap"] = 0,
 ["name"] = "Shortsited",
 ["keyLevel"] = 0,
@@ -40,12 +42,12 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 6,
+["kills"] = 7,
 ["fkDuration"] = 404.4740000000002,
-["wipes"] = 3,
+["wipes"] = 4,
 ["fkWipes"] = 3,
-["best"] = 271.8509999999951,
-["bestDate"] = "2025/05/23",
+["best"] = 255.1619999999966,
+["bestDate"] = "2025/06/27",
 ["fkDate"] = "2025/05/10",
 },
 ["normal"] = {
@@ -59,11 +61,11 @@ BigWigsStatsDB = {
 },
 [2645] = {
 ["heroic"] = {
-["kills"] = 5,
+["kills"] = 6,
 ["fkDate"] = "2025/05/16",
-["bestDate"] = "2025/06/20",
+["bestDate"] = "2025/06/27",
 ["fkWipes"] = 3,
-["best"] = 302.1479999999865,
+["best"] = 266.7999999999884,
 ["wipes"] = 10,
 ["fkDuration"] = 320.8870000000024,
 },
@@ -77,7 +79,7 @@ BigWigsStatsDB = {
 },
 [2639] = {
 ["heroic"] = {
-["kills"] = 6,
+["kills"] = 7,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/06/13",
 ["best"] = 167.9569999999949,
@@ -152,12 +154,12 @@ BigWigsStatsDB = {
 ["fkDuration"] = 455.8499999999913,
 },
 ["heroic"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDate"] = "2025/05/17",
 ["bestDate"] = "2025/06/20",
 ["fkWipes"] = 14,
 ["best"] = 413.2589999999909,
-["wipes"] = 34,
+["wipes"] = 37,
 ["fkDuration"] = 521.9089999999997,
 },
 },

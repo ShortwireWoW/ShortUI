@@ -4,6 +4,7 @@ FixRaidDB = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Xposedyou-Area52"] = 1751162514,
 },
 ["ranged"] = {
 },
@@ -12,6 +13,7 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
+["Anoralin-Stormrage"] = 1751082096,
 },
 },
 },
@@ -24,21 +26,23 @@ FixRaidDB = {
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
-["Twistedwilds-Illidan"] = 1750555220,
-["Rukegar-Illidan"] = 1750555364,
+["Twistedwilds-Illidan"] = 1751072656,
+["Rukegar-Illidan"] = 1751072521,
 },
 ["ranged"] = {
-["Twistedsham-Stormrage"] = 1749346012,
 ["Caegon-Stormrage"] = 1749862659,
-["Landreielea-Eitrigg"] = 1750471028,
-["Zenshama-Tichondrius"] = 1750470286,
 ["Beernuts-Doomhammer"] = 1750472115,
+["Caeve-Stormrage"] = 1751072731,
+["Zenshama-Tichondrius"] = 1750470286,
+["Landreielea-Eitrigg"] = 1751074600,
 },
 },
 },
 },
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Bigfurboi - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
