@@ -2,18 +2,18 @@
 AutoTurnInDB = {
 ["profileKeys"] = {
 ["Shortsited - Stormrage"] = "Shortsited - Stormrage",
-["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
-["Bigfurboi - Mal'Ganis"] = "Bigfurboi - Mal'Ganis",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
+["Bigfurboi - Mal'Ganis"] = "Bigfurboi - Mal'Ganis",
+["Reheatedsoup - Mal'Ganis"] = "Reheatedsoup - Mal'Ganis",
 },
 ["profiles"] = {
 ["Shortsited - Stormrage"] = {
 },
-["Reheatedsoup - Mal'Ganis"] = {
+["Shortbowjob - Area 52"] = {
 },
 ["Bigfurboi - Mal'Ganis"] = {
 },
-["Shortbowjob - Area 52"] = {
+["Reheatedsoup - Mal'Ganis"] = {
 },
 },
 }

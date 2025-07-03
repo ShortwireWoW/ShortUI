@@ -37,3 +37,6 @@ BigWigs_KhazAlgar: enabled
 LittleWigs_Shadowlands: enabled
 Plater: disabled
 LittleWigs_MistsOfPandaria: enabled
+LittleWigs_Cataclysm: enabled
+LittleWigs_Legion: enabled
+LittleWigs_BurningCrusade: enabled

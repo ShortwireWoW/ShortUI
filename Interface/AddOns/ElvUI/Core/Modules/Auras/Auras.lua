@@ -153,12 +153,6 @@ function A:CreateIcon(button)
 	button.statusBar:SetValue(0)
 	button.statusBar:CreateBackdrop()
 
-	if E.Retail then
-		button:RegisterForClicks('RightButtonUp', 'RightButtonDown')
-	else
-		button:RegisterForClicks('RightButtonUp')
-	end
-
 	button:SetScript('OnAttributeChanged', A.Button_OnAttributeChanged)
 	button:SetScript('OnUpdate', A.Button_OnUpdate)
 	button:SetScript('OnEnter', A.Button_OnEnter)
@@ -555,7 +549,7 @@ function A:Initialize()
 			_G.TemporaryEnchantFrame:Kill()
 		end
 
-		if E.Cata then
+		if E.Mists then
 			_G.ConsolidatedBuffs:Kill()
 		end
 	end

@@ -70,7 +70,7 @@ MRT: enabled
 Myslot: enabled
 MythicDungeonTools: enabled
 OmniCD: enabled
-Plater: disabled
+Plater: enabled
 PremadeGroupsFilter: enabled
 QuaziiUI: enabled
 RaiderIO_DB_US_M: enabled
