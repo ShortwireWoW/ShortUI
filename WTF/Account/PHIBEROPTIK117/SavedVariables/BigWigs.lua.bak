@@ -8,6 +8,7 @@ BigWigs3DB = {
 ["watchedMovies"] = {
 [-2409] = true,
 [-437] = true,
+[-1004] = true,
 },
 },
 ["namespaces"] = {
@@ -20,8 +21,16 @@ BigWigs3DB = {
 },
 },
 ["myKeystones"] = {
+["Player-3676-0EA88AB6"] = {
+["playerRating"] = 0,
+["specId"] = 0,
+["keyMap"] = 0,
+["name"] = "Shortbowjob",
+["keyLevel"] = 0,
+["realm"] = "Area 52",
+},
 ["Player-60-0FA0FEBE"] = {
-["playerRating"] = 1854,
+["playerRating"] = 0,
 ["specId"] = 0,
 ["keyMap"] = 0,
 ["name"] = "Shortsited",
@@ -79,7 +88,7 @@ BigWigsStatsDB = {
 },
 [2639] = {
 ["heroic"] = {
-["kills"] = 7,
+["kills"] = 8,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/06/13",
 ["best"] = 167.9569999999949,
@@ -95,7 +104,7 @@ BigWigsStatsDB = {
 },
 [2640] = {
 ["heroic"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/05/23",
 ["best"] = 197.4290000000037,
@@ -111,7 +120,7 @@ BigWigsStatsDB = {
 },
 [2641] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/05/23",
 ["fkWipes"] = 1,
@@ -131,7 +140,7 @@ BigWigsStatsDB = {
 ["heroic"] = {
 ["kills"] = 3,
 ["fkDate"] = "2025/05/09",
-["wipes"] = 1,
+["wipes"] = 3,
 ["bestDate"] = "2025/05/23",
 ["best"] = 291.7790000000096,
 ["fkDuration"] = 419.2560000000522,

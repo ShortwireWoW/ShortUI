@@ -31,16 +31,17 @@ end
 
 L = BigWigs:NewBossLocale("Halls of Atonement Trash", "esMX")
 if L then
-	L.houndmaster = "Maestra de canes depravada"
-	L.gargon = "Gargon sañoso"
-	L.loyalstoneborn = "Natopiedra fiel"
-	L.darkblade = "Filoscuro depravada"
-	L.obliterator = "Obliterador depravado"
-	L.collector = "Recolectora depravada"
-	L.shard = "Fragmento de Halkias"
-	L.reaver = "Atracador natopiedra"
-	L.slasher = "Mutilador natopiedra"
-	L.sigar = "Inquisidor Sigar"
+	L.depraved_houndmaster = "Maestra de canes depravada"
+	L.vicious_gargon = "Gargon sañoso"
+	L.loyal_stoneborn = "Natopiedra fiel"
+	L.depraved_darkblade = "Filoscuro depravada"
+	L.depraved_obliterator = "Obliterador depravado"
+	L.depraved_collector = "Recolectora depravada"
+	L.stoneborn_slasher = "Mutilador natopiedra"
+	L.shard_of_halkias = "Fragmento de Halkias"
+	L.stoneborn_reaver = "Atracador natopiedra"
+	L.stoneborn_eviscerator = "Evisceradora petronato"
+	L.inquisitor_sigar = "Inquisidor Sigar"
 end
 
 -- Mists of Tirna Scithe
@@ -148,11 +149,6 @@ end
 
 -- Tazavesh, the Veiled Market
 
-L = BigWigs:NewBossLocale("Zo'phex the Sentinel", "esMX")
-if L then
-	L.zophex_warmup_trigger = "Entrega... todo... el contrabando..."
-end
-
 L = BigWigs:NewBossLocale("The Grand Menagerie", "esMX")
 if L then
 	L.achillite_warmup_trigger = "¿Las bestias devastadoras no os dejan vivir? ¡Tenemos la solución!"
@@ -172,6 +168,7 @@ end
 
 L = BigWigs:NewBossLocale("Tazavesh Trash", "esMX")
 if L then
+	L.zophex_warmup_trigger = "Entrega... todo... el contrabando..."
 	--L.menagerie_warmup_trigger = "Now for the item you have all been awaiting! The allegedly demon-cursed Edge of Oblivion!"
 	L.soazmi_warmup_trigger = "Disculpa la intrusión, So'leah. Espero que sea un momento inoportuno." -- TODO unverified
 	L.portal_authority = "Jefatura de Portales de Tazavesh"

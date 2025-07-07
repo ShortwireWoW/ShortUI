@@ -122,18 +122,21 @@ end
 
 L = BigWigs:NewBossLocale("Eco-Dome Al'dani Trash", "koKR")
 if L then
-	--L.terrified_broker = "Terrified Broker"
-	--L.arcane_siphon = "Arcane Siphon"
-	--L.voracious_gorger = "Voracious Gorger"
-	--L.ravenous_destroyer = "Ravenous Destroyer"
-	--L.overcharged_sentinel = "Overcharged Sentinel"
-	--L.wastelander_farstalker = "Wastelander Farstalker"
-	--L.tamed_ruinstalker = "Tamed Ruinstalker"
-	--L.wastelander_ritualist = "Wastelander Ritualist"
-	--L.wastelander_pactspeaker = "Wastelander Pactspeaker"
-	--L.karesh_elemental = "K'aresh Elemental"
-	--L.burrowing_creeper = "Burrowing Creeper"
-	--L.wastes_creeper = "Wastes Creeper"
+	L.terrified_broker = "겁에 질린 중개자"
+	L.arcane_siphon = "비전 착취"
+	L.overgorged_mite = "과식한 진드기"
+	L.voracious_gorger = "게걸스러운 먹보"
+	L.ravenous_destroyer = "게걸스러운 파괴자"
+	L.overcharged_sentinel = "과충전된 파수꾼"
+	L.wastelander_farstalker = "황무지인 천리추적자"
+	L.tamed_ruinstalker = "길든 폐허 추적자"
+	L.wastelander_ritualist = "황무지인 의식술사"
+	L.wastelander_pactspeaker = "황무지인 서약대변자"
+	L.karesh_elemental = "크아레쉬의 정령"
+	L.burrowing_creeper = "잠복하는 살금벌레"
+	L.wastes_creeper = "황원 살금벌레"
+
+	L.taahbat_and_awazj_warmup_trigger = "이럴 시간 없다. 타바트! 놈들이 더 따라오지 못하게 막아라."
 end
 
 -- Operation: Floodgate
@@ -216,6 +219,7 @@ end
 L = BigWigs:NewBossLocale("The Dawnbreaker Trash", "koKR")
 if L then
 	L.arathi_lamplighter = "아라시 점등원"
+	L.nightfall_curseblade = "일몰 저주칼날"
 	L.nightfall_shadowmage = "일몰 어둠마법사"
 	L.nightfall_ritualist = "일몰 의식술사"
 	L.nightfall_commander = "일몰 사령관"

@@ -135,26 +135,31 @@ BigWigs:AddSounds("Echelon", {
 })
 
 BigWigs:AddColors("High Adjudicator Aleez", {
-	[323538] = "yellow",
+	[323538] = "red",
 	[323552] = "red",
-	[323650] = {"blue","cyan"},
+	[323597] = "cyan",
+	[323650] = {"blue","green","yellow"},
 	[329340] = "orange",
+	[1236512] = {"blue","orange"},
 })
 
 BigWigs:AddSounds("High Adjudicator Aleez", {
 	[323538] = "alert",
 	[323552] = "warning",
-	[323650] = "warning",
+	[323597] = "long",
+	[323650] = {"info","warning"},
 	[329340] = "alarm",
+	[1236512] = "alarm",
 })
 
 BigWigs:AddColors("Lord Chamberlain", {
 	[323143] = "yellow",
 	[323236] = "orange",
-	[323437] = {"blue","yellow"},
+	[323437] = {"blue","purple"},
 	[327885] = "red",
 	[328791] = "red",
 	[329104] = "cyan",
+	[1236973] = "red",
 })
 
 BigWigs:AddSounds("Lord Chamberlain", {
@@ -164,40 +169,63 @@ BigWigs:AddSounds("Lord Chamberlain", {
 	[327885] = "alarm",
 	[328791] = "warning",
 	[329104] = "long",
+	[1236973] = "alarm",
 })
 
 BigWigs:AddColors("Halls of Atonement Trash", {
 	[325523] = "purple",
-	[325700] = "orange",
-	[325701] = "yellow",
-	[325799] = "blue",
-	[325876] = {"blue","orange"},
-	[326409] = "red",
-	[326441] = "yellow",
-	[326450] = {"orange","red"},
+	[325700] = "red",
+	[325701] = {"blue","orange","yellow"},
+	[325793] = {"blue","yellow"},
+	[325876] = {"blue","orange","red"},
+	[326409] = "yellow",
+	[326441] = "orange",
+	[326450] = {"purple","red"},
 	[326607] = {"blue","orange","red","yellow"},
+	[326638] = {"blue","red"},
+	[326794] = "cyan",
+	[326847] = "orange",
 	[326891] = "blue",
-	[326997] = "purple",
+	[326997] = "orange",
 	[342171] = "green",
 	[344993] = "blue",
 	[346866] = "yellow",
+	[1235060] = {"blue","purple"},
+	[1235257] = "yellow",
+	[1235326] = "yellow",
+	[1235762] = {"blue","orange","yellow"},
+	[1235766] = "purple",
+	[1236614] = "yellow",
+	[1237071] = "purple",
+	[1237602] = "blue",
 })
 
 BigWigs:AddSounds("Halls of Atonement Trash", {
 	[325523] = "alert",
 	[325700] = "alert",
-	[325701] = "alarm",
-	[325799] = "alarm",
+	[325701] = {"alert","info"},
+	[325793] = {"alarm","info"},
 	[325876] = {"alarm","alert","info"},
 	[326409] = "warning",
 	[326441] = "alarm",
 	[326450] = {"alert","warning"},
 	[326607] = {"alert","warning"},
+	[326638] = "alert",
+	[326794] = "long",
+	[326847] = "alarm",
 	[326891] = "underyou",
-	[326997] = "alert",
+	[326997] = "alarm",
 	[342171] = "info",
-	[344993] = {"alert","warning"},
+	[344993] = {"info","warning"},
 	[346866] = "alarm",
+	[1235060] = {"info","warning"},
+	[1235257] = "alert",
+	[1235326] = "warning",
+	[1235762] = {"alarm","info"},
+	[1235766] = "alert",
+	[1236614] = "info",
+	[1237071] = "alert",
+	[1237602] = {"info","warning"},
 })
 
 BigWigs:AddColors("Ingra Maloch", {

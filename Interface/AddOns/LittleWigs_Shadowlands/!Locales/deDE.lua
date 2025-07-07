@@ -31,16 +31,17 @@ end
 
 L = BigWigs:NewBossLocale("Halls of Atonement Trash", "deDE")
 if L then
-	L.houndmaster = "Verkommener Hundemeister"
-	L.gargon = "Boshafter Gargon"
-	L.loyalstoneborn = "Treuer Steingeborener"
-	L.darkblade = "Verkommene Dunkelklinge"
-	L.obliterator = "Verkommener Vernichter"
-	L.collector = "Verkommener Sammler"
-	L.shard = "Splitter von Halkias"
-	L.reaver = "Steingeborener Häscher"
-	L.slasher = "Steingeborener Schlitzer"
-	L.sigar = "Inquisitor Sigar"
+	L.depraved_houndmaster = "Verkommener Hundemeister"
+	L.vicious_gargon = "Boshafter Gargon"
+	L.loyal_stoneborn = "Treuer Steingeborener"
+	L.depraved_darkblade = "Verkommene Dunkelklinge"
+	L.depraved_obliterator = "Verkommener Vernichter"
+	L.depraved_collector = "Verkommener Sammler"
+	L.stoneborn_slasher = "Steingeborener Schlitzer"
+	L.shard_of_halkias = "Splitter von Halkias"
+	L.stoneborn_reaver = "Steingeborener Häscher"
+	L.stoneborn_eviscerator = "Steingeborene Ausweiderin"
+	L.inquisitor_sigar = "Inquisitor Sigar"
 end
 
 -- Mists of Tirna Scithe
@@ -148,11 +149,6 @@ end
 
 -- Tazavesh, the Veiled Market
 
-L = BigWigs:NewBossLocale("Zo'phex the Sentinel", "deDE")
-if L then
-	L.zophex_warmup_trigger = "Gebt alle... Schmuggelware... ab..."
-end
-
 L = BigWigs:NewBossLocale("The Grand Menagerie", "deDE")
 if L then
 	L.achillite_warmup_trigger = "Ruinieren Euch rasende Riesenbestien den Tag? Wir haben die Lösung!"
@@ -172,6 +168,7 @@ end
 
 L = BigWigs:NewBossLocale("Tazavesh Trash", "deDE")
 if L then
+	L.zophex_warmup_trigger = "Gebt alle... Schmuggelware... ab..."
 	L.menagerie_warmup_trigger = "Und nun zu dem Posten, auf den alle warten! Die angeblich dämonenverfluchte Schneide des Vergessens!"
 	L.soazmi_warmup_trigger = "Entschuldigt unser Eindringen, So'leah. Ich hoffe, wir stören."
 	L.portal_authority = "Portalbehörde von Tazavesh"

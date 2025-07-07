@@ -31,16 +31,17 @@ end
 
 L = BigWigs:NewBossLocale("Halls of Atonement Trash", "itIT")
 if L then
-	L.houndmaster = "Maestra dei Segugi Degenerata"
-	L.gargon = "Gargon Malvagio"
-	L.loyalstoneborn = "Litogeno Leale"
-	L.darkblade = "Lamanera Degenerata"
-	L.obliterator = "Disintegratore Degenerato"
-	L.collector = "Collettrice Degenerata"
-	L.shard = "Scheggia di Halkias"
-	L.reaver = "Razziatore Litogeno"
-	L.slasher = "Sfregiatore Litogeno"
-	L.sigar = "Inquisitore Sigar"
+	L.depraved_houndmaster = "Maestra dei Segugi Degenerata"
+	L.vicious_gargon = "Gargon Malvagio"
+	L.loyal_stoneborn = "Litogeno Leale"
+	L.depraved_darkblade = "Lamanera Degenerata"
+	L.depraved_obliterator = "Disintegratore Degenerato"
+	L.depraved_collector = "Collettrice Degenerata"
+	L.stoneborn_slasher = "Sfregiatore Litogeno"
+	L.shard_of_halkias = "Scheggia di Halkias"
+	L.stoneborn_reaver = "Razziatore Litogeno"
+	L.stoneborn_eviscerator = "Svisceratrice Litogena"
+	L.inquisitor_sigar = "Inquisitore Sigar"
 end
 
 -- Mists of Tirna Scithe
@@ -148,11 +149,6 @@ end
 
 -- Tazavesh, the Veiled Market
 
-L = BigWigs:NewBossLocale("Zo'phex the Sentinel", "itIT")
-if L then
-	L.zophex_warmup_trigger = "Consegnate... tutto... il contrabbando..."
-end
-
 L = BigWigs:NewBossLocale("The Grand Menagerie", "itIT")
 if L then
 	L.achillite_warmup_trigger = "Delle bestie sfrenate vi rovinano la giornata? Abbiamo la soluzione!"
@@ -172,6 +168,7 @@ end
 
 L = BigWigs:NewBossLocale("Tazavesh Trash", "itIT")
 if L then
+	L.zophex_warmup_trigger = "Consegnate... tutto... il contrabbando..."
 	--L.menagerie_warmup_trigger = "Now for the item you have all been awaiting! The allegedly demon-cursed Edge of Oblivion!"
 	--L.soazmi_warmup_trigger = "Excuse our intrusion, So'leah. I hope we caught you at an inconvenient time."
 	L.portal_authority = "Amministratrice del Portale di Tazavesh"

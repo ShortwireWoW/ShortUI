@@ -31,16 +31,17 @@ end
 
 L = BigWigs:NewBossLocale("Halls of Atonement Trash", "zhCN")
 if L then
-	L.houndmaster = "堕落的驯犬者"
-	L.gargon = "邪恶的加尔贡"
-	L.loyalstoneborn = "忠诚的石裔魔"
-	L.darkblade = "堕落的黑暗剑士"
-	L.obliterator = "堕落的歼灭者"
-	L.collector = "堕落的搜集者"
-	L.shard = "哈尔吉亚斯的碎片"
-	L.reaver = "石裔掠夺者"
-	L.slasher = "石裔切割者"
-	L.sigar = "审判官西加尔"
+	L.depraved_houndmaster = "堕落的驯犬者"
+	L.vicious_gargon = "邪恶的加尔贡"
+	L.loyal_stoneborn = "忠诚的石裔魔"
+	L.depraved_darkblade = "堕落的黑暗剑士"
+	L.depraved_obliterator = "堕落的歼灭者"
+	L.depraved_collector = "堕落的搜集者"
+	L.stoneborn_slasher = "石裔切割者"
+	L.shard_of_halkias = "哈尔吉亚斯的碎片"
+	L.stoneborn_reaver = "石裔掠夺者"
+	L.stoneborn_eviscerator = "石裔剔骨者"
+	L.inquisitor_sigar = "审判官西加尔"
 end
 
 -- Mists of Tirna Scithe
@@ -148,11 +149,6 @@ end
 
 -- Tazavesh, the Veiled Market
 
-L = BigWigs:NewBossLocale("Zo'phex the Sentinel", "zhCN")
-if L then
-	L.zophex_warmup_trigger = "上交……所有……违禁品……"
-end
-
 L = BigWigs:NewBossLocale("The Grand Menagerie", "zhCN")
 if L then
 	L.achillite_warmup_trigger = "狂暴的野兽给您添乱了？解决方法很简单！"
@@ -172,6 +168,7 @@ end
 
 L = BigWigs:NewBossLocale("Tazavesh Trash", "zhCN")
 if L then
+	L.zophex_warmup_trigger = "上交……所有……违禁品……"
 	L.menagerie_warmup_trigger = "现在是大家期待已久的拍品！传说中被恶魔诅咒的湮灭之刃！"
 	L.soazmi_warmup_trigger = "不好意思打扰了，索·莉亚。希望我们没耽误你什么大事。"
 	L.portal_authority = "塔扎维什传送局"

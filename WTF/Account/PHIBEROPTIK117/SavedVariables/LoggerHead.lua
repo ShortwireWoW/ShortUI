@@ -1,28 +1,50 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
 ["Bigfurboi - Mal'Ganis"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
 ["raid"] = {
-["Antorus, the Burning Throne"] = {
-[16] = false,
-},
 ["Liberation of Undermine"] = {
 [14] = true,
 [15] = true,
 [17] = false,
 },
+["Siege of Orgrimmar"] = {
+[16] = false,
+},
 ["Dragon Soul"] = {
 [6] = false,
 },
+["Ny'alotha, the Waking City"] = {
+[16] = false,
+},
+["Tomb of Sargeras"] = {
+[16] = false,
+},
+["Amirdrassil, the Dream's Hope"] = {
+[16] = false,
+},
+["The Eye of Eternity"] = {
+[4] = false,
+},
+["Antorus, the Burning Throne"] = {
+[16] = false,
+},
+["Blackrock Foundry"] = {
+[16] = false,
+},
 ["Karazhan"] = {
 [3] = false,
+},
+["Vault of Archavon"] = {
+[4] = false,
 },
 ["Throne of the Four Winds"] = {
 [6] = false,
@@ -35,14 +57,14 @@ LoggerHeadDB = {
 ["The Nighthold"] = {
 [16] = false,
 },
-["Tomb of Sargeras"] = {
+["The Sunwell"] = {
+[4] = false,
+},
+["Battle of Dazar'alor"] = {
 [16] = false,
 },
 ["Onyxia's Lair"] = {
 [4] = false,
-},
-["Blackrock Foundry"] = {
-[16] = false,
 },
 },
 ["scenario"] = {
@@ -88,13 +110,16 @@ LoggerHeadDB = {
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
+},
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
+["Stratholme"] = {
+false,
 },
 ["The Underrot"] = {
 [23] = false,
@@ -116,12 +141,13 @@ LoggerHeadDB = {
 ["Return to Karazhan"] = {
 [2] = false,
 },
+["The Vortex Pinnacle"] = {
+[2] = false,
+[23] = false,
+},
 ["Operation: Floodgate"] = {
 [23] = true,
 [8] = true,
-},
-["The Vortex Pinnacle"] = {
-[2] = false,
 },
 ["Theater of Pain"] = {
 [23] = true,

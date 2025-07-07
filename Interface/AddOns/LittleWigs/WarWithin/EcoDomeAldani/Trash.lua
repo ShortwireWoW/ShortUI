@@ -32,6 +32,7 @@ local L = mod:GetLocale()
 if L then
 	L.terrified_broker = "Terrified Broker"
 	L.arcane_siphon = "Arcane Siphon"
+	L.overgorged_mite = "Overgorged Mite"
 	L.voracious_gorger = "Voracious Gorger"
 	L.ravenous_destroyer = "Ravenous Destroyer"
 	L.overcharged_sentinel = "Overcharged Sentinel"
@@ -42,6 +43,8 @@ if L then
 	L.karesh_elemental = "K'aresh Elemental"
 	L.burrowing_creeper = "Burrowing Creeper"
 	L.wastes_creeper = "Wastes Creeper"
+
+	L.taahbat_and_awazj_warmup_trigger = "I have no time for this. Taah'bat! Be certain they follow no further."
 end
 
 --------------------------------------------------------------------------------
@@ -54,6 +57,8 @@ function mod:GetOptions()
 		{1236981, "ME_ONLY"}, -- Disruption Grenade
 		-- Arcane Siphon
 		1239229, -- K'areshi Surge
+		-- Overgorged Mite
+		{1229474, "OFF"}, -- Gorge
 		-- Voracious Gorger
 		{1221152, "NAMEPLATE"}, -- Gorging Smash
 		-- Ravenous Destroyer
@@ -84,6 +89,7 @@ function mod:GetOptions()
 	}, {
 		[1236981] = L.terrified_broker,
 		[1239229] = L.arcane_siphon,
+		[1229474] = L.overgorged_mite,
 		[1221152] = L.voracious_gorger,
 		[1221190] = L.ravenous_destroyer,
 		[1235368] = L.overcharged_sentinel,
@@ -98,11 +104,17 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
+	-- Warmups
+	self:RegisterEvent("CHAT_MSG_MONSTER_YELL")
+
 	-- Terrified Broker
 	self:Log("SPELL_AURA_APPLIED", "DisruptionGrenadeApplied", 1236981)
 
 	-- Arcane Siphon
 	self:Log("SPELL_AURA_APPLIED", "KareshiSurgeApplied", 1239229)
+
+	-- Overgorged Mite
+	self:Log("SPELL_CAST_START", "Gorge", 1229474)
 
 	-- Voracious Gorger
 	self:RegisterEngageMob("VoraciousGorgerEngaged", 234883)
@@ -175,6 +187,18 @@ end
 -- Event Handlers
 --
 
+-- Warmups
+
+function mod:CHAT_MSG_MONSTER_YELL(_, msg)
+	if msg == L.taahbat_and_awazj_warmup_trigger then
+		local taahbatAndAwazjModule = BigWigs:GetBossModule("Taah'bat and A'wazj", true)
+		if taahbatAndAwazjModule then
+			taahbatAndAwazjModule:Enable()
+			taahbatAndAwazjModule:Warmup()
+		end
+	end
+end
+
 -- Terrified Broker
 
 function mod:DisruptionGrenadeApplied(args)
@@ -191,10 +215,23 @@ function mod:KareshiSurgeApplied(args)
 	end
 end
 
+-- Overgorged Mite
+
+do
+	local prev = 0
+	function mod:Gorge(args)
+		if args.time - prev > 1.5 then
+			prev = args.time
+			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+			self:PlaySound(args.spellId, "alert")
+		end
+	end
+end
+
 -- Voracious Gorger
 
 function mod:VoraciousGorgerEngaged(guid)
-	self:Nameplate(1221152, 8.8, guid) -- Gorging Smash
+	self:Nameplate(1221152, 7.7, guid) -- Gorging Smash
 end
 
 function mod:GorgingSmash(args)
@@ -229,11 +266,17 @@ do
 	end
 end
 
-function mod:VolatileEjection(args)
-	-- TODO target scan? target count? debuff 1226110 hidden
-	self:Message(args.spellId, "orange")
-	self:Nameplate(args.spellId, 20.6, args.sourceGUID)
-	self:PlaySound(args.spellId, "alarm")
+do
+	local function printTarget(self, name)
+		self:TargetMessage(1226111, "orange", name)
+		self:PlaySound(1226111, "alarm", nil, name)
+	end
+
+	function mod:VolatileEjection(args)
+		-- target debuff 1226110 is hidden
+		self:GetUnitTarget(printTarget, 0.2, args.sourceGUID)
+		self:Nameplate(args.spellId, 20.6, args.sourceGUID)
+	end
 end
 
 function mod:RavenousDestroyerDeath(args)
@@ -247,10 +290,14 @@ function mod:OverchargedSentinelEngaged(guid)
 end
 
 function mod:ArcaneSlash(args)
-	-- follows a player (XXX assuming tank)
+	-- follows the tank
 	self:Message(args.spellId, "purple")
 	self:Nameplate(args.spellId, 15.9, args.sourceGUID)
-	self:PlaySound(args.spellId, "alarm")
+	if self:Tank() then
+		self:PlaySound(args.spellId, "alert")
+	else
+		self:PlaySound(args.spellId, "alarm")
+	end
 end
 
 function mod:ShatteredCoreApplied(args) -- Unstable Core
@@ -395,11 +442,16 @@ function mod:BurrowingCreeperEngaged(guid)
 	self:Nameplate(1215850, 20.1, guid) -- Earth Crusher
 end
 
-function mod:BurrowCharge(args)
-	-- TODO target scan?
-	self:Message(args.spellId, "yellow")
-	self:Nameplate(args.spellId, 19.4, args.sourceGUID)
-	self:PlaySound(args.spellId, "alarm")
+do
+	local function printTarget(self, name)
+		self:TargetMessage(1237195, "yellow", name)
+		self:PlaySound(1237195, "alarm", nil, name)
+	end
+
+	function mod:BurrowCharge(args)
+		self:GetUnitTarget(printTarget, 0.2, args.sourceGUID)
+		self:Nameplate(args.spellId, 19.4, args.sourceGUID)
+	end
 end
 
 function mod:SingingSandstorm(args)

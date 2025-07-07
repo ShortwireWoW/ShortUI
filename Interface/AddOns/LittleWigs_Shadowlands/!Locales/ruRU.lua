@@ -31,16 +31,17 @@ end
 
 L = BigWigs:NewBossLocale("Halls of Atonement Trash", "ruRU")
 if L then
-	L.houndmaster = "Порочный псарь"
-	L.gargon = "Свирепый гаргон"
-	L.loyalstoneborn = "Верный камнерожденный"
-	L.darkblade = "Порочный темный клинок"
-	L.obliterator = "Порочный уничтожитель"
-	L.collector = "Порочная сборщица"
-	L.shard = "Фрагмент Халкиаса"
-	L.reaver = "Камнерожденный-разоритель"
-	L.slasher = "Камнерожденный-рассекатель"
-	L.sigar = "Инквизитор Зигар"
+	L.depraved_houndmaster = "Порочный псарь"
+	L.vicious_gargon = "Свирепый гаргон"
+	L.loyal_stoneborn = "Верный камнерожденный"
+	L.depraved_darkblade = "Порочный темный клинок"
+	L.depraved_obliterator = "Порочный уничтожитель"
+	L.depraved_collector = "Порочная сборщица"
+	L.stoneborn_slasher = "Камнерожденный-рассекатель"
+	L.shard_of_halkias = "Фрагмент Халкиаса"
+	L.stoneborn_reaver = "Камнерожденный-разоритель"
+	L.stoneborn_eviscerator = "Камнерожденная-потрошительница"
+	L.inquisitor_sigar = "Инквизитор Зигар"
 end
 
 -- Mists of Tirna Scithe
@@ -148,11 +149,6 @@ end
 
 -- Tazavesh, the Veiled Market
 
-L = BigWigs:NewBossLocale("Zo'phex the Sentinel", "ruRU")
-if L then
-	L.zophex_warmup_trigger = "Сдавайте... контрабанду."
-end
-
 L = BigWigs:NewBossLocale("The Grand Menagerie", "ruRU")
 if L then
 	L.achillite_warmup_trigger = "Докучают разъяренные звери? У нас есть решение!"
@@ -172,6 +168,7 @@ end
 
 L = BigWigs:NewBossLocale("Tazavesh Trash", "ruRU")
 if L then
+	L.zophex_warmup_trigger = "Сдавайте... контрабанду."
 	L.menagerie_warmup_trigger = "А теперь лот, которого все ждали! Топор, якобы проклятый демонами – Грань Забвения!"
 	L.soazmi_warmup_trigger = "Прости нас за вторжение, Со'лея. Кажется, сейчас не самое подходящее время."
 	L.portal_authority = "Служба порталов Тазавеша"

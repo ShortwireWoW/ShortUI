@@ -10,16 +10,16 @@ FixRaidDB = {
 },
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
 ["Bigfurboi - Mal'Ganis"] = "Default",
 ["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Xposedyou-Area52"] = 1751162514,
 },
 ["ranged"] = {
 },
@@ -35,21 +35,26 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
+["Versad-Thrall"] = 1751763066,
 },
 ["ranged"] = {
+["Raherius-Stormrage"] = 1751766603,
+["Åstrýlåñ-Tichondrius"] = 1751764813,
+["Canadaeh-Sargeras"] = 1751768615,
+["Farrison-Proudmoore"] = 1751764096,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
+["Rukegar-Illidan"] = 1751764510,
 ["Twistedwilds-Illidan"] = 1751072656,
-["Rukegar-Illidan"] = 1751072521,
 },
 ["ranged"] = {
-["Caegon-Stormrage"] = 1749862659,
-["Beernuts-Doomhammer"] = 1750472115,
+["Anoralin-Stormrage"] = 1751765743,
+["Landreielea-Eitrigg"] = 1751769030,
 ["Caeve-Stormrage"] = 1751072731,
 ["Zenshama-Tichondrius"] = 1750470286,
-["Landreielea-Eitrigg"] = 1751074600,
+["Beernuts-Doomhammer"] = 1750472115,
 },
 },
 },

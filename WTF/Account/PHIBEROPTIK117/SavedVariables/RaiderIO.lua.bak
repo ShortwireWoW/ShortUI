@@ -53,19 +53,15 @@ RaiderIO_Config = {
 ["mplusHeadlineMode"] = 0,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Shortsited-stormrage"
+RaiderIO_LastCharacter = "us-Shortbowjob-area-52"
 RaiderIO_MissingCharacters = {
-["us-Assbdragon-stormrage"] = true,
-["us-Rampáger-stormrage"] = true,
-["us-Mizzilplix-dawnbringer"] = true,
-["us-Diabohunter-stormrage"] = true,
-["us-Æggsy-stormrage"] = true,
-["us-Darthiono-thunderlord"] = true,
-["us-Baxstare-destromath"] = true,
-["us-Pîlot-lightnings-blade"] = true,
-["us-Elthius-area-52"] = true,
-["us-Phobz-stormrage"] = true,
-["us-Ruzalka-stormrage"] = true,
+["us-Arkpaladin-area-52"] = true,
+["us-Glyndowr-area-52"] = true,
+["us-Shortbowjob-area-52"] = true,
+["us-Jconstantine-lothar"] = true,
+["us-Psychochîck-area-52"] = true,
+["us-Lunarbugs-area-52"] = true,
+["us-Headhmund-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

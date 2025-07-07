@@ -21,6 +21,14 @@ BigWigs3DB = {
 },
 },
 ["myKeystones"] = {
+["Player-3676-0EA88AB6"] = {
+["playerRating"] = 0,
+["specId"] = 0,
+["keyMap"] = 0,
+["name"] = "Shortbowjob",
+["keyLevel"] = 0,
+["realm"] = "Area 52",
+},
 ["Player-60-0FA0FEBE"] = {
 ["playerRating"] = 0,
 ["specId"] = 0,
@@ -80,7 +88,7 @@ BigWigsStatsDB = {
 },
 [2639] = {
 ["heroic"] = {
-["kills"] = 7,
+["kills"] = 8,
 ["fkDuration"] = 315.3449999999721,
 ["best"] = 167.9569999999949,
 ["bestDate"] = "2025/06/13",
@@ -96,7 +104,7 @@ BigWigsStatsDB = {
 },
 [2640] = {
 ["heroic"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDuration"] = 280.609999999986,
 ["best"] = 197.4290000000037,
 ["bestDate"] = "2025/05/23",
@@ -112,7 +120,7 @@ BigWigsStatsDB = {
 },
 [2641] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 271.1240000000689,
 ["wipes"] = 1,
 ["fkWipes"] = 1,
@@ -134,7 +142,7 @@ BigWigsStatsDB = {
 ["fkDuration"] = 419.2560000000522,
 ["best"] = 291.7790000000096,
 ["bestDate"] = "2025/05/23",
-["wipes"] = 1,
+["wipes"] = 3,
 ["fkDate"] = "2025/05/09",
 },
 ["normal"] = {

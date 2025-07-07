@@ -1,9 +1,10 @@
 
 KeystonePercentageHelperDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Bigfurboi - Mal'Ganis"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {

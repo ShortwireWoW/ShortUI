@@ -15,9 +15,9 @@ W: 388
 H: 250
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 134
-Y: -155
+Anchor: TOP
+X: -762
+Y: -196
 W: 261
 H: 544
 Frame: ItemRefTooltip

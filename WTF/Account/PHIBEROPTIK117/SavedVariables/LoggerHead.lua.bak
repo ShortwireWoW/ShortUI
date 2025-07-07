@@ -1,15 +1,19 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Bigfurboi - Mal'Ganis"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
 ["raid"] = {
+["The Sunwell"] = {
+[4] = false,
+},
 ["Antorus, the Burning Throne"] = {
 [16] = false,
 },
@@ -18,29 +22,43 @@ LoggerHeadDB = {
 [15] = true,
 [17] = false,
 },
+["Blackrock Foundry"] = {
+[16] = false,
+},
+["Battle of Dazar'alor"] = {
+[16] = false,
+},
+["Siege of Orgrimmar"] = {
+[16] = false,
+},
 ["Dragon Soul"] = {
 [6] = false,
 },
 ["Karazhan"] = {
 [3] = false,
 },
-["Throne of the Four Winds"] = {
-[6] = false,
-},
 ["Hellfire Citadel"] = {
 [16] = false,
 },
-["The Nighthold"] = {
-[16] = false,
+["Throne of the Four Winds"] = {
+[6] = false,
 },
-["Blackrock Foundry"] = {
+["Amirdrassil, the Dream's Hope"] = {
 [16] = false,
 },
 ["Onyxia's Lair"] = {
 [4] = false,
 },
+["The Nighthold"] = {
+[16] = false,
+},
 ["Tomb of Sargeras"] = {
 [16] = false,
+},
+["Ny'alotha, the Waking City"] = {
+[16] = false,
+},
+["Uldir"] = {
 },
 },
 ["scenario"] = {
@@ -86,15 +104,25 @@ LoggerHeadDB = {
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
+},
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
+["Stratholme"] = {
+false,
+},
+["Return to Karazhan"] = {
+[2] = false,
+},
+["Priory of the Sacred Flame"] = {
 [23] = true,
 [8] = true,
 },
-["Priory of the Sacred Flame"] = {
+["Operation: Floodgate"] = {
 [23] = true,
 [8] = true,
 },
@@ -104,17 +132,18 @@ LoggerHeadDB = {
 ["Stormstout Brewery"] = {
 [24] = true,
 },
-["Return to Karazhan"] = {
-[2] = false,
-},
-["Theater of Pain"] = {
-[23] = true,
-[8] = true,
-},
 ["The Vortex Pinnacle"] = {
 [2] = false,
+[23] = false,
 },
-["Operation: Floodgate"] = {
+["Kings' Rest"] = {
+[2] = false,
+[23] = false,
+},
+["The Underrot"] = {
+[23] = false,
+},
+["Cinderbrew Meadery"] = {
 [23] = true,
 [8] = true,
 },

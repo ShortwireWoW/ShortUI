@@ -124,6 +124,7 @@ L = BigWigs:NewBossLocale("Eco-Dome Al'dani Trash", "esMX")
 if L then
 	--L.terrified_broker = "Terrified Broker"
 	--L.arcane_siphon = "Arcane Siphon"
+	--L.overgorged_mite = "Overgorged Mite"
 	--L.voracious_gorger = "Voracious Gorger"
 	--L.ravenous_destroyer = "Ravenous Destroyer"
 	--L.overcharged_sentinel = "Overcharged Sentinel"
@@ -134,6 +135,8 @@ if L then
 	--L.karesh_elemental = "K'aresh Elemental"
 	--L.burrowing_creeper = "Burrowing Creeper"
 	--L.wastes_creeper = "Wastes Creeper"
+
+	--L.taahbat_and_awazj_warmup_trigger = "I have no time for this. Taah'bat! Be certain they follow no further."
 end
 
 -- Operation: Floodgate
@@ -216,6 +219,7 @@ end
 L = BigWigs:NewBossLocale("The Dawnbreaker Trash", "esMX")
 if L then
 	L.arathi_lamplighter = "Prendelámparas arathi"
+	L.nightfall_curseblade = "Armamaldita del ocaso"
 	L.nightfall_shadowmage = "Mago oscuro del Ocaso"
 	L.nightfall_ritualist = "Ritualista del ocaso"
 	L.nightfall_commander = "Comandante del Ocaso"

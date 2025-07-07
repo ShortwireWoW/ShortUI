@@ -2,24 +2,24 @@
 QuaziiUI_DB = {
 ["char"] = {
 ["Shortsited - Stormrage"] = {
-["openPage"] = 2,
 ["selectedPage"] = 2,
+["openPage"] = 2,
 ["shownPages"] = 6,
 },
-["Reheatedsoup - Mal'Ganis"] = {
-["selectedPage"] = 2,
+["Shortbowjob - Area 52"] = {
+["openPage"] = 4,
+["selectedPage"] = 4,
 ["shownPages"] = 6,
-["openPage"] = 2,
 },
 ["Bigfurboi - Mal'Ganis"] = {
 ["selectedPage"] = 2,
 ["openPage"] = 2,
 ["shownPages"] = 6,
 },
-["Shortbowjob - Area 52"] = {
-["selectedPage"] = 4,
-["openPage"] = 4,
+["Reheatedsoup - Mal'Ganis"] = {
+["selectedPage"] = 2,
 ["shownPages"] = 6,
+["openPage"] = 2,
 },
 },
 ["global"] = {
@@ -53,9 +53,10 @@ QuaziiUI_DB = {
 ["isDone"] = true,
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
 ["Bigfurboi - Mal'Ganis"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 }

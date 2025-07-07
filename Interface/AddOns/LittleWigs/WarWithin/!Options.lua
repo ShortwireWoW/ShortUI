@@ -60,13 +60,14 @@ BigWigs:AddColors("Ara-Kara, City of Echoes Trash", {
 	[434824] = "orange",
 	[434830] = "blue",
 	[436614] = {"blue","orange"},
-	[438622] = "yellow",
 	[438826] = {"blue","yellow"},
 	[438877] = "cyan",
 	[439208] = "green",
 	[448248] = "red",
 	[453161] = "orange",
 	[465012] = "yellow",
+	[1241693] = "yellow",
+	[1241785] = {"blue","purple"},
 })
 
 BigWigs:AddSounds("Ara-Kara, City of Echoes Trash", {
@@ -81,13 +82,14 @@ BigWigs:AddSounds("Ara-Kara, City of Echoes Trash", {
 	[434824] = "alarm",
 	[434830] = "underyou",
 	[436614] = "warning",
-	[438622] = "alarm",
 	[438826] = {"alert","underyou"},
 	[438877] = "info",
 	[439208] = "info",
 	[448248] = "alert",
 	[453161] = "alarm",
 	[465012] = "alert",
+	[1241693] = "info",
+	[1241785] = "alert",
 })
 
 BigWigs:AddColors("Brew Master Aldryr", {
@@ -495,13 +497,14 @@ BigWigs:AddColors("Eco-Dome Al'dani Trash", {
 	[1222356] = "orange",
 	[1223000] = {"orange","red"},
 	[1223007] = "orange",
-	[1226111] = "orange",
+	[1226111] = {"blue","orange"},
 	[1226306] = "red",
+	[1229474] = "red",
 	[1229510] = "red",
 	[1231244] = "yellow",
 	[1235368] = "purple",
 	[1236981] = {"blue","green"},
-	[1237195] = "yellow",
+	[1237195] = {"blue","yellow"},
 	[1237220] = "red",
 	[1239229] = "green",
 })
@@ -519,9 +522,10 @@ BigWigs:AddSounds("Eco-Dome Al'dani Trash", {
 	[1223007] = "alarm",
 	[1226111] = "alarm",
 	[1226306] = "long",
+	[1229474] = "alert",
 	[1229510] = "alert",
 	[1231244] = "long",
-	[1235368] = "alarm",
+	[1235368] = {"alarm","alert"},
 	[1236981] = "info",
 	[1237195] = "alarm",
 	[1237220] = "info",
@@ -657,6 +661,7 @@ BigWigs:AddColors("Captain Dailcry", {
 	[424419] = "red",
 	[447270] = "orange",
 	[447439] = {"blue","green","yellow"},
+	[1238780] = {"blue","orange"},
 })
 
 BigWigs:AddSounds("Captain Dailcry", {
@@ -664,6 +669,7 @@ BigWigs:AddSounds("Captain Dailcry", {
 	[424419] = "warning",
 	[447270] = "alarm",
 	[447439] = {"alert","info"},
+	[1238780] = {"alarm","underyou"},
 })
 
 BigWigs:AddColors("Baron Braunpyke", {
@@ -873,6 +879,7 @@ BigWigs:AddColors("The Dawnbreaker Trash", {
 	[451112] = "yellow",
 	[451117] = "purple",
 	[451119] = {"blue","red"},
+	[1242074] = "purple",
 })
 
 BigWigs:AddSounds("The Dawnbreaker Trash", {
@@ -888,7 +895,7 @@ BigWigs:AddSounds("The Dawnbreaker Trash", {
 	[432565] = "alarm",
 	[446615] = "info",
 	[449042] = "info",
-	[450756] = "warning",
+	[450756] = {"info","warning"},
 	[450854] = "alarm",
 	[451091] = "info",
 	[451097] = "alert",
@@ -898,6 +905,7 @@ BigWigs:AddSounds("The Dawnbreaker Trash", {
 	[451112] = "info",
 	[451117] = "alarm",
 	[451119] = {"alarm","alert"},
+	[1242074] = "info",
 })
 
 BigWigs:AddColors("Kyrioss", {

@@ -124,6 +124,7 @@ L = BigWigs:NewBossLocale("Eco-Dome Al'dani Trash", "zhCN")
 if L then
 	L.terrified_broker = "惊恐的掮灵"
 	L.arcane_siphon = "奥术虹吸"
+	L.overgorged_mite = "吃撑的幼虫"
 	L.voracious_gorger = "贪食的饕餮者"
 	L.ravenous_destroyer = "贪婪的毁灭者"
 	L.overcharged_sentinel = "过载的哨兵"
@@ -134,6 +135,8 @@ if L then
 	L.karesh_elemental = "卡雷什元素"
 	L.burrowing_creeper = "掘地蠕行者"
 	L.wastes_creeper = "废土蠕行者"
+
+	L.taahbat_and_awazj_warmup_trigger = "我没时间纠结这些。塔尔·巴特！让他们就此止步吧。"
 end
 
 -- Operation: Floodgate
@@ -216,6 +219,7 @@ end
 L = BigWigs:NewBossLocale("The Dawnbreaker Trash", "zhCN")
 if L then
 	L.arathi_lamplighter = "阿拉希燃灯者"
+	L.nightfall_curseblade = "夜幕咒刃"
 	L.nightfall_shadowmage = "夜幕影法师"
 	L.nightfall_ritualist = "夜幕祭师"
 	L.nightfall_commander = "夜幕司令官"
