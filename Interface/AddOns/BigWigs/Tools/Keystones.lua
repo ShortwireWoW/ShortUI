@@ -12,6 +12,8 @@ local LibSpec = LibStub("LibSpecialization")
 local guildList, partyList = {}, {}
 local WIDTH_NAME, WIDTH_LEVEL, WIDTH_MAP, WIDTH_RATING = 150, 24, 66, 42
 
+local GetMapUIInfo, GetRealZoneText = C_ChallengeMode.GetMapUIInfo, GetRealZoneText
+
 local specs = {}
 do
 	local function addToTable(specID, _, _, playerName)
@@ -28,6 +30,23 @@ local roleIcons = {
 }
 local hiddenIcon = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Private:16:16|t"
 local dungeonNames = {
+	[500] = "ROOK", -- The Rookery
+	[504] = "DFC", -- Darkflame Cleft
+	[499] = "PRIORY", -- Priory of the Sacred Flame
+	[506] = "BREW", -- Cinderbrew Meadery
+	[525] = "FLOOD", -- Operation: Floodgate
+	[382] = "TOP", -- Theater of Pain
+	[247] = "ML", -- The MOTHERLODE!!
+	[370] = "WORK", -- Operation: Mechagon - Workshop
+
+	[542] = "ALDANI", -- Eco-Dome Al'dani
+	[378] = "HALLS", -- Halls of Atonement
+	[503] = "ARA", -- Ara-Kara, City of Echoes
+	[392] = "GAMBIT", -- Tazavesh: So'leah's Gambit
+	[391] = "STREETS", -- Tazavesh: Streets of Wonder
+	[505] = "DAWN", -- The Dawnbreaker
+
+	-- XXX remove below eventually
 	[1594] = "ML",
 	[2097] = "WORK",
 	[2293] = "TOP",
@@ -37,9 +56,17 @@ local dungeonNames = {
 	[2661] = "BREW",
 	[2773] = "FLOOD",
 }
-local teleports = {
+local teleports = BigWigsLoader.isNext and {
+	[2830] = 1237215, -- Eco-Dome Al'dani
+	[2287] = 354465, -- Halls of Atonement
+	[2660] = 445417, -- Ara-Kara, City of Echoes
+	[2441] = 367416, -- Tazavesh, the Veiled Market
+	[2662] = 445414, -- The Dawnbreaker
+	[2649] = 445444, -- Priory of the Sacred Flame
+	[2773] = 1216786, -- Operation: Floodgate
+} or {
 	[1594] = UnitFactionGroup("player") == "Alliance" and 467553 or 467555, -- The MOTHERLODE!!
-	[2097] = 373274, -- Operation: Mechagon [Workshop]
+	[2097] = 373274, -- Operation: Mechagon
 	[2293] = 354467, -- Theater of Pain
 	[2648] = 445443, -- The Rookery
 	[2649] = 445444, -- Priory of the Sacred Flame
@@ -61,6 +88,7 @@ mainPanel:SetMovable(true)
 mainPanel:EnableMouse(true)
 mainPanel:RegisterForDrag("LeftButton")
 mainPanel:SetTitle(L.keystoneTitle)
+mainPanel:SetTitleOffsets(0, 0)
 mainPanel:SetBorder("HeldBagLayout")
 mainPanel:SetPortraitTextureSizeAndOffset(38, -5, 0)
 mainPanel:SetPortraitTextureRaw("Interface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid.tga")
@@ -83,12 +111,13 @@ local UpdateMyKeystone
 do
 	local GetMaxPlayerLevel = GetMaxPlayerLevel
 	local GetWeeklyResetStartTime = C_DateAndTime.GetWeeklyResetStartTime
-	local GetOwnedKeystoneLevel, GetOwnedKeystoneMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneMapID
+	local GetOwnedKeystoneLevel, GetOwnedKeystoneChallengeMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneChallengeMapID
 	local GetPlayerMythicPlusRatingSummary = C_PlayerInfo.GetPlayerMythicPlusRatingSummary
 	local GetRealmName = GetRealmName
-	local GetSpecialization, GetSpecializationInfo = C_SpecializationInfo.GetSpecialization or GetSpecialization, C_SpecializationInfo.GetSpecializationInfo or GetSpecializationInfo
-	UpdateMyKeystone = function()
-		if not BigWigs3DB or LoaderPublic.UnitLevel("player") ~= GetMaxPlayerLevel() then
+
+	local myKeyLevel, myKeyMap, myRating = 0, 0, 0
+	UpdateMyKeystone = function(_, event, id)
+		if LoaderPublic.UnitLevel("player") ~= GetMaxPlayerLevel() or (event == "PLAYER_INTERACTION_MANAGER_FRAME_HIDE" and id ~= 3 and id ~= 49) then -- 3 = Gossip (key downgrade NPC), 49 = WeeklyRewards (vault)
 			return
 		end
 
@@ -102,42 +131,37 @@ do
 		end
 
 		local keyLevel = GetOwnedKeystoneLevel()
-		if type(keyLevel) ~= "number" then
-			keyLevel = 0
+		if type(keyLevel) == "number" then
+			myKeyLevel = keyLevel
 		end
 		-- Keystone instance ID
-		local keyMap = GetOwnedKeystoneMapID()
-		if type(keyMap) ~= "number" then
-			keyMap = 0
+		local keyChallengeMapID = GetOwnedKeystoneChallengeMapID()
+		if type(keyChallengeMapID) == "number" then
+			myKeyMap = keyChallengeMapID
 		end
 		-- M+ rating
 		local playerRatingSummary = GetPlayerMythicPlusRatingSummary("player")
-		local playerRating = 0
 		if type(playerRatingSummary) == "table" and type(playerRatingSummary.currentSeasonScore) == "number" then
-			playerRating = playerRatingSummary.currentSeasonScore
+			myRating = playerRatingSummary.currentSeasonScore
 		end
 
 		local guid = LoaderPublic.UnitGUID("player")
 		local name = LoaderPublic.UnitName("player")
 		local realm = GetRealmName()
-		local spec = GetSpecialization()
-		local specId = 0
-		if type(spec) == "number" and spec > 0 then
-			local mySpecId = GetSpecializationInfo(spec)
-			specId = type(mySpecId) == "number" and mySpecId or 0
-		end
 		BigWigs3DB.myKeystones[guid] = {
-			keyLevel = keyLevel,
-			keyMap = keyMap,
-			playerRating = playerRating,
-			specId = specId,
+			keyLevel = myKeyLevel,
+			keyMap = myKeyMap,
+			playerRating = myRating,
+			specId = specs[name] or 0,
 			name = name,
 			realm = realm,
 		}
 	end
 	mainPanel:SetScript("OnEvent", UpdateMyKeystone)
 end
-mainPanel:RegisterEvent("PLAYER_LOGOUT")
+-- If only PLAYER_LOGOUT would work for keystone info, sigh :(
+mainPanel:RegisterEvent("PLAYER_INTERACTION_MANAGER_FRAME_HIDE")
+mainPanel:RegisterEvent("PLAYER_ENTERING_WORLD")
 
 local tab1 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
 tab1:SetSize(50, 26)
@@ -173,11 +197,12 @@ end)
 
 local scrollArea = CreateFrame("ScrollFrame", nil, mainPanel, "ScrollFrameTemplate")
 scrollArea:SetPoint("TOPLEFT", mainPanel, "TOPLEFT", 8, -30)
-scrollArea:SetPoint("BOTTOMRIGHT", mainPanel, "BOTTOMRIGHT", -25, 5)
+scrollArea:SetPoint("BOTTOMRIGHT", mainPanel, "BOTTOMRIGHT", -24, 5)
 
 local scrollChild = CreateFrame("Frame", nil, scrollArea)
 scrollArea:SetScrollChild(scrollChild)
-scrollChild:SetSize(350, 320)
+scrollChild:SetSize(scrollArea:GetWidth(), 320)
+scrollChild:SetPoint("LEFT")
 
 local partyHeader = scrollChild:CreateFontString(nil, nil, "GameFontNormalLarge")
 partyHeader:SetPoint("TOP", scrollChild, "TOP", 0, -0)
@@ -444,7 +469,7 @@ tab2:SetScript("OnClick", function(self)
 	-- Begin Display of alts
 	UpdateMyKeystone()
 
-	if BigWigs3DB and BigWigs3DB.myKeystones then
+	if BigWigs3DB.myKeystones then
 		local sortedplayerList = {}
 		for _, pData in next, BigWigs3DB.myKeystones do
 			local decoratedName = nil
@@ -459,7 +484,7 @@ tab2:SetScript("OnClick", function(self)
 			sortedplayerList[#sortedplayerList+1] = {
 				name = pData.name, decoratedName = decoratedName, nameTooltip = nameTooltip,
 				level = pData.keyLevel, levelTooltip = L.keystoneLevelTooltip:format(pData.keyLevel),
-				map = dungeonNames[pData.keyMap] or pData.keyMap > 0 and pData.keyMap or "-", mapTooltip = L.keystoneMapTooltip:format(pData.keyMap > 0 and GetRealZoneText(pData.keyMap) or "-"),
+				map = dungeonNames[pData.keyMap] or pData.keyMap > 0 and pData.keyMap or "-", mapTooltip = L.keystoneMapTooltip:format(pData.keyMap > 1000 and GetRealZoneText(pData.keyMap) or pData.keyMap > 0 and GetMapUIInfo(pData.keyMap) or"-"),
 				rating = pData.playerRating, ratingTooltip = L.keystoneRatingTooltip:format(pData.playerRating),
 			}
 		end
@@ -478,7 +503,7 @@ tab2:SetScript("OnClick", function(self)
 			local cellName, cellLevel, cellMap, cellRating = CreateCell(), CreateCell(), CreateCell(), CreateCell()
 			if i == 1 then
 				cellName:SetPoint("RIGHT", cellLevel, "LEFT", -6, 0)
-				cellLevel:SetPoint("TOP", partyHeader, "BOTTOM", 0, -12)
+				cellLevel:SetPoint("TOPLEFT", partyHeader, "CENTER", 3, -12)
 				cellMap:SetPoint("LEFT", cellLevel, "RIGHT", 6, 0)
 				cellRating:SetPoint("LEFT", cellMap, "RIGHT", 6, 0)
 			else
@@ -634,7 +659,7 @@ local function UpdateCells(playerList, isGuildList)
 			sortedplayerList[#sortedplayerList+1] = {
 				name = pName, decoratedName = decoratedName, nameTooltip = nameTooltip,
 				level = pData[1], levelTooltip = L.keystoneLevelTooltip:format(pData[1] == -1 and L.keystoneHiddenTooltip or pData[1]),
-				map = dungeonNames[pData[2]] or pData[2] > 0 and pData[2] or pData[2] == -1 and hiddenIcon or "-", mapTooltip = L.keystoneMapTooltip:format(pData[2] > 0 and GetRealZoneText(pData[2]) or pData[2] == -1 and L.keystoneHiddenTooltip or "-"),
+				map = dungeonNames[pData[2]] or pData[2] > 0 and pData[2] or pData[2] == -1 and hiddenIcon or "-", mapTooltip = L.keystoneMapTooltip:format(pData[2] > 1000 and GetRealZoneText(pData[2]) or pData[2] > 0 and GetMapUIInfo(pData[2]) or pData[2] == -1 and L.keystoneHiddenTooltip or "-"),
 				rating = pData[3], ratingTooltip = L.keystoneRatingTooltip:format(pData[3]),
 			}
 		end
@@ -656,7 +681,7 @@ local function UpdateCells(playerList, isGuildList)
 		local cellName, cellLevel, cellMap, cellRating = CreateCell(), CreateCell(), CreateCell(), CreateCell()
 		if i == 1 then
 			cellName:SetPoint("RIGHT", cellLevel, "LEFT", -6, 0)
-			cellLevel:SetPoint("TOP", isGuildList and guildHeader or partyHeader, "BOTTOM", 0, -12)
+			cellLevel:SetPoint("TOPLEFT", isGuildList and guildHeader or partyHeader, "CENTER", 3, -12)
 			cellMap:SetPoint("LEFT", cellLevel, "RIGHT", 6, 0)
 			cellRating:SetPoint("LEFT", cellMap, "RIGHT", 6, 0)
 		else

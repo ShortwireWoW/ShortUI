@@ -28,7 +28,8 @@ local auranames = {
     ["Trash Timer Bars"] = "Causese - M+ Trash Timers",
     ["M+ Tank Bars"] = "Causese - M+ Tank Bars",
     ["CC Bars"] = "Causese - CC / Interrupt Bars",
-    ["Texts"] = "Causese - BW/DBM Timers",
+    ["Bossmod Texts"] = "Causese - BW/DBM Timers",
+    ["Special Bossmod Texts"] = "Causese - Special BW/DBM Timers",
     ["Special Texts"] = "Causese - Special Texts",
     ["Important Icons"] = "Causese - Important Icons",
 }
@@ -46,8 +47,9 @@ local barTypes = {
     ["CC Bars"] = true,
 }
 local textTypes = {
-    ["Texts"] = true,
     ["Special Texts"] = true,
+    ["Bossmod Texts"] = true,
+    ["Special Bossmod Texts"] = true,
 }
 
 function CauseseAPI:AnchorSettings(type)

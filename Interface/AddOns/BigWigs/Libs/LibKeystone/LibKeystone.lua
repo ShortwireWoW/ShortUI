@@ -1,7 +1,7 @@
 --@curseforge-project-slug: libkeystone@
 if WOW_PROJECT_ID ~= 1 then return end -- Retail
 
-local LKS = LibStub:NewLibrary("LibKeystone", 3)
+local LKS = LibStub:NewLibrary("LibKeystone", 4)
 if not LKS then return end -- No upgrade needed
 
 LKS.callbackMap = LKS.callbackMap or {}
@@ -48,7 +48,7 @@ end
 
 local GetInfo
 do
-	local GetOwnedKeystoneLevel, GetOwnedKeystoneMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneMapID
+	local GetOwnedKeystoneLevel, GetOwnedKeystoneChallengeMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneChallengeMapID
 	local GetPlayerMythicPlusRatingSummary = C_PlayerInfo.GetPlayerMythicPlusRatingSummary
 	function GetInfo()
 		-- Keystone level
@@ -56,10 +56,11 @@ do
 		if type(keyLevel) ~= "number" then
 			keyLevel = 0
 		end
-		-- Keystone instance ID
-		local keyMap = GetOwnedKeystoneMapID()
-		if type(keyMap) ~= "number" then
-			keyMap = 0
+		-- Keystone challenge ID [https://wago.tools/db2/MapChallengeMode]
+		-- You can pass this ID into `C_ChallengeMode.GetMapUIInfo()` to get info like the name
+		local keyChallengeMapID = GetOwnedKeystoneChallengeMapID()
+		if type(keyChallengeMapID) ~= "number" then
+			keyChallengeMapID = 0
 		end
 		-- M+ rating
 		local playerRatingSummary = GetPlayerMythicPlusRatingSummary("player")
@@ -67,7 +68,7 @@ do
 		if type(playerRatingSummary) == "table" and type(playerRatingSummary.currentSeasonScore) == "number" then
 			playerRating = playerRatingSummary.currentSeasonScore
 		end
-		return keyLevel, keyMap, playerRating
+		return keyLevel, keyChallengeMapID, playerRating
 	end
 end
 
@@ -91,8 +92,8 @@ do
 				timerTable.PARTY:Cancel()
 				timerTable.PARTY = nil
 			end
-			local keyLevel, keyMap, playerRating = GetInfo()
-			local result = SendAddonMessage("LibKS", format("%d,%d,%d", keyLevel, keyMap, playerRating), "PARTY")
+			local keyLevel, keyChallengeMapID, playerRating = GetInfo()
+			local result = SendAddonMessage("LibKS", format("%d,%d,%d", keyLevel, keyChallengeMapID, playerRating), "PARTY")
 			if result == 9 then
 				timerTable.PARTY = CTimerNewTimer(throttleTime, SendToParty)
 			end
@@ -102,11 +103,11 @@ do
 				timerTable.GUILD:Cancel()
 				timerTable.GUILD = nil
 			end
-			local keyLevel, keyMap, playerRating = GetInfo()
+			local keyLevel, keyChallengeMapID, playerRating = GetInfo()
 			if keyLevel ~= 0 and LKS.isGuildHidden then
-				keyLevel, keyMap = -1, -1
+				keyLevel, keyChallengeMapID = -1, -1
 			end
-			local result = SendAddonMessage("LibKS", format("%d,%d,%d", keyLevel, keyMap, playerRating), "GUILD")
+			local result = SendAddonMessage("LibKS", format("%d,%d,%d", keyLevel, keyChallengeMapID, playerRating), "GUILD")
 			if result == 9 then
 				timerTable.GUILD = CTimerNewTimer(throttleTime, SendToGuild)
 			end
@@ -130,14 +131,14 @@ do
 				return
 			end
 
-			local keyLevelStr, keyMapStr, playerRatingStr = match(msg, "^(%d+),(%d+),(%d+)$")
-			if keyLevelStr and keyMapStr and playerRatingStr then
+			local keyLevelStr, keyChallengeMapIDStr, playerRatingStr = match(msg, "^(%d+),(%d+),(%d+)$")
+			if keyLevelStr and keyChallengeMapIDStr and playerRatingStr then
 				local keyLevel = tonumber(keyLevelStr)
-				local keyMap = tonumber(keyMapStr)
+				local keyChallengeMapID = tonumber(keyChallengeMapIDStr)
 				local playerRating = tonumber(playerRatingStr)
-				if keyLevel and keyMap and playerRating then
+				if keyLevel and keyChallengeMapID and playerRating then
 					for _,func in next, callbackMap do
-						func(keyLevel, keyMap, playerRating, Ambiguate(sender, "none"), channel)
+						func(keyLevel, keyChallengeMapID, playerRating, Ambiguate(sender, "none"), channel)
 					end
 				end
 			end
@@ -161,12 +162,12 @@ do
 		if not throttleSendTable[channel] then
 			error("LibKeystone: The function lib.Request expects a channel type of PARTY or GUILD.")
 		else
-			local keyLevel, keyMap, playerRating = GetInfo()
+			local keyLevel, keyChallengeMapID, playerRating = GetInfo()
 			if keyLevel ~= 0 and LKS.isGuildHidden and channel == "GUILD" then
-				keyLevel, keyMap = -1, -1
+				keyLevel, keyChallengeMapID = -1, -1
 			end
 			for _,func in next, callbackMap do
-				func(keyLevel, keyMap, playerRating, pName, channel) -- This allows us to show our own stats when not grouped
+				func(keyLevel, keyChallengeMapID, playerRating, pName, channel) -- This allows us to show our own stats when not grouped
 			end
 			if statusCheckTable[channel]() then
 				local t = GetTime()

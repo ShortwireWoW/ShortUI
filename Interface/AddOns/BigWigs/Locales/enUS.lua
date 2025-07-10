@@ -266,7 +266,16 @@ L.H25 = "Heroic 25"
 -- TOOLS
 -----------------------------------------------------------------------
 
+L.tools = "Tools"
+L.toolsDesc = "BigWigs provides various tools or \"quality of life\" features to speed up and simplify the process of fighting bosses. Expand the menu by clicking the |cFF33FF99+|r icon to see them all."
 L.youAreInCombat = "You cannot do that in combat."
+
+-----------------------------------------------------------------------
+-- AutoRole.lua
+--
+
+L.autoRoleTitle = "Auto Role"
+L.autoRoleExplainer = "Whenever you join a group, or you change your talent specialization whilst being in a group, BigWigs will automatically adjust your group role (Tank, Healer, Damager) accordingly.\n\n"
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -285,6 +294,15 @@ L.keystoneTabOnline = "Online"
 L.keystoneTabAlts = "Alts"
 L.keystoneTabTeleports = "Teleports"
 L.keystoneHeaderMyCharacters = "My Characters"
+
+-----------------------------------------------------------------------
+-- LFGTimer.lua
+--
+
+L.lfgTimerTitle = "LFG Timer"
+L.lfgTimerExplainer = "Whenever the LFG queue popup appears, BigWigs will create a timer bar telling you how long you have to accept the queue.\n\n"
+L.lfgUseMaster = "Play LFG ready sound on 'Master' audio channel"
+L.lfgUseMasterDesc = "When this option is enabled the LFG ready sound will play over the 'Master' audio channel. If you disable this option it will play over the '%s' audio channel instead."
 
 -----------------------------------------------------------------------
 -- PLUGINS

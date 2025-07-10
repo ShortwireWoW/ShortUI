@@ -3,9 +3,11 @@ local BigWigs = BigWigs
 local options = {}
 
 local C = BigWigs.C
+local loader = BigWigsLoader
+local API = BigWigsAPI
 
-local L = BigWigsAPI:GetLocale("BigWigs")
-local CL = BigWigsAPI:GetLocale("BigWigs: Common")
+local L = API:GetLocale("BigWigs")
+local CL = API:GetLocale("BigWigs: Common")
 
 local ldbi = LibStub("LibDBIcon-1.0")
 local acr = LibStub("AceConfigRegistry-3.0")
@@ -14,8 +16,6 @@ local AceGUI = LibStub("AceGUI-3.0")
 local adbo = LibStub("AceDBOptions-3.0")
 local lds = LibStub("LibDualSpec-1.0", true)
 
-local loader = BigWigsLoader
-local API = BigWigsAPI
 options.SendMessage = loader.SendMessage
 local UnitName = loader.UnitName
 
@@ -52,7 +52,7 @@ local C_EncounterJournal_GetSectionInfo = (loader.isClassic and not loader.isMis
 		-- Cataclysm only has section info for Cataclysm content, return it if found
 		return info
 	end
-	info = BigWigsAPI:GetLocale("BigWigs: Encounter Info")[key]
+	info = API:GetLocale("BigWigs: Encounter Info")[key]
 	if info then
 		-- Options uses a few more fields, so copy the entry and include them
 		local tbl = {}
@@ -70,18 +70,17 @@ local acOptions = {
 	type = "group",
 	name = "BigWigs",
 	get = function(info)
-		return BigWigs.db.profile[info[#info]]
+		return loader.db.profile[info[#info]]
 	end,
 	set = function(info, value)
 		local key = info[#info]
-		BigWigs.db.profile[key] = value
-		options:SendMessage("BigWigs_CoreOptionToggled", key, value)
+		loader.db.profile[key] = value
 	end,
 	args = {
 		general = {
-			order = 20,
+			order = 0,
 			type = "group",
-			name = "BigWigs",
+			name = L.general,
 			args = {
 				introduction = {
 					type = "description",
@@ -248,6 +247,21 @@ local acOptions = {
 				},
 			},
 		},
+		tools = {
+			order = 1,
+			type = "group",
+			name = L.tools,
+			args = {
+				toolsDesc = {
+					type = "description",
+					name = L.toolsDesc,
+					fontSize = "large",
+					order = 0,
+					width = "full",
+				},
+			},
+			hidden = loader.isVanilla,
+		},
 	},
 }
 
@@ -264,7 +278,7 @@ do
 			childGroups = "tab",
 			order = 100,
 			args = {
-				profile = adbo:GetOptionsTable(BigWigs.db),
+				profile = adbo:GetOptionsTable(loader.db),
 				export = addonTable.sharingOptions.exportSection,
 				import = addonTable.sharingOptions.importSection,
 			},
@@ -273,7 +287,7 @@ do
 		acOptions.args.general.args.profileOptions.args.profile.order = 1
 
 		if lds then
-			lds:EnhanceOptions(acOptions.args.general.args.profileOptions.args.profile, BigWigs.db)
+			lds:EnhanceOptions(acOptions.args.general.args.profileOptions.args.profile, loader.db)
 		end
 
 		acr:RegisterOptionsTable("BigWigs", getOptions, true)
@@ -1868,6 +1882,9 @@ do
 		for key, opts in next, subPanelRegistry do
 			acOptions.args[key] = opts()
 		end
+		for key, optionsTable in next, API.GetToolOptionTables() do
+			acOptions.args.tools.args[key] = optionsTable
+		end
 		return acOptions
 	end
 end
@@ -1923,7 +1940,7 @@ do
 
 	local _, addonTable = ...
 	-- DO NOT USE THIS DIRECTLY. This code may not be loaded
-	-- Use BigWigsAPI:ImportProfileString(addonName, profileString)
+	-- Use BigWigsAPI.RegisterProfile(addonName, profileString, optionalCustomProfileName, optionalCallbackFunction)
 	function options:SaveImportStringDataFromAddOn(addonName, profileString, optionalCustomProfileName, optionalCallbackFunction)
 		if type(addonName) ~= "string" or #addonName < 3 then error("Invalid addon name for profile import.") end
 		if type(profileString) ~= "string" or #profileString < 3 then error("Invalid profile string for profile import.") end
@@ -1931,12 +1948,12 @@ do
 		if optionalCallbackFunction and type(optionalCallbackFunction) ~= "function" then error("Invalid custom callback function for the string you want to import.") end
 		-- All AceConfigDialog code, go there for original
 		popup:Show()
-		local profileName = BigWigs.db:GetCurrentProfile()
+		local profileName = loader.db:GetCurrentProfile()
 		if not optionalCustomProfileName or profileName == optionalCustomProfileName then
 			optionalCustomProfileName = nil
 			textFrame:SetText(L.confirm_import_addon:format(addonName, profileName))
 		else
-			local profiles = BigWigs.db:GetProfiles()
+			local profiles = loader.db:GetProfiles()
 			local found = false
 			for i = 1, #profiles do
 				local name = profiles[i]
@@ -1962,7 +1979,7 @@ do
 			acceptButton:SetScript("OnClick", nil)
 			cancelButton:SetScript("OnClick", nil)
 			if optionalCustomProfileName then
-				BigWigs.db:SetProfile(optionalCustomProfileName)
+				loader.db:SetProfile(optionalCustomProfileName)
 			end
 			addonTable.SaveImportStringDataFromAddOn(profileString)
 			if optionalCallbackFunction then
