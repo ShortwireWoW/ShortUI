@@ -40,6 +40,8 @@ LoggerHeadDB = {
 ["Blackrock Foundry"] = {
 [16] = false,
 },
+["Uldir"] = {
+},
 ["Karazhan"] = {
 [3] = false,
 },
@@ -49,22 +51,23 @@ LoggerHeadDB = {
 ["Throne of the Four Winds"] = {
 [6] = false,
 },
-["Uldir"] = {
+["The Sunwell"] = {
+[4] = false,
 },
-["Hellfire Citadel"] = {
-[16] = false,
+["Onyxia's Lair"] = {
+[4] = false,
 },
 ["The Nighthold"] = {
 [16] = false,
 },
-["The Sunwell"] = {
-[4] = false,
-},
 ["Battle of Dazar'alor"] = {
 [16] = false,
 },
-["Onyxia's Lair"] = {
-[4] = false,
+["Hellfire Citadel"] = {
+[16] = false,
+},
+["Firelands"] = {
+[15] = false,
 },
 },
 ["scenario"] = {
@@ -104,22 +107,25 @@ LoggerHeadDB = {
 ["Scholomance"] = {
 [24] = true,
 },
+["Dawn of the Infinite"] = {
+[2] = false,
+},
 ["Zul'Gurub"] = {
 [2] = false,
 },
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
+["Stratholme"] = {
+false,
 },
 ["The MOTHERLODE!!"] = {
 [23] = true,
 [8] = true,
 },
-["Stratholme"] = {
-false,
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
 },
 ["The Underrot"] = {
 [23] = false,
@@ -128,22 +134,22 @@ false,
 [23] = true,
 [8] = true,
 },
+["Auchindoun: Sethekk Halls"] = {
+[2] = false,
+},
 ["Kings' Rest"] = {
 [2] = false,
 [23] = false,
 },
-["Auchindoun: Sethekk Halls"] = {
-[2] = false,
-},
 ["Stormstout Brewery"] = {
 [24] = true,
-},
-["Return to Karazhan"] = {
-[2] = false,
 },
 ["The Vortex Pinnacle"] = {
 [2] = false,
 [23] = false,
+},
+["Return to Karazhan"] = {
+[2] = false,
 },
 ["Operation: Floodgate"] = {
 [23] = true,

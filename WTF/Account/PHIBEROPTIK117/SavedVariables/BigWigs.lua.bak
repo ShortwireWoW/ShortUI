@@ -6,9 +6,14 @@ BigWigs3DB = {
 },
 ["global"] = {
 ["watchedMovies"] = {
-[-2409] = true,
-[-437] = true,
+[992] = true,
 [-1004] = true,
+[-437] = true,
+[991] = true,
+[-2409] = true,
+[1003] = true,
+[-2238] = {
+},
 },
 },
 ["namespaces"] = {
@@ -21,24 +26,16 @@ BigWigs3DB = {
 },
 },
 ["myKeystones"] = {
-["Player-3676-0EA88AB6"] = {
-["playerRating"] = 0,
-["specId"] = 0,
-["keyMap"] = 0,
-["name"] = "Shortbowjob",
-["keyLevel"] = 0,
-["realm"] = "Area 52",
-},
 ["Player-60-0FA0FEBE"] = {
-["playerRating"] = 0,
-["specId"] = 0,
-["keyMap"] = 0,
+["playerRating"] = 1854,
+["specId"] = 581,
+["keyMap"] = 370,
 ["name"] = "Shortsited",
-["keyLevel"] = 0,
+["keyLevel"] = 9,
 ["realm"] = "Stormrage",
 },
 },
-["prevWeeklyReset"] = 1751382000,
+["prevWeeklyReset"] = 1751986800,
 ["profiles"] = {
 ["Default"] = {
 },
@@ -51,12 +48,12 @@ BigWigsStatsDB = {
 [2769] = {
 [2644] = {
 ["heroic"] = {
-["kills"] = 7,
+["kills"] = 8,
 ["fkDuration"] = 404.4740000000002,
 ["wipes"] = 4,
 ["fkWipes"] = 3,
-["best"] = 255.1619999999966,
-["bestDate"] = "2025/06/27",
+["best"] = 254.7770000000019,
+["bestDate"] = "2025/07/11",
 ["fkDate"] = "2025/05/10",
 },
 ["normal"] = {
@@ -70,12 +67,12 @@ BigWigsStatsDB = {
 },
 [2645] = {
 ["heroic"] = {
-["kills"] = 6,
+["kills"] = 7,
 ["fkDate"] = "2025/05/16",
-["bestDate"] = "2025/06/27",
+["bestDate"] = "2025/07/11",
 ["fkWipes"] = 3,
-["best"] = 266.7999999999884,
-["wipes"] = 10,
+["best"] = 220.7090000000026,
+["wipes"] = 11,
 ["fkDuration"] = 320.8870000000024,
 },
 ["normal"] = {
@@ -88,7 +85,7 @@ BigWigsStatsDB = {
 },
 [2639] = {
 ["heroic"] = {
-["kills"] = 8,
+["kills"] = 9,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/06/13",
 ["best"] = 167.9569999999949,
@@ -104,7 +101,7 @@ BigWigsStatsDB = {
 },
 [2640] = {
 ["heroic"] = {
-["kills"] = 5,
+["kills"] = 6,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/05/23",
 ["best"] = 197.4290000000037,
@@ -120,7 +117,7 @@ BigWigsStatsDB = {
 },
 [2641] = {
 ["heroic"] = {
-["kills"] = 4,
+["kills"] = 5,
 ["fkDate"] = "2025/05/09",
 ["bestDate"] = "2025/05/23",
 ["fkWipes"] = 1,
@@ -138,7 +135,7 @@ BigWigsStatsDB = {
 },
 [2642] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDate"] = "2025/05/09",
 ["wipes"] = 3,
 ["bestDate"] = "2025/05/23",
@@ -168,13 +165,13 @@ BigWigsStatsDB = {
 ["bestDate"] = "2025/06/20",
 ["fkWipes"] = 14,
 ["best"] = 413.2589999999909,
-["wipes"] = 37,
+["wipes"] = 38,
 ["fkDuration"] = 521.9089999999997,
 },
 },
 [2653] = {
 ["heroic"] = {
-["kills"] = 3,
+["kills"] = 4,
 ["fkDuration"] = 304.9470000000001,
 ["wipes"] = 15,
 ["fkWipes"] = 14,

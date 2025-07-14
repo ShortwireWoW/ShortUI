@@ -1,8 +1,8 @@
 # LittleWigs
 
-## [v11.1.58](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.58) (2025-07-05)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.57...v11.1.58) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.1.59](https://github.com/BigWigsMods/LittleWigs/tree/v11.1.59) (2025-07-11)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.1.58...v11.1.59) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- WoD/Auchindoun/Terongor: Cleanup  
-- WarWithin/PrioryOfTheSacredFlame/Trash: War Within Season 3 updates  
-- WarWithin/TheDawnbreaker/Trash: Remove Dark Floes for Season 3  
+- Bump toc  
+- Update issue template to make it as generic as possible  
+- Update esES (#1372)  

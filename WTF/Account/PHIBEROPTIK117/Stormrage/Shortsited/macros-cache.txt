@@ -2,6 +2,9 @@ VER 3 0100000000000006 "Chains" "134400"
 #showtooltip
 /cast [@cursor] Sigil of Chains
 END
+VER 3 0100000000000008 "Kneel" "134400"
+/kneel
+END
 VER 3 0100000000000002 "Leap" "134400"
 #showtooltip
 /dismount

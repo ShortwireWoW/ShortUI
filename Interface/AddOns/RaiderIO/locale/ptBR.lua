@@ -366,6 +366,18 @@ L["RAID_BOSS_FSOD_6"] = "Artífice da Dor Raznal"
 L["RAID_BOSS_FSOD_7"] = "Guardião dos Primogênitos"
 L["RAID_BOSS_FSOD_8"] = "Escreve-sinas Roh-Kalo"
 L["RAID_BOSS_FSOD_9"] = "Kel'Thuzad"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_6"] = ""--]] 
 L["RAID_BOSS_ICC_1"] = "Lorde Medulante"
 L["RAID_BOSS_ICC_10"] = "Valithria Andassonho"
 L["RAID_BOSS_ICC_11"] = "Sindragosa"
@@ -394,6 +406,18 @@ L["RAID_BOSS_ICC_9"] = "Rainha de Sangue Lana'thel"
 --[[ L["RAID_BOSS_LOU_7"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_LOU_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_6"] = ""--]] 
 L["RAID_BOSS_NP_1"] = "Ulgrax"
 L["RAID_BOSS_NP_2"] = "O Terror Sanguino"
 L["RAID_BOSS_NP_3"] = "Sikran"
@@ -424,6 +448,14 @@ L["RAID_BOSS_SOD_6"] = "Artífice da Dor Raznal"
 L["RAID_BOSS_SOD_7"] = "Guardião dos Primogênitos"
 L["RAID_BOSS_SOD_8"] = "Escreve-sinas Roh-Kalo"
 L["RAID_BOSS_SOD_9"] = "Kel'Thuzad"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_4"] = ""--]] 
 L["RAID_BOSS_TOTFW_1"] = "O Conclave do Vento"
 L["RAID_BOSS_TOTFW_2"] = "Al'Akir"
 L["RAID_BOSS_VOTI_1"] = "Eranog"
@@ -457,11 +489,17 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Encontros de Raide Derrotados"
 --[[Translation missing --]]
 --[[ L["RAID_FL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Cidadela da Coroa de Gelo"
 --[[Translation missing --]]
 --[[ L["RAID_LOU"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palácio Nerub-ar"
 L["RAID_RS"] = "Santuário Rubi"
+--[[Translation missing --]]
+--[[ L["RAID_ToES"] = ""--]] 
 L["RAID_TOTFW"] = "Trono dos Quatro Ventos"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Pontuações Médias para Runs Dentro do Tempo +%s"
 L["RAIDERIO_BEST_RUN"] = "Raider.IO Melhor Mítica+"

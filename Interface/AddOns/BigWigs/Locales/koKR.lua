@@ -296,6 +296,22 @@ L.keystoneTabAlts = "부캐"
 L.keystoneTabTeleports = "순간이동"
 L.keystoneHeaderMyCharacters = "내 캐릭터"
 
+-- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
+L.keystoneShortName_TheRookery = "부화장"
+L.keystoneShortName_DarkflameCleft = "어불동"
+L.keystoneShortName_PrioryOfTheSacredFlame = "수도원"
+L.keystoneShortName_CinderbrewMeadery = "양조장"
+L.keystoneShortName_OperationFloodgate = "수문"
+L.keystoneShortName_TheaterOfPain = "고투"
+L.keystoneShortName_TheMotherlode = "왕노"
+L.keystoneShortName_OperationMechagonWorkshop = "작업장"
+L.keystoneShortName_EcoDomeAldani = "알다니"
+L.keystoneShortName_HallsOfAtonement = "속죄"
+L.keystoneShortName_AraKaraCityOfEchoes = "아라카라"
+L.keystoneShortName_TazaveshSoleahsGambit = "소레아"
+L.keystoneShortName_TazaveshStreetsOfWonder = "거리"
+L.keystoneShortName_TheDawnbreaker = "새인호"
+
 -----------------------------------------------------------------------
 -- LFGTimer.lua
 --

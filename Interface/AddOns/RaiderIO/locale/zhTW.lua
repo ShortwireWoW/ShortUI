@@ -327,6 +327,18 @@ L["RAID_BOSS_FSOD_6"] = "痛苦工匠拉茲內爾"
 L["RAID_BOSS_FSOD_7"] = "首創者的守護者"
 L["RAID_BOSS_FSOD_8"] = "述命者羅卡洛"
 L["RAID_BOSS_FSOD_9"] = "科爾蘇加德"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_6"] = ""--]] 
 L["RAID_BOSS_ICC_1"] = "瑪洛嘉領主"
 L["RAID_BOSS_ICC_10"] = "瓦莉絲瑞雅‧夢行者"
 L["RAID_BOSS_ICC_11"] = "辛德拉苟莎"
@@ -347,6 +359,18 @@ L["RAID_BOSS_LOU_5"] = "鏈販‧鎖貨"
 L["RAID_BOSS_LOU_6"] = "獨臂強盜"
 L["RAID_BOSS_LOU_7"] = "瑪格吉"
 L["RAID_BOSS_LOU_8"] = "閃亮亮大王加里維克斯"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_6"] = ""--]] 
 L["RAID_BOSS_NP_1"] = "烏格拉斯"
 L["RAID_BOSS_NP_2"] = "血縛之懼"
 L["RAID_BOSS_NP_3"] = "錫克朗"
@@ -377,6 +401,14 @@ L["RAID_BOSS_SOD_6"] = "痛苦工匠拉茲內爾"
 L["RAID_BOSS_SOD_7"] = "首創者的守護者"
 L["RAID_BOSS_SOD_8"] = "述命者羅卡洛"
 L["RAID_BOSS_SOD_9"] = "科爾蘇加德"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_4"] = ""--]] 
 L["RAID_BOSS_TOTFW_1"] = "風之議會"
 L["RAID_BOSS_TOTFW_2"] = "奧拉基爾"
 L["RAID_BOSS_VOTI_1"] = "伊拉諾格"
@@ -407,10 +439,16 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
 L["RAID_DS"] = "巨龍之魂"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "已擊敗的團隊首領"
 L["RAID_FL"] = "火源之界"
+--[[Translation missing --]]
+--[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "冰冠城塞"
 L["RAID_LOU"] = "解放幽坑城"
+--[[Translation missing --]]
+--[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "奈幽巴宮殿"
 L["RAID_RS"] = "晶紅聖所"
+--[[Translation missing --]]
+--[[ L["RAID_ToES"] = ""--]] 
 L["RAID_TOTFW"] = "四風王座"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "時限內%s層的平均分數"
 L["RAIDERIO_BEST_RUN"] = "Raider.IO M+最佳紀錄"

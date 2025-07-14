@@ -325,6 +325,18 @@ L["RAID_BOSS_FSOD_6"] = "Разнал"
 L["RAID_BOSS_FSOD_7"] = "Стражница Предвечных"
 L["RAID_BOSS_FSOD_8"] = "Писарь судьбы Ро-Кало"
 L["RAID_BOSS_FSOD_9"] = "Кел'Тузад"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_6"] = ""--]] 
 L["RAID_BOSS_ICC_1"] = "Лорд Ребрад"
 L["RAID_BOSS_ICC_10"] = "Валитрия Сноходица"
 L["RAID_BOSS_ICC_11"] = "Синдрагоса"
@@ -345,6 +357,18 @@ L["RAID_BOSS_LOU_5"] = "Зубцеторг Всесхватс"
 L["RAID_BOSS_LOU_6"] = "Однорукий бандит"
 L["RAID_BOSS_LOU_7"] = "Граб'Зи, главы отдела охраны"
 L["RAID_BOSS_LOU_8"] = "Хромовый король Галливикс"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_6"] = ""--]] 
 L["RAID_BOSS_NP_1"] = "Улгракс Пожиратель"
 L["RAID_BOSS_NP_2"] = "Скованный кровью ужас"
 L["RAID_BOSS_NP_3"] = "Капитан суреки Сик'ран"
@@ -375,6 +399,14 @@ L["RAID_BOSS_SOD_6"] = "Кузнец боли Разнал"
 L["RAID_BOSS_SOD_7"] = "Стражница Предвечных"
 L["RAID_BOSS_SOD_8"] = "Писарь Судьбы Ро-Кало"
 L["RAID_BOSS_SOD_9"] = "Кел'Тузад"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_4"] = ""--]] 
 L["RAID_BOSS_TOTFW_1"] = "Конклав ветра"
 L["RAID_BOSS_TOTFW_2"] = "Ал'акир"
 L["RAID_BOSS_VOTI_1"] = "Эраног"
@@ -405,10 +437,16 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "О25"
 L["RAID_DS"] = "Душа Дракона"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Побежденные рейдовые боссы"
 L["RAID_FL"] = "Огненные Просторы"
+--[[Translation missing --]]
+--[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Цитадель Ледяной Короны"
 L["RAID_LOU"] = "Освобождение Нижней Шахты"
+--[[Translation missing --]]
+--[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Неруб'арский дворец"
 L["RAID_RS"] = "Рубиновое святилище"
+--[[Translation missing --]]
+--[[ L["RAID_ToES"] = ""--]] 
 L["RAID_TOTFW"] = "Трон Четырех Ветров"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Cредн. очки для прохода вовремя +%s"
 L["RAIDERIO_BEST_RUN"] = "[Raider.IO] Лучшее прохождение М+ подземелья"

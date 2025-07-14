@@ -14,12 +14,17 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 391
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 58},
-	["BigWigs_Classic"] = {11, 1, 51},
-	["BigWigs_BurningCrusade"] = {11, 1, 2},
-	["BigWigs_WrathOfTheLichKing"] = {11, 1, 6},
-	["BigWigs_Cataclysm"] = {11, 1, 6},
+	["LittleWigs"] = {11, 1, 59},
+	["BigWigs_Classic"] = {11, 1, 52},
+	["BigWigs_BurningCrusade"] = {11, 1, 3},
+	["BigWigs_WrathOfTheLichKing"] = {11, 1, 7},
+	["BigWigs_Cataclysm"] = {11, 1, 7},
 	["BigWigs_MistsOfPandaria"] = {11, 1, 6},
+	["BigWigs_WarlordsOfDraenor"] = {11, 1, 1},
+	["BigWigs_Legion"] = {11, 1, 1},
+	["BigWigs_BattleForAzeroth"] = {11, 1, 1},
+	["BigWigs_Shadowlands"] = {11, 1, 1},
+	["BigWigs_Dragonflight"] = {11, 1, 2},
 }
 local BIGWIGS_RELEASE_STRING
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
@@ -51,7 +56,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "872dbbc" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "1adddef" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -122,7 +127,7 @@ public.GetBestMapForUnit = GetBestMapForUnit
 public.GetInstanceInfo = GetInstanceInfo
 public.GetMapInfo = GetMapInfo
 public.GetPlayerAuraBySpellID = C_UnitAuras.GetPlayerAuraBySpellID
-public.GetSpellCooldown = C_Spell.GetSpellCooldown or GetSpellCooldown -- XXX [Mainline:✓ MoP:✓ Wrath:✗ Vanilla:✗]
+public.GetSpellCooldown = C_Spell.GetSpellCooldown or GetSpellCooldown -- XXX [Mainline:✓ MoP:✓ Wrath:✓ Vanilla:✗]
 public.GetSpellDescription = C_Spell.GetSpellDescription
 public.GetSpellLink = C_Spell.GetSpellLink
 public.GetSpellName = C_Spell.GetSpellName
@@ -146,7 +151,7 @@ public.UnitName = UnitNameUnmodified
 public.UnitSex = UnitSex
 public.UnitTokenFromGUID = UnitTokenFromGUID
 public.Print = sysprint
-public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX [Mainline:✓ MoP:✓ Wrath:✗ Vanilla:✗]
+public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX [Mainline:✓ MoP:✓ Wrath:✓ Vanilla:✗]
 do
 	local _, _, _, build = GetBuildInfo()
 	public.isBeta = build >= 120000
@@ -291,6 +296,7 @@ do
 			zones = {
 				[2657] = "BigWigs_NerubarPalace",
 				[2769] = "BigWigs_LiberationOfUndermine",
+				[2810] = "BigWigs_ManaforgeOmega",
 			}
 		}
 	end
@@ -685,7 +691,7 @@ local function load(index)
 		local msg = L.addOnLoadFailedWithReason:format(addonName, reason)
 		sysprint(msg)
 		Popup(msg, true)
-	--elseif DoesAddOnHaveLoadError and DoesAddOnHaveLoadError(index) then -- XXX only available in 11.1.5 and 1.15.7 atm
+	--elseif DoesAddOnHaveLoadError and DoesAddOnHaveLoadError(index) then -- XXX their implementation is broken
 	--	local addonName = GetAddOnInfo(index)
 	--	local msg = L.addOnLoadFailedUnknownError:format(addonName)
 	--	sysprint(msg)
@@ -1072,7 +1078,7 @@ do
 	end
 end
 
-if public.isRetail or public.isMists then -- XXX Support for LoadSavedVariablesFirst [Mainline:✓ MoP:✓ Wrath:✗ Vanilla:✗]
+if not public.isVanilla then -- XXX Support for LoadSavedVariablesFirst [Mainline:✓ MoP:✓ Wrath:✓ Vanilla:✗]
 	-- LibDBIcon setup
 	if type(BigWigsIconDB) ~= "table" then
 		BigWigsIconDB = {}

@@ -11,22 +11,10 @@ LoggerHeadDB = {
 ["Default"] = {
 ["log"] = {
 ["raid"] = {
-["The Sunwell"] = {
-[4] = false,
-},
-["Antorus, the Burning Throne"] = {
-[16] = false,
-},
 ["Liberation of Undermine"] = {
 [14] = true,
 [15] = true,
 [17] = false,
-},
-["Blackrock Foundry"] = {
-[16] = false,
-},
-["Battle of Dazar'alor"] = {
-[16] = false,
 },
 ["Siege of Orgrimmar"] = {
 [16] = false,
@@ -34,31 +22,52 @@ LoggerHeadDB = {
 ["Dragon Soul"] = {
 [6] = false,
 },
-["Karazhan"] = {
-[3] = false,
-},
-["Hellfire Citadel"] = {
-[16] = false,
-},
-["Throne of the Four Winds"] = {
-[6] = false,
-},
-["Amirdrassil, the Dream's Hope"] = {
-[16] = false,
-},
-["Onyxia's Lair"] = {
-[4] = false,
-},
-["The Nighthold"] = {
+["Ny'alotha, the Waking City"] = {
 [16] = false,
 },
 ["Tomb of Sargeras"] = {
 [16] = false,
 },
-["Ny'alotha, the Waking City"] = {
+["Amirdrassil, the Dream's Hope"] = {
+[16] = false,
+},
+["The Eye of Eternity"] = {
+[4] = false,
+},
+["Antorus, the Burning Throne"] = {
+[16] = false,
+},
+["Blackrock Foundry"] = {
 [16] = false,
 },
 ["Uldir"] = {
+},
+["Karazhan"] = {
+[3] = false,
+},
+["Vault of Archavon"] = {
+[4] = false,
+},
+["Throne of the Four Winds"] = {
+[6] = false,
+},
+["Onyxia's Lair"] = {
+[4] = false,
+},
+["Hellfire Citadel"] = {
+[16] = false,
+},
+["The Nighthold"] = {
+[16] = false,
+},
+["Battle of Dazar'alor"] = {
+[16] = false,
+},
+["The Sunwell"] = {
+[4] = false,
+},
+["Firelands"] = {
+[15] = false,
 },
 },
 ["scenario"] = {
@@ -98,6 +107,9 @@ LoggerHeadDB = {
 ["Scholomance"] = {
 [24] = true,
 },
+["Dawn of the Infinite"] = {
+[2] = false,
+},
 ["Zul'Gurub"] = {
 [2] = false,
 },
@@ -112,11 +124,9 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["Stratholme"] = {
-false,
-},
-["Return to Karazhan"] = {
-[2] = false,
+["Cinderbrew Meadery"] = {
+[23] = true,
+[8] = true,
 },
 ["Priory of the Sacred Flame"] = {
 [23] = true,
@@ -126,12 +136,6 @@ false,
 [23] = true,
 [8] = true,
 },
-["Auchindoun: Sethekk Halls"] = {
-[2] = false,
-},
-["Stormstout Brewery"] = {
-[24] = true,
-},
 ["The Vortex Pinnacle"] = {
 [2] = false,
 [23] = false,
@@ -140,12 +144,20 @@ false,
 [2] = false,
 [23] = false,
 },
+["Stormstout Brewery"] = {
+[24] = true,
+},
+["Return to Karazhan"] = {
+[2] = false,
+},
+["Auchindoun: Sethekk Halls"] = {
+[2] = false,
+},
 ["The Underrot"] = {
 [23] = false,
 },
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
+["Stratholme"] = {
+false,
 },
 },
 },

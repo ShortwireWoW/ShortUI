@@ -1,3 +1,7 @@
+VER 3 0100000000000006 "Chains" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Chains
+END
 VER 3 0100000000000002 "Leap" "134400"
 #showtooltip
 /dismount
@@ -14,4 +18,8 @@ END
 VER 3 0100000000000004 "Sigil of Spite" "134400"
 #showtooltip
 /cast [@cursor] Sigil of Spite
+END
+VER 3 0100000000000007 "Silence" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Silence
 END

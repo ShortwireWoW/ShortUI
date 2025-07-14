@@ -19,26 +19,22 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Versad-Thrall"] = 1751763066,
 },
 ["ranged"] = {
-["Raherius-Stormrage"] = 1751766603,
-["Åstrýlåñ-Tichondrius"] = 1751764813,
-["Canadaeh-Sargeras"] = 1751768615,
-["Farrison-Proudmoore"] = 1751764096,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
-["Rukegar-Illidan"] = 1751764510,
 ["Twistedwilds-Illidan"] = 1751072656,
+["Leopomis-Area52"] = 1752375721,
+["Rukegar-Illidan"] = 1752373911,
 },
 ["ranged"] = {
-["Anoralin-Stormrage"] = 1751765743,
+["Lawrieselers-Area52"] = 1752375733,
 ["Landreielea-Eitrigg"] = 1751769030,
-["Caeve-Stormrage"] = 1751072731,
-["Zenshama-Tichondrius"] = 1750470286,
-["Beernuts-Doomhammer"] = 1750472115,
+["Caeve-Stormrage"] = 1752372057,
+["Anoralin-Stormrage"] = 1751765743,
+["Terria-Shadowmoon"] = 1752375719,
 },
 },
 },

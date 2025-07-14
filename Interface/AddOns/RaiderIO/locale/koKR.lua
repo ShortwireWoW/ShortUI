@@ -435,6 +435,18 @@ L["RAID_BOSS_FSOD_7"] = "태초의 존재의 수호자"
 L["RAID_BOSS_FSOD_8"] = "운명필경사 로칼로"
 L["RAID_BOSS_FSOD_9"] = "켈투자드"
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_HOF_6"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_ICC_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ICC_10"] = ""--]] 
@@ -466,6 +478,18 @@ L["RAID_BOSS_LOU_5"] = "스프로켓몽거 로켄스톡"
 L["RAID_BOSS_LOU_6"] = "외팔이 좀도둑"
 L["RAID_BOSS_LOU_7"] = "보안 책임자 머그지"
 L["RAID_BOSS_LOU_8"] = "크롬왕 갤리윅스"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MSV_6"] = ""--]] 
 L["RAID_BOSS_NP_1"] = "포식자 울그락스"
 L["RAID_BOSS_NP_2"] = "피결속 공포"
 L["RAID_BOSS_NP_3"] = "수레키 대장 시크란"
@@ -497,6 +521,14 @@ L["RAID_BOSS_SOD_6"] = "고통장이 라즈날"
 L["RAID_BOSS_SOD_7"] = "태초의 존재의 수호자"
 L["RAID_BOSS_SOD_8"] = "운명필경사 로칼로"
 L["RAID_BOSS_SOD_9"] = "켈투자드"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ToES_4"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_TOTFW_1"] = ""--]] 
 --[[Translation missing --]]
@@ -539,11 +571,17 @@ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "공격대 보스 처치"
 --[[Translation missing --]]
 --[[ L["RAID_FL"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["RAID_HOF"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_ICC"] = ""--]] 
 L["RAID_LOU"] = "언더마인 해방전선"
+--[[Translation missing --]]
+--[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "네룹아르 궁전"
 --[[Translation missing --]]
 --[[ L["RAID_RS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_ToES"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_TOTFW"] = ""--]] 
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "+%s단 시간내 평균 점수"
