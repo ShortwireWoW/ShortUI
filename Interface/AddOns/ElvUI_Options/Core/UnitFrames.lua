@@ -715,7 +715,7 @@ local function GetOptionsTable_HealPrediction(updateFunc, groupName, numGroup, s
 	config.args.height = ACH:Range(L["Height"], nil, 2, { min = -1, max = 500, step = 1 })
 	config.args.colorsButton = ACH:Execute(L["Colors"], nil, 3, function() ACD:SelectGroup('ElvUI', 'unitframe', 'allColorsGroup', 'healPrediction') end)
 	config.args.anchorPoint = ACH:Select(L["Anchor Point"], nil, 4, { TOP = 'TOP', BOTTOM = 'BOTTOM', CENTER = 'CENTER' })
-	config.args.absorbStyle = ACH:Select(L["Absorb Style"], nil, 5, { NONE = L["None"], NORMAL = L["Normal"], REVERSED = L["Reversed"], WRAPPED = L["Wrapped"], OVERFLOW = L["Overflow"] }, nil, nil, nil, nil, nil, not E.Retail)
+	config.args.absorbStyle = ACH:Select(L["Absorb Style"], nil, 5, { NONE = L["None"], NORMAL = L["Normal"], REVERSED = L["Reversed"], WRAPPED = L["Wrapped"], OVERFLOW = L["Overflow"] }, nil, nil, nil, nil, nil, not (E.Retail or E.Mists))
 	config.args.overflowButton = ACH:Execute(L["Max Overflow"], nil, 7, function() ACD:SelectGroup('ElvUI', 'unitframe', 'allColorsGroup', 'healPrediction') end)
 	config.args.warning = ACH:Description(function()
 		if E.db.unitframe.colors.healPrediction.maxOverflow == 0 then
@@ -1021,6 +1021,7 @@ local function GetOptionsTable_ClassBar(updateFunc, groupName, numUnits)
 		config.args.additionalGroup.args.orientation = ACH:Select(L["Frame Orientation"], nil, 3, { HORIZONTAL = L["Horizontal"], VERTICAL = L["Vertical"] })
 		config.args.additionalGroup.args.frameStrata = ACH:Select(L["Frame Strata"], nil, 4, C.Values.Strata)
 		config.args.additionalGroup.args.frameLevel = ACH:Range(L["Frame Level"], nil, 5, { min = 2, max = 128, step = 1 })
+		config.args.additionalGroup.args.autoHide = ACH:Toggle(L["Auto-Hide"], nil, 6)
 
 		config.args.additionalGroup.args.altManaGroup = ACH:Group(L["Additional Power"], nil, 10, nil, function(info) return E.db.unitframe.altManaPowers[E.myclass][info[#info]] end, function(info, value) E.db.unitframe.altManaPowers[E.myclass][info[#info]] = value updateFunc(UF, groupName, numUnits) end, nil, function() if E.Retail then return not E.db.unitframe.altManaPowers[E.myclass] else return not (E.myclass == 'DRUID' or E.myclass == 'MONK') end end)
 		config.args.additionalGroup.args.altManaGroup.args.info = ACH:Description(E.myclass == 'MONK' and L["Will display as additional power:"] or L["Will display mana when main power is:"], 0)
@@ -1036,6 +1037,7 @@ local function GetOptionsTable_ClassBar(updateFunc, groupName, numUnits)
 			config.args.additionalGroup.args.altManaGroup.args.Insanity = ACH:Toggle(L["INSANITY"], nil, 1, nil, nil, nil, nil, nil, nil, not E.Retail)
 		elseif E.myclass == 'MONK' then
 			config.args.additionalGroup.args.altManaGroup.args.Stagger = ACH:Toggle(L["Stagger"], nil, 1, nil, nil, nil, nil, nil, nil, E.Retail)
+			config.args.additionalGroup.args.altManaGroup.args.Energy = ACH:Toggle(L["Energy"], nil, 2)
 		end
 
 		config.args.detachGroup = ACH:Group(L["Detach From Frame"], nil, 30, nil, function(info) return E.db.unitframe.units.player.classbar[info[#info]] end, function(info, value) E.db.unitframe.units.player.classbar[info[#info]] = value UF:CreateAndUpdateUF('player') end, nil, groupName ~= 'player')
@@ -1375,7 +1377,7 @@ Colors.classResourceGroup.args.powerGroup.args.ALT_POWER = ACH:Color(L["Swapped 
 
 Colors.classResourceGroup.args.class = ACH:Group(L["Class Resources"], nil, 15, nil, nil, nil, nil, E.Classic)
 Colors.classResourceGroup.args.class.args.PALADIN = ACH:Color(L["HOLY_POWER"], nil, 1, nil, nil, nil, nil, nil, E.Classic)
-Colors.classResourceGroup.args.class.args.MAGE = ACH:Color(L["POWER_TYPE_ARCANE_CHARGES"], nil, 2, nil, nil, nil, nil, nil, not E.Mists)
+Colors.classResourceGroup.args.class.args.MAGE = ACH:Color(L["POWER_TYPE_ARCANE_CHARGES"], nil, 2, nil, nil, nil, nil, nil, E.Classic)
 Colors.classResourceGroup.args.class.args.PRIEST = ACH:Color(L["SHADOW_ORBS"], nil, 10, nil, nil, nil, nil, nil, not E.Mists)
 Colors.classResourceGroup.args.class.inline = true
 

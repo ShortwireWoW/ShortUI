@@ -90,6 +90,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "BC"
 L["DUNGEON_SHORT_NAME_DOS"] = "DOS"
 L["DUNGEON_SHORT_NAME_EB"] = "VE"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "CDG"
 L["DUNGEON_SHORT_NAME_FH"] = "CDL"
@@ -477,6 +479,22 @@ L["RAID_BOSS_LOU_6"] = "Bandito con un Braccio Solo"
 L["RAID_BOSS_LOU_7"] = "Mug'zee, Capi della Sicurezza"
 L["RAID_BOSS_LOU_8"] = "Re Cromato Gallywix"
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -594,6 +612,8 @@ L["RAID_FL"] = "Terre del Fuoco"
 --[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Rocca della Corona di Ghiaccio "
 L["RAID_LOU"] = "Liberazione di Cavafonda"
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palazzo dei Nerub'ar"

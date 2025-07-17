@@ -66,7 +66,6 @@ E.mylevel = UnitLevel('player')
 E.myname = UnitName('player')
 E.myrealm = GetRealmName()
 E.mynameRealm = format('%s - %s', E.myname, E.myrealm) -- contains spaces/dashes in realm (for profile keys)
-E.myspec = GetSpecialization()
 E.wowbuild = tonumber(E.wowbuild)
 E.physicalWidth, E.physicalHeight = GetPhysicalScreenSize()
 E.screenWidth, E.screenHeight = GetScreenWidth(), GetScreenHeight()
@@ -190,7 +189,9 @@ do
 end
 
 function E:Print(...)
-	(E.db and _G[E.db.general.messageRedirect] or _G.DEFAULT_CHAT_FRAME):AddMessage(strjoin('', E.media.hexvaluecolor or '|cff00b3ff', 'ElvUI:|r ', ...)) -- I put DEFAULT_CHAT_FRAME as a fail safe.
+	local frame = E.db and _G[E.db.general.messageRedirect] or _G.DEFAULT_CHAT_FRAME
+	local msg = strjoin('', E.media.hexvaluecolor or '|cff00b3ff', 'ElvUI:|r ', ...)
+	frame:AddMessage(msg)
 end
 
 function E:GrabColorPickerValues(r, g, b)
@@ -2016,6 +2017,7 @@ function E:Initialize()
 	local playerGUID = UnitGUID('player')
 	local _, serverID = strsplit('-', playerGUID)
 	E.serverID = tonumber(serverID)
+	E.myspec = GetSpecialization()
 	E.myguid = playerGUID
 
 	E.TimerunningID = PlayerGetTimerunningSeasonID and PlayerGetTimerunningSeasonID()

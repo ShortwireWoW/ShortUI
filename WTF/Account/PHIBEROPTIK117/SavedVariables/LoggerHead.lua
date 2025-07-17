@@ -51,11 +51,11 @@ LoggerHeadDB = {
 ["Throne of the Four Winds"] = {
 [6] = false,
 },
-["The Sunwell"] = {
-[4] = false,
-},
 ["Onyxia's Lair"] = {
 [4] = false,
+},
+["Hellfire Citadel"] = {
+[16] = false,
 },
 ["The Nighthold"] = {
 [16] = false,
@@ -63,8 +63,8 @@ LoggerHeadDB = {
 ["Battle of Dazar'alor"] = {
 [16] = false,
 },
-["Hellfire Citadel"] = {
-[16] = false,
+["The Sunwell"] = {
+[4] = false,
 },
 ["Firelands"] = {
 [15] = false,
@@ -74,11 +74,11 @@ LoggerHeadDB = {
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["Fungal Folly"] = {
-[208] = false,
-},
 ["The Dread Pit"] = {
 [208] = true,
+},
+["Fungal Folly"] = {
+[208] = false,
 },
 },
 ["party"] = {
@@ -116,8 +116,9 @@ LoggerHeadDB = {
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Stratholme"] = {
-false,
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
 },
 ["The MOTHERLODE!!"] = {
 [23] = true,
@@ -134,8 +135,9 @@ false,
 [23] = true,
 [8] = true,
 },
-["Auchindoun: Sethekk Halls"] = {
+["The Vortex Pinnacle"] = {
 [2] = false,
+[23] = false,
 },
 ["Kings' Rest"] = {
 [2] = false,
@@ -144,20 +146,19 @@ false,
 ["Stormstout Brewery"] = {
 [24] = true,
 },
-["The Vortex Pinnacle"] = {
-[2] = false,
-[23] = false,
-},
 ["Return to Karazhan"] = {
+[2] = false,
+[23] = true,
+},
+["Auchindoun: Sethekk Halls"] = {
 [2] = false,
 },
 ["Operation: Floodgate"] = {
 [23] = true,
 [8] = true,
 },
-["Theater of Pain"] = {
-[23] = true,
-[8] = true,
+["Stratholme"] = {
+false,
 },
 },
 },

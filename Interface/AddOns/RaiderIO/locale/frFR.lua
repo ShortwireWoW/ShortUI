@@ -83,6 +83,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "FS"
 L["DUNGEON_SHORT_NAME_DOS"] = "AC"
 L["DUNGEON_SHORT_NAME_EB"] = "LFé"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "AdIRdG"
 --[[Translation missing --]]
@@ -391,6 +393,22 @@ L["RAID_BOSS_LOU_6"] = "Le Bandit manchot"
 L["RAID_BOSS_LOU_7"] = "Verr’Minh, chefs de la sécurité"
 L["RAID_BOSS_LOU_8"] = "Roi du chrome Gallywix"
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -474,6 +492,8 @@ L["RAID_FL"] = "Terres de Feu"
 --[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Citadelle de la Couronne de glace"
 L["RAID_LOU"] = "Libération de Terremine"
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palais des Nérub’ar"

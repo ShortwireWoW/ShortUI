@@ -85,6 +85,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Arboleda Corazón Oscuro - DHT"
 L["DUNGEON_SHORT_NAME_DOS"] = "El Otro Lado - DOS"
 L["DUNGEON_SHORT_NAME_EB"] = "El Vergel Eterno - EB"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = [=[Amanecer: Caída de Galakrond - FALL
 ]=]
@@ -476,6 +478,22 @@ L["RAID_BOSS_FSOD_9"] = "Kel'Thuzad"
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_LOU_8"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -567,6 +585,8 @@ L["RAID_FL"] = "Tierras de Fuego - FL"
 --[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Ciudadela de la Corona de Hielo - ICC"
 L["RAID_LOU"] = "Liberación de Minahonda - LOU"
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palacio Nerub'ar - NP"

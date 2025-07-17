@@ -80,6 +80,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "黑心林地"
 L["DUNGEON_SHORT_NAME_DOS"] = "彼界"
 L["DUNGEON_SHORT_NAME_EB"] = "永茂林地"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "永恒：陨落"
 L["DUNGEON_SHORT_NAME_FH"] = "自由镇"
@@ -407,6 +409,22 @@ L["RAID_BOSS_ICC_9"] = "鲜血女王兰娜瑟尔"
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_LOU_8"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -494,6 +512,8 @@ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "已击杀团队副本首领"
 L["RAID_ICC"] = "冰冠堡垒"
 --[[Translation missing --]]
 --[[ L["RAID_LOU"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "尼鲁巴尔王宫"

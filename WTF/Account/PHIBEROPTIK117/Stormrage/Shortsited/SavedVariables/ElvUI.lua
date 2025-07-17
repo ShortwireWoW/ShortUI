@@ -2,11 +2,6 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/cw Datbubblelol HEY SO WHY DON'T WE DO MYTHIC CONTENT???? IS THERE LIKE A SPECIFIC REASON??? ORRR",
-"/break 5",
-"/rc",
-"/pull 10",
-"/g |cffffff00|Hworldmap:84:7489:1872|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r",
 "/macro",
 "/g fuck you lol",
 "/g i just ran that",
@@ -22,6 +17,11 @@ ElvCharacterDB = {
 "/g i got that one the other week",
 "/g lol",
 "/raidinfo",
+"/g benis",
+"/g Any good mounts?",
+"/g anyone else DC?",
+"/g i can't dismount",
+"/g guess that's all for tonight",
 },
 ["ChatHistoryLog"] = {
 },

@@ -39,7 +39,7 @@ function UF:Construct_Portrait(frame, which)
 	end
 
 	portrait.__owner = frame -- set this for both, oUF will only set it when active
-	portrait.PostUpdate = self.PortraitUpdate
+	portrait.PostUpdate = UF.PortraitUpdate
 
 	return portrait
 end
@@ -120,7 +120,7 @@ function UF:Configure_Portrait(frame)
 	end
 end
 
-function UF:PortraitUpdate(unit, hasStateChanged)
+function UF:PortraitUpdate(unit, hasStateChanged, texCoords)
 	if not hasStateChanged then return end
 
 	if self.playerModel then
@@ -142,6 +142,11 @@ function UF:PortraitUpdate(unit, hasStateChanged)
 		self:SetDesaturation(db.desaturation or 0)
 		self:SetPaused(db.paused or false)
 	elseif self.useClassBase then
-		self:SetTexCoord(unpack(E.TexCoords))
+		if texCoords then
+			local left, right, top, bottom = unpack(texCoords)
+			self:SetTexCoord(left+0.02, right-0.02, top+0.02, bottom-0.02)
+		else
+			self:SetTexCoord(unpack(E.TexCoords))
+		end
 	end
 end

@@ -76,6 +76,7 @@ L["DUNGEON_SHORT_NAME_DFC"] = "Расселина Темного Пламени"
 L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_EB"] = "Вечное Цветение"
+L["DUNGEON_SHORT_NAME_EDA"] = "Заповедник Аль'дани"
 L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
 L["DUNGEON_SHORT_NAME_FALL"] = "Рассвет Бесконечности: падение Галакронда"
 L["DUNGEON_SHORT_NAME_FH"] = "Вольная Гавань"
@@ -325,18 +326,12 @@ L["RAID_BOSS_FSOD_6"] = "Разнал"
 L["RAID_BOSS_FSOD_7"] = "Стражница Предвечных"
 L["RAID_BOSS_FSOD_8"] = "Писарь судьбы Ро-Кало"
 L["RAID_BOSS_FSOD_9"] = "Кел'Тузад"
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_6"] = ""--]] 
+L["RAID_BOSS_HOF_1"] = "Императорский визирь Зор'лок"
+L["RAID_BOSS_HOF_2"] = "Повелитель клинков Та'як"
+L["RAID_BOSS_HOF_3"] = "Гаралон"
+L["RAID_BOSS_HOF_4"] = "Повелитель ветров Мел'джарак"
+L["RAID_BOSS_HOF_5"] = "Ваятель янтаря Ун'сок"
+L["RAID_BOSS_HOF_6"] = "Великая императрица Шек'зир"
 L["RAID_BOSS_ICC_1"] = "Лорд Ребрад"
 L["RAID_BOSS_ICC_10"] = "Валитрия Сноходица"
 L["RAID_BOSS_ICC_11"] = "Синдрагоса"
@@ -357,18 +352,20 @@ L["RAID_BOSS_LOU_5"] = "Зубцеторг Всесхватс"
 L["RAID_BOSS_LOU_6"] = "Однорукий бандит"
 L["RAID_BOSS_LOU_7"] = "Граб'Зи, главы отдела охраны"
 L["RAID_BOSS_LOU_8"] = "Хромовый король Галливикс"
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_6"] = ""--]] 
+L["RAID_BOSS_MFO_1"] = "Сплетенный страж"
+L["RAID_BOSS_MFO_2"] = "Ткан'итар"
+L["RAID_BOSS_MFO_3"] = "Стражница душ Наазиндри"
+L["RAID_BOSS_MFO_4"] = "Ткач горна Араз"
+L["RAID_BOSS_MFO_5"] = "Ловцы душ"
+L["RAID_BOSS_MFO_6"] = "Разломий"
+L["RAID_BOSS_MFO_7"] = "Соправитель Салхадаар"
+L["RAID_BOSS_MFO_8"] = "Пространствус Всепоглощающий"
+L["RAID_BOSS_MSV_1"] = "Каменные стражи"
+L["RAID_BOSS_MSV_2"] = "Фэн Проклятый"
+L["RAID_BOSS_MSV_3"] = "Душелов Гара'джал"
+L["RAID_BOSS_MSV_4"] = "Призрачные короли"
+L["RAID_BOSS_MSV_5"] = "Элегон"
+L["RAID_BOSS_MSV_6"] = "Воля императора"
 L["RAID_BOSS_NP_1"] = "Улгракс Пожиратель"
 L["RAID_BOSS_NP_2"] = "Скованный кровью ужас"
 L["RAID_BOSS_NP_3"] = "Капитан суреки Сик'ран"
@@ -399,14 +396,10 @@ L["RAID_BOSS_SOD_6"] = "Кузнец боли Разнал"
 L["RAID_BOSS_SOD_7"] = "Стражница Предвечных"
 L["RAID_BOSS_SOD_8"] = "Писарь Судьбы Ро-Кало"
 L["RAID_BOSS_SOD_9"] = "Кел'Тузад"
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_4"] = ""--]] 
+L["RAID_BOSS_ToES_1"] = "Вечные защитники"
+L["RAID_BOSS_ToES_2"] = "Цулон"
+L["RAID_BOSS_ToES_3"] = "Лэй Ши"
+L["RAID_BOSS_ToES_4"] = "Ша Страха"
 L["RAID_BOSS_TOTFW_1"] = "Конклав ветра"
 L["RAID_BOSS_TOTFW_2"] = "Ал'акир"
 L["RAID_BOSS_VOTI_1"] = "Эраног"
@@ -437,16 +430,14 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "О25"
 L["RAID_DS"] = "Душа Дракона"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Побежденные рейдовые боссы"
 L["RAID_FL"] = "Огненные Просторы"
---[[Translation missing --]]
---[[ L["RAID_HOF"] = ""--]] 
+L["RAID_HOF"] = "Сердце Страха"
 L["RAID_ICC"] = "Цитадель Ледяной Короны"
 L["RAID_LOU"] = "Освобождение Нижней Шахты"
---[[Translation missing --]]
---[[ L["RAID_MSV"] = ""--]] 
+L["RAID_MFO"] = "Манагорн Омега"
+L["RAID_MSV"] = "Подземелья Могу'шан"
 L["RAID_NP"] = "Неруб'арский дворец"
 L["RAID_RS"] = "Рубиновое святилище"
---[[Translation missing --]]
---[[ L["RAID_ToES"] = ""--]] 
+L["RAID_ToES"] = "Терраса Вечной Весны"
 L["RAID_TOTFW"] = "Трон Четырех Ветров"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Cредн. очки для прохода вовремя +%s"
 L["RAIDERIO_BEST_RUN"] = "[Raider.IO] Лучшее прохождение М+ подземелья"

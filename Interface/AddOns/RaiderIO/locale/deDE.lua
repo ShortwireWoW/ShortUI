@@ -77,6 +77,8 @@ L["DUNGEON_SHORT_NAME_DFC"] = "Dunkelflammenspalt"
 L["DUNGEON_SHORT_NAME_DHT"] = "Das Finsterherzdickicht"
 L["DUNGEON_SHORT_NAME_DOS"] = "Die Andre Seite"
 L["DUNGEON_SHORT_NAME_EB"] = "Der Immergrüne Flor"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_EOA"] = "Das Auge Azsharas"
 L["DUNGEON_SHORT_NAME_FALL"] = "Galakronds Sturz"
 L["DUNGEON_SHORT_NAME_FH"] = "Freihafen"
@@ -359,6 +361,22 @@ L["RAID_BOSS_LOU_6"] = "Der einarmige Bandit"
 L["RAID_BOSS_LOU_7"] = "Mug'Zee, Wachleitung"
 L["RAID_BOSS_LOU_8"] = "Chromkönig Gallywix"
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -442,6 +460,8 @@ L["RAID_FL"] = "Feuerlande"
 --[[ L["RAID_HOF"] = ""--]] 
 L["RAID_ICC"] = "Die Eiskronenzitadelle"
 L["RAID_LOU"] = "Die Befreiung von Lorenhall"
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palast der Nerub'ar"

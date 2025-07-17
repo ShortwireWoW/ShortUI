@@ -107,6 +107,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "어숲"
 L["DUNGEON_SHORT_NAME_DOS"] = "저편"
 L["DUNGEON_SHORT_NAME_EB"] = "상록숲"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "몰락"
 L["DUNGEON_SHORT_NAME_FH"] = "자유"
@@ -479,6 +481,22 @@ L["RAID_BOSS_LOU_6"] = "외팔이 좀도둑"
 L["RAID_BOSS_LOU_7"] = "보안 책임자 머그지"
 L["RAID_BOSS_LOU_8"] = "크롬왕 갤리윅스"
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -575,6 +593,8 @@ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "공격대 보스 처치"
 --[[Translation missing --]]
 --[[ L["RAID_ICC"] = ""--]] 
 L["RAID_LOU"] = "언더마인 해방전선"
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "네룹아르 궁전"

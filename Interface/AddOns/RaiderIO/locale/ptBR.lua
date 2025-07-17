@@ -80,6 +80,8 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Bosque Corenegro"
 L["DUNGEON_SHORT_NAME_DOS"] = "Outro Lado"
 L["DUNGEON_SHORT_NAME_EB"] = "Floretérnia"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "Ruína de Galakrond"
 L["DUNGEON_SHORT_NAME_FH"] = "Angra do Facão"
@@ -407,6 +409,22 @@ L["RAID_BOSS_ICC_9"] = "Rainha de Sangue Lana'thel"
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_LOU_8"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_MFO_8"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MSV_2"] = ""--]] 
@@ -494,6 +512,8 @@ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Encontros de Raide Derrotados"
 L["RAID_ICC"] = "Cidadela da Coroa de Gelo"
 --[[Translation missing --]]
 --[[ L["RAID_LOU"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_MFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_MSV"] = ""--]] 
 L["RAID_NP"] = "Palácio Nerub-ar"

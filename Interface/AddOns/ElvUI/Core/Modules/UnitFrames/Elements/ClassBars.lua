@@ -11,7 +11,6 @@ local unpack = unpack
 
 local CreateFrame = CreateFrame
 local MAX_COMBO_POINTS = MAX_COMBO_POINTS
-local CAT_FORM = 3
 
 local AltManaTypes = { Rage = 1, Energy = 3 }
 local ClassPowerTypes = { 'ClassPower', 'AdditionalPower', 'Runes', 'Stagger', 'Totems', 'AlternativePower', 'EclipseBar' }
@@ -31,6 +30,7 @@ function UF:GetClassPower_Construct(frame)
 		frame.AdditionalPower = UF:Construct_AdditionalPowerBar(frame)
 	elseif E.myclass == 'MONK' then
 		frame.Stagger = UF:Construct_Stagger(frame)
+		frame.AdditionalPower = UF:Construct_AdditionalPowerBar(frame)
 	elseif E.myclass == 'DEATHKNIGHT' then
 		frame.Runes = UF:Construct_DeathKnightResourceBar(frame)
 		frame.ClassBar = 'Runes'
@@ -94,7 +94,7 @@ function UF:Configure_ClassBar(frame)
 	if not bars then return end
 
 	bars.Holder = frame.ClassBarHolder
-	bars.AdditionalHolder = (E.Retail or E.Mists) and frame.ClassAdditionalHolder
+	bars.AdditionalHolder = frame.ClassAdditionalHolder
 	bars.origParent = frame
 
 	local MAX_CLASS_BAR = frame.MAX_CLASS_BAR
@@ -122,7 +122,7 @@ function UF:Configure_ClassBar(frame)
 	end
 
 	if frame.USE_MINI_CLASSBAR and not frame.CLASSBAR_DETACHED then
-		if MAX_CLASS_BAR == 1 or frame.ClassBar == 'AdditionalPower' or frame.ClassBar == 'EclipseBar' or frame.ClassBar == 'Stagger' or frame.ClassBar == 'AlternativePower' then
+		if MAX_CLASS_BAR == 1 or frame.ClassBar == 'EclipseBar' or frame.ClassBar == 'Stagger' or frame.ClassBar == 'AlternativePower' then
 			CLASSBAR_WIDTH = CLASSBAR_WIDTH * 2 / 3
 		else
 			CLASSBAR_WIDTH = CLASSBAR_WIDTH * (MAX_CLASS_BAR - 1) / MAX_CLASS_BAR
@@ -217,7 +217,7 @@ function UF:Configure_ClassBar(frame)
 
 		bars.Arrow:ClearAllPoints()
 		bars.Arrow:Point('CENTER', lunarTex, isVertical and 'TOP' or 'RIGHT', 0, isVertical and -4 or 0)
-	elseif frame.ClassBar == 'AdditionalPower' or frame.ClassBar == 'Stagger' or frame.ClassBar == 'AlternativePower' then
+	elseif frame.ClassBar == 'Stagger' or frame.ClassBar == 'AlternativePower' then
 		bars:SetOrientation(isVertical and 'VERTICAL' or 'HORIZONTAL')
 	end
 
@@ -273,18 +273,15 @@ function UF:Configure_ClassBar(frame)
 		bars:SetFrameStrata(db.classbar.strataAndLevel.useCustomStrata and db.classbar.strataAndLevel.frameStrata or 'LOW')
 		bars:SetFrameLevel(db.classbar.strataAndLevel.useCustomLevel and db.classbar.strataAndLevel.frameLevel or frame.Health:GetFrameLevel() + 10) --Health uses 10, Power uses (Health + 5) when attached
 	else
-		if E.myclass ~= 'DRUID' or frame.ClassBar ~= 'AdditionalPower' then
-			bars:ClearAllPoints()
-
-			if frame.ORIENTATION == 'RIGHT' then
-				bars:Point('BOTTOMRIGHT', frame.Health.backdrop, 'TOPRIGHT', -UF.BORDER, UF.SPACING*3)
-			else
-				bars:Point('BOTTOMLEFT', frame.Health.backdrop, 'TOPLEFT', UF.BORDER, UF.SPACING*3)
-			end
-		end
-
-		bars:SetFrameStrata('LOW')
 		bars:OffsetFrameLevel(10, frame.Health) --Health uses 10, Power uses (Health + 5) when attached
+		bars:SetFrameStrata('LOW')
+		bars:ClearAllPoints()
+
+		if frame.ORIENTATION == 'RIGHT' then
+			bars:Point('BOTTOMRIGHT', frame.Health.backdrop, 'TOPRIGHT', -UF.BORDER, UF.SPACING*3)
+		else
+			bars:Point('BOTTOMLEFT', frame.Health.backdrop, 'TOPLEFT', UF.BORDER, UF.SPACING*3)
+		end
 
 		if bars.Holder and bars.Holder.mover then
 			E:DisableMover(bars.Holder.mover.name)
@@ -348,7 +345,7 @@ function UF:ToggleResourceBar()
 	if self.text then self.text:SetAlpha(frame.CLASSBAR_SHOWN and 1 or 0) end
 
 	frame.CLASSBAR_HEIGHT = frame.USE_CLASSBAR and ((db.classbar and db.classbar.height) or (frame.AlternativePower and db.power.height)) or 0
-	frame.CLASSBAR_YOFFSET = ((E.myclass == 'DRUID' and frame.ClassBar == 'AdditionalPower') or (not frame.USE_CLASSBAR or not frame.CLASSBAR_SHOWN or frame.CLASSBAR_DETACHED)) and 0 or (frame.USE_MINI_CLASSBAR and ((UF.SPACING+(frame.CLASSBAR_HEIGHT*0.5))) or (frame.CLASSBAR_HEIGHT - (UF.BORDER-UF.SPACING)))
+	frame.CLASSBAR_YOFFSET = ((not frame.USE_CLASSBAR or not frame.CLASSBAR_SHOWN or frame.CLASSBAR_DETACHED)) and 0 or (frame.USE_MINI_CLASSBAR and ((UF.SPACING+(frame.CLASSBAR_HEIGHT*0.5))) or (frame.CLASSBAR_HEIGHT - (UF.BORDER-UF.SPACING)))
 
 	UF:Configure_CustomTexts(frame)
 	UF:Configure_HealthBar(frame)
@@ -595,19 +592,11 @@ function UF:PostUpdateAdditionalPower(CUR, MAX, event)
 	local frame = self.origParent or self:GetParent()
 	local db = frame.db
 
-	if frame.USE_CLASSBAR and event ~= 'ElementDisable' and (CUR ~= MAX or not db.classbar.autoHide) then
-		self:Show()
-	else
-		self:Hide()
-	end
+	self:SetShown((frame.USE_CLASSBAR and event ~= 'ElementDisable') and (CUR ~= MAX or not db.classAdditional.autoHide) and (not E.Mists or E.myclass ~= 'MONK' or E.myspec == 2))
 end
 
-function UF:PostVisibilityAdditionalPower(enabled)
-	local frame = self.origParent or self:GetParent()
-
-	frame.ClassBar = (enabled and 'AdditionalPower') or 'ClassPower'
-
-	UF:PostVisibility_ClassBars(frame)
+function UF:PostVisibilityAdditionalPower()
+	-- this used to do something but now the bar is split off
 end
 
 -----------------------------------------------------------
@@ -648,22 +637,17 @@ function UF:EclipsePostDirectionChange(direction)
 	local vertical = frame.CLASSBAR_DETACHED and frame.db.classbar.verticalOrientation
 	local r, g, b = unpack(ElvUF.colors.ClassBars.DRUID[direction == 'sun' and 1 or 2])
 
+	self.Arrow:SetShown(direction == 'sun' or direction == 'moon')
 	self.Arrow:SetRotation(direction == 'sun' and (vertical and 0 or -1.57) or (vertical and 3.14 or 1.57))
 	self.Arrow:SetVertexColor(r, g, b)
-
-	if direction == 'sun' or direction == 'moon' then
-		self.Arrow:Show()
-	else
-		self.Arrow:Hide()
-	end
 end
 
-function UF:EclipsePostUpdateVisibility(enabled, stateChanged, shapeshiftForm)
+function UF:EclipsePostUpdateVisibility(enabled)
 	local frame = self.origParent or self:GetParent()
 
-	frame.ClassBar = (enabled and 'EclipseBar') or (shapeshiftForm == CAT_FORM and 'ClassPower') or 'AdditionalPower'
+	frame.ClassBar = (enabled and 'EclipseBar') or 'ClassPower'
 
-	UF:PostVisibility_ClassBars(frame, stateChanged)
+	UF:PostVisibility_ClassBars(frame)
 end
 
 -----------------------------------------------------------
@@ -688,10 +672,11 @@ function UF:PostUpdateStagger(stagger)
 	local frame = self.origParent or self:GetParent()
 	local db = frame.db
 
-	local autohide = stagger == 0 and db.classbar.autoHide
 	if E.Retail then
+		local autohide = stagger == 0 and db.classbar.autoHide
 		self:SetShown(frame.USE_CLASSBAR and not autohide)
 	else
+		local autohide = stagger == 0 and db.classAdditional.autoHide
 		local altPower = E.db.unitframe.altManaPowers[E.myclass]
 		self:SetShown(altPower and altPower.Stagger and not autohide)
 	end

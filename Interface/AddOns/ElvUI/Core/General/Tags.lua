@@ -58,7 +58,6 @@ local UnitPowerType = UnitPowerType
 local UnitPVPName = UnitPVPName
 local UnitPVPRank = UnitPVPRank
 local UnitReaction = UnitReaction
-local UnitSex = UnitSex
 local UnitStagger = UnitStagger
 local UnitThreatPercentageOfLead = UnitThreatPercentageOfLead
 
@@ -670,7 +669,7 @@ end)
 
 E:AddTag('difficultycolor', 'UNIT_LEVEL PLAYER_LEVEL_UP', function(unit)
 	local color
-	if E.Retail and (UnitIsWildBattlePet(unit) or UnitIsBattlePetCompanion(unit)) then
+	if not E.Classic and (UnitIsWildBattlePet(unit) or UnitIsBattlePetCompanion(unit)) then
 		local level = UnitBattlePetLevel(unit)
 		local teamLevel = C_PetJournal_GetPetTeamAverageLevel()
 		if teamLevel < level or teamLevel > level then
@@ -693,8 +692,8 @@ end)
 
 E:AddTag('classcolor', 'UNIT_NAME_UPDATE UNIT_FACTION INSTANCE_ENCOUNTER_ENGAGE_UNIT', function(unit)
 	if UnitIsPlayer(unit) or (E.Retail and UnitInPartyIsAI(unit)) then
-		local _, unitClass = UnitClass(unit)
-		local cs = ElvUF.colors.class[unitClass]
+		local _, classToken = UnitClass(unit)
+		local cs = ElvUF.colors.class[classToken]
 		return (cs and Hex(cs.r, cs.g, cs.b)) or '|cFFcccccc'
 	else
 		local cr = ElvUF.colors.reaction[UnitReaction(unit, 'player')]
@@ -718,7 +717,7 @@ end)
 
 E:AddTag('smartlevel', 'UNIT_LEVEL PLAYER_LEVEL_UP', function(unit)
 	local level = UnitEffectiveLevel(unit)
-	if E.Retail and (UnitIsWildBattlePet(unit) or UnitIsBattlePetCompanion(unit)) then
+	if not E.Classic and (UnitIsWildBattlePet(unit) or UnitIsBattlePetCompanion(unit)) then
 		return UnitBattlePetLevel(unit)
 	elseif level == UnitEffectiveLevel('player') then
 		return nil
@@ -933,11 +932,7 @@ E:AddTag('class', 'UNIT_NAME_UPDATE', function(unit)
 	if not (UnitIsPlayer(unit) or (E.Retail and UnitInPartyIsAI(unit))) then return end
 
 	local _, classToken = UnitClass(unit)
-	if UnitSex(unit) == 3 then
-		return _G.LOCALIZED_CLASS_NAMES_FEMALE[classToken]
-	else
-		return _G.LOCALIZED_CLASS_NAMES_MALE[classToken]
-	end
+	return E:LocalizedClassName(classToken, unit)
 end)
 
 E:AddTag('name:title', 'UNIT_NAME_UPDATE INSTANCE_ENCOUNTER_ENGAGE_UNIT', function(unit)
@@ -1395,8 +1390,8 @@ do
 	E:AddTag('class:icon', 'PLAYER_TARGET_CHANGED', function(unit)
 		if not (UnitIsPlayer(unit) or (E.Retail and UnitInPartyIsAI(unit))) then return end
 
-		local _, class = UnitClass(unit)
-		local icon = classIcons[class]
+		local _, classToken = UnitClass(unit)
+		local icon = classIcons[classToken]
 		if icon then
 			return format(classIcon, icon)
 		end
@@ -1604,8 +1599,8 @@ E.TagInfo = {
 		['guild:translit'] = { category = 'Guild', description = "Displays the guild name with transliteration for cyrillic letters" },
 		['guild'] = { category = 'Guild', description = "Displays the guild name" },
 	-- Health
-		['absorbs'] = { hidden = not E.Retail, category = 'Health', description = 'Displays the amount of absorbs' },
-		['healabsorbs'] = { hidden = not E.Retail, category = 'Health', description = 'Displays the amount of heal absorbs' },
+		['absorbs'] = { hidden = E.Classic, category = 'Health', description = 'Displays the amount of absorbs' },
+		['healabsorbs'] = { hidden = E.Classic, category = 'Health', description = 'Displays the amount of heal absorbs' },
 		['curhp'] = { category = 'Health', description = "Displays the current HP without decimals" },
 		['deficit:name'] = { category = 'Health', description = "Displays the health as a deficit and the name at full health" },
 		['health:current:name-long'] = { category = 'Health', description = "Displays the current health as a shortvalue and then the name of the unit (limited to 20 letters) when at full health" },
@@ -1642,8 +1637,8 @@ E.TagInfo = {
 		['health:max:shortvalue'] = { category = 'Health', description = "Shortvalue of the unit's maximum health" },
 		['health:max'] = { category = 'Health', description = "Displays the maximum health of the unit" },
 		['health:percent-nostatus'] = { category = 'Health', description = "Displays the unit's current health as a percentage, without status" },
-		['health:percent-with-absorbs'] = { hidden = not E.Retail, category = 'Health', description = "Displays the unit's current health as a percentage with absorb values" },
-		['health:percent-with-absorbs:nostatus'] = { hidden = not E.Retail, category = 'Health', description = "Displays the unit's current health as a percentage with absorb values, without status" },
+		['health:percent-with-absorbs'] = { hidden = E.Classic, category = 'Health', description = "Displays the unit's current health as a percentage with absorb values" },
+		['health:percent-with-absorbs:nostatus'] = { hidden = E.Classic, category = 'Health', description = "Displays the unit's current health as a percentage with absorb values, without status" },
 		['health:percent'] = { category = 'Health', description = "Displays the current health of the unit as a percentage" },
 		['incomingheals:others'] = { category = 'Health', description = "Displays only incoming heals from other units" },
 		['incomingheals:personal'] = { category = 'Health', description = "Displays only personal incoming heals" },

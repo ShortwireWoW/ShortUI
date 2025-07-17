@@ -299,14 +299,14 @@ function TT:SetUnitText(tt, unit, isPlayerUnit)
 
 		return nameColor
 	else
-		local isPetCompanion = E.Retail and UnitIsBattlePetCompanion(unit)
+		local isPetCompanion = not E.Classic and UnitIsBattlePetCompanion(unit)
 		local levelLine, classLine = TT:GetLevelLine(tt, 1)
 		if levelLine then
 			local pvpFlag, classificationString, diffColor, level = '', ''
 			local creatureClassification = UnitClassification(unit)
 			local creatureType = UnitCreatureType(unit)
 
-			if isPetCompanion or (E.Retail and UnitIsWildBattlePet(unit)) then
+			if isPetCompanion or (not E.Classic and UnitIsWildBattlePet(unit)) then
 				level = UnitBattlePetLevel(unit)
 
 				local petType = UnitBattlePetType(unit)
@@ -562,6 +562,7 @@ function TT:GameTooltip_OnTooltipSetUnit(data)
 
 	local isShiftKeyDown = IsShiftKeyDown()
 	local isControlKeyDown = IsControlKeyDown()
+	local isInCombat = InCombatLockdown()
 
 	local isPlayerUnit = UnitIsPlayer(unit)
 	local color = TT:SetUnitText(self, unit, isPlayerUnit)
@@ -574,19 +575,19 @@ function TT:GameTooltip_OnTooltipSetUnit(data)
 		TT:AddRoleInfo(self, unit)
 	end
 
-	if E.Retail then
-		if not InCombatLockdown() then
-			if not isShiftKeyDown and (isPlayerUnit and unit ~= 'player') and TT.db.showMount and E.Retail then
-				TT:AddMountInfo(self, unit)
-			end
-
-			if TT.db.mythicDataEnable then
-				TT:AddMythicInfo(self, unit)
-			end
+	if (E.Retail or E.Mists) and not isInCombat then
+		if not isShiftKeyDown and (isPlayerUnit and unit ~= 'player') and TT.db.showMount then
+			TT:AddMountInfo(self, unit)
 		end
 	end
 
-	if (E.Retail or E.Mists) and isShiftKeyDown and isPlayerUnit and not InCombatLockdown() and TT.db.inspectDataEnable and not self.ItemLevelShown then
+	if E.Retail and not isInCombat then
+		if TT.db.mythicDataEnable then
+			TT:AddMythicInfo(self, unit)
+		end
+	end
+
+	if (E.Retail or E.Mists) and not isInCombat and isShiftKeyDown and isPlayerUnit and TT.db.inspectDataEnable and not self.ItemLevelShown then
 		if color then
 			TT:AddInspectInfo(self, unit, 0, color.r, color.g, color.b)
 		else
@@ -1103,7 +1104,7 @@ function TT:Initialize()
 		end
 	end
 
-	if E.Retail or E.Mists then
+	if not E.Classic then
 		TT:SecureHook('BattlePetToolTip_Show', 'AddBattlePetID')
 	end
 

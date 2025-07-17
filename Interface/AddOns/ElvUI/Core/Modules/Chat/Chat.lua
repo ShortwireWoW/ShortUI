@@ -258,8 +258,10 @@ do --this can save some main file locals
 			z['Player-5099-01947A77']	= itsSimpy -- Warlock: Simpy
 		elseif E.Mists then
 			-- Simpy (4373: Myzrael)
-			z['Player-4373-011657A7']	= itsSimpy -- Paladin:		Cutepally
-			z['Player-4373-032FFEE2']	= itsSimpy -- Shaman:		Kalline
+			z['Player-4373-011657A7']	= itsSimpy -- Paladin:	Cutepally
+			z['Player-4373-032FFEE2']	= itsSimpy -- Shaman:	Kalline
+			z['Player-4373-040E5AA9']	= itsSimpy -- Druid:	Puttietat
+			z['Player-4373-03E24528']	= itsSimpy -- Hunter:	Arieva
 			z['Player-4373-03351BC7']	= itsSimpy -- [Horde] DK:	Imsojelly
 			-- Repooc
 			z['Repooc-Atiesh']			= itsPooc -- [Alliance] Paladin
@@ -437,11 +439,11 @@ do --this can save some main file locals
 			z['Player-4467-04571A98']	= ElvGreen -- [Alliance] Warrior
 			z['Player-4440-03AD654A']	= ElvGreen -- [Alliance] Rogue
 			z['Player-4440-03ADE2DF']	= ElvGreen -- [Alliance] Shaman
-			z['Luckymonk-Firemaw']		= ElvGreen -- [Alliance] Monk
+			z['Player-4467-0613ECA1']	= ElvGreen -- [Alliance] Monk
 			z['Player-4476-03BF41C9']	= ElvGreen -- [Horde] Hunter
 			z['Player-4476-049F4831']	= ElvGreen -- [Horde] DK
 			z['Player-4476-05C7B834']	= ElvGreen -- [Horde] Mage
-			z['Luckymonk-Gehennas']		= ElvGreen -- [Horde] Monk
+			z['Player-4476-05CAB05D']	= ElvGreen -- [Horde] Monk
 		elseif E.Retail then
 			-- Blazeflack
 			z['Blazii-Silvermoon']		= ElvBlue -- Priest

@@ -3,7 +3,7 @@ local BL = E:GetModule('Blizzard')
 local LSM = E.Libs.LSM
 
 local _G = _G
-local ipairs, format, wipe = ipairs, format, wipe
+local ipairs, wipe = ipairs, wipe
 
 local UIParent = UIParent
 local UnitXP = UnitXP
@@ -39,8 +39,6 @@ function BL:CLUB_FINDER_CLUB_LIST_RETURNED()
 				}
 			end
 		end
-
-		E:Print(format('Found %d guilds. Try /guildlist <minActivePlayers> or /guildapply <applicationMsg> to apply to the top five most active guilds in the list.', #cardList))
 	end
 end
 
@@ -118,7 +116,7 @@ function BL:HandleAddonCompartment()
 end
 
 function BL:ObjectiveTracker_HasQuestTracker()
-	return E:IsAddOnEnabled('!KalielsTracker') or E:IsAddOnEnabled('DugisGuideViewerZ')
+	return E.OtherAddons.KalielsTracker or E.OtherAddons.DugisGuideViewerZ
 end
 
 function BL:ObjectiveTracker_IsCollapsed(frame)
@@ -143,7 +141,7 @@ end
 do
 	local AutoHider
 	function BL:ObjectiveTracker_AutoHide()
-		if E:IsAddOnEnabled('BigWigs') then return end
+		if E.OtherAddons.BigWigs or E.OtherAddons.DBM then return end
 
 		local tracker = (E.Mists and _G.WatchFrame) or _G.ObjectiveTrackerFrame
 		if not tracker then return end
@@ -192,7 +190,7 @@ function BL:Initialize()
 	if not E.Classic then
 		BL:PositionVehicleFrame()
 
-		if not E:IsAddOnEnabled('SimplePowerBar') then
+		if not E.OtherAddons.SimplePowerBar then
 			BL:PositionAltPowerBar()
 			BL:SkinAltPowerBar()
 		end
