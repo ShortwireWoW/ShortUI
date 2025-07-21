@@ -91,7 +91,9 @@ CauseseDB = {
         ["210269"] = {[463218] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 8.5, 24.2}}, --Volatile Keg
         ["223423"] = {[448619] = {"SPELL_CAST_START", 1, "ALL", "Charge Inc", 9.1, 30.3}}, --Reckless Delivery
         ["220946"] = {[442995] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.3, 23}}, --Swarming Surprise
+        ["222964"] = {[441434] = {"SPELL_CAST_SUCCESS", 7, "ALL", "Batch Inc", 8.7, 23}}, --Failed Batch
         ["220141"] = {[440687] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 5.9, 25.4}}, --Honey Volley
+        ["218671"] = {[437956] = {"SPELL_CAST_START", 3, "ALL", "Dispel Inc", 10.5, 18.2}}, --Erupting Inferno
         --Darkflame Cleft
         ["211121"] = {[428066] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 9.8, 23.4}}, --Overpowering Roar
         ["233152"] = {[430171] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 5.3, 18.2}}, --Quenching Blast

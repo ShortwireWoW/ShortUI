@@ -27,9 +27,10 @@ local auranames = {
     ["Special Bars"] = "Causese - Special Bars",
     ["Trash Timer Bars"] = "Causese - M+ Trash Timers",
     ["M+ Tank Bars"] = "Causese - M+ Tank Bars",
+    ["Mini Bars"] = "Causese - Mini Bars",
     ["CC Bars"] = "Causese - CC / Interrupt Bars",
     ["Bossmod Texts"] = "Causese - BW/DBM Timers",
-    ["Special Bossmod Texts"] = "Causese - Special BW/DBM Timers",
+    ["Mini Bossmod Texts"] = "Causese - Mini BW/DBM Timers",
     ["Special Texts"] = "Causese - Special Texts",
     ["Important Icons"] = "Causese - Important Icons",
 }
@@ -44,12 +45,13 @@ local barTypes = {
     ["Special Bars"] = true,
     ["Trash Timer Bars"] = true,
     ["M+ Tank Bars"] = true,
+    ["Mini Bars"] = true,
     ["CC Bars"] = true,
 }
 local textTypes = {
     ["Special Texts"] = true,
     ["Bossmod Texts"] = true,
-    ["Special Bossmod Texts"] = true,
+    ["Mini Bossmod Texts"] = true,
 }
 
 function CauseseAPI:AnchorSettings(type)
@@ -106,7 +108,7 @@ function CauseseAPI:AuraResize(type, positions, regions)
     auraData[auraname] = aData
     for _, regionData in ipairs(regions) do
         local region = regionData.region
-        if region.regionType == "icon"  then
+        if region.regionType == "icon" then
             region:SetRegionWidth(aData.width)
             region:SetRegionHeight(aData.height)
             for i, subRegion in ipairs(region.subRegions) do

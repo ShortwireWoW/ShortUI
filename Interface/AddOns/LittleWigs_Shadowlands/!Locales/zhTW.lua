@@ -64,11 +64,11 @@ if L then
 	L.mistveil_tender = "霧紗看管者"
 	L.spinemaw_acidgullet = "脊喉噴毒蟲"
 	L.spinemaw_staghorn = "脊喉雄角蟲"
-	--L.spinemaw_gorger = "Spinemaw Gorger"
-	--L.gormling_larva = "Gormling Larva"
-	--L.spinemaw_reaver = "Spinemaw Reaver"
+	L.spinemaw_gorger = "脊喉吞食者"
+	L.gormling_larva = "小果姆幼蟲"
+	L.spinemaw_reaver = "脊喉劫奪者"
 
-	--L.gate_open_desc = "Show a bar indicating when the gate to the next area will open after defeating each boss."
+	L.gate_open_desc = "擊敗每個首領後，顯示通往下一區域大門開啟的計時器。"
 end
 
 L = BigWigs:NewBossLocale("Mistcaller", "zhTW")
@@ -123,7 +123,7 @@ if L then
 	L.research_scribe = "研究紀錄者"
 	L.wicked_oppressor = "邪惡壓迫者"
 	L.ravenous_dreadbat = "飢餓的懼蝠"
-	--L.zrali = "Z'rali"
+	L.zrali = "吉雷麗"
 end
 
 -- Spires of Ascension
@@ -157,8 +157,8 @@ end
 
 L = BigWigs:NewBossLocale("Mailroom Mayhem", "zhTW")
 if L then
-	--L.delivery_portal = "Delivery Portal"
-	--L.delivery_portal_desc = "Shows a timer for when the Delivery Portal will change locations."
+	L.delivery_portal = "中央郵務傳送門"
+	L.delivery_portal_desc = "顯示中央郵務傳送門何時改變位置的計時器。"
 end
 
 L = BigWigs:NewBossLocale("Myza's Oasis", "zhTW")
@@ -166,13 +166,18 @@ if L then
 	L.add_wave_killed = "擊退保安 (%d/%d)"
 end
 
+L = BigWigs:NewBossLocale("So'leah", "zhTW")
+if L then
+	--L.group = "GROUP"
+end
+
 L = BigWigs:NewBossLocale("Tazavesh Trash", "zhTW")
 if L then
 	L.zophex_warmup_trigger = "放下...所有...違禁品..."
 	L.menagerie_warmup_trigger = "接下來，是你們千呼萬喚的東西！據說是被惡魔詛咒的湮滅之鋒！"
 	L.soazmi_warmup_trigger = "索利亞，抱歉打擾啦。看來我們來的時機不太對啊。"
-	--L.portal_authority = "Tazavesh Portal Authority"
-	--L.custom_on_portal_autotalk_desc = "Instantly open portals back to the entrance when talking to Broker NPCs."
+	L.portal_authority = "傳送門管理局隧道法師"
+	L.custom_on_portal_autotalk_desc = "與傳送門NPC對話時立即打開傳送門并使你可以在副本內傳送。"
 	L.trading_game = "交易游戲"
 	L.trading_game_desc = "在交易游戲期間使用正確的密碼發出警報。"
 	L.custom_on_trading_game_autotalk_desc = "交易游戲結束後，立即選擇正確的密碼。"
@@ -188,8 +193,8 @@ if L then
 		["蒼白花朵"] = 53267,
 		["赤紅小刀"] = 53268
 	}
-	--L.gatewarden_zomazz = "Gatewarden Zo'mazz"
-	--L.customs_security = "Customs Security"
+	L.gatewarden_zomazz = "看門者佐瑪茲"
+	L.customs_security = "海關警衛"
 	L.interrogation_specialist = "審問專家"
 	L.portalmancer_zohonn = "傳送門法師佐尼"
 	L.armored_overseer = "武裝監督者"
@@ -197,14 +202,14 @@ if L then
 	L.tracker_zokorss = "『追蹤者』佐寇司"
 	L.ancient_core_hound = "上古熔核犬"
 	L.enraged_direhorn = "暴怒的恐角龍"
-	--L.cartel_skulker = "Cartel Skulker"
-	--L.cartel_wiseguy = "Cartel Wiseguy"
+	L.cartel_skulker = "集團潛藏者"
+	L.cartel_wiseguy = "集團幫派"
 	L.cartel_muscle = "集團警衛"
 	L.cartel_smuggler = "集圖走私者"
 	L.defective_sorter = "故障的分類機"
-	--L.overloaded_mailemental = "Overloaded Mailemental"
-	--L.post_worker = "P.O.S.T. Worker"
-	--L.bazaar_overseer = "Bazaar Overseer"
+	L.overloaded_mailemental = "超載的郵件元素"
+	L.post_worker = "郵務工作員"
+	L.bazaar_overseer = "市集監督者"
 	L.market_peacekeeper = "市場保安官"
 	L.veteran_sparkcaster = "老練的火花施放者"
 	L.commerce_enforcer = "貿易執法者"
@@ -212,10 +217,13 @@ if L then
 
 	L.tazavesh_soleahs_gambit = "塔札維許：索利亞的險招"
 	L.murkbrine_scalebinder = "暗洋縛鱗者"
+	L.murkbrine_fishmancer = "暗洋魚法師"
 	L.murkbrine_shellcrusher = "暗洋碎殼者"
 	L.coastwalker_goliath = "岸行者巨人"
 	L.stormforged_guardian = "風鑄守護者"
 	L.burly_deckhand = "結實的水手"
+	L.hourglass_tidesage = "沙漏號浪潮賢者"
+	L.corsair_officer = "海盜軍官"
 	L.adorned_starseer = "絢麗觀星者"
 	L.focused_ritualist = "專注的祭儀師"
 	L.devoted_accomplice = "忠誠的共犯"
@@ -237,7 +245,7 @@ if L then
 	L.putrid_butcher = "腐臭屠夫"
 	L.disgusting_refuse = "噁心廢棄物"
 	L.rancid_gasbag = "腐臭肉囊"
-	--L.shambling_arbalest = "Shambling Arbalest"
+	L.shambling_arbalest = "蹣跚重弩手"
 	L.dokigg_the_brutalizer = "『殘暴者』多奇格"
 	L.nekthara_the_mangler = "『割碎者』奈克薩拉"
 	L.heavin_the_breaker = "『毀壞者』黑文"
@@ -262,19 +270,19 @@ if L then
 	L.corpse_harvester = "屍體收割者"
 	L.stitched_vanguard = "縫合前鋒兵"
 	L.zolramus_gatekeeper = "佐拉慕斯守門者"
-	--L.zolramus_necromancer = "Zolramus Necromancer"
+	L.zolramus_necromancer = "佐拉慕斯死靈法師"
 	L.brittlebone_mage = "脆骨法師"
-	--L.zolramus_bonecarver = "Zolramus Bonecarver"
+	L.zolramus_bonecarver = "佐拉慕斯雕骨者"
 	L.skeletal_marauder = "骷髏掠奪者"
 	L.zolramus_bonemender = "佐拉慕斯修骨者"
-	--L.zolramus_sorcerer = "Zolramus Sorcerer"
+	L.zolramus_sorcerer = "佐拉慕斯巫士"
 	L.narzudah = "納爾祖達"
 	L.skeletal_monstrosity = "骷髏巨怪"
 	L.corpse_collector = "屍骸收集者"
 	L.kyrian_stitchwerk = "琪瑞安縫補怪"
 	L.flesh_crafter = "血肉工匠"
-	--L.loyal_creation = "Loyal Creation"
+	L.loyal_creation = "忠誠造物"
 	L.separation_assistant = "肢解助理"
-	--L.goregrind = "Goregrind"
-	--L.rotspew = "Rotspew"
+	L.goregrind = "磨血"
+	L.rotspew = "腐爛嘔吐者"
 end

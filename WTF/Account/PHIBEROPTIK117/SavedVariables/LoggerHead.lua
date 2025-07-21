@@ -51,7 +51,7 @@ LoggerHeadDB = {
 ["Throne of the Four Winds"] = {
 [6] = false,
 },
-["Onyxia's Lair"] = {
+["The Sunwell"] = {
 [4] = false,
 },
 ["Hellfire Citadel"] = {
@@ -63,7 +63,7 @@ LoggerHeadDB = {
 ["Battle of Dazar'alor"] = {
 [16] = false,
 },
-["The Sunwell"] = {
+["Onyxia's Lair"] = {
 [4] = false,
 },
 ["Firelands"] = {
@@ -74,11 +74,11 @@ LoggerHeadDB = {
 ["Earthcrawl Mines"] = {
 [208] = true,
 },
-["The Dread Pit"] = {
-[208] = true,
-},
 ["Fungal Folly"] = {
 [208] = false,
+},
+["The Dread Pit"] = {
+[208] = true,
 },
 },
 ["party"] = {
@@ -116,7 +116,7 @@ LoggerHeadDB = {
 ["Shado-Pan Monastery"] = {
 [24] = false,
 },
-["Theater of Pain"] = {
+["Cinderbrew Meadery"] = {
 [23] = true,
 [8] = true,
 },
@@ -124,9 +124,8 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["Cinderbrew Meadery"] = {
-[23] = true,
-[8] = true,
+["Stratholme"] = {
+false,
 },
 ["The Underrot"] = {
 [23] = false,
@@ -135,13 +134,12 @@ LoggerHeadDB = {
 [23] = true,
 [8] = true,
 },
-["The Vortex Pinnacle"] = {
-[2] = false,
-[23] = false,
-},
 ["Kings' Rest"] = {
 [2] = false,
 [23] = false,
+},
+["Auchindoun: Sethekk Halls"] = {
+[2] = false,
 },
 ["Stormstout Brewery"] = {
 [24] = true,
@@ -150,15 +148,17 @@ LoggerHeadDB = {
 [2] = false,
 [23] = true,
 },
-["Auchindoun: Sethekk Halls"] = {
+["The Vortex Pinnacle"] = {
 [2] = false,
+[23] = false,
 },
 ["Operation: Floodgate"] = {
 [23] = true,
 [8] = true,
 },
-["Stratholme"] = {
-false,
+["Theater of Pain"] = {
+[23] = true,
+[8] = true,
 },
 },
 },

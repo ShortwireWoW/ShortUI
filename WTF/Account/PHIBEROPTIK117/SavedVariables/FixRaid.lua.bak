@@ -1,21 +1,5 @@
 
 FixRaidDB = {
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 287.5534346376314,
-},
-},
-},
-},
-["profileKeys"] = {
-["Bigfurboi - Mal'Ganis"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -51,6 +35,22 @@ FixRaidDB = {
 ["Caeve-Stormrage"] = 1752372057,
 ["Anoralin-Stormrage"] = 1751765743,
 ["Terria-Shadowmoon"] = 1752375719,
+},
+},
+},
+},
+["profileKeys"] = {
+["Bigfurboi - Mal'Ganis"] = "Default",
+["Reheatedsoup - Mal'Ganis"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Medimilk - Mal'Ganis"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 287.5534346376314,
 },
 },
 },

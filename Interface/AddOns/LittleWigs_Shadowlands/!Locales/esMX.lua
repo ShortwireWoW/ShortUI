@@ -166,6 +166,11 @@ if L then
 	--L.add_wave_killed = "Add wave killed (%d/%d)"
 end
 
+L = BigWigs:NewBossLocale("So'leah", "esMX")
+if L then
+	L.group = "GRUPO"
+end
+
 L = BigWigs:NewBossLocale("Tazavesh Trash", "esMX")
 if L then
 	L.zophex_warmup_trigger = "Entrega... todo... el contrabando..."
@@ -212,10 +217,13 @@ if L then
 
 	L.tazavesh_soleahs_gambit = "Tazavesh: Gambito de So'leah"
 	L.murkbrine_scalebinder = "Sujetascamas Salmuerasucia"
+	L.murkbrine_fishmancer = "Pescamante salsombría"
 	L.murkbrine_shellcrusher = "Rompeconchas Salmuerasucia"
 	L.coastwalker_goliath = "Goliat caminacostas"
 	L.stormforged_guardian = "Guardián Tronaforjado"
 	L.burly_deckhand = "Marinero de cubierta fornido"
+	L.hourglass_tidesage = "Maresabio de reloj de arena"
+	L.corsair_officer = "Oficial corsario"
 	L.adorned_starseer = "Vidente estelar adornado"
 	L.focused_ritualist = "Ritualista enfocado"
 	L.devoted_accomplice = "Cómplice devoto"

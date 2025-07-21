@@ -166,6 +166,11 @@ if L then
 	L.add_wave_killed = "웨이브 (%d/%d)"
 end
 
+L = BigWigs:NewBossLocale("So'leah", "koKR")
+if L then
+	L.group = "그룹"
+end
+
 L = BigWigs:NewBossLocale("Tazavesh Trash", "koKR")
 if L then
 	L.zophex_warmup_trigger = "밀수품을... 전부... 내놓아라..."
@@ -188,8 +193,8 @@ if L then
 		["창백한 꽃"] = 53267,
 		["진홍색 손칼"] = 53268
 	}
-	--L.gatewarden_zomazz = "Gatewarden Zo'mazz"
-	--L.customs_security = "Customs Security"
+	L.gatewarden_zomazz = "관문지기 조마즈"
+	L.customs_security = "세관 경비원"
 	L.interrogation_specialist = "심문 전문가"
 	L.portalmancer_zohonn = "차원문술사 조혼"
 	L.armored_overseer = "무장한 감독관"
@@ -197,14 +202,14 @@ if L then
 	L.tracker_zokorss = "추적자 조코르스"
 	L.ancient_core_hound = "고대의 심장부 사냥개"
 	L.enraged_direhorn = "격노한 공포뿔"
-	--L.cartel_skulker = "Cartel Skulker"
-	--L.cartel_wiseguy = "Cartel Wiseguy"
+	L.cartel_skulker = "중개단 잠복꾼"
+	L.cartel_wiseguy = "중개단 폭력단원"
 	L.cartel_muscle = "중개단 불한당"
 	L.cartel_smuggler = "중개단 밀수업자"
 	L.defective_sorter = "불량 분류기"
-	--L.overloaded_mailemental = "Overloaded Mailemental"
-	--L.post_worker = "P.O.S.T. Worker"
-	--L.bazaar_overseer = "Bazaar Overseer"
+	L.overloaded_mailemental = "과부하된 우편의 정령"
+	L.post_worker = "우.정.국. 직원"
+	L.bazaar_overseer = "시장 감독관"
 	L.market_peacekeeper = "시장 평화감시단"
 	L.veteran_sparkcaster = "노련한 불꽃술사"
 	L.commerce_enforcer = "상업구 집행자"
@@ -212,10 +217,13 @@ if L then
 
 	L.tazavesh_soleahs_gambit = "타자베쉬: 소레아의 승부수"
 	L.murkbrine_scalebinder = "진흙소금 비늘결속자"
+	L.murkbrine_fishmancer = "진흙소금 생선술사"
 	L.murkbrine_shellcrusher = "진흙소금 껍질분쇄자"
 	L.coastwalker_goliath = "해안방랑자 거수"
 	L.stormforged_guardian = "폭풍벼림 수호자"
 	L.burly_deckhand = "건장한 갑판원"
+	L.hourglass_tidesage = "모래시계 파도현자"
+	L.corsair_officer = "해적 장교"
 	L.adorned_starseer = "화려한 별예언가"
 	L.focused_ritualist = "몰두하는 의식술사"
 	L.devoted_accomplice = "헌신적인 동조자"
