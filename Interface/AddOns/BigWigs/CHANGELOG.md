@@ -1,18 +1,13 @@
 # BigWigs
 
-## [v391.1](https://github.com/BigWigsMods/BigWigs/tree/v391.1) (2025-07-13)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v391...v391.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v391.2](https://github.com/BigWigsMods/BigWigs/tree/v391.2) (2025-07-20)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v391.1...v391.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
+- Update zhCN (#2095)  
+- Update zhTW (#2094)  
+- Update zhTW (#2093)  
 - Bump version  
-- Load journal data on MoP  
-- Update issue template to make it as generic as possible  
-- Update koKR (#2090)  
-- Mists is missing pre-Cataclysm raid content in the journal, closes #2087  
-- Update zhCN (#2089)  
-- Update deDE (#2088)  
-- Tools/Keystones: Translate short names  
-- Update esES/esMX (#2086)  
-- Tweaks  
-- Loader: Tweaks for Wrath  
-- Update deDE (#2085)  
-- Bump toc  
+- Update LibSpec usage  
+- Update LibSpec usage  
+- Loader: Remove Dastardly Dome menu  
+- Loader: Handle registering callbacks during the dispatch of the same callback  

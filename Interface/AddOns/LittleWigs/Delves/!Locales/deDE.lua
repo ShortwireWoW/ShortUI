@@ -1,7 +1,26 @@
+if GetLocale() ~= "deDE" then return end -- XXX remove in 11.2, to be replaced with AllowLoadTextLocale
+
+-- Archival Assault
+
+local L = BigWigs:NewBossLocale("Captain Nil'hitan", "deDE")
+if L then
+	--L.captain_nilhitan = "Captain Nil'hitan"
+end
+
+L = BigWigs:NewBossLocale("Portalmaster Halsan", "deDE")
+if L then
+	--L.portalmaster_halsan = "Portalmaster Halsan"
+end
+
+L = BigWigs:NewBossLocale("Voidrider Challnax", "deDE")
+if L then
+	--L.voidripper = "Voidripper"
+	--L.voidrider_challnax= "Voidrider Challnax"
+end
+
 -- Demolition Dome
 
-local L = BigWigs:NewBossLocale("The Underpin", "deDE")
-if not L then return end
+L = BigWigs:NewBossLocale("The Underpin", "deDE")
 if L then
 	L.the_underpin = "Der Lorenboss (Stufe 8)"
 	L.crony = "Kumpane"
@@ -211,6 +230,18 @@ if L then
 	L.waxface = "Wachsfratz"
 end
 
+-- Voidrazor Sanctuary
+
+L = BigWigs:NewBossLocale("Nexus-Princess Ky'veza (Tier 8)", "deDE")
+if L then
+	--L.nexus_princess_kyveza = "Nexus-Princess Ky'veza (Tier 8)"
+end
+
+L = BigWigs:NewBossLocale("Nexus-Princess Ky'veza (Tier 11)", "deDE")
+if L then
+	--L.nexus_princess_kyveza = "Nexus-Princess Ky'veza (Tier 11)"
+end
+
 -- Zekvir's Lair
 
 L = BigWigs:NewBossLocale("Zekvir", "deDE")
@@ -226,6 +257,18 @@ if L then
 end
 
 -- Trash
+
+L = BigWigs:NewBossLocale("Ethereal Trash", "deDE")
+if L then
+	--L.ethereal_trash = "Ethereal Trash"
+
+	--L.shadeye_observer = "Shadeye Observer"
+	--L.shadowguard_phasecutter = "Shadowguard Phasecutter"
+	--L.shadowguard_arcanotech = "Shadowguard Arcanotech"
+	--L.shadowguard_soulbreaker = "Shadowguard Soulbreaker"
+	--L.shadowguard_steelsoul = "Shadowguard Steelsoul"
+	--L.siphoned_drake = "Siphoned Drake"
+end
 
 L = BigWigs:NewBossLocale("Fungarian Delve Trash", "deDE")
 if L then
@@ -275,6 +318,21 @@ if L then
 	L.crazed_predator = "Rasendes Raubtier"
 	L.deepwater_makura = "Tiefwassermakura"
 	L.kobyss_trickster = "Trickser der Kobyss"
+end
+
+L = BigWigs:NewBossLocale("Ky'veza Rares", "deDE")
+if L then
+	--L.rares = "Ky'veza Rares"
+
+	--L.pactsworn_fraycaller = "Pactsworn Fraycaller"
+	--L.pactsworn_dustblade = "Pactsworn Dustblade"
+	--L.pactsworn_sandreaver = "Pactsworn Sandreaver"
+	--L.pactsworn_arcanist = "Pactsworn Arcanist"
+	--L.pactsworn_wildcaller = "Pactsworn Wildcaller"
+	--L.invasive_phasecrawler = "Invasive Phasecrawler"
+	--L.drude = "D'rude"
+	--L.great_devourer = "Great Devourer"
+	--L.nexus_princess_kyveza = "Nexus-Princess Ky'veza (Random Spawn)"
 end
 
 L = BigWigs:NewBossLocale("Nerubian Delve Trash", "deDE")

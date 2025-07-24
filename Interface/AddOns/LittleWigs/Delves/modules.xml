@@ -1,6 +1,10 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
 
+<Script file="ArchivalAssault\CaptainNilhitan.lua"/>
+<Script file="ArchivalAssault\PortalmasterHalsan.lua"/>
+<Script file="ArchivalAssault\VoidriderChallnax.lua"/>
+
 <Script file="DemolitionDome\Underpin.lua"/>
 <Script file="DemolitionDome\Underpin2.lua"/>
 
@@ -50,6 +54,7 @@
 <Script file="TheWaterworks\Shroomsprew.lua"/>
 <Script file="TheWaterworks\Waxface.lua"/>
 
+<Script file="Trash\Ethereal.lua"/>
 <Script file="Trash\Fungarian.lua"/>
 <Script file="Trash\Goblin.lua"/>
 <Script file="Trash\Kobold.lua"/>
@@ -60,7 +65,11 @@
 <Script file="Trash\Underkeep.lua"/>
 <!--<Script file="Trash\ZekvirRares.lua"/>-->
 <Script file="Trash\UnderpinRares.lua"/>
+<Script file="Trash\KyvezaRares.lua"/>
 <Script file="Trash\Overcharged.lua"/>
+
+<Script file="VoidrazorSanctuary\Kyveza.lua"/>
+<Script file="VoidrazorSanctuary\Kyveza2.lua"/>
 
 <Script file="ZekvirsLair\Zekvir.lua"/>
 <Script file="ZekvirsLair\Zekvir2.lua"/>

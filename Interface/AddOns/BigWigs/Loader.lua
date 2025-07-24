@@ -14,7 +14,7 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 391
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 59},
+	["LittleWigs"] = {11, 1, 62},
 	["BigWigs_Classic"] = {11, 1, 52},
 	["BigWigs_BurningCrusade"] = {11, 1, 3},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 7},
@@ -56,7 +56,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "1adddef" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "fa9ce4b" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -540,7 +540,7 @@ do
 		[2710] = lw_tww, -- Awakening the Machine
 		[2773] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Operation: Floodgate
 		[2830] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or nil, -- Eco-Dome Al'dani
-		[2849] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or nil, -- Dastardly Dome
+		--[2849] = public.isRetail and lw_cs or nil, -- Dastardly Dome
 		--[[ LittleWigs: Delves ]]--
 		[2664] = lw_delves, -- Fungal Folly
 		[2679] = lw_delves, -- Mycomancer Cavern
@@ -1494,12 +1494,13 @@ end
 
 do
 	local callbackMap = {}
-	function public:RegisterMessage(msg, func)
+	local currentEvent = nil
+	function public:RegisterMessage(event, func)
 		if self == BigWigsLoader then
 			error(".RegisterMessage(addon, message, function) attempted to register a function to BigWigsLoader, you might be using : instead of . to register the callback.")
 		end
 
-		if type(msg) ~= "string" then
+		if type(event) ~= "string" then
 			error(":RegisterMessage(message, function) attempted to register invalid message, must be a string!")
 		end
 
@@ -1507,37 +1508,43 @@ do
 		if funcType == "string" then
 			if not self[func] then error((":RegisterMessage(message, function) attempted to register the function '%s' but it doesn't exist!"):format(func)) end
 		elseif funcType == "nil" then
-			if not self[msg] then error((":RegisterMessage(message, function) attempted to register the function '%s' but it doesn't exist!"):format(msg)) end
+			if not self[event] then error((":RegisterMessage(message, function) attempted to register the function '%s' but it doesn't exist!"):format(event)) end
 		elseif funcType ~= "function" then
 			error(":RegisterMessage(message, function) attempted to register an invalid function!")
 		end
 
-		if not callbackMap[msg] then callbackMap[msg] = {} end
-		callbackMap[msg][self] = func or msg
+		if not callbackMap[event] then callbackMap[event] = {} end
+		if callbackMap[event][self] or event ~= currentEvent then -- Event is already registered to this specific module, just change the assigned function
+			callbackMap[event][self] = func or event
+		else -- Event has not been previously registered to this specific module and the same event is currently in the middle of dispatching
+			CTimerAfter(0, function() callbackMap[event][self] = func or event end)
+		end
 	end
-	function public:UnregisterMessage(msg)
+	function public:UnregisterMessage(event)
 		if self == BigWigsLoader then
 			error(".UnregisterMessage(addon, message, function) attempted to unregister a function from BigWigsLoader, you might be using : instead of . to register the callback.")
 		end
 
-		if type(msg) ~= "string" then error(":UnregisterMessage(message) attempted to unregister an invalid message, must be a string!") end
-		if not callbackMap[msg] then return end
-		callbackMap[msg][self] = nil
-		if not next(callbackMap[msg]) then
-			callbackMap[msg] = nil
+		if type(event) ~= "string" then error(":UnregisterMessage(message) attempted to unregister an invalid message, must be a string!") end
+		if not callbackMap[event] then return end
+		callbackMap[event][self] = nil
+		if not next(callbackMap[event]) then
+			callbackMap[event] = nil
 		end
 	end
 
 	local securecallfunction = securecallfunction
-	function public:SendMessage(msg, ...)
-		if callbackMap[msg] then
-			for k,v in next, callbackMap[msg] do
+	function public:SendMessage(event, ...)
+		if callbackMap[event] then
+			for k,v in next, callbackMap[event] do
+				currentEvent = event
 				if type(v) == "function" then
-					securecallfunction(v, msg, ...)
+					securecallfunction(v, event, ...)
 				else
-					securecallfunction(k[v], k, msg, ...)
+					securecallfunction(k[v], k, event, ...)
 				end
 			end
+			currentEvent = nil
 		end
 	end
 
@@ -1560,12 +1567,12 @@ end
 --
 
 do
-	local DBMdotRevision = "20250703144013" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "11.2.1" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20250703000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20250720225837" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "11.2.4" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20250720000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 	local protocol = 3
 	local versionPrefix = "V"
-	local PForceDisable = 18
+	local PForceDisable = 19
 
 	local timer = nil
 	local function sendDBMMsg()

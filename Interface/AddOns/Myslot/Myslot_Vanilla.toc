@@ -1,4 +1,4 @@
-## Interface: 11506
+## Interface: 11507
 ## X-Curse-Project-ID: 48863
 ## X-Wago-ID: BKpq0BGE
 ## Title: Myslot
@@ -14,7 +14,7 @@
 ## Notes-zhCN: @localization(locale="zhCN", key="TOC_NOTES")@
 ## Notes-zhTW: @localization(locale="zhTW", key="TOC_NOTES")@
 ## Author: Boshi Lian(farmer1992@gmail.com)
-## Version: v5.23.1
+## Version: v5.23.2
 ## SavedVariables: MyslotExports
 ## SavedVariablesPerCharacter: MyslotSettings
 ## IconTexture: Interface\AddOns\Myslot\Myslot

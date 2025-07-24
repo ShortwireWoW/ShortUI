@@ -66,16 +66,14 @@ L["DUNGEON_SHORT_NAME_ARAK"] = "Ara-Kara"
 --[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
 L["DUNGEON_SHORT_NAME_AV"] = "Câmara Lazúli"
 L["DUNGEON_SHORT_NAME_BH"] = "Clareira de Courambaia"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_BREW"] = ""--]] 
+L["DUNGEON_SHORT_NAME_BREW"] = "Hidromelaria Cinzagris"
 L["DUNGEON_SHORT_NAME_BRH"] = "Castelo Corvo Negro"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_COEN"] = ""--]] 
 L["DUNGEON_SHORT_NAME_COS"] = "Pátio das Estrelas"
 L["DUNGEON_SHORT_NAME_COT"] = "Cidade das Tramas"
 L["DUNGEON_SHORT_NAME_DAWN"] = "Alvorada"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_DFC"] = ""--]] 
+L["DUNGEON_SHORT_NAME_DFC"] = "Fenda Chamanegra"
 L["DUNGEON_SHORT_NAME_DHT"] = "Bosque Corenegro"
 L["DUNGEON_SHORT_NAME_DOS"] = "Outro Lado"
 L["DUNGEON_SHORT_NAME_EB"] = "Floretérnia"
@@ -85,8 +83,7 @@ L["DUNGEON_SHORT_NAME_EB"] = "Floretérnia"
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 L["DUNGEON_SHORT_NAME_FALL"] = "Ruína de Galakrond"
 L["DUNGEON_SHORT_NAME_FH"] = "Angra do Facão"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_FLOOD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_FLOOD"] = "Operação: Comporta"
 L["DUNGEON_SHORT_NAME_GB"] = "Grim Batol"
 L["DUNGEON_SHORT_NAME_GD"] = "Central do Carrilcruel"
 L["DUNGEON_SHORT_NAME_GMBT"] = "Gambito de So'leah"
@@ -98,8 +95,7 @@ L["DUNGEON_SHORT_NAME_ID"] = "Docas de Ferro"
 --[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "Karazhan: Inferior "
 L["DUNGEON_SHORT_NAME_MISTS"] = "Brumas de Tirna Scithe"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ML"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ML"] = "MEGAMINA"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_MOS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NELT"] = "Neltharus"
@@ -107,12 +103,10 @@ L["DUNGEON_SHORT_NAME_NL"] = "Covil de Neltharion"
 L["DUNGEON_SHORT_NAME_NO"] = "Ofensiva Nokhid"
 L["DUNGEON_SHORT_NAME_NW"] = "Chaga Necrótica"
 L["DUNGEON_SHORT_NAME_PF"] = "Empéstia"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_PSF"] = ""--]] 
+L["DUNGEON_SHORT_NAME_PSF"] = "Priorado da Chama"
 L["DUNGEON_SHORT_NAME_RISE"] = "Ascensão de Murozond"
 L["DUNGEON_SHORT_NAME_RLP"] = "Poços da Vida Rubi"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_ROOK"] = ""--]] 
+L["DUNGEON_SHORT_NAME_ROOK"] = "O Viveiro"
 L["DUNGEON_SHORT_NAME_SBG"] = "Sepulcrário da Lua Negra"
 L["DUNGEON_SHORT_NAME_SD"] = "Profundezas"
 --[[Translation missing --]]
@@ -141,10 +135,8 @@ L["DUNGEON_SHORT_NAME_YARD"] = "Gnomecan - Ferro-velho"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar o Quadro de Perfil do Raider.IO Automaticamente."
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Ativar isso manterá o Quadro de perfil de M+ ao lado do \"Localizador de grupos\"."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Você está ativando o modo de depuração. Destina-se apenas a fins de teste e desenvolvimento e incorrerá em uso adicional de memória. Clicar em Confirmar recarregará sua interface."
---[[Translation missing --]]
---[[ L["ENABLE_LFG_EXPORT_BUTTON"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = ""--]] 
+L["ENABLE_LFG_EXPORT_BUTTON"] = "Mostrar botão de exportar grupo no LFG"
+L["ENABLE_LFG_EXPORT_BUTTON_DESC"] = "Adiciona um botão de lupa na parte inferior da janela de LFG. Ao ser clicado, ele exporta o seu grupo atual e os candidatos na fila em um formato pronto para colar no site Raider.IO, permitindo verificar o perfil de todos."
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Bloquear quadro de perfil do Raider.IO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Impede que o quadro de perfil M+ seja arrastado. Isso não tem efeito se o quadro de perfil M+ estiver definido para ser posicionado automaticamente."
 L["ENABLE_NO_SCORE_COLORS"] = "Desativar todas as cores de pontuação de Míticas+"
@@ -196,8 +188,7 @@ L["MINIMAP_SHORTCUT_LOCK"] = "Botão de travar"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE"] = "Habilitar botão de minimapa"
 L["MINIMAP_SHORTCUT_MINIMAP_ENABLE_DESC"] = "Ative para exibir o ícone ao redor do minimapa."
 L["MINIMAP_SHORTCUT_MINIMAP_LOCK"] = "Trancar botão de minimapa"
---[[Translation missing --]]
---[[ L["MISC_SETTINGS"] = ""--]] 
+L["MISC_SETTINGS"] = "Misc."
 L["MODULE_AMERICAS"] = "Américas"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Coréia"
@@ -275,22 +266,14 @@ L["RAID_BOSS_BOT_2"] = "Valiona & Theralion"
 L["RAID_BOSS_BOT_3"] = "Conselho Ascendente"
 L["RAID_BOSS_BOT_4"] = "Cho'gall"
 L["RAID_BOSS_BOT_5"] = "Sinestra"
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BRD_8"] = ""--]] 
+L["RAID_BOSS_BRD_1"] = "Lorde Pétror"
+L["RAID_BOSS_BRD_2"] = "Bael'Gar"
+L["RAID_BOSS_BRD_3"] = "Lorde Incendius"
+L["RAID_BOSS_BRD_4"] = "Lorde Golem Argelmach"
+L["RAID_BOSS_BRD_5"] = "Os Sete"
+L["RAID_BOSS_BRD_6"] = "General Forjaversa"
+L["RAID_BOSS_BRD_7"] = "Embaixador Fogaçoite"
+L["RAID_BOSS_BRD_8"] = "Imperador Dagran Thaurissan"
 L["RAID_BOSS_BWD_1"] = "Sistema de Defesa Omnitron"
 L["RAID_BOSS_BWD_2"] = "Magorja"
 L["RAID_BOSS_BWD_3"] = "Atramedes"
@@ -307,22 +290,14 @@ L["RAID_BOSS_CN_6"] = "Lady Verva Venumbra"
 L["RAID_BOSS_CN_7"] = "O Conselho de Sangue"
 L["RAID_BOSS_CN_8"] = "Punholodo"
 L["RAID_BOSS_CN_9"] = "Generais da Legião de Pedra"
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_DS_8"] = ""--]] 
+L["RAID_BOSS_DS_1"] = "Morchok"
+L["RAID_BOSS_DS_2"] = "Senhor da Guerra Zon'ozz"
+L["RAID_BOSS_DS_3"] = "Yor'sahj, o Vígil"
+L["RAID_BOSS_DS_4"] = "Hagara"
+L["RAID_BOSS_DS_5"] = "Ultraxion"
+L["RAID_BOSS_DS_6"] = "Mestre guerreiro Chifre Negro"
+L["RAID_BOSS_DS_7"] = "Espinhaço do Asa da Morte"
+L["RAID_BOSS_DS_8"] = "Loucura do Asa da Morte"
 L["RAID_BOSS_FCN_1"] = "[Guinchasa]"
 L["RAID_BOSS_FCN_10"] = "Sir Denathrius"
 L["RAID_BOSS_FCN_2"] = "Guarda-caça Altimor"
@@ -333,20 +308,13 @@ L["RAID_BOSS_FCN_6"] = "Lady Verva Venumbra"
 L["RAID_BOSS_FCN_7"] = "O Conselho de Sangue"
 L["RAID_BOSS_FCN_8"] = "Punholodo"
 L["RAID_BOSS_FCN_9"] = "Generais da Legião de Pedra"
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_FL_7"] = ""--]] 
+L["RAID_BOSS_FL_1"] = "Beth’tilac"
+L["RAID_BOSS_FL_2"] = "Lorde Rhyolith"
+L["RAID_BOSS_FL_3"] = "Shannox"
+L["RAID_BOSS_FL_4"] = "Alysrazor"
+L["RAID_BOSS_FL_5"] = "Balroc"
+L["RAID_BOSS_FL_6"] = "Senescal Guenelmo"
+L["RAID_BOSS_FL_7"] = "Ragnaros"
 L["RAID_BOSS_FSFO_1"] = "Guardião Vigilante"
 L["RAID_BOSS_FSFO_10"] = "Rygelon"
 L["RAID_BOSS_FSFO_11"] = "O Carcereiro"
@@ -392,22 +360,14 @@ L["RAID_BOSS_ICC_6"] = "Rostorroto"
 L["RAID_BOSS_ICC_7"] = "Professor Putricida"
 L["RAID_BOSS_ICC_8"] = "Concílio dos Príncipes de Sangue"
 L["RAID_BOSS_ICC_9"] = "Rainha de Sangue Lana'thel"
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_LOU_8"] = ""--]] 
+L["RAID_BOSS_LOU_1"] = "Vexie e os Trincatracas"
+L["RAID_BOSS_LOU_2"] = "Caldeirão da Carnificina"
+L["RAID_BOSS_LOU_3"] = "Rik Reverb"
+L["RAID_BOSS_LOU_4"] = "Stix Sucateiro"
+L["RAID_BOSS_LOU_5"] = "Rebimbocador Travaguarda"
+L["RAID_BOSS_LOU_6"] = "Bandido de Um Braço"
+L["RAID_BOSS_LOU_7"] = "Mag’Guila, Chefes de Segurança"
+L["RAID_BOSS_LOU_8"] = "Rei do Cromo Gallywix"
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_MFO_1"] = ""--]] 
 --[[Translation missing --]]
@@ -502,24 +462,18 @@ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "N"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL10"] = "N10"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
---[[Translation missing --]]
---[[ L["RAID_DS"] = ""--]] 
+L["RAID_DS"] = "Alma Dragônica"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Encontros de Raide Derrotados"
---[[Translation missing --]]
---[[ L["RAID_FL"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_HOF"] = ""--]] 
+L["RAID_FL"] = "Terras do Fogo"
+L["RAID_HOF"] = "Coração do Medo"
 L["RAID_ICC"] = "Cidadela da Coroa de Gelo"
---[[Translation missing --]]
---[[ L["RAID_LOU"] = ""--]] 
+L["RAID_LOU"] = "Libertação da Inframina"
 --[[Translation missing --]]
 --[[ L["RAID_MFO"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_MSV"] = ""--]] 
+L["RAID_MSV"] = "Galerias Mogu'shan"
 L["RAID_NP"] = "Palácio Nerub-ar"
 L["RAID_RS"] = "Santuário Rubi"
---[[Translation missing --]]
---[[ L["RAID_ToES"] = ""--]] 
+L["RAID_ToES"] = "Terraço da Primavera Eterna"
 L["RAID_TOTFW"] = "Trono dos Quatro Ventos"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Pontuações Médias para Runs Dentro do Tempo +%s"
 L["RAIDERIO_BEST_RUN"] = "Raider.IO Melhor Mítica+"
@@ -531,8 +485,7 @@ L["RAIDERIO_MP_SCORE"] = "Raider.IO Pontuação de M+"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Opções do Addon do Raider.IO "
 L["RAIDING_DATA_HEADER"] = "Raider.IO Progresso de Raid"
 L["RAIDING_DB_MODULES"] = "Módulos de banco de dados de raide"
---[[Translation missing --]]
---[[ L["RECENT_RUNS_WITH_YOU"] = ""--]] 
+L["RECENT_RUNS_WITH_YOU"] = "Míticas recentes com você"
 L["RECRUITMENT_DB_MODULES"] = "Módulos de banco de dados de recrutamento"
 L["RELOAD_LATER"] = "Recarregarei depois."
 L["RELOAD_NOW"] = "Recarregar agora."
