@@ -1,18 +1,14 @@
 
 KeystonePercentageHelperDB = {
 ["profileKeys"] = {
-["Bigfurboi - Mal'Ganis"] = "Default",
-["Reheatedsoup - Mal'Ganis"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Medimilk - Mal'Ganis"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["general"] = {
-["lastVersionCheck"] = "1.6",
+["lastVersionCheck"] = "1.7-fix1",
 },
-["lastSeasonCheck"] = "2025-05-09",
+["lastSeasonCheck"] = "2025-07-27",
 ["advanced"] = {
 ["CBM"] = {
 ["BossTwoInform"] = false,
@@ -65,9 +61,9 @@ KeystonePercentageHelperDB = {
 ["BossThreeInform"] = true,
 ["BossOneInform"] = false,
 ["BossFour"] = 100,
-["BossOne"] = 9.15,
+["BossOne"] = 36.81,
 ["BossThree"] = 57.87,
-["BossTwo"] = 64.89,
+["BossTwo"] = 67.86,
 ["BossFourInform"] = true,
 },
 ["TSLG"] = {
@@ -88,25 +84,35 @@ KeystonePercentageHelperDB = {
 ["BossTwo"] = 54.4,
 ["BossFourInform"] = true,
 },
-["SoB"] = {
+["ToP"] = {
+["BossThreeInform"] = false,
+["BossOne"] = 7.01,
 ["BossTwoInform"] = false,
+["BossThree"] = 71.59,
+["BossOneInform"] = false,
+["BossFour"] = 100,
+["BossFourInform"] = false,
+["BossFiveInform"] = true,
+["BossTwo"] = 37.27,
+["BossFive"] = 100,
+},
+["EDAD"] = {
+["BossThreeInform"] = true,
+["BossThree"] = 100,
+["BossOne"] = 26.79,
+["BossOneInform"] = false,
+["BossTwo"] = 54.4,
+["BossTwoInform"] = false,
+},
+["HoA"] = {
+["BossTwoInform"] = true,
 ["BossThreeInform"] = true,
 ["BossOneInform"] = false,
 ["BossFour"] = 100,
-["BossOne"] = 37.04,
-["BossThree"] = 100,
-["BossTwo"] = 54.66,
+["BossOne"] = 64.5,
+["BossThree"] = 92.7,
+["BossTwo"] = 79.5,
 ["BossFourInform"] = true,
-},
-["HoA"] = {
-["BossTwoInform"] = false,
-["BossThreeInform"] = false,
-["BossOneInform"] = false,
-["BossFour"] = 100,
-["BossOne"] = 7.01,
-["BossThree"] = 71.59,
-["BossTwo"] = 37.27,
-["BossFourInform"] = false,
 },
 ["TDB"] = {
 ["BossThreeInform"] = true,
@@ -138,17 +144,15 @@ KeystonePercentageHelperDB = {
 ["BossTwo"] = 65.02,
 ["BossFourInform"] = true,
 },
-["ToP"] = {
-["BossThreeInform"] = false,
-["BossOne"] = 7.01,
+["SoB"] = {
 ["BossTwoInform"] = false,
-["BossThree"] = 71.59,
+["BossThreeInform"] = true,
 ["BossOneInform"] = false,
 ["BossFour"] = 100,
-["BossFourInform"] = false,
-["BossFiveInform"] = true,
-["BossTwo"] = 37.27,
-["BossFive"] = 100,
+["BossOne"] = 37.04,
+["BossThree"] = 100,
+["BossTwo"] = 54.66,
+["BossFourInform"] = true,
 },
 ["OMGW"] = {
 ["BossTwoInform"] = true,

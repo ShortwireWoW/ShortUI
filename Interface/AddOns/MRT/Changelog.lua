@@ -1,6 +1,26 @@
 local GlobalAddonName, ExRT = ...
 
 ExRT.Options.Changelog = [=[
+v.5190
+* Fixes
+
+v.5190-MoP
+* Fixes
+* MoP updates
+
+v.5181
+* Pull timer fix
+
+v.5180
+* Fixes
+* 11.1.7 update
+
+v.5180-MoP
+* 5.5.0 Update
+
+v.5160
+* 11.1.5 update
+
 v.5150
 * Reminder: added timelines for Liberation of Undermine mythic bosses
 * Raid check: added custom ilvl column

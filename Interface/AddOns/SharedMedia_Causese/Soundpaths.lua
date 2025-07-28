@@ -99,6 +99,7 @@ LSM:Register("sound", "|cFFFF0000Knock|r", [[Interface\Addons\SharedMedia_Causes
 LSM:Register("sound", "|cFFFF0000Last|r", [[Interface\Addons\SharedMedia_Causese\sound\Last.ogg]])
 LSM:Register("sound", "|cFFFF0000Left|r", [[Interface\Addons\SharedMedia_Causese\sound\Left.ogg]])
 LSM:Register("sound", "|cFFFF0000Leap|r", [[Interface\Addons\SharedMedia_Causese\sound\Leap.ogg]])
+LSM:Register("sound", "|cFFFF0000Line|r", [[Interface\Addons\SharedMedia_Causese\sound\Line.ogg]])
 LSM:Register("sound", "|cFFFF0000Link|r", [[Interface\Addons\SharedMedia_Causese\sound\Link.ogg]])
 LSM:Register("sound", "|cFFFF0000Linked|r", [[Interface\Addons\SharedMedia_Causese\sound\Linked.ogg]])
 LSM:Register("sound", "|cFFFF0000LoS|r", [[Interface\Addons\SharedMedia_Causese\sound\LoS.ogg]])

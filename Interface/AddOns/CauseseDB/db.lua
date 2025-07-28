@@ -1,5 +1,13 @@
 CauseseDB = {
     targeted = {
+    -- SEASON 1
+        [439506] = {"Charge", "Charge.ogg"}, --Burrow Charge
+        [432448] = {"Targeted", "Targeted.ogg"}, --Stygian Seed
+        [451107] = {"Targeted", "Targeted.ogg"}, --Bursting Cocoon
+        [451119] = {"Targeted", "Targeted.ogg"}, --Abyssal Blast
+        [451099] = {"Pull Inc", "Pull.ogg"}, --Entwining Threads
+        [452127] = {"Spawning", ""}, --Animate Shadows
+    -- SEASON 2
         [434756] = {"Targeted", "Targeted.ogg"}, --Throw Chair
         [441119] = {"Knock", "Knock.ogg"}, --Bee-Zooka
         [426619] = {"Charge", "Charge.ogg"}, --One-Hand Headlock
@@ -17,8 +25,38 @@ CauseseDB = {
         [333861] = {"Bleed", "Bleed.ogg"}, --Ricocheting Blade
         [448619] = {"Charge", ""}, --Reckless Delivery
         [1213805] = {"Targeted", ""}, --Nailgun
+    -- SEASON 3
+        --[1221190] = {"Spread", "Spread"}, --Gluttonous Miasma
+        [1237195] = {"Knock", "Knock.ogg"}, --Burrow Charge
+        [356001] = {"Drop", ""}, --Beam Splicer
+        [357512] = {"Charge", ""}, --Frenzied Charge
+        [368661] = {"Spread", ""}, --Sword Toss
+        --[355642] = {"Targeted", ""}, --Hyperlight Salvo (double check)
     },
     trash_cc = {
+    -- SEASON 1
+        --Ara-Kara
+        [438618] = {"Spit",2,"","ALL",true,false}, --Venomous Spit
+        [448248] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Revolting Volley
+        [433841] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Venom Volley
+        [448239] = {"Web",0,"","ALL",true,false}, --Web Wrap
+        [434802] = {"Fear",0,"","ALL",false,true}, --Horrifying Shrill
+        [434793] = {"Resonant Barrage",0,"","ALL",false,true}, --Resonant Barrage
+        [434786] = {"Bolt",1,"","ALL",true,false}, --Web Bolt
+        [432967] = {"Alarm Shrill",2,"","ALL",false,true}, --Alarm Shrill
+        --[436322] = {"BOLT",1,"","ALL",true,false}, --Poison Bolt (tank)
+        --[433002] = {"BUSTER",2,"","ALL",true,false}, --Extraction Strike (tank)
+        --Dawnbreaker
+        [431303] = {"Bolt",1,"","ALL",true,false}, --Night Bolt
+        [451113] = {"Bolt",1,"","ALL",true,false}, --Web Bolt
+        [431309] = {"Curse",0,"","ALL",true,true}, --Ensnaring Shadows
+        [450756] = {"Abyssal Howl",0,"","ALL",false,true}, --Abyssal Howl
+        [431333] = {"Beam",1,"","ALL",true,true}, --Tormenting Beam
+        --[431637] = {"BUSTER",2,"","TANK", true,false}, --Umbral Rush (tank)
+        [432520] = {"Umbral Barrier",2,"","ALL",false,true}, --Umbral Barrier
+        [451097] = {"Silken Shell",0,"","ALL",false,true}, --Silken Shell
+        --[452099] = {"BOLT",1,"","ALL",true,false}, --Congealed Darkness (tank)
+    -- SEASON 2
         --[spellID] = {"name", category, "soundFile", "role", "show target" (true/false), "important" (true/false)},
         --Rookery
         [430109] = {"Bolt",1,"","ALL",true,false}, --Lightning Bolt
@@ -84,8 +122,70 @@ CauseseDB = {
         [441627] = {"Rejuvenating Honey",0,"","ALL",false,false}, --Rejuvenating Honey
         [441242] = {"Bolt",1,"","ALL",true,false}, --Free Samples?
         [437721] = {"Boiling",1,"","ALL",true,false}, --Boiling Flames
+    -- SEASON 3
+        --Eco-Dome Al'dani
+        [1229474] = {"Gorge",1,"","ALL",true,false}, --Gorge
+        [1222815] = {"Bolt",1,"","ALL",true,false}, --Arcane Bolt
+        [1229510] = {"Zap",1,"","ALL",true,false}, --Arcing Zap
+        --Tazavesh Streets
+        [353836] = {"Bolt",1,"","ALL",true,false}, --Hyperlight Bolt
+        [355641] = {"Bolt",1,"","ALL",true,false}, --Scintillate
+        [354297] = {"Bolt",1,"","ALL",true,false}, --Hyperlight Bolt
+        [355642] = {"Salvo",0,"","ALL",true,false}, --Hyperlight Salvo
+        [356537] = {"Bolt",1,"","ALL",true,false}, --Empowered Glyph of Restraint
+        [355934] = {"Hard Light Barrier",0,"","ALL",false,false}, --Hard Light Barrier
+        [356407] = {"Ancient Dread",0,"Volley.ogg","ALL",false,true}, --Ancient Dread
+        [355640] = {"Shield",2,"CC.ogg","ALL",false,true}, --Phalanx Field
+        [347903] = {"Mail",1,"","ALL",true,false}, --Junk Mail
+        [347775] = {"Spam Filter",0,"","ALL",false,false}, --Spam Filter
+        [350922] = {"Menacing Shout",0,"","ALL",false,true}, --Menacing Shout
+        [1245669] = {"Double Technique",0,"","ALL",false,true}, --Double Technique
+        --Tazavesh Gambit
+        [355225] = {"Bolt",1,"","ALL",true,false}, --Waterbolt
+        [352347] = {"Bolt",1,"","ALL",true,false}, --Valorous Bolt
+        [355057] = {"Cry of Mrrggllrrgg",0,"","ALL",false,true}, --Cry of Mrrggllrrgg
+        [346980] = {"Empowered Defense",2,"","ALL",false,true}, --Empowered Defense
+        [356843] = {"Bolt",1,"","ALL",true,false}, --Brackish Bolt
+        [356133] = {"Super Saison",2,"","ALL",false,true}, --Super Saison
+        [357260] = {"Unstable Rift",0,"","ALL",false,true}, --Unstable Rift
+        --Halls of Attonement
+        [326829] = {"Bolt",1,"","ALL",true,false}, --Wicked Bolt
+        [338003] = {"Bolt",1,"","ALL",true,false}, --Wicked Bolt
+        [325700] = {"Sins",0,"","ALL",true,false}, --Collect Sins
+        [325535] = {"Shoot",2,"","ALL",true,false}, --Shoot
+        [325797] = {"Rapid Fire",2,"CC.ogg","ALL",false,false}, --Rapid Fire
+        [326450] = {"Loyal Beasts",0,"","ALL",false,false}, --Loyal Beasts
+        [1235766] = {"Loyal Beasts",0,"","ALL",false,false}, --Loyal Beasts
+        [323538] = {"Bolt",0,"","ALL",true,true}, --Anima Bolt
+
     },
     timers = {
+    -- SEASON 1 
+        --Dawnbreaker
+        ["214761"] = {[432448] = {"SPELL_CAST_START", 2, "ALL", "Seed Inc", 8.3, 21.8}}, --Stygian Seed
+        ["210966"] = {[451107] = {"SPELL_CAST_START", 2, "ALL", "Cocoon Inc", 4.9, 16.9}}, --Bursting Cocoon
+        ["211341"] = {[431304] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 40, 34.2}}, --Dark Floes
+        ["211261"] = {
+            [451102] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 2.7, 25.5}, --Shadowy Decay
+            [451119] = {"SPELL_CAST_START", 2, "ALL", "Blast Inc", 12.1, 10.9}, --Abyssal Blast
+            
+        },
+        ["211262"] = {
+            [451119] = {"SPELL_CAST_START", 2, "ALL", "Blast Inc", 3.9, 10.9}, --Abyssal Blast
+            --[451117] = {"SPELL_CAST_START", 4, "ALL", "Buster Inc", 8.7, 24.2}, --Terrifying Slam
+        },
+        ["211263"] = {
+            [451119] = {"SPELL_CAST_START", 2, "ALL", "Blast Inc", 4.9, 10.9},--Abyssal Blast
+            [450854] = {"SPELL_CAST_START", 1, "ALL", "Orb Inc", 12.1, 21.8}, --Dark Orb
+        },
+        --Ara-kara
+        ["216293"] = {[434793] = {"SPELL_CAST_SUCCESS", 6, "ALL", "Barrage Inc", 4, 16.9}}, --Resonant Barrage
+        ["217531"] = {[434802] = {"SPELL_CAST_START", 6, "ALL", "Fear Inc", 12.1, 14.5}}, --Horrifying Shrill
+        ["218324"] = {[438877] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 5.5, 26.7}}, --Call of the Brood
+        ["216338"] = {[1241693] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 5, 30.3}}, --Locust Swarm
+        ["223253"] = {[448248] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 4.8, 20.6}}, --Revolting Volley
+        ["216364"] = {[433841] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 5.8, 19}}, --Venom Volley
+    -- SEASON 2
         --Cinderbrew Meadery
         ["214697"] = {[463206] = {"SPELL_CAST_START", 1, "ALL", "Knock Inc", 8.1, 18.1}}, --Tenderize
         ["210269"] = {[463218] = {"SPELL_CAST_START", 1, "ALL", "DoT Inc", 8.5, 24.2}}, --Volatile Keg
@@ -165,11 +265,28 @@ CauseseDB = {
         ["167533"] = {[333827] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 9.7, 16.9}}, --Seismic Stomp
         ["169893"] = {[333299] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Curse Inc", 6.9, 12.1}}, --Curse of Desolation
         ["160495"] = {[330868] = {"SPELL_CAST_START", 6, "ALL", "Volley Inc", 13.3, 24.2}}, --Necrotic Bolt Volley
+    -- SEASON 3
+        -- Eco-Dome Al'dani
+        ["245092"] = {[1215850] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 20, 36.9}}, --Earthcrusher
+        --Tazavesh
+        ["180567"] = {[357827] = {"UNIT_SPELLCAST_SUCCEEDED", 2, "ALL", "Leap Inc", 5, 17}}, --Frantic Rrip (estimate)
+        ["246285"] = {
+            [1240912] = {"SPELL_CAST_START", 4, "ALL", "Buster Inc", 17.4, 23}, --Pierce
+            [1240821] = {"SPELL_CAST_START", 1, "ALL", "Spread Inc", 12.5, 23}, --Energized Slam
+        },
+        ["178141"] = {[355132] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Stick Inc", 9.7, 27.9}}, --Invigorating Fish Stick
     },
     private_auras = {
 
     },
     tank = {
+    -- SEASON 1
+        [431637] = {"Buster", 4, true, ""}, --Umbral Rush
+        [431491] = {"Buster", 4, true, ""}, --Tainted Slash
+        [451117] = {"Buster", 4, true, "Knock.ogg"}, --Terrifying Slam
+        [427001] = {"Buster", 4, true, "Knock.ogg"}, --Terrifying Slam
+        [438471] = {"Buster", 4, true, "Bite.ogg"}, --Voracious Bite
+    -- SEASON 2
         [432229] = {"Knock", 4, true, "Knock.ogg"}, --Keg Smash
         [439031] = {"Knock", 4, true, "Knock.ogg"}, --Bottoms Uppercut
         [436592] = {"Clear", 4, true, "Clear.ogg"}, --Cash Cannon
@@ -196,5 +313,24 @@ CauseseDB = {
         [331316] = {"Buster", 4, true, "Bite.ogg"}, --Savage Flurry
         [459799] = {"Knock Up", 4, true, "Bite.ogg"}, --Wallop
         [443487] = {"Sting", 4, true, ""}, --Final Sting
+    -- SEASON 3
+        [1235368] = {"Frontal", 4, true, "Bite.ogg"}, --Arcane Slash
+        [1219535] = {"Bleed", 4, true, "Bleed.ogg"}, --Rift Claws
+        [1222341] = {"Backstep", 4, true, "Bite.ogg"}, --Gloom Bite
+        [351047] = {"Buster", 4, true, "Bite.ogg"}, --Proxy Strike
+        [349934] = {"Buster", 4, true, "Bite.ogg"}, --Flagellation Protocol
+        [356967] = {"Knock", 4, true, "Knock.ogg"}, --Hyperlight Backhand
+        [347716] = {"Bleed", 4, true, ""}, --Letter opener
+        [350916] = {"Buster", 4, true, ""}, --Security Slam
+        [359028] = {"Buster", 4, true, ""}, --Security Slam
+        [1240912] = {"Buster", 4, true, "Bite.ogg"}, --Pierce
+        [355048] = {"Buster", 4, true, ""}, --Shellcracker
+        [346116] = {"Buster", 4, true, "Bite.ogg"}, --Shearing Swings
+        [347149] = {"Frontal", 4, true, ""}, --Infinite Breath
+        [1237071] = {"Knock", 4, true, "Knock.ogg"}, --Stone Fist
+        [326997] = {"Frontal", 4, true, "Dodge.ogg"}, --Powerful Swipe
+        [1235766] = {"Bite", 4, true, "Bite.ogg"}, --Mortal Strike
+        [322936] = {"Drop", 4, true, ""}, --Crumbling Slam
+        [323437] = {"Stigma of Pride", 4, true, ""}, --Crumbling Slam
     },
 }

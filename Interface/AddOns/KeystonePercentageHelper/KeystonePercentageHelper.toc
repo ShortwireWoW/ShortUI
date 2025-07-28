@@ -1,7 +1,7 @@
-## Interface: 110107
+## Interface: 110107, 110200
 ## Title: Keystone Percentage Helper
 ## Author: ZelionGG
-## Version: 1.6
+## Version: 1.7-fix1
 ## IconTexture: Interface\Addons\KeyStonePercentageHelper\icon.png
 ## AddonCompartmentFunc: KeystonePercentageHelper_OnAddonCompartmentClick
 
@@ -38,6 +38,5 @@ utils/seasons/seasons.xml
 
 options.lua
 core.lua
-dungeonIcons.lua
 
 utils/changelog/Load_Changelog.xml

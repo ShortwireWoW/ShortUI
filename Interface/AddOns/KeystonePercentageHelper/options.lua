@@ -99,19 +99,19 @@ if portal == "US" then
     KeystonePercentageHelper.SEASON_START_DATES = {
         ["2024-09-10"] = "TWW_1", -- TWW Season 1 start date
         ["2025-03-04"] = "TWW_2", -- TWW Season 2 start date
-        ["2025-08-18"] = "TWW_3" -- TWW Season 3 start date
+        ["2025-08-12"] = "TWW_3"  -- TWW Season 3 start date
     }
 elseif portal == "EU" then
     KeystonePercentageHelper.SEASON_START_DATES = {
         ["2024-09-10"] = "TWW_1", -- TWW Season 1 start date
         ["2025-03-05"] = "TWW_2", -- TWW Season 2 start date
-        ["2025-08-19"] = "TWW_3" -- TWW Season 3 start date
+        ["2025-08-13"] = "TWW_3"  -- TWW Season 3 start date
     }
 else
     KeystonePercentageHelper.SEASON_START_DATES = {
         ["2024-09-10"] = "TWW_1", -- TWW Season 1 start date
         ["2025-03-05"] = "TWW_2", -- TWW Season 2 start date
-        ["2025-08-19"] = "TWW_3" -- TWW Season 3 start date
+        ["2025-08-13"] = "TWW_3"  -- TWW Season 3 start date
     }
 end
 
@@ -495,6 +495,12 @@ function KeystonePercentageHelper:GetAdvancedOptions()
         local name, _, _, texture
         if mapId then
             name, _, _, texture = C_ChallengeMode.GetMapUIInfo(mapId)
+        end
+
+        -- TODO : Remove after patch 11.2 release
+        if mapId == 542 and name == nil then
+            texture = "134400"
+            name = "Eco-Dome Al'dani"
         end
 
         -- Fallbacks
@@ -990,6 +996,12 @@ function KeystonePercentageHelper:CreateDungeonOptions(dungeonKey, order)
                 name, _, _, texture, _ = C_ChallengeMode.GetMapUIInfo(mapId)
             end
 
+            -- TODO : Remove after patch 11.2 release
+            if mapId == 542 and name == nil then
+                texture = "134400"
+                name = "Eco-Dome Al'dani"
+            end
+
             return '|T' .. texture .. ":16:16:0:0|t " .. (name)
         end,
         type = "group",
@@ -1007,6 +1019,15 @@ function KeystonePercentageHelper:CreateDungeonOptions(dungeonKey, order)
                         name, _, _, texture, _ =
                             C_ChallengeMode.GetMapUIInfo(mapId)
                     end
+
+                    -- TODO : Remove after patch 11.2 release
+                    if mapId == 542 and name == nil then
+                        texture = "134400"
+                        name = "Eco-Dome Al'dani"
+                        return "|T" .. texture .. ":20:20:0:0|t |cff40E0D0" ..
+                                   (name) .. "|r\n" .. "The dungeon name is a placeholder and will be automatically translated when patch 11.2 is released, icon will also be updated accordingly."
+                    end
+
                     return "|T" .. texture .. ":20:20:0:0|t |cff40E0D0" ..
                                (name) .. "|r"
                 end
