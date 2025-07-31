@@ -77,8 +77,7 @@ L["DUNGEON_SHORT_NAME_DFC"] = "Dunkelflammenspalt"
 L["DUNGEON_SHORT_NAME_DHT"] = "Das Finsterherzdickicht"
 L["DUNGEON_SHORT_NAME_DOS"] = "Die Andre Seite"
 L["DUNGEON_SHORT_NAME_EB"] = "Der Immergrüne Flor"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_EDA"] = ""--]] 
+L["DUNGEON_SHORT_NAME_EDA"] = "Eco-Dome Al'dani"
 L["DUNGEON_SHORT_NAME_EOA"] = "Das Auge Azsharas"
 L["DUNGEON_SHORT_NAME_FALL"] = "Galakronds Sturz"
 L["DUNGEON_SHORT_NAME_FH"] = "Freihafen"
@@ -328,18 +327,12 @@ L["RAID_BOSS_FSOD_6"] = "Leidensschmied Raznal"
 L["RAID_BOSS_FSOD_7"] = "Wächter der Ersten"
 L["RAID_BOSS_FSOD_8"] = "Schicksalsschreiber Roh-Kalo"
 L["RAID_BOSS_FSOD_9"] = "Kel'Thuzad"
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_HOF_6"] = ""--]] 
+L["RAID_BOSS_HOF_1"] = "Kaiserlicher Wesir Zor'lok"
+L["RAID_BOSS_HOF_2"] = "Klingenfürst Ta'yak"
+L["RAID_BOSS_HOF_3"] = "Garalon"
+L["RAID_BOSS_HOF_4"] = "Windfürst Mel'jarak"
+L["RAID_BOSS_HOF_5"] = "Bernformer Un'sok"
+L["RAID_BOSS_HOF_6"] = "Großkaiserin Shek'zeer"
 L["RAID_BOSS_ICC_1"] = "Lord Mark'gar"
 L["RAID_BOSS_ICC_10"] = "Valithria Traumwandler"
 L["RAID_BOSS_ICC_11"] = "Sindragosa"
@@ -360,34 +353,20 @@ L["RAID_BOSS_LOU_5"] = "Ritzelkrämer Lockenstock"
 L["RAID_BOSS_LOU_6"] = "Der einarmige Bandit"
 L["RAID_BOSS_LOU_7"] = "Mug'Zee, Wachleitung"
 L["RAID_BOSS_LOU_8"] = "Chromkönig Gallywix"
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_MSV_6"] = ""--]] 
+L["RAID_BOSS_MFO_1"] = "Plexuswache"
+L["RAID_BOSS_MFO_2"] = "Loom'ithar"
+L["RAID_BOSS_MFO_3"] = "Seelenbinderin Naazindhri"
+L["RAID_BOSS_MFO_4"] = "Schmiedeweber Araz"
+L["RAID_BOSS_MFO_5"] = "Der Leerenjäger"
+L["RAID_BOSS_MFO_6"] = "Fraktillus"
+L["RAID_BOSS_MFO_7"] = "Nexuskönigin Salhadaar"
+L["RAID_BOSS_MFO_8"] = "Dimensius der alles Verschlingende"
+L["RAID_BOSS_MSV_1"] = "Die Steinwache"
+L["RAID_BOSS_MSV_2"] = "Feng der Verfluchte"
+L["RAID_BOSS_MSV_3"] = "Gara'jal der Geisterbinder"
+L["RAID_BOSS_MSV_4"] = "Die Geisterkönige"
+L["RAID_BOSS_MSV_5"] = "Elegon"
+L["RAID_BOSS_MSV_6"] = "Der Wille des Kaisers"
 L["RAID_BOSS_NP_1"] = "Ulgrax"
 L["RAID_BOSS_NP_2"] = "Blutgebundener Schrecken"
 L["RAID_BOSS_NP_3"] = "Sikran"
@@ -418,14 +397,10 @@ L["RAID_BOSS_SOD_6"] = "Leidensschmied Raznal"
 L["RAID_BOSS_SOD_7"] = "Wächter der Ersten"
 L["RAID_BOSS_SOD_8"] = "Schicksalsschreiber Roh-Kalo"
 L["RAID_BOSS_SOD_9"] = "Kel'Thuzad"
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ToES_4"] = ""--]] 
+L["RAID_BOSS_ToES_1"] = "Beschützer des Endlosen"
+L["RAID_BOSS_ToES_2"] = "Tsulong"
+L["RAID_BOSS_ToES_3"] = "Lei Shi"
+L["RAID_BOSS_ToES_4"] = "Sha der Angst"
 L["RAID_BOSS_TOTFW_1"] = "Konklave des Windes"
 L["RAID_BOSS_TOTFW_2"] = "Al'Akir"
 L["RAID_BOSS_VOTI_1"] = "Eranog"
@@ -456,18 +431,14 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL25"] = "N25"
 L["RAID_DS"] = "Drachenseele"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Schlachtzugsbegegnungen besiegt"
 L["RAID_FL"] = "Feuerlande"
---[[Translation missing --]]
---[[ L["RAID_HOF"] = ""--]] 
+L["RAID_HOF"] = "Herz der Angst"
 L["RAID_ICC"] = "Die Eiskronenzitadelle"
 L["RAID_LOU"] = "Die Befreiung von Lorenhall"
---[[Translation missing --]]
---[[ L["RAID_MFO"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_MSV"] = ""--]] 
+L["RAID_MFO"] = "Manaschmiede Omega"
+L["RAID_MSV"] = "Mogu'shangewölbe"
 L["RAID_NP"] = "Palast der Nerub'ar"
 L["RAID_RS"] = "Das Rubinsanktum"
---[[Translation missing --]]
---[[ L["RAID_ToES"] = ""--]] 
+L["RAID_ToES"] = "Terrasse des Endlosen Frühlings"
 L["RAID_TOTFW"] = "Thron der Vier Winde"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Durchschn. Wertungen für Zeitliche +%s"
 L["RAIDERIO_BEST_RUN"] = "Raider.IO M+ Bester Durchlauf"
