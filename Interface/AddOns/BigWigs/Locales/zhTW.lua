@@ -2,7 +2,7 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "zhTW")
 if not L then return end
 
-L.tempNew = "新功能：你可以輸入 |cFFFFFFFF/bwtemp|r 查看隊友的鑰石。"
+L.tempNew = "新功能：你可以輸入 |cFFFFFFFF/key|r 查看隊友的鑰石。"
 
 -- Core.lua
 L.berserk = "狂暴"
@@ -87,6 +87,7 @@ L.Destruction = "毀滅（基爾加丹）"
 L.RunAway = "快逃啊小女孩，快逃……（大野狼）"
 L.spell_on_you = "BigWigs: 法術在你身上"
 L.spell_under_you = "BigWigs: 法術在你腳下"
+--L.simple_no_voice = "Simple (No Voice)"
 
 -- Options.lua
 L.options = "選項"
@@ -295,6 +296,37 @@ L.keystoneTabOnline = "線上"
 L.keystoneTabAlts = "分身" --NOT SURE
 L.keystoneTabTeleports = "傳送"
 L.keystoneHeaderMyCharacters = "我的角色"
+L.keystoneTeleportNotLearned = "|cFFFF4411尚未學會|r傳送法術「|cFFFFFFFF%s|r」。"
+L.keystoneTeleportOnCooldown = "傳送法術「|cFFFFFFFF%s|r」正在|cFFFF4411冷卻中|r，%d 小時  %d 分後可用。"
+L.keystoneTeleportReady = "傳送法術「|cFFFFFFFF%s|r」已|cFF33FF99就緒|r，點擊施放。"
+--L.keystoneTabHistory = "History"
+--L.keystoneHeaderThisWeek = "This Week"
+--L.keystoneHeaderOlder = "Older"
+--L.keystoneScoreTooltip = "Dungeon Score: |cFFFFFFFF%d|r"
+--L.keystoneScoreGainedTooltip = "Score Gained: |cFFFFFFFF+%d|r"
+--L.keystoneCompletedTooltip = "Completed in time"
+--L.keystoneFailedTooltip = "Failed to complete in time"
+--L.keystoneExplainer = "A collection of various tools to improve the Mythic+ experience."
+--L.keystoneAutoSlot = "Auto slot keystone"
+--L.keystoneAutoSlotDesc = "Automatically place your keystone into the slot when opening the keystone holder."
+--L.keystoneAutoSlotMessage = "Automatically placed %s into the keystone slot."
+--L.keystoneModuleName = "Mythic+"
+--L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
+--L.keystoneStartMessage = "%s +%d begins now!" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
+--L.keystoneCountdownExplainer = "When you start a Mythic+ dungeon a countdown will play. Choose what voice you'd like to hear and when you want the countdown to start.\n\n"
+--L.keystoneCountdownBeginsDesc = "Choose how much time should be remaining on the Mythic+ start timer when the countdown will begin to play."
+--L.keystoneCountdownBeginsSound = "Play a sound when the Mythic+ countdown starts"
+--L.keystoneCountdownEndsSound = "Play a sound when the Mythic+ countdown ends"
+--L.keystoneViewerTitle = "Keystone Viewer"
+--L.keystoneHideGuildTitle = "Hide my keystone from my guild members"
+--L.keystoneHideGuildDesc = "|cffff4411Not recommended.|r This feature will prevent your guild members seeing what keystone you have. Anyone in your group will still be able to see it."
+--L.keystoneHideGuildWarning = "Disabling the ability for your guild members to see your keystone is |cffff4411not recommended|r.\n\nAre you sure you want to do this?"
+--L.keystoneAutoShowZoneIn = "Show when entering a dungeon"
+--L.keystoneAutoShowZoneInDesc = "Automatically show the keystone viewer when entering a Mythic dungeon.\n\n|cFF33FF99This can help remind you which player owns the keystone that you're about to do.|r"
+--L.keystoneAutoShowEndOfRun = "Show when the Mythic+ is over"
+--L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
+--L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
+--L.keystoneViewerOpen = "Open the keystone viewer"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "培育所" --培育
@@ -311,6 +343,23 @@ L.keystoneShortName_AraKaraCityOfEchoes = "回音之城" --回音
 L.keystoneShortName_TazaveshSoleahsGambit = "索利亞的險招" --索立亞?
 L.keystoneShortName_TazaveshStreetsOfWonder = "奇觀街道" --街道
 L.keystoneShortName_TheDawnbreaker = "破曉者號" --破曉
+
+-- These short names are for the bar that shows during the Mythic+ countdown
+-- Use the real dungeon names but make them shorter to fit on the bar better
+--L.keystoneShortName_TheRookery_Bar = "Rookery"
+--L.keystoneShortName_DarkflameCleft_Bar = "Darkflame"
+--L.keystoneShortName_PrioryOfTheSacredFlame_Bar = "Priory"
+--L.keystoneShortName_CinderbrewMeadery_Bar = "Cinderbrew"
+--L.keystoneShortName_OperationFloodgate_Bar = "Floodgate"
+--L.keystoneShortName_TheaterOfPain_Bar = "Theater"
+--L.keystoneShortName_TheMotherlode_Bar = "Motherlode"
+--L.keystoneShortName_OperationMechagonWorkshop_Bar = "Workshop"
+--L.keystoneShortName_EcoDomeAldani_Bar = "Al'dani"
+--L.keystoneShortName_HallsOfAtonement_Bar = "Halls"
+--L.keystoneShortName_AraKaraCityOfEchoes_Bar = "Ara-Kara"
+--L.keystoneShortName_TazaveshSoleahsGambit_Bar = "Gambit"
+--L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "Streets"
+--L.keystoneShortName_TheDawnbreaker_Bar = "Dawnbreaker"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -517,6 +566,7 @@ L.redirectPopupsColor = "橫幅替代訊息顏色"
 L.blockDungeonPopups = "封鎖地城通知橫幅"
 L.blockDungeonPopupsDesc = "有時候，進入地城彈出的通知橫幅會顯示很長的文本，啟用此選項可以完全隱藏它們。"
 L.itemLevel = "物品等級%d"
+--L.newRespawnPoint = "New Respawn Point"
 
 L.userNotifySfx = "音效原被「首領戰訊息封鎖」功能關閉，現已強制重啟。"
 L.userNotifyMusic = "音樂原被「首領戰訊息封鎖」功能關閉，現已強制重啟。"

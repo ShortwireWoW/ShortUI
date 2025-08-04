@@ -12,14 +12,14 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 391
+local BIGWIGS_VERSION = 392
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 62},
+	["LittleWigs"] = {11, 1, 66},
 	["BigWigs_Classic"] = {11, 1, 52},
-	["BigWigs_BurningCrusade"] = {11, 1, 3},
+	["BigWigs_BurningCrusade"] = {11, 1, 4},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 7},
 	["BigWigs_Cataclysm"] = {11, 1, 7},
-	["BigWigs_MistsOfPandaria"] = {11, 1, 6},
+	["BigWigs_MistsOfPandaria"] = {11, 1, 7},
 	["BigWigs_WarlordsOfDraenor"] = {11, 1, 1},
 	["BigWigs_Legion"] = {11, 1, 1},
 	["BigWigs_BattleForAzeroth"] = {11, 1, 1},
@@ -56,7 +56,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "fa9ce4b" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "2f5ef1f" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -296,7 +296,7 @@ do
 			zones = {
 				[2657] = "BigWigs_NerubarPalace",
 				[2769] = "BigWigs_LiberationOfUndermine",
-				[2810] = "BigWigs_ManaforgeOmega",
+				[2810] = public.isNext and "BigWigs_ManaforgeOmega" or nil,
 			}
 		}
 	end
@@ -1209,7 +1209,10 @@ function mod:CANCEL_PLAYER_COUNTDOWN(...)
 	public:SendMessage("Blizz_StopCountdown", ...)
 end
 
--- Various temporary printing stuff
+-----------------------------------------------------------------------
+-- Popups and user notifications
+--
+
 do
 	local old = {
 		BigWigs_Ulduar = "BigWigs_WrathOfTheLichKing",
@@ -1340,6 +1343,7 @@ do
 		-- Dynamic content
 		BigWigs_NerubarPalace = true,
 		BigWigs_LiberationOfUndermine = true,
+		BigWigs_ManaforgeOmega = true,
 	}
 	-- Try to teach people not to force load our modules.
 	for i = 1, GetNumAddOns() do
@@ -1485,6 +1489,11 @@ do
 			self.LOADING_SCREEN_DISABLED = nil
 		end
 		bwFrame:RegisterEvent("LOADING_SCREEN_DISABLED")
+	end
+
+	if public.isRetail and not BigWigsTempKeystones then -- XXX temp
+		BigWigsTempKeystones = true
+		Popup(L.tempNew, true)
 	end
 end
 

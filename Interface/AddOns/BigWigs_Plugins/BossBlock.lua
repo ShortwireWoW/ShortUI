@@ -61,6 +61,8 @@ local latestKill = {}
 local bbFrame = CreateFrame("Frame")
 bbFrame:Hide()
 
+local nemesisBoxes = 0
+
 -------------------------------------------------------------------------------
 -- Options
 --
@@ -304,6 +306,13 @@ do
 			TooltipDataProcessor.AddLinePreCall(17, ShouldFilterQuestProgress) -- Enum.TooltipDataLineType.QuestTitle
 			TooltipDataProcessor.AddLinePreCall(18, ShouldFilterQuestProgress) -- Enum.TooltipDataLineType.QuestPlayer
 		end
+		if DeadlyDebuffFrame then
+			DeadlyDebuffFrame:HookScript("OnShow", function(frame)
+				if next(activatedModules) then
+					bbFrame.Hide(frame)
+				end
+			end)
+		end
 	end
 end
 
@@ -339,11 +348,12 @@ do
 	function plugin:OnPluginEnable()
 		self:RegisterMessage("BigWigs_OnBossEngage", "OnEngage")
 		self:RegisterMessage("BigWigs_OnBossEngageMidEncounter", "OnEngage")
-		self:RegisterMessage("BigWigs_OnBossWin")
 		self:RegisterMessage("BigWigs_OnBossDisable")
 		self:RegisterMessage("BigWigs_OnBossWipe", "BigWigs_OnBossDisable")
 		self:RegisterMessage("BigWigs_ProfileUpdate", updateProfile)
 		updateProfile()
+
+		nemesisBoxes = 0
 
 		-- Enable these CVars every time we load just in case some kind of disconnect/etc during the fight left it permanently disabled
 		-- Additionally, notify the user if a CVar has been force enabled by BossBlock.
@@ -375,6 +385,8 @@ do
 			end
 			SetCVar("Sound_EnableErrorSpeech", "1")
 		end
+
+		self:RegisterEvent("BOSS_KILL")
 
 		if not isVanilla then
 			self:RegisterEvent("CINEMATIC_START")
@@ -456,6 +468,7 @@ do
 		[208]=true,[211]=true,[224]=true,[225]=true,[210]=true,
 		[279]=true,[280]=true,[281]=true,[282]=true,[283]=true,[284]=true,[285]=true,[286]=true,
 	}
+	local nemesisBoxCounts = {0, 0, 0, 1, 1, 2, 2, 3, 3, 4, 4}
 	function plugin:DISPLAY_EVENT_TOASTS()
 		local tbl = GetNextToastToDisplay()
 		if tbl then
@@ -523,6 +536,8 @@ do
 					-- tbl.title is "Discovery"
 					-- tbl.subtitle is "Respawn Point Unlocked!"
 					tbl.title = nil -- Remove title, keep subtitle only
+					tbl.subtitle = L.newRespawnPoint
+					tbl.iconFileID = tbl.iconFileID or 3084684 -- inv_hearthstone_aether
 					tbl.bwDuration = 4
 					gainLifeTbl = tbl
 					self:SimpleTimer(function() gainLifeTbl = nil printMessage(self, tbl) end, 0.5) -- Delay to allow time for the +1 life toast to merge, if one is rewarded
@@ -552,9 +567,35 @@ do
 					tbl.title = nil
 				elseif tbl.eventToastID == 277 then -- Nemesis Strongbox Upgraded
 					-- tbl.title is "Nemesis Strongbox Upgraded"
-					tbl.subtitle = tbl.title
+					nemesisBoxes = nemesisBoxes + 1
+					local info = C_UIWidgetManager.GetScenarioHeaderDelvesWidgetVisualizationInfo(6183)
+					local level = info and tonumber(info.tierText)
+					if level then
+						local total = nemesisBoxCounts[level]
+						if total then
+							tbl.subtitle = CL.count_amount:format(tbl.title, nemesisBoxes, total)
+							if total == nemesisBoxes then
+								tbl.bwDuration = 4
+							end
+						else
+							tbl.subtitle = tbl.title
+						end
+					else
+						tbl.subtitle = tbl.title
+					end
 					tbl.title = nil
 					printMessage(self, tbl)
+				elseif tbl.eventToastID == 288 then -- Discovery: Waystone
+					-- tbl.title is "Discovery", tbl.subtitle is "Waystone"
+					tbl.title = nil
+					tbl.iconFileID = tbl.iconFileID or 3084684 -- inv_hearthstone_aether
+					if not latestKill[1] or GetTime()-latestKill[1] > 4 then -- Not after a boss kill
+						tbl.subtitle = L.newRespawnPoint -- New Respawn Point
+						printMessage(self, tbl)
+					else -- After a boss kill
+						tbl.subtitle = CL.other:format(L.newRespawnPoint, latestKill[3]) -- New Respawn Point: Boss Name
+						self:SimpleTimer(function() printMessage(self, tbl) end, 1) -- Delay a little after the boss kill
+					end
 				else -- Something we don't support, pass to Blizz to process
 					return
 				end
@@ -762,11 +803,8 @@ do
 	end
 end
 
-function plugin:BigWigs_OnBossWin(event, module)
-	local journalId = module:GetJournalID()
-	if journalId then
-		latestKill = {journalId, (GetTime())}
-	end
+function plugin:BOSS_KILL(_, encounterID, encounterName)
+	latestKill = {GetTime(), encounterID, encounterName}
 end
 
 do
@@ -993,8 +1031,8 @@ do
 		[-2233] = true, -- Amirdrassil, Smolderon defeat
 		[-2234] = true, -- After killing Tindral, flying into the tree, usually 2238 but rarely can be 2234
 		[-2238] = { -- Amirdrassil
-			function() return latestKill[1] == 2565 end, -- After killing Tindral, flying into the tree
-			function() return latestKill[1] == 2519 and GetTime()-latestKill[2] < 6 end, -- After killing Fyrakk, but don't trigger when talking to the NPC after killing him
+			function() return latestKill[2] == 2786 end, -- After killing Tindral, flying into the tree
+			function() return latestKill[2] == 2677 and GetTime()-latestKill[1] < 6 end, -- After killing Fyrakk, but don't trigger when talking to the NPC after killing him
 		},
 		[-2292] = true, -- Nerub-ar Palace, Ulgrax defeat
 		[-2296] = true, -- Nerub-ar Palace, Ansurek defeat

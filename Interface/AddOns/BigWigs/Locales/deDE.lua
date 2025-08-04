@@ -2,7 +2,7 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "deDE")
 if not L then return end
 
-L.tempNew = "NEU: Du kannst jetzt |cFFFFFFFF/bwtemp|r eingeben, um die Mythisch+ Schlüsselsteine Deiner Gruppenmitglieder zu sehen."
+L.tempNew = "NEU: Du kannst jetzt |cFFFFFFFF/key|r eingeben, um die Mythisch+ Schlüsselsteine Deiner Gruppenmitglieder zu sehen."
 
 -- Core.lua
 L.berserk = "Berserker"
@@ -87,6 +87,7 @@ L.Destruction = "Zerstörung (Kil'jaeden)"
 L.RunAway = "Lauf kleines Mädchen, lauf (Der große böse Wolf)"
 L.spell_on_you = "BigWigs: Zauber auf Dir"
 L.spell_under_you = "BigWigs: Zauber unter Dir"
+L.simple_no_voice = "Einfach (Keine Stimme)"
 
 -- Options.lua
 L.options = "Optionen"
@@ -295,6 +296,37 @@ L.keystoneTabOnline = "Online"
 L.keystoneTabAlts = "Twinks"
 L.keystoneTabTeleports = "Teleports"
 L.keystoneHeaderMyCharacters = "Meine Charaktere"
+L.keystoneTeleportNotLearned = "Der Teleportzauber '|cFFFFFFFF%s|r' wurde noch |cFFFF4411nicht erlernt|r."
+L.keystoneTeleportOnCooldown = "Der Teleportzauber '|cFFFFFFFF%s|r' |cFFFF4411klingt ab|r für %d |4Stunde:Stunden; und %d |4Minute:Minuten;."
+L.keystoneTeleportReady = "Der Teleportzauber '|cFFFFFFFF%s|r' ist |cFF33FF99bereit|r, klicken zum Wirken."
+L.keystoneTabHistory = "Verlauf"
+L.keystoneHeaderThisWeek = "Diese Woche"
+L.keystoneHeaderOlder = "Älter"
+L.keystoneScoreTooltip = "Dungeon Wertung: |cFFFFFFFF%d|r"
+L.keystoneScoreGainedTooltip = "Erhaltene Wertung: |cFFFFFFFF+%d|r"
+L.keystoneCompletedTooltip = "Im Zeitfenster abgeschlossen"
+L.keystoneFailedTooltip = "Nicht im Zeitfenster abgeschlossen"
+L.keystoneExplainer = "Eine Sammlung verschiedener Werkzeuge zur Verbesserung der Mythisch+ Erfahrung."
+L.keystoneAutoSlot = "Schlüsselstein automatisch einsetzen"
+L.keystoneAutoSlotDesc = "Setzt den Schlüsselstein automatisch beim Öffnen des Borns der Macht ein."
+L.keystoneAutoSlotMessage = "%s wurde automatisch in den Born der Macht eingesetzt."
+L.keystoneModuleName = "Mythisch+"
+L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
+L.keystoneStartMessage = "%s +%d beginnt jetzt!" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
+L.keystoneCountdownExplainer = "Beim Starten eines Mythisch+ Dungeons beginnt ein Countdown. Wiederzugebende Stimme sowie Länge des Countdowns wählen.\n\n"
+L.keystoneCountdownBeginsDesc = "Auswählen, ab welcher Restzeit des Mythisch+ Starttimers der Countdown startet."
+L.keystoneCountdownBeginsSound = "Einen Sound beim Start des Mythisch+ Countdowns wiedergeben"
+L.keystoneCountdownEndsSound = "Einen Sound am Ende des Mythisch+ Countdowns wiedergeben"
+L.keystoneViewerTitle = "Schlüsselstein Anzeige"
+L.keystoneHideGuildTitle = "Meinen Schlüsselstein vor meinen Gildenmitgliedern verstecken"
+L.keystoneHideGuildDesc = "|cffff4411Nicht empfohlen.|r Diese Funktion verhindert die Anzeige Deines Schlüsselsteins für die Gildenmitglieder. Jedes Mitglied der Gruppe kann diesen weiterhin sehen."
+L.keystoneHideGuildWarning = "Die Deaktivierung der Anzeige Deines Schlüsselsteins für Deine Gilde wird |cffff4411nicht empfohlen|r.\n\nBist Du sicher?"
+L.keystoneAutoShowZoneIn = "Beim Betreten eines Dungeons anzeigen"
+L.keystoneAutoShowZoneInDesc = "Die Schlüsselstein Anzeige automatisch beim Betreten eines mythischen Dungeons anzeigen.\n\n|cFF33FF99Dies kann helfen, den Besitzer des aktuellen Schlüsselsteins ausfindig zu machen.|r"
+L.keystoneAutoShowEndOfRun = "Nach Beenden von Mythisch+ anzeigen"
+L.keystoneAutoShowEndOfRunDesc = "Die Schlüsselstein Anzeige automatisch nach Abschluss des Mythisch+ Dungeons anzeigen.\n\n|cFF33FF99Dies kann helfen, die neu erhaltenen Schlüsselsteine der Gruppe zu sehen.|r"
+L.keystoneViewerExplainer = "Die Schlüsselstein Anzeige kann durch Nutzung des Befehls |cFF33FF99/key|r oder die untenstehende Schaltfläche geöffnet werden.\n\n"
+L.keystoneViewerOpen = "Schlüsselstein Anzeige öffnen"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "ROOK"
@@ -311,6 +343,23 @@ L.keystoneShortName_AraKaraCityOfEchoes = "ARAK"
 L.keystoneShortName_TazaveshSoleahsGambit = "GAMBIT"
 L.keystoneShortName_TazaveshStreetsOfWonder = "STREET"
 L.keystoneShortName_TheDawnbreaker = "DAWN"
+
+-- These short names are for the bar that shows during the Mythic+ countdown
+-- Use the real dungeon names but make them shorter to fit on the bar better
+L.keystoneShortName_TheRookery_Bar = "Brutstätte"
+L.keystoneShortName_DarkflameCleft_Bar = "Dunkelflammenspalt"
+L.keystoneShortName_PrioryOfTheSacredFlame_Bar = "Priorat"
+L.keystoneShortName_CinderbrewMeadery_Bar = "Brauerei"
+L.keystoneShortName_OperationFloodgate_Bar = "Schleuse"
+L.keystoneShortName_TheaterOfPain_Bar = "Theater"
+L.keystoneShortName_TheMotherlode_Bar = "Riesenflöz"
+L.keystoneShortName_OperationMechagonWorkshop_Bar = "Werkstatt"
+L.keystoneShortName_EcoDomeAldani_Bar = "Al'dani"
+L.keystoneShortName_HallsOfAtonement_Bar = "Hallen"
+L.keystoneShortName_AraKaraCityOfEchoes_Bar = "Ara-Kara"
+L.keystoneShortName_TazaveshSoleahsGambit_Bar = "Schachzug"
+L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "Straßen"
+L.keystoneShortName_TheDawnbreaker_Bar = "Morgenbringer"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -517,6 +566,7 @@ L.redirectPopupsColor = "Farbe der ausgegebenen Nachricht"
 L.blockDungeonPopups = "Popup Banner in Instanzen blockieren"
 L.blockDungeonPopupsDesc = "Die Popup Banner beim Betreten einer Instanz können sehr lange Texte enthalten. Die Aktivierung dieser Option blockiert diese komplett."
 L.itemLevel = "Gegenstandsstufe %d"
+L.newRespawnPoint = "Neuer Wiederbelebungspunkt"
 
 L.userNotifySfx = "Soundeffekte wurden von BossBlock deaktiviert, Aktivierung wird erzwungen."
 L.userNotifyMusic = "Musik wurde von BossBlock deaktiviert, Aktivierung wird erzwungen."

@@ -209,7 +209,7 @@ if isElevenDotTwo then -- XXX remove check in 11.2
 			-- Hourglass Tidesage
 			{1244650, "NAMEPLATE"}, -- Tidal Burst
 			-- Corsair Officer
-			{368661, "NAMEPLATE"}, -- Sword Toss
+			{368661, "NAMEPLATE", "OFF"}, -- Sword Toss
 			-- Adorned Starseer
 			{357226, "NAMEPLATE"}, -- Drifting Star
 			{357238, "NAMEPLATE"}, -- Wandering Pulsar
@@ -585,8 +585,7 @@ function mod:OnBossEnable()
 
 		-- Corsair Officer
 		self:RegisterEngageMob("CorsairOfficerEngaged", 179386)
-		self:Log("SPELL_CAST_START", "SwordToss", 368661)
-		self:Log("SPELL_CAST_SUCCESS", "SwordTossSuccess", 368661)
+		self:Log("SPELL_CAST_SUCCESS", "SwordToss", 368661)
 		self:Death("CorsairOfficerDeath", 179386)
 	end
 
@@ -839,7 +838,8 @@ end
 do
 	local prev = 0
 	function mod:GlyphOfRestraintApplied(args)
-		if (self:Me(args.destGUID) or self:Dispeller("magic", nil, args.spellId) or self:Dispeller("movement", nil, args.spellId)) and args.time - prev > 2 then
+		-- can be reflected with Diffuse Magic
+		if (self:Me(args.destGUID) or (self:Friendly(args.destFlags) and (self:Dispeller("magic", nil, args.spellId) or self:Dispeller("movement", nil, args.spellId)))) and args.time - prev > 2 then
 			prev = args.time
 			self:TargetMessage(args.spellId, "yellow", args.destName)
 			self:PlaySound(args.spellId, "alert", nil, args.destName)
@@ -1670,10 +1670,16 @@ function mod:ChargedPulse(args)
 	self:PlaySound(args.spellId, "alarm")
 end
 
-function mod:Crackle(args)
-	self:Message(args.spellId, "red")
-	self:Nameplate(args.spellId, 8.5, args.sourceGUID)
-	self:PlaySound(args.spellId, "alert")
+do
+	local prev = 0
+	function mod:Crackle(args)
+		self:Nameplate(args.spellId, 8.5, args.sourceGUID)
+		if args.time - prev > 1.5 then
+			prev = args.time
+			self:Message(args.spellId, "red")
+			self:PlaySound(args.spellId, "alert")
+		end
+	end
 end
 
 do
@@ -1772,18 +1778,13 @@ end
 do
 	local prev = 0
 	function mod:SwordToss(args)
-		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		self:Nameplate(args.spellId, 14.5, args.sourceGUID)
 		if args.time - prev > 2 then
 			prev = args.time
-			-- TODO target scan?
-			self:Message(args.spellId, "yellow")
-			self:PlaySound(args.spellId, "alert")
+			self:TargetMessage(args.spellId, "yellow", nil, args.destName)
+			self:PlaySound(args.spellId, "alert", nil, args.destName)
 		end
 	end
-end
-
-function mod:SwordTossSuccess(args)
-	self:Nameplate(args.spellId, 14.0, args.sourceGUID)
 end
 
 function mod:CorsairOfficerDeath(args)

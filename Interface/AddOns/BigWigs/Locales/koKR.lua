@@ -2,7 +2,7 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "koKR")
 if not L then return end
 
-L.tempNew = "신규: 이제 |cFFFFFFFF/bwtemp|r을 입력하면 파티원의 신화+ 쐐기돌을 볼 수 있습니다."
+L.tempNew = "신규: 이제 |cFFFFFFFF/key|r을 입력하면 파티원의 신화+ 쐐기돌을 볼 수 있습니다."
 
 -- Core.lua
 L.berserk = "광폭화"
@@ -87,6 +87,7 @@ L.Destruction = "파괴 (킬제덴)"
 L.RunAway = "도망쳐라 꼬마야 달아나라 (커다란 나쁜 늑대)"
 L.spell_on_you = "BigWigs: 당신에게 주문"
 L.spell_under_you = "BigWigs: 발밑에 바닥"
+L.simple_no_voice = "심플 (음성 없음)"
 
 -- Options.lua
 L.options = "옵션"
@@ -295,6 +296,37 @@ L.keystoneTabOnline = "온라인"
 L.keystoneTabAlts = "부캐"
 L.keystoneTabTeleports = "순간이동"
 L.keystoneHeaderMyCharacters = "내 캐릭터"
+L.keystoneTeleportNotLearned = "'|cFFFFFFFF%s|r'순간이동 주문을 아직 |cFFFF4411배우지 않았습니다|r."
+L.keystoneTeleportOnCooldown = "'|cFFFFFFFF%s|r'순간이동 주문은 현재 %d 시간 %d 분 동안 |cFFFF4411재사용 대기 중입니다|r."
+L.keystoneTeleportReady = "'|cFFFFFFFF%s|r'순간이동 주문은 |cFF33FF99사용할 수 있습니다|r. 클릭하여 시전하세요."
+L.keystoneTabHistory = "기록"
+L.keystoneHeaderThisWeek = "이번 주"
+L.keystoneHeaderOlder = "이전 기록"
+L.keystoneScoreTooltip = "던전 점수: |cFFFFFFFF%d|r"
+L.keystoneScoreGainedTooltip = "획득 점수: |cFFFFFFFF+%d|r"
+L.keystoneCompletedTooltip = "제한 시간 내에 완료"
+L.keystoneFailedTooltip = "제한 시간 내에 완료하지 못함"
+L.keystoneExplainer = "신화+ 경험을 향상시키는 다양한 도구 모음입니다."
+L.keystoneAutoSlot = "쐐기돌 자동 삽입"
+L.keystoneAutoSlotDesc = "마력의 샘을 열 때 자동으로 쐐기돌을 넣습니다."
+L.keystoneAutoSlotMessage = "%s 쐐기돌을 자동으로 넣었습니다."
+L.keystoneModuleName = "신화+"
+L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
+L.keystoneStartMessage = "%s +%d 지금 시작합니다!" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
+L.keystoneCountdownExplainer = "신화+ 던전을 시작하면 카운트다운이 재생됩니다. 듣고 싶은 음성과 카운트다운을 시작 시간을 선택하세요.\n\n"
+L.keystoneCountdownBeginsDesc = "신화+ 시작 타이머에서 카운트다운 재생이 시작될 남은 시간을 선택하세요."
+L.keystoneCountdownBeginsSound = "신화+ 카운트다운 시작 시 사운드 재생"
+L.keystoneCountdownEndsSound = "신화+ 카운트다운 종료 시 사운드 재생"
+L.keystoneViewerTitle = "쐐기돌 뷰어"
+L.keystoneHideGuildTitle = "길드원에게 내 쐐기돌 숨기기"
+L.keystoneHideGuildDesc = "|cffff4411권장하지 않습니다.|r 이 기능은 길드원들이 당신의 쐐기돌을 볼 수 없도록 합니다. 파티 내의 다른 멤버들은 여전히 이를 확인할 수 있습니다."
+L.keystoneHideGuildWarning = "길드원이 당신의 쐐기돌을 볼 수 없도록 하는 것은 |cffff4411권장하지 않습니다|r.\n\n정말로 이 기능을 사용하시겠습니까?"
+L.keystoneAutoShowZoneIn = "던전 입장 시 표시"
+L.keystoneAutoShowZoneInDesc = "신화+ 던전에 입장할 때 자동으로 쐐기돌 뷰어를 표시합니다.\n\n|cFF33FF99이 기능을 사용하면 곧 진행할 쐐기돌을 어떤 플레이어가 소유하고 있는지 확인할 수 있습니다.|r"
+L.keystoneAutoShowEndOfRun = "신화+ 던전이 종료될 때 표시"
+L.keystoneAutoShowEndOfRunDesc = "신화+ 던전이 종료될 때 자동으로 쐐기돌 뷰어를 표시합니다.\n\n|cFF33FF99이 기능을 사용하면 파티가 획득한 새로운 쐐기돌을 확인할 수 있습니다.|r"
+L.keystoneViewerExplainer = "쐐기돌 뷰어를 열려면 |cFF33FF99/key|r 명령어를 사용하거나 아래 버튼을 클릭하세요.\n\n"
+L.keystoneViewerOpen = "쐐기돌 뷰어 열기"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "부화장"
@@ -311,6 +343,23 @@ L.keystoneShortName_AraKaraCityOfEchoes = "아라카라"
 L.keystoneShortName_TazaveshSoleahsGambit = "소레아"
 L.keystoneShortName_TazaveshStreetsOfWonder = "거리"
 L.keystoneShortName_TheDawnbreaker = "새인호"
+
+-- These short names are for the bar that shows during the Mythic+ countdown
+-- Use the real dungeon names but make them shorter to fit on the bar better
+L.keystoneShortName_TheRookery_Bar = "부화장"
+L.keystoneShortName_DarkflameCleft_Bar = "어둠불꽃 동굴"
+L.keystoneShortName_PrioryOfTheSacredFlame_Bar = "수도원"
+L.keystoneShortName_CinderbrewMeadery_Bar = "양조장"
+L.keystoneShortName_OperationFloodgate_Bar = "수문"
+L.keystoneShortName_TheaterOfPain_Bar = "고투"
+L.keystoneShortName_TheMotherlode_Bar = "왕노"
+L.keystoneShortName_OperationMechagonWorkshop_Bar = "작업장"
+L.keystoneShortName_EcoDomeAldani_Bar = "알다니"
+L.keystoneShortName_HallsOfAtonement_Bar = "속죄"
+L.keystoneShortName_AraKaraCityOfEchoes_Bar = "아라카라"
+L.keystoneShortName_TazaveshSoleahsGambit_Bar = "소레아"
+L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "거리"
+L.keystoneShortName_TheDawnbreaker_Bar = "새인호"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -517,6 +566,7 @@ L.redirectPopupsColor = "표시되는 팝업 배너의 색상"
 L.blockDungeonPopups = "던전 팝업 배너 차단"
 L.blockDungeonPopupsDesc = "던전에 입장할 때 표시되는 팝업 배너는 때때로 매우 긴 텍스트를 포함할 수 있습니다. 이 기능을 활성화하면 이러한 팝업 배너가 완전히 차단됩니다."
 L.itemLevel = "아이템 레벨: %d"
+L.newRespawnPoint = "새로운 부활 지점"
 
 L.userNotifySfx = "보스 기능 차단으로 비활성화된 사운드 효과를 강제로 다시 활성화합니다."
 L.userNotifyMusic = "보스 기능 차단으로 비활성화된 배경음악를 강제로 다시 활성화합니다."

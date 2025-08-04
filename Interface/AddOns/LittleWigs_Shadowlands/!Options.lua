@@ -193,7 +193,6 @@ BigWigs:AddColors("Halls of Atonement Trash", {
 	[344993] = "blue",
 	[346866] = "yellow",
 	[1235060] = {"blue","purple"},
-	[1235257] = "yellow",
 	[1235326] = "yellow",
 	[1235762] = {"blue","orange","yellow"},
 	[1235766] = "purple",
@@ -205,7 +204,7 @@ BigWigs:AddColors("Halls of Atonement Trash", {
 BigWigs:AddSounds("Halls of Atonement Trash", {
 	[325523] = "alert",
 	[325700] = "alert",
-	[325701] = {"alert","info"},
+	[325701] = "alert",
 	[325793] = {"alarm","info"},
 	[325876] = {"alarm","alert","info"},
 	[326409] = "warning",
@@ -221,7 +220,6 @@ BigWigs:AddSounds("Halls of Atonement Trash", {
 	[344993] = {"info","warning"},
 	[346866] = "alarm",
 	[1235060] = {"info","warning"},
-	[1235257] = "alert",
 	[1235326] = "warning",
 	[1235762] = {"alarm","info"},
 	[1235766] = "alert",
@@ -732,6 +730,9 @@ BigWigs:AddColors("Myza's Oasis", {
 	[353835] = "red",
 	[355438] = "red",
 	[356482] = "orange",
+	[357404] = "red",
+	[357436] = "yellow",
+	[357542] = "orange",
 	[359028] = "purple",
 	[1241032] = "yellow",
 	["stages"] = "cyan",
@@ -746,12 +747,16 @@ BigWigs:AddSounds("Myza's Oasis", {
 	[353835] = "alert",
 	[355438] = "info",
 	[356482] = "alarm",
+	[357404] = "alert",
+	[357436] = "info",
+	[357542] = "alarm",
 	[359028] = "alert",
 	[1241032] = "long",
 	["stages"] = "long",
 })
 
 BigWigs:AddColors("So'azmi", {
+	[347150] = "red",
 	[347249] = "cyan",
 	[347610] = "yellow",
 	[347623] = "orange",
@@ -759,10 +764,12 @@ BigWigs:AddColors("So'azmi", {
 	[1245579] = "yellow",
 	[1245634] = "cyan",
 	[1245669] = "red",
+	[1245752] = "red",
 	[1248209] = "purple",
 })
 
 BigWigs:AddSounds("So'azmi", {
+	[347150] = "alert",
 	[347249] = "info",
 	[347610] = "warning",
 	[347623] = "alarm",
@@ -770,6 +777,7 @@ BigWigs:AddSounds("So'azmi", {
 	[1245579] = "warning",
 	[1245634] = "info",
 	[1245669] = "alert",
+	[1245752] = "alert",
 	[1248209] = "alert",
 })
 
@@ -779,6 +787,7 @@ BigWigs:AddColors("Hylbrande", {
 	[346957] = {"blue","orange"},
 	[347094] = "red",
 	[353312] = "yellow",
+	[358131] = "red",
 	["vault_purifier"] = "yellow",
 })
 
@@ -788,6 +797,7 @@ BigWigs:AddSounds("Hylbrande", {
 	[346957] = {"underyou","warning"},
 	[347094] = "alarm",
 	[353312] = "info",
+	[358131] = "alert",
 	["vault_purifier"] = "info",
 })
 
@@ -823,6 +833,7 @@ BigWigs:AddColors("So'leah", {
 	[351124] = "yellow",
 	[351646] = "orange",
 	[353635] = "red",
+	[357190] = {"blue","orange"},
 	["stages"] = "cyan",
 })
 
@@ -886,7 +897,7 @@ BigWigs:AddColors("Tazavesh Trash", {
 	[357284] = "red",
 	[357508] = "yellow",
 	[357512] = {"blue","red"},
-	[368661] = "yellow",
+	[368661] = {"blue","yellow"},
 	[1240821] = "yellow",
 	[1240912] = "purple",
 	[1244443] = "yellow",

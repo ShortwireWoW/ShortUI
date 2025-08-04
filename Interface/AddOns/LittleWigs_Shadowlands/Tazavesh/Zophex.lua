@@ -10,6 +10,12 @@ mod:SetEncounterID(2425)
 mod:SetRespawnTime(30)
 
 --------------------------------------------------------------------------------
+-- Locals
+--
+
+local interrogateCount = 1
+
+--------------------------------------------------------------------------------
 -- Initialization
 --
 
@@ -64,6 +70,8 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	interrogateCount = 1
+	self:StopBar(CL.active)
 	self:CDBar(346204, 8.7) -- Armed Security
 	if isElevenDotTwo then -- XXX remove check in 11.2
 		self:CDBar(1236348, 12.1) -- Charged Slash
@@ -82,13 +90,20 @@ end
 --
 
 function mod:Warmup() -- called from trash module
-	self:Bar("warmup", 9.2, CL.active, "achievement_dungeon_brokerdungeon")
+	if not self:IsEngaged() then -- prevent this bar in Hard Mode
+		self:Bar("warmup", 9.2, CL.active, "achievement_dungeon_brokerdungeon")
+	end
 end
 
 function mod:Interrogation(args)
 	self:Message(args.spellId, "orange", CL.casting:format(args.spellName))
-	-- energy is reset to 0 after this 1.5s cast, with a 35s energy gain afterwards
-	self:CDBar(args.spellId, 36.5)
+	interrogateCount = interrogateCount + 1
+	-- energy is reset to 0 after this 1.5s cast, with a 35s or 30s energy gain afterwards
+	if interrogateCount == 2 then
+		self:CDBar(args.spellId, 36.5)
+	else -- 3+
+		self:CDBar(args.spellId, 31.5)
+	end
 end
 
 function mod:InterrogationApplied(args)

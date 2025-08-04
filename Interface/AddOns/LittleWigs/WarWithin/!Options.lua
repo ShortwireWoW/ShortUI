@@ -473,7 +473,6 @@ BigWigs:AddColors("Soul-Scribe", {
 	[1225218] = "orange",
 	[1226444] = "blue",
 	[1236703] = "yellow",
-	[1237184] = "cyan",
 })
 
 BigWigs:AddSounds("Soul-Scribe", {
@@ -483,7 +482,6 @@ BigWigs:AddSounds("Soul-Scribe", {
 	[1225218] = "alarm",
 	[1226444] = "warning",
 	[1236703] = "long",
-	[1237184] = "alert",
 })
 
 BigWigs:AddColors("Eco-Dome Al'dani Trash", {
@@ -495,7 +493,7 @@ BigWigs:AddColors("Eco-Dome Al'dani Trash", {
 	[1222202] = "blue",
 	[1222341] = "purple",
 	[1222356] = "orange",
-	[1223000] = {"orange","red"},
+	[1223000] = "orange",
 	[1223007] = "orange",
 	[1226111] = {"blue","orange"},
 	[1226492] = "green",
@@ -519,7 +517,7 @@ BigWigs:AddSounds("Eco-Dome Al'dani Trash", {
 	[1222202] = "underyou",
 	[1222341] = "alert",
 	[1222356] = "alarm",
-	[1223000] = {"alert","info"},
+	[1223000] = "info",
 	[1223007] = "alarm",
 	[1226111] = "alarm",
 	[1226492] = "info",

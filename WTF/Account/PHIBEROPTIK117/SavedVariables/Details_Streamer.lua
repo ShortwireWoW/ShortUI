@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 ["characters"] = {
+["Shortloch - Area 52"] = "Shortbowjob - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 },
 ["profiles"] = {
@@ -35,7 +36,7 @@ Details_StreamerDB = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["font_size"] = 10,
+["y"] = 1.52587890625e-05,
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -50,22 +51,22 @@ Details_StreamerDB = {
 0.4,
 },
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["use_spark"] = true,
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
 ["scale"] = 1,
 ["font_shadow"] = true,
-["y"] = 0.001861572265625,
-["x"] = 0.0008544921875,
+["y"] = -0.000244140625,
+["x"] = -0.00048828125,
 ["size"] = 32,
 ["update_speed"] = 0.05,
 ["attribute_type"] = 1,
 },
-["use_spark"] = true,
-["x"] = 6.103515625e-05,
+["x"] = -0.000244140625,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["y"] = 0.0007171630859375,
+["font_size"] = 10,
 ["author"] = "Terciob",
 ["main_frame_locked"] = false,
 ["main_frame_size"] = {

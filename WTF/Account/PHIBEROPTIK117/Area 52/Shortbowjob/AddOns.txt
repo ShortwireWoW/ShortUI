@@ -17,3 +17,4 @@ RaiderIO_DB_EU_F: disabled
 Blizzard_CombatText: enabled
 Cell_UnitFrames: disabled
 LittleWigs: enabled
+BigWigs_LiberationOfUndermine: enabled

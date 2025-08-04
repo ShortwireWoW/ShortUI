@@ -1,6 +1,7 @@
 
 BigWigs3DB = {
 ["profileKeys"] = {
+["Shortloch - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["namespaces"] = {
@@ -9,13 +10,13 @@ BigWigs3DB = {
 ["Player-3676-0EA88AB6"] = {
 ["playerRating"] = 2379,
 ["specId"] = 253,
-["keyMap"] = 504,
+["keyMap"] = 0,
 ["name"] = "Shortbowjob",
-["keyLevel"] = 2,
+["keyLevel"] = 0,
 ["realm"] = "Area 52",
 },
 },
-["prevWeeklyReset"] = 1753196400,
+["prevWeeklyReset"] = 1753801200,
 ["profiles"] = {
 ["Default"] = {
 },
@@ -24,4 +25,11 @@ BigWigs3DB = {
 BigWigsIconDB = {
 }
 BigWigsStatsDB = {
+[2769] = {
+[2645] = {
+["heroic"] = {
+["wipes"] = 5,
+},
+},
+},
 }

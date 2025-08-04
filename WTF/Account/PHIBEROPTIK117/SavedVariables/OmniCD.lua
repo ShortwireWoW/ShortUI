@@ -1,6 +1,7 @@
 
 OmniCDDB = {
 ["profileKeys"] = {
+["Shortloch - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["namespaces"] = {

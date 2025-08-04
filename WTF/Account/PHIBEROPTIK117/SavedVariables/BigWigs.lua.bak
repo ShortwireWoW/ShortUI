@@ -2,6 +2,7 @@
 BigWigs3DB = {
 ["profileKeys"] = {
 ["Shortbowjob - Area 52"] = "Default",
+["Shortloch - Area 52"] = "Default",
 },
 ["namespaces"] = {
 },
@@ -15,7 +16,7 @@ BigWigs3DB = {
 ["realm"] = "Area 52",
 },
 },
-["prevWeeklyReset"] = 1753196400,
+["prevWeeklyReset"] = 1753801200,
 ["profiles"] = {
 ["Default"] = {
 },
@@ -23,4 +24,12 @@ BigWigs3DB = {
 }
 BigWigsIconDB = {
 }
-BigWigsStatsDB = nil
+BigWigsStatsDB = {
+[2769] = {
+[2645] = {
+["heroic"] = {
+["wipes"] = 5,
+},
+},
+},
+}

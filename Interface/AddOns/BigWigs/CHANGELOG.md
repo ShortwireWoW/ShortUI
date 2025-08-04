@@ -1,13 +1,9 @@
 # BigWigs
 
-## [v391.2](https://github.com/BigWigsMods/BigWigs/tree/v391.2) (2025-07-20)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v391.1...v391.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v392.1](https://github.com/BigWigsMods/BigWigs/tree/v392.1) (2025-08-03)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v392...v392.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update zhCN (#2095)  
-- Update zhTW (#2094)  
-- Update zhTW (#2093)  
-- Bump version  
-- Update LibSpec usage  
-- Update LibSpec usage  
-- Loader: Remove Dastardly Dome menu  
-- Loader: Handle registering callbacks during the dispatch of the same callback  
+- Update koKR (#2123)  
+- Tools/Keystones: Tweak  
+- Fix some areas where `BigWigs_Timer` wasn't being used, closes #2043  
+- Tools/Keystones: Fix a visual bug where "guild" would show "old"  

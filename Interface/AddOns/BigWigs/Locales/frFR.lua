@@ -2,7 +2,7 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "frFR")
 if not L then return end
 
-L.tempNew = "NOUVEAU : Vous pouvez écrire |cFFFFFFFF/bwtemp|r afin de voir les clefs mythiques +des membres de votre groupe."
+L.tempNew = "NOUVEAU : Vous pouvez écrire |cFFFFFFFF/key|r afin de voir les clefs mythiques +des membres de votre groupe."
 
 -- Core.lua
 L.berserk = "Berserk"
@@ -87,6 +87,7 @@ L.Destruction = "Destruction (Kil'jaeden)"
 L.RunAway = "Cours petite fille, cours (Le Grand Méchant Loup)"
 L.spell_on_you = "BigWigs : sort sur vous"
 L.spell_under_you = "BigWigs : sort en dessous de vous"
+--L.simple_no_voice = "Simple (No Voice)"
 
 -- Options.lua
 L.options = "Options"
@@ -267,16 +268,16 @@ L.H25 = "Héroïque 25"
 -- TOOLS
 -----------------------------------------------------------------------
 
---L.tools = "Tools"
---L.toolsDesc = "BigWigs provides various tools or \"quality of life\" features to speed up and simplify the process of fighting bosses. Expand the menu by clicking the |cFF33FF99+|r icon to see them all."
+L.tools = "Outils"
+L.toolsDesc = "BigWigs propose divers outils ou des fonctionnalités \"qualité de vie\" afin d'accélérer et simplifier les combats de boss. Depliez le menu en cliquant sur |cFF33FF99+|r l'icône afin de tous les voir."
 L.youAreInCombat = "Vous ne pouvez pas faire cela en combat."
 
 -----------------------------------------------------------------------
 -- AutoRole.lua
 --
 
---L.autoRoleTitle = "Auto Role"
---L.autoRoleExplainer = "Whenever you join a group, or you change your talent specialization whilst being in a group, BigWigs will automatically adjust your group role (Tank, Healer, Damager) accordingly.\n\n"
+L.autoRoleTitle = "Rôle automatique"
+L.autoRoleExplainer = "Lorsque vous rejoignez un groupe, ou que vous changez de spécialisation alors que vous êtes en groupe, BigWigs mettra à jour automatiquement votre rôle de groupe (Tank, Soigneur, Dégâts) en conséquence.\n\n"
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -295,22 +296,70 @@ L.keystoneTabOnline = "En ligne"
 L.keystoneTabAlts = "Rerolls"
 L.keystoneTabTeleports = "Téléportations"
 L.keystoneHeaderMyCharacters = "Mes personnages"
+--L.keystoneTeleportNotLearned = "The teleport spell '|cFFFFFFFF%s|r' is |cFFFF4411not learned|r yet."
+--L.keystoneTeleportOnCooldown = "The teleport spell '|cFFFFFFFF%s|r' is currently |cFFFF4411on cooldown|r for %d |4hour:hours; and %d |4minute:minutes;."
+--L.keystoneTeleportReady = "The teleport spell '|cFFFFFFFF%s|r' is |cFF33FF99ready|r, click to cast it."
+--L.keystoneTabHistory = "History"
+--L.keystoneHeaderThisWeek = "This Week"
+--L.keystoneHeaderOlder = "Older"
+--L.keystoneScoreTooltip = "Dungeon Score: |cFFFFFFFF%d|r"
+--L.keystoneScoreGainedTooltip = "Score Gained: |cFFFFFFFF+%d|r"
+--L.keystoneCompletedTooltip = "Completed in time"
+--L.keystoneFailedTooltip = "Failed to complete in time"
+--L.keystoneExplainer = "A collection of various tools to improve the Mythic+ experience."
+--L.keystoneAutoSlot = "Auto slot keystone"
+--L.keystoneAutoSlotDesc = "Automatically place your keystone into the slot when opening the keystone holder."
+--L.keystoneAutoSlotMessage = "Automatically placed %s into the keystone slot."
+--L.keystoneModuleName = "Mythic+"
+--L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
+--L.keystoneStartMessage = "%s +%d begins now!" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
+--L.keystoneCountdownExplainer = "When you start a Mythic+ dungeon a countdown will play. Choose what voice you'd like to hear and when you want the countdown to start.\n\n"
+--L.keystoneCountdownBeginsDesc = "Choose how much time should be remaining on the Mythic+ start timer when the countdown will begin to play."
+--L.keystoneCountdownBeginsSound = "Play a sound when the Mythic+ countdown starts"
+--L.keystoneCountdownEndsSound = "Play a sound when the Mythic+ countdown ends"
+--L.keystoneViewerTitle = "Keystone Viewer"
+--L.keystoneHideGuildTitle = "Hide my keystone from my guild members"
+--L.keystoneHideGuildDesc = "|cffff4411Not recommended.|r This feature will prevent your guild members seeing what keystone you have. Anyone in your group will still be able to see it."
+--L.keystoneHideGuildWarning = "Disabling the ability for your guild members to see your keystone is |cffff4411not recommended|r.\n\nAre you sure you want to do this?"
+--L.keystoneAutoShowZoneIn = "Show when entering a dungeon"
+--L.keystoneAutoShowZoneInDesc = "Automatically show the keystone viewer when entering a Mythic dungeon.\n\n|cFF33FF99This can help remind you which player owns the keystone that you're about to do.|r"
+--L.keystoneAutoShowEndOfRun = "Show when the Mythic+ is over"
+--L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
+--L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
+--L.keystoneViewerOpen = "Open the keystone viewer"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
---L.keystoneShortName_TheRookery = "ROOK"
---L.keystoneShortName_DarkflameCleft = "DFC"
---L.keystoneShortName_PrioryOfTheSacredFlame = "PRIORY"
---L.keystoneShortName_CinderbrewMeadery = "BREW"
---L.keystoneShortName_OperationFloodgate = "FLOOD"
---L.keystoneShortName_TheaterOfPain = "TOP"
---L.keystoneShortName_TheMotherlode = "ML"
---L.keystoneShortName_OperationMechagonWorkshop = "WORK"
---L.keystoneShortName_EcoDomeAldani = "ALDANI"
---L.keystoneShortName_HallsOfAtonement = "HOA"
---L.keystoneShortName_AraKaraCityOfEchoes = "ARAK"
---L.keystoneShortName_TazaveshSoleahsGambit = "GAMBIT"
---L.keystoneShortName_TazaveshStreetsOfWonder = "STREET"
---L.keystoneShortName_TheDawnbreaker = "DAWN"
+L.keystoneShortName_TheRookery = "COLONIE"
+L.keystoneShortName_DarkflameCleft = "FAILLE"
+L.keystoneShortName_PrioryOfTheSacredFlame = "PRIEURÉ"
+L.keystoneShortName_CinderbrewMeadery = "HYDROM"
+L.keystoneShortName_OperationFloodgate = "VANNES"
+L.keystoneShortName_TheaterOfPain = "SOUFFR"
+L.keystoneShortName_TheMotherlode = "FILON"
+L.keystoneShortName_OperationMechagonWorkshop = "ATELIER"
+L.keystoneShortName_EcoDomeAldani = "ALDANI"
+L.keystoneShortName_HallsOfAtonement = "EXPIA"
+L.keystoneShortName_AraKaraCityOfEchoes = "ARAK"
+L.keystoneShortName_TazaveshSoleahsGambit = "STRAT"
+L.keystoneShortName_TazaveshStreetsOfWonder = "RUES"
+L.keystoneShortName_TheDawnbreaker = "BRISE"
+
+-- These short names are for the bar that shows during the Mythic+ countdown
+-- Use the real dungeon names but make them shorter to fit on the bar better
+--L.keystoneShortName_TheRookery_Bar = "Rookery"
+--L.keystoneShortName_DarkflameCleft_Bar = "Darkflame"
+--L.keystoneShortName_PrioryOfTheSacredFlame_Bar = "Priory"
+--L.keystoneShortName_CinderbrewMeadery_Bar = "Cinderbrew"
+--L.keystoneShortName_OperationFloodgate_Bar = "Floodgate"
+--L.keystoneShortName_TheaterOfPain_Bar = "Theater"
+--L.keystoneShortName_TheMotherlode_Bar = "Motherlode"
+--L.keystoneShortName_OperationMechagonWorkshop_Bar = "Workshop"
+--L.keystoneShortName_EcoDomeAldani_Bar = "Al'dani"
+--L.keystoneShortName_HallsOfAtonement_Bar = "Halls"
+--L.keystoneShortName_AraKaraCityOfEchoes_Bar = "Ara-Kara"
+--L.keystoneShortName_TazaveshSoleahsGambit_Bar = "Gambit"
+--L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "Streets"
+--L.keystoneShortName_TheDawnbreaker_Bar = "Dawnbreaker"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -517,6 +566,7 @@ L.redirectPopupsColor = "Couleur du message redirigé"
 L.blockDungeonPopups = "Bloque les popups de donjons"
 L.blockDungeonPopupsDesc = "Les popups qui s'affichent lorsque vous entrez dans un donjon contiennent parfois beaucoup de texte. Activer cette option désactivera complètement ces messages."
 L.itemLevel = "Niveau d'objet %d"
+--L.newRespawnPoint = "New Respawn Point"
 
 L.userNotifySfx = "Les effets sonores étaient désactivés par BossBlock, la réactivation a été forcée."
 L.userNotifyMusic = "La musique était désactivée par BossBlock, la réactivation a été forcée."

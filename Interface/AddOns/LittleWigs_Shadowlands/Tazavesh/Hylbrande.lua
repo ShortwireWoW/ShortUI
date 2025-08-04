@@ -36,23 +36,31 @@ function mod:GetOptions()
 		347094, -- Titanic Crash
 		{346957, "SAY"}, -- Purged by Fire
 		346766, -- Sanitizing Cycle
-		"vault_purifier", -- Vault Purifier
-	}, nil, {
+		"vault_purifier", -- Vault Purifier (Adds)
+		-- Hard Mode
+		358131, -- Lightning Nova
+	}, {
+		[358131] = CL.hard,
+	}, {
 		["vault_purifier"] = CL.adds,
 	}
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("CHAT_MSG_RAID_BOSS_WHISPER")
-	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1")
 	self:Log("SPELL_CAST_START", "PurifyingBurst", 353312)
 	self:Log("SPELL_CAST_SUCCESS", "ShearingSwings", 346116)
 	self:Log("SPELL_CAST_START", "TitanicCrash", 347094)
+	self:RegisterEvent("CHAT_MSG_RAID_BOSS_WHISPER") -- Purged By Fire
 	self:Log("SPELL_CAST_START", "PurgedByFire", 346957)
 	self:Log("SPELL_DAMAGE", "PurgedByFireDamage", 346960)
 	self:Log("SPELL_MISSED", "PurgedByFireDamage", 346960)
 	self:Log("SPELL_CAST_START", "SanitizingCycle", 346766)
+	self:Log("SPELL_CAST_SUCCESS", "SanitizingCycleSuccess", 346766)
 	self:Log("SPELL_AURA_REMOVED", "SanitizingCycleRemoved", 346766)
+	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1") -- Vault Purifier
+
+	-- Hard Mode
+	self:Log("SPELL_CAST_START", "LightningNova", 358131)
 end
 
 function mod:OnEngage()
@@ -62,24 +70,12 @@ function mod:OnEngage()
 	self:CDBar(346957, 10.5) -- Purged by Fire
 	self:CDBar(347094, 15.4) -- Titanic Crash
 	self:CDBar("vault_purifier", 19, CL.adds, L.vault_purifier_icon) -- Vault Purifier
-	self:CDBar(346766, 38.0) -- Sanitizing Cycle
+	self:CDBar(346766, 40.0) -- Sanitizing Cycle
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
-
-function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
-	if spellId == 346971 then -- [DNT] Summon Vault Defender
-		self:Message("vault_purifier", "yellow", CL.adds_spawning, L.vault_purifier_icon)
-		if nextSanitizingCycle - GetTime() > 29.8 then
-			self:CDBar("vault_purifier", 27.8, CL.adds, L.vault_purifier_icon)
-		else
-			self:StopBar(CL.adds)
-		end
-		self:PlaySound("vault_purifier", "info")
-	end
-end
 
 function mod:PurifyingBurst(args)
 	self:Message(args.spellId, "yellow")
@@ -140,24 +136,24 @@ do
 	end
 end
 
+function mod:SanitizingCycle()
+	self:StopBar(353312) -- Purifying Burst
+	self:StopBar(346116) -- Shearing Swings
+	self:StopBar(346957) -- Purged by Fire
+	self:StopBar(CL.adds) -- Vault Purifier
+	self:StopBar(347094) -- Titanic Crash
+end
+
 do
 	local sanitizingCycleStart = 0
 
-	function mod:SanitizingCycle(args)
-		-- SPELL_CAST_START fires twice for this spell at the exact same time XXX fixed in 11.2
-		if args.time - sanitizingCycleStart > 1.5 then
-			self:SetStage(2)
-			sanitizingCycleStart = args.time
-			nextSanitizingCycle = 0
-			self:Message(args.spellId, "cyan")
-			self:StopBar(args.spellId)
-			self:StopBar(353312) -- Purifying Burst
-			self:StopBar(346116) -- Shearing Swings
-			self:StopBar(346957) -- Purged by Fire
-			self:StopBar(CL.adds) -- Vault Purifier
-			self:StopBar(347094) -- Titanic Crash
-			self:PlaySound(args.spellId, "long")
-		end
+	function mod:SanitizingCycleSuccess(args)
+		sanitizingCycleStart = args.time
+		nextSanitizingCycle = 0
+		self:SetStage(2)
+		self:StopBar(args.spellId)
+		self:Message(args.spellId, "cyan")
+		self:PlaySound(args.spellId, "long")
 	end
 
 	function mod:SanitizingCycleRemoved(args)
@@ -176,4 +172,23 @@ do
 		self:CDBar(args.spellId, 69.4)
 		self:PlaySound(args.spellId, "long")
 	end
+end
+
+function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
+	if spellId == 346971 then -- [DNT] Summon Vault Defender
+		self:Message("vault_purifier", "yellow", CL.adds_spawning, L.vault_purifier_icon)
+		if nextSanitizingCycle - GetTime() > 29.8 then
+			self:CDBar("vault_purifier", 27.8, CL.adds, L.vault_purifier_icon)
+		else
+			self:StopBar(CL.adds)
+		end
+		self:PlaySound("vault_purifier", "info")
+	end
+end
+
+-- Hard Mode
+
+function mod:LightningNova(args)
+	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+	self:PlaySound(args.spellId, "alert")
 end
