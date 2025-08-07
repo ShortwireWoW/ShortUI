@@ -4,10 +4,7 @@ VMRT = {
 ["BlackNames"] = {
 },
 ["Strata"] = "HIGH",
-["Black"] = {
-"",
-"",
-"",
+["BlackLastUpdateTime"] = {
 },
 ["FontSize"] = 12,
 ["AutoLoad"] = {
@@ -15,19 +12,22 @@ VMRT = {
 ["PersonalHeight"] = 200,
 ["CustomRoster"] = {
 },
+["Width"] = 299.9999389648438,
+["BlackLastUpdateName"] = {
+},
+["PersonalWidth"] = 299.9999389648438,
+["OnlyPromoted"] = true,
+["Black"] = {
+"",
+"",
+"",
+},
+["Height"] = 200,
 ["Profiles"] = {
 ["Now"] = "default",
 ["List"] = {
 },
 },
-["BlackLastUpdateName"] = {
-},
-["PersonalWidth"] = 299.9999389648438,
-["OnlyPromoted"] = true,
-["BlackLastUpdateTime"] = {
-},
-["Height"] = 200,
-["Width"] = 299.9999389648438,
 ["OptionsFormatting"] = true,
 },
 ["ProfileKeys"] = {
@@ -81,19 +81,19 @@ VMRT = {
 ["Larryseller"] = 70,
 ["Anòra-Stormrage"] = 258,
 ["Yourgirlalia-Thrall"] = 105,
-["Nanoirzero-Kel'Thuzad"] = 62,
-["Shortbowjob"] = 253,
-["Jynbearso-Stormrage"] = 104,
 ["Zelvarak-Quel'Thalas"] = 253,
+["Mürciélago-Illidan"] = 577,
+["Jynbearso-Stormrage"] = 104,
+["Nanoirzero-Kel'Thuzad"] = 62,
 ["Saltylegolas"] = 254,
 ["Statick-Azshara"] = 262,
-["Mürciélago-Illidan"] = 577,
+["Shortbowjob"] = 253,
 ["Onfleek-Gorefiend"] = 257,
 ["Shamanism-Stormreaver"] = 264,
 ["Twistedwilds-Illidan"] = 103,
 ["Romullus-Draenor"] = 265,
 ["Starksr"] = 258,
-["Shortloch"] = 1454,
+["Shortloch"] = 265,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -395,18 +395,18 @@ true,
 },
 ["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["v55"] = true,
+["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
 ["removed"] = {
 },
-["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
 ["Profile"] = 1,
 ["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
 ["profilesinfo"] = {
 },
 ["v38"] = true,
 ["v21"] = true,
+["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
 ["TLHistory"] = {
 },
-["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
 },
 ["Addon"] = {
 ["Version"] = 5195,
@@ -428,8 +428,6 @@ true,
 ["Timer"] = 0.1,
 ["EJ_CHECK_VER"] = 110107,
 },
-["Profiles"] = {
-},
 ["LootHistory"] = {
 ["instanceNames"] = {
 [2681] = "Kriegval's Rest",
@@ -447,6 +445,8 @@ true,
 "1754097516#0#2681#208#Shortbowjob#3#1#item:230905::::::::80:253:::::::::",
 "1754098183#0#2681#208#Shortbowjob#3#1#item:230905::::::::80:253:::::::::",
 },
+},
+["Profiles"] = {
 },
 ["BossWatcher"] = {
 ["optionsDamageGraph"] = true,

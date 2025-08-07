@@ -8,7 +8,7 @@ BigWigs3DB = {
 },
 ["myKeystones"] = {
 ["Player-3676-0EA88AB6"] = {
-["playerRating"] = 2379,
+["playerRating"] = 0,
 ["specId"] = 253,
 ["keyMap"] = 0,
 ["name"] = "Shortbowjob",
@@ -16,7 +16,7 @@ BigWigs3DB = {
 ["realm"] = "Area 52",
 },
 },
-["prevWeeklyReset"] = 1753801200,
+["prevWeeklyReset"] = 1754406000,
 ["profiles"] = {
 ["Default"] = {
 },
@@ -33,3 +33,4 @@ BigWigsStatsDB = {
 },
 },
 }
+BigWigsTempKeystones = true

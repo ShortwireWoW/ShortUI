@@ -4,7 +4,10 @@ VMRT = {
 ["BlackNames"] = {
 },
 ["FontSize"] = 12,
-["BlackLastUpdateTime"] = {
+["Black"] = {
+"",
+"",
+"",
 },
 ["Strata"] = "HIGH",
 ["AutoLoad"] = {
@@ -12,21 +15,18 @@ VMRT = {
 ["OptionsFormatting"] = true,
 ["CustomRoster"] = {
 },
+["Width"] = 299.9999389648438,
+["BlackLastUpdateName"] = {
+},
+["PersonalWidth"] = 299.9999389648438,
+["OnlyPromoted"] = true,
 ["Profiles"] = {
 ["Now"] = "default",
 ["List"] = {
 },
 },
-["BlackLastUpdateName"] = {
-},
-["PersonalWidth"] = 299.9999389648438,
-["OnlyPromoted"] = true,
-["Width"] = 299.9999389648438,
 ["Height"] = 200,
-["Black"] = {
-"",
-"",
-"",
+["BlackLastUpdateTime"] = {
 },
 ["PersonalHeight"] = 200,
 },
@@ -81,19 +81,19 @@ VMRT = {
 ["Larryseller"] = 70,
 ["Anòra-Stormrage"] = 258,
 ["Yourgirlalia-Thrall"] = 105,
-["Shortloch"] = 1454,
+["Shortloch"] = 265,
 ["Starksr"] = 258,
 ["Romullus-Draenor"] = 265,
-["Nanoirzero-Kel'Thuzad"] = 62,
+["Zelvarak-Quel'Thalas"] = 253,
 ["Saltylegolas"] = 254,
 ["Twistedwilds-Illidan"] = 103,
-["Shortbowjob"] = 253,
+["Mürciélago-Illidan"] = 577,
 ["Shamanism-Stormreaver"] = 264,
 ["Onfleek-Gorefiend"] = 257,
 ["Statick-Azshara"] = 262,
 ["Jynbearso-Stormrage"] = 104,
-["Mürciélago-Illidan"] = 577,
-["Zelvarak-Quel'Thalas"] = 253,
+["Shortbowjob"] = 253,
+["Nanoirzero-Kel'Thuzad"] = 62,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -359,27 +359,38 @@ true,
 },
 ["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["v55"] = true,
+["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
 ["TLHistory"] = {
 },
-["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
 ["Profile"] = 1,
 ["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
 ["profilesinfo"] = {
 },
 ["v38"] = true,
 ["v21"] = true,
-["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
 ["removed"] = {
 },
+["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
 },
 ["Addon"] = {
 ["Version"] = 5195,
-["EJ_CHECK_VER_PTR"] = "61967",
+["EJ_CHECK_VER_PTR"] = "62438",
 ["PreVersion"] = 5195,
 ["EJ_DATA"] = {
 ["MapIDToJournalInstance"] = {
 },
 ["EncountersList_dung"] = {
+{
+1989,
+2425,
+2441,
+2424,
+2440,
+2437,
+2426,
+2419,
+2442,
+},
 },
 ["encounterIDtoEJ"] = {
 },
@@ -389,7 +400,7 @@ true,
 ["EncountersList_raid"] = {
 },
 },
-["EJ_CHECK_VER"] = 110107,
+["EJ_CHECK_VER"] = 110200,
 ["Timer"] = 0.1,
 },
 ["Interrupts"] = {
@@ -415,24 +426,6 @@ true,
 ["trackingDamageSpells"] = {
 },
 },
-["Profiles"] = {
-},
-["Profile"] = "default",
-["LootLink"] = {
-},
-["RaidGroups"] = {
-["SplitParts"] = 2,
-["upd4550"] = true,
-["profiles"] = {
-},
-["KeepPosInGroup"] = true,
-["SplitGroups"] = {
-true,
-true,
-true,
-true,
-},
-},
 ["LootHistory"] = {
 ["list"] = {
 "1753647780#0#2681#208#Shortbowjob#3#1#item:230905::::::::80:253:::::::::",
@@ -450,6 +443,24 @@ true,
 [2681] = "Kriegval's Rest",
 [2552] = "Khaz Algar (Surface)",
 },
+},
+["Profile"] = "default",
+["LootLink"] = {
+},
+["RaidGroups"] = {
+["SplitParts"] = 2,
+["upd4550"] = true,
+["profiles"] = {
+},
+["KeepPosInGroup"] = true,
+["SplitGroups"] = {
+true,
+true,
+true,
+true,
+},
+},
+["Profiles"] = {
 },
 ["Logging"] = {
 },

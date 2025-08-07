@@ -14,9 +14,6 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
-["Statick-Azshara"] = 1754098821,
-["Zelvarak-Quel'Thalas"] = 1754098834,
-["Saltylegolas-Area52"] = 1754098834,
 },
 },
 ["damagerRoleGuildCache"] = {
