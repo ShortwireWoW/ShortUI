@@ -14,7 +14,7 @@ local strfind = string.find
 
 local BIGWIGS_VERSION = 392
 local CONTENT_PACK_VERSIONS = {
-	["LittleWigs"] = {11, 1, 66},
+	["LittleWigs"] = {11, 2, 4},
 	["BigWigs_Classic"] = {11, 1, 52},
 	["BigWigs_BurningCrusade"] = {11, 1, 4},
 	["BigWigs_WrathOfTheLichKing"] = {11, 1, 7},
@@ -56,7 +56,7 @@ do
 	local ALPHA = "ALPHA"
 
 	local releaseType
-	local myGitHash = "2f5ef1f" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "15f0258" -- The ZIP packager will replace this with the Git hash.
 	local releaseString
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -133,11 +133,14 @@ public.GetSpellLink = C_Spell.GetSpellLink
 public.GetSpellName = C_Spell.GetSpellName
 public.GetSpellTexture = C_Spell.GetSpellTexture
 public.IsItemInRange = C_Item.IsItemInRange
+public.IsSpellKnownOrInSpellBook = C_SpellBook.IsSpellKnownOrInSpellBook -- XXX [Mainline:✓ MoP:✗ Wrath:✗ Vanilla:✗]
+public.IsPlayerSpell = public.IsSpellKnownOrInSpellBook or IsPlayerSpell
+public.IsSpellKnown = public.IsSpellKnownOrInSpellBook or IsSpellKnown
 public.PlaySoundFile = PlaySoundFile
 public.RegisterAddonMessagePrefix = RegisterAddonMessagePrefix
 public.SendAddonMessage = SendAddonMessage
 public.SetRaidTarget = SetRaidTarget
-public.SendChatMessage = C_ChatInfo and C_ChatInfo.SendChatMessage or SendChatMessage -- XXX [11.1.7:✗ 11.2:✓ MoP:✗ Wrath:✗ Vanilla:✗]
+public.SendChatMessage = C_ChatInfo and C_ChatInfo.SendChatMessage or SendChatMessage -- XXX [Mainline:✓ MoP:✗ Wrath:✗ Vanilla:✗]
 public.UnitCanAttack = UnitCanAttack
 public.UnitDetailedThreatSituation = UnitDetailedThreatSituation
 public.UnitThreatSituation = UnitThreatSituation
@@ -155,7 +158,7 @@ public.isTestBuild = IsPublicTestClient and IsPublicTestClient() -- PTR/beta XXX
 do
 	local _, _, _, build = GetBuildInfo()
 	public.isBeta = build >= 120000
-	public.isNext = build >= 110200
+	public.isNext = build >= 110205
 end
 
 -- Version
@@ -221,6 +224,7 @@ do
 			bigWigsBundled = {},
 			littlewigsDefault = lw_c,
 			littleWigsBundled = {},
+			currentSeason = {},
 			zones = {},
 		}
 	elseif public.isTBC then
@@ -229,6 +233,7 @@ do
 			bigWigsBundled = {},
 			littlewigsDefault = lw_bc,
 			littleWigsBundled = {},
+			currentSeason = {},
 			zones = {},
 		}
 	elseif public.isWrath then
@@ -237,6 +242,7 @@ do
 			bigWigsBundled = {},
 			littlewigsDefault = lw_wotlk,
 			littleWigsBundled = {},
+			currentSeason = {},
 			zones = {},
 		}
 	elseif public.isCata then
@@ -245,6 +251,7 @@ do
 			bigWigsBundled = {},
 			littlewigsDefault = lw_cata,
 			littleWigsBundled = {},
+			currentSeason = {},
 			zones = {},
 		}
 	elseif public.isMists then
@@ -253,6 +260,7 @@ do
 			bigWigsBundled = {},
 			littlewigsDefault = lw_mists,
 			littleWigsBundled = {},
+			currentSeason = {},
 			zones = {},
 		}
 	--elseif public.isBeta and public.isTestBuild then -- Retail Beta
@@ -273,6 +281,7 @@ do
 	--			lw_delves,
 	--			lw_cs,
 	--		},
+	--		currentSeason = {},
 	--		zones = {
 	--			[2657] = "BigWigs_NerubarPalace",
 	--		}
@@ -293,10 +302,21 @@ do
 				lw_delves,
 				lw_cs,
 			},
+			currentSeason = {
+				[2212] = lw_cs, -- Horrific Vision of Orgrimmar
+				[2213] = lw_cs, -- Horrific Vision of Stormwind
+				[2287] = lw_cs, -- Halls of Atonement
+				[2441] = lw_cs, -- Tazavesh, the Veiled Market
+				[2649] = lw_cs, -- Priory of the Sacred Flame
+				[2660] = lw_cs, -- Ara-Kara, City of Echoes
+				[2662] = lw_cs, -- The Dawnbreaker
+				[2773] = lw_cs, -- Operation: Floodgate
+				[2830] = lw_cs, -- Eco-Dome Al'dani
+			},
 			zones = {
 				[2657] = "BigWigs_NerubarPalace",
 				[2769] = "BigWigs_LiberationOfUndermine",
-				[2810] = public.isNext and "BigWigs_ManaforgeOmega" or nil,
+				[2810] = "BigWigs_ManaforgeOmega"
 			}
 		}
 	end
@@ -499,25 +519,25 @@ do
 		[1864] = lw_bfa, -- Shrine of the Storm
 		[1822] = lw_bfa, -- Siege of Boralus
 		[1877] = lw_bfa, -- Temple of Sethraliss
-		[1594] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- The MOTHERLODE!!
+		[1594] = lw_bfa, -- The MOTHERLODE!!
 		[1771] = lw_bfa, -- Tol Dagor
-		[1841] = lw_bfa, -- Underrot
+		[1841] = lw_bfa, -- The Underrot
 		[1862] = lw_bfa, -- Waycrest Manor
-		[2097] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Operation: Mechagon
-		[2212] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Orgrimmar
-		[2213] = (public.isRetail and not public.isNext) and {lw_bfa, lw_cs} or lw_bfa, -- Horrific Vision of Stormwind
+		[2097] = lw_bfa, -- Operation: Mechagon
+		[2212] = lw_bfa, -- Horrific Vision of Orgrimmar
+		[2213] = lw_bfa, -- Horrific Vision of Stormwind
 		[2827] = lw_bfa, -- Horrific Vision of Stormwind (Revisited)
 		[2828] = lw_bfa, -- Horrific Vision of Orgrimmar (Revisited)
 		--[[ LittleWigs: Shadowlands ]]--
 		[2284] = lw_s, -- Sanguine Depths
 		[2285] = lw_s, -- Spires of Ascension
 		[2286] = lw_s, -- The Necrotic Wake
-		[2287] = (public.isRetail and public.isNext) and {lw_s, lw_cs} or lw_s, -- Halls of Atonement
+		[2287] = lw_s, -- Halls of Atonement
 		[2289] = lw_s, -- Plaguefall
 		[2290] = lw_s, -- Mists of Tirna Scithe
 		[2291] = lw_s, -- De Other Side
-		[2293] = (public.isRetail and not public.isNext) and {lw_s, lw_cs} or lw_s, -- Theater of Pain
-		[2441] = (public.isRetail and public.isNext) and {lw_s, lw_cs} or lw_s, -- Tazavesh, the Veiled Market
+		[2293] = lw_s, -- Theater of Pain
+		[2441] = lw_s, -- Tazavesh, the Veiled Market
 		--[[ LittleWigs: Dragonflight ]]--
 		[2451] = lw_df, -- Uldaman: Legacy of Tyr
 		[2515] = lw_df, -- The Azure Vault
@@ -529,18 +549,18 @@ do
 		[2527] = lw_df, -- Halls of Infusion
 		[2579] = lw_df, -- Dawn of the Infinite
 		--[[ LittleWigs: The War Within ]]--
-		[2648] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- The Rookery
-		[2649] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Priory of the Sacred Flame
-		[2651] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Darkflame Cleft
+		[2648] = lw_tww, -- The Rookery
+		[2649] = lw_tww, -- Priory of the Sacred Flame
+		[2651] = lw_tww, -- Darkflame Cleft
 		[2652] = lw_tww, -- The Stonevault
-		[2660] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Ara-Kara, City of Echoes
-		[2661] = (public.isRetail and not public.isNext) and {lw_tww, lw_cs} or lw_tww, -- Cinderbrew Meadery
-		[2662] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or lw_tww, -- The Dawnbreaker
+		[2660] = lw_tww, -- Ara-Kara, City of Echoes
+		[2661] = lw_tww, -- Cinderbrew Meadery
+		[2662] = lw_tww, -- The Dawnbreaker
 		[2669] = lw_tww, -- City of Threads
 		[2710] = lw_tww, -- Awakening the Machine
-		[2773] = public.isRetail and {lw_tww, lw_cs} or lw_tww, -- Operation: Floodgate
-		[2830] = (public.isRetail and public.isNext) and {lw_tww, lw_cs} or nil, -- Eco-Dome Al'dani
-		--[2849] = public.isRetail and lw_cs or nil, -- Dastardly Dome
+		[2773] = lw_tww, -- Operation: Floodgate
+		[2830] = lw_tww, -- Eco-Dome Al'dani
+		--[2849] = lw_tww, -- Dastardly Dome
 		--[[ LittleWigs: Delves ]]--
 		[2664] = lw_delves, -- Fungal Folly
 		[2679] = lw_delves, -- Mycomancer Cavern
@@ -1372,9 +1392,7 @@ do
 					DisableAddOn(i)
 					local msg = L.removeAddOn:format(name, old[name])
 					delayedMessages[#delayedMessages+1] = msg
-					if not BasicMessageDialog:IsShown() then -- Don't overwrite other messages with this as the message is confusing, show it last
-						Popup(msg, true)
-					end
+					Popup(msg, true)
 				else
 					EnableAddOn(i) -- XXX temp as we were accidentally disabling the Shadowlands addon for a while
 				end
@@ -1403,10 +1421,10 @@ do
 				local wowMajor, wowMinor, actualVersion = tonumber(wowMajorStr), tonumber(wowMinorStr), tonumber(actualVersionStr)
 				if wowMajor and wowMinor and actualVersion then
 					local versionDifference = addonToCheck[3] - actualVersion
-					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference > 0 then -- Any version difference = chat print
+					if addonToCheck[1] > wowMajor or (addonToCheck[1] == wowMajor and addonToCheck[2] > wowMinor) or (addonToCheck[1] == wowMajor and addonToCheck[2] == wowMinor and versionDifference > 0) then -- Any version difference = chat print
 						delayedMessages[#delayedMessages+1] = L.outOfDateAddOnRaidWarning:format(name, wowMajor, wowMinor, actualVersion, addonToCheck[1], addonToCheck[2], addonToCheck[3])
 					end
-					if addonToCheck[1] ~= wowMajor or addonToCheck[2] ~= wowMinor or versionDifference >= 3 then -- Large version difference = popup
+					if addonToCheck[1] > wowMajor or (addonToCheck[1] == wowMajor and addonToCheck[2] > wowMinor) or (addonToCheck[1] == wowMajor and addonToCheck[2] == wowMinor and versionDifference >= 3) then -- Large version difference = popup
 						Popup(L.outOfDateAddOnPopup:format(name), true)
 					end
 				elseif not strfind(meta, "@", nil, true) then -- Don't error for repo users
@@ -1576,9 +1594,9 @@ end
 --
 
 do
-	local DBMdotRevision = "20250720225837" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "11.2.4" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20250720000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20250808133035" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "11.2.6" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20250808000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 	local protocol = 3
 	local versionPrefix = "V"
 	local PForceDisable = 19
@@ -1884,10 +1902,6 @@ do
 		-- Lacking zone modules
 		if not public.db.profile.showZoneMessages then return end
 		local zoneAddon = public.zoneTbl[id]
-		if type(zoneAddon) == "table" then
-			-- default to the expansion addon for current season modules
-			zoneAddon = zoneAddon[1]
-		end
 		if zoneAddon and id > 0 and not fakeZones[id] and not warnedThisZone[id] then
 			if public.usingBigWigsRepo and public.currentExpansion.bigWigsBundled[zoneAddon] then return end -- If we are a BW Git user, then bundled content can't be missing, so return
 			if strfind(zoneAddon, "LittleWigs", nil, true) and public.usingLittleWigsRepo then return end -- If we are a LW Git user, then nothing can be missing, so return
@@ -1996,10 +2010,6 @@ public.RegisterMessage(mod, "BigWigs_BossModuleRegistered")
 function mod:BigWigs_CoreEnabled()
 	local _, _, _, _, _, _, _, id = GetInstanceInfo()
 	local zoneAddon = public.zoneTbl[id]
-	if type(zoneAddon) == "table" then
-		-- default to the expansion addon for current season modules
-		zoneAddon = zoneAddon[1]
-	end
 	if zoneAddon and zoneAddon:find("LittleWigs", nil, true) then
 		dataBroker.icon = "Interface\\AddOns\\BigWigs\\Media\\Icons\\minimap_party.tga"
 	elseif zoneAddon and zoneAddon:find("BigWigs", nil, true) and zoneAddon ~= public.currentExpansion.name then

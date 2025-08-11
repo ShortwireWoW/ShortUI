@@ -531,20 +531,6 @@ local schemas = {
                   type = "boolean",
                 },
               },
-              {
-                name = "constrained",
-                type = "schemaArray",
-                fields = {
-                  {
-                    name = "index",
-                    type = "number",
-                  },
-                  {
-                    name = "amount",
-                    type = "number",
-                  },
-                },
-              },
             },
           },
         },

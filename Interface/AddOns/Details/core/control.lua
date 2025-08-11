@@ -523,6 +523,8 @@
 
 		Details222.GuessSpecSchedules.ClearSchedules()
 
+		Details:SetDeathLogTemporaryLimit(nil)
+
 		--Details222.TimeCapture.StopCombat() --it did not start
 
 		--check if this isn't a boss and try to find a boss in the segment
@@ -915,6 +917,7 @@
 		--issue: invalidCombat will be just floating around in memory if not destroyed
 	end --end of leaving combat function
 
+	--~arena
 	---@class arena_ally : table
 	---@field role string
 	---@field guid string
@@ -947,6 +950,40 @@
 			local enemyName = Details:GetFullName("arena" .. i)
 			if (enemyName) then
 				Details.arena_enemies[enemyName] = "arena" .. i
+			end
+		end
+	end
+
+	---@param self details
+	---@param actorObject actor
+	function Details:ArenaPlayerCreated(actorObject)
+		if (actorObject:IsPlayer()) then
+			if (UnitIsUnit("player", actorObject.nome)) then
+				return
+			end
+
+			for i = 1, GetNumGroupMembers()-1 do
+				local unitId = "party" .. i
+				if (UnitExists(unitId) and actorObject.nome == Details:GetFullName(unitId)) then
+					actorObject.arena_ally = true
+					local role = UnitGroupRolesAssigned and UnitGroupRolesAssigned("player") or "DAMAGER"
+					Details.arena_table[actorObject.nome] = {role = role, guid = UnitGUID(unitId)}
+					Details222.ArenaSummary.NewPlayer(actorObject, true, unitId)
+					return
+				end
+			end
+
+			local enemiesAmount = GetNumArenaOpponentSpecs and GetNumArenaOpponentSpecs() or 5
+			for i = 1, enemiesAmount do
+				local unitId = "arena" .. i
+				if (UnitExists(unitId) and actorObject.nome == Details:GetFullName(unitId)) then
+					actorObject.enemy = true
+					actorObject.arena_enemy = true
+					local role = UnitGroupRolesAssigned and UnitGroupRolesAssigned(unitId) or "DAMAGER"
+					Details.arena_enemies[actorObject.nome] = unitId
+					Details222.ArenaSummary.NewPlayer(actorObject, false, unitId)
+					return
+				end
 			end
 		end
 	end
@@ -1062,7 +1099,10 @@
 	local isInArena = false
 	local arenaStarted = false
 	local tdebugframe = CreateFrame("Frame", "DetailsParserDebugFrameASD", UIParent)
-	tdebugframe:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+
+	if (detailsFramework.IsDragonflightAndBeyond()) then
+		tdebugframe:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+	end
 
 	tdebugframe:SetScript("OnEvent", function(self, event, ...)
 		local zoneName, instanceType = GetInstanceInfo()
@@ -1081,15 +1121,20 @@
 			return
 		end
 
-		--C_PvP.IsMatchActive() is true even before the arena match starts
-		if (C_PvP.IsMatchActive() and not arenaStarted) then
-			arenaStarted = true
+        if (C_PvP and C_PvP.IsMatchActive) then -- retail check
+            --C_PvP.IsMatchActive() is true even before the arena match starts
+            if (C_PvP.IsMatchActive() and not arenaStarted) then
+                arenaStarted = true
 
-		elseif (not C_PvP.IsMatchActive() and arenaStarted) then
-			arenaStarted = false
-			Details:LeftArena()
-			Details.is_in_arena = false
-		end
+            elseif (not C_PvP.IsMatchActive() and arenaStarted) then
+				--print("not C_PvP.IsMatchActive()")
+                arenaStarted = false
+				C_Timer.After(1, function()
+                	Details:LeftArena()
+                	Details.is_in_arena = false
+				end)
+            end
+        end
 	end)
 
 	--return the GetTime() of the current or latest arena match
@@ -1134,6 +1179,10 @@
 			Details:Msg("(debug) player LeftArena().")
 		end
 
+		if (not Details.is_in_arena) then
+			return
+		end
+
 		Details.is_in_arena = false
 		Details.arena_begun = false
 
@@ -1146,6 +1195,15 @@
 
 		Details:TimeDataUnregister("Your Team Healing")
 		Details:TimeDataUnregister("Enemy Team Healing")
+
+		Details:EndCombat()
+
+		--block captures
+		Details:CaptureSet(false, "damage", false, 15)
+		Details:CaptureSet(false, "energy", false, 15)
+		Details:CaptureSet(false, "aura", false, 15)
+		Details:CaptureSet(false, "energy", false, 15)
+		Details:CaptureSet(false, "spellcast", false, 15)
 
 		Details:SendEvent("COMBAT_ARENA_END")
 

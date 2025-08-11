@@ -881,77 +881,6 @@ local function POI_SetOptions(frame, type, poi)
     end)
   end
 
-  if type == "EDAItem1" then
-    local itemTexture = 6891020
-    local itemSpellId = 1239141
-    local itemDescription = L["EDAItem1Description"]
-
-    frame.Texture:SetTexture(itemTexture)
-    frame.HighlightTexture:SetAtlas("bags-innerglow")
-
-    frame:SetSize(8, 8)
-    frame.Texture:SetSize(10, 10)
-    frame.HighlightTexture:SetSize(10, 10)
-
-    frame:SetScript("OnEnter", function()
-      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-      GameTooltip:SetSpellByID(itemSpellId)
-      GameTooltip:AddLine(" ")
-      GameTooltip:AddLine(itemDescription, 1, 1, 1)
-      GameTooltip:Show()
-      frame.HighlightTexture:Show()
-    end)
-    frame:SetScript("OnLeave", function()
-      GameTooltip:Hide()
-      frame.HighlightTexture:Hide()
-    end)
-  end
-  if type == "EDAItem2" then
-    local itemTexture = 4037124
-    local itemSpellId = 1236971
-
-    frame.Texture:SetTexture(itemTexture)
-    frame.HighlightTexture:SetAtlas("bags-innerglow")
-
-    frame:SetSize(8, 8)
-    frame.Texture:SetSize(10, 10)
-    frame.HighlightTexture:SetSize(10, 10)
-
-    frame:SetScript("OnEnter", function()
-      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-      GameTooltip:SetSpellByID(itemSpellId)
-      GameTooltip:Show()
-      frame.HighlightTexture:Show()
-    end)
-    frame:SetScript("OnLeave", function()
-      GameTooltip:Hide()
-      frame.HighlightTexture:Hide()
-    end)
-  end
-
-  if type == "EDAItem3" then
-    local itemTexture = 6891021
-    local itemSpellId = 1239229
-
-    frame.Texture:SetTexture(itemTexture)
-    frame.HighlightTexture:SetAtlas("bags-innerglow")
-
-    frame:SetSize(8, 8)
-    frame.Texture:SetSize(10, 10)
-    frame.HighlightTexture:SetSize(10, 10)
-
-    frame:SetScript("OnEnter", function()
-      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-      GameTooltip:SetSpellByID(itemSpellId)
-      GameTooltip:Show()
-      frame.HighlightTexture:Show()
-    end)
-    frame:SetScript("OnLeave", function()
-      GameTooltip:Hide()
-      frame.HighlightTexture:Hide()
-    end)
-  end
-
   if type == "araKaraItem" then
     local itemTexture = 237431
     local itemSpellId = 439208
@@ -988,30 +917,6 @@ local function POI_SetOptions(frame, type, poi)
     frame:SetSize(12, 12)
     frame.Texture:SetSize(12, 12)
     frame.HighlightTexture:SetSize(12, 12)
-
-    frame:SetScript("OnEnter", function()
-      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-      GameTooltip:SetSpellByID(itemSpellId)
-      GameTooltip:AddLine(" ")
-      GameTooltip:AddLine(itemDescription, 1, 1, 1)
-      GameTooltip:Show()
-      frame.HighlightTexture:Show()
-    end)
-    frame:SetScript("OnLeave", function()
-      GameTooltip:Hide()
-      frame.HighlightTexture:Hide()
-    end)
-  end
-  if type == "dfcItem" then
-    local itemTexture = 2061718
-    local itemSpellId = 420307
-
-    frame.Texture:SetTexture(itemTexture)
-    frame.HighlightTexture:SetAtlas("bags-innerglow")
-
-    frame:SetSize(8, 8)
-    frame.Texture:SetSize(8, 8)
-    frame.HighlightTexture:SetSize(8, 8)
 
     frame:SetScript("OnEnter", function()
       GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")

@@ -1,6 +1,20 @@
 local _, NS = ...
 
 local changelog = [=[
+### v2.8.23
+-   Invigorating Healing Potion merged to Algari Healing Potion
+-   Legion of Souls will correctly replace Army of the Dead
+-   Apocalypse will correctly replace Dark Transformation
+
+### v2.8.22
+-   Update for Patch 11.2
+-   MoP: add missing pvp set bonus items
+
+### v2.8.20
+-   Update for Patch 11.2_XPTR_
+-   MoP: Add missing pvp item IDs (Dreadful, Crafted, Elite, ...)
+-   MoP: Add Guard (Brewmaster)
+
 ### v2.8.19
 -   Fix interrupted target marker
 -   Sync Healthstone stacks

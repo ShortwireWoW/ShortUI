@@ -519,7 +519,7 @@ function MDT:UpdateEnemyInfoFrame(enemyIdx)
   local f = MDT.EnemyInfoFrame
   f:SetTitle(L[data.name])
   f.model:SetDisplayInfo(data.displayId or 39490)
-  if f.model.ResetModel then f.model:ResetModel() end
+  f.model:ResetModel()
   if data.modelPosition then
     f.model:SetPosition(unpack(data.modelPosition))
   else

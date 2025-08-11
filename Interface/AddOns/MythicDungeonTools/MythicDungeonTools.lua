@@ -1,4 +1,4 @@
--- Made by Nnoggie, 2017-2025
+-- Made by Nnoggie, 2017-2024
 local AddonName, MDT = ...
 local L = MDT.L
 local mainFrameStrata = "HIGH"
@@ -25,12 +25,6 @@ MDT.externalLinks = {
     tooltip = L["Provide feedback in Discord"],
     url = "https://discord.gg/tdxMPb3",
     texture = { "Interface\\AddOns\\MythicDungeonTools\\Textures\\icons", 0.5, .75, 0.75, 1 }
-  },
-  {
-    name = "Patreon",
-    tooltip = L["Support MDT on Patreon"],
-    url = "https://www.patreon.com/nnoggie",
-    texture = { "Interface\\AddOns\\MythicDungeonTools\\Textures\\icons", 0, .25, 0.25, 0.5 }
   },
 }
 
@@ -187,7 +181,7 @@ local defaultSavedVars = {
       customPaletteValues = {},
       numberCustomColors = 12,
     },
-    currentDungeonIdx = MDT:IsMop() and 130 or 123, -- set this one every new season
+    currentDungeonIdx = 115, -- set this one every new season
     latestDungeonSeen = 0,
     selectedDungeonList = 1,
     knownAffixWeeks = {},
@@ -411,7 +405,6 @@ function MDT:CreateMenu()
   self.main_frame.closeButton:SetPoint("TOPRIGHT", self.main_frame.sidePanel, "TOPRIGHT", -1, -4)
   self.main_frame.closeButton:SetScript("OnClick", function() self:HideInterface() end)
   self.main_frame.closeButton:SetFrameLevel(4)
-  self.main_frame.closeButton:SetSize(24, 24)
 
   --Maximize Button
   self.main_frame.maximizeButton = CreateFrame("Button", "MDTMaximizeButton", self.main_frame,
@@ -424,7 +417,6 @@ function MDT:CreateMenu()
   if not db.maximized then self.main_frame.maximizeButton:Minimize() end
   self.main_frame.maximizeButton:SetOnMaximizedCallback(self.Maximize)
   self.main_frame.maximizeButton:SetOnMinimizedCallback(self.Minimize)
-  self.main_frame.maximizeButton:SetSize(24, 24)
 
   --return to live preset
   self.main_frame.liveReturnButton = CreateFrame("Button", "MDTLiveReturnButton", self.main_frame, "UIPanelCloseButton")
@@ -571,8 +563,8 @@ end
 function MDT:SkinProgressBar(progressBar)
   local bar = progressBar and progressBar.Bar
   if not bar then return end
-  if bar.Icon then bar.Icon:Hide() end
-  if bar.IconBG then bar.IconBG:Hide() end
+  bar.Icon:Hide()
+  bar.IconBG:Hide()
 end
 
 function MDT:IsFrameOffScreen()
@@ -1166,7 +1158,6 @@ function MDT:MakeSidePanel(frame)
   local function makeAffixString(week, affixes, longText)
     local ret
     local sep = ""
-    if not MDT:IsRetail() then return "" end
     for _, affixID in ipairs(affixes) do
       local name, _, filedataid = C_ChallengeMode.GetAffixInfo(affixID)
       name = name or L["Unknown"]
@@ -1227,6 +1218,16 @@ function MDT:MakeSidePanel(frame)
 
   function affixDropdown:SetAffixWeek(key, ignoreReloadPullButtons, ignoreUpdateProgressBar)
     affixDropdown:SetValue(key)
+    if not MDT:GetCurrentAffixWeek() then
+      frame.sidePanel.affixWeekWarning.image:Hide()
+      frame.sidePanel.affixWeekWarning:SetDisabled(true)
+    elseif MDT:GetCurrentAffixWeek() == key then
+      frame.sidePanel.affixWeekWarning.image:Hide()
+      frame.sidePanel.affixWeekWarning:SetDisabled(true)
+    else
+      frame.sidePanel.affixWeekWarning.image:Show()
+      frame.sidePanel.affixWeekWarning:SetDisabled(false)
+    end
     MDT:GetCurrentPreset().week = key
     local teeming = MDT:IsPresetTeeming(MDT:GetCurrentPreset())
     MDT:GetCurrentPreset().value.teeming = teeming
@@ -1255,6 +1256,32 @@ function MDT:MakeSidePanel(frame)
 
   -- frame.sidePanel.WidgetGroup:AddChild(affixDropdown)
 
+  --affix not current week warning
+  frame.sidePanel.affixWeekWarning = AceGUI:Create("Icon")
+  local affixWeekWarning = frame.sidePanel.affixWeekWarning
+  affixWeekWarning:SetImage("Interface\\DialogFrame\\UI-Dialog-Icon-AlertNew")
+  affixWeekWarning:SetImageSize(25, 25)
+  affixWeekWarning:SetWidth(30)
+  affixWeekWarning:SetCallback("OnEnter", function(...)
+    GameTooltip:SetOwner(affixDropdown.frame, "ANCHOR_CURSOR")
+    GameTooltip:AddLine(L["The selected affixes are not the ones of the current week"], 1, 1, 1)
+    GameTooltip:AddLine(L["Click to switch to current week"], 1, 1, 1)
+    GameTooltip:Show()
+  end)
+  affixWeekWarning:SetCallback("OnLeave", function(...)
+    GameTooltip:Hide()
+  end)
+  affixWeekWarning:SetCallback("OnClick", function(...)
+    if not MDT:GetCurrentAffixWeek() then return end
+    affixDropdown:SetAffixWeek(MDT:GetCurrentAffixWeek())
+    if MDT.liveSessionActive and MDT:GetCurrentPreset().uid == MDT.livePresetUID then
+      MDT:LiveSession_SendAffixWeek(MDT:GetCurrentAffixWeek())
+    end
+  end)
+  affixWeekWarning.image:Hide()
+  affixWeekWarning:SetDisabled(true)
+  frame.sidePanel.WidgetGroup:AddChild(affixWeekWarning)
+
   --difficulty slider
   frame.sidePanel.DifficultySlider = AceGUI:Create("Slider")
   frame.sidePanel.DifficultySlider:SetSliderValues(1, 35, 1)
@@ -1268,6 +1295,7 @@ function MDT:MakeSidePanel(frame)
     local difficulty = tonumber(value)
     if (difficulty >= 10 and db.currentDifficulty < 10) or (difficulty < 10 and db.currentDifficulty >= 10) then
       db.currentDifficulty = difficulty or db.currentDifficulty
+      MDT:DungeonEnemies_UpdateSeasonalAffix()
       MDT:POI_UpdateAll()
       MDT:KillAllAnimatedLines()
       MDT:DrawAllAnimatedLines()
@@ -1306,16 +1334,15 @@ function MDT:MakeSidePanel(frame)
   frame.sidePanel.DifficultySlider:SetCallback("OnLeave", function()
     GameTooltip:Hide()
   end)
-  if MDT:IsRetail() then
-    frame.sidePanel.WidgetGroup:AddChild(frame.sidePanel.DifficultySlider)
-  end
+  frame.sidePanel.WidgetGroup:AddChild(frame.sidePanel.DifficultySlider)
+
   frame.sidePanel.middleLine = AceGUI:Create("Heading")
   frame.sidePanel.middleLine:SetWidth(240)
   frame.sidePanel.WidgetGroup:AddChild(frame.sidePanel.middleLine)
   frame.sidePanel.WidgetGroup.frame:SetFrameLevel(3)
 
-  local progressBarTemplate = MDT:IsMop() and "TooltipProgressBarTemplate" or "ScenarioProgressBarTemplate"
-  frame.sidePanel.ProgressBar = CreateFrame("Frame", nil, frame.sidePanel, progressBarTemplate)
+  --progress bar
+  frame.sidePanel.ProgressBar = CreateFrame("Frame", nil, frame.sidePanel, "ScenarioProgressBarTemplate")
   frame.sidePanel.ProgressBar:Show()
   frame.sidePanel.ProgressBar:ClearAllPoints()
   frame.sidePanel.ProgressBar:SetPoint("TOP", frame.sidePanel.WidgetGroup.frame, "BOTTOM", -10, 5)
@@ -2452,6 +2479,9 @@ function MDT:UpdateMap(ignoreSetSelection, ignoreReloadPullButtons, ignoreUpdate
     coroutine.yield()
     if not db.devMode then MDT:ZoomMapToDefault() end
     MDT:DungeonEnemies_UpdateEnemiesAsync()
+    MDT:DungeonEnemies_UpdateTeeming()
+    MDT:DungeonEnemies_UpdateSeasonalAffix()
+    MDT:DungeonEnemies_UpdateInspiring()
     MDT:POI_UpdateAll()
     if not ignoreReloadPullButtons then
       MDT:ReloadPullButtons(true)
@@ -3221,9 +3251,7 @@ function MDT:MakeSettingsFrame(frame)
       minimapIcon:RemoveButtonFromCompartment("MythicDungeonTools")
     end
   end)
-  if MDT:IsRetail() then
-    frame.settingsFrame:AddChild(frame.compartmentCheckbox)
-  end
+  frame.settingsFrame:AddChild(frame.compartmentCheckbox)
 
   frame.forcesCheckbox = AceGUI:Create("CheckBox")
   frame.forcesCheckbox:SetLabel(L["Use forces count"])
@@ -4060,7 +4088,7 @@ function MDT:OpenConfirmationFrame(width, height, title, buttonText, prompt, cal
   f:SetTitle(title)
   f.OkayButton:SetText(buttonText)
   f.OkayButton:SetCallback("OnClick", function()
-    if callback then callback() end
+    callback()
     MDT:HideAllDialogs()
   end)
   if buttonText2 then

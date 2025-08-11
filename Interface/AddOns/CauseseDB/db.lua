@@ -46,7 +46,7 @@ CauseseDB = {
         [434793] = {"Resonant Barrage",0,"","ALL",false,true}, --Resonant Barrage
         [434786] = {"Bolt",1,"","ALL",true,false}, --Web Bolt
         [432967] = {"Alarm Shrill",2,"","ALL",false,true}, --Alarm Shrill
-        --[436322] = {"BOLT",1,"","ALL",true,false}, --Poison Bolt (tank)
+        [436322] = {"BOLT",1,"","ALL",true,false}, --Poison Bolt (tank)
         --[433002] = {"BUSTER",2,"","ALL",true,false}, --Extraction Strike (tank)
         --Dawnbreaker
         [431303] = {"Bolt",1,"","ALL",true,false}, --Night Bolt
@@ -127,6 +127,7 @@ CauseseDB = {
         [1229474] = {"Gorge",1,"","ALL",true,false}, --Gorge
         [1222815] = {"Bolt",1,"","ALL",true,false}, --Arcane Bolt
         [1229510] = {"Zap",1,"","ALL",true,false}, --Arcing Zap
+        [1222356] = {"Warp",2,"","ALL",false,false}, --Warp
         --Tazavesh Streets
         [353836] = {"Bolt",1,"","ALL",true,false}, --Hyperlight Bolt
         [355641] = {"Bolt",1,"","ALL",true,false}, --Scintillate
@@ -147,7 +148,12 @@ CauseseDB = {
         [346980] = {"Empowered Defense",2,"","ALL",false,true}, --Empowered Defense
         [356843] = {"Bolt",1,"","ALL",true,false}, --Brackish Bolt
         [356133] = {"Super Saison",2,"","ALL",false,false}, --Super Saison
+        [351119] = {"Shuriken Blitz",0,"","ALL",false,true}, --Shuriken Blitz
         [357260] = {"Unstable Rift",0,"Interrupt.ogg","ALL",false,true}, --Unstable Rift
+        -- Tazavesh Hard Mode
+        [1244596] = {"Bolt",1,"","ALL",true,false}, --Screeching Note
+        [357404] = {"Dischordant Song",0,"Interrupt.ogg","ALL",false,true}, --Dischordant Song
+        [358131] = {"Lightning Nova",0,"","ALL",false,true}, --Lightning Nova
         --Halls of Attonement
         [326829] = {"Bolt",1,"","ALL",true,false}, --Wicked Bolt
         [338003] = {"Bolt",1,"","ALL",true,false}, --Wicked Bolt
@@ -220,7 +226,7 @@ CauseseDB = {
         ["212831"] = {[427897] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 10.8, 18.2}}, --Heat Wave
         ["239833"] = {[424431] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 26.1, 37.6}}, --Holy Radiance
         ["206704"] = {[448791] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 15.5, 21.7}}, --Sacred Toll
-        ["206699"] = {[446776] = {"SPELL_CAST_START", 2, "ALL", "Pounce Inc", 7, 17}}, --Pounce
+        ["206699"] = {[446776] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Pounce Inc", 7, 15.8}}, --Pounce
         --Floodgate
         ["230748"] = {[465827] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.8, 19.4}}, --Warp Blood
         ["231197"] = {
@@ -271,6 +277,7 @@ CauseseDB = {
     -- SEASON 3
         -- Eco-Dome Al'dani
         ["245092"] = {[1215850] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 20, 36.9}}, --Earthcrusher
+        ["234883"] = {[1221152] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.5, 18.2}}, --Gorging Smash
         ["242631"] = {[1235368] = {"SPELL_CAST_START", 4, "TANK", "Frontal Inc", 6.9, 15.8}}, --Arcane Slash
         ["236995"] = {[1226111] = {"SPELL_CAST_START", 2, "ALL", "Ejection Inc", 15, 20.6}}, --Volatile Ejection
         ["234957"] = {[1221483] = {"SPELL_CAST_SUCCESS", 3, "HEALER", "Dispel Inc", 12.3, 12.3}}, --Arcing Energy
@@ -285,6 +292,7 @@ CauseseDB = {
         ["178141"] = {[355132] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Stick Inc", 9.7, 27.9}}, --Invigorating Fish Stick
         ["180429"] = {[357238] = {"SPELL_CAST_SUCCESS", 0, "ALL", "Pulsar Inc", 13.6, 26.7}}, --Wandering Pulsar
         ["179386"] = {[368661] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Toss Inc", 8.3, 14.5}}, --Sword Toss
+        ["177716"] = {[351119] = {"SPELL_CAST_START", 6, "ALL", "TP Inc", 8, 18.2}}, --Shuriken Blitz
         --Halls of Attonement
         ["164557"] = {[326409] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 8.9, 23}}, --Shard of Halkias
         ["167607"] = {[1235326] = {"SPELL_CAST_START", 1, "ALL", "Stopcast Inc", 15.9, 32.8}}, --Disrupting Screech
@@ -329,6 +337,7 @@ CauseseDB = {
         [443487] = {"Sting", 4, true, ""}, --Final Sting
     -- SEASON 3
         [1235368] = {"Frontal", 4, true, "Bite.ogg"}, --Arcane Slash
+        [357226] = {"Frontal", 4, true, "Dodge.ogg"}, --Drifting Star
         [1219482] = {"Bleed", 4, true, "Bite.ogg"}, --Rift Claws
         [1222341] = {"Backstep", 4, true, "Bite.ogg"}, --Gloom Bite
         [351047] = {"Buster", 4, true, "Bite.ogg"}, --Proxy Strike

@@ -28,6 +28,7 @@ BigWigs:AddSounds("Plexus Sentinel", {
 	[1220679] = "info",
 	[1227794] = "underyou",
 	[1233110] = {"alarm","info"},
+	[1237084] = "underyou",
 	["stages"] = "long",
 })
 

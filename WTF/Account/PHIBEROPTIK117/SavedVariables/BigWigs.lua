@@ -1,12 +1,20 @@
 
 BigWigs3DB = {
 ["profileKeys"] = {
-["Shortloch - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
 },
 ["namespaces"] = {
 },
 ["myKeystones"] = {
+["Player-60-0F396F4E"] = {
+["playerRating"] = 0,
+["specId"] = 262,
+["keyMap"] = 0,
+["name"] = "Shortwire",
+["keyLevel"] = 0,
+["realm"] = "Stormrage",
+},
 ["Player-3676-0EA88AB6"] = {
 ["playerRating"] = 0,
 ["specId"] = 253,
@@ -23,14 +31,9 @@ BigWigs3DB = {
 },
 }
 BigWigsIconDB = {
+["minimapPos"] = 164.0192929937068,
+["hide"] = true,
 }
 BigWigsStatsDB = {
-[2769] = {
-[2645] = {
-["heroic"] = {
-["wipes"] = 5,
-},
-},
-},
 }
 BigWigsTempKeystones = true

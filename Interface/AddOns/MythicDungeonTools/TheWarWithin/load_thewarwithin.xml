@@ -15,8 +15,4 @@
     <Script file='TheMotherlode.lua'/>
     <Script file='TheaterOfPain.lua'/>
     <Script file='MechagonWorkshop.lua'/>
-    <Script file='TazaveshLower.lua'/>
-    <Script file='TazaveshUpper.lua'/>
-    <Script file='HallsOfAtonement.lua'/>
-    <Script file='EcoDomeAldani.lua'/>
 </Ui>
