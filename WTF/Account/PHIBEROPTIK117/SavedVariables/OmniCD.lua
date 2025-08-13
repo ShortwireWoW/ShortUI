@@ -1,8 +1,8 @@
 
 OmniCDDB = {
 ["profileKeys"] = {
-["Shortwire - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
 },
 ["namespaces"] = {
 },

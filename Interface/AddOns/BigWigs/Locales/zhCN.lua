@@ -4,6 +4,9 @@ if not L then return end
 
 L.tempNew = "新：现在输入 |cFFFFFFFF/key|r 可以查看队伍的史诗钥石信息。"
 
+-- API.lua
+L.showAddonBar = "'%s' 插件创建了 '%s' 动作条。"
+
 -- Core.lua
 L.berserk = "狂暴"
 L.berserk_desc = "为首领狂暴显示计时器和警报。"
@@ -252,6 +255,8 @@ L.normal = "普通"
 L.heroic = "英雄"
 L.mythic = "史诗"
 L.timewalk = "时空漫游"
+L.solotier8 = "单人难度 8"
+L.solotier11 = "单人难度 11"
 L.story = "剧情"
 L.mplus = "史诗+ %d"
 L.SOD = "探索赛季"
@@ -327,6 +332,10 @@ L.keystoneAutoShowEndOfRun = "史诗钥石地下城结束时显示"
 L.keystoneAutoShowEndOfRunDesc = "当史诗钥石地下城结束时自动显示钥石查看器。\n\n|cFF33FF99这可以帮助你查看队伍成员获得了哪些新钥石。|r"
 L.keystoneViewerExplainer = "你可以使用|cFF33FF99/key|r 命令或点击下方按钮打开钥石查看器。\n\n"
 L.keystoneViewerOpen = "打开钥石查看器"
+L.keystoneClickToWhisper = "点击开启密语窗口"
+L.keystoneClickToTeleportNow = "\n点击传送至此"
+L.keystoneClickToTeleportCooldown = "\n无法传送，法术尚未冷却"
+L.keystoneClickToTeleportNotLearned = "\n无法传送，尚未学会该法术"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "驭雷"
@@ -384,11 +393,13 @@ L.positionExact = "精确位置"
 L.positionDesc = "在框中输入数值或移动滑条精准定位锚点位置。"
 L.width = "宽度"
 L.height = "高度"
+--L.size = "Size"
 L.sizeDesc = "通常情况下，您可以通过移动滑条来设置尺寸。如果需要精确的尺寸，可以使用该滑条下面的数字框中输入数值（需有效数值）。"
 L.fontSizeDesc = "使用滑条或在框内输入数值可调整字体尺寸，最大数值为200。"
 L.disabled = "禁用"
 L.disableDesc = "将禁用“%s”功能，但|cffff4411不建议|r这么做。\n\n你确定要这么做吗？"
 L.keybinding = "按键设置"
+L.dragToResize = "拖动调整尺寸"
 
 -- Anchor Points
 L.UP = "向上"
@@ -724,6 +735,8 @@ L.glowAt = "开始高亮（秒）"
 L.glowAt_desc = "选择在冷却计时剩余多少秒时开始高亮。"
 L.headerIconSizeTarget = "当前目标的图标大小"
 L.headerIconSizeOthers = "其他所有目标的图标大小"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "像素发光"

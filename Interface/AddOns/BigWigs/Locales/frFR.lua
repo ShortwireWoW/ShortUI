@@ -4,6 +4,9 @@ if not L then return end
 
 L.tempNew = "NOUVEAU : Vous pouvez écrire |cFFFFFFFF/key|r afin de voir les clefs mythiques +des membres de votre groupe."
 
+-- API.lua
+--L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "Berserk"
 L.berserk_desc = "Prévient quand le boss devient fou furieux."
@@ -252,6 +255,8 @@ L.normal = "Normal"
 L.heroic = "Héroïque"
 L.mythic = "Mythique"
 L.timewalk = "Marcheur du temps"
+--L.solotier8 = "Solo Tier 8"
+--L.solotier11 = "Solo Tier 11"
 L.story = "Histoire"
 L.mplus = "Mythique+ %d"
 L.SOD = "Saison de la Découverte"
@@ -327,6 +332,10 @@ L.keystoneAutoShowEndOfRun = "Affiche lorsque le mythique + est terminé"
 L.keystoneAutoShowEndOfRunDesc = "Montre automatiquement la vue des clefs lorsque le donjon mythique + est terminé.\n\n|cFF33FF99Cela peut vous aider à voir les nouvelles clefs que votre groupe a obtenu.|r"
 L.keystoneViewerExplainer = "Vous pouvez ouvrir la vue des clefs en utilisant la commande |cFF33FF99/key|r ou en cliquant sur le bouton ci-dessous.\n\n"
 L.keystoneViewerOpen = "Ouvre l'affichage des clefs"
+--L.keystoneClickToWhisper = "Click to open a whisper dialog"
+--L.keystoneClickToTeleportNow = "\nClick to teleport here"
+--L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+--L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "COLONIE"
@@ -384,11 +393,13 @@ L.positionExact = "Positionnement exact"
 L.positionDesc = "Tapez dans la saisie ou déplacez le curseur si vous avez besoin d'un positionnement exact par rapport à l'ancre."
 L.width = "Largeur"
 L.height = "Hauteur"
+--L.size = "Size"
 L.sizeDesc = "Normalement, la taille peut être définie en tirant sur l'ancre. Si vous avez besoin d'une taille bien précise, vous pouvez utiliser ce slider ou taper la valeur dans la boîte de saisie."
 L.fontSizeDesc = "Ajustez la taille de la police à l'aide de ce curseur, ou tapez la valeur dans la saisie ce qui permet d'aller jusqu'à 200."
 L.disabled = "Désactivé"
 L.disableDesc = "Vous allez désactiver la fonctionnalité '%s', ce qui n'est |cffff4411pas recommandé|r.\n\nÊtes-vous sûr de vouloir faire cela ?"
 L.keybinding = "Raccourci clavier"
+--L.dragToResize = "Drag to resize"
 
 -- Anchor Points
 L.UP = "Au-dessus"
@@ -724,6 +735,8 @@ L.glowAt = "Commencer la surbrillance (secondes)"
 L.glowAt_desc = "Choisissez combien il doit rester de secondes sur le temps de recharge afin d'activer la surbrillance."
 L.headerIconSizeTarget = "Taille d'icône de votre cible actuelle"
 L.headerIconSizeOthers = "Taille d'icône de toutes les autres cibles"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "Surbrillance discontinue"

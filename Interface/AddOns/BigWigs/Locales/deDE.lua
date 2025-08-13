@@ -4,6 +4,9 @@ if not L then return end
 
 L.tempNew = "NEU: Du kannst jetzt |cFFFFFFFF/key|r eingeben, um die Mythisch+ Schlüsselsteine Deiner Gruppenmitglieder zu sehen."
 
+-- API.lua
+L.showAddonBar = "Das Addon '%s' hat die Leiste '%s' erstellt."
+
 -- Core.lua
 L.berserk = "Berserker"
 L.berserk_desc = "Warnt, wenn der Boss zum Berserker wird."
@@ -252,6 +255,8 @@ L.normal = "Normal"
 L.heroic = "Heroisch"
 L.mythic = "Mythisch"
 L.timewalk = "Zeitwanderung"
+L.solotier8 = "Solo Stufe 8"
+L.solotier11 = "Solo Stufe 11"
 L.story = "Story"
 L.mplus = "Mythisch+ %d"
 L.SOD = "Saison der Entdeckungen"
@@ -327,6 +332,10 @@ L.keystoneAutoShowEndOfRun = "Nach Beenden von Mythisch+ anzeigen"
 L.keystoneAutoShowEndOfRunDesc = "Die Schlüsselstein Anzeige automatisch nach Abschluss des Mythisch+ Dungeons anzeigen.\n\n|cFF33FF99Dies kann helfen, die neu erhaltenen Schlüsselsteine der Gruppe zu sehen.|r"
 L.keystoneViewerExplainer = "Die Schlüsselstein Anzeige kann durch Nutzung des Befehls |cFF33FF99/key|r oder die untenstehende Schaltfläche geöffnet werden.\n\n"
 L.keystoneViewerOpen = "Schlüsselstein Anzeige öffnen"
+L.keystoneClickToWhisper = "Zum Anflüstern klicken"
+L.keystoneClickToTeleportNow = "\nZum dorthin teleportieren klicken"
+L.keystoneClickToTeleportCooldown = "\nTeleport nicht möglich, Zauber klingt ab"
+L.keystoneClickToTeleportNotLearned = "\nTeleport nicht möglich, Zauber nicht erlernt"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "ROOK"
@@ -384,11 +393,13 @@ L.positionExact = "Exakte Positionierung"
 L.positionDesc = "Zur exakten Positionierung vom Ankerpunkt einen Wert in der Box eingeben oder den Schieberegler bewegen."
 L.width = "Breite"
 L.height = "Höhe"
+L.size = "Größe"
 L.sizeDesc = "Normalerweise wird die Größe festgelegt, indem Du den Anker bewegst. Falls Du eine exakte Größe benötigst, bewege diesen Schieber oder trage den Wert in das Feld ein."
 L.fontSizeDesc = "Schriftgröße über den Schieberegler oder durch Eingabe eines Wertes in der Box (maximal 200) festlegen."
 L.disabled = "Deaktivieren"
 L.disableDesc = "Du bist dabei, das Feature '%s' zu deaktivieren, was |cffff4411nicht empfohlen|r wird.\n\nBist Du sicher, dass Du das tun willst?"
 L.keybinding = "Tastenbelegung"
+L.dragToResize = "Zum Anpassen ziehen"
 
 -- Anchor Points
 L.UP = "Hoch"
@@ -724,6 +735,8 @@ L.glowAt = "Leuchten beginnen (Sekunden)"
 L.glowAt_desc = "Legt fest, bei welcher verbleibenden Abklingzeit in Sekunden das Leuchten beginnt."
 L.headerIconSizeTarget = "Symbolgröße des aktuellen Ziels"
 L.headerIconSizeOthers = "Symbolgröße aller anderen Ziele"
+L.headerIconPositionTarget = "Symbolposition des aktuellen Ziels"
+L.headerIconPositionOthers = "Symbolposition der anderen Ziele"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "Pixel-Leuchten"

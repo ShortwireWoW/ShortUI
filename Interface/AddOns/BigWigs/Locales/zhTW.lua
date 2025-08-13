@@ -4,6 +4,9 @@ if not L then return end
 
 L.tempNew = "新功能：你可以輸入 |cFFFFFFFF/key|r 查看隊友的鑰石。"
 
+-- API.lua
+--L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "狂暴"
 L.berserk_desc = "為首領狂暴顯示計時條及警報。"
@@ -252,6 +255,8 @@ L.normal = "普通模式"
 L.heroic = "英雄模式"
 L.mythic = "傳奇模式"
 L.timewalk = "時光漫遊"
+--L.solotier8 = "Solo Tier 8"
+--L.solotier11 = "Solo Tier 11"
 L.story = "故事"
 L.mplus = "傳奇難度+ %d"
 L.SOD = "探索賽季"
@@ -327,6 +332,10 @@ L.keystoneTeleportReady = "傳送法術「|cFFFFFFFF%s|r」已|cFF33FF99就緒|r
 --L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 --L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 --L.keystoneViewerOpen = "Open the keystone viewer"
+--L.keystoneClickToWhisper = "Click to open a whisper dialog"
+--L.keystoneClickToTeleportNow = "\nClick to teleport here"
+--L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+--L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "培育所" --培育
@@ -384,11 +393,13 @@ L.positionExact = "精確位置"
 L.positionDesc = "在框中輸入座標或移動控制條把錨點定位至精確位置。"
 L.width = "寬度"
 L.height = "高度"
+--L.size = "Size"
 L.sizeDesc = "通常透過拖動錨點來條整尺寸，如果你需要一個精確的尺寸大小，可以調整這個值，或直接輸入到框中。"
 L.fontSizeDesc = "調整捲動軸以更改字型大小，或在輸入框輸入精確數值，最大可以到 200。"
 L.disabled = "停用"
 L.disableDesc = "即將禁用「%s」的功能，但|cffff4411不建議|r這麼做。\n\n你確定要這麼做嗎？"
 L.keybinding = "按鍵綁定"
+--L.dragToResize = "Drag to resize"
 
 -- Anchor Points
 L.UP = "向上"
@@ -724,6 +735,8 @@ L.glowAt = "開始發光（秒）"
 L.glowAt_desc = "設定技能的冷卻時間剩下幾秒時觸發發光效果。"
 L.headerIconSizeTarget = "當前目標的圖示尺寸"
 L.headerIconSizeOthers = "其他目標的圖示尺寸"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "像素發光"

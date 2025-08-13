@@ -3,6 +3,9 @@ local L = addonTbl.API:NewLocale("BigWigs", "enUS")
 
 L.tempNew = "NEW: You can now type |cFFFFFFFF/key|r to see the Mythic+ keystones of your party members."
 
+-- API.lua
+L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "Berserk"
 L.berserk_desc = "Show a bar and timed warnings for when the boss will go berserk."
@@ -251,6 +254,8 @@ L.normal = "Normal"
 L.heroic = "Heroic"
 L.mythic = "Mythic"
 L.timewalk = "Timewalking"
+L.solotier8 = "Solo Tier 8"
+L.solotier11 = "Solo Tier 11"
 L.story = "Story"
 L.mplus = "Mythic+ %d"
 L.SOD = "Season of Discovery"
@@ -326,6 +331,10 @@ L.keystoneAutoShowEndOfRun = "Show when the Mythic+ is over"
 L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 L.keystoneViewerOpen = "Open the keystone viewer"
+L.keystoneClickToWhisper = "Click to open a whisper dialog"
+L.keystoneClickToTeleportNow = "\nClick to teleport here"
+L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "ROOK"
@@ -383,11 +392,13 @@ L.positionExact = "Exact Positioning"
 L.positionDesc = "Type in the box or move the slider if you need exact positioning from the anchor."
 L.width = "Width"
 L.height = "Height"
+L.size = "Size"
 L.sizeDesc = "Normally you set the size by dragging the anchor. If you need an exact size you can use this slider or type the value into the box."
 L.fontSizeDesc = "Adjust the font size using the slider or type the value into the box which has a much higher maximum of 200."
 L.disabled = "Disabled"
 L.disableDesc = "You are about to disable the feature '%s' which is |cffff4411not recommended|r.\n\nAre you sure you want to do this?"
 L.keybinding = "Keybinding"
+L.dragToResize = "Drag to resize"
 
 -- Anchor Points / Grow Directions
 L.UP = "Up"
@@ -723,6 +734,8 @@ L.glowAt = "Begin Glow (seconds)"
 L.glowAt_desc = "Choose how many seconds on the cooldown should be remaining when the glow begins."
 L.headerIconSizeTarget = "Icon size of your current target"
 L.headerIconSizeOthers = "Icon size of all other targets"
+L.headerIconPositionTarget = "Icon position of your current target"
+L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "Pixel Glow"

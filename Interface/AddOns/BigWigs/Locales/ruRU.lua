@@ -4,6 +4,9 @@ if not L then return end
 
 --L.tempNew = "NEW: You can now type |cFFFFFFFF/key|r to see the Mythic+ keystones of your party members."
 
+-- API.lua
+--L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "Берсерк"
 L.berserk_desc = "Предупреждать и отсчитывать время до берсерка."
@@ -252,6 +255,8 @@ L.normal = "Обычный"
 L.heroic = "Героический"
 L.mythic = "Эпохальный"
 L.timewalk = "Путешествие во времени"
+--L.solotier8 = "Solo Tier 8"
+--L.solotier11 = "Solo Tier 11"
 L.story = "История"
 L.mplus = "М+ %d"
 L.SOD = "Сезон Открытий"
@@ -327,6 +332,10 @@ L.H25 = "Героик 25"
 --L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 --L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 --L.keystoneViewerOpen = "Open the keystone viewer"
+--L.keystoneClickToWhisper = "Click to open a whisper dialog"
+--L.keystoneClickToTeleportNow = "\nClick to teleport here"
+--L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+--L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 --L.keystoneShortName_TheRookery = "ROOK"
@@ -384,11 +393,13 @@ L.positionExact = "Точная позиция"
 L.positionDesc = "Введите в поле или передвиньте якорь если вам нужно точное позиционирование."
 L.width = "Ширина"
 L.height = "Высота"
+--L.size = "Size"
 L.sizeDesc = "Обычно размеры меняются перемещением якоря. Если Вам необходим точный размер, можете использовать слайдер или ввести значение в поле."
 L.fontSizeDesc = "Отрегулируйте размер шрифта с помощью ползунка или введите значение вручную в поле, если оно выше 200."
 L.disabled = "Отключить"
 L.disableDesc = "Вы собираетесь отключить функцию '%s', делать это |cffff4411не рекомендуется|r.\n\nВы уверены, что хотите этого?"
 --L.keybinding = "Keybinding"
+--L.dragToResize = "Drag to resize"
 
 -- Anchor Points
 L.UP = "Верх"
@@ -724,6 +735,8 @@ L.glowAt = "Начало свечения (секунды)"
 L.glowAt_desc = "Выбрать, на скольки секундах оставшегося кулдауна начинается свечение."
 L.headerIconSizeTarget = "Размер иконки текущей цели"
 L.headerIconSizeOthers = "Размер иконки всех других целей"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "Пиксельное свечение"

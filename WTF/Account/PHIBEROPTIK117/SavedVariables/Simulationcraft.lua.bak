@@ -1,18 +1,18 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
 },
 ["profiles"] = {
-["Shortbowjob - Area 52"] = {
+["Shortwire - Stormrage"] = {
 ["minimap"] = {
-["minimapPos"] = 191.2401441911881,
 ["hide"] = true,
 },
 },
-["Shortwire - Stormrage"] = {
+["Shortbowjob - Area 52"] = {
 ["minimap"] = {
+["minimapPos"] = 191.2401441911881,
 ["hide"] = true,
 },
 },

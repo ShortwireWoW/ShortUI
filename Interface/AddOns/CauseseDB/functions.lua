@@ -98,7 +98,6 @@ function CauseseAPI:AuraResize(type, positions, regions)
             region:SetRegionWidth(aData.width)
             region:SetRegionHeight(aData.height)
             region:SetZoom(aData.zoom)
-            region:SetRegionAlpha(aData.alpha)
             for i, subRegion in ipairs(region.subRegions) do
                 if subRegion.type == "subborder" then
                     local data = aData.subRegions[i]
@@ -136,7 +135,6 @@ function CauseseAPI:AuraResize(type, positions, regions)
             region.textureInput = aData.textureInput
             region.textureSource = aData.textureSource
             region:UpdateStatusBarTexture()
-            region:SetRegionAlpha(aData.alpha)
             for i, subRegion in ipairs(region.subRegions) do
                 if subRegion.type == "subborder" then
                     local data = aData.subRegions[i]
@@ -184,7 +182,6 @@ function CauseseAPI:AuraResize(type, positions, regions)
         elseif region.regionType == "texture" or region.regionType == "progresstexture" then
             region:SetRegionWidth(aData.width)
             region:SetRegionHeight(aData.height)
-            region:SetRegionAlpha(aData.alpha)
             for i, subRegion in ipairs(region.subRegions) do
                 if subRegion.type == "subtext" then
                     local data = aData.subRegions[i]

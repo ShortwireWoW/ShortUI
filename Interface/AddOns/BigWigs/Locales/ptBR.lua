@@ -4,6 +4,9 @@ if not L then return end
 
 --L.tempNew = "NEW: You can now type |cFFFFFFFF/key|r to see the Mythic+ keystones of your party members."
 
+-- API.lua
+--L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "Frenesi"
 L.berserk_desc = "Mostra uma barra e um contador para quando o chefe entrar em Frenesi."
@@ -252,6 +255,8 @@ L.normal = "Normal"
 L.heroic = "Heroico"
 L.mythic = "Mítico"
 L.timewalk = "Caminhada Temporal"
+--L.solotier8 = "Solo Tier 8"
+--L.solotier11 = "Solo Tier 11"
 L.story = "Histórias"
 L.mplus = "Mítica+ %d"
 L.SOD = "Temporada de Descobertas"
@@ -327,6 +332,10 @@ L.H25 = "Heroico 25"
 --L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 --L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 --L.keystoneViewerOpen = "Open the keystone viewer"
+--L.keystoneClickToWhisper = "Click to open a whisper dialog"
+--L.keystoneClickToTeleportNow = "\nClick to teleport here"
+--L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+--L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 --L.keystoneShortName_TheRookery = "ROOK"
@@ -384,11 +393,13 @@ L.positionExact = "Posicionamento Exato"
 L.positionDesc = "Digite na caixa ou mova o cursor se precisa posicionamento exato para a âncora."
 L.width = "Largura"
 L.height = "Altura"
+--L.size = "Size"
 L.sizeDesc = "Normalmente você define o tamanho arrastando a âncora. Se você precisa de um tamanho exato, você pode usar este controle deslizante ou digitar o valor na caixa."
 L.fontSizeDesc = "Ajusta o tamanho da fonte usando a barra deslizante ou digitando o valor na caixa que tem um limite muito maior de 200."
 L.disabled = "Desativado"
 L.disableDesc = "Você está prestes a desabilitar a função '%s' e isso |cffff4411não é recomendado|r.\n\nVocê tem certeza disso?"
 --L.keybinding = "Keybinding"
+--L.dragToResize = "Drag to resize"
 
 -- Anchor Points
 L.UP = "Cima"
@@ -724,6 +735,8 @@ L.glowAt = "Começar brilho (segundos)"
 L.glowAt_desc = "Escolha quantos segundos no tempo de recarga devem restar quando o brilho começar."
 L.headerIconSizeTarget = "Tamanho do íncone do seu alvo atual"
 L.headerIconSizeOthers = "Tamanho do íncone de todos os outros alvos"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Tipos de brilho como parte de LibCustomGlow
 L.pixelGlow = "Brilho de Pixel"

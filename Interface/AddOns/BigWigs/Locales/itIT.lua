@@ -4,6 +4,9 @@ if not L then return end
 
 --L.tempNew = "NEW: You can now type |cFFFFFFFF/key|r to see the Mythic+ keystones of your party members."
 
+-- API.lua
+--L.showAddonBar = "The addon '%s' created the '%s' bar."
+
 -- Core.lua
 L.berserk = "Infuriato"
 L.berserk_desc = "Visualizza un timer e un avviso quando il boss si infurierà."
@@ -251,6 +254,8 @@ L.normal = "Normale"
 L.heroic = "Eroica"
 L.mythic = "Mitica"
 L.timewalk = "Viaggi nel tempo"
+--L.solotier8 = "Solo Tier 8"
+--L.solotier11 = "Solo Tier 11"
 L.story = "Storia"
 L.mplus = "Mitica+ %d"
 L.SOD = "Stagione della scoperta"
@@ -326,6 +331,10 @@ L.H25 = "Eroico 25"
 --L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 --L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 --L.keystoneViewerOpen = "Open the keystone viewer"
+--L.keystoneClickToWhisper = "Click to open a whisper dialog"
+--L.keystoneClickToTeleportNow = "\nClick to teleport here"
+--L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
+--L.keystoneClickToTeleportNotLearned = "\nCannot teleport, spell not learned"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 --L.keystoneShortName_TheRookery = "ROOK"
@@ -383,11 +392,13 @@ L.positionExact = "Posizionamento Esatto"
 L.positionDesc = "Scrivi nel riquadro o sposta l'indicatore se devi posizionare esattamente la barra dell'ancoraggio."
 L.width = "Larghezza"
 L.height = "Altezza"
+--L.size = "Size"
 L.sizeDesc = "In genere regoli la dimesione trascinando l'ancora. Se hai necessità di una dimensione specifica puoi usare la barra slide o digitare i valori nella casella."
 L.fontSizeDesc = "Regola la dimensione del carattere usando la barra slide o digitando i valori nella casella che ha un valore molto maggiore di 200."
 L.disabled = "Disabilitato"
 L.disableDesc = "Stai per disabilitare la funzionalità '%s' che |cffff4411non è consigliata|r.\n\nSei sicuro di questo?"
 --L.keybinding = "Keybinding"
+--L.dragToResize = "Drag to resize"
 
 -- Anchor Points
 L.UP = "Su"
@@ -723,6 +734,8 @@ L.glowAt = "Inizia Spendlore (secondi)"
 L.glowAt_desc = "Scegli quanti secondi di recupero rimanenti dovrebbero esserci quando lo splendore inizia a vedersi."
 --L.headerIconSizeTarget = "Icon size of your current target"
 --L.headerIconSizeOthers = "Icon size of all other targets"
+--L.headerIconPositionTarget = "Icon position of your current target"
+--L.headerIconPositionOthers = "Icon position of all other targets"
 
 -- Glow types as part of LibCustomGlow
 L.pixelGlow = "Spendlore Pixel"

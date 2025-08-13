@@ -1,7 +1,7 @@
 local L, BigWigsLoader, BigWigsAPI, db
 
 --------------------------------------------------------------------------------
--- Settings
+-- Saved Settings
 --
 
 do
@@ -17,6 +17,10 @@ do
 			defaultVoice = ("%s: Default (Female)"):format(locale)
 		end
 	end
+	local validFramePoints = {
+		["TOPLEFT"] = true, ["TOPRIGHT"] = true, ["BOTTOMLEFT"] = true, ["BOTTOMRIGHT"] = true,
+		["TOP"] = true, ["BOTTOM"] = true, ["LEFT"] = true, ["RIGHT"] = true, ["CENTER"] = true,
+	}
 
 	local defaults = {
 		autoSlotKeystone = true,
@@ -24,9 +28,11 @@ do
 		countBegin = 5,
 		countStartSound = "BigWigs: Long",
 		countEndSound = "BigWigs: Alarm",
-		autoShowZoneIn = true,
-		autoShowEndOfRun = true,
+		showViewerOnZoneIn = true,
+		showViewerDungeonEnd = true,
 		hideFromGuild = false,
+		windowHeight = 320,
+		viewerPosition = {"LEFT", "LEFT", 15, 0},
 	}
 	db = BigWigsLoader.db:RegisterNamespace("MythicPlus", {profile = defaults})
 	for k, v in next, db do
@@ -39,6 +45,23 @@ do
 	end
 	if db.profile.countBegin < 3 or db.profile.countBegin > 9 then
 		db.profile.countBegin = defaults.countBegin
+	end
+	if db.profile.windowHeight < 320 or db.profile.windowHeight > 620 then
+		db.profile.windowHeight = defaults.windowHeight
+	end
+	if type(db.profile.viewerPosition[1]) ~= "string" or type(db.profile.viewerPosition[2]) ~= "string"
+	or type(db.profile.viewerPosition[3]) ~= "number" or type(db.profile.viewerPosition[4]) ~= "number"
+	or not validFramePoints[db.profile.viewerPosition[1]] or not validFramePoints[db.profile.viewerPosition[2]] then
+		db.profile.viewerPosition = defaults.viewerPosition
+	else
+		local x = math.floor(db.profile.viewerPosition[3]+0.5)
+		if x ~= db.profile.viewerPosition[3] then
+			db.profile.viewerPosition[3] = x
+		end
+		local y = math.floor(db.profile.viewerPosition[4]+0.5)
+		if y ~= db.profile.viewerPosition[4] then
+			db.profile.viewerPosition[4] = y
+		end
 	end
 end
 
@@ -192,9 +215,6 @@ end
 --
 
 local LibKeystone = LibStub("LibKeystone")
-if db.profile.hideFromGuild then
-	LibKeystone.SetGuildHidden(true)
-end
 local LibSpec = LibStub("LibSpecialization")
 local LibSharedMedia = LibStub("LibSharedMedia-3.0")
 
@@ -203,27 +223,34 @@ local WIDTH_NAME, WIDTH_LEVEL, WIDTH_MAP, WIDTH_RATING = 150, 24, 66, 42
 
 local GetMapUIInfo = C_ChallengeMode.GetMapUIInfo
 
-local specs = {}
+if db.profile.hideFromGuild then
+	LibKeystone.SetGuildHidden(true)
+end
+local specializationPlayerList = {}
 do
 	local function addToTable(specID, _, _, playerName)
-		specs[playerName] = specID
+		specializationPlayerList[playerName] = specID
 	end
-	LibSpec.RegisterGroup(specs, addToTable)
-	LibSpec.RegisterGuild(specs, addToTable)
+	LibSpec.RegisterGroup(specializationPlayerList, addToTable)
+	LibSpec.RegisterGuild(specializationPlayerList, addToTable)
 end
 
 --------------------------------------------------------------------------------
--- GUI widgets
+-- GUI Widgets
 --
 
 local cellsCurrentlyShowing = {}
 local cellsAvailable = {}
-local tab1
+local tab1, tab2
 
 local mainPanel = CreateFrame("Frame", nil, UIParent, "PortraitFrameTemplate")
 mainPanel:Hide()
-mainPanel:SetSize(350, 320)
-mainPanel:SetPoint("LEFT", 15, 0)
+mainPanel:SetSize(350, db.profile.windowHeight)
+do
+	local point, relPoint = db.profile.viewerPosition[1], db.profile.viewerPosition[2]
+	local x, y = db.profile.viewerPosition[3], db.profile.viewerPosition[4]
+	mainPanel:SetPoint(point, UIParent, relPoint, x, y)
+end
 mainPanel:SetFrameStrata("DIALOG")
 mainPanel:SetMovable(true)
 mainPanel:EnableMouse(true)
@@ -234,7 +261,46 @@ mainPanel:SetBorder("HeldBagLayout")
 mainPanel:SetPortraitTextureSizeAndOffset(38, -5, 0)
 mainPanel:SetPortraitTextureRaw("Interface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid.tga")
 mainPanel:SetScript("OnDragStart", mainPanel.StartMoving)
-mainPanel:SetScript("OnDragStop", mainPanel.StopMovingOrSizing)
+mainPanel:SetScript("OnDragStop", function(self)
+	self:StopMovingOrSizing()
+	local point, _, relPoint, x, y = self:GetPoint()
+	x = math.floor(x+0.5)
+	y = math.floor(y+0.5)
+	db.profile.viewerPosition = {point, relPoint, x, y}
+end)
+mainPanel:SetResizable(true)
+mainPanel:SetResizeBounds(350, 320, 350, 620)
+do
+	local function OnMouseDown(self)
+		self:GetParent():StartSizing("BOTTOMRIGHT")
+		GameTooltip_Hide()
+	end
+	local function OnMouseUp(self)
+		local parent = self:GetParent()
+		parent:StopMovingOrSizing()
+		local height = parent:GetHeight()
+		height = math.floor(height+0.5)
+		db.profile.windowHeight = height
+		parent:SetHeight(height)
+	end
+
+	local drag = CreateFrame("Frame", nil, mainPanel)
+	drag:SetWidth(12)
+	drag:SetHeight(12)
+	drag:SetPoint("BOTTOMRIGHT", -3, 5)
+	drag:EnableMouse(true)
+	drag:SetScript("OnMouseDown", OnMouseDown)
+	drag:SetScript("OnMouseUp", OnMouseUp)
+	drag:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+		GameTooltip:SetText(L.dragToResize)
+		GameTooltip:Show()
+	end)
+	drag:SetScript("OnLeave", GameTooltip_Hide)
+	local tex = drag:CreateTexture(nil, "OVERLAY")
+	tex:SetTexture("Interface\\AddOns\\BigWigs\\Media\\Icons\\draghandle")
+	tex:SetAllPoints(drag)
+end
 
 local UpdateMyKeystone
 do
@@ -257,7 +323,7 @@ do
 			elseif not id and not isReloadingUi then -- Don't show when logging in (arg1) or reloading UI (arg2)
 				BigWigsLoader.CTimerAfter(0, function() -- Difficulty info isn't accurate until 1 frame after PEW
 					local _, _, diffID = BigWigsLoader.GetInstanceInfo()
-					if diffID == 23 and GetWeeklyResetStartTime() > 1754625600 and db.profile.autoShowZoneIn and not BigWigsLoader.isTestBuild then
+					if diffID == 23 and GetWeeklyResetStartTime() > 1754625600 and db.profile.showViewerOnZoneIn and not BigWigsLoader.isTestBuild then
 						mainPanel:Show()
 						tab1:Click()
 					end
@@ -298,7 +364,7 @@ do
 			keyLevel = myKeyLevel,
 			keyMap = myKeyMap,
 			playerRating = myRating,
-			specId = specs[name] or 0,
+			specId = specializationPlayerList[name] or 0,
 			name = name,
 			realm = realm,
 		}
@@ -309,135 +375,11 @@ end
 mainPanel:RegisterEvent("PLAYER_INTERACTION_MANAGER_FRAME_HIDE")
 mainPanel:RegisterEvent("PLAYER_ENTERING_WORLD")
 
-tab1 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
-tab1:SetSize(50, 26)
-tab1:SetPoint("BOTTOMLEFT", 10, -25)
-tab1.Text:SetText(L.keystoneTabOnline)
-tab1:UnregisterAllEvents() -- Remove events registered by the template
-tab1:RegisterEvent("CHALLENGE_MODE_KEYSTONE_RECEPTABLE_OPEN")
-do
-	local HasSlottedKeystone, SlotKeystone = C_ChallengeMode.HasSlottedKeystone, C_ChallengeMode.SlotKeystone
-	local GetOwnedKeystoneMapID = C_MythicPlus.GetOwnedKeystoneMapID
-	local GetContainerNumSlots, GetContainerItemLink, PickupContainerItem = C_Container.GetContainerNumSlots, C_Container.GetContainerItemLink, C_Container.PickupContainerItem
-	tab1:SetScript("OnEvent", function()
-		if db.profile.autoSlotKeystone and not HasSlottedKeystone() then
-			local _, _, _, _, _, _, _, instanceID = BigWigsLoader.GetInstanceInfo()
-			if GetOwnedKeystoneMapID() == instanceID then
-				for currentBag = 0, 4 do -- 0=Backpack, 1/2/3/4=Bags
-					local slots = GetContainerNumSlots(currentBag)
-					for currentSlot = 1, slots do
-						local itemLink = GetContainerItemLink(currentBag, currentSlot)
-						if itemLink and itemLink:find("Hkeystone", nil, true) then
-							PickupContainerItem(currentBag, currentSlot)
-							SlotKeystone()
-							BigWigsLoader.Print(L.keystoneAutoSlotMessage:format(itemLink))
-						end
-					end
-				end
-			end
-		end
-	end)
-end
-
-local tab2 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
-tab2:SetSize(50, 26)
-tab2:SetPoint("LEFT", tab1, "RIGHT", 4, 0)
-tab2.Text:SetText(L.keystoneTabTeleports)
-tab2:UnregisterAllEvents() -- Remove events registered by the template
-tab2:RegisterEvent("CHALLENGE_MODE_RESET")
-do
-	local dungeonNamesForBar = {
-		[500] = L.keystoneShortName_TheRookery_Bar, -- ROOK
-		[504] = L.keystoneShortName_DarkflameCleft_Bar, -- DFC
-		[499] = L.keystoneShortName_PrioryOfTheSacredFlame_Bar, -- PRIORY
-		[506] = L.keystoneShortName_CinderbrewMeadery_Bar, -- BREW
-		[525] = L.keystoneShortName_OperationFloodgate_Bar, -- FLOOD
-		[382] = L.keystoneShortName_TheaterOfPain_Bar, -- TOP
-		[247] = L.keystoneShortName_TheMotherlode_Bar, -- ML
-		[370] = L.keystoneShortName_OperationMechagonWorkshop_Bar, -- WORK
-
-		[542] = L.keystoneShortName_EcoDomeAldani_Bar, -- ALDANI
-		[378] = L.keystoneShortName_HallsOfAtonement_Bar, -- HOA
-		[503] = L.keystoneShortName_AraKaraCityOfEchoes_Bar, -- ARAK
-		[392] = L.keystoneShortName_TazaveshSoleahsGambit_Bar, -- GAMBIT
-		[391] = L.keystoneShortName_TazaveshStreetsOfWonder_Bar, -- STREET
-		[505] = L.keystoneShortName_TheDawnbreaker_Bar, -- DAWN
-	}
-	local GetActiveKeystoneInfo, GetActiveChallengeMapID = C_ChallengeMode.GetActiveKeystoneInfo, C_ChallengeMode.GetActiveChallengeMapID
-	tab2:SetScript("OnEvent", function(self, event)
-		if event == "CHALLENGE_MODE_START" then
-			local keyLevel = GetActiveKeystoneInfo()
-			local challengeMapID = GetActiveChallengeMapID()
-			local challengeMapName, _, _, icon = GetMapUIInfo(challengeMapID)
-			BigWigsLoader:SendMessage("BigWigs_StartCountdown", self, nil, "mythicplus", 9, nil, db.profile.countVoice, 9, nil, db.profile.countBegin)
-			if keyLevel and keyLevel > 0 then
-				local msg = L.keystoneStartBar:format(dungeonNamesForBar[challengeMapID] or "?", keyLevel)
-				BigWigsLoader:SendMessage("BigWigs_StartBar", nil, nil, msg, 9, icon)
-				BigWigsLoader:SendMessage("BigWigs_Timer", nil, nil, 9, 9, msg, 0, icon, false, true)
-			else
-				BigWigsLoader:SendMessage("BigWigs_StartBar", nil, nil, L.keystoneModuleName, 9, icon)
-				BigWigsLoader:SendMessage("BigWigs_Timer", nil, nil, 9, 9, L.keystoneModuleName, 0, icon, false, true)
-			end
-			BigWigsLoader.CTimerAfter(9, function()
-				BigWigsLoader:SendMessage("BigWigs_Message", self, nil, L.keystoneStartBar:format(challengeMapName, keyLevel), "cyan", icon)
-				BigWigsLoader.Print(L.keystoneStartMessage:format(challengeMapName, keyLevel))
-				local soundName = db.profile.countEndSound
-				if soundName ~= "None" then
-					local sound = LibSharedMedia:Fetch("sound", soundName, true)
-					if sound then
-						BigWigsLoader.PlaySoundFile(sound)
-					end
-				end
-			end)
-			BigWigsLoader:SendMessage("BigWigs_Message", self, nil, BigWigsAPI:GetLocale("BigWigs: Common").custom_sec:format(L.keystoneStartBar:format(dungeonNamesForBar[challengeMapID], keyLevel), 9), "cyan", icon)
-			local soundName = db.profile.countStartSound
-			if soundName ~= "None" then
-				local sound = LibSharedMedia:Fetch("sound", soundName, true)
-				if sound then
-					BigWigsLoader.PlaySoundFile(sound)
-				end
-			end
-		else -- CHALLENGE_MODE_RESET
-			local _, _, diffID = BigWigsLoader.GetInstanceInfo()
-			if diffID == 8 then
-				TimerTracker:UnregisterEvent("START_TIMER")
-				BigWigsLoader.CTimerAfter(1, function()
-					TimerTracker:RegisterEvent("START_TIMER")
-					self:UnregisterEvent("CHALLENGE_MODE_START")
-				end)
-				self:RegisterEvent("CHALLENGE_MODE_START")
-			end
-		end
-	end)
-end
-
-local tab3 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
-tab3:SetSize(50, 26)
-tab3:SetPoint("LEFT", tab2, "RIGHT", 4, 0)
-tab3.Text:SetText(L.keystoneTabAlts)
-tab3:UnregisterAllEvents() -- Remove events registered by the template
-tab3:RegisterEvent("CHALLENGE_MODE_COMPLETED")
-do
-	local function Open() mainPanel:Show() tab1:Click() end
-	tab3:SetScript("OnEvent", function()
-		if db.profile.autoShowEndOfRun and not not BigWigsLoader.isTestBuild then
-			BigWigsLoader.CTimerAfter(2, Open)
-		end
-	end)
-end
-
-local tab4 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
-tab4:SetSize(50, 26)
-tab4:SetPoint("LEFT", tab3, "RIGHT", 4, 0)
-tab4.Text:SetText(L.keystoneTabHistory)
-tab4:UnregisterAllEvents() -- Remove events registered by the template
-
 local function WipeCells()
 	for cell in next, cellsCurrentlyShowing do
 		cell:Hide()
 		cell:ClearAttributes()
 		cell.tooltip = nil
-		cell.isGuildList = nil
 		if cell.isGlowing then
 			cell.isGlowing = nil
 			LibStub("LibCustomGlow-1.0").PixelGlow_Stop(cell)
@@ -469,11 +411,7 @@ mainPanel.CloseButton:SetScript("OnClick", function(self)
 	tab1:Enable() -- Enable tab1 so :Click always works when we open the main panel again
 end)
 mainPanel.CloseButton:UnregisterAllEvents() -- Remove events registered by the template
-mainPanel.CloseButton:SetScript("OnEvent", function(self)
-	if mainPanel:IsShown() then
-		self:Click()
-	end
-end)
+mainPanel.CloseButton:SetScript("OnEvent", mainPanel.CloseButton.Click)
 
 local scrollArea = CreateFrame("ScrollFrame", nil, mainPanel, "ScrollFrameTemplate")
 scrollArea:SetPoint("TOPLEFT", mainPanel, "TOPLEFT", 8, -30)
@@ -658,7 +596,7 @@ do
 end
 
 --------------------------------------------------------------------------------
--- Tab click handlers
+-- GUI Tabs
 --
 
 do
@@ -705,7 +643,40 @@ do
 		tab.RightActive:Hide()
 	end
 
+	local tab3, tab4
+
 	-- Tab 1 (Online)
+	tab1 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
+	tab1:SetSize(50, 26)
+	tab1:SetPoint("BOTTOMLEFT", 10, -25)
+	tab1.Text:SetText(L.keystoneTabOnline)
+	tab1:UnregisterAllEvents() -- Remove events registered by the template
+	tab1:RegisterEvent("CHALLENGE_MODE_KEYSTONE_RECEPTABLE_OPEN")
+	-- Tab 1 Event Handler (Used for auto slotting the keystone)
+	do
+		local HasSlottedKeystone, SlotKeystone = C_ChallengeMode.HasSlottedKeystone, C_ChallengeMode.SlotKeystone
+		local GetOwnedKeystoneMapID = C_MythicPlus.GetOwnedKeystoneMapID
+		local GetContainerNumSlots, GetContainerItemLink, PickupContainerItem = C_Container.GetContainerNumSlots, C_Container.GetContainerItemLink, C_Container.PickupContainerItem
+		tab1:SetScript("OnEvent", function()
+			if db.profile.autoSlotKeystone and not HasSlottedKeystone() then
+				local _, _, _, _, _, _, _, instanceID = BigWigsLoader.GetInstanceInfo()
+				if GetOwnedKeystoneMapID() == instanceID then
+					for currentBag = 0, 4 do -- 0=Backpack, 1/2/3/4=Bags
+						local slots = GetContainerNumSlots(currentBag)
+						for currentSlot = 1, slots do
+							local itemLink = GetContainerItemLink(currentBag, currentSlot)
+							if itemLink and itemLink:find("Hkeystone", nil, true) then
+								PickupContainerItem(currentBag, currentSlot)
+								SlotKeystone()
+								BigWigsLoader.Print(L.keystoneAutoSlotMessage:format(itemLink))
+							end
+						end
+					end
+				end
+			end
+		end)
+	end
+	-- Tab 1 Click Handler
 	tab1:SetScript("OnClick", function(self)
 		SelectTab(self)
 		DeselectTab(tab2)
@@ -735,6 +706,79 @@ do
 	end)
 
 	-- Tab 2 (Teleports)
+	tab2 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
+	tab2:SetSize(50, 26)
+	tab2:SetPoint("LEFT", tab1, "RIGHT", 4, 0)
+	tab2.Text:SetText(L.keystoneTabTeleports)
+	tab2:UnregisterAllEvents() -- Remove events registered by the template
+	tab2:RegisterEvent("CHALLENGE_MODE_RESET")
+	-- Tab 2 Event Handler (Used for handling the initial countdown)
+	do
+		local dungeonNamesForBar = {
+			[500] = L.keystoneShortName_TheRookery_Bar, -- ROOK
+			[504] = L.keystoneShortName_DarkflameCleft_Bar, -- DFC
+			[499] = L.keystoneShortName_PrioryOfTheSacredFlame_Bar, -- PRIORY
+			[506] = L.keystoneShortName_CinderbrewMeadery_Bar, -- BREW
+			[525] = L.keystoneShortName_OperationFloodgate_Bar, -- FLOOD
+			[382] = L.keystoneShortName_TheaterOfPain_Bar, -- TOP
+			[247] = L.keystoneShortName_TheMotherlode_Bar, -- ML
+			[370] = L.keystoneShortName_OperationMechagonWorkshop_Bar, -- WORK
+
+			[542] = L.keystoneShortName_EcoDomeAldani_Bar, -- ALDANI
+			[378] = L.keystoneShortName_HallsOfAtonement_Bar, -- HOA
+			[503] = L.keystoneShortName_AraKaraCityOfEchoes_Bar, -- ARAK
+			[392] = L.keystoneShortName_TazaveshSoleahsGambit_Bar, -- GAMBIT
+			[391] = L.keystoneShortName_TazaveshStreetsOfWonder_Bar, -- STREET
+			[505] = L.keystoneShortName_TheDawnbreaker_Bar, -- DAWN
+		}
+		local GetActiveKeystoneInfo, GetActiveChallengeMapID = C_ChallengeMode.GetActiveKeystoneInfo, C_ChallengeMode.GetActiveChallengeMapID
+		tab2:SetScript("OnEvent", function(self, event)
+			if event == "CHALLENGE_MODE_START" then
+				local keyLevel = GetActiveKeystoneInfo()
+				local challengeMapID = GetActiveChallengeMapID()
+				local challengeMapName, _, _, icon = GetMapUIInfo(challengeMapID)
+				BigWigsLoader:SendMessage("BigWigs_StartCountdown", self, nil, "mythicplus", 9, nil, db.profile.countVoice, 9, nil, db.profile.countBegin)
+				if keyLevel and keyLevel > 0 then
+					local msg = L.keystoneStartBar:format(dungeonNamesForBar[challengeMapID] or "?", keyLevel)
+					BigWigsLoader:SendMessage("BigWigs_StartBar", nil, nil, msg, 9, icon)
+					BigWigsLoader:SendMessage("BigWigs_Timer", nil, nil, 9, 9, msg, 0, icon, false, true)
+				else
+					BigWigsLoader:SendMessage("BigWigs_StartBar", nil, nil, L.keystoneModuleName, 9, icon)
+					BigWigsLoader:SendMessage("BigWigs_Timer", nil, nil, 9, 9, L.keystoneModuleName, 0, icon, false, true)
+				end
+				BigWigsLoader.CTimerAfter(9, function()
+					BigWigsLoader:SendMessage("BigWigs_Message", self, nil, L.keystoneStartBar:format(challengeMapName, keyLevel), "cyan", icon)
+					BigWigsLoader.Print(L.keystoneStartMessage:format(challengeMapName, keyLevel))
+					local soundName = db.profile.countEndSound
+					if soundName ~= "None" then
+						local sound = LibSharedMedia:Fetch("sound", soundName, true)
+						if sound then
+							BigWigsLoader.PlaySoundFile(sound)
+						end
+					end
+				end)
+				BigWigsLoader:SendMessage("BigWigs_Message", self, nil, BigWigsAPI:GetLocale("BigWigs: Common").custom_sec:format(L.keystoneStartBar:format(dungeonNamesForBar[challengeMapID], keyLevel), 9), "cyan", icon)
+				local soundName = db.profile.countStartSound
+				if soundName ~= "None" then
+					local sound = LibSharedMedia:Fetch("sound", soundName, true)
+					if sound then
+						BigWigsLoader.PlaySoundFile(sound)
+					end
+				end
+			else -- CHALLENGE_MODE_RESET
+				local _, _, diffID = BigWigsLoader.GetInstanceInfo()
+				if diffID == 8 then
+					TimerTracker:UnregisterEvent("START_TIMER")
+					BigWigsLoader.CTimerAfter(1, function()
+						TimerTracker:RegisterEvent("START_TIMER")
+						self:UnregisterEvent("CHALLENGE_MODE_START")
+					end)
+					self:RegisterEvent("CHALLENGE_MODE_START")
+				end
+			end
+		end)
+	end
+	-- Tab 2 Click Handler
 	do
 		local UnitCastingInfo = UnitCastingInfo
 		local function OnUpdate()
@@ -823,6 +867,22 @@ do
 	end
 
 	-- Tab 3 (Alts)
+	tab3 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
+	tab3:SetSize(50, 26)
+	tab3:SetPoint("LEFT", tab2, "RIGHT", 4, 0)
+	tab3.Text:SetText(L.keystoneTabAlts)
+	tab3:UnregisterAllEvents() -- Remove events registered by the template
+	tab3:RegisterEvent("CHALLENGE_MODE_COMPLETED")
+	-- Tab 3 Event Handler (Used for automatically showing the window when the dungeon ends)
+	do
+		local function Open() mainPanel:Show() tab1:Click() end
+		tab3:SetScript("OnEvent", function()
+			if db.profile.showViewerDungeonEnd and not BigWigsLoader.isTestBuild then
+				BigWigsLoader.CTimerAfter(2, Open)
+			end
+		end)
+	end
+	-- Tab 3 Click Handler
 	tab3:SetScript("OnClick", function(self)
 		SelectTab(self)
 		DeselectTab(tab1)
@@ -914,6 +974,12 @@ do
 	end)
 
 	-- Tab 4 (History)
+	tab4 = CreateFrame("Button", nil, mainPanel, "PanelTabButtonTemplate")
+	tab4:SetSize(50, 26)
+	tab4:SetPoint("LEFT", tab3, "RIGHT", 4, 0)
+	tab4.Text:SetText(L.keystoneTabHistory)
+	tab4:UnregisterAllEvents() -- Remove events registered by the template
+	-- Tab 4 Click Handler
 	tab4:SetScript("OnClick", function(self)
 		SelectTab(self)
 		DeselectTab(tab1)
@@ -929,6 +995,9 @@ do
 		-- Begin Display of history
 		local runs = C_MythicPlus.GetRunHistory(true, true)
 		local tableSize = #runs
+		if tableSize == 0 then
+			olderHeader:SetPoint("TOP", thisWeekHeader, "BOTTOM", 0, -50) -- Make sure the header shows even with no runs
+		end
 		local highestScoreByMap = {}
 		for i = 1, tableSize do
 			if not highestScoreByMap[runs[i].mapChallengeModeID] then
@@ -966,11 +1035,11 @@ do
 				if not firstOldRun then
 					firstOldRun = true
 					if totalThisWeek == 0 then
-						totalThisWeek = 1
+						olderHeader:SetPoint("TOP", thisWeekHeader, "BOTTOM", 0, -50)
+					else
+						local y = 24 + totalThisWeek*26
+						olderHeader:SetPoint("TOP", thisWeekHeader, "BOTTOM", 0, -y)
 					end
-					local y = 24 + totalThisWeek*26
-					olderHeader:SetPoint("TOP", thisWeekHeader, "BOTTOM", 0, -y)
-
 					cellMapName:SetPoint("RIGHT", cellLevel, "LEFT", -6, 0)
 					cellLevel:SetPoint("RIGHT", cellScore, "LEFT", -6, 0)
 					cellScore:SetPoint("TOPLEFT", olderHeader, "CENTER", -6, -12)
@@ -1016,39 +1085,34 @@ do
 	local function GetTeleportTextForSpellID(spellID)
 		if spellID == 0 then
 			return ""
-		elseif InCombatLockdown() then
-			return L.keystoneTeleportInCombat
 		else
 			local spellName = BigWigsLoader.GetSpellName(spellID)
 			if not BigWigsLoader.IsSpellKnownOrInSpellBook(spellID) then
-				return L.keystoneTeleportNotLearned:format(spellName)
+				return L.keystoneClickToTeleportNotLearned
 			else
 				local cd = BigWigsLoader.GetSpellCooldown(spellID)
 				if cd.startTime > 0 and cd.duration > 0 then
-					local remainingSeconds = (cd.startTime + cd.duration) - GetTime()
-					local hours = math.floor(remainingSeconds / 3600)
-					remainingSeconds = remainingSeconds % 3600
-					local minutes = math.floor(remainingSeconds / 60)
-					return L.keystoneTeleportOnCooldown:format(spellName, hours, minutes)
+					return L.keystoneClickToTeleportCooldown
 				else
-					return L.keystoneTeleportReady:format(spellName)
+					return L.keystoneClickToTeleportNow
 				end
 			end
 		end
 	end
 
+	local guildCellsCurrentlyShowing = {}
 	local function UpdateCellsForOnlineTab(playerList, isGuildList)
 		local sortedplayerList = {}
 		for pName, pData in next, playerList do
 			if not isGuildList or (isGuildList and not partyList[pName]) then
 				local decoratedName = nil
 				local nameTooltip = pName
-				local specID = specs[pName]
+				local specID = specializationPlayerList[pName]
 				if specID then
 					local _, specName, _, specIcon, role, classFile, className = GetSpecializationInfoByID(specID)
 					local color = C_ClassColor.GetClassColor(classFile):GenerateHexColor()
 					decoratedName = format("|T%s:16:16:0:0:64:64:4:60:4:60|t%s|c%s%s|r", specIcon, roleIcons[role] or "", color, gsub(pName, "%-.+", "*"))
-					nameTooltip = format("|c%s%s|r |A:classicon-%s:16:16|a%s |T%s:16:16:0:0:64:64:4:60:4:60|t%s %s%s", color, pName, classFile, className, specIcon, specName, roleIcons[role] or "", roleIcons[role] and _G[role] or "")
+					nameTooltip = format("|c%s%s|r |A:classicon-%s:16:16|a%s |T%s:16:16:0:0:64:64:4:60:4:60|t%s %s%s\n%s", color, pName, classFile, className, specIcon, specName, roleIcons[role] or "", roleIcons[role] and _G[role] or "", L.keystoneClickToWhisper)
 				end
 				local challengeMapName, _, _, _, _, mapID = GetMapUIInfo(pData[2])
 				local teleportSpellID = mapID and teleportList[1][mapID] or 0
@@ -1056,7 +1120,7 @@ do
 					name = pName, decoratedName = decoratedName, nameTooltip = nameTooltip,
 					level = pData[1], levelTooltip = L.keystoneLevelTooltip:format(pData[1] == -1 and L.keystoneHiddenTooltip or pData[1]),
 					map = pData[2] == -1 and hiddenIcon or dungeonNames[pData[2]] or "-",
-					mapTooltip = L.keystoneMapTooltip:format(pData[2] == -1 and L.keystoneHiddenTooltip or challengeMapName or "-") .."\n".. GetTeleportTextForSpellID(teleportSpellID),
+					mapTooltip = L.keystoneMapTooltip:format(pData[2] == -1 and L.keystoneHiddenTooltip or challengeMapName or "-") .. GetTeleportTextForSpellID(teleportSpellID),
 					mapID = mapID,
 					rating = pData[3], ratingTooltip = L.keystoneRatingTooltip:format(pData[3]),
 				}
@@ -1098,15 +1162,15 @@ do
 			cellName:SetWidth(WIDTH_NAME)
 			cellName.text:SetText(sortedplayerList[i].decoratedName or sortedplayerList[i].name)
 			cellName.tooltip = sortedplayerList[i].nameTooltip
-			cellName.isGuildList = isGuildList
 			if not isGuildList and instanceID == sortedplayerList[i].mapID then
 				cellName.isGlowing = true
 				LibStub("LibCustomGlow-1.0").PixelGlow_Start(cellName, nil, nil, 0.06) -- If you're in the dungeon of this players key, glow
 			end
+			cellName:SetAttribute("type", "macro")
+			cellName:SetAttribute("macrotext", "/run ChatFrame_SendTell(\"".. sortedplayerList[i].name .."\")")
 			cellLevel:SetWidth(WIDTH_LEVEL)
 			cellLevel.text:SetText(sortedplayerList[i].level == -1 and hiddenIcon or sortedplayerList[i].level)
 			cellLevel.tooltip = sortedplayerList[i].levelTooltip
-			cellLevel.isGuildList = isGuildList
 			cellMap:SetWidth(WIDTH_MAP)
 			if sortedplayerList[i].mapID then
 				cellMap:SetAttribute("type", "spell")
@@ -1114,12 +1178,17 @@ do
 			end
 			cellMap.text:SetText(sortedplayerList[i].map)
 			cellMap.tooltip = sortedplayerList[i].mapTooltip
-			cellMap.isGuildList = isGuildList
 			cellRating:SetWidth(WIDTH_RATING)
 			cellRating.text:SetText(sortedplayerList[i].rating)
 			cellRating.tooltip = sortedplayerList[i].ratingTooltip
-			cellRating.isGuildList = isGuildList
 			prevName, prevLevel, prevMap, prevRating = cellName, cellLevel, cellMap, cellRating
+			if isGuildList then
+				local num = #guildCellsCurrentlyShowing
+				guildCellsCurrentlyShowing[num+1] = cellName
+				guildCellsCurrentlyShowing[num+2] = cellLevel
+				guildCellsCurrentlyShowing[num+3] = cellMap
+				guildCellsCurrentlyShowing[num+4] = cellRating
+			end
 		end
 
 		-- Calculate scroll height
@@ -1134,15 +1203,13 @@ do
 	end
 
 	local function WipeGuildCells()
-		for cell in next, cellsCurrentlyShowing do
-			if cell.isGuildList then
-				cell:Hide()
-				cell.tooltip = nil
-				cell.isGuildList = nil
-				cell:ClearAllPoints()
-				cellsCurrentlyShowing[cell] = nil
-				cellsAvailable[#cellsAvailable+1] = cell
-			end
+		for i = 1, #guildCellsCurrentlyShowing do
+			local cell = guildCellsCurrentlyShowing[i]
+			cell:Hide()
+			cell.tooltip = nil
+			cell:ClearAllPoints()
+			cellsCurrentlyShowing[cell] = nil
+			cellsAvailable[#cellsAvailable+1] = cell
 		end
 	end
 
@@ -1151,8 +1218,9 @@ do
 			if not partyList[playerName] or partyList[playerName][1] ~= keyLevel or partyList[playerName][2] ~= keyMap or partyList[playerName][3] ~= playerRating then
 				partyList[playerName] = {keyLevel, keyMap, playerRating}
 
-				if mainPanel:IsShown() and not tab1:IsEnabled() then
+				if not tab1:IsEnabled() then -- Only if tab 1 (online) is showing
 					WipeCells()
+					guildCellsCurrentlyShowing = {}
 					UpdateCellsForOnlineTab(partyList)
 					UpdateCellsForOnlineTab(guildList, true)
 				end
@@ -1161,14 +1229,19 @@ do
 			if not guildList[playerName] or guildList[playerName][1] ~= keyLevel or guildList[playerName][2] ~= keyMap or guildList[playerName][3] ~= playerRating then
 				guildList[playerName] = {keyLevel, keyMap, playerRating}
 
-				if mainPanel:IsShown() and not tab1:IsEnabled() then
+				if not tab1:IsEnabled() then -- Only if tab 1 (online) is showing
 					WipeGuildCells()
+					guildCellsCurrentlyShowing = {}
 					UpdateCellsForOnlineTab(guildList, true)
 				end
 			end
 		end
 	end)
 end
+
+--------------------------------------------------------------------------------
+-- Options Table
+--
 
 do
 	local function voiceSorting()
@@ -1328,14 +1401,14 @@ do
 						order = 3,
 						width = "full",
 					},
-					autoShowZoneIn = {
+					showViewerOnZoneIn = {
 						type = "toggle",
 						name = L.keystoneAutoShowZoneIn,
 						desc = L.keystoneAutoShowZoneInDesc,
 						order = 4,
 						width = "full",
 					},
-					autoShowEndOfRun = {
+					showViewerDungeonEnd = {
 						type = "toggle",
 						name = L.keystoneAutoShowEndOfRun,
 						desc = L.keystoneAutoShowEndOfRunDesc,
