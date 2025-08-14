@@ -1,11 +1,13 @@
 
 wMarkerAceDB = {
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-},
 ["global"] = {
 ["lastVer"] = "3.2.3",
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

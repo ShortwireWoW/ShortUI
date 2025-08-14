@@ -1,8 +1,10 @@
 
 Details_StreamerDB = {
 ["characters"] = {
-["Shortbowjob - Area 52"] = "Shortwire - Stormrage",
+["Shortsited - Stormrage"] = "Shortwire - Stormrage",
 ["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortbeef - Area 52"] = "Shortwire - Stormrage",
+["Shortbowjob - Area 52"] = "Shortwire - Stormrage",
 },
 ["profiles"] = {
 ["Shortwire - Stormrage"] = {
@@ -39,7 +41,17 @@ Details_StreamerDB = {
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["use_spark"] = true,
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0.00048828125,
+["x"] = 0.00067138671875,
+["size"] = 32,
+["update_speed"] = 0.05,
+["attribute_type"] = 1,
+},
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -49,22 +61,12 @@ Details_StreamerDB = {
 },
 ["author"] = "Terciob",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["y"] = 0.0005340576171875,
 ["font_size"] = 10,
-["y"] = 0.0007171630859375,
 ["x"] = 6.103515625e-05,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["per_second"] = {
-["enabled"] = false,
-["point"] = "CENTER",
-["scale"] = 1,
-["font_shadow"] = true,
-["y"] = 0.003021240234375,
-["x"] = 0.0008544921875,
-["size"] = 32,
-["update_speed"] = 0.05,
-["attribute_type"] = 1,
-},
+["use_spark"] = true,
 ["row_color"] = {
 0.1,
 0.1,

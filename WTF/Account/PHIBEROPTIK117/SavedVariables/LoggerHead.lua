@@ -1,8 +1,10 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
+["Shortsited - Stormrage"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -10,6 +12,17 @@ LoggerHeadDB = {
 ["scenario"] = {
 ["Fungal Folly"] = {
 [208] = false,
+},
+},
+["party"] = {
+["Utgarde Keep"] = {
+[24] = false,
+},
+["Azjol-Nerub"] = {
+[24] = false,
+},
+["Halls of Lightning"] = {
+[24] = false,
 },
 },
 },

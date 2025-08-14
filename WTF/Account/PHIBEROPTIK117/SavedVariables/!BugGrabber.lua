@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 18,
 ["lastSanitation"] = 3,
+["session"] = 25,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/SimpleItemLevel/addon.lua:183: attempt to call field 'ItemHasEmptySlots' (a nil value)",

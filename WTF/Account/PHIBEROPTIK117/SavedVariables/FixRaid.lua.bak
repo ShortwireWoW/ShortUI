@@ -1,18 +1,5 @@
 
 FixRaidDB = {
-["profiles"] = {
-["Default"] = {
-["options"] = {
-["minimapIcon"] = {
-["minimapPos"] = 290.674300741427,
-},
-},
-},
-},
-["profileKeys"] = {
-["Shortbowjob - Area 52"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-},
 ["faction"] = {
 ["Horde"] = {
 ["damagerRoleNonGuildCache"] = {
@@ -39,6 +26,21 @@ FixRaidDB = {
 ["melee"] = {
 },
 ["ranged"] = {
+},
+},
+},
+},
+["profileKeys"] = {
+["Shortsited - Stormrage"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortbowjob - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["options"] = {
+["minimapIcon"] = {
+["minimapPos"] = 290.674300741427,
 },
 },
 },
