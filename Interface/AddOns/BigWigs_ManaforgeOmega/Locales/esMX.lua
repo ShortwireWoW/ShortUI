@@ -10,6 +10,7 @@ if L then
 	--L.voidblade_ambush = "Ambush" -- Short for Voidblade Ambush
 	--L.soulfray_annihilation = "Lines" -- Lines that shoot out an orb along that path
 	--L.soulfray_annihilation_single = "Line" -- Single from Lines
+	--L.remaining_adds = "Remaining Adds" -- All remaining adds from Soul Calling spawn
 end
 
 L = BigWigs:NewBossLocale("Forgeweaver Araz", "esMX")
@@ -38,7 +39,6 @@ end
 
 L = BigWigs:NewBossLocale("Dimensius, the All-Devouring", "esMX")
 if L then
-	--L.shattered_space = "Hands" -- Dimensius reaches down with both hands
 	--L.reverse_gravity = "Gravity" -- Short for Reverse Gravity
 	--L.extinction = "Fragment" -- Dimensius hurls a fragment of a broken world
 	--L.slows = "Slows"
@@ -47,4 +47,7 @@ if L then
 	--L.extinguish_the_stars = "Stars" -- Short for Extinguish the Stars
 	--L.darkened_sky = "Rings"
 	--L.cosmic_collapse = "Collapse" -- Short for Cosmic Collapse
+	--L.soaring_reshii = "Mount Available" -- On the timer for when flying is available
+
+	--L.weakened_soon_monster_yell = "We must strike--now!" -- [CHAT_MSG_MONSTER_YELL] We must strike--now!#Xal'atath###Xal'atath##0#0##0#4873#nil#0#false#false#false#false",
 end

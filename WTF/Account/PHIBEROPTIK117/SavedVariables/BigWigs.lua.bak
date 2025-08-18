@@ -1,12 +1,21 @@
 
 BigWigs3DB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["namespaces"] = {
+["BigWigs_Plugins_Nameplates"] = {
+["profiles"] = {
+["Default"] = {
+["migratePosition"] = true,
+},
+},
+},
 },
 ["myKeystones"] = {
 ["Player-3676-0EA88AB6"] = {
@@ -14,14 +23,6 @@ BigWigs3DB = {
 ["specId"] = 253,
 ["keyMap"] = 0,
 ["name"] = "Shortbowjob",
-["keyLevel"] = 0,
-["realm"] = "Area 52",
-},
-["Player-3676-0EA43E6B"] = {
-["playerRating"] = 0,
-["specId"] = 270,
-["keyMap"] = 0,
-["name"] = "Shortbeef",
 ["keyLevel"] = 0,
 ["realm"] = "Area 52",
 },
@@ -41,6 +42,30 @@ BigWigs3DB = {
 ["keyLevel"] = 0,
 ["realm"] = "Stormrage",
 },
+["Player-3676-0EA43E6B"] = {
+["playerRating"] = 0,
+["specId"] = 270,
+["keyMap"] = 0,
+["name"] = "Shortbeef",
+["keyLevel"] = 0,
+["realm"] = "Area 52",
+},
+["Player-3676-0EAC74D1"] = {
+["playerRating"] = 0,
+["specId"] = 1468,
+["keyMap"] = 0,
+["name"] = "Shortbreath",
+["keyLevel"] = 0,
+["realm"] = "Area 52",
+},
+["Player-60-0FA0FEDD"] = {
+["playerRating"] = 0,
+["specId"] = 66,
+["keyMap"] = 0,
+["name"] = "Shortlite",
+["keyLevel"] = 0,
+["realm"] = "Stormrage",
+},
 },
 ["prevWeeklyReset"] = 1755010800,
 ["profiles"] = {
@@ -53,5 +78,67 @@ BigWigsIconDB = {
 ["hide"] = true,
 }
 BigWigsStatsDB = {
+[2810] = {
+[2686] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["best"] = 267.2880000000005,
+["fkDuration"] = 267.2880000000005,
+},
+},
+[2687] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["fkWipes"] = 3,
+["best"] = 349.0430000000051,
+["wipes"] = 3,
+["fkDuration"] = 349.0430000000051,
+},
+},
+[2688] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["fkWipes"] = 1,
+["best"] = 381.3239999999933,
+["wipes"] = 1,
+["fkDuration"] = 381.3239999999933,
+},
+},
+[2684] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["best"] = 292.0209999999788,
+["fkDuration"] = 292.0209999999788,
+},
+},
+[2685] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["best"] = 368.987999999983,
+["fkDuration"] = 368.987999999983,
+},
+},
+[2747] = {
+["normal"] = {
+["kills"] = 1,
+["fkDate"] = "2025/08/15",
+["bestDate"] = "2025/08/15",
+["fkWipes"] = 1,
+["best"] = 290.4679999999935,
+["wipes"] = 1,
+["fkDuration"] = 290.4679999999935,
+},
+},
+},
 }
 BigWigsTempKeystones = true

@@ -1,17 +1,35 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
+["party"] = {
+["Utgarde Keep"] = {
+[24] = false,
+},
+["Halls of Lightning"] = {
+[24] = false,
+},
+["Azjol-Nerub"] = {
+[24] = false,
+},
+},
 ["scenario"] = {
 ["Fungal Folly"] = {
 [208] = false,
+},
+},
+["raid"] = {
+["Manaforge Omega"] = {
+[14] = true,
 },
 },
 },

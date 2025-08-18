@@ -24,17 +24,23 @@ FixRaidDB = {
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
+["Leopomis-Area52"] = 1755315676,
 },
 ["ranged"] = {
+["Skronkles-Bonechewer"] = 1755311752,
+["Niadrake-Stormrage"] = 1755315650,
+["Landreielea-Eitrigg"] = 1755314674,
 },
 },
 },
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

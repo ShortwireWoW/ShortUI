@@ -23,6 +23,8 @@ local collectiveGravityOnMe = false
 local collectiveGravityStacksOnMe = 0
 local growingHungerOnBoss = 0
 
+local voidlordKilled = 0
+local artoshionKilled = false
 local extinctionCount = 1
 local gammaBurstCount = 1
 local massEjectionCount = 1
@@ -34,23 +36,41 @@ local cosmicCollapseCount = 1
 local supernovaCount = 1
 local voidgraspCount = 1
 
--- When we start filling this table, uncomment the timer bars in the spell's functions :)
-local timers = {
+local timersEasy = {
 	[1] = {
-		[1230087] = {}, -- Massive Smash
-		[1229038] = {}, -- Devour (P1)
-		[1230979] = {}, -- Dark Matter
-		[1243690] = {}, -- Shattered Space
-		[1243577] = {}, -- Reverse Gravity
+		[1230087] = {25, 50, 50, 50}, -- Massive Smash
+		[1229038] = {12.5, 100, 100}, -- Devour (P1)
+		[1230979] = {37.5, 46.3, 53.7, 46.2}, -- Dark Matter
+		[1243690] = {43.7, 50, 50, 50}, -- Shattered Space
+		[1243577] = {56.3, 45, 55, 45}, -- Reverse Gravity
 	},
 	[3] = {
-		[1233539] = {}, -- Devour (P3)
-		[1234044] = {}, -- Darkened Sky
-		[1234263] = {}, -- Cosmic Collapse
-		[1232973] = {}, -- Supernova
-		[1250055] = {}, -- Voidgrasp
+		[1233539] = {47.3, 100}, -- Devour (P3)
+		[1234044] = {81, 33.3, 66.6, 33.3, 33.3}, -- Darkened Sky
+		[1234263] = {69.6, 33.3, 33.3, 33.3, 33.3, 33.3}, -- Cosmic Collapse
+		[1232973] = {56.3, 14.5, 33.3, 33.3, 18.9, 14.5, 33.3}, -- Supernova
+		[1250055] = {60.7, 33.3, 33.3, 33.3, 33.3, 33.3, 33.3, 33.3, 33.3}, -- Voidgrasp
 	}
 }
+
+local timersHeroic = {
+	[1] = {
+		[1230087] = {23.5, 47.0, 47.0, 47.0}, -- Massive Smash
+		[1229038] = {11.7, 94.0, 94.0}, -- Devour (P1)
+		[1230979] = {35.3, 43.5, 50.5, 43.5}, -- Dark Matter
+		[1243690] = {47.7, 47.0, 47.0, 47.0}, -- Shattered Space
+		[1243577] = {52.9, 42.3, 51.7, 42.3}, -- Reverse Gravity
+	},
+	[3] = {
+		[1233539] = {47.3, 100.0, 100.0}, -- Devour (P3)
+		[1234044] = {30.0, 51.1, 33.3, 66.6, 33.3}, -- Darkened Sky
+		[1234263] = {65.3, 33.3, 33.3, 33.3, 33.3, 33.3}, -- Cosmic Collapse
+		[1232973] = {56.3, 14.5, 33.3, 33.3, 18.9, 14.5, 33.3}, -- Supernova
+		[1250055] = {60.7, 33.3, 33.3, 33.3, 33.3, 33.3}, -- Voidgrasp
+	}
+}
+
+local timers = mod:Easy() and timersEasy or timersHeroic
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -58,7 +78,6 @@ local timers = {
 
 local L = mod:GetLocale()
 if L then
-	L.shattered_space = "Hands" -- Dimensius reaches down with both hands
 	L.reverse_gravity = "Gravity" -- Short for Reverse Gravity
 	L.extinction = "Fragment" -- Dimensius hurls a fragment of a broken world
 	L.slows = "Slows"
@@ -67,6 +86,9 @@ if L then
 	L.extinguish_the_stars = "Stars" -- Short for Extinguish the Stars
 	L.darkened_sky = "Rings"
 	L.cosmic_collapse = "Collapse" -- Short for Cosmic Collapse
+	L.soaring_reshii = "Mount Available" -- On the timer for when flying is available
+
+	L.weakened_soon_monster_yell = "We must strike--now!" -- [CHAT_MSG_MONSTER_YELL] We must strike--now!#Xal'atath###Xal'atath##0#0##0#4873#nil#0#false#false#false#false",
 end
 
 --------------------------------------------------------------------------------
@@ -76,12 +98,12 @@ end
 function mod:OnRegister()
 	self:SetSpellRename(1230087, CL.smash) -- Massive Smash (Smash)
 	self:SetSpellRename(1230979, CL.spread) -- Dark Matter (Spread)
-	self:SetSpellRename(1243690, L.shattered_space) -- Shattered Space (Hands)
+	self:SetSpellRename(1243690, CL.soaks) -- Shattered Space (Soaks)
 	self:SetSpellRename(1243699, CL.stunned) -- Spatial Fragment (Stunned)
 	self:SetSpellRename(1243577, L.reverse_gravity) -- Reverse Gravity (Gravity)
 
 	self:SetSpellRename(1238765, L.extinction) -- Extinction (Fragment)
-	self:SetSpellRename(1237319, CL.pushback) -- Gamma Burst (Pushback)
+	self:SetSpellRename(1237325, CL.pushback) -- Gamma Burst (Pushback)
 	self:SetSpellRename(1237694, CL.frontal_cone) -- Mass Ejection (Frontal Cone)
 	self:SetSpellRename(1239262, CL.adds) -- Conqueror's Cross (Adds)
 	self:SetSpellRename(1246541, L.slow) -- Null Binding (Slow)
@@ -90,12 +112,13 @@ function mod:OnRegister()
 	self:SetSpellRename(1245292, CL.weakened) -- Destabilized (Weakening)
 	self:SetSpellRename(1231716, L.extinguish_the_stars) -- Extinguish the Stars (Stars)
 	self:SetSpellRename(1234044, L.darkened_sky) -- Darkened Sky (Rings)
-	self:SetSpellRename(1234263, L.cosmic_collapse) -- Cosmic Collapse (Collapse)\
+	self:SetSpellRename(1234263, L.cosmic_collapse) -- Cosmic Collapse (Collapse)
 	self:SetSpellRename(1250055, L.slows) -- Voidgrasp (Slows)
 end
 
 function mod:GetOptions()
 	return {
+		"stages",
 		-- Stage One: Critical Mass
 			-- 1229327, -- Oblivion
 			1230087, -- Massive Smash
@@ -127,9 +150,9 @@ function mod:GetOptions()
 			1246930, -- Stellar Core
 		-- Stage Two: The Dark Heart
 			1238765, -- Extinction
-			1237319, -- Gamma Burst
+			1237325, -- Gamma Burst
 			-- The Devoured Lords
-				1237690, -- Eclipse
+				-- 1237690, -- Eclipse
 				-- Artoshion
 					1237694, -- Mass Ejection
 						1237696, -- Debris Field
@@ -143,7 +166,7 @@ function mod:GetOptions()
 				-- Pargoth
 					1237695, -- Stardust Nova
 		-- Stage Three: Singularity
-			1245292, -- Destabilized
+			{1245292, "CASTBAR", "COUNTDOWN"}, -- Destabilized
 			1233292, -- Accretion Disk
 			{1231716, "CASTBAR"}, -- Extinguish the Stars
 				1232394, -- Gravity Well
@@ -157,6 +180,10 @@ function mod:GetOptions()
 			1250055, -- Voidgrasp
 	},{
 		{
+			tabName = CL.general,
+			{"stages"}
+		},
+		{
 			tabName = CL.stage:format(1),
 			{1230087, 1228206, 1228207, 1230168, 1229038, 1230979, 1231002, 1243690, 1243702, 1243699, 1243577, 1243609},
 		},
@@ -166,7 +193,7 @@ function mod:GetOptions()
 		},
 		{
 			tabName = CL.stage:format(2),
-			{1238765, 1237319, 1237690, 1237694, 1237696, 1239262, 1239270, 1246541, 1246145, 1237695},
+			{1238765, 1237325, 1237694, 1237696, 1239262, 1239270, 1246541, 1246145, 1237695},
 		},
 		{
 			tabName = CL.stage:format(3),
@@ -175,11 +202,11 @@ function mod:GetOptions()
 	},{
 		[1230087] = CL.smash, -- Massive Smash (Smash)
 		[1230979] = CL.spread, -- Dark Matter (Spread)
-		[1243690] = L.shattered_space, -- Shattered Space (Hands)
+		[1243690] = CL.soaks, -- Shattered Space (Soaks)
 		[1243699] = CL.stunned, -- Spatial Fragment (Stunned)
 		[1243577] = L.reverse_gravity, -- Reverse Gravity (Gravity)
 		[1238765] = L.extinction, -- Extinction (Fragment)
-		[1237319] = CL.pushback, -- Gamma Burst (Pushback)
+		[1237325] = CL.pushback, -- Gamma Burst (Pushback)
 		[1237694] = CL.frontal_cone, -- Mass Ejection (Frontal Cone)
 		[1239262] = CL.adds, -- Conqueror's Cross (Adds)
 		[1246541] = L.slow, -- Null Binding (Slow)
@@ -193,6 +220,10 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
+	self:RegisterUnitEvent("UNIT_SPELLCAST_START", nil, "boss1", "boss2") -- Shattered Space, Gamma Burst
+	self:RegisterEvent("CHAT_MSG_MONSTER_YELL")
+	self:RegisterEvent("CHAT_MSG_RAID_BOSS_EMOTE")
+
 	-- Stage One: Critical Mass
 	self:Log("SPELL_CAST_START", "MassiveSmash", 1230087)
 	self:Log("SPELL_AURA_APPLIED", "ExcessMassApplied", 1228206)
@@ -203,14 +234,12 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "MortalFragilityApplied", 1230168)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "MortalFragilityApplied", 1230168)
 	self:Log("SPELL_CAST_START", "DevourP1", 1229038)
-	self:Log("SPELL_AURA_REMOVED", "DevourP1Removed", 1229038) -- Channel Over
-	self:Log("SPELL_AURA_APPLIED", "GrowingHungerApplied", 1229674)
-	self:Log("SPELL_AURA_APPLIED_DOSE", "GrowingHungerApplied", 1229674)
+	self:Log("SPELL_CAST_SUCCESS", "DevourP1Success", 1229038)
 	self:Log("SPELL_CAST_START", "DarkMatter", 1230979)
 	self:Log("SPELL_AURA_APPLIED", "DarkEnergyDamage", 1231002)
 	self:Log("SPELL_PERIODIC_DAMAGE", "DarkEnergyDamage", 1231002)
 	self:Log("SPELL_PERIODIC_MISSED", "DarkEnergyDamage", 1231002)
-	self:Log("SPELL_CAST_START", "ShatteredSpace", 1243690)
+	-- self:Log("SPELL_CAST_START", "ShatteredSpace", 1243690)
 	self:Log("SPELL_DAMAGE", "AntimatterHit", 1243702)
 	self:Log("SPELL_MISSED", "AntimatterHit", 1243702)
 	self:Log("SPELL_AURA_APPLIED", "SpatialFragmentApplied", 1243699)
@@ -218,6 +247,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_REMOVED", "ReverseGravityRemoved", 1243577)
 	self:Log("SPELL_AURA_APPLIED", "AirborneApplied", 1243609)
 	self:Log("SPELL_AURA_REMOVED", "AirborneRemoved", 1243609)
+	self:Log("SPELL_CAST_START", "EventHorizon", 1234898) -- End of P1
 
 	-- Intermission: Event Horizon
 	self:Log("SPELL_AURA_APPLIED", "SoaringReshiiApplied", 1235114)
@@ -228,11 +258,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "StellarCoreApplied", 1246930)
 
 	-- Stage Two: The Dark Heart
+	self:Log("SPELL_AURA_APPLIED", "WorldsoulConsumptionApplied", 1237102)
+
 	self:Log("SPELL_CAST_START", "Extinction", 1238765)
-	self:Log("SPELL_CAST_START", "GammaBurst", 1237319)
+	-- self:Log("UNIT_SPELLCAST_START", "GammaBurst", 1237319)
 
 	-- The Devoured Lords
-	self:Log("SPELL_CAST_SUCCESS", "Eclipse", 1237690)
+	-- self:Log("SPELL_AURA_REMOVED", "EclipseRemoved", 1237690)
 
 	-- Artoshion & Pargoth
 	self:Log("SPELL_CAST_START", "MassEjection", 1237694)
@@ -242,10 +274,11 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "ConquerorsCross", 1239262)
 	self:Log("SPELL_AURA_APPLIED", "VoidwardingApplied", 1239270)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "VoidwardingApplied", 1239270)
-	self:Log("SPELL_CAST_START", "NullBinding", 1246541)
+	self:Log("SPELL_CAST_SUCCESS", "NullBinding", 1246541)
 	self:Log("SPELL_AURA_APPLIED", "TouchOfOblivionApplied", 1246145)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "TouchOfOblivionApplied", 1246145)
 	self:Log("SPELL_CAST_START", "StardustNova", 1237695)
+	self:Death("VoidlordDeath", 245255, 245222) -- Artoshion & Pargoth
 
 	-- Stage Three: Singularity
 	self:Log("SPELL_AURA_APPLIED", "Destabilized", 1245292)
@@ -253,10 +286,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_MISSED", "AccretionDiskDamage", 1233292)
 	self:Log("SPELL_CAST_SUCCESS", "ExtinguishTheStars", 1231716)
 	self:Log("SPELL_AURA_APPLIED", "GravityWellApplied", 1232394)
-	self:Log("SPELL_AURA_REMOVED", "GravityWellRemoved", 1232394)
 	self:Log("SPELL_CAST_START", "DevourP3", 1233539)
 	self:Log("SPELL_AURA_REMOVED", "DevourP3Removed", 1233539) -- Channel Over
-	self:Log("SPELL_CAST_START", "DarkenedSky", 1234044)
+	-- self:Log("SPELL_CAST_START", "DarkenedSky", 1234044) -- Have to use the emote, not all have a cast.
 	self:Log("SPELL_AURA_APPLIED", "ShadowquakeApplied", 1234054)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "ShadowquakeApplied", 1234054)
 	self:Log("SPELL_CAST_START", "CosmicCollapse", 1234263)
@@ -264,6 +296,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED_DOSE", "CosmicFragilityApplied", 1234266)
 	self:Log("SPELL_CAST_START", "Supernova", 1232973)
 	self:Log("SPELL_AURA_APPLIED", "VoidgraspApplied", 1250055)
+
+	timers = mod:Easy() and timersEasy or timersHeroic
 end
 
 function mod:OnEngage()
@@ -275,39 +309,56 @@ function mod:OnEngage()
 	shatteredSpaceCount = 1
 	reverseGravityCount = 1
 
-	collectiveGravityOnMe = false
 	collectiveGravityStacksOnMe = 0
 	growingHungerOnBoss = 0
 
-	-- self:Bar(1230087, timers[1][1230087][massiveSmashCount], CL.count:format(CL.smash, massiveSmashCount)) -- Massive Smash
-	-- self:Bar(1229038, timers[1][1229038][devourCount], CL.count:format(self:SpellName(1229038), devourCount)) -- Devour
-	-- self:Bar(1230979, timers[1][1230979][darkMatterCount], CL.count:format(CL.spread, darkMatterCount)) -- Dark Matter
-	-- self:Bar(1243690, timers[1][1243690][shatteredSpaceCount], CL.count:format(L.shattered_space, shatteredSpaceCount)) -- Shattered Space
-	-- self:Bar(1243577, timers[1][1243577][reverseGravityCount], CL.count:format(L.reverse_gravity, reverseGravityCount)) -- Reverse Gravity
-
-	-- Stage 2
-	extinctionCount = 1
-	gammaBurstCount = 1
-	massEjectionCount = 1
-	conquerorsCrossCount = 1
-	stardustNovaCount = 1
-
-	darkenedSkyCount = 1
-	cosmicCollapseCount = 1
-	supernovaCount = 1
-	voidgraspCount = 1
+	self:Bar(1230087, timers[1][1230087][massiveSmashCount], CL.count:format(CL.smash, massiveSmashCount)) -- Massive Smash
+	self:Bar(1229038, timers[1][1229038][devourCount], CL.count:format(self:SpellName(1229038), devourCount)) -- Devour
+	self:Bar(1230979, timers[1][1230979][darkMatterCount], CL.count:format(CL.spread, darkMatterCount)) -- Dark Matter
+	self:Bar(1243690, timers[1][1243690][shatteredSpaceCount], CL.count:format(CL.soaks, shatteredSpaceCount)) -- Shattered Space
+	self:Bar(1243577, timers[1][1243577][reverseGravityCount], CL.count:format(L.reverse_gravity, reverseGravityCount)) -- Reverse Gravity
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
 
+function mod:UNIT_SPELLCAST_START(_, unit, _, spellId)
+	if spellId == 1243690 then
+		self:ShatteredSpace()
+	elseif spellId == 1237319 then -- Gamma Burst
+		self:GammaBurst()
+	end
+end
+
+function mod:CHAT_MSG_MONSTER_YELL(_, msg)
+	if msg == L.weakened_soon_monster_yell then
+		self:Bar(1245292, {8.7, 14.5}, CL.soon:format(CL.weakened)) -- Correct it with more precision
+	end
+end
+
+do
+	local prev = 0
+	function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
+		-- |TInterface\\\\ICONS\\\\INV_112_RaidDimensius_DarkenedSky.BLP:20|t %s casts |cFFFF0000|Hspell:1234052|h[Darkened Sky]|h|r!#Dimensius###Dimensius##0#0##0#4880#nil#0#false#false#false#false",
+		if msg:find("spell:1234052", nil, true) then
+			local time = GetTime()
+			if time - prev > 2 then
+				prev = time
+				self:DarkenedSky() -- Using emote as first cast has no cast...
+			end
+		end
+	end
+end
+
+
+
 -- Stage One: Critical Mass
 function mod:MassiveSmash(args)
 	self:Message(args.spellId, "purple", CL.count:format(CL.smash, massiveSmashCount))
 	self:PlaySound(args.spellId, "long") -- big tank hit + adds + knockback
 	massiveSmashCount = massiveSmashCount + 1
-	-- self:Bar(args.spellId, timers[1][args.spellId][massiveSmashCount], CL.count:format(CL.smash, massiveSmashCount))
+	self:Bar(args.spellId, timers[1][args.spellId][massiveSmashCount], CL.count:format(CL.smash, massiveSmashCount))
 end
 
 function mod:ExcessMassApplied(args)
@@ -354,27 +405,23 @@ do
 			mod:CancelTimer(collectiveGravityCheck)
 			collectiveGravityCheck = nil
 		end
-		if collectiveGravityOnMe then return end -- safe! (maybe)
-
-		if collectiveGravityOnMe and collectiveGravityStacksOnMe < growingHungerOnBoss then
-			-- Confirm if this works, then remove the maybe check above.
-			return -- safe!
-		end
+		if collectiveGravityOnMe or mod:UnitIsDeadOrGhost("player") then return end -- safe! (or death)
 
 		mod:Message(1228207, "blue", CL.no:format(collectiveGravitySpellName))
 		mod:PlaySound(1228207, "warning") -- no collective gravity
-		--collectiveGravityCheck = mod:ScheduleTimer(checkForCollectiveGravity, 1)
+		collectiveGravityCheck = mod:ScheduleTimer(checkForCollectiveGravity, 1)
 	end
 
 	function mod:DevourP1(args)
+		self:StopBar(CL.count:format(args.spellName, devourCount))
 		self:Message(args.spellId, "red", CL.count:format(args.spellName, devourCount))
 		self:PlaySound(args.spellId, "warning") -- get safe
 		devourCount = devourCount + 1
-		-- self:Bar(args.spellId, timers[1][args.spellId][devourCount], CL.count:format(args.spellName, devourCount))
-		--collectiveGravityCheck = mod:ScheduleTimer(checkForCollectiveGravity, 2.5) -- check last 4~ seconds
+		self:Bar(args.spellId, timers[1][args.spellId][devourCount], CL.count:format(args.spellName, devourCount))
+		collectiveGravityCheck = mod:ScheduleTimer(checkForCollectiveGravity, 2.5) -- check last 4~ seconds
 	end
 
-	function mod:DevourP1Removed()
+	function mod:DevourP1Success()
 		if collectiveGravityCheck then
 			mod:CancelTimer(collectiveGravityCheck)
 			collectiveGravityCheck = nil
@@ -382,15 +429,12 @@ do
 	end
 end
 
-function mod:GrowingHungerApplied(args)
-	growingHungerOnBoss = args.amount or 1
-end
-
 function mod:DarkMatter(args)
+	self:StopBar(CL.count:format(CL.spread, darkMatterCount))
 	self:Message(args.spellId, "orange", CL.count:format(CL.spread, darkMatterCount))
 	self:PlaySound(args.spellId, "alert") -- spread
 	darkMatterCount = darkMatterCount + 1
-	-- self:Bar(args.spellId, timers[1][args.spellId][darkMatterCount], CL.count:format(CL.spread, darkMatterCount))
+	self:Bar(args.spellId, timers[1][args.spellId][darkMatterCount], CL.count:format(CL.spread, darkMatterCount))
 end
 
 do
@@ -404,17 +448,22 @@ do
 	end
 end
 
-function mod:ShatteredSpace(args)
-	self:Message(args.spellId, "yellow", CL.count:format(L.shattered_space, shatteredSpaceCount))
-	self:PlaySound(args.spellId, "alert") -- move away from hands
+function mod:ShatteredSpace()
+	self:StopBar(CL.count:format(CL.soaks, shatteredSpaceCount))
+	self:Message(1243690, "yellow", CL.count:format(CL.soaks, shatteredSpaceCount))
+	self:PlaySound(1243690, "alert") -- move away from hands
 	shatteredSpaceCount = shatteredSpaceCount + 1
-	-- self:Bar(args.spellId, timers[1][args.spellId][shatteredSpaceCount], CL.count:format(L.shattered_space, shatteredSpaceCount))
+	self:Bar(1243690, timers[1][1243690][shatteredSpaceCount], CL.count:format(CL.soaks, shatteredSpaceCount))
 end
 
-function mod:AntimatterHit(args)
-	if self:Me(args.destGUID) then
-		self:PersonalMessage(args.spellId, "underyou")
-		self:PlaySound(args.spellId, "underyou", nil, args.destName) -- soaking, but do notify
+do
+	local prev = 0
+	function mod:AntimatterHit(args)
+		if self:Me(args.destGUID) and args.time - prev > 2 then
+			prev = args.time
+			self:PersonalMessage(args.spellId, "underyou")
+			self:PlaySound(args.spellId, "info", nil, args.destName) -- soaking, good kind of soak
+		end
 	end
 end
 
@@ -430,11 +479,12 @@ do
 	function mod:ReverseGravityApplied(args)
 		if args.time - prev > 2 then
 			prev = args.time
+			self:StopBar(CL.count:format(L.reverse_gravity, reverseGravityCount))
 			self:Message(args.spellId, "yellow", CL.count:format(L.reverse_gravity, reverseGravityCount))
 			-- Not using targetsmessage because it read as it if's cast multiple times in succession fast for now
 			-- sound for targetted players only
 			reverseGravityCount = reverseGravityCount + 1
-			-- self:Bar(args.spellId, timers[1][args.spellId][reverseGravityCount], CL.count:format(L.reverse_gravity, reverseGravityCount))
+			self:Bar(args.spellId, timers[1][args.spellId][reverseGravityCount], CL.count:format(L.reverse_gravity, reverseGravityCount))
 		end
 		if self:Me(args.destGUID) then
 			self:PersonalMessage(args.spellId, nil, L.reverse_gravity)
@@ -465,8 +515,25 @@ function mod:AirborneRemoved(args)
 	end
 end
 
+function mod:EventHorizon(args)
+	self:StopBar(CL.count:format(CL.smash, massiveSmashCount)) -- Massive Smash
+	self:StopBar(CL.count:format(self:SpellName(1229038), devourCount)) -- Devour
+	self:StopBar(CL.count:format(CL.spread, darkMatterCount)) -- Dark Matter
+	self:StopBar(CL.count:format(CL.soaks, shatteredSpaceCount)) -- Shattered Space
+	self:StopBar(CL.count:format(L.reverse_gravity, reverseGravityCount)) -- Reverse Gravity
+
+	self:Message("stages", "yellow", CL.intermission, args.spellId)
+	self:PlaySound("stages", "long") -- staging
+	self:SetStage(1.5)
+
+	voidlordKilled = 0
+	artoshionKilled = false
+	self:Bar(1235114, 13.8, L.soaring_reshii) -- Soaring Reshii
+end
+
 -- Intermission: Event Horizon
 function mod:SoaringReshiiApplied(args)
+	self:StopBar(L.soaring_reshii)
 	if self:Me(args.destGUID) then
 		self:Message(args.spellId, "green", CL.flying_available)
 		self:PlaySound(args.spellId, "info", nil, args.destName)
@@ -505,32 +572,51 @@ function mod:StellarCoreApplied(args)
 end
 
 -- Stage Two: The Dark Heart
+function mod:WorldsoulConsumptionApplied(args)
+	self:SetStage(2)
+
+	conquerorsCrossCount = 1
+	massEjectionCount = 1
+	stardustNovaCount = 1
+	extinctionCount = 1
+	gammaBurstCount = 1
+
+	self:CDBar(1238765, artoshionKilled and 30.5 or 26.2, CL.count:format(L.extinction, extinctionCount))
+	self:CDBar(1237325, artoshionKilled and 44.8 or 40.0, CL.count:format(CL.pushback, gammaBurstCount))
+
+	self:CDBar(1239262, 14, CL.count:format(CL.adds, conquerorsCrossCount))
+	if not artoshionKilled then
+		self:CDBar(1237694, 21.5, CL.count:format(CL.frontal_cone, massEjectionCount))
+	else
+		self:CDBar(1237695, 25.9, CL.count:format(L.stardust_nova, stardustNovaCount))
+	end
+end
+
 function mod:Extinction(args)
+	self:StopBar(CL.count:format(L.extinction, extinctionCount))
 	self:Message(args.spellId, "orange", CL.count:format(L.extinction, extinctionCount))
 	self:PlaySound(args.spellId, "alarm") -- dodge fragment
 	extinctionCount = extinctionCount + 1
-	-- self:Bar(args.spellId, timers[2][args.spellId][extinctionCount], CL.count:format(L.extinction, extinctionCount))
+	self:Bar(args.spellId, 33.2, CL.count:format(L.extinction, extinctionCount))
 end
 
-function mod:GammaBurst(args)
-	self:Message(args.spellId, "red", CL.count:format(CL.pushback, gammaBurstCount))
-	self:PlaySound(args.spellId, "long") -- pushback inc
+function mod:GammaBurst()
+	self:StopBar(CL.count:format(CL.pushback, gammaBurstCount))
+	self:Message(1237325, "red", CL.count:format(CL.pushback, gammaBurstCount))
+	self:PlaySound(1237325, "warning") -- pushback inc
 	gammaBurstCount = gammaBurstCount + 1
-	-- self:Bar(args.spellId, timers[2][args.spellId][gammaBurstCount], CL.count:format(CL.pushback, gammaBurstCount))
+	self:Bar(1237325, 35.0, CL.count:format(CL.pushback, gammaBurstCount))
 end
 
 -- The Devoured Lords
-function mod:Eclipse(args)
-	self:Message(args.spellId, "cyan", CL.casting:format(args.spellName))
-	self:PlaySound(args.spellId, "info") -- long channel started
-end
-
 -- Artoshion & Pargoth
 function mod:MassEjection(args)
+	self:StopBar(CL.count:format(CL.frontal_cone, massEjectionCount))
 	self:Message(args.spellId, "yellow", CL.casting:format(CL.frontal_cone))
 	self:PlaySound(args.spellId, "alert") -- dodge frontal
 	massEjectionCount = massEjectionCount + 1
-	-- self:Bar(args.spellId, 20, CL.count:format(CL.frontal_cone, massEjectionCount))
+	local cd = {17.7, 12.7, 17}
+	self:Bar(args.spellId, 20, CL.count:format(CL.frontal_cone, massEjectionCount))
 end
 
 do
@@ -545,10 +631,11 @@ do
 end
 
 function mod:ConquerorsCross(args)
+	self:StopBar(CL.count:format(CL.adds, conquerorsCrossCount))
 	self:Message(args.spellId, "orange", CL.count:format(CL.adds, conquerorsCrossCount))
 	self:PlaySound(args.spellId, "alert") -- adds/walls incoming
 	conquerorsCrossCount = conquerorsCrossCount + 1
-	-- self:Bar(args.spellId, 50, CL.count:format(CL.adds, conquerorsCrossCount))
+	self:Bar(args.spellId, 35.3, CL.count:format(CL.adds, conquerorsCrossCount))
 end
 
 function mod:VoidwardingApplied(args)
@@ -559,9 +646,8 @@ function mod:VoidwardingApplied(args)
 end
 
 function mod:NullBinding(args)
-	self:Message(args.spellId, "yellow", CL.casting:format(L.slow))
-	self:PlaySound(args.spellId, "alarm") -- slows incoming!
-	-- self:Bar(args.spellId, 20, L.slow)
+	self:Message(args.spellId, "yellow", L.slow)
+	self:PlaySound(args.spellId, "alarm") -- slows
 end
 
 function mod:TouchOfOblivionApplied(args)
@@ -576,6 +662,7 @@ function mod:TouchOfOblivionApplied(args)
 end
 
 function mod:StardustNova(args)
+	self:StopBar(CL.count:format(L.stardust_nova, stardustNovaCount))
 	self:Message(args.spellId, "orange", CL.count:format(L.stardust_nova, stardustNovaCount))
 	local unit = self:UnitTokenFromGUID(args.sourceGUID)
 	if unit and self:UnitWithinRange(unit, 20) then -- radius is 10, using 20 to be safe.
@@ -585,28 +672,44 @@ function mod:StardustNova(args)
 	-- self:Bar(args.spellId, 40, CL.count:format(L.stardust_nova, stardustNovaCount))
 end
 
+function mod:VoidlordDeath(args)
+	voidlordKilled = voidlordKilled + 1
+	self:StopBar(CL.count:format(CL.adds, conquerorsCrossCount))
+	self:StopBar(CL.count:format(CL.frontal_cone, massEjectionCount))
+	self:StopBar(CL.count:format(L.stardust_nova, stardustNovaCount))
+	self:StopBar(CL.count:format(L.extinction, extinctionCount))
+	self:StopBar(CL.count:format(CL.pushback, gammaBurstCount))
+
+	self:Message("stages", "green", CL.mob_killed:format(args.destName, voidlordKilled, 2), "warlock_summon_-voidlord")
+	self:PlaySound("stages", "info")
+
+	if self:MobId(args.destGUID) == 245255 then -- Artoshion
+		self:SetStage(1.5) -- Fly time
+		artoshionKilled = true
+		self:Bar(1235114, 5.5, L.soaring_reshii) -- Soaring Reshii
+	else -- stage 3 inc
+		self:Bar(1245292, 14.5, CL.soon:format(CL.weakened))
+	end
+end
+
 -- Stage Three: Singularity
 function mod:Destabilized(args)
+	self:SetStage(3)
 	self:Message(args.spellId, "green", CL.weakened)
 	self:PlaySound(args.spellId, "long") -- weakened
-	self:Bar(args.spellId, 15, CL.weakened)
+	self:CastBar(args.spellId, 15, CL.weakened)
 
-	-- XXX TEMP, unless there is no better event. Lol.
-	local stage = self:GetStage()
-	if stage ~= 3 then
-		self:SetStage(3)
+	devourCount = 1
+	darkenedSkyCount = 1
+	cosmicCollapseCount = 1
+	supernovaCount = 1
 
-		devourCount = 1
-		darkenedSkyCount = 1
-		cosmicCollapseCount = 1
-		supernovaCount = 1
-
-		-- self:Bar(1231716, 10, L.extinguish_the_stars) -- Extinguish the Stars
-		-- self:Bar(1234044, timers[3][1234044][darkenedSkyCount], CL.count:format(L.darkened_sky, darkenedSkyCount)) -- Darkened Sky
-		-- self:Bar(1234263, timers[3][1234263][cosmicCollapseCount], CL.count:format(L.cosmic_collapse, cosmicCollapseCount)) -- Cosmic Collapse
-		-- self:Bar(1233539, timers[3][1233539][devourCount], CL.count:format(self:SpellName(1233539), devourCount)) -- Devour
-		-- self:Bar(1232973, timers[3][1232973][supernovaCount], CL.count:format(self:SpellName(1232973), supernovaCount)) -- Supernova
-	end
+	self:Bar(1231716, 17, L.extinguish_the_stars) -- Extinguish the Stars
+	self:Bar(1234044, timers[3][1234044][darkenedSkyCount], CL.count:format(L.darkened_sky, darkenedSkyCount)) -- Darkened Sky
+	self:Bar(1250055, timers[3][1250055][voidgraspCount], CL.count:format(L.slows, voidgraspCount)) -- Void Grasp
+	self:Bar(1234263, timers[3][1234263][cosmicCollapseCount], CL.count:format(L.cosmic_collapse, cosmicCollapseCount)) -- Cosmic Collapse
+	self:Bar(1233539, timers[3][1233539][devourCount], CL.count:format(self:SpellName(1233539), devourCount)) -- Devour
+	self:Bar(1232973, timers[3][1232973][supernovaCount], CL.count:format(self:SpellName(1232973), supernovaCount)) -- Supernova
 end
 
 do
@@ -627,20 +730,7 @@ function mod:ExtinguishTheStars(args)
 end
 
 do
-	local gravityWellOnMe, castingDevour = false, false
-	local gravityWellCheck, gravityWellSpellName = nil, mod:SpellName(1232394) -- Gravity Well
-
-	local function checkForGravityWell()
-		if gravityWellCheck then
-			mod:CancelTimer(gravityWellCheck)
-			gravityWellCheck = nil
-		end
-		if gravityWellOnMe then return end -- safe!
-
-		mod:Message(1232394, "blue", CL.no:format(gravityWellSpellName))
-		mod:PlaySound(1232394, "warning") -- no gravity well
-		--gravityWellCheck = mod:ScheduleTimer(checkForGravityWell, 1)
-	end
+	local castingDevour = false
 
 	function mod:GravityWellApplied(args)
 		if self:Me(args.destGUID) then
@@ -651,23 +741,17 @@ do
 				self:PersonalMessage(args.spellId, "underyou")
 				self:PlaySound(args.spellId, "underyou", nil, args.destName) -- bad
 			end
-			gravityWellOnMe = true
-		end
-	end
-
-	function mod:GravityWellRemoved(args)
-		if self:Me(args.destGUID) then
-			gravityWellOnMe = false
 		end
 	end
 
 	function mod:DevourP3(args)
+		self:StopBar(CL.count:format(args.spellName, devourCount))
 		self:Message(args.spellId, "red", CL.count:format(args.spellName, devourCount))
 		self:PlaySound(args.spellId, "warning") -- get safe
 		devourCount = devourCount + 1
-		-- self:Bar(args.spellId, timers[3][args.spellId][devourCount], CL.count:format(args.spellName, devourCount))
+		self:Bar(args.spellId, timers[3][args.spellId][devourCount], CL.count:format(args.spellName, devourCount))
 		castingDevour = true
-		--gravityWellCheck = mod:ScheduleTimer(checkForGravityWell, 4.5) -- check last 2~ seconds
+		-- No repeater, get in late
 	end
 
 	function mod:DevourP3Removed()
@@ -675,11 +759,12 @@ do
 	end
 end
 
-function mod:DarkenedSky(args)
-	self:Message(args.spellId, "yellow", CL.count:format(args.spellName, darkenedSkyCount))
-	self:PlaySound(args.spellId, "alert")
+function mod:DarkenedSky()
+	self:StopBar(CL.count:format(L.darkened_sky, darkenedSkyCount))
+	self:Message(1234044, "yellow", CL.count:format(L.darkened_sky, darkenedSkyCount))
+	self:PlaySound(1234044, "alert")
 	darkenedSkyCount = darkenedSkyCount + 1
-	--self:Bar(args.spellId, 30, CL.count:format(args.spellName, darkenedSkyCount))
+	self:Bar(1234044, timers[3][1234044][darkenedSkyCount], CL.count:format(L.darkened_sky, darkenedSkyCount))
 end
 
 function mod:ShadowquakeApplied(args)
@@ -691,10 +776,11 @@ function mod:ShadowquakeApplied(args)
 end
 
 function mod:CosmicCollapse(args)
+	self:StopBar(CL.count:format(L.cosmic_collapse, cosmicCollapseCount))
 	self:Message(args.spellId, "purple", CL.count:format(L.cosmic_collapse, cosmicCollapseCount))
 	self:PlaySound(args.spellId, "alert") -- don't be near the tank
 	cosmicCollapseCount = cosmicCollapseCount + 1
-	-- self:Bar(args.spellId, timers[3][args.spellId][cosmicCollapseCount], CL.count:format(L.cosmic_collapse, cosmicCollapseCount))
+	self:Bar(args.spellId, timers[3][args.spellId][cosmicCollapseCount], CL.count:format(L.cosmic_collapse, cosmicCollapseCount))
 end
 
 function mod:CosmicFragilityApplied(args)
@@ -707,11 +793,12 @@ function mod:CosmicFragilityApplied(args)
 end
 
 function mod:Supernova(args)
+	self:StopBar(CL.count:format(args.spellName, supernovaCount))
 	self:Message(args.spellId, "yellow", CL.count:format(args.spellName, supernovaCount))
 	self:PlaySound(args.spellId, "alert") -- falloff damage on star explosion
 	self:CastBar(args.spellId, self:Mythic() and 8.5 or 6.5, CL.count:format(args.spellName, supernovaCount)) -- 1.5s cast + 5s explosion (7s on Mythic)
 	supernovaCount = supernovaCount + 1
-	-- self:Bar(args.spellId, timers[3][args.spellId][supernovaCount], CL.count:format(args.spellName, supernovaCount))
+	self:Bar(args.spellId, timers[3][args.spellId][supernovaCount], CL.count:format(args.spellName, supernovaCount))
 end
 
 do
@@ -719,9 +806,10 @@ do
 	function mod:VoidgraspApplied(args)
 		if args.time - prev > 2 then
 			prev = args.time
+			self:StopBar(CL.count:format(L.slows, voidgraspCount))
 			self:Message(args.spellId, "yellow", CL.count:format(L.slows, voidgraspCount))
 			voidgraspCount = voidgraspCount + 1
-			-- self:Bar(args.spellId, timers[3][args.spellId][voidgraspCount], CL.count:format(L.slows, voidgraspCount))
+			self:Bar(args.spellId, timers[3][args.spellId][voidgraspCount], CL.count:format(L.slows, voidgraspCount))
 		end
 		if self:Me(args.destGUID) then
 			prev = args.time

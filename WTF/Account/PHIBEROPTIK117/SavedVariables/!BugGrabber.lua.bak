@@ -1,31 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 24,
+["session"] = 34,
 ["lastSanitation"] = 3,
 ["errors"] = {
-{
-["message"] = "Interface/AddOns/SimpleItemLevel/addon.lua:183: attempt to call field 'ItemHasEmptySlots' (a nil value)",
-["time"] = "2025/08/10 21:00:41",
-["locals"] = "item = <table> {\n itemLocation = <table> {\n }\n}\ndetails = <table> {\n level = 613\n link = \"|cnIQ3:|Hitem:235283::::::::80:262::65:5:6652:11952:11215:1485:10254:1:28:2462:::::|h[Bashful Book]|h|r\"\n quality = 3\n}\n(*temporary) = nil\n(*temporary) = \"|cnIQ3:|Hitem:235283::::::::80:262::65:5:6652:11952:11215:1485:10254:1:28:2462:::::|h[Bashful Book]|h|r\"\n(*temporary) = \"attempt to call field 'ItemHasEmptySlots' (a nil value)\"\nns = <table> {\n defaults = <table> {\n }\n upgradeAtlas = \"poi-door-arrow-up\"\n DEBUG = false\n gemString = \"|A:jailerstower-score-gem-tooltipicon:0:0:0:0|a\"\n db = <table> {\n }\n frames = <table> {\n }\n PositionOffsets = <table> {\n }\n Fonts = <table> {\n }\n upgradeString = \"|A:poi-door-arrow-up:0:0:0:0|a\"\n soulboundAtlas = \"Soulbind-32x32\"\n enchantString = \"|cffff2020E|r\"\n}\n",
-["stack"] = "[Interface/AddOns/SimpleItemLevel/addon.lua]:183: in function <Interface/AddOns/SimpleItemLevel/addon.lua:180>\n[Interface/AddOns/SimpleItemLevel/addon.lua]:358: in function <Interface/AddOns/SimpleItemLevel/addon.lua:355>\n[C]: in function 'xpcall'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:76: in function 'FireCallbacks'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[C]: ?\n[C]: in function 'accessor'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:52: in function 'AddCallback'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/Item.lua]:332: in function 'ContinueOnItemLoad'\n[Interface/AddOns/SimpleItemLevel/addon.lua]:355: in function <Interface/AddOns/SimpleItemLevel/addon.lua:350>\n[Interface/AddOns/SimpleItemLevel/addon.lua]:555: in function <Interface/AddOns/SimpleItemLevel/addon.lua:545>\n[Interface/AddOns/SimpleItemLevel/addon.lua]:570: in function <Interface/AddOns/SimpleItemLevel/addon.lua:568>\n...[tail call]: ?\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:990: in function 'AddItemsForRefresh'\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:1000: in function 'Update'\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:1123: in function 'ContainerFrame_GenerateFrame'\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:228: in function <...s/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua:226>\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:252: in function 'OpenBag'\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:317: in function 'OpenBackpack'\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:1866: in function <...s/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua:1865>\n[Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua]:1925: in function 'ToggleAllBags'\n[OPENALLBAGS]:1: in function <[string \"OPENALLBAGS\"]:1>",
-["session"] = 5,
-["counter"] = 40,
-},
-{
-["message"] = "Interface/AddOns/SimpleItemLevel/addon.lua:581: hooksecurefunc(): BankFrameItemButton_Update is not a function",
-["time"] = "2025/08/10 21:02:24",
-["locals"] = "",
-["stack"] = "[C]: in function 'hooksecurefunc'\n[Interface/AddOns/SimpleItemLevel/addon.lua]:581: in main chunk",
-["session"] = 7,
-["counter"] = 4,
-},
-{
-["message"] = "Interface/AddOns/SimpleItemLevel/addon.lua:106: attempt to call field 'CacheEquippedItems' (a nil value)",
-["time"] = "2025/08/10 21:02:24",
-["locals"] = "self = <table> {\n defaults = <table> {\n }\n upgradeAtlas = \"poi-door-arrow-up\"\n DEBUG = false\n gemString = \"|A:jailerstower-score-gem-tooltipicon:0:0:0:0|a\"\n db = <table> {\n }\n frames = <table> {\n }\n PositionOffsets = <table> {\n }\n Fonts = <table> {\n }\n upgradeString = \"|A:poi-door-arrow-up:0:0:0:0|a\"\n soulboundAtlas = \"Soulbind-32x32\"\n enchantString = \"|cffff2020E|r\"\n}\nevent = \"ADDON_LOADED\"\naddon = \"SimpleItemLevel\"\n(*temporary) = nil\n(*temporary) = \"attempt to call field 'CacheEquippedItems' (a nil value)\"\nhooks = <table> {\n}\nmyname = \"SimpleItemLevel\"\nns = <table> {\n defaults = <table> {\n }\n upgradeAtlas = \"poi-door-arrow-up\"\n DEBUG = false\n gemString = \"|A:jailerstower-score-gem-tooltipicon:0:0:0:0|a\"\n db = <table> {\n }\n frames = <table> {\n }\n PositionOffsets = <table> {\n }\n Fonts = <table> {\n }\n upgradeString = \"|A:poi-door-arrow-up:0:0:0:0|a\"\n soulboundAtlas = \"Soulbind-32x32\"\n enchantString = \"|cffff2020E|r\"\n}\ndb = <table> {\n}\n",
-["stack"] = "[Interface/AddOns/SimpleItemLevel/addon.lua]:106: in function <Interface/AddOns/SimpleItemLevel/addon.lua:91>\n[tail call]: ?",
-["session"] = 7,
-["counter"] = 4,
-},
 },
 }

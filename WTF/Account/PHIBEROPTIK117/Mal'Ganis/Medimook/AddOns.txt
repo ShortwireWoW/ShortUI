@@ -7,3 +7,4 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 Blizzard_CombatText: enabled
 BigWigs_RealVoice_Female: enabled
+BigWigs_ManaforgeOmega: enabled

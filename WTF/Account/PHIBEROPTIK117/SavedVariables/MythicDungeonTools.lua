@@ -1,10 +1,12 @@
 
 MythicDungeonToolsDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Shortsited - Stormrage",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Shortbeef - Area 52"] = "Shortbeef - Area 52",
+["Shortbreath - Area 52"] = "Shortbreath - Area 52",
 ["Shortbowjob - Area 52"] = "Shortbowjob - Area 52",
+["Shortbeef - Area 52"] = "Shortbeef - Area 52",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortsited - Stormrage"] = "Shortsited - Stormrage",
+["Shortlite - Stormrage"] = "Shortlite - Stormrage",
 },
 ["global"] = {
 ["minimap"] = {

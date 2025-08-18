@@ -1,10 +1,12 @@
 
 Details_StreamerDB = {
 ["characters"] = {
-["Shortsited - Stormrage"] = "Shortwire - Stormrage",
-["Shortwire - Stormrage"] = "Shortwire - Stormrage",
-["Shortbeef - Area 52"] = "Shortwire - Stormrage",
+["Shortbreath - Area 52"] = "Shortwire - Stormrage",
 ["Shortbowjob - Area 52"] = "Shortwire - Stormrage",
+["Shortbeef - Area 52"] = "Shortwire - Stormrage",
+["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+["Shortsited - Stormrage"] = "Shortwire - Stormrage",
+["Shortlite - Stormrage"] = "Shortwire - Stormrage",
 },
 ["profiles"] = {
 ["Shortwire - Stormrage"] = {

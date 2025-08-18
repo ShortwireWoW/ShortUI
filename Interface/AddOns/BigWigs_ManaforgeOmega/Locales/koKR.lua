@@ -10,6 +10,7 @@ if L then
 	L.voidblade_ambush = "매복" -- Short for Voidblade Ambush
 	L.soulfray_annihilation = "구슬" -- Lines that shoot out an orb along that path
 	L.soulfray_annihilation_single = "라인" -- Single from Lines
+	L.remaining_adds = "남은 추가 몹" -- All remaining adds from Soul Calling spawn
 end
 
 L = BigWigs:NewBossLocale("Forgeweaver Araz", "koKR")
@@ -30,7 +31,7 @@ L = BigWigs:NewBossLocale("Nexus-King Salhadaar", "koKR")
 if L then
 	L.oath_bound_removed_dose = "1x 서약결속 제거됨"
 	L.behead = "발톱" -- Claws of a dragon
-	L.netherbreaker = "원형"
+	L.netherbreaker = "차원문"
 	L.galaxy_smash = "강타" -- Short for Galactic Smash, and multiple of them.
 	L.starkiller_swing = "별 부수기" -- Short for Starkiller Swing, and multiple of them.
 	L.vengeful_oath = "영혼"
@@ -38,7 +39,6 @@ end
 
 L = BigWigs:NewBossLocale("Dimensius, the All-Devouring", "koKR")
 if L then
-	L.shattered_space = "부서진 공간" -- Dimensius reaches down with both hands
 	L.reverse_gravity = "중력" -- Short for Reverse Gravity
 	L.extinction = "파편" -- Dimensius hurls a fragment of a broken world
 	L.slows = "이감"
@@ -47,4 +47,7 @@ if L then
 	L.extinguish_the_stars = "소실" -- Short for Extinguish the Stars
 	L.darkened_sky = "충격파"
 	L.cosmic_collapse = "붕괴" -- Short for Cosmic Collapse
+	L.soaring_reshii = "비행 가능" -- On the timer for when flying is available
+
+	L.weakened_soon_monster_yell = "지금 공격해야 해요!" -- [CHAT_MSG_MONSTER_YELL] We must strike--now!#Xal'atath###Xal'atath##0#0##0#4873#nil#0#false#false#false#false",
 end

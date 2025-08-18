@@ -1,10 +1,12 @@
 
 OmniCCDB = {
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 },
 ["global"] = {
 ["dbVersion"] = 6,

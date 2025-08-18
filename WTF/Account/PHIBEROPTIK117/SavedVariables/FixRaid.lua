@@ -10,10 +10,12 @@ FixRaidDB = {
 },
 },
 ["profileKeys"] = {
-["Shortsited - Stormrage"] = "Default",
-["Shortwire - Stormrage"] = "Default",
-["Shortbeef - Area 52"] = "Default",
+["Shortbreath - Area 52"] = "Default",
 ["Shortbowjob - Area 52"] = "Default",
+["Shortbeef - Area 52"] = "Default",
+["Shortwire - Stormrage"] = "Default",
+["Shortsited - Stormrage"] = "Default",
+["Shortlite - Stormrage"] = "Default",
 },
 ["faction"] = {
 ["Horde"] = {
@@ -33,16 +35,18 @@ FixRaidDB = {
 ["Alliance"] = {
 ["damagerRoleNonGuildCache"] = {
 ["melee"] = {
-["Toragnar-Stormrage"] = 1755132576,
 },
 ["ranged"] = {
-["Filthyhunter-Stormrage"] = 1755132322,
 },
 },
 ["damagerRoleGuildCache"] = {
 ["melee"] = {
+["Leopomis-Area52"] = 1755402004,
 },
 ["ranged"] = {
+["Skronkles-Bonechewer"] = 1755396910,
+["Niadrake-Stormrage"] = 1755392231,
+["Landreielea-Eitrigg"] = 1755394666,
 },
 },
 },

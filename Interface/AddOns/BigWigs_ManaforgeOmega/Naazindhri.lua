@@ -27,6 +27,7 @@ if L then
 	L.voidblade_ambush = "Ambush" -- Short for Voidblade Ambush
 	L.soulfray_annihilation = "Lines" -- Lines that shoot out an orb along that path
 	L.soulfray_annihilation_single = "Line" -- Single from Lines
+	L.remaining_adds = "Remaining Adds" -- All remaining adds from Soul Calling spawn
 end
 
 --------------------------------------------------------------------------------
@@ -41,7 +42,7 @@ function mod:OnRegister()
 	self:SetSpellRename(1225616, CL.orbs) -- Soulfire Convergence (Orbs)
 end
 
-local soulfrayAnnihilationMarkerMapTable = {4, 6} -- Green, Blue (wm order)
+local soulfrayAnnihilationMarkerMapTable = {4, 6, 3} -- Green, Blue, Diamond (wm order)
 local soulfrayAnnihilationMarker = mod:AddMarkerOption(true, "player", soulfrayAnnihilationMarkerMapTable[1], 1227276, unpack(soulfrayAnnihilationMarkerMapTable))
 function mod:GetOptions()
 	return {
@@ -50,6 +51,7 @@ function mod:GetOptions()
 				{1227048, "NAMEPLATE", "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE"}, -- Voidblade Ambush, using 1227048 as 1227049 has no good tooltip info
 			-- Unbound Mage
 				1227052, -- Void Volley
+			1227848, -- Essence Implosion
 		{1227276, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE"}, -- Soulfray Annihilation
 		soulfrayAnnihilationMarker,
 		{1223859, "CASTBAR", "CASTBAR_COUNTDOWN"}, -- Arcane Expulsion
@@ -61,16 +63,18 @@ function mod:GetOptions()
 		[1242086] = "mythic", -- Arcane Energy
 	},
 	{
-		[1225582] = CL.adds, -- Soul Calling
+		[1227848] = L.remaining_adds, -- Essence Implosion (Remaining Adds)
+		[1225582] = CL.adds, -- Soul Calling (Adds)
 		[1227048] = L.voidblade_ambush, -- Voidblade Ambush (Ambush)
 		[1227276] = L.soulfray_annihilation, -- Soulfray Annihilation (Lines)
-		[1223859] = CL.knockback, -- Arcane Expulsion
+		[1223859] = CL.knockback, -- Arcane Expulsion (Knockback)
 		[1225616] = CL.orbs, -- Soulfire Convergence (Orbs)
 	}
 end
 
 function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "SoulCalling", 1225582)
+	self:Log("SPELL_CAST_START", "Soulweave", 1219040, 1219053, 1239988)
 	self:Log("SPELL_CAST_SUCCESS", "VoidbladeAmbush", 1227049)
 	self:Log("SPELL_AURA_APPLIED", "VoidbladeAmbushTargetApplied", 1227049)
 	self:Death("ShadowguardAssassinDeath", 237897) -- Shadowguard Assassin
@@ -82,7 +86,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "MysticLash", 1241100)
 	self:Log("SPELL_AURA_APPLIED", "MysticLashApplied", 1237607)
 	self:Log("SPELL_CAST_START", "ArcaneExpulsion", 1223859, 1242088)
-	self:Log("SPELL_CAST_START", "SoulfireConvergence", 1225616)
+	self:Log("SPELL_CAST_SUCCESS", "SoulfireConvergence", 1225616)
 	self:Log("SPELL_AURA_APPLIED", "SoulfireConvergenceApplied", 1225626)
 	self:Log("SPELL_AURA_APPLIED", "SoulrendOrbApplied", 1226827)
 
@@ -101,8 +105,8 @@ function mod:OnEngage()
 
 	self:Bar(1241100, self:Mythic() and 5 or 6.0, CL.count:format(self:SpellName(1241100), mysticLashCount)) -- Mystic Lash
 	self:Bar(1225582, self:Mythic() and 13.0 or 14.0, CL.count:format(CL.adds, soulCallingCount)) -- Soul Calling
-	self:Bar(1227276, self:Mythic() and 26.0 or 24.0, CL.count:format(L.soulfray_annihilation, soulfrayAnnihilationCount)) -- Soulfray Annihilation
-	self:Bar(1225616, self:Mythic() and 16.0 or 30.0, CL.count:format(CL.orbs, soulfireConvergenceCount)) -- Soulfire Convergence
+	self:Bar(1227276, self:Mythic() and 26.0 or 20.0, CL.count:format(L.soulfray_annihilation, soulfrayAnnihilationCount)) -- Soulfray Annihilation
+	self:Bar(1225616, self:Mythic() and 18.0 or 32.0, CL.count:format(CL.orbs, soulfireConvergenceCount)) -- Soulfire Convergence
 	self:Bar(1223859, self:Mythic() and 41.0 or 42.0, CL.count:format(CL.knockback, arcaneExpulsionCount)) -- Arcane Expulsion
 end
 
@@ -116,6 +120,15 @@ function mod:SoulCalling(args)
 	self:PlaySound(args.spellId, "long") -- Unbound Souls/Binding Machines inc
 	soulCallingCount = soulCallingCount + 1
 	self:Bar(args.spellId, 150.0, CL.count:format(CL.adds, soulCallingCount))
+end
+
+do
+	local prev = 0
+	function mod:Soulweave(args)
+		if args.time - prev > 2 then
+			self:Bar(1227848, 101, CL.count:format(L.remaining_adds, soulCallingCount - 1))
+		end
+	end
 end
 
 function mod:VoidbladeAmbush(args)
@@ -157,6 +170,11 @@ do
 		self:Message(args.spellId, "yellow", CL.count:format(L.soulfray_annihilation, soulfrayAnnihilationCount))
 		soulfrayAnnihilationCount = soulfrayAnnihilationCount + 1
 		local cd = soulfrayAnnihilationCount % 3 == 1 and 70.0 or 40.0
+		if self:Mythic() then
+			cd = soulfrayAnnihilationCount % 3 == 1 and 76.1 or 37.0
+		elseif self:Heroic() then
+			cd = soulfrayAnnihilationCount % 3 == 1 and 69.0 or soulfrayAnnihilationCount % 3 == 2 and 41.0 or 40.0
+		end
 		self:Bar(args.spellId, cd, CL.count:format(L.soulfray_annihilation, soulfrayAnnihilationCount))
 		playerList = {}
 	end
@@ -193,6 +211,9 @@ function mod:MysticLash(args)
 	self:PlaySound(args.spellId, "alert") -- Current tank warning?
 	mysticLashCount = mysticLashCount + 1
 	local cd = mysticLashCount % 4 == 1 and 32.0 or mysticLashCount % 4 == 0 and 38.0 or 40.0
+	if self:Mythic() then
+		cd = mysticLashCount % 4 == 1 and 31.0 or mysticLashCount % 4 == 2 and 41.0 or mysticLashCount % 4 == 3 and 38.0 or 40.0
+	end
 	self:Bar(args.spellId, cd, CL.count:format(args.spellName, mysticLashCount))
 end
 
@@ -226,8 +247,10 @@ function mod:SoulfireConvergence(args)
 	self:Message(args.spellId, "orange", CL.count:format(CL.orbs, soulfireConvergenceCount)) -- XXX TargetsMessage?
 	soulfireConvergenceCount = soulfireConvergenceCount + 1
 	local cd = soulfireConvergenceCount % 3 == 1 and 45 or soulfireConvergenceCount % 3 == 0 and 65 or 40
-	if self:Heroic() then
-		local timers = {41.0, 45.0, 24.0, 16.0, 24.0}
+	if self:Mythic() then
+		cd = soulfireConvergenceCount % 3 == 1 and 75.0 or soulfireConvergenceCount % 3 == 2 and 37.0 or 38.1
+	elseif self:Heroic() then
+		local timers = {41.0, 44.8, 24.0, 16.0, 24.0}
 		local timerModCount = soulfireConvergenceCount % 5
 		cd = timers[timerModCount+1]
 	end

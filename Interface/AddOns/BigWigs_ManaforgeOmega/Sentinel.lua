@@ -72,28 +72,28 @@ local timersHeroic = {
 
 local timersMythic = {
 	[1] = {
-		[1219450] = { 11.6, 29.3, 0 }, -- Manifest Matrices
-		[1219263] = { 21.8, 30.4, 0 }, -- Obliteration Arcanocannon
-		[1219607] = { 42.1, 0 }, -- Eradicating Salvo
+		[1219450] = { 11.5, 28.1, 0 }, -- Manifest Matrices
+		[1219263] = { 21.7, 30.4, 0 }, -- Obliteration Arcanocannon
+		[1219607] = { 40.9, 0 }, -- Eradicating Salvo
 		[1234733] = { 0.0, 0 }, -- Cleanse the Chamber
 	},
 	[2] = {
-		[1219450] = { 6.9, 23.2, 23.3, 25.7, 0 }, -- Manifest Matrices
-		[1219263] = { 14.1, 28.2, 29.2, 0 }, -- Obliteration Arcanocannon
-		[1219607] = { 20.8, 34.0, 32.2, 0 }, -- Eradicating Salvo
-		[1234733] = { 28.0, 0 }, -- Cleanse the Chamber
+		[1219450] = { 7.4, 26.7, 26.8, 23.1, 0 }, -- Manifest Matrices
+		[1219263] = { 13.9, 29.2, 29.2, 0 }, -- Obliteration Arcanocannon
+		[1219607] = { 19.9, 31.6, 33.7, 0 }, -- Eradicating Salvo
+		[1234733] = { 28.5, 0 }, -- Cleanse the Chamber
 	},
 	[3] = {
-		[1219450] = { 7.5, 28.1, 26.8, 23.0, 0 }, -- Manifest Matrices
-		[1219263] = { 14.1, 28.2, 29.2, 0 }, -- Obliteration Arcanocannon
-		[1219607] = { 21.5, 31.7, 34.0, 0 }, -- Eradicating Salvo
-		[1234733] = { 31.7, 0 }, -- Cleanse the Chamber
+		[1219450] = { 7.6, 26.8, 26.8, 23.1, 0 }, -- Manifest Matrices
+		[1219263] = { 14.1, 28.0, 30.4, 0 }, -- Obliteration Arcanocannon
+		[1219607] = { 20.2, 31.7, 33.6, 0 }, -- Eradicating Salvo
+		[1234733] = { 28.7, 0 }, -- Cleanse the Chamber
 	},
 	[4] = {
-		[1219450] = { 7.9, 23.1, 23.1, 32.8, 32.8, 32.8, 32.8, 32.8 }, -- Manifest Matrices
-		[1219263] = { 14.3, 29.1, 29.2, 32.8, 32.8, 32.8, 32.8 }, -- Obliteration Arcanocannon
-		[1219607] = { 21.7, 33.7, 38.1, 32.8, 32.8, 32.8, 32.8, 32.8 }, -- Eradicating Salvo
-		[1234733] = { 63.0, 6.1, 11.0, 8.1, 12.5, 12.1, 8.1 }, -- Cleanse the Chamber
+		[1219450] = { 7.0, 24.3, 23.1, 30.4, 28.0, 24.3, 24.3 }, -- Manifest Matrices
+		[1219263] = { 13.5, 29.2, 30.4, 28.0, 42.5 }, -- Obliteration Arcanocannon
+		[1219607] = { 20.8, 35.2, 34.1, 34.0, 43.7 }, -- Eradicating Salvo
+		[1234733] = { 63.3, 6.1, 9.7, 6.9, 11.3, 9.7, 7.0, 6.3, 10.9, 7.0, 11.2, 6.1, 7.1 }, -- Cleanse the Chamber
 	},
 }
 
@@ -111,7 +111,7 @@ end
 function mod:OnRegister()
 	self:SetSpellRename(1219450, CL.pools) -- Manifest Matrices (Pools)
 	self:SetSpellRename(1218625, CL.stunned) -- Displacement Matrix (Stunned)
-	self:SetSpellRename(1219263, CL.bomb) -- Obliteration Arcanocannon (Bomb)
+	self:SetSpellRename(1219263, CL.tank_bomb) -- Obliteration Arcanocannon (Tank Bomb)
 	self:SetSpellRename(1219607, CL.soak) -- Eradicating Salvo (Soak)
 end
 
@@ -148,7 +148,7 @@ function mod:GetOptions()
 	},{
 		[1219450] = CL.pools, -- Manifest Matrices (Pools)
 		[1218625] = CL.stunned, -- Displacement Matrix (Stunned)
-		[1219263] = CL.bomb, -- Obliteration Arcanocannon (Bomb)
+		[1219263] = CL.tank_bomb, -- Obliteration Arcanocannon (Tank Bomb)
 		[1219607] = CL.soak, -- Eradicating Salvo (Soak)
 	}
 end
@@ -190,7 +190,7 @@ function mod:OnEngage()
 
 	-- Timers from normal ptr
 	self:Bar(1219450, getNextTimer(1219450, 1), CL.count:format(CL.pools, manifestMatricesCount)) -- Manifest Matrices
-	self:Bar(1219263, getNextTimer(1219263, 1), CL.count:format(CL.bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
+	self:Bar(1219263, getNextTimer(1219263, 1), CL.count:format(CL.tank_bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
 	self:Bar(1219607, getNextTimer(1219607, 1), CL.count:format(CL.soak, eradicationgSalvoCount)) -- Eradicating Salvo
 	self:Bar("stages", 61, CL.count:format(CL.stage:format(2), protocolPurgeCount), 1220489) -- Stage 2 (Protocol: Purge)
 end
@@ -246,8 +246,8 @@ end
 function mod:ManifestMatricesApplied(args)
 	if self:Me(args.destGUID) then
 		self:PersonalMessage(1219450, nil, CL.pool)
-		self:PlaySound(1219450, "warning", nil, args.destName) -- spread out
 		self:SayCountdown(1219450, 6)
+		self:PlaySound(1219450, "warning", nil, args.destName) -- spread out
 	end
 end
 
@@ -270,16 +270,16 @@ do
 end
 
 function mod:ObliterationArcanocannon(args)
-	self:StopBar(CL.count:format(CL.bomb, obliterationArcanocannonCount))
+	self:StopBar(CL.count:format(CL.tank_bomb, obliterationArcanocannonCount))
 	obliterationArcanocannonCount = obliterationArcanocannonCount + 1
 	local cd = getNextTimer(args.spellId, obliterationArcanocannonCount)
-	self:Bar(args.spellId, cd, CL.count:format(CL.bomb, obliterationArcanocannonCount))
+	self:Bar(args.spellId, cd, CL.count:format(CL.tank_bomb, obliterationArcanocannonCount))
 end
 
 function mod:ObliterationArcanocannonApplied(args)
-	self:TargetMessage(1219263, "purple", args.destName, CL.count:format(CL.bomb, obliterationArcanocannonCount - 1))
+	self:TargetMessage(1219263, "purple", args.destName, CL.count:format(CL.tank_bomb, obliterationArcanocannonCount - 1))
 	if self:Me(args.destGUID) then
-		self:Say(1219263, CL.bomb, nil, "Bomb")
+		self:Say(1219263, CL.tank_bomb, nil, "Tank Bomb")
 		self:SayCountdown(1219263, 6)
 	end
 	if self:Me(args.destGUID) or self:Tank() then
@@ -287,15 +287,15 @@ function mod:ObliterationArcanocannonApplied(args)
 	else
 		self:PlaySound(1219263, "alarm") -- raid damage inc (falloff bomb damage)
 	end
-	self:CastBar(1219263, 6, CL.count:format(CL.bomb, obliterationArcanocannonCount - 1))
+	self:CastBar(1219263, 6, CL.count:format(CL.tank_bomb, obliterationArcanocannonCount - 1))
 end
 
 function mod:EradicatingSalvoApplied(args)
 	self:StopBar(CL.count:format(CL.soak, eradicationgSalvoCount))
 	self:TargetMessage(args.spellId, "orange", args.destName, CL.count:format(CL.soak, eradicationgSalvoCount))
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId, CL.soak, nil, "Soak")
-		self:SayCountdown(args.spellId, 5)
+		self:Yell(args.spellId, CL.soak, nil, "Soak")
+		self:YellCountdown(args.spellId, 5)
 		self:PlaySound(args.spellId, "warning", nil, args.destName) -- targetted
 	else
 		self:PlaySound(args.spellId, "alert") -- soak your missile?
@@ -308,7 +308,7 @@ end
 -- Stage Two: The Sieve Awakens
 function mod:ProtocolPurge()
 	self:StopBar(CL.count:format(CL.pools, manifestMatricesCount)) -- Manifest Matrices
-	self:StopBar(CL.count:format(CL.bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
+	self:StopBar(CL.count:format(CL.tank_bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
 	self:StopBar(CL.count:format(CL.soak, eradicationgSalvoCount)) -- Eradicating Salvo
 	self:StopBar(CL.count:format(CL.stage:format(2), protocolPurgeCount)) -- Stage 2
 	self:StopBar(CL.count:format(self:SpellName(1234733), protocolPurgeCount)) -- Cleanse the Chamber
@@ -329,7 +329,7 @@ function mod:ProtocolPurgeRemoved()
 	eradicationgSalvoCount = 1
 
 	self:CDBar(1219450, getNextTimer(1219450, 1), CL.count:format(CL.pools, manifestMatricesCount)) -- Manifest Matrices
-	self:CDBar(1219263, getNextTimer(1219263, 1), CL.count:format(CL.bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
+	self:CDBar(1219263, getNextTimer(1219263, 1), CL.count:format(CL.tank_bomb, obliterationArcanocannonCount)) -- Obliteration Arcanocannon
 	self:CDBar(1219607, getNextTimer(1219607, 1), CL.count:format(CL.soak, eradicationgSalvoCount)) -- Eradicating Salvo
 	if protocolPurgeCount == 4 then -- next is cleans the chamber
 		self:Bar("stages", 94.0, CL.count:format(self:SpellName(1234733), protocolPurgeCount), 1234733) -- Cleanse the Chamber

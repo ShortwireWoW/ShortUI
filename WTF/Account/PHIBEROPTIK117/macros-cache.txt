@@ -7,6 +7,13 @@ VER 3 0000000000000064 "AFK Level" "134400"
 /cast Drain Life
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
 END
+VER 3 000000000000006D "Cloak" "134331"
+/run GenericTraitUI_LoadUI()GenericTraitFrame:SetSystemID(29)GenericTraitFrame:SetTreeID(1115)ToggleFrame(GenericTraitFrame)
+END
+VER 3 000000000000006E "EAB" "134400"
+#show
+/click ExtraActionButton1
+END
 VER 3 000000000000006C "Fish" "319458"
 /target Sleepy Fish
 /ping [@target]
