@@ -177,7 +177,7 @@ function CauseseAPI:AuraResize(type, positions, regions)
             AuraSizeData[type] = data.fontSize
             region:SetHeight(data.fontSize)
             region:SetWidth(region.text:GetWidth())
-            region:Color(region.color_r, region.color_g, region.color_b, data.color[4])
+            region:Color(region.color_r, region.color_g, region.color_b, region.color_a)
 
         elseif region.regionType == "texture" or region.regionType == "progresstexture" then
             region:SetRegionWidth(aData.width)

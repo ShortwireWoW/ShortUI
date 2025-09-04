@@ -235,7 +235,7 @@ do
 		keyTable[2] = key
 		local t = addKey(soundOptions, keyTable)
 		if t.args.countdown then
-			t.args.countdown.disabled = not flags or bit.band(flags, C.COUNTDOWN) == 0
+			t.args.countdown.disabled = not flags or (bit.band(flags, C.COUNTDOWN) == 0 and bit.band(flags, C.CASTBAR_COUNTDOWN) == 0)
 		end
 		return t
 	end
@@ -300,6 +300,36 @@ function plugin:OnRegister()
 			width = "full",
 			itemControl = "DDI-Sound",
 		}
+	end
+
+	local soundsPlayedTable = {}
+	if not soundsPlayedTable[db.media.Long] then
+		soundsPlayedTable[db.media.Long] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.Long)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.Info] then
+		soundsPlayedTable[db.media.Info] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.Info)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.Alert] then
+		soundsPlayedTable[db.media.Alert] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.Alert)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.Alarm] then
+		soundsPlayedTable[db.media.Alarm] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.Alarm)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.Warning] then
+		soundsPlayedTable[db.media.Warning] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.Warning)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.underyou] then
+		soundsPlayedTable[db.media.underyou] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.underyou)) if played then StopSound(id) end end, 0)
+	end
+	if not soundsPlayedTable[db.media.privateaura] then
+		soundsPlayedTable[db.media.privateaura] = true
+		self:SimpleTimer(function() local played, id = self:PlaySoundFile(media:Fetch(SOUND, db.media.privateaura)) if played then StopSound(id) end end, 0)
 	end
 end
 

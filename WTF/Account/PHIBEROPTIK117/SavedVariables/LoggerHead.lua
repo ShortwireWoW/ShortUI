@@ -1,35 +1,38 @@
 
 LoggerHeadDB = {
 ["profileKeys"] = {
-["Shortbreath - Area 52"] = "Default",
-["Shortbowjob - Area 52"] = "Default",
-["Shortbeef - Area 52"] = "Default",
 ["Shortwire - Stormrage"] = "Default",
-["Shortsited - Stormrage"] = "Default",
-["Shortlite - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["log"] = {
 ["party"] = {
-["Utgarde Keep"] = {
-[24] = false,
+["Tazavesh, the Veiled Market"] = {
+[23] = true,
+[8] = true,
 },
-["Azjol-Nerub"] = {
-[24] = false,
+["Ara-Kara, City of Echoes"] = {
+[23] = true,
+[8] = true,
 },
-["Halls of Lightning"] = {
-[24] = false,
+["Priory of the Sacred Flame"] = {
+true,
+[23] = true,
+[8] = true,
 },
 },
 ["scenario"] = {
-["Fungal Folly"] = {
-[208] = false,
+["The Waterworks"] = {
+[208] = true,
+},
+["Sidestreet Sluice"] = {
+[208] = true,
 },
 },
 ["raid"] = {
 ["Manaforge Omega"] = {
 [14] = true,
+[15] = true,
 },
 },
 },

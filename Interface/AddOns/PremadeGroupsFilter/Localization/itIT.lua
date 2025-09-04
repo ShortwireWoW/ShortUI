@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 -- Premade Groups Filter
 -------------------------------------------------------------------------------
--- Copyright (C) 2024 Bernhard Saumweber
+-- Copyright (C) 2025 Bernhard Saumweber
 --
 -- This program is free software; you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -28,7 +28,7 @@ L["addon.name.long"] = "Premade Groups Filter"
 
 L["error.syntax"] = "|cffff0000Errore di sintassi nell'espressione del filtro|r\n\nCiò significa che l'espressione del filtro non è costruita nel modo giusto, ad es.  manca una parentesi oppure hai scritto 'tanks=1' invece di 'tanks==1'.\n\nMessaggio di errore dettagliato:\n|cffaaaaaa%s|r"
 L["error.semantic"] = "|cffff0000Errore semantico nell'espressione del filtro|r\n\nCiò significa che l'espressione del filtro ha la sintassi corretta, ma molto probabilmente hai scritto male il nome di una variabile, ad es. serbatoio invece dei serbatoi.\n\nMessaggio di errore dettagliato:\n|cffaaaaaa%s|r"
-L["error.semantic.protected"] = "|cffff0000Errore semantico nell'espressione del filtro|r\n\nLe parole chiave 'nome', 'commento' e 'trovanumero' non sono più supportate. Rimuovili dall'espressione del filtro avanzato o premi il pulsante di ripristino.\n\nA partire dalla prepatch di Battle for Azeroth, questi valori sono protetti da Blizzard e non possono più essere valutati da alcun componente aggiuntivo \n\nUtilizza la barra di ricerca predefinita in alto  l'elenco dei gruppi per filtrare i nomi dei gruppi.\n\nMessaggio di errore dettagliato:\n|cffaaaaaa%s|r"
+L["error.semantic.protected"] = "|cffff0000Errore semantico nell'espressione del filtro|r\n\nLe parole chiave 'nome' e 'commento' non sono più supportate. Rimuovili dall'espressione del filtro avanzato o premi il pulsante di ripristino.\n\nA partire dalla prepatch di Battle for Azeroth, questi valori sono protetti da Blizzard e non possono più essere valutati da alcun componente aggiuntivo \n\nUtilizza la barra di ricerca predefinita in alto  l'elenco dei gruppi per filtrare i nomi dei gruppi.\n\nMessaggio di errore dettagliato:\n|cffaaaaaa%s|r"
 L["message.settingsupgraded"] = "Premade Groups Filter: Impostazioni trasferite alla versione %s"
 
 L["dialog.settings"] = GAMEMENU_OPTIONS
@@ -52,6 +52,8 @@ L["dialog.heals"]      = "Curatori .............................."
 L["dialog.dps"]        = "Assaltatori ................................"
 L["dialog.mprating"]   = "Punt. M+ .........................."
 L["dialog.pvprating"]  = "Punt. PVP ........................."
+L["dialog.delvetier"]  = "Livello delle Scorribande ........."
+L["dialog.delvetier.tooltip"] = "Alcuni giocatori non impostano correttamente il livello delle Scorribande, ma lo menzionano solo nel nome del gruppo. Gli addon non possono leggere il nome. Usate il campo di ricerca standard per risultati migliori."
 L["dialog.defeated"]   = "Boss Sconfitti"
 L["dialog.sorting"] = "Ordinamento"
 L["dialog.usepgf.tooltip"] = "Abilita o disabilita Premade Groups Filter."
@@ -94,11 +96,12 @@ L["dialog.tooltip.warmode"] = "modalità guerra abilitata"
 L["dialog.copy.url.keywords"] = "Premi CTRL+C per copiare il collegamento all'elenco di parole chiave"
 L["dialog.filters.group"] = "Gruppo"
 L["dialog.filters.dungeons"] = "Spedizioni"
+L["dialog.filters.delves"] = "Scorribande"
 L["dialog.filters.advanced"] = "Espressione filtro avanzata"
 L["dialog.partyfit"] = "Party Adatto"
 L["dialog.partyfit.tooltip"] = "Mostra solo i gruppi che dispongono ancora di slot per tutti i ruoli dei membri del gruppo. Funziona anche se sei solo."
 L["dialog.notdeclined"] = "Non rifiutato"
-L["dialog.notdeclined.tooltip"] = "Nascondi i gruppi che ti hanno rifiutato."
+L["dialog.notdeclined.tooltip"] = "Mostra solo i gruppi che non ti hanno rifiutato."
 L["dialog.blfit"] = "BL Presente"
 L["dialog.blfit.tooltip"] = "Se nessuno nel tuo gruppo ha sete di sangue/eroismo, mostra solo i gruppi che hanno già sete di sangue/eroismo, o dopo l'adesione, c'è ancora uno slot DPS o guaritore aperto. Funziona anche se sei solo."
 L["dialog.brfit"] = "Res in Combat Presente"

@@ -1,7 +1,7 @@
 
 MyslotSettings = {
 ["minimap"] = {
-["minimapPos"] = 134.7985607262443,
-["hide"] = false,
+["minimapPos"] = 278.3658340004959,
+["hide"] = true,
 },
 }

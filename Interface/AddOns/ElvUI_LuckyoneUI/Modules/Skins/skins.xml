@@ -1,0 +1,4 @@
+<Ui>
+	<Script file='BugSack.lua'/>
+	<Script file='Tabardy.lua'/>
+</Ui>

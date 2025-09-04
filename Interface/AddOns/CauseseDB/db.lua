@@ -115,7 +115,7 @@ CauseseDB = {
         [465595] = {"Bolt",1,"","ALL",true,false}, --Lightning Bolt
         [462771] = {"Beam",1,"","ALL",true,false}, --Surveying Beam
         [1214468] = {"Shot",1,"","ALL",true,false}, --Trickshot
-        [461796] = {"Reload",2,"","ALL",false,false}, --Reload
+        [461796] = {"Reload",2,"","ALL",false,true}, --Reload
         --Cinderbrew
         [440687] = {"Volley",0,"Volley.ogg","ALL",false,true}, --Honey Volley
         [441351] = {"Bee-stial Wrath",0,"","ALL",false,false}, --Bee-stial Wrath
@@ -168,12 +168,12 @@ CauseseDB = {
     -- SEASON 1 
         --Dawnbreaker
         ["214761"] = {
-            [432448] = {"SPELL_CAST_START", 3, "HEALER", "Seed Inc", 8.3, 23}, --Stygian Seed
+            [432448] = {"SPELL_CAST_START", 3, "ALL", "Seed Inc", 8.3, 23}, --Stygian Seed
             [431364] = {"SPELL_CAST_START", 2, "ALL", "Ray Inc", 3.3, 10.9}, --Tormenting Ray
         },
         ["210966"] = {[451107] = {"SPELL_CAST_START", 2, "ALL", "Cocoon Inc", 4.9, 20.6}}, --Bursting Cocoon
-        ["228540"] = {[431309] = {"SPELL_CAST_SUCCESS", 8, "HEALER", "Curse Inc", 12.4, 23}}, --Ensnaring Shadows
-        ["213892"] = {[431309] = {"SPELL_CAST_SUCCESS", 8, "HEALER", "Curse Inc", 12.4, 23}}, --Ensnaring Shadows
+        ["228540"] = {[431309] = {"SPELL_CAST_SUCCESS", 8, "ALL", "Curse Inc", 12.4, 23}}, --Ensnaring Shadows
+        ["213892"] = {[431309] = {"SPELL_CAST_SUCCESS", 8, "ALL", "Curse Inc", 12.4, 23}}, --Ensnaring Shadows
         --["211341"] = {[431304] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 40, 34.2}}, --Dark Floes
         ["211261"] = {
             [451102] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 14.3, 27.8}, --Shadowy Decay
@@ -280,7 +280,7 @@ CauseseDB = {
         ["234883"] = {[1221152] = {"SPELL_CAST_START", 1, "ALL", "AoE Inc", 6.5, 18.2}}, --Gorging Smash
         ["242631"] = {[1235368] = {"SPELL_CAST_START", 4, "TANK", "Frontal Inc", 6.9, 15.8}}, --Arcane Slash
         ["236995"] = {[1226111] = {"SPELL_CAST_START", 2, "ALL", "Ejection Inc", 15, 20.6}}, --Volatile Ejection
-        ["234957"] = {[1221483] = {"SPELL_CAST_SUCCESS", 3, "HEALER", "Dispel Inc", 12.3, 12.3}}, --Arcing Energy
+        ["234957"] = {[1221483] = {"SPELL_CAST_SUCCESS", 3, "ALL", "Dispel Inc", 12.3, 12.3}}, --Arcing Energy
         ["234962"] = {[1221679] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Leap Inc", 6, 13.3}}, --Farstalker's Leap
         --Tazavesh
         ["180567"] = {[357827] = {"UNIT_SPELLCAST_SUCCEEDED", 2, "ALL", "Leap Inc", 5, 17}}, --Frantic Rrip (estimate)
@@ -293,10 +293,13 @@ CauseseDB = {
         ["180429"] = {[357238] = {"SPELL_CAST_SUCCESS", 0, "ALL", "Pulsar Inc", 13.6, 26.7}}, --Wandering Pulsar
         ["179386"] = {[368661] = {"SPELL_CAST_SUCCESS", 2, "ALL", "Toss Inc", 8.3, 14.5}}, --Sword Toss
         ["177716"] = {[351119] = {"SPELL_CAST_START", 6, "ALL", "TP Inc", 8, 18.2}}, --Shuriken Blitz
+        ["177816"] = {[355915] = {"SPELL_CAST_SUCCESS", 3, "ALL", "Dispel Inc", 7.3, 17}}, --Glyph of Restraint
+        ["180431"] = {[357260] = {"SPELL_CAST_START", 6, "ALL", "Rift Inc", 13.3, 21.8}}, --Unstable Rift
         --Halls of Attonement
         ["164557"] = {[326409] = {"SPELL_CAST_START", 0, "ALL", "AoE Inc", 8.9, 23}}, --Shard of Halkias
         ["167607"] = {[1235326] = {"SPELL_CAST_START", 1, "ALL", "Stopcast Inc", 15.9, 32.8}}, --Disrupting Screech
-        ["165414"] = {[325876] = {"SPELL_CAST_SUCCESS", 3, "HEALER", "Dispel Inc", 9.7, 24.2}}, --Mark of Obliteration
+        ["164562"] = {[326450] = {"SPELL_CAST_START", 7, "ALL", "Loyal Beats Inc", 15.3, 24.2}}, --Loyal Beasts
+        ["165414"] = {[325876] = {"SPELL_CAST_SUCCESS", 3, "ALL", "Dispel Inc", 9.7, 24.2}}, --Mark of Obliteration
     },
     private_auras = {
 

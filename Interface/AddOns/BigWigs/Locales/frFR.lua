@@ -2,8 +2,6 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "frFR")
 if not L then return end
 
-L.tempNew = "NOUVEAU : Vous pouvez écrire |cFFFFFFFF/key|r afin de voir les clefs mythiques +des membres de votre groupe."
-
 -- API.lua
 L.showAddonBar = "L'addon '%s' a créé la barre '%s'."
 
@@ -236,6 +234,9 @@ L.imported_countdown_position = "Position du compte à rebours"
 L.imported_countdown_settings = "Paramètres du compte à rebours"
 L.imported_countdown_color = "Couleur du compte à rebours"
 L.imported_nameplate_settings = "Paramètres de barres d'infos"
+--L.imported_mythicplus_settings = "Mythic+ Settings"
+--L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
+--L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
 
 -- Statistics
 L.statistics = "Statistiques"
@@ -274,7 +275,7 @@ L.H25 = "Héroïque 25"
 -----------------------------------------------------------------------
 
 L.tools = "Outils"
-L.toolsDesc = "BigWigs propose divers outils ou des fonctionnalités \"qualité de vie\" afin d'accélérer et simplifier les combats de boss. Depliez le menu en cliquant sur |cFF33FF99+|r l'icône afin de tous les voir."
+L.toolsDesc = "BigWigs propose divers outils ou des fonctionnalités \"qualité de vie\" afin d'accélérer et simplifier les combats de boss."
 
 -----------------------------------------------------------------------
 -- AutoRole.lua
@@ -307,14 +308,14 @@ L.keystoneTeleportInCombat = "Vous ne pouvez pas vous téléportez là lors d'un
 L.keystoneTabHistory = "Historique"
 L.keystoneHeaderThisWeek = "Cette semaine"
 L.keystoneHeaderOlder = "Plus ancien"
-L.keystoneScoreTooltip = "Score du donjon : |cFFFFFFFF%d|r"
-L.keystoneScoreGainedTooltip = "Score gagné : |cFFFFFFFF+%d|r"
-L.keystoneCompletedTooltip = "Réussite dans les temps"
-L.keystoneFailedTooltip = "Échec à terminer dans les temps"
+L.keystoneScoreGainedTooltip = "Score gagné : |cFFFFFFFF+%d|r\nScore du donjon : |cFFFFFFFF%d|r"
+--L.keystoneCompletedTooltip = "Réussite dans les temps: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
+--L.keystoneFailedTooltip = "Échec à terminer dans les temps: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
 L.keystoneExplainer = "Une collection de divers outils pour améliorer l'expérience mythique +."
 L.keystoneAutoSlot = "Clef dans le socle automatique"
 L.keystoneAutoSlotDesc = "Place automatiquement votre clef dans le socle lorsque vous ouvrez la fontaine de puissance."
 L.keystoneAutoSlotMessage = "Placement automatique de %s dans l'emplacement de la fontaine."
+--L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t Keystone Auto Inserted"
 L.keystoneModuleName = "Mythique +"
 L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
 L.keystoneStartMessage = "%s +%d commence maintenant !" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
@@ -326,12 +327,12 @@ L.keystoneViewerTitle = "Vue des clefs"
 L.keystoneHideGuildTitle = "Cache ma clef des autres membres de la guilde"
 L.keystoneHideGuildDesc = "|cffff4411Non recommandé.|r Cette fonctionnalité empêche vos membres de guilde de voire votre clef. N'importe qui dans votre groupe pourra la voire."
 L.keystoneHideGuildWarning = "Désactiver la possibilité pour vos membres de guilde de voir votre clef est |cffff4411non recommandé|r.\n\nÊtes-vous sûr(e) de vouloir faire cela ?"
-L.keystoneAutoShowZoneIn = "Montrer lorsque vous rentrez dans un donjon"
-L.keystoneAutoShowZoneInDesc = "Affiche automatiquement la vue des clefs lorsque vous entrez dans un donjon mythique.\n\n|cFF33FF99Cela peut vous aider à vous souvenir de quel joueur possède la clef que vous vous apprêtez à faire.|r"
 L.keystoneAutoShowEndOfRun = "Affiche lorsque le mythique + est terminé"
 L.keystoneAutoShowEndOfRunDesc = "Montre automatiquement la vue des clefs lorsque le donjon mythique + est terminé.\n\n|cFF33FF99Cela peut vous aider à voir les nouvelles clefs que votre groupe a obtenu.|r"
 L.keystoneViewerExplainer = "Vous pouvez ouvrir la vue des clefs en utilisant la commande |cFF33FF99/key|r ou en cliquant sur le bouton ci-dessous.\n\n"
 L.keystoneViewerOpen = "Ouvre l'affichage des clefs"
+--L.keystoneViewerKeybindingExplainer = "\n\nYou can also set a keybinding to open the keystone viewer:\n\n"
+--L.keystoneViewerKeybindingDesc = "Choose a keybinding to open the keystone viewer."
 L.keystoneClickToWhisper = "Cliquez pour ouvrir une fenêtre de dialogue"
 L.keystoneClickToTeleportNow = "\nCliquez pour vous téléporter ici"
 L.keystoneClickToTeleportCooldown = "\nTéléportation impossible, sort en cours de recharge"
@@ -342,6 +343,9 @@ L.keystoneHistoryRunsOlderTooltip = "Montant total de donjons effectués avant c
 L.keystoneHistoryScore = "Score : +%d"
 L.keystoneHistoryScoreThisWeekTooltip = "Score total gagné cette semaine : |cFFFFFFFF+%d|r"
 L.keystoneHistoryScoreOlderTooltip = "Score total gagné avant cette semaine : |cFFFFFFFF+%d|r"
+L.keystoneTimeUnder = "|cFF33FF99-%02d:%02d|r"
+L.keystoneTimeOver = "|cFFFF4411+%02d:%02d|r"
+--L.keystoneTeleportTip = "Click the dungeon name below to |cFF33FF99TELEPORT|r directly to the dungeon entrance."
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "COLONIE"
@@ -352,7 +356,7 @@ L.keystoneShortName_OperationFloodgate = "VANNES"
 L.keystoneShortName_TheaterOfPain = "THÉÂTRE"
 L.keystoneShortName_TheMotherlode = "FILON"
 L.keystoneShortName_OperationMechagonWorkshop = "ATELIER"
-L.keystoneShortName_EcoDomeAldani = "ALDANI"
+L.keystoneShortName_EcoDomeAldani = "ÉCODÔME"
 L.keystoneShortName_HallsOfAtonement = "EXPIA"
 L.keystoneShortName_AraKaraCityOfEchoes = "ARAK"
 L.keystoneShortName_TazaveshSoleahsGambit = "SOLEAH"
@@ -369,12 +373,25 @@ L.keystoneShortName_OperationFloodgate_Bar = "Vannes Ouvertes"
 L.keystoneShortName_TheaterOfPain_Bar = "Théâtre"
 L.keystoneShortName_TheMotherlode_Bar = "Filon"
 L.keystoneShortName_OperationMechagonWorkshop_Bar = "Atelier"
-L.keystoneShortName_EcoDomeAldani_Bar = "Al'dani"
+L.keystoneShortName_EcoDomeAldani_Bar = "Écodôme"
 L.keystoneShortName_HallsOfAtonement_Bar = "Expiation"
 L.keystoneShortName_AraKaraCityOfEchoes_Bar = "Ara-Kara"
 L.keystoneShortName_TazaveshSoleahsGambit_Bar = "Stratagème"
 L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "Rues"
 L.keystoneShortName_TheDawnbreaker_Bar = "Brise-Aube"
+
+-- Instance Keys "Who has a key?"
+L.instanceKeysTitle = "Qui a une clef ?"
+L.instanceKeysDesc = "Lorsque vous entrez dans un donjon mythique, les joueurs possédant une clef pour ce donjon seront affichés dans une liste.\n\n"
+L.instanceKeysTest8 = "|cFF00FF98Moine :|r +8"
+L.instanceKeysTest10 = "|cFFFF7C0ADruide :|r +10"
+L.instanceKeysDisplay = "|c%s%s:|r +%d" -- "PLAYER_NAME: +DUNGEON_LEVEL"
+L.instanceKeysDisplayWithDungeon = "|c%s%s:|r +%d (%s)" -- "PLAYER_NAME: +DUNGEON_LEVEL (DUNGEON_NAME)"
+--L.instanceKeysShowAll = "Always show all players"
+--L.instanceKeysShowAllDesc = "Enabling this option will show all players in the list, even if their keystone doesn't belong to the dungeon you are in."
+--L.instanceKeysOtherDungeonColor = "Other dungeon color"
+--L.instanceKeysOtherDungeonColorDesc = "Choose the font color for players that have keystones that don't belong to the dungeon you are in."
+--L.instanceKeysEndOfRunDesc = "By default the list will only show when you enter a mythic dungeon. Enabling this option will also show the list when the Mythic+ is over."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -392,6 +409,9 @@ L.lfgUseMasterDesc = "When this option is enabled the LFG ready sound will play 
 L.general = "Général"
 L.advanced = "Avancé"
 L.comma = ", "
+L.reset = "Réinitialiser"
+L.resetDesc = "Réinitialise les paramètres ci-dessus à leur valeur d'origine."
+L.resetAll = "Tout réinitialiser"
 
 L.positionX = "Position X"
 L.positionY = "Position Y"
@@ -422,6 +442,9 @@ L.CENTER = "Centre"
 L.customAnchorPoint = "Avancé : point d'ancrage personnalisé"
 L.sourcePoint = "Point source"
 L.destinationPoint = "Point destination"
+--L.drawStrata = "Strata"
+--L.medium = "Medium"
+--L.low = "Low"
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -605,10 +628,8 @@ L.textShadow = "Ombre du texte"
 L.expiring_normal = "Normal"
 L.emphasized = "En évidence"
 
-L.reset = "Réinitialiser"
-L.resetDesc = "Réinitialise les couleurs ci-dessus à leurs valeurs par défaut."
-L.resetAll = "Tout réinitialiser"
-L.resetAllDesc = "Si vous avez des couleurs personnalisées dans les paramètres des rencontres de boss, ce bouton les réinitialisera TOUTES et les couleurs définies ici seront utilisées à la place."
+L.resetColorsDesc = "Réinitialise les couleurs ci-dessus à leurs valeurs par défaut."
+L.resetAllColorsDesc = "Si vous avez des couleurs personnalisées dans les paramètres des rencontres de boss, ce bouton les réinitialisera TOUTES et les couleurs définies ici seront utilisées à la place."
 
 L.red = "Rouge"
 L.redDesc = "Alertes générales des rencontres."
@@ -687,6 +708,11 @@ L.displayTimeDesc = "Définit pendant combien de temps un message doit rester af
 L.fadeTime = "Durée d'estompe"
 L.fadeTimeDesc = "Définit pendant combien de temps un message doit s'estomper (en secondes)."
 
+--L.messagesOptInHeaderOff = "Boss mod messages 'opt-in' mode: Enabling this option will turn off messages across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the messages you want.\n\n"
+--L.messagesOptInHeaderOn = "Boss mod messages 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod messages, go into the settings of a specific boss ability and turn on the '|cFF33FF99Messages|r' option.\n\n"
+--L.messagesOptInTitle = "Boss mod messages 'opt-in' mode"
+--L.messagesOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off messages across ALL of your boss modules. You will need to go through each one and manually turn on the messages you want.\n\nYour UI will now reload, are you sure?"
+
 -----------------------------------------------------------------------
 -- Nameplates.lua
 --
@@ -718,9 +744,12 @@ L.showBorder = "Affiche la bordure"
 L.showBorderDesc = "Affiche une bordure autour de l'icône."
 L.borderColor = "Couleur de la bordure"
 L.borderSize = "Taille de la bordure"
+--L.borderOffset = "Border Offset"
+--L.borderName = "Border Name"
 L.showNumbers = "Affiche les nombres"
 L.showNumbersDesc = "Affiche les nombres dans l'icône."
 L.cooldown = "Temps de recharge"
+--L.cooldownEmphasizeHeader = "By default, Emphasize is disabled (0 seconds). Setting it to 1 second or higher will enable Emphasize. This will allow you to set a different font color and font size for those numbers."
 L.showCooldownSwipe = "Affiche le balayage"
 L.showCooldownSwipeDesc = "Affiche le balayage sur l'icône lorsque le temps de recharge est actif."
 L.showCooldownEdge = "Affiche le bord du balayage"
@@ -739,6 +768,8 @@ L.fixate_test = "Fixe Test" -- Text that displays to test on the frame
 L.resetNameplateTextDesc = "Réinitialise toutes les options liées au texte des barres d'infos."
 L.glowAt = "Commencer la surbrillance (secondes)"
 L.glowAt_desc = "Choisissez combien il doit rester de secondes sur le temps de recharge afin d'activer la surbrillance."
+--L.offsetX = "Offset X"
+--L.offsetY = "Offset Y"
 L.headerIconSizeTarget = "Taille d'icône de votre cible actuelle"
 L.headerIconSizeOthers = "Taille d'icône de toutes les autres cibles"
 L.headerIconPositionTarget = "Position de l'icône de votre cible actuelle"
@@ -763,6 +794,11 @@ L.scale = "Échelle"
 L.scale_glow_desc = "L'échelle des étincelles de l'animation."
 L.startAnimation = "Start Animation"
 L.startAnimation_glow_desc = "Cette surbrillance a une animation de départ, cela activera / désactivera cette animation."
+
+--L.nameplateOptInHeaderOff = "\n\n\n\nBoss mod nameplates 'opt-in' mode: Enabling this option will turn off nameplates across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the nameplates you want.\n\n"
+--L.nameplateOptInHeaderOn = "\n\n\n\nBoss mod nameplates 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod nameplates, go into the settings of a specific boss ability and turn on the '|cFF33FF99Nameplates|r' option.\n\n"
+--L.nameplateOptInTitle = "Boss mod nameplates 'opt-in' mode"
+--L.nameplateOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off nameplates across ALL of your boss modules. You will need to go through each one and manually turn on the nameplates you want.\n\nYour UI will now reload, are you sure?"
 
 -----------------------------------------------------------------------
 -- Proximity.lua
@@ -807,6 +843,7 @@ L.combatLogDesc = "Lance automatiquement l'enregistrement du combat quand un dé
 L.pull = "Pull"
 L.engageSoundTitle = "Jouer un son quand une rencontre de boss débute"
 L.pullStartedSoundTitle = "Jouer un son quand le délai de pull est lancé"
+--L.pullStartedMessageTitle = "Show a message when the pull timer is started"
 L.pullFinishedSoundTitle = "Jouer un son quand le délai de pull est terminé"
 L.pullStartedBy = "Délai de pull commencé par %s."
 L.pullStopped = "Délai de pull annulé par %s."

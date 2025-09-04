@@ -2,8 +2,6 @@ local _, addonTbl = ...
 local L = addonTbl.API:NewLocale("BigWigs", "itIT")
 if not L then return end
 
---L.tempNew = "NEW: You can now type |cFFFFFFFF/key|r to see the Mythic+ keystones of your party members."
-
 -- API.lua
 --L.showAddonBar = "The addon '%s' created the '%s' bar."
 
@@ -236,6 +234,10 @@ L.imported_countdown_position = "Posizione Conto alla rovescia"
 L.imported_countdown_settings = "Impostazioni Conto alla rovescia"
 L.imported_countdown_color = "Colori Conto alla rovescia"
 L.imported_nameplate_settings = "Impostazioni barre delle unità"
+--L.imported_mythicplus_settings = "Mythic+ Settings"
+--L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
+--L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
+
 -- Statistics
 L.statistics = "Statistiche"
 L.defeat = "Sconfitta"
@@ -273,7 +275,7 @@ L.H25 = "Eroico 25"
 -----------------------------------------------------------------------
 
 --L.tools = "Tools"
---L.toolsDesc = "BigWigs provides various tools or \"quality of life\" features to speed up and simplify the process of fighting bosses. Expand the menu by clicking the |cFF33FF99+|r icon to see them all."
+--L.toolsDesc = "BigWigs provides various tools or \"quality of life\" features to speed up and simplify the process of fighting bosses."
 
 -----------------------------------------------------------------------
 -- AutoRole.lua
@@ -306,14 +308,14 @@ L.H25 = "Eroico 25"
 --L.keystoneTabHistory = "History"
 --L.keystoneHeaderThisWeek = "This Week"
 --L.keystoneHeaderOlder = "Older"
---L.keystoneScoreTooltip = "Dungeon Score: |cFFFFFFFF%d|r"
---L.keystoneScoreGainedTooltip = "Score Gained: |cFFFFFFFF+%d|r"
---L.keystoneCompletedTooltip = "Completed in time"
---L.keystoneFailedTooltip = "Failed to complete in time"
+--L.keystoneScoreGainedTooltip = "Score Gained: |cFFFFFFFF+%d|r\nDungeon Score: |cFFFFFFFF%d|r"
+--L.keystoneCompletedTooltip = "Completed in time: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
+--L.keystoneFailedTooltip = "Failed to complete in time: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
 --L.keystoneExplainer = "A collection of various tools to improve the Mythic+ experience."
---L.keystoneAutoSlot = "Auto slot keystone"
---L.keystoneAutoSlotDesc = "Automatically place your keystone into the slot when opening the keystone holder."
---L.keystoneAutoSlotMessage = "Automatically placed %s into the keystone slot."
+--L.keystoneAutoSlot = "Auto insert keystone"
+--L.keystoneAutoSlotDesc = "Automatically insert your keystone into the slot when opening the keystone holder."
+--L.keystoneAutoSlotMessage = "Automatically inserted %s into the keystone slot."
+--L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t Keystone Auto Inserted"
 --L.keystoneModuleName = "Mythic+"
 --L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
 --L.keystoneStartMessage = "%s +%d begins now!" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
@@ -325,12 +327,12 @@ L.H25 = "Eroico 25"
 --L.keystoneHideGuildTitle = "Hide my keystone from my guild members"
 --L.keystoneHideGuildDesc = "|cffff4411Not recommended.|r This feature will prevent your guild members seeing what keystone you have. Anyone in your group will still be able to see it."
 --L.keystoneHideGuildWarning = "Disabling the ability for your guild members to see your keystone is |cffff4411not recommended|r.\n\nAre you sure you want to do this?"
---L.keystoneAutoShowZoneIn = "Show when entering a dungeon"
---L.keystoneAutoShowZoneInDesc = "Automatically show the keystone viewer when entering a Mythic dungeon.\n\n|cFF33FF99This can help remind you which player owns the keystone that you're about to do.|r"
 --L.keystoneAutoShowEndOfRun = "Show when the Mythic+ is over"
 --L.keystoneAutoShowEndOfRunDesc = "Automatically show the keystone viewer when when the Mythic+ dungeon is over.\n\n|cFF33FF99This can help you see what new keystones your party has received.|r"
 --L.keystoneViewerExplainer = "You can open the keystone viewer using the |cFF33FF99/key|r command or by clicking the button below.\n\n"
 --L.keystoneViewerOpen = "Open the keystone viewer"
+--L.keystoneViewerKeybindingExplainer = "\n\nYou can also set a keybinding to open the keystone viewer:\n\n"
+--L.keystoneViewerKeybindingDesc = "Choose a keybinding to open the keystone viewer."
 --L.keystoneClickToWhisper = "Click to open a whisper dialog"
 --L.keystoneClickToTeleportNow = "\nClick to teleport here"
 --L.keystoneClickToTeleportCooldown = "\nCannot teleport, spell on cooldown"
@@ -341,6 +343,9 @@ L.H25 = "Eroico 25"
 --L.keystoneHistoryScore = "+%d Score"
 --L.keystoneHistoryScoreThisWeekTooltip = "Total score gained this week: |cFFFFFFFF+%d|r"
 --L.keystoneHistoryScoreOlderTooltip = "Total score gained before this week: |cFFFFFFFF+%d|r"
+L.keystoneTimeUnder = "|cFF33FF99-%02d:%02d|r"
+L.keystoneTimeOver = "|cFFFF4411+%02d:%02d|r"
+--L.keystoneTeleportTip = "Click the dungeon name below to |cFF33FF99TELEPORT|r directly to the dungeon entrance."
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 --L.keystoneShortName_TheRookery = "ROOK"
@@ -351,7 +356,7 @@ L.H25 = "Eroico 25"
 --L.keystoneShortName_TheaterOfPain = "TOP"
 --L.keystoneShortName_TheMotherlode = "ML"
 --L.keystoneShortName_OperationMechagonWorkshop = "WORK"
---L.keystoneShortName_EcoDomeAldani = "ALDANI"
+--L.keystoneShortName_EcoDomeAldani = "ECODOME"
 --L.keystoneShortName_HallsOfAtonement = "HOA"
 --L.keystoneShortName_AraKaraCityOfEchoes = "ARAK"
 --L.keystoneShortName_TazaveshSoleahsGambit = "GAMBIT"
@@ -368,12 +373,25 @@ L.H25 = "Eroico 25"
 --L.keystoneShortName_TheaterOfPain_Bar = "Theater"
 --L.keystoneShortName_TheMotherlode_Bar = "Motherlode"
 --L.keystoneShortName_OperationMechagonWorkshop_Bar = "Workshop"
---L.keystoneShortName_EcoDomeAldani_Bar = "Al'dani"
+--L.keystoneShortName_EcoDomeAldani_Bar = "Eco-Dome"
 --L.keystoneShortName_HallsOfAtonement_Bar = "Halls"
 --L.keystoneShortName_AraKaraCityOfEchoes_Bar = "Ara-Kara"
 --L.keystoneShortName_TazaveshSoleahsGambit_Bar = "Gambit"
 --L.keystoneShortName_TazaveshStreetsOfWonder_Bar = "Streets"
 --L.keystoneShortName_TheDawnbreaker_Bar = "Dawnbreaker"
+
+-- Instance Keys "Who has a key?"
+--L.instanceKeysTitle = "Who has a key?"
+--L.instanceKeysDesc = "When you enter a Mythic dungeon, the players that have a keystone for that dungeon will be displayed as a list.\n\n"
+--L.instanceKeysTest8 = "|cFF00FF98Monk:|r +8"
+--L.instanceKeysTest10 = "|cFFFF7C0ADruid:|r +10"
+--L.instanceKeysDisplay = "|c%s%s:|r +%d" -- "PLAYER_NAME: +DUNGEON_LEVEL"
+--L.instanceKeysDisplayWithDungeon = "|c%s%s:|r +%d (%s)" -- "PLAYER_NAME: +DUNGEON_LEVEL (DUNGEON_NAME)"
+--L.instanceKeysShowAll = "Always show all players"
+--L.instanceKeysShowAllDesc = "Enabling this option will show all players in the list, even if their keystone doesn't belong to the dungeon you are in."
+--L.instanceKeysOtherDungeonColor = "Other dungeon color"
+--L.instanceKeysOtherDungeonColorDesc = "Choose the font color for players that have keystones that don't belong to the dungeon you are in."
+--L.instanceKeysEndOfRunDesc = "By default the list will only show when you enter a mythic dungeon. Enabling this option will also show the list when the Mythic+ is over."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -391,6 +409,9 @@ L.lfgUseMasterDesc = "When this option is enabled the LFG ready sound will play 
 L.general = "Generale"
 L.advanced = "Advanzate"
 L.comma = ", "
+L.reset = "Reimposta"
+--L.resetDesc = "Reset the above settings to their default values."
+L.resetAll = "Reimposta tutto"
 
 L.positionX = "Posizione X"
 L.positionY = "Posizione Y"
@@ -421,6 +442,9 @@ L.CENTER = "Centro"
 L.customAnchorPoint = "Avanzato: Punto di ancoraggio personalizzato"
 L.sourcePoint = "Punto di origine"
 L.destinationPoint = "Punto di Destinazione"
+--L.drawStrata = "Strata"
+--L.medium = "Medium"
+--L.low = "Low"
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -604,10 +628,8 @@ L.textShadow = "Ombra Testo"
 L.expiring_normal = "Normale"
 L.emphasized = "Enfatizzato"
 
-L.reset = "Reimposta"
-L.resetDesc = "Reimposta i colori qui sopra ai parametri originali."
-L.resetAll = "Reimposta tutto"
-L.resetAllDesc = "Se hai modificato qualsiasi parametro dei combattimenti, questo pulsante riporterà TUTTO alle impostazioni originali."
+L.resetColorsDesc = "Reimposta i colori qui sopra ai parametri originali."
+L.resetAllColorsDesc = "Se hai modificato qualsiasi parametro dei combattimenti, questo pulsante riporterà TUTTO alle impostazioni originali."
 
 L.red = "Rosso"
 L.redDesc = "Avvisi generali di combattimento."
@@ -686,6 +708,11 @@ L.displayTimeDesc = "Per quanto tempo deve essere visualizzato il messaggio, in 
 L.fadeTime = "Tempo di Scomparsa"
 L.fadeTimeDesc = "Dopo quanti secondi il messaggio deve scomparire, in secondi."
 
+--L.messagesOptInHeaderOff = "Boss mod messages 'opt-in' mode: Enabling this option will turn off messages across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the messages you want.\n\n"
+--L.messagesOptInHeaderOn = "Boss mod messages 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod messages, go into the settings of a specific boss ability and turn on the '|cFF33FF99Messages|r' option.\n\n"
+--L.messagesOptInTitle = "Boss mod messages 'opt-in' mode"
+--L.messagesOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off messages across ALL of your boss modules. You will need to go through each one and manually turn on the messages you want.\n\nYour UI will now reload, are you sure?"
+
 -----------------------------------------------------------------------
 -- Nameplates.lua
 --
@@ -717,9 +744,12 @@ L.showBorder = "Mostra Contorno"
 L.showBorderDesc = "Mostra un contorno intorno all'icona."
 L.borderColor = "Colore del contorno"
 L.borderSize = "Dimensione del contorno"
+--L.borderOffset = "Border Offset"
+--L.borderName = "Border Name"
 L.showNumbers = "Mostra numeri"
 L.showNumbersDesc = "Mostra numeri sull'icona."
 L.cooldown = "Recupero"
+--L.cooldownEmphasizeHeader = "By default, Emphasize is disabled (0 seconds). Setting it to 1 second or higher will enable Emphasize. This will allow you to set a different font color and font size for those numbers."
 L.showCooldownSwipe = "Mostra Linea"
 L.showCooldownSwipeDesc = "Mostra una linea sull'icona quando il recupero è in corso."
 L.showCooldownEdge = "Mostra orlo"
@@ -738,6 +768,8 @@ L.fixate_test = "Fissato Prova" -- Text that displays to test on the frame
 L.resetNameplateTextDesc = "Resetta tutte le opzioni associate con il testo dulle barre delle unità."
 L.glowAt = "Inizia Spendlore (secondi)"
 L.glowAt_desc = "Scegli quanti secondi di recupero rimanenti dovrebbero esserci quando lo splendore inizia a vedersi."
+--L.offsetX = "Offset X"
+--L.offsetY = "Offset Y"
 --L.headerIconSizeTarget = "Icon size of your current target"
 --L.headerIconSizeOthers = "Icon size of all other targets"
 --L.headerIconPositionTarget = "Icon position of your current target"
@@ -762,6 +794,11 @@ L.scale = "Scala"
 L.scale_glow_desc = "La Scala delle scintille presenti nell'animazione."
 L.startAnimation = "Inizia Animazione"
 L.startAnimation_glow_desc = "Questo Splendore ha un animazione iniziale, questo abilità/disabilità questa animazione."
+
+--L.nameplateOptInHeaderOff = "\n\n\n\nBoss mod nameplates 'opt-in' mode: Enabling this option will turn off nameplates across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the nameplates you want.\n\n"
+--L.nameplateOptInHeaderOn = "\n\n\n\nBoss mod nameplates 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod nameplates, go into the settings of a specific boss ability and turn on the '|cFF33FF99Nameplates|r' option.\n\n"
+--L.nameplateOptInTitle = "Boss mod nameplates 'opt-in' mode"
+--L.nameplateOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off nameplates across ALL of your boss modules. You will need to go through each one and manually turn on the nameplates you want.\n\nYour UI will now reload, are you sure?"
 
 -----------------------------------------------------------------------
 -- Proximity.lua
@@ -806,6 +843,7 @@ L.combatLogDesc = "Inizia a registrare il combattimento automaticamente quando p
 L.pull = "Ingaggio"
 L.engageSoundTitle = "Riproduci un suono quando inizia il combattimento con un boss"
 L.pullStartedSoundTitle = "Riproduci un suono quando comincia il timer di ingaggio"
+--L.pullStartedMessageTitle = "Show a message when the pull timer is started"
 L.pullFinishedSoundTitle = "Riproduci un suono quando termina il timer di ingaggio"
 L.pullStartedBy = "Time di ingaggio iniziato da %s."
 L.pullStopped = "Timer ingaggio cancellato da %s."

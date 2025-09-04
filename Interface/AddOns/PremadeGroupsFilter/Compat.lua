@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 -- Premade Groups Filter
 -------------------------------------------------------------------------------
--- Copyright (C) 2024 Bernhard Saumweber
+-- Copyright (C) 2025 Bernhard Saumweber
 --
 -- This program is free software; you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -24,6 +24,11 @@ local C = PGF.C
 
 function PGF.GetSearchResultInfo(resultID)
     local searchResultInfo = C_LFGList.GetSearchResultInfo(resultID)
+    -- In rare cases such as when an application is full or rejected,
+    -- C_LFGList.GetSearchResultInfo returns nil
+    if not searchResultInfo then
+        return nil
+    end
     if searchResultInfo.activityIDs then
         searchResultInfo.activityID = searchResultInfo.activityIDs[1]
     end
@@ -43,6 +48,6 @@ end
 function PGF.GetSearchResultMemberInfo(...)
     local info = C_LFGList.GetSearchResultPlayerInfo(...)
     if info then
-        return info.assignedRole, info.classFilename, info.className, info.specName, info.isLeader
+        return info.assignedRole, info.classFilename, info.className, info.specName, info.isLeader, info.isLeaver
     end
 end
