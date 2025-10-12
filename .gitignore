@@ -3,6 +3,7 @@ Cache/
 Utils/
 OLD*/
 Errors/
+GPUCache/
 
 # Logs folder containing files we don't want to back up.
 Logs/BlizzardBrowser
