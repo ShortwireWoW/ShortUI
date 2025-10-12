@@ -1,0 +1,1570 @@
+
+MasqueDB = {
+["namespaces"] = {
+},
+["profileKeys"] = {
+["Callmeshorty - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["Groups"] = {
+["WeakAuras_7eHhd9)rk3h"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_mIMX90tBPpZ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hkW09QmtNdJ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2Mz252KX3Hd"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_rZxNDD9XtoC"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_fQ6OXU1Jytb"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_WmuXvPZwRgp"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_AVamRnzlOlL"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_FjGcJtSeDRN"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_OJOJM177AoK"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_D2BFZv))Qp("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_wHLwWFr)DY5"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_6paehroMMjO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_YBH6LPpWWLV"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_r5xJl)4J8iL"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_UvdRAPgoPeM"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_zHwwOl8cRi2"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_SWBS(zOgpVT"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_SqUS1jWz(QP"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_aw7LKjdi4Jo"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hqHzyVcpEch"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_(ToD392xnA)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_A3yyzds6cfO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_tPHBjVYukQo"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_U6kZJfzOM3P"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_g)9tQ7D)IsJ"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_K9mse(gA3jk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_)SPklAgNrDd"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_nrJh(SLx1(N"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_zzLN2QJPAMo"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras"] = {
+["Disabled"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_BLtcvMusFfq"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_K(H58KpKfcO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_AiaYQXU1Upr"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_tj)qYIuJ7sA"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_aDnZ)tGPuW2"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ZYPuBC8OjFV"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_68cMSviu8mm"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_yRKJ(7afdgU"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ut8umXfljGq"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["Raven_Debuffs"] = {
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_NuEi5AzyFfH"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_1eC2gy9eIU)"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_TfiaIHBZFIe"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_4ghPHTKChLh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_gFivvTUVsuJ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_5LoA)rRcUm7"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_)dwB8ZVMxk1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_eAzXmOcKBi7"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_KFc2JcmAbVe"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_aCjKQYTnupe"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Mtf0nj(3n2Q"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_u(iFZWqotqT"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_)nAayfMz6WP"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_h1Gr8xYVFxM"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_kp3EN1FfkGt"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_yb5t3JBIE2("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_MPb6jFKwgOJ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_5RXsSAYfsPf"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ym526kERJm("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_4vU9kZaP5fC"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_j2BCJ65rvG)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_SwO56Rx4Gl6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_C4YKAZxLnVO"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Q(DWjLlpcG)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_6Io95DpW)2t"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_iGr5c7Jfwgm"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Ec0435tw59v"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_CXhQMQcRFTZ"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["Bartender4_Flyout"] = {
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_PdOGlTCDopI"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ghTdzB41F8l"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_(BI8j6U3r8h"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_OGiFfO0lwGa"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_b7f12rssthe"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_PAgZG1lufNf"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_32OPQ6vS8YN"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_gVfFEAYiLnY"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_6(bLpRj1LRl"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_vIkpgrP5yBt"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_3JQjU5KIPvI"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_xW5s1SuIcZ8"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_bRnCO7hogTp"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Raven"] = {
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_GLGHQc34)DJ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_iT(SxvnyvUq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_UnDPUykskQI"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_TZ1sQ3zpIDc"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_g)Ewh0InXba"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ImWyWawk96I"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_ptjhEgBS)kd"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_OSciOfpcMdK"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_swJiaPtFyM4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_bHAfVLIYSpW"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_StanceBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Vql5byiTsTi"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_t8JZJJ6ocCN"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_tiRXcPU1vRh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_UgjbxJBLlGD"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_QQb2l8veUFh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_MDPv4u4Y2Dt"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_XyutD3cS7m8"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_xDuoL2Xv(n9"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_zNnLpWS9SjB"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_5"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_8d9NGNkL0Sp"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_UOI)sbJJDEz"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_iwZrOUq7HhZ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_R75GDBfWYlo"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Xbrxlao)UMS"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_OtjotyrlpPE"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_6(twkjhGtCN"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_xGQvkc)H7UA"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Rf1MjQFquhY"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_2"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_wWG8wyLAYwE"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_VrvyDV8UziT"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["Bartender4_BagBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_oCfSLsY(PX6"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_fnh0XQE7eT7"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Z0zT)(1zw)M"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_DItJMf72989"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_d3R)pjxbdpY"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_3I09vpQAJEa"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Iy5hUOvT(ud"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_)JQN6Arvcs0"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_6edIlvCmxno"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_PT0XXnyk1NF"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_kAJ50T4Bosk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_xU8sT8rOoX0"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_PgYJjQjIC4g"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_QmxlAN5PvEz"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_UPlBW(UKQ7O"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Eew62WyLTz)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_n8Og5jpvu6r"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_DbQF6)2wD8h"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_FbOK3(Wrzyp"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_z)HqJead6Os"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_(6PyPGQWrql"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_c5uiTaUw4b("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_5U7(tsq4qMP"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Wn)N1rOHaS1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_mt8SuFp8bZ)"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_cZnKdQu46FL"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_1pfGRPdrCAm"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_UDR0fk0TJG2"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_vfPbUyVho5B"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_NEgiNvAl2Ha"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_zPcugSr0)Z1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_sKLWw7GV9SO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Yt07du6R(bH"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_FCZ7BZM1Zlw"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_PdCAJPCfL43"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_fOWimZSvHyV"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_VSAyXzBmVEh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_C9PpUAdEsCS"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_LztZDmmvIKH"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_IyXpT7s(r1i"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_rYXyCfqxvUY"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_)55lryNruD8"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_4zAp3vMwhyw"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_M0PBxIg7cVL"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2OxBY9Sl(Wj"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_I9m9mifR0QJ"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_PmrYcA3bbBl"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9aOsPGUehI9"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_QilkIF(277d"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2hkF9jeTU2n"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_W1R1yrAooyk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_XAb5YmxAHmf"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_BohB7FN8ddG"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_S(K033p5RnS"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_0WVQED6aRTl"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2ksIig4NEqM"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_3HWzoROQtXh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ATDUDj)RiU4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_f4v3zTF6NN("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Bq4zrfyNdBv"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_1roV6Bhx9uq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_D1VLxzSAjgq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_KKHFQMirj8V"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_I7Kkbk1Jrv)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ZYSOmNcN)ev"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_H08sgkW3l4r"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_1gi4BxmP(Vc"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Z9oWWELfGq4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_cU9u5FxcXf9"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_O9GGlbeEOIi"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_zP5dHQywBlS"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_aiNrunUPPDu"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_7XZw3Z9uCM4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Z1a4ZviiXrb"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Tfb1rRQ9OZ9"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_zQ9jl)eyOit"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_2pV303xGFnK"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ojKgiF9W7Ra"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_B4ZXKvkJ44F"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_uCNircmMCOY"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_cH1slUzESkw"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_X4CX5BNhHEu"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2)ruuMS0kTP"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_VToNNeDraXr"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_wkzZZJHC7F)"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_P)ic4vCIUTn"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_KWGdkwTne9k"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_RRZK1gdDUsh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9)V(OLiZrVq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_pJY)sXJQLZu"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hVd6DlEoYWk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_drO0FOp(b44"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_)udjJpzDkI1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_nLJlhyOckLD"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_MthiHQBN)Zx"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_OeMDXdtFoJV"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_F6XplmLA8k5"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9ilaE36)z5Y"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_yyTlnIBzIxt"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_4MFkAp5a3pf"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_iIUiJEBaHem"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hEMWCQ8kkQC"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_gl32t7dQt5M"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_oKMbvEZgkBZ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_x0ysksBdqP("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Fe9Mgqll8MN"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_JAi6HIc6f8B"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_RMLVbunRV2K"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_qeeFsTmrZD2"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_zzQE43GEkje"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_6p4lDywi7(q"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_(MK(FiDku1F"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_s3Vex2XjljQ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_4Tmn30d)G3g"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_fZD7i4GfsCH"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_YOjJo(CDNcb"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4"] = {
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_aECPkax7uiD"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_lRqILAuVFgY"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_v)sU0pRlSbz"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_0efnQGsSGC4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_LuGQps3qIxq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9(9WS9ksG9Y"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_vN90W(ICrXt"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_KDVGudMB9qq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_c3XDzsJAtVi"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_oHWz4YzyNaW"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_ArPcuyLW)ww"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_ppd7vAwMLUp"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_TVUBBcKVu8G"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_fsRefylmFtC"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Hgtmrv9oLjO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hnXg9L2iVgP"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_k88069Y232I"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_3EKSPVZFkmO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ThSxVjhbqL6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_fQOngtLm2rk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_SOoB1r3jc4L"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Rghe2a9YrY3"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_B447P4OK4hy"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_ejjqmuz0V8n"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Dq9lvz671kn"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_dREb8isMWjq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_88wl9jbeqtJ"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_KJJyQRog(qI"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_KYM3)vn8sFA"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_yGRB5NSn0Vz"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_YFniKptZF4s"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Raven_Long Buffs"] = {
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_sVsSrlF8ny9"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_nwxPiuAO)vc"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_tISWHD0vue4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_gnSLvCKaWvd"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_XXkQbmKINOk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_CRUSVpW7(cI"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_8Tl3gpNlXoU"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["Bartender4_PetBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_AfDQJw8KrjZ"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_y0OW0xiHuQK"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_wt4UVvo4Yy6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_FIfXia2OI6E"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["Masque"] = {
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Rlya4OSVzMD"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_(X75NA7Jqtw"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_chSRb7WhDPG"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_3Rxn0TA9Fpp"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_jTDJRmu7A1s"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_l3Z5HMEbLww"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_LiwYTe1dj8h"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_xFXQSKXgHvN"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_atVG3ZCn0Tw"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_obbcDzhONwA"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9qnBSPZ(j57"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_5uQayN0CLgV"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_lOg0pMu79Im"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_2CHQs5ng01P"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_OZBJJKi2kzC"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_wh5ONSIrXZq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_AintonrLhE0"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Lq5J(NKcPvZ"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_jZUjf(NH)59"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_NBMBlJRZ9w("] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_DRZO9(GiSb("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_PCo1fTrXLVz"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_NjYk7M)EA6r"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_BfjjtIHJnI8"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_IIQzY(uedLS"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_2338oVLNVtk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_XumMXIH3Umc"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_qErtPCzro8p"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_3IxsEzicRGa"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Xnz17x1DpNO"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_O6uQJ5IHS7J"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_pDeL9f)Zqjo"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_tNIdw)FoSo7"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_Kwiv(Iu1Yom"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_1XJGfkW517V"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_6hz7LqgP2dH"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_83MOsNreGSr"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_oBbvJn8GGDk"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_uESK6k4yCv6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_RRww3Wlxlhp"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_gi0PGMW0E8V"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_)O41Y2pzJDf"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_(flYFWFPTNg"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_S3UPWffMwKi"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_WIw5G2rQ)4J"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_YFcfjAEw)Nh"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_3"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+["WeakAuras_9E97BWWsalB"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_76HsQeoDG6z"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_8lPFOHbfjBu"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_9sri(zcx3J("] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_Am4msc5PbCq"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_wkaGKjHs90n"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_mYvmxVc)OtB"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_pbxC8jT52cw"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_hAwRRRfkHuF"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_NHn88Q0CU4B"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_RbfbmM97Qw9"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_wMcuI5uVu51"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_dGYxjgFGX)y"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_D1nAhr64zL9"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["WeakAuras_GaRTULVguQW"] = {
+["Disabled"] = true,
+["Upgraded"] = true,
+["Inherit"] = false,
+["SkinID"] = "Raeli - Square Inset",
+},
+},
+["API_VERSION"] = 110107,
+},
+},
+}

@@ -190,7 +190,6 @@ Off Screen]=] ] = "光环在屏幕外"
 	L["Aura: '%s'"] = "光环：'%s'"
 	L["Auto-Clone (Show All Matches)"] = "自动克隆（显示所有符合项）"
 	L["Automatic length"] = "自动长度"
-	L["Available Voices are system specific"] = "可用的声音由系统决定"
 	L["Backdrop Color"] = "背景颜色"
 	L["Backdrop in Front"] = "背景在前"
 	L["Backdrop Style"] = "背景图案类型 "
@@ -230,6 +229,8 @@ Off Screen]=] ] = "光环在屏幕外"
 	L["Circular Texture %s"] = "圆形材质%s"
 	L["Clear Debug Logs"] = "清除调试日志"
 	L["Clear Saved Data"] = "清空已储存数据"
+	--[[Translation missing --]]
+	L["Click to replace the name with %s."] = "Click to replace the name with %s."
 	L["Clip Overlays"] = "裁剪覆盖层"
 	L["Clipped by Foreground"] = "被前景裁切"
 	L["Close"] = "关闭"
@@ -460,6 +461,8 @@ Bleed classification via LibDispel]=] ] = "仅过滤给定类型的可驱散的�
 	L["Group Settings"] = "组设置"
 	L["Hawk"] = "鹰"
 	L["Help"] = "帮助"
+	--[[Translation missing --]]
+	L["Hide After"] = "Hide After"
 	L["Hide Background"] = "隐藏背景"
 	L["Hide Glows applied by this aura"] = "隐藏由此光环应用的发光"
 	L["Hide on"] = "隐藏于"
@@ -550,6 +553,8 @@ Bleed classification via LibDispel]=] ] = "仅过滤给定类型的可驱散的�
 	L["Magnetically Align"] = "磁力对齐"
 	L["Main"] = "主要的"
 	L["Manual with %i/%i"] = "手动：%i/%i"
+	--[[Translation missing --]]
+	L["Matches %s spells"] = "Matches %s spells"
 	L["Matches the height setting of a horizontal bar or width for a vertical bar."] = "符合水平进度条的高度设置，或者垂直进度条的宽度设置。"
 	L["Max"] = "最大"
 	L["Max Length"] = "最大长度"
@@ -654,6 +659,8 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = [=[事件发�
 	L["Paste Trigger Settings"] = "粘贴触发器设置"
 	L["Places a tick on the bar"] = "在进度条上放置进度指示"
 	L["Play Sound"] = "播放声音"
+	--[[Translation missing --]]
+	L["Player Spells found:"] = "Player Spells found:"
 	L["Portrait Zoom"] = "肖像缩放"
 	L["Position and Size Settings"] = "位置和尺寸设置"
 	L["Preferred Match"] = "匹配偏好"
@@ -788,6 +795,8 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = [=[事件发�
 	L["Spark Texture"] = "闪光材质"
 	L["Specific Currency ID"] = "特定货币ID"
 	L["Spell Selection Filters"] = "法术选择过滤器"
+	--[[Translation missing --]]
+	L["Spells found:"] = "Spells found:"
 	L["Stack Info"] = "层数信息"
 	L["Stacks - The number of stacks of an aura (usually)"] = "堆叠 - 光环的堆叠层数（通常是）"
 	L["Standby"] = "已就绪"
@@ -800,6 +809,8 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = [=[事件发�
 	L["Stop Motion %s"] = "定格动画%s"
 	L["Stop Motion Settings"] = "定格动画设置"
 	L["Stop Sound"] = "停止播放声音"
+	--[[Translation missing --]]
+	L["Stretched by Foreground"] = "Stretched by Foreground"
 	L["Sub Elements"] = "子元素"
 	L["Sub Option %i"] = "子选项 %i"
 	L["Subevent"] = "子事件"
@@ -911,9 +922,12 @@ Upgrade your version of WeakAuras or wait for next release before installing thi
 	L["Vertical Bar"] = "垂直条"
 	L["View"] = "显示"
 	L["View custom code"] = "查看自定义代码"
-	L["Voice"] = "声音"
+	--[[Translation missing --]]
+	L["Voice Settings"] = "Voice Settings"
 	L["We thank"] = "我们感谢"
 	L["WeakAuras %s on WoW %s"] = "WeakAuras %s + WoW %s"
+	--[[Translation missing --]]
+	L["WeakAuras recommends using spell ids instead of names. Spell ids are automatically localized."] = "WeakAuras recommends using spell ids instead of names. Spell ids are automatically localized."
 	L["What do you want to do?"] = "你想要做什么？"
 	L["Whole Area"] = "整个区域"
 	L["wrapping"] = "折叠"
@@ -929,6 +943,16 @@ Upgrade your version of WeakAuras or wait for next release before installing thi
 	L["You already have this group/aura. Importing will create a duplicate."] = "此组/光环已经存在，继续导入将会创建副本。"
 	L["You are about to delete %d aura(s). |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "正在删除 %d 个光环，|cFFFF0000此操作无法被撤销！|r真的要删除吗?"
 	L["You are about to delete a trigger. |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "你正在删除一个触发器。|cFFFF0000这个操作无法撤销！|r你要继续吗？"
+	--[[Translation missing --]]
+	L[ [=[You are about to Import an Aura with custom Lua code on a Hardcore server.
+
+|cFFFF0000There is a risk the custom code could be used to kill your hardcore character!|r
+
+Would you like to continue?]=] ] = [=[You are about to Import an Aura with custom Lua code on a Hardcore server.
+
+|cFFFF0000There is a risk the custom code could be used to kill your hardcore character!|r
+
+Would you like to continue?]=]
 	L[ [=[You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the Anchor Code on.
 
 WeakAuras will always run custom anchor code if you include 'changed' in this list, or when a region is added, removed, or re-ordered.]=] ] = [=[你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras 将运行自定义锚点代码。

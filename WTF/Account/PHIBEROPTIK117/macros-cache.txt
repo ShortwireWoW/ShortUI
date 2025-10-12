@@ -14,13 +14,8 @@ VER 3 000000000000006E "EAB" "134400"
 #show
 /click ExtraActionButton1
 END
-VER 3 000000000000006C "Fish" "319458"
-/target Sleepy Fish
-/ping [@target]
-/sleep
-END
-VER 3 0000000000000068 "Guild" "134331"
-/s |cffffd200|HclubFinder:ClubFinder-1-575872-60-112689612|h[Guild: Mythic Intent]|h|r 
+VER 3 000000000000006F "Hide Objectives" "132156"
+/run local t=ObjectiveTrackerFrame if t:IsShown()then t:Hide()else t:Show()end
 END
 VER 3 000000000000005D "Lust" "134400"
 #showtooltip
@@ -38,36 +33,9 @@ VER 3 0000000000000037 "Mount" "134400"
 /cast [flyable] Invincible; Grand Expedition Yak
 /dismount
 END
-VER 3 000000000000005B "Potions" "134400"
-#showtooltip
-/use Fleeting Elemental Potion of Ultimate Power
-/use Elemental Potion of Ultimate Power
-END
-VER 3 0000000000000069 "Raid Invite Time" "132208"
-/run C_ChatInfo.SendAddonMessage("WA_TRIGGER", "raidtimeinvite", "WHISPER", UnitName("player"))
-/rt inv
-END
-VER 3 000000000000006B "RaidHowTo" "413580"
-/run if UnitExists("target") then C_ChatInfo.SendAddonMessage("SHORT_RI", UnitName("target"), "WHISPER", UnitName("player")) end
-END
 VER 3 0000000000000065 "Swap Blaster" "134400"
 #showtooltip
 /cast [@mouseover] Swapblaster
-END
-VER 3 000000000000006A "test" "134400"
-i
-END
-VER 3 0000000000000062 "Toys" "134400"
-#showtooltip
-/use Acolyte's Guise
-/use Accursed Tome of the Sargerei
-/use Blackflame Daggers
-/use Blazing Wings
-/use Bondable Sinstone
-/use Burning Blade
-/use Druid and Priest Statue Set
-/use Vindicator's Armor Polish Kit
-/use Winter Veil Socks
 END
 VER 3 000000000000004D "Trinket 1" "134400"
 #showtooltip

@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "itIT")
 if not L then return end
 
 -- API.lua
---L.showAddonBar = "The addon '%s' created the '%s' bar."
+--L.showAddonBar = "The addon '|cFF436EEE%s|r' created the '%s' bar."
+--L.requestAddonProfile = "The addon '|cFF436EEE%s|r' just made a copy of your profile export string."
 
 -- Core.lua
 L.berserk = "Infuriato"
@@ -23,7 +24,7 @@ L.adds_desc = "Abilita le varie funzioni relative agli add che usciranno durante
 L.health = "Salute"
 L.health_desc = "Abilita le funzioni per visualizzare le varie informazioni che riguardano la Salute durante l'incontro col boss"
 L.energy = "Energia"
---L.energy_desc = "Enable functions for displaying information about the various energy levels during the boss encounter."
+L.energy_desc = "Abilita le funzioni per visualizzare informazioni sui vari livelli di energia durante l'incontro col boss."
 
 L.already_registered = "|cffff0000ATTENZIONE:|r |cff00ff00%s|r (|cffffff00%s|r) esiste già come modulo di BigWigs, ma qualcosa sta cercando di caricarlo di nuovo. Questo solitamente significa che hai due copie di questo modulo nella cartella addons a causa di qualche aggiornamento sbagliato. È consigliabile reinstallare BigWigs cancellando tutte le cartelle BigWigs."
 
@@ -54,14 +55,16 @@ L.offline = "Disconnesso"
 L.missingAddOnPopup = "L'addon |cFF436EEE%s|r è mancante!"
 L.missingAddOnRaidWarning = "L'addon |cFF436EEE%s|r è mancante! Nessun timer sarà visualizzato in questa zona!"
 L.outOfDateAddOnPopup = "L'addon |cFF436EEE%s|r non è aggiornato!"
---L.outOfDateAddOnRaidWarning = "L'addon |cFF436EEE%s|r non è aggiornato! You have v%d.%d.%d but the latest is v%d.%d.%d!"
+L.outOfDateAddOnRaidWarning = "L'addon |cFF436EEE%s|r non è aggiornato! Tu hai v%d.%d.%d ma il piu recente è v%d.%d.%d!"
 L.disabledAddOn = "L'addon |cFF436EEE%s|r è disattivato, i timer non saranno mostrati."
 L.removeAddOn = "Per favore rimuovi '|cFF436EEE%s|r' perché è stato rimpiazzato da '|cFF436EEE%s|r'."
 L.alternativeName = "%s (|cFF436EEE%s|r)"
 L.outOfDateContentPopup = "WARNING!\nHai aggiornato |cFF436EEE%s|r ma devi anche aggiornare l'addon principale|cFF436EEEBigWigs|r.\nIgnorando questo poterà a funzionalità anomala e non funzionante."
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r richiede la versione %d dell' addon principale |cFF436EEEBigWigs|r per funzionare correttamente, tu hai la versione %d installata attualmente."
---L.addOnLoadFailedWithReason = "BigWigs failed to load the addon |cFF436EEE%s|r with reason %q. Tell the BigWigs devs!"
---L.addOnLoadFailedUnknownError = "BigWigs encountered an error when loading the addon |cFF436EEE%s|r. Tell the BigWigs devs!"
+L.addOnLoadFailedWithReason = "BigWigs ha fallito di caricare l'addon |cFF436EEE%s|r per %q. Digli ai devs di BigWigs!"
+L.addOnLoadFailedUnknownError = "BigWigs ha trovato un errore quando cercava di caricare l'addon |cFF436EEE%s|r. Digli ai devs di BigWigs!"
+--L.newFeatures = "New BigWigs features:"
+--L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"Classiche", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"Shadowlands", -- Shadowlands
 	"Dragonflight", -- Dragonflight
 	"The War Within", -- The War Within
+	"Midnight", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "Scorribande",
 	["LittleWigs_CurrentSeason"] = "Stagione attuale",
 }
+--L.dayNamesShort = {
+--	"SUN", -- Sunday
+--	"MON", -- Monday
+--	"TUE", -- Tuesday
+--	"WED", -- Wednesday
+--	"THU", -- Thursday
+--	"FRI", -- Friday
+--	"SAT", -- Saturday
+--}
+--L.dayNames = {
+--	"Sunday",
+--	"Monday",
+--	"Tuesday",
+--	"Wednesday",
+--	"Thursday",
+--	"Friday",
+--	"Saturday",
+--}
+--L.monthNames = {
+--	"January",
+--	"February",
+--	"March",
+--	"April",
+--	"May",
+--	"June",
+--	"July",
+--	"August",
+--	"September",
+--	"October",
+--	"November",
+--	"December",
+--}
+--L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Attenti! (Algalon)"
@@ -88,7 +125,7 @@ L.Destruction = "Distruzione (Kil'jaeden)"
 L.RunAway = "Scappa ragazzina, scappa!!! (Lupo Cattivo)"
 L.spell_on_you = "BigWigs: Abilità su di te"
 L.spell_under_you = "BigWigs: Abilità sotto di te"
---L.simple_no_voice = "Simple (No Voice)"
+L.simple_no_voice = "Simple (Senza Voce)"
 
 -- Options.lua
 L.options = "Opzioni"
@@ -234,9 +271,12 @@ L.imported_countdown_position = "Posizione Conto alla rovescia"
 L.imported_countdown_settings = "Impostazioni Conto alla rovescia"
 L.imported_countdown_color = "Colori Conto alla rovescia"
 L.imported_nameplate_settings = "Impostazioni barre delle unità"
---L.imported_mythicplus_settings = "Mythic+ Settings"
---L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
---L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
+L.imported_mythicplus_settings = "Impostazzioni Mythic+"
+L.mythicplus_settings_import_desc = "Importare tutte le impostazzioni Mythic+."
+L.mythicplus_settings_export_desc = "esportare tutte le impostazzioni Mythic+."
+L.imported_battleres_settings = "impostazzioni Battle Res"
+L.battleres_settings_import_desc = "Importare tutte le impostazzioni Battle Res."
+L.battleres_settings_export_desc = "esportare tutte le impostazzioni Battle Res."
 
 -- Statistics
 L.statistics = "Statistiche"
@@ -255,9 +295,13 @@ L.LFR = "RDI"
 L.normal = "Normale"
 L.heroic = "Eroica"
 L.mythic = "Mitica"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|aRDI"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|aNormale"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|aEroica"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|aMitica"
 L.timewalk = "Viaggi nel tempo"
---L.solotier8 = "Solo Tier 8"
---L.solotier11 = "Solo Tier 11"
+L.solotier8 = "Solo Tier 8"
+L.solotier11 = "Solo Tier 11"
 L.story = "Storia"
 L.mplus = "Mitica+ %d"
 L.SOD = "Stagione della scoperta"
@@ -274,15 +318,36 @@ L.H25 = "Eroico 25"
 -- TOOLS
 -----------------------------------------------------------------------
 
---L.tools = "Tools"
---L.toolsDesc = "BigWigs provides various tools or \"quality of life\" features to speed up and simplify the process of fighting bosses."
+L.tools = "Utensili"
+L.toolsDesc = "BigWigs fornisce diversi utensili o \"quality of life\" caratteristiche per velocizzare e simplificare il processo delle uccisioni dei bosses."
 
 -----------------------------------------------------------------------
 -- AutoRole.lua
 --
 
---L.autoRoleTitle = "Auto Role"
---L.autoRoleExplainer = "Whenever you join a group, or you change your talent specialization whilst being in a group, BigWigs will automatically adjust your group role (Tank, Healer, Damager) accordingly.\n\n"
+L.autoRoleTitle = "Auto Ruolo"
+L.autoRoleExplainer = "Quando ti unisci ad un gruppo, o cambii le tue spec mentre sei gia in gruppo, BigWigs cambierà automaticamente il tuo ruolo nel gruppo (Tank, Healer, DPS).\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+--L.battleResTitle = "Battle Res"
+--L.battleResDesc = "An icon that shows how many battle resurrection charges are available and the time until another charge is gained."
+--L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
+--L.battleResHistory = "Battle Res History:"
+--L.battleResResetAll = "Reset all the Battle Resurrection settings to their default values."
+--L.battleResDurationText = "Duration Text"
+--L.battleResChargesText = "Charges Text"
+--L.battleResNoCharges = "0 charges available"
+--L.battleResHasCharges = "1 or more charges available"
+--L.battleResPlaySound = "Play a sound when a new charge is gained"
+--L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icon Texture (Spell ID)"
+--L.iconTextureSpellIDError = "You must type a valid spell ID to use as the icon texture."
+--L.battleResModeIcon = "Mode: Icon"
+--L.battleResModeText = "Mode: Text Only"
+--L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
+--L.battleResNoteTooltip = "Note: This tooltip will only show when you are out of combat."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +457,8 @@ L.keystoneTimeOver = "|cFFFF4411+%02d:%02d|r"
 --L.instanceKeysOtherDungeonColor = "Other dungeon color"
 --L.instanceKeysOtherDungeonColorDesc = "Choose the font color for players that have keystones that don't belong to the dungeon you are in."
 --L.instanceKeysEndOfRunDesc = "By default the list will only show when you enter a mythic dungeon. Enabling this option will also show the list when the Mythic+ is over."
+--L.instanceKeysHideTitle = "Hide title"
+--L.instanceKeysHideTitleDesc = "Hide the \"Who has a key?\" title."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "Reimposta"
 --L.resetDesc = "Reset the above settings to their default values."
 L.resetAll = "Reimposta tutto"
+--L.startTest = "Start Test"
+--L.stopTest = "Stop Test"
+--L.always = "Always"
+--L.never = "Never"
 
 L.positionX = "Posizione X"
 L.positionY = "Posizione Y"
@@ -426,6 +497,7 @@ L.disabled = "Disabilitato"
 L.disableDesc = "Stai per disabilitare la funzionalità '%s' che |cffff4411non è consigliata|r.\n\nSei sicuro di questo?"
 --L.keybinding = "Keybinding"
 --L.dragToResize = "Drag to resize"
+--L.cannotMoveInCombat = "You cannot move this whilst you're in combat."
 
 -- Anchor Points
 L.UP = "Su"

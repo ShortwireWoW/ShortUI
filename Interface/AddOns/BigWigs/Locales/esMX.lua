@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "esMX")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "El addon '%s' creó la barra '%s'."
+L.showAddonBar = "El addon '|cFF436EEE%s|r' creó la barra '%s'."
+--L.requestAddonProfile = "The addon '|cFF436EEE%s|r' just made a copy of your profile export string."
 
 -- Core.lua
 L.berserk = "Enfurecer"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "CUIDADO!\nActualizaste |cFF436EEE%s|r pero también n
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r requiere la versión %d del addon principal de|cFF436EEEBigWigs|r para que funcione correctamente, pero tu estan en la versión %d."
 L.addOnLoadFailedWithReason = "BigWigs falló al cargar el addon |cFF436EEE%s|r por razones %q. ¡Avisa a los desarrolladores de BigWigs!"
 L.addOnLoadFailedUnknownError = "BigWigs ha encontrado un error al cargar el addon |cFF436EEE%s|r. ¡Avisa a los desarrolladores de BigWigs!"
+--L.newFeatures = "New BigWigs features:"
+--L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"Clásico", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"Shadowlands", -- Shadowlands
 	"Dragonflight", -- Dragonflight
 	"The War Within", -- The War Within
+	"Midnight", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "Abismos",
 	["LittleWigs_CurrentSeason"] = "Temporada actual",
 }
+--L.dayNamesShort = {
+--	"SUN", -- Sunday
+--	"MON", -- Monday
+--	"TUE", -- Tuesday
+--	"WED", -- Wednesday
+--	"THU", -- Thursday
+--	"FRI", -- Friday
+--	"SAT", -- Saturday
+--}
+--L.dayNames = {
+--	"Sunday",
+--	"Monday",
+--	"Tuesday",
+--	"Wednesday",
+--	"Thursday",
+--	"Friday",
+--	"Saturday",
+--}
+--L.monthNames = {
+--	"January",
+--	"February",
+--	"March",
+--	"April",
+--	"May",
+--	"June",
+--	"July",
+--	"August",
+--	"September",
+--	"October",
+--	"November",
+--	"December",
+--}
+--L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Cuidado (Algalon)"
@@ -237,6 +274,9 @@ L.imported_nameplate_settings = "Opciones de las barras de nombre"
 L.imported_mythicplus_settings = "Configuraciones de Mítico+"
 L.mythicplus_settings_import_desc = "Importar todas las configuraciones de Mítica+"
 L.mythicplus_settings_export_desc = "Exportar todas las configuraciones de Mítica+"
+--L.imported_battleres_settings = "Battle Res Settings"
+--L.battleres_settings_import_desc = "Import all Battle Res settings."
+--L.battleres_settings_export_desc = "Export all Battle Res settings."
 
 -- Statistics
 L.statistics = "Estadísticas"
@@ -251,10 +291,14 @@ L.first_desc = "La primera victoria ante este jefe, formateada como:\n[Número d
 
 -- Difficulty levels for statistics display on bosses
 L.unknown = "Desconocido"
-L.LFR = "Buscardor de Banda"
+L.LFR = "BdB" --"Buscardor de Banda"
 L.normal = "Normal"
 L.heroic = "Heroico"
 L.mythic = "Mítico"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|aBdB"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|aNormal"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|aHeroico"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|aMítico"
 L.timewalk = "Cronoviaje"
 L.solotier8 = "Solitario Tier 8"
 L.solotier11 = "Solitario Tier 11"
@@ -283,6 +327,27 @@ L.toolsDesc = "BigWigs ofrece varias herramientas o características de \"calida
 
 L.autoRoleTitle = "Auto Rol"
 L.autoRoleExplainer = "Cuando te unas a un grupo o cambies tu especialización de talentos mientras estés en un grupo, BigWigs ajustará automáticamente tu rol de grupo (Tanque, Sanador, Daño) como corresponda.\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+--L.battleResTitle = "Battle Res"
+--L.battleResDesc = "An icon that shows how many battle resurrection charges are available and the time until another charge is gained."
+--L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
+--L.battleResHistory = "Battle Res History:"
+--L.battleResResetAll = "Reset all the Battle Resurrection settings to their default values."
+--L.battleResDurationText = "Duration Text"
+--L.battleResChargesText = "Charges Text"
+--L.battleResNoCharges = "0 charges available"
+--L.battleResHasCharges = "1 or more charges available"
+--L.battleResPlaySound = "Play a sound when a new charge is gained"
+--L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icon Texture (Spell ID)"
+--L.iconTextureSpellIDError = "You must type a valid spell ID to use as the icon texture."
+--L.battleResModeIcon = "Mode: Icon"
+--L.battleResModeText = "Mode: Text Only"
+--L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
+--L.battleResNoteTooltip = "Note: This tooltip will only show when you are out of combat."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +457,8 @@ L.instanceKeysShowAllDesc = "Activar esta opción mostrará siempre a todos los 
 L.instanceKeysOtherDungeonColor = "Otro color de calabozo"
 L.instanceKeysOtherDungeonColorDesc = "Escoge el color de la fuente para los jugadores que tienen piedras angulares que no pertenecen al calabozo en el que te encuentras."
 L.instanceKeysEndOfRunDesc = "Por defecto la lista solo se mostrará cuando entres a un calabozo mítico. Activar esta opción también mostrará la lista cuando la Mítica+ termine."
+--L.instanceKeysHideTitle = "Hide title"
+--L.instanceKeysHideTitleDesc = "Hide the \"Who has a key?\" title."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "Restablecer"
 L.resetDesc = "Restablecer las configuraciones superiores a sus valores por defecto."
 L.resetAll = "Restablecer todo"
+--L.startTest = "Start Test"
+--L.stopTest = "Stop Test"
+--L.always = "Always"
+--L.never = "Never"
 
 L.positionX = "Posición X"
 L.positionY = "Posición Y"
@@ -426,6 +497,7 @@ L.disabled = "Desactivado"
 L.disableDesc = "Está a punto de desactivar la función '%s' que |cffff4411no se recomienda|r.\n\n¿Estás seguro de que quieres hacer esto?"
 L.keybinding = "Atajo de teclado"
 L.dragToResize = "Arrastra para ajustar el tamaño"
+--L.cannotMoveInCombat = "You cannot move this whilst you're in combat."
 
 -- Anchor Points
 L.UP = "Arriba"

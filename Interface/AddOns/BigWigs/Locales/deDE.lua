@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "deDE")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "Das Addon '%s' hat die Leiste '%s' erstellt."
+L.showAddonBar = "Das Addon '|cFF436EEE%s|r' hat die Leiste '%s' erstellt."
+L.requestAddonProfile = "Das Addon '|cFF436EEE%s|r' hat gerade eine Kopie des Profil Export-Strings erstellt."
 
 -- Core.lua
 L.berserk = "Berserker"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "WARNUNG!\nDu hast |cFF436EEE%s|r aktualisiert, aber D
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r benötigt Version %d des Haupt |cFF436EEEBigWigs|r Addons zur korrekten Funktion, allerdings hast Du Version %d."
 L.addOnLoadFailedWithReason = "BigWigs konnte das Addon |cFF436EEE%s|r nicht laden wegen %q. Bitte den Entwicklern melden!"
 L.addOnLoadFailedUnknownError = "BigWigs hat einen Fehler beim Laden des Addons |cFF436EEE%s|r verursacht. Bitte den Entwicklern melden!"
+L.newFeatures = "Neue BigWigs Features:"
+L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"Classic", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"Schattenlande", -- Shadowlands
 	"Dragonflight", -- Dragonflight
 	"The War Within", -- The War Within
+	"Midnight", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "Tiefen",
 	["LittleWigs_CurrentSeason"] = "Aktuelle Saison",
 }
+L.dayNamesShort = {
+	"SO", -- Sunday
+	"MO", -- Monday
+	"DI", -- Tuesday
+	"MI", -- Wednesday
+	"DO", -- Thursday
+	"FR", -- Friday
+	"SA", -- Saturday
+}
+L.dayNames = {
+	"Sonntag",
+	"Montag",
+	"Dienstag",
+	"Mittwoch",
+	"Donnerstag",
+	"Freitag",
+	"Samstag",
+}
+L.monthNames = {
+	"Januar",
+	"Februar",
+	"März",
+	"April",
+	"Mai",
+	"Juni",
+	"Juli",
+	"August",
+	"September",
+	"Oktober",
+	"November",
+	"Dezember",
+}
+L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Hütet Euch (Algalon)"
@@ -237,6 +274,9 @@ L.imported_nameplate_settings = "Namensplaketten Einstellungen"
 L.imported_mythicplus_settings = "Mythisch+ Einstellungen"
 L.mythicplus_settings_import_desc = "Alle Mythisch+ Einstellungen importieren."
 L.mythicplus_settings_export_desc = "Alle Mythisch+ Einstellungen exportieren."
+L.imported_battleres_settings = "Battle Res Einstellungen"
+L.battleres_settings_import_desc = "Alle Battle Res Einstellungen importieren."
+L.battleres_settings_export_desc = "Alle Battle Res Einstellungen exportieren."
 
 -- Statistics
 L.statistics = "Statistiken"
@@ -255,6 +295,10 @@ L.LFR = "LFR"
 L.normal = "Normal"
 L.heroic = "Heroisch"
 L.mythic = "Mythisch"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|aLFR"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|aNormal"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|aHeroisch"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|aMythisch"
 L.timewalk = "Zeitwanderung"
 L.solotier8 = "Solo Stufe 8"
 L.solotier11 = "Solo Stufe 11"
@@ -283,6 +327,27 @@ L.toolsDesc = "BigWigs bietet verschiedene Werkzeuge oder Features der \"Lebensq
 
 L.autoRoleTitle = "Automatische Rollenwahl"
 L.autoRoleExplainer = "Jedes mal, wenn einer Gruppe beigetreten wird, oder die Talentspezialisierung in einer Gruppe geändert wird, passt BigWigs automatisch die Gruppenrolle (Tank, Heiler, Schaden) entsprechend an.\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "Battle Res"
+L.battleResDesc = "Zeigt ein Symbol an, welches die Anzahl der verfügbaren Battle Res Aufladungen sowie die Zeit bis zur nächsten Aufladung anzeigt."
+L.battleResDesc2 = "\nDer |cFF33FF99Battle Res Verlauf|r wird im Tooltip beim Überfahren des Symbols mit der Maus angezeigt.\n\n"
+L.battleResHistory = "Battle Res Verlauf:"
+L.battleResResetAll = "Alle Battle Res Einstellungen auf ihre Standardwerte zurücksetzen."
+L.battleResDurationText = "Dauer Text"
+L.battleResChargesText = "Aufladungen Text"
+L.battleResNoCharges = "0 Aufladungen verfügbar"
+L.battleResHasCharges = "1 oder mehr Aufladungen verfügbar"
+L.battleResPlaySound = "Einen Sound wiedergeben wenn eine neue Aufladung verfügbar ist"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Symbol Textur (Zauber ID)"
+L.iconTextureSpellIDError = "Es muss eine gültige Zauber ID zur Nutzung der Symbol Textur genutzt werden."
+L.battleResModeIcon = "Modus: Symbol"
+L.battleResModeText = "Modus: Nur Text"
+L.battleResModeTextTooltip = "Es wird vorübergehend ein Hintergrund angezeigt, um beim Bewegen der Battle Res Funktion behilflich zu sein und den Mouseover Bereich anzuzeigen."
+L.battleResNoteTooltip = "Hinweis: Dieser Tooltip wird nur außerhalb des Kampfes angezeigt."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +457,8 @@ L.instanceKeysShowAllDesc = "Durch Aktivierung dieser Option werden alle Spieler
 L.instanceKeysOtherDungeonColor = "Farbe anderer Dungeons"
 L.instanceKeysOtherDungeonColorDesc = "Schriftfarbe für Spieler wählen, deren Schlüsselstein nicht zum aktuellen Dungeon passt."
 L.instanceKeysEndOfRunDesc = "Standardmäßig wird die Liste nur beim Betreten eines mythischen Dungeons angezeigt. Durch Aktivierung dieser Option wird die Liste auch nach Abschluss von Mythisch+ Dungeons angezeigt."
+L.instanceKeysHideTitle = "Titel verstecken"
+L.instanceKeysHideTitleDesc = "Versteckt den \"Wer hat einen Schlüsselstein?\" Titel."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "Zurücksetzen"
 L.resetDesc = "Die obigen Einstellungen auf Standardwerte zurücksetzen."
 L.resetAll = "Alle zurücksetzen"
+L.startTest = "Test starten"
+L.stopTest = "Test beenden"
+L.always = "Immer"
+L.never = "Nie"
 
 L.positionX = "X-Position"
 L.positionY = "Y-Position"
@@ -426,6 +497,7 @@ L.disabled = "Deaktivieren"
 L.disableDesc = "Du bist dabei, das Feature '%s' zu deaktivieren, was |cffff4411nicht empfohlen|r wird.\n\nBist Du sicher, dass Du das tun willst?"
 L.keybinding = "Tastenbelegung"
 L.dragToResize = "Zum Anpassen ziehen"
+L.cannotMoveInCombat = "Verschieben im Kampf nicht möglich."
 
 -- Anchor Points
 L.UP = "Hoch"

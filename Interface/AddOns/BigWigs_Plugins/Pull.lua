@@ -13,7 +13,7 @@ local GetInstanceInfo = BigWigsLoader.GetInstanceInfo
 local DoCountdown = BigWigsLoader.DoCountdown
 local zoneTable = BigWigsLoader.zoneTbl
 local isLogging = false
-local IsEncounterInProgress = IsEncounterInProgress
+local IsEncounterInProgress = C_InstanceEncounter and C_InstanceEncounter.IsEncounterInProgress or IsEncounterInProgress -- XXX 12.0 compat
 local LibSharedMedia = LibStub("LibSharedMedia-3.0")
 local SOUND = LibSharedMedia.MediaType and LibSharedMedia.MediaType.SOUND or "sound"
 
@@ -93,7 +93,7 @@ do
 		childGroups = "tab",
 		get = function(i) return plugin.db.profile[i[#i]] end,
 		set = function(i, value) plugin.db.profile[i[#i]] = value end,
-		order = 6,
+		order = 8,
 		args = {
 			countType = {
 				type = "select",
@@ -253,6 +253,10 @@ do
 		end
 		if db.countBegin < 5 or db.countBegin > 10 then
 			db.countBegin = plugin.defaultDB.countBegin
+		end
+		local checkCount = math.floor(db.countBegin+0.5)
+		if checkCount ~= db.countBegin then
+			db.countBegin = checkCount
 		end
 
 		if not BigWigsAPI:HasCountdown(db.voice) then

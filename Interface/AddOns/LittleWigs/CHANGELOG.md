@@ -1,13 +1,9 @@
 # LittleWigs
 
-## [v11.2.27](https://github.com/BigWigsMods/LittleWigs/tree/v11.2.27) (2025-09-01)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.2.26...v11.2.27) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v11.2.37](https://github.com/BigWigsMods/LittleWigs/tree/v11.2.37) (2025-10-09)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v11.2.36...v11.2.37) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- WarWithin/AraKara/Trash: Tweak option tab contents  
-- WarWithin/TheDawnbreaker/Trash: Organize options into tabs  
-- Shadowlands/Tazavesh/Trash: Organize options into tabs  
-- WarWithin/PrioryOfTheSacredFlame/Trash: Organize options into tabs  
-- WarWithin/OperationFloodgate/Trash: Organize options into tabs  
-- Shadowlands/HallsOfAtonement/Trash: Organize options into tabs  
-- WarWithin/EcoDomeAldani/Trash: Organize options into tabs  
-- WarWithin/AraKara/Trash: Organize options into tabs  
+- Legion/VaultOfTheWardens/Ashgolm: Fix invalid journal ID error  
+- Legion/EyeOfAzshara/Trash: Filter RP casts, sound updates  
+- Legion/HallsOfValor/Trash: Throttle Charged Pulse  
+- Legion/HallsOfValor/God-KingSkovald: Delay Odyn enablement on win, fixes #1433  

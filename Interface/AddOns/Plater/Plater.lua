@@ -742,6 +742,10 @@ Plater.AnchorNamesByPhraseId = {
 						lowExecute = 0.35
 					end
 				
+				elseif  (class == "ROGUE") then
+					if IsPlayerSpell(111240) then --Dispatch
+						lowExecute = 0.35
+					end
 				end
 			end
 		
@@ -1209,7 +1213,7 @@ Plater.AnchorNamesByPhraseId = {
 
 	--return true if the unit is in tank role
 	local function IsUnitEffectivelyTank (unit)
-		if IS_WOW_PROJECT_MAINLINE then
+		if IS_WOW_PROJECT_MAINLINE or IS_WOW_PROJECT_CLASSIC_MOP then
 			return UnitGroupRolesAssigned (unit) == "TANK"
 		elseif IS_WOW_PROJECT_CLASSIC_WRATH then
 			if IsInRaid() then
@@ -1217,8 +1221,6 @@ Plater.AnchorNamesByPhraseId = {
 			else
 				return UnitGroupRolesAssigned (unit) == "TANK"
 			end
-		elseif IS_WOW_PROJECT_CLASSIC_MOP then
-			return UnitGroupRolesAssigned (unit) == "TANK"
 		else
 			return GetPartyAssignment("MAINTANK", unit)
 		end
@@ -3858,8 +3860,8 @@ Plater.AnchorNamesByPhraseId = {
 										DB_NPCIDS_CACHE[plateFrame[MEMBER_NPCID]] = {plateFrame.unitNameInternal, Plater.ZoneName or "UNKNOWN", Plater.Locale or "enUS"}
 									else
 										--the npc is already cached, check if the language is different
-										if (npcCacheInfo[3] ~= Plater.Locale) then
-											--the npc is cached but the language is different, update the name
+										if (npcCacheInfo[3] ~= Plater.Locale or npcCacheInfo[2] == "UNKNOWN") then
+											--the npc is cached but the language is different or zone unknown -> update.
 											npcCacheInfo[1] = plateFrame[MEMBER_NAME]
 											npcCacheInfo[2] = Plater.ZoneName or "UNKNOWN"
 											npcCacheInfo[3] = Plater.Locale
@@ -4160,11 +4162,10 @@ Plater.AnchorNamesByPhraseId = {
 	
 	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_TARGET_CHANGED")
 	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_FOCUS_CHANGED")
-	if IS_WOW_PROJECT_MAINLINE then
-		Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_INTERACT_CHANGED")
-		Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_FRIEND_CHANGED")
-		Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_ENEMY_CHANGED")
-	end
+	
+	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_INTERACT_CHANGED")
+	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_FRIEND_CHANGED")
+	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_SOFT_ENEMY_CHANGED")
 	
 	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_REGEN_DISABLED")
 	Plater.EventHandlerFrame:RegisterEvent ("PLAYER_REGEN_ENABLED")
@@ -8763,7 +8764,8 @@ end
 		-- combat toggle
 		if (profile.auto_toggle_combat_enabled and (combat ~= nil)) then
 			local onlyNamesEnabled = GetCVarBool("nameplateShowOnlyNames")
-			local onlyNamesEnabledRaw = GetCVar("nameplateShowOnlyNames")
+			--local onlyNamesEnabledRaw = GetCVar("nameplateShowOnlyNames")
+			local alwaysShow = GetCVarBool("nameplateShowAll")
 			
 			--NamePlateDriverFrame:UnregisterEvent("CVAR_UPDATE")
 			if combat or InCombatLockdown() then -- update this separately and only if needed
@@ -8771,10 +8773,16 @@ end
 					SetCVar("nameplateShowOnlyNames", profile.auto_toggle_combat.blizz_healthbar_ic and CVAR_ENABLED or CVAR_DISABLED)
 					Plater.UpdateBaseNameplateOptions()
 				end
+				if alwaysShow ~= profile.auto_toggle_combat.always_show_ic then
+					SetCVar("nameplateShowAll", profile.auto_toggle_combat.always_show_ic and CVAR_ENABLED or CVAR_DISABLED)
+				end
 			else
 				if onlyNamesEnabled ~= profile.auto_toggle_combat.blizz_healthbar_ooc then
 					SetCVar("nameplateShowOnlyNames", profile.auto_toggle_combat.blizz_healthbar_ooc and CVAR_ENABLED or CVAR_DISABLED)
 					--Plater.UpdateBaseNameplateOptions()
+				end
+				if alwaysShow ~= profile.auto_toggle_combat.always_show_ooc then
+					SetCVar("nameplateShowAll", profile.auto_toggle_combat.always_show_ooc and CVAR_ENABLED or CVAR_DISABLED)
 				end
 			end
 			--NamePlateDriverFrame:RegisterEvent("CVAR_UPDATE")

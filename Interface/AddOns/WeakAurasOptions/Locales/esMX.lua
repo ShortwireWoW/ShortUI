@@ -184,7 +184,6 @@ Off Screen]=] ] = "Aura está fuera de la pantalla"
 	L["Aura: '%s'"] = "Aura: '%s'"
 	L["Auto-Clone (Show All Matches)"] = "Autoclonar (mostrar todas las coincidencias)"
 	L["Automatic length"] = "Longitud automática"
-	L["Available Voices are system specific"] = "Las voces disponibles son específicas del sistema"
 	L["Backdrop Color"] = "Color de fondo"
 	L["Backdrop in Front"] = "Fondo delante"
 	L["Backdrop Style"] = "Estilo de fondo"
@@ -224,6 +223,8 @@ Off Screen]=] ] = "Aura está fuera de la pantalla"
 	L["Circular Texture %s"] = "Textura circular de %s"
 	L["Clear Debug Logs"] = "Borrar registros de depuración"
 	L["Clear Saved Data"] = "Borrar datos guardados"
+	--[[Translation missing --]]
+	L["Click to replace the name with %s."] = "Click to replace the name with %s."
 	L["Clip Overlays"] = "Superposiciones recortadas"
 	L["Clipped by Foreground"] = "Recortado por el primer plano"
 	L["Close"] = "Cerrar"
@@ -267,13 +268,11 @@ Off Screen]=] ] = "Aura está fuera de la pantalla"
 	L["Custom Init"] = "Inicialización personalizada"
 	L["Custom Load"] = "Carga personalizada"
 	L["Custom Options"] = "Opciones personalizadas"
-	--[[Translation missing --]]
-	L["Custom Text Update Throttle"] = "Custom Text Update Throttle"
+	L["Custom Text Update Throttle"] = "Limitador de actualización de texto personalizado"
 	L["Custom Trigger"] = "Activador personalizado"
 	L["Custom trigger event tooltip"] = "Información sobre eventos de activador personalizado"
 	L["Custom trigger status tooltip"] = "Información sobre el estado del activador personalizado"
-	--[[Translation missing --]]
-	L["Custom trigger Update Throttle"] = "Custom trigger Update Throttle"
+	L["Custom trigger Update Throttle"] = "Limitador de actualización de disparador personalizado"
 	L["Custom Trigger: Ignore Lua Errors on OPTIONS event"] = "Activador personalizado: ignorar errores de Lua en el evento OPCIONES"
 	L["Custom Trigger: Send fake events instead of STATUS event"] = "Activador personalizado: enviar eventos falsos en lugar del evento STATUS"
 	L["Custom Unload"] = "Descarga personalizada"
@@ -435,6 +434,8 @@ Con |cFF00CC00>= 0|r se activará siempre.]=]
 	L["Group Settings"] = "Configuración de grupo"
 	L["Hawk"] = "Halcón"
 	L["Help"] = "Ayuda"
+	--[[Translation missing --]]
+	L["Hide After"] = "Hide After"
 	L["Hide Background"] = "Ocultar fondo"
 	L["Hide Glows applied by this aura"] = "Ocultar resplandor aplicado por esta aura"
 	L["Hide on"] = "Ocultar en"
@@ -525,6 +526,8 @@ Con |cFF00CC00>= 0|r se activará siempre.]=]
 	L["Magnetically Align"] = "Alineación magnética"
 	L["Main"] = "Principal"
 	L["Manual with %i/%i"] = "Manual con %i/%i"
+	--[[Translation missing --]]
+	L["Matches %s spells"] = "Matches %s spells"
 	L["Matches the height setting of a horizontal bar or width for a vertical bar."] = "Coincide con la altura de una barra horizontal o la anchura de una barra vertical."
 	L["Max"] = "Máx."
 	L["Max Length"] = "Longitud máx."
@@ -623,6 +626,8 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = "Ocurrencia d
 	L["Paste Trigger Settings"] = "Pegar configuración del activador"
 	L["Places a tick on the bar"] = "Coloca una marca en la barra"
 	L["Play Sound"] = "Reproducir sonido"
+	--[[Translation missing --]]
+	L["Player Spells found:"] = "Player Spells found:"
 	L["Portrait Zoom"] = "Zoom del retrato"
 	L["Position and Size Settings"] = "Configuración de posición y tamaño"
 	L["Preferred Match"] = "Coincidencia preferida"
@@ -756,6 +761,8 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = "Ocurrencia d
 	L["Spark Texture"] = "Textura de chispa"
 	L["Specific Currency ID"] = "ID de moneda específica"
 	L["Spell Selection Filters"] = "Filtros de selección de hechizo"
+	--[[Translation missing --]]
+	L["Spells found:"] = "Spells found:"
 	L["Stack Info"] = "Información de Acumulaciones"
 	L["Stacks - The number of stacks of an aura (usually)"] = "Acumulaciones - El número de acumulaciones de un aura (usualmente)"
 	L["Standby"] = "En espera"
@@ -768,6 +775,7 @@ every 3 events starting from 2nd and ending at 11th: 2-11/3]=] ] = "Ocurrencia d
 	L["Stop Motion %s"] = "Stop motion de %"
 	L["Stop Motion Settings"] = "Configuración de Stop Motion"
 	L["Stop Sound"] = "Detener sonido"
+	L["Stretched by Foreground"] = "Estirado por primer plano"
 	L["Sub Elements"] = "Subelementos"
 	L["Sub Option %i"] = "Subopción %i"
 	L["Subevent"] = "Subevento"
@@ -879,9 +887,11 @@ Upgrade your version of WeakAuras or wait for next release before installing thi
 	L["Vertical Bar"] = "Barra vertical"
 	L["View"] = "Ver"
 	L["View custom code"] = "Ver código personalizado"
-	L["Voice"] = "Voz"
+	L["Voice Settings"] = "Configuración de voz"
 	L["We thank"] = "Agradecemos a"
 	L["WeakAuras %s on WoW %s"] = "WeakAuras %s en WoW %s"
+	--[[Translation missing --]]
+	L["WeakAuras recommends using spell ids instead of names. Spell ids are automatically localized."] = "WeakAuras recommends using spell ids instead of names. Spell ids are automatically localized."
 	L["What do you want to do?"] = "¿Qué es lo que quieres hacer?"
 	L["Whole Area"] = "Área completa"
 	L["wrapping"] = "envolviendo"
@@ -897,6 +907,16 @@ Upgrade your version of WeakAuras or wait for next release before installing thi
 	L["You already have this group/aura. Importing will create a duplicate."] = "Ya tienes este grupo/aura. La importación creará un duplicado."
 	L["You are about to delete %d aura(s). |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "Estás a punto de eliminar aura(s) %d. |cFFFF0000¡Esto no se puede deshacer!|r ¿Te gustarías continuar?"
 	L["You are about to delete a trigger. |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "Estás a punto de eliminar un activador. |cFFFF0000¡Esto no se puede deshacer!|r ¿Te gustaría continuar?"
+	--[[Translation missing --]]
+	L[ [=[You are about to Import an Aura with custom Lua code on a Hardcore server.
+
+|cFFFF0000There is a risk the custom code could be used to kill your hardcore character!|r
+
+Would you like to continue?]=] ] = [=[You are about to Import an Aura with custom Lua code on a Hardcore server.
+
+|cFFFF0000There is a risk the custom code could be used to kill your hardcore character!|r
+
+Would you like to continue?]=]
 	L[ [=[You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the Anchor Code on.
 
 WeakAuras will always run custom anchor code if you include 'changed' in this list, or when a region is added, removed, or re-ordered.]=] ] = "Puedes agregar aquí una lista de valores de estado separados por comas en los que (cuando se modifican) WeakAuras también debería ejecutar el código anclaje. WeakAuras siempre ejecutará el código de orden personalizado si incluye \"cambiado\" en esta lista, o cuando se agrega, se elimina, o se reordena una región"

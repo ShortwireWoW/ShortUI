@@ -1137,16 +1137,16 @@ Private.format_types = {
 
         if cast then
           local _, _, _, _, endTime = WeakAuras.UnitCastingInfo("player")
-          local castExpirationTIme = endTime and endTime > 0 and (endTime / 1000) or 0
-          if castExpirationTIme > 0 then
-            result = min(result, now + value - castExpirationTIme)
+          local castExpirationTime = endTime and endTime > 0 and (endTime / 1000) or 0
+          if castExpirationTime > 0 then
+            result = min(result, now + value - castExpirationTime)
           end
         end
         if channel then
           local _, _, _, _, endTime = WeakAuras.UnitChannelInfo("player")
-          local castExpirationTIme = endTime and endTime > 0 and (endTime / 1000) or 0
-          if castExpirationTIme > 0 then
-            result = min(result, now + value - castExpirationTIme)
+          local castExpirationTime = endTime and endTime > 0 and (endTime / 1000) or 0
+          if castExpirationTime > 0 then
+            result = min(result, now + value - castExpirationTime)
           end
         end
 
@@ -3391,21 +3391,6 @@ Private.send_chat_message_types = {
 
 Private.send_chat_message_types.TTS = L["Text-to-speech"]
 
----@type table
-Private.tts_voices = {}
-
-local function updateTts()
-  wipe(Private.tts_voices)
-  for i, voiceInfo in pairs(C_VoiceChat.GetTtsVoices()) do
-    Private.tts_voices[voiceInfo.voiceID] = voiceInfo.name
-  end
-end
-
-updateTts()
-
-local TtsUpdateFrame = CreateFrame("FRAME")
-TtsUpdateFrame:RegisterEvent("VOICE_CHAT_TTS_VOICES_UPDATE")
-TtsUpdateFrame:SetScript("OnEvent", updateTts)
 
 ---@type table<string, string>
 Private.group_aura_name_info_types = {
@@ -4389,6 +4374,12 @@ Private.dbm_types = {
   [7] = L["Important"]
 }
 
+Private.bossmods_timerTypes = {
+  PULL = L["Pull"],
+  BREAK = L["Break"],
+  TIMER = L["Timer"],
+}
+
 ---@type table<string, string>
 Private.weapon_enchant_types = {
   showOnActive = L["Enchant Found"],
@@ -4421,6 +4412,7 @@ Private.reset_ranged_swing_spells = {
   [5019] = true, -- Shoot Wands
   [75] = true, -- Auto Shot
   [5384] = true, -- Feign Death
+  [467718] = true, -- Bleak Arrows
 }
 
 Private.noreset_swing_spells = {

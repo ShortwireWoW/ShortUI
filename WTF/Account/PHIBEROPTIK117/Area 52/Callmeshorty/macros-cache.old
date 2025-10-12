@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Buffs" "134400"
+#show
+/castsequence reset=10 Prismatic Barrier, Arcane Intellect
+END

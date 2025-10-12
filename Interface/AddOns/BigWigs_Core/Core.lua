@@ -23,7 +23,6 @@ local coreEnabled = false
 
 -- Try to grab unhooked copies of critical loading funcs (hooked by some crappy addons)
 local GetBestMapForUnit = loader.GetBestMapForUnit
-local SendAddonMessage = loader.SendAddonMessage
 local GetInstanceInfo = loader.GetInstanceInfo
 local UnitGUID = loader.UnitGUID
 local UnitIsDeadOrGhost = loader.UnitIsDeadOrGhost
@@ -133,6 +132,7 @@ local enablemobs = {}
 
 local function UpdateMouseoverUnit()
 	local guid = UnitGUID("mouseover")
+	if issecretvalue and issecretvalue(guid) then return end -- XXX 12.0 compat
 	if not guid or UnitIsCorpse("mouseover") or UnitIsDead("mouseover") then return end
 	local _, _, _, _, _, mobIdString = strsplit("-", guid)
 	local mobId = tonumber(mobIdString)
@@ -145,7 +145,7 @@ local function UpdateMouseoverUnit()
 				if module and not module:IsEnabled() and (not module.VerifyEnable or module:VerifyEnable("mouseover", mobId, GetBestMapForUnit("player"))) then
 					module:Enable()
 					if not module.worldBoss then
-						module:Sync("Enable", module.moduleName)
+						module:Sync("Enable", module.moduleName, true)
 					end
 				end
 			end
@@ -154,7 +154,7 @@ local function UpdateMouseoverUnit()
 			if module and not module:IsEnabled() and (not module.VerifyEnable or module:VerifyEnable("mouseover", mobId, GetBestMapForUnit("player"))) then
 				module:Enable()
 				if not module.worldBoss then
-					module:Sync("Enable", module.moduleName)
+					module:Sync("Enable", module.moduleName, true)
 				end
 			end
 		end
@@ -217,11 +217,20 @@ local function bossComm(_, msg, extra, sender)
 	end
 end
 
-function mod:RAID_BOSS_WHISPER(_, msg) -- Purely for Transcriptor to assist in logging purposes.
-	if msg ~= "" and IsInGroup() then
-		local result = SendAddonMessage("Transcriptor", msg, IsInGroup(2) and "INSTANCE_CHAT" or "RAID")
-		if type(result) == "number" and result ~= 0 then
-			core:Error("Failed to send TS comm. Error code: ".. result)
+do
+	local SendAddonMessage = loader.SendAddonMessage
+	local Timer = loader.CTimerAfter
+	function mod:RAID_BOSS_WHISPER(_, msg) -- Purely for Transcriptor to assist in logging purposes.
+		if loader.isBeta then return end -- XXX 12.0 Needs fixing (not allowed in raids/dungeons atm)
+		if msg ~= "" and IsInGroup() and coreEnabled then
+			local result = SendAddonMessage("Transcriptor", msg, IsInGroup(2) and "INSTANCE_CHAT" or "RAID")
+			if type(result) == "number" and result > 0 then
+				if result == 3 or result == 8 or result == 9 then
+					Timer(1, function() self:RAID_BOSS_WHISPER(nil, msg) end)
+				else
+					core:Error("Failed to send TS comm. Error code: ".. result)
+				end
+			end
 		end
 	end
 end
@@ -339,6 +348,11 @@ do
 			end
 
 			core:SendMessage("BigWigs_CoreEnabled")
+
+			if loader.isBeta then
+				C_CVar.SetCVar("encounterTimelineEnabled", "1") -- If disabled, events wont fire atm.
+				EncounterTimeline:SetTimelineVisibility(Enum.EncounterEventsVisibility.Hidden)
+			end
 		end
 	end
 end

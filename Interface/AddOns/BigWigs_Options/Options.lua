@@ -41,7 +41,7 @@ end
 
 local colorModule
 local soundModule
-local configFrame, isPluginOpen
+local configFrame
 
 local showToggleOptions, getAdvancedToggleOption = nil, nil
 local toggleOptionsStatusTable, lastOptionsTab = {}, nil
@@ -278,7 +278,6 @@ do
 							width = "full",
 						},
 					},
-					hidden = loader.isVanilla,
 				},
 			},
 		}
@@ -318,8 +317,6 @@ do
 		acr:RegisterOptionsTable("BigWigsTools", ConstructToolsTab, true)
 		acd:SetDefaultSize("BigWigs", 858, 660)
 		acd:SetDefaultSize("BigWigsTools", 858, 660)
-
-		acr.RegisterCallback(options, "ConfigTableChange")
 
 		colorModule = BigWigs:GetPlugin("Colors")
 		soundModule = BigWigs:GetPlugin("Sounds")
@@ -1265,7 +1262,7 @@ local function populateToggleOptions(widget, module)
 
 			-- Headers
 			local displayOrder = {
-				"story", "timewalk", "LFR", "normal", "heroic", "mythic",
+				"story", "timewalk", "LFR", "LFR_timerun", "normal", "normal_timerun", "heroic", "heroic_timerun", "mythic", "mythic_timerun",
 				"N10", "N25", "H10", "H25",
 				"SOD", "level1", "level2", "level3", "hardcore",
 				"solotier8", "solotier11",
@@ -1301,7 +1298,7 @@ local function populateToggleOptions(widget, module)
 					if not value then
 						fastestVictoryLabel:SetText("-")
 					elseif value and bestDate then
-						fastestVictoryLabel:SetFormattedText("%s (%s)", value, bestDate)
+						fastestVictoryLabel:SetText(("%s (%s)"):format(value, bestDate))
 					elseif value then
 						fastestVictoryLabel:SetText(value)
 					end
@@ -1566,20 +1563,21 @@ do
 			"Cataclysm",
 			"MistsOfPandaria",
 		}
-	--elseif loader.isBeta then
-	--	expansionHeader = {
-	--		"Classic",
-	--		"BurningCrusade",
-	--		"WrathOfTheLichKing",
-	--		"Cataclysm",
-	--		"MistsOfPandaria",
-	--		"WarlordsOfDraenor",
-	--		"Legion",
-	--		"BattleForAzeroth",
-	--		"Shadowlands",
-	--		"Dragonflight",
-	--		"TheWarWithin",
-	--	}
+	elseif loader.isBeta then
+		expansionHeader = {
+			"Classic",
+			"BurningCrusade",
+			"WrathOfTheLichKing",
+			"Cataclysm",
+			"MistsOfPandaria",
+			"WarlordsOfDraenor",
+			"Legion",
+			"BattleForAzeroth",
+			"Shadowlands",
+			"Dragonflight",
+			"TheWarWithin",
+			"Midnight",
+		}
 	else
 		expansionHeader = {
 			"Classic",
@@ -1683,6 +1681,7 @@ do
 		end
 	end
 
+	local currentlyOpenContainer
 	local function onTabGroupSelected(widget, event, value)
 		visibleSpellDescriptionWidgets = {}
 		widget:ReleaseChildren()
@@ -1697,7 +1696,7 @@ do
 			container:SetFullWidth(true)
 
 			-- Have to use :Open instead of just :FeedGroup because some widget types (range, color) call :Open to refresh on change
-			isPluginOpen = container
+			currentlyOpenContainer = container
 			acd:Open("BigWigs", container)
 
 			widget:AddChild(container)
@@ -1711,12 +1710,12 @@ do
 			container:SetFullWidth(true)
 
 			-- Have to use :Open instead of just :FeedGroup because some widget types (range, color) call :Open to refresh on change
-			isPluginOpen = container
+			currentlyOpenContainer = container
 			acd:Open("BigWigsTools", container)
 
 			widget:AddChild(container)
 		else
-			isPluginOpen = nil
+			currentlyOpenContainer = nil
 			local treeTbl = {}
 			local addonNameToHeader = {}
 			local defaultHeader
@@ -1852,6 +1851,13 @@ do
 		end
 	end
 
+	function options:ConfigTableChange(_, appName)
+		if (appName == "BigWigs" or appName == "BigWigsTools") and currentlyOpenContainer then
+			acd:Open(appName, currentlyOpenContainer)
+		end
+	end
+	acr.RegisterCallback(options, "ConfigTableChange")
+
 	function options:OpenConfig()
 		spellDescriptionUpdater:RegisterEvent("SPELL_TEXT_UPDATE")
 
@@ -1865,12 +1871,12 @@ do
 		bw:SetLayout("Flow")
 		bw:SetCallback("OnClose", function(widget)
 			visibleSpellDescriptionWidgets = {}
+			statusTable = {}
+			currentlyOpenContainer = nil
+			configFrame = nil
 			spellDescriptionUpdater:UnregisterEvent("SPELL_TEXT_UPDATE")
 			widget:ReleaseChildren()
 			AceGUI:Release(widget)
-			statusTable = {}
-			isPluginOpen = nil
-			configFrame = nil
 			options:SendMessage("BigWigs_CloseGUI")
 		end)
 
@@ -1927,12 +1933,6 @@ do
 	end
 end
 
-function options:ConfigTableChange(_, appName)
-	if appName == "BigWigs" and isPluginOpen then
-		acd:Open("BigWigs", isPluginOpen)
-	end
-end
-
 do
 	local popup = CreateFrame("Frame", nil, UIParent)
 	popup:Hide()
@@ -1979,7 +1979,7 @@ do
 	local _, addonTable = ...
 	-- DO NOT USE THIS DIRECTLY. This code may not be loaded
 	-- Use BigWigsAPI.RegisterProfile(addonName, profileString, optionalCustomProfileName, optionalCallbackFunction)
-	function options:SaveImportStringDataFromAddOn(addonName, profileString, optionalCustomProfileName, optionalCallbackFunction)
+	function options.SaveImportStringDataFromAddOn(addonName, profileString, optionalCustomProfileName, optionalCallbackFunction)
 		if type(addonName) ~= "string" or #addonName < 3 then error("Invalid addon name for profile import.") end
 		if type(profileString) ~= "string" or #profileString < 3 then error("Invalid profile string for profile import.") end
 		if optionalCustomProfileName and (type(optionalCustomProfileName) ~= "string" or #optionalCustomProfileName < 3) then error("Invalid custom profile name for the string you want to import.") end
@@ -2032,6 +2032,12 @@ do
 				optionalCallbackFunction(false)
 			end
 		end)
+	end
+	-- DO NOT USE THIS DIRECTLY. This code may not be loaded
+	-- Use BigWigsAPI.RequestProfile(addonName)
+	function options.RequestProfile(addonName)
+		if type(addonName) ~= "string" or #addonName < 3 then error("Invalid addon name for profile request.") end
+		return addonTable.GetExportString(true)
 	end
 end
 

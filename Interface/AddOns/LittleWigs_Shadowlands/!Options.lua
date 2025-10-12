@@ -105,7 +105,7 @@ BigWigs:AddSounds("De Other Side Trash", {
 })
 
 BigWigs:AddColors("Halkias, the Sin-Stained Goliath", {
-	[322711] = "red",
+	[322711] = {"blue","red"},
 	[322936] = "purple",
 	[322943] = "yellow",
 	[323001] = "blue",
@@ -113,7 +113,7 @@ BigWigs:AddColors("Halkias, the Sin-Stained Goliath", {
 })
 
 BigWigs:AddSounds("Halkias, the Sin-Stained Goliath", {
-	[322711] = "warning",
+	[322711] = {"underyou","warning"},
 	[322936] = "alert",
 	[322943] = "alarm",
 	[323001] = "underyou",
@@ -759,6 +759,10 @@ BigWigs:AddColors("Hylbrande", {
 	[346957] = {"blue","orange"},
 	[346961] = "blue",
 	[347094] = "red",
+	[348437] = "blue",
+	[348447] = "blue",
+	[348450] = "blue",
+	[348451] = "blue",
 	[353312] = "yellow",
 	[358131] = "red",
 	["vault_purifier"] = "yellow",
@@ -770,6 +774,10 @@ BigWigs:AddSounds("Hylbrande", {
 	[346957] = {"underyou","warning"},
 	[346961] = "underyou",
 	[347094] = "alarm",
+	[348437] = "info",
+	[348447] = "info",
+	[348450] = "info",
+	[348451] = "info",
 	[353312] = "info",
 	[358131] = "alert",
 	["vault_purifier"] = "info",
@@ -820,6 +828,7 @@ BigWigs:AddColors("Tazavesh Trash", {
 	[347716] = "purple",
 	[347721] = "yellow",
 	[347775] = "red",
+	[347842] = "orange",
 	[352796] = "purple",
 	[355048] = "purple",
 	[355057] = {"red","yellow"},
@@ -864,13 +873,16 @@ BigWigs:AddColors("Tazavesh Trash", {
 	[1240912] = "purple",
 	[1244443] = "yellow",
 	[1244650] = "orange",
+	["tradeable_goods"] = {"blue","cyan"},
 	["trading_game"] = "green",
+	["vendor_autopurchase"] = "cyan",
 })
 
 BigWigs:AddSounds("Tazavesh Trash", {
 	[347716] = "alert",
 	[347721] = "warning",
 	[347775] = "alert",
+	[347842] = "alarm",
 	[352796] = "alert",
 	[355048] = "alert",
 	[355057] = {"alert","warning"},
@@ -915,7 +927,9 @@ BigWigs:AddSounds("Tazavesh Trash", {
 	[1240912] = "alert",
 	[1244443] = "info",
 	[1244650] = "alarm",
+	["tradeable_goods"] = "info",
 	["trading_game"] = "info",
+	["vendor_autopurchase"] = "info",
 })
 
 BigWigs:AddColors("An Affront of Challengers", {

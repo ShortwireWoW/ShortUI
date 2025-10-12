@@ -3,7 +3,7 @@ local AddonName = ...
 ---@class Private
 local Private = select(2, ...)
 
-local internalVersion = 85
+local internalVersion = 86
 
 -- Lua APIs
 local insert = table.insert
@@ -114,7 +114,7 @@ do
     if data then
       Private.AuraWarnings.UpdateWarning(data.uid, "LuaError", "error",
         L["This aura has caused a Lua error."] .. "\n" .. L["Install the addons BugSack and BugGrabber for detailed error logs."], true)
-      table.insert(juicedMessage, L["Lua error in aura '%s': %s"]:format(data.id, currentErrorHandlerContext or L["unknown location"]))
+      table.insert(juicedMessage, L["Lua error in Aura '%s': %s"]:format(data.id, currentErrorHandlerContext or L["unknown location"]))
     else
       table.insert(juicedMessage, L["Lua error"])
     end
@@ -1585,6 +1585,10 @@ local function GetInstanceTypeAndSize()
   local _, instanceType, difficultyIndex, _, _, _, _, instanceId = GetInstanceInfo()
   if inInstance or instanceType ~= "none" then
     size = Type
+    -- WORKAROUND Tol'Viron arena returning a difficulty index of 1
+    if Type == "arena" or Type == "pvp" then
+      difficultyIndex = 0
+    end
     local difficultyInfo = Private.difficulty_info[difficultyIndex]
     if difficultyInfo then
       size, difficulty = difficultyInfo.size, difficultyInfo.difficulty
@@ -3545,24 +3549,19 @@ function Private.ReleaseClone(id, cloneId, regionType)
   end
 end
 
-function Private.HandleChatAction(message_type, message, message_dest, message_dest_isunit, message_channel, r, g, b, region, customFunc, when, formatters, voice)
+function Private.HandleChatAction(message_type, message, message_dest, message_dest_isunit, message_channel, r, g, b, region, customCache, when, formatters)
   local useHiddenStates = when == "finish"
   if (message:find('%%')) then
-    message = Private.ReplacePlaceHolders(message, region, customFunc, useHiddenStates, formatters);
+    message = Private.ReplacePlaceHolders(message, region, customCache, useHiddenStates, formatters);
   end
   if(message_type == "PRINT") then
     DEFAULT_CHAT_FRAME:AddMessage(message, r or 1, g or 1, b or 1);
   elseif message_type == "TTS" then
-    local validVoice = voice and Private.tts_voices[voice]
     if not Private.SquelchingActions() then
       pcall(function()
-        C_VoiceChat.SpeakText(
-          validVoice and voice or next(Private.tts_voices) or 0,
-          message,
-          1,
-          C_TTSSettings and C_TTSSettings.GetSpeechRate() or 0,
-          C_TTSSettings and C_TTSSettings.GetSpeechVolume() or 100
-        );
+        local voice = TextToSpeech_GetSelectedVoice(Enum.TtsVoiceType.Standard)
+        if not voice then return end
+        TextToSpeech_Speak(message, voice)
       end)
     end
   elseif message_type == "ERROR" then
@@ -3574,7 +3573,7 @@ function Private.HandleChatAction(message_type, message, message_dest, message_d
   elseif(message_type == "WHISPER") then
     if(message_dest) then
       if (message_dest:find('%%')) then
-        message_dest = Private.ReplacePlaceHolders(message_dest, region, customFunc, useHiddenStates, formatters);
+        message_dest = Private.ReplacePlaceHolders(message_dest, region, customCache, useHiddenStates, formatters);
       end
       if message_dest_isunit == true then
         message_dest = GetUnitName(message_dest, true)
@@ -3851,7 +3850,7 @@ function Private.PerformActions(data, when, region)
 
   if(actions.do_message and actions.message_type and actions.message) then
     local customFunc = Private.customActionsFunctions[data.id][when .. "_message"];
-    Private.HandleChatAction(actions.message_type, actions.message, actions.message_dest, actions.message_dest_isunit, actions.message_channel, actions.r, actions.g, actions.b, region, customFunc, when, formatters, actions.message_tts_voice);
+    Private.HandleChatAction(actions.message_type, actions.message, actions.message_dest, actions.message_dest_isunit, actions.message_channel, actions.r, actions.g, actions.b, region, {customFunc = customFunc}, when, formatters);
   end
 
   if (actions.stop_sound) then
@@ -5090,17 +5089,23 @@ function Private.RunCustomTextFunc(region, customFunc)
   return custom
 end
 
-local function ReplaceValuePlaceHolders(textStr, region, customFunc, state, formatter, trigger)
+local function ReplaceValuePlaceHolders(textStr, region, customCache, state, formatter, trigger)
   local value;
-  if string.sub(textStr, 1, 1) == "c" then
+
+  local customIndexSubStr = textStr:match("^c(%d*)$")
+
+  if customIndexSubStr then
     local custom
-    if customFunc then
-      custom = Private.RunCustomTextFunc(region, customFunc)
+    if customCache then
+      if not customCache.custom then
+        customCache.custom = Private.RunCustomTextFunc(region, customCache.customFunc)
+      end
+      custom = customCache.custom
     else
       custom = region.values.custom
     end
 
-    local index = tonumber(textStr:match("^c(%d+)$") or 1)
+    local index = tonumber(customIndexSubStr) or 1
 
     if custom then
       value = custom[index]
@@ -5249,7 +5254,7 @@ end
 
 Private.ContainsPlaceHoldersPredicate = ContainsPlaceHolders
 
-local function ValueForSymbol(symbol, region, customFunc, regionState, regionStates, useHiddenStates, formatters)
+local function ValueForSymbol(symbol, region, customCache, regionState, regionStates, useHiddenStates, formatters)
   local triggerNum, sym = string.match(symbol, "(.+)%.(.+)")
   triggerNum = triggerNum and tonumber(triggerNum)
   if triggerNum and sym then
@@ -5263,7 +5268,7 @@ local function ValueForSymbol(symbol, region, customFunc, regionState, regionSta
             return tostring(value) or ""
           end
         else
-          local value = ReplaceValuePlaceHolders(sym, region, customFunc, regionStates[triggerNum], formatters[symbol], triggerNum);
+          local value = ReplaceValuePlaceHolders(sym, region, customCache, regionStates[triggerNum], formatters[symbol], triggerNum);
           return value or ""
         end
       end
@@ -5281,12 +5286,12 @@ local function ValueForSymbol(symbol, region, customFunc, regionState, regionSta
     return ""
   else
     local value = (useHiddenStates or regionState.show)
-                  and ReplaceValuePlaceHolders(symbol, region, customFunc, regionState, formatters[symbol], regionState.triggernum)
+                  and ReplaceValuePlaceHolders(symbol, region, customCache, regionState, formatters[symbol], regionState.triggernum)
     return value or ""
   end
 end
 
-function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenStates, formatters)
+function Private.ReplacePlaceHolders(textStr, region, customCache, useHiddenStates, formatters)
   local regionValues = region.values;
   local regionState = region.state or {};
   local regionStates = region.states or {};
@@ -5299,13 +5304,13 @@ function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenState
     return textStr;
   end
 
-  if (endPos == 2) then
-    if string.byte(textStr, 1) == 37 then
+  if (endPos == 2) then -- Two byte string, quickly check for all cases
+    if string.byte(textStr, 1) == 37 then -- "%"
       local symbol = string.sub(textStr, 2)
       if symbol == "%" then
         return "%" -- Double % input
       end
-      local value = ValueForSymbol(symbol, region, customFunc, regionState, regionStates, useHiddenStates, formatters);
+      local value = ValueForSymbol(symbol, region, customCache, regionState, regionStates, useHiddenStates, formatters);
       if (value) then
         textStr = tostring(value);
       end
@@ -5338,7 +5343,7 @@ function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenState
         -- 0-9a-zA-Z or dot character
       else -- End of variable
         local symbol = string.sub(textStr, start, currentPos - 1)
-        result = result .. ValueForSymbol(symbol, region, customFunc, regionState, regionStates, useHiddenStates, formatters)
+        result = result .. ValueForSymbol(symbol, region, customCache, regionState, regionStates, useHiddenStates, formatters)
 
         if char == 37 then
           -- Do nothing
@@ -5349,7 +5354,7 @@ function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenState
     elseif state == 3 then
       if char == 125 then -- } closing brace
         local symbol = string.sub(textStr, start, currentPos - 1)
-        result = result .. ValueForSymbol(symbol, region, customFunc, regionState, regionStates, useHiddenStates, formatters)
+        result = result .. ValueForSymbol(symbol, region, customCache, regionState, regionStates, useHiddenStates, formatters)
         start = currentPos + 1
       end
     end
@@ -5361,7 +5366,7 @@ function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenState
     result = result .. string.sub(textStr, start, currentPos - 1)
   elseif state == 2 and currentPos > start then
     local symbol = string.sub(textStr, start, currentPos - 1)
-    result = result .. ValueForSymbol(symbol, region, customFunc, regionState, regionStates, useHiddenStates, formatters)
+    result = result .. ValueForSymbol(symbol, region, customCache, regionState, regionStates, useHiddenStates, formatters)
   elseif state == 1 then
     result = result .. "%"
   end

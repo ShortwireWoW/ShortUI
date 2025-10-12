@@ -1610,7 +1610,7 @@ do
         return false
       end
 
-      for i = 1, 20 do
+      for i = 0, 20 do
         counter.fastMatches[i] = counter.RunTests(counter, i)
       end
 
@@ -4020,6 +4020,24 @@ function Private.ExecEnv.CheckTotemIcon(totemIcon, triggerTotemIcon, operator)
   return (totemIcon == triggerTotemIcon) == (operator == "==")
 end
 
+function Private.ExecEnv.CheckTotemSpellId(spellId, triggerSpellId, followoverride)
+  if not triggerSpellId then
+    return true
+  end
+
+  if spellId == triggerSpellId then
+    return true
+  end
+
+  if followoverride then
+    if spellId == FindSpellOverrideByID(triggerSpellId) then
+      return true
+    end
+  end
+
+  return false
+end
+
 -- Queueable Spells
 if WeakAuras.IsClassicEra() then
   local queueableSpells
@@ -5331,11 +5349,14 @@ Private.ExecEnv.GetCurrencyAccountInfo = function(currencyId)
   end
 
   if not currencyInfo then
-    currencyInfo = C_CurrencyInfo.GetCurrencyInfo(1) --Currency Token Test Token 4
-    currencyInfo.iconFileID = "Interface\\Icons\\INV_Misc_QuestionMark" --We don't want the user to think their input was valid
+    local testToken = C_CurrencyInfo.GetCurrencyInfo(1) --Currency Token Test Token 4
+    if testToken then
+      currencyInfo = testToken
+      currencyInfo.iconFileID = "Interface\\Icons\\INV_Misc_QuestionMark" --We don't want the user to think their input was valid
+    end
   end
 
-  return currencyInfo
+  return currencyInfo or {}
 end
 
 

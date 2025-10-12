@@ -13,7 +13,8 @@ BigWigs:AddColors("Plexus Sentinel", {
 	[1220679] = "blue",
 	[1227794] = "blue",
 	[1233110] = {"blue","purple"},
-	["stages"] = {"green","yellow"},
+	[1234733] = "cyan",
+	["stages"] = "green",
 })
 
 BigWigs:AddSounds("Plexus Sentinel", {
@@ -28,7 +29,7 @@ BigWigs:AddSounds("Plexus Sentinel", {
 	[1219607] = {"alert","warning"},
 	[1220679] = "info",
 	[1227794] = "underyou",
-	[1233110] = {"alarm","info"},
+	[1233110] = "info",
 	["stages"] = "long",
 })
 
@@ -85,7 +86,7 @@ BigWigs:AddSounds("Soulbinder Naazindhri", {
 	[1227048] = "warning",
 	[1227052] = "alarm",
 	[1227276] = "warning",
-	[1241100] = {"alarm","alert","warning"},
+	[1241100] = {"alarm","warning"},
 	[1242086] = "underyou",
 })
 
@@ -117,7 +118,7 @@ BigWigs:AddColors("Forgeweaver Araz", {
 BigWigs:AddSounds("Forgeweaver Araz", {
 	[1227631] = "warning",
 	[1228188] = "warning",
-	[1228214] = {"info","warning"},
+	[1228214] = "warning",
 	[1228216] = "warning",
 	[1228219] = "alarm",
 	[1228502] = {"alarm","warning"},
@@ -148,7 +149,7 @@ BigWigs:AddColors("The Soul Hunters", {
 	[1227355] = "cyan",
 	[1227685] = "blue",
 	[1227809] = {"blue","orange"},
-	[1233105] = {"blue","yellow"},
+	[1233105] = {"blue","green"},
 	[1233381] = "blue",
 	[1233672] = "red",
 	[1233968] = "blue",
@@ -283,7 +284,7 @@ BigWigs:AddColors("Dimensius, the All-Devouring", {
 	[1233292] = "blue",
 	[1233539] = "red",
 	[1234044] = "yellow",
-	[1234054] = "blue",
+	[1234054] = {"blue","green"},
 	[1234243] = "blue",
 	[1234244] = "blue",
 	[1234263] = "purple",
@@ -328,7 +329,7 @@ BigWigs:AddSounds("Dimensius, the All-Devouring", {
 	[1233292] = "underyou",
 	[1233539] = "warning",
 	[1234044] = "alert",
-	[1234054] = {"info","warning"},
+	[1234054] = {"alarm","info"},
 	[1234243] = "alarm",
 	[1234244] = "warning",
 	[1234263] = "alert",

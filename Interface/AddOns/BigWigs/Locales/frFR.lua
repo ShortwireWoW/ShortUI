@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "frFR")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "L'addon '%s' a créé la barre '%s'."
+L.showAddonBar = "L'addon '|cFF436EEE%s|r' a créé la barre '%s'."
+L.requestAddonProfile = "L'addon '|cFF436EEE%s|r' vient de faire une copie de votre chaîne d'export de profil."
 
 -- Core.lua
 L.berserk = "Berserk"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "ATTENTION !\nVous avez mis à jour |cFF436EEE%s|r ma
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r a besoin de la version %d de l'addon principal |cFF436EEEBigWigs|r afin de fonctionner correctement, mais vous êtes en version %d."
 L.addOnLoadFailedWithReason = "BigWigs a échoué à charger l'addon |cFF436EEE%s|r avec comme raison %q. Avertissez les développeurs de BigWigs !"
 L.addOnLoadFailedUnknownError = "BigWigs a rencontré une erreur lors du chargement de l'addon |cFF436EEE%s|r. Avertissez les développeurs de BigWigs !"
+L.newFeatures = "Nouvelles fonctionnalités de BigWigs :"
+L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"Classic", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"Shadowlands", -- Shadowlands
 	"Dragonflight", -- Dragonflight
 	"The War Within", -- The War Within
+	"Midnight", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "Gouffres",
 	["LittleWigs_CurrentSeason"] = "Saison actuelle",
 }
+L.dayNamesShort = {
+	"DIM", -- Sunday
+	"LUN", -- Monday
+	"MAR", -- Tuesday
+	"MER", -- Wednesday
+	"JEU", -- Thursday
+	"VEN", -- Friday
+	"SAM", -- Saturday
+}
+L.dayNames = {
+	"Dimanche",
+	"Lundi",
+	"Mardi",
+	"Mercredi",
+	"Jeudi",
+	"Vendredi",
+	"Samedi",
+}
+L.monthNames = {
+	"Janvier",
+	"Février",
+	"Mars",
+	"Avril",
+	"Mai",
+	"Juin",
+	"Juillet",
+	"Août",
+	"Septembre",
+	"Octobre",
+	"Novembre",
+	"Décembre",
+}
+L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Attention (Algalon)"
@@ -234,9 +271,12 @@ L.imported_countdown_position = "Position du compte à rebours"
 L.imported_countdown_settings = "Paramètres du compte à rebours"
 L.imported_countdown_color = "Couleur du compte à rebours"
 L.imported_nameplate_settings = "Paramètres de barres d'infos"
---L.imported_mythicplus_settings = "Mythic+ Settings"
---L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
---L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
+L.imported_mythicplus_settings = "Paramètres mythique +"
+L.mythicplus_settings_import_desc = "Importer tous les paramètres mythique +."
+L.mythicplus_settings_export_desc = "Exporter tous les paramètres mythique +."
+L.imported_battleres_settings = "Paramètres Battle Rez"
+L.battleres_settings_import_desc = "Importer tous les paramètres de Battle Rez."
+L.battleres_settings_export_desc = "Exporter tous les paramètres de Battle Rez."
 
 -- Statistics
 L.statistics = "Statistiques"
@@ -255,6 +295,10 @@ L.LFR = "RdR"
 L.normal = "Normal"
 L.heroic = "Héroïque"
 L.mythic = "Mythique"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|aRdR"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|aNormal"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|aHéroïque"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|aMythique"
 L.timewalk = "Marcheur du temps"
 L.solotier8 = "Solo Tier 8"
 L.solotier11 = "Solo Tier 11"
@@ -285,6 +329,27 @@ L.autoRoleTitle = "Rôle automatique"
 L.autoRoleExplainer = "Lorsque vous rejoignez un groupe, ou que vous changez de spécialisation alors que vous êtes en groupe, BigWigs mettra à jour automatiquement votre rôle de groupe (Tank, Soigneur, Dégâts) en conséquence.\n\n"
 
 -----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "Rés. de combat"
+L.battleResDesc = "Une icône qui vous affiche combien de charges de résurrection de combat sont disponibles ainsi que le temps avant qu'une autre charge soit gagnée."
+L.battleResDesc2 = "\nVotre |cFF33FF99Historique de Résurrection de combat|r peut être vu dans l'infobulle lorsque vous placez votre souris sur l'icône.\n\n"
+L.battleResHistory = "Historique de Résurrection de combat :"
+L.battleResResetAll = "Réinitialiser tous les paramètres de Résurrection de combat à leurs paramètres par défaut."
+L.battleResDurationText = "Texte de durée"
+L.battleResChargesText = "Texte de charges"
+L.battleResNoCharges = "0 charges dispo."
+L.battleResHasCharges = "1 charge ou plus dispo."
+L.battleResPlaySound = "Joue un son lorsqu'une charge est gagnée"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Texture d'icône (ID du sort)"
+L.iconTextureSpellIDError = "Vous devez entrer un ID de sort valide pour l'utiliser en tant que texture d'icône."
+L.battleResModeIcon = "Mode : Icône"
+L.battleResModeText = "Mode : Texte seulement"
+L.battleResModeTextTooltip = "Montre un arrière-plan temporaire pour vous aider à déplacer la fonctionnalité de Résurrection de combat et voir la zone de survol avec la souris."
+L.battleResNoteTooltip = "Note : Cette infobule ne s'affichera que lorsque vous êtes hors combat."
+
+-----------------------------------------------------------------------
 -- Keystones.lua
 --
 
@@ -309,13 +374,13 @@ L.keystoneTabHistory = "Historique"
 L.keystoneHeaderThisWeek = "Cette semaine"
 L.keystoneHeaderOlder = "Plus ancien"
 L.keystoneScoreGainedTooltip = "Score gagné : |cFFFFFFFF+%d|r\nScore du donjon : |cFFFFFFFF%d|r"
---L.keystoneCompletedTooltip = "Réussite dans les temps: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
---L.keystoneFailedTooltip = "Échec à terminer dans les temps: |cFFFFFFFF%d min %d sec|r\nTime Limit: |cFFFFFFFF%d min %d sec|r"
+L.keystoneCompletedTooltip = "Réussite, temps : |cFFFFFFFF%d min %d sec|r\nTemps limite : |cFFFFFFFF%d min %d sec|r"
+L.keystoneFailedTooltip = "Échec, temps : |cFFFFFFFF%d min %d sec|r\nTemps limite : |cFFFFFFFF%d min %d sec|r"
 L.keystoneExplainer = "Une collection de divers outils pour améliorer l'expérience mythique +."
 L.keystoneAutoSlot = "Clef dans le socle automatique"
 L.keystoneAutoSlotDesc = "Place automatiquement votre clef dans le socle lorsque vous ouvrez la fontaine de puissance."
 L.keystoneAutoSlotMessage = "Placement automatique de %s dans l'emplacement de la fontaine."
---L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t Keystone Auto Inserted"
+L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t Clef insérée auto"
 L.keystoneModuleName = "Mythique +"
 L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
 L.keystoneStartMessage = "%s +%d commence maintenant !" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
@@ -331,8 +396,8 @@ L.keystoneAutoShowEndOfRun = "Affiche lorsque le mythique + est terminé"
 L.keystoneAutoShowEndOfRunDesc = "Montre automatiquement la vue des clefs lorsque le donjon mythique + est terminé.\n\n|cFF33FF99Cela peut vous aider à voir les nouvelles clefs que votre groupe a obtenu.|r"
 L.keystoneViewerExplainer = "Vous pouvez ouvrir la vue des clefs en utilisant la commande |cFF33FF99/key|r ou en cliquant sur le bouton ci-dessous.\n\n"
 L.keystoneViewerOpen = "Ouvre l'affichage des clefs"
---L.keystoneViewerKeybindingExplainer = "\n\nYou can also set a keybinding to open the keystone viewer:\n\n"
---L.keystoneViewerKeybindingDesc = "Choose a keybinding to open the keystone viewer."
+L.keystoneViewerKeybindingExplainer = "\n\nVous pouvez également définir un raccourci afin d'ouvrir la vue des clefs :\n\n"
+L.keystoneViewerKeybindingDesc = "Choisissez un raccourci pour ouvrir la vue des clefs."
 L.keystoneClickToWhisper = "Cliquez pour ouvrir une fenêtre de dialogue"
 L.keystoneClickToTeleportNow = "\nCliquez pour vous téléporter ici"
 L.keystoneClickToTeleportCooldown = "\nTéléportation impossible, sort en cours de recharge"
@@ -345,7 +410,7 @@ L.keystoneHistoryScoreThisWeekTooltip = "Score total gagné cette semaine : |cF
 L.keystoneHistoryScoreOlderTooltip = "Score total gagné avant cette semaine : |cFFFFFFFF+%d|r"
 L.keystoneTimeUnder = "|cFF33FF99-%02d:%02d|r"
 L.keystoneTimeOver = "|cFFFF4411+%02d:%02d|r"
---L.keystoneTeleportTip = "Click the dungeon name below to |cFF33FF99TELEPORT|r directly to the dungeon entrance."
+L.keystoneTeleportTip = "Cliquez sur le nom du donjon ci-dessous afin de vous |cFF33FF99TÉLÉPORTER|r directement à l'entrée du donjon."
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "COLONIE"
@@ -387,20 +452,22 @@ L.instanceKeysTest8 = "|cFF00FF98Moine :|r +8"
 L.instanceKeysTest10 = "|cFFFF7C0ADruide :|r +10"
 L.instanceKeysDisplay = "|c%s%s:|r +%d" -- "PLAYER_NAME: +DUNGEON_LEVEL"
 L.instanceKeysDisplayWithDungeon = "|c%s%s:|r +%d (%s)" -- "PLAYER_NAME: +DUNGEON_LEVEL (DUNGEON_NAME)"
---L.instanceKeysShowAll = "Always show all players"
---L.instanceKeysShowAllDesc = "Enabling this option will show all players in the list, even if their keystone doesn't belong to the dungeon you are in."
---L.instanceKeysOtherDungeonColor = "Other dungeon color"
---L.instanceKeysOtherDungeonColorDesc = "Choose the font color for players that have keystones that don't belong to the dungeon you are in."
---L.instanceKeysEndOfRunDesc = "By default the list will only show when you enter a mythic dungeon. Enabling this option will also show the list when the Mythic+ is over."
+L.instanceKeysShowAll = "Toujours afficher tous les personnages"
+L.instanceKeysShowAllDesc = "Activer cette option vous affichera tous les personnages dans la liste, même si leur clef n'appartient pas au donjon actuel."
+L.instanceKeysOtherDungeonColor = "Couleur des autres donjons"
+L.instanceKeysOtherDungeonColorDesc = "Choisissez la couleur de la police des personnages ayant une clef n'appartenant pas au donjon actuel."
+L.instanceKeysEndOfRunDesc = "Par défaut, la liste ne s'affichera que si vous êtes dans un donjon mythique. Activer cette option vous affichera la liste même lorsque le donjon mythique + est terminé."
+L.instanceKeysHideTitle = "Cacher le titre"
+L.instanceKeysHideTitleDesc = "Cacher le titre \"Qui a une clef ?\"."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
 --
 
-L.lfgTimerTitle = "LFG Timer"
-L.lfgTimerExplainer = "Whenever the LFG queue popup appears, BigWigs will create a timer bar telling you how long you have to accept the queue.\n\n"
-L.lfgUseMaster = "Play LFG ready sound on 'Master' audio channel"
-L.lfgUseMasterDesc = "When this option is enabled the LFG ready sound will play over the 'Master' audio channel. If you disable this option it will play over the '%s' audio channel instead."
+L.lfgTimerTitle = "Timer de RdG"
+L.lfgTimerExplainer = "Lorsque le popup de Recherche de groupe apparaît, BigWigs va créer une barre de timer vous donnant le temps qu'il vous reste pour accepter.\n\n"
+L.lfgUseMaster = "Joue le son du Timer de RdG sur le canal audio 'Principal'"
+L.lfgUseMasterDesc = "Lorsque cette option est activée, le son du Timer de Recherche de groupe va jouer sur le canal audio 'Principal'. Si vous désactiver cette option, il sera joué sur le canal audio '%s'."
 
 -----------------------------------------------------------------------
 -- PLUGINS
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "Réinitialiser"
 L.resetDesc = "Réinitialise les paramètres ci-dessus à leur valeur d'origine."
 L.resetAll = "Tout réinitialiser"
+L.startTest = "Démarrer le test"
+L.stopTest = "Arrêter le test"
+L.always = "Toujours"
+L.never = "Jamais"
 
 L.positionX = "Position X"
 L.positionY = "Position Y"
@@ -426,6 +497,7 @@ L.disabled = "Désactivé"
 L.disableDesc = "Vous allez désactiver la fonctionnalité '%s', ce qui n'est |cffff4411pas recommandé|r.\n\nÊtes-vous sûr de vouloir faire cela ?"
 L.keybinding = "Raccourci clavier"
 L.dragToResize = "Tirer pour redimensionner"
+L.cannotMoveInCombat = "Vous ne pouvez pas le déplacer pendant que vous êtes en combat."
 
 -- Anchor Points
 L.UP = "Au-dessus"
@@ -442,9 +514,9 @@ L.CENTER = "Centre"
 L.customAnchorPoint = "Avancé : point d'ancrage personnalisé"
 L.sourcePoint = "Point source"
 L.destinationPoint = "Point destination"
---L.drawStrata = "Strata"
---L.medium = "Medium"
---L.low = "Low"
+L.drawStrata = "Couches"
+L.medium = "Moyen"
+L.low = "Bas"
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -708,10 +780,10 @@ L.displayTimeDesc = "Définit pendant combien de temps un message doit rester af
 L.fadeTime = "Durée d'estompe"
 L.fadeTimeDesc = "Définit pendant combien de temps un message doit s'estomper (en secondes)."
 
---L.messagesOptInHeaderOff = "Boss mod messages 'opt-in' mode: Enabling this option will turn off messages across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the messages you want.\n\n"
---L.messagesOptInHeaderOn = "Boss mod messages 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod messages, go into the settings of a specific boss ability and turn on the '|cFF33FF99Messages|r' option.\n\n"
---L.messagesOptInTitle = "Boss mod messages 'opt-in' mode"
---L.messagesOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off messages across ALL of your boss modules. You will need to go through each one and manually turn on the messages you want.\n\nYour UI will now reload, are you sure?"
+L.messagesOptInHeaderOff = "Choix du mode des messages des boss : Activer cette option va désactiver tous les messages de TOUS les modules de boss.\n\nVous devrez aller sur chaque boss et manuellement activer les messages que vous souhaitez.\n\n"
+L.messagesOptInHeaderOn = "Le choix du mode des messages des boss est |cFF33FF99ACTIVÉ|r. Pour voir les messages des boss, allez dans les paramètres spécifiques de la compétence du boss et activez l'option '|cFF33FF99Messages|r'.\n\n"
+L.messagesOptInTitle = "Choix du mode des messages des boss"
+L.messagesOptInWarning = "|cffff4411ATTENTION !|r\n\nActiver ce choix va désactiver les messages de TOUS les modules de boss. Vous devrez aller sur chaque boss et activer les messages que vous souhaiterez.\n\nVotre Interface utilisateur va recharger, êtes-vous sûr(e) ?"
 
 -----------------------------------------------------------------------
 -- Nameplates.lua
@@ -744,12 +816,12 @@ L.showBorder = "Affiche la bordure"
 L.showBorderDesc = "Affiche une bordure autour de l'icône."
 L.borderColor = "Couleur de la bordure"
 L.borderSize = "Taille de la bordure"
---L.borderOffset = "Border Offset"
---L.borderName = "Border Name"
+L.borderOffset = "Décalage bordure"
+L.borderName = "Nom bordure"
 L.showNumbers = "Affiche les nombres"
 L.showNumbersDesc = "Affiche les nombres dans l'icône."
 L.cooldown = "Temps de recharge"
---L.cooldownEmphasizeHeader = "By default, Emphasize is disabled (0 seconds). Setting it to 1 second or higher will enable Emphasize. This will allow you to set a different font color and font size for those numbers."
+L.cooldownEmphasizeHeader = "Par défaut, la mise en évidence est désactivée (0 seconde). La passer à 1 seconde ou plus va l'activer. Cela vous permettra de choisir une couleur et une taille de police pour ces nombres."
 L.showCooldownSwipe = "Affiche le balayage"
 L.showCooldownSwipeDesc = "Affiche le balayage sur l'icône lorsque le temps de recharge est actif."
 L.showCooldownEdge = "Affiche le bord du balayage"
@@ -768,8 +840,8 @@ L.fixate_test = "Fixe Test" -- Text that displays to test on the frame
 L.resetNameplateTextDesc = "Réinitialise toutes les options liées au texte des barres d'infos."
 L.glowAt = "Commencer la surbrillance (secondes)"
 L.glowAt_desc = "Choisissez combien il doit rester de secondes sur le temps de recharge afin d'activer la surbrillance."
---L.offsetX = "Offset X"
---L.offsetY = "Offset Y"
+L.offsetX = "Décalage X"
+L.offsetY = "Décalage Y"
 L.headerIconSizeTarget = "Taille d'icône de votre cible actuelle"
 L.headerIconSizeOthers = "Taille d'icône de toutes les autres cibles"
 L.headerIconPositionTarget = "Position de l'icône de votre cible actuelle"
@@ -792,13 +864,13 @@ L.thickness = "Épaisseur"
 L.thickness_glow_desc = "L'épaisseur des lignes de l'animation de surbrillance."
 L.scale = "Échelle"
 L.scale_glow_desc = "L'échelle des étincelles de l'animation."
-L.startAnimation = "Start Animation"
+L.startAnimation = "Début d'animation"
 L.startAnimation_glow_desc = "Cette surbrillance a une animation de départ, cela activera / désactivera cette animation."
 
---L.nameplateOptInHeaderOff = "\n\n\n\nBoss mod nameplates 'opt-in' mode: Enabling this option will turn off nameplates across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the nameplates you want.\n\n"
---L.nameplateOptInHeaderOn = "\n\n\n\nBoss mod nameplates 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod nameplates, go into the settings of a specific boss ability and turn on the '|cFF33FF99Nameplates|r' option.\n\n"
---L.nameplateOptInTitle = "Boss mod nameplates 'opt-in' mode"
---L.nameplateOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off nameplates across ALL of your boss modules. You will need to go through each one and manually turn on the nameplates you want.\n\nYour UI will now reload, are you sure?"
+L.nameplateOptInHeaderOff = "\n\n\n\nChoix du mode des barres d'infos des boss : Activer cette option va désactiver toutes les barres d'infos de TOUS les modules de boss.\n\nVous devrez aller sur chaque boss et manuellement activer les barres d'infos que vous souhaitez.\n\n"
+L.nameplateOptInHeaderOn = "\n\n\n\nLe choix du mode des barres d'infos des boss est |cFF33FF99ACTIVÉ|r. Pour voir les barres d'infos des boss, allez dans les paramètres spécifiques de la compétence du boss et activez l'option '|cFF33FF99Barre d'infos|r'.\n\n"
+L.nameplateOptInTitle = "Choix du mode barres d'infos des boss"
+L.nameplateOptInWarning = "|cffff4411ATTENTION !|r\n\nActiver ce choix va désactiver les barres d'infos de TOUS les modules de boss. Vous devrez aller sur chaque boss et activer les barres d'infos que vous souhaiterez.\n\nVotre Interface utilisateur va recharger, êtes-vous sûr(e) ?"
 
 -----------------------------------------------------------------------
 -- Proximity.lua
@@ -843,7 +915,7 @@ L.combatLogDesc = "Lance automatiquement l'enregistrement du combat quand un dé
 L.pull = "Pull"
 L.engageSoundTitle = "Jouer un son quand une rencontre de boss débute"
 L.pullStartedSoundTitle = "Jouer un son quand le délai de pull est lancé"
---L.pullStartedMessageTitle = "Show a message when the pull timer is started"
+L.pullStartedMessageTitle = "Affiche un message lorsque le timer de pull a commencé"
 L.pullFinishedSoundTitle = "Jouer un son quand le délai de pull est terminé"
 L.pullStartedBy = "Délai de pull commencé par %s."
 L.pullStopped = "Délai de pull annulé par %s."

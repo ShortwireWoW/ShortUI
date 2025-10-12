@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "koKR")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "'%s' 애드온이 '%s' 바를 생성했습니다."
+L.showAddonBar = "'|cFF436EEE%s|r' 애드온이 '%s' 바를 생성했습니다."
+L.requestAddonProfile = "애드온 '|cFF436EEE%s|r'이 방금 프로필 내보내기 문자열을 복사했습니다."
 
 -- Core.lua
 L.berserk = "광폭화"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "경고!\n |cFF436EEE%s|r을 업데이트했지만 기
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r이 올바르게 작동하려면 기본 |cFF436EEEBigWigs|r 애드온의 %d 버전이 필요하지만 %d 버전을 사용 중입니다."
 L.addOnLoadFailedWithReason = "BigWigs에서 애드온 |cFF436EEE%s|r을 로드하는 데 실패했습니다. 이유는 %q입니다. BigWigs 개발팀에 알려주세요!"
 L.addOnLoadFailedUnknownError = "BigWigs에서 애드온 |cFF436EEE%s|r을 로드하는 중 오류가 발생했습니다. BigWigs 개발팀에 알려주세요!"
+L.newFeatures = "새로운 BigWigs 기능:"
+L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"오리지널", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"어둠땅", -- Shadowlands
 	"용군단", -- Dragonflight
 	"내부 전쟁", -- The War Within
+	"한밤", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "구렁",
 	["LittleWigs_CurrentSeason"] = "현재 시즌",
 }
+L.dayNamesShort = {
+	"일", -- Sunday
+	"월", -- Monday
+	"화", -- Tuesday
+	"수", -- Wednesday
+	"목", -- Thursday
+	"금", -- Friday
+	"토", -- Saturday
+}
+L.dayNames = {
+	"일요일",
+	"월요일",
+	"화요일",
+	"수요일",
+	"목요일",
+	"금요일",
+	"토요일",
+}
+L.monthNames = {
+	"1월",
+	"2월",
+	"3월",
+	"4월",
+	"5월",
+	"6월",
+	"7월",
+	"8월",
+	"9월",
+	"10월",
+	"11월",
+	"12월",
+}
+L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "조심해라 (알갈론)"
@@ -237,6 +274,9 @@ L.imported_nameplate_settings = "이름표 설정"
 L.imported_mythicplus_settings = "신화+ 설정"
 L.mythicplus_settings_import_desc = "모든 신화+ 설정 가져오기."
 L.mythicplus_settings_export_desc = "모든 신화+ 설정 내보내기."
+L.imported_battleres_settings = "전투 부활 설정"
+L.battleres_settings_import_desc = "모든 전투 부활 설정을 가져옵니다."
+L.battleres_settings_export_desc = "모든 전투 부활 설정을 내보냅니다."
 
 -- Statistics
 L.statistics = "통계"
@@ -255,6 +295,10 @@ L.LFR = "공찾"
 L.normal = "일반"
 L.heroic = "영웅"
 L.mythic = "신화"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|a공찾"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|a일반"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|a영웅"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|a신화"
 L.timewalk = "시간여행"
 L.solotier8 = "솔플 8단계"
 L.solotier11 = "솔플 11단계"
@@ -283,6 +327,27 @@ L.toolsDesc = "BigWigs은 보스와의 전투를 더욱 빠르고 간편하게 �
 
 L.autoRoleTitle = "자동 역할"
 L.autoRoleExplainer = "그룹에 가입하거나 그룹에 있는 동안 특성 전문화를 변경할 때마다 BigWigs이 자동으로 그룹 역할(탱커, 힐러, 딜러)을 그에 맞게 조정합니다.\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "전투 부활"
+L.battleResDesc = "사용 가능한 전투 부활 충전 횟수와 다음 충전 획득까지 남은 시간을 표시하는 아이콘."
+L.battleResDesc2 = "\n아이콘 마우스 오버 시 |cFF33FF99전투 부활 기록|r을 툴팁으로 확인할 수 있습니다.\n\n"
+L.battleResHistory = "전투 부활 기록:"
+L.battleResResetAll = "모든 전투 부활 설정을 기본값으로 초기화합니다."
+L.battleResDurationText = "지속 시간 텍스트"
+L.battleResChargesText = "충전량 텍스트"
+L.battleResNoCharges = "충전량 0개"
+L.battleResHasCharges = "충전량 1개 이상"
+L.battleResPlaySound = "새로운 충전량이 획득될 때 소리를 재생합니다."
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t 아이콘 텍스처(주문 ID)"
+L.iconTextureSpellIDError = "아이콘 텍스처로 사용할 유효한 주문 ID를 입력해야 합니다."
+L.battleResModeIcon = "모드: 아이콘"
+L.battleResModeText = "모드: 텍스트만"
+L.battleResModeTextTooltip = "전투 부활 기능을 이동하고 마우스 오버 영역을 확인하는 데 도움이 되도록 임시 배경을 표시합니다."
+L.battleResNoteTooltip = "참고: 이 툴팁은 전투 중이 아닐 때만 표시됩니다."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +457,8 @@ L.instanceKeysShowAllDesc = "이 옵션을 활성화하면 현재 있는 던전�
 L.instanceKeysOtherDungeonColor = "다른 던전 색상"
 L.instanceKeysOtherDungeonColorDesc = "현재 있는 던전과 관련이 없는 쐐기돌을 가진 플레이어의 글꼴 색상을 선택합니다."
 L.instanceKeysEndOfRunDesc = "기본적으로 목록은 신화 던전에 들어갈 때만 표시됩니다. 이 옵션을 활성화하면 신화+가 끝난 후에도 목록이 표시됩니다."
+L.instanceKeysHideTitle = "제목 숨기기"
+L.instanceKeysHideTitleDesc = "\"누가 쐐기돌을 가지고 있나요?\" 제목을 숨깁니다."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "초기화"
 L.resetDesc = "위의 설정을 기본값으로 초기화합니다."
 L.resetAll = "모두 초기화"
+L.startTest = "테스트 시작"
+L.stopTest = "테스트 중지"
+L.always = "항상"
+L.never = "절대 안 함"
 
 L.positionX = "X 위치"
 L.positionY = "Y 위치"
@@ -426,6 +497,7 @@ L.disabled = "비활성"
 L.disableDesc = "'%s' 기능을 비활성화하려고 합니다. |cffff4411권장하지 않음|r.\n\n정말로 비활성화하시겠습니까?"
 L.keybinding = "키 설정"
 L.dragToResize = "드래그하여 크기 조정"
+L.cannotMoveInCombat = "전투 중에는 이것을 움직일 수 없습니다."
 
 -- Anchor Points
 L.UP = "위"

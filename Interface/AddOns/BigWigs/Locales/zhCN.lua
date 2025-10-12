@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "zhCN")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "'%s' 插件创建了 '%s' 动作条。"
+L.showAddonBar = "插件 '|cFF436EEE%s|r' 创建了 '%s' 计时条。"
+L.requestAddonProfile = "插件 '|cFF436EEE%s|r' 刚刚复制了您的配置文件导出字符串。"
 
 -- Core.lua
 L.berserk = "狂暴"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "警告！\n你更新了 |cFF436EEE%s|r 但你还需�
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r 需要安装 %d 版本的 |cFF436EEEBigWigs|r 主插件才能正常运行，但你使用了 %d 版本。"
 L.addOnLoadFailedWithReason = "BigWigs 未能加载 |cFF436EEE%s|r 插件，原因： %q。请通知 BigWigs 的开发者！"
 L.addOnLoadFailedUnknownError = "BigWigs 在加载 |cFF436EEE%s|r 插件时遇到了错误。请通知 BigWigs 的开发者！"
+L.newFeatures = "BigWigs 新功能："
+L.parentheses = "%s（%s）"
 
 L.expansionNames = {
 	"经典旧世", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"暗影国度", -- Shadowlands
 	"巨龙时代", -- Dragonflight
 	"地心之战", -- The War Within
+	"至暗之夜", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "地下堡",
 	["LittleWigs_CurrentSeason"] = "当前赛季",
 }
+L.dayNamesShort = {
+	"周日", -- Sunday
+	"周一", -- Monday
+	"周二", -- Tuesday
+	"周三", -- Wednesday
+	"周四", -- Thursday
+	"周五", -- Friday
+	"周六", -- Saturday
+}
+L.dayNames = {
+	"星期日",
+	"星期一",
+	"星期二",
+	"星期三",
+	"星期四",
+	"星期五",
+	"星期六",
+}
+L.monthNames = {
+	"1月",
+	"2月",
+	"3月",
+	"4月",
+	"5月",
+	"6月",
+	"7月",
+	"8月",
+	"9月",
+	"10月",
+	"11月",
+	"12月",
+}
+L.dateFormat = "%1$s，%4$d年%3$d%2$s日" -- Date format: "Monday 1 January 2025" 中文格式1：2025年1月1日，周一 /格式2:周一，2025年1月1日
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "当心（奥尔加隆）"
@@ -235,8 +272,11 @@ L.imported_countdown_settings = "倒数设置"
 L.imported_countdown_color = "倒数颜色"
 L.imported_nameplate_settings = "姓名板设置"
 L.imported_mythicplus_settings = "史诗钥石设置"
-L.mythicplus_settings_import_desc = "导入全部史诗钥石设置。"
-L.mythicplus_settings_export_desc = "导出全部史诗钥石设置。"
+L.mythicplus_settings_import_desc = "导入所有史诗钥石设置。"
+L.mythicplus_settings_export_desc = "导出所有史诗钥石设置。"
+L.imported_battleres_settings = "战复设置"
+L.battleres_settings_import_desc = "导入所有战复设置。"
+L.battleres_settings_export_desc = "导入所有战复设置。"
 
 -- Statistics
 L.statistics = "统计"
@@ -255,6 +295,10 @@ L.LFR = "随机团队"
 L.normal = "普通"
 L.heroic = "英雄"
 L.mythic = "史诗"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|a随机团队"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|a普通"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|a英雄"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|a史诗"
 L.timewalk = "时空漫游"
 L.solotier8 = "单人难度 8"
 L.solotier11 = "单人难度 11"
@@ -283,6 +327,27 @@ L.toolsDesc = "BigWigs 提供多种工具和\"便利功能\"，让你可以轻�
 
 L.autoRoleTitle = "自动分配职责"
 L.autoRoleExplainer = "当你加入一个队伍，或者在队伍中切换你的天赋专精时，BigWigs 将自动调整你在队伍中的职责（坦克、治疗者、伤害输出者）。\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "战复"
+L.battleResDesc = "新建一个图标，显示可用战复次数及下次获得额外次数所需时间。"
+L.battleResDesc2 = "\n你的 |cFF33FF99战复|r 使用记录可以通过将鼠标悬停在图标上时查看。\n\n"
+L.battleResHistory = "战复："
+L.battleResResetAll = "将所有战复设置重置为默认。"
+L.battleResDurationText = "时间文本"
+L.battleResChargesText = "次数文本"
+L.battleResNoCharges = "无可用次数"
+L.battleResHasCharges = "有可用次数"
+L.battleResPlaySound = "获得新可用次数时播放音效"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t 技能图标（Spell ID）"
+L.iconTextureSpellIDError = "你必须输入一个有效的法术ID来作为显示的图标。"
+L.battleResModeIcon = "显示模式：图标"
+L.battleResModeText = "显示模式：仅文字"
+L.battleResModeTextTooltip = "显示临时背景以便调整战复功能的位置，并查看鼠标悬停提示位置。"
+L.battleResNoteTooltip = "注意：此提示仅在脱离战斗后显示。"
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,15 +457,17 @@ L.instanceKeysShowAllDesc = "启用此选项将显示列表中的所有玩家，
 L.instanceKeysOtherDungeonColor = "其他地下城颜色"
 L.instanceKeysOtherDungeonColorDesc = "为持有非当前地下城钥石选择字体颜色。"
 L.instanceKeysEndOfRunDesc = "默认情况下，列表仅在你进入史诗钥石地下城时显示。启用此选项后，还将在史诗钥石结束后继续显示列表。"
+L.instanceKeysHideTitle = "隐藏标题"
+L.instanceKeysHideTitleDesc = "隐藏 \"谁拥有钥石？\" 标题。"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
 --
 
-L.lfgTimerTitle = "寻找组队计时器"
-L.lfgTimerExplainer = "每当寻找组队队列确认窗口出现时，BigWigs 会创建一个计时条，告诉你还有多长时间必须接受队列。\n\n"
+L.lfgTimerTitle = "队列就绪计时"
+L.lfgTimerExplainer = "每当队列确认窗口出现时，BigWigs 会创建一个计时条，告诉你还有多长时间必须接受队列邀请。\n\n"
 L.lfgUseMaster = "在'主'声道播放寻找组队就绪提示音"
-L.lfgUseMasterDesc = "启用此选项后，寻找组队就绪提示音将通过'主'声道播放。如果禁用此选项，则会通过'%s'声道播放。"
+L.lfgUseMasterDesc = "启用此选项后，队列就绪提示音将通过'主'声道播放。如果禁用此选项，则会通过'%s'声道播放。"
 
 -----------------------------------------------------------------------
 -- PLUGINS
@@ -412,6 +479,10 @@ L.comma = "，"
 L.reset = "重置"
 L.resetDesc = "将上述设置重置为默认。"
 L.resetAll = "重置所有"
+L.startTest = "开始测试"
+L.stopTest = "停止测试"
+L.always = "总是" -- ALWAYS
+L.never = "从不" -- NEVER
 
 L.positionX = "横向位置"
 L.positionY = "纵向位置"
@@ -426,6 +497,7 @@ L.disabled = "禁用"
 L.disableDesc = "将禁用“%s”功能，但|cffff4411不建议|r这么做。\n\n你确定要这么做吗？"
 L.keybinding = "按键设置"
 L.dragToResize = "拖动调整尺寸"
+L.cannotMoveInCombat = "你在战斗中时无法移动此框体。"
 
 -- Anchor Points
 L.UP = "向上"

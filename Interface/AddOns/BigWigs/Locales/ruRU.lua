@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "ruRU")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "Аддон '%s' создал '%s' полосу длительности."
+L.showAddonBar = "Аддон '|cFF436EEE%s|r' создал '%s' полосу длительности."
+--L.requestAddonProfile = "The addon '|cFF436EEE%s|r' just made a copy of your profile export string."
 
 -- Core.lua
 L.berserk = "Берсерк"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "ВНИМАНИЕ!\nВы обновили |cFF436EEE%s
 L.outOfDateContentRaidWarning = "|cFF436EEE%s|r требует %d версию основной модификации |cFF436EEEBigWigs|r для грамотного функционирования. Текущая версия - %d."
 L.addOnLoadFailedWithReason = "BigWigs не смог загрузить аддон |cFF436EEE%s|r по причине: %q. Сообщи разрабу BigWigs!"
 L.addOnLoadFailedUnknownError = "BigWigs вызвал ошибку при попытке загрузить аддон |cFF436EEE%s|r. Сообщи разрабу BigWigs!"
+--L.newFeatures = "New BigWigs features:"
+--L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"Классика", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"Темные Земли", -- Shadowlands
 	"Dragonflight", -- Dragonflight -- Can't figure a out a good way to translate this
 	"The War Within", -- The War Within
+	"Midnight", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "Вылазки",
 	["LittleWigs_CurrentSeason"] = "Текущий сезон",
 }
+--L.dayNamesShort = {
+--	"SUN", -- Sunday
+--	"MON", -- Monday
+--	"TUE", -- Tuesday
+--	"WED", -- Wednesday
+--	"THU", -- Thursday
+--	"FRI", -- Friday
+--	"SAT", -- Saturday
+--}
+--L.dayNames = {
+--	"Sunday",
+--	"Monday",
+--	"Tuesday",
+--	"Wednesday",
+--	"Thursday",
+--	"Friday",
+--	"Saturday",
+--}
+--L.monthNames = {
+--	"January",
+--	"February",
+--	"March",
+--	"April",
+--	"May",
+--	"June",
+--	"July",
+--	"August",
+--	"September",
+--	"October",
+--	"November",
+--	"December",
+--}
+--L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Берегитесь (Алгалон)"
@@ -237,6 +274,9 @@ L.imported_nameplate_settings = "Настройки полос здоровья"
 --L.imported_mythicplus_settings = "Mythic+ Settings"
 --L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
 --L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
+--L.imported_battleres_settings = "Battle Res Settings"
+--L.battleres_settings_import_desc = "Import all Battle Res settings."
+--L.battleres_settings_export_desc = "Export all Battle Res settings."
 
 -- Statistics
 L.statistics = "Статистика"
@@ -255,6 +295,10 @@ L.LFR = "LFR"
 L.normal = "Обычный"
 L.heroic = "Героический"
 L.mythic = "Эпохальный"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|aLFR"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|aОбычный"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|aГероический"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|aЭпохальный"
 L.timewalk = "Путешествие во времени"
 L.solotier8 = "Соло Уровень 8"
 L.solotier11 = "Соло Уровень 11"
@@ -283,6 +327,27 @@ L.toolsDesc = "BigWigs предоставляет различные инстр�
 
 L.autoRoleTitle = "Автовыбор роли"
 L.autoRoleExplainer = "При вступлении в группу или изменении специализации, BigWigs будет автоматически менять вашу роль в группе (Танк, Лекарь, Боец).\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+--L.battleResTitle = "Battle Res"
+--L.battleResDesc = "An icon that shows how many battle resurrection charges are available and the time until another charge is gained."
+--L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
+--L.battleResHistory = "Battle Res History:"
+--L.battleResResetAll = "Reset all the Battle Resurrection settings to their default values."
+--L.battleResDurationText = "Duration Text"
+--L.battleResChargesText = "Charges Text"
+--L.battleResNoCharges = "0 charges available"
+--L.battleResHasCharges = "1 or more charges available"
+--L.battleResPlaySound = "Play a sound when a new charge is gained"
+--L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icon Texture (Spell ID)"
+--L.iconTextureSpellIDError = "You must type a valid spell ID to use as the icon texture."
+--L.battleResModeIcon = "Mode: Icon"
+--L.battleResModeText = "Mode: Text Only"
+--L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
+--L.battleResNoteTooltip = "Note: This tooltip will only show when you are out of combat."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +457,8 @@ L.instanceKeysShowAllDesc = "При включении данной опции �
 L.instanceKeysOtherDungeonColor = "Цвет ключей от других подземелий"
 L.instanceKeysOtherDungeonColorDesc = "Выберите цвет текста для игроков, ключи которых не подходят к текущему подземелью."
 L.instanceKeysEndOfRunDesc = "По умолчанию список отображается при входе в подземелье. При включении данной опции список будет отображаться и при завершении эпохального+ подземелья."
+--L.instanceKeysHideTitle = "Hide title"
+--L.instanceKeysHideTitleDesc = "Hide the \"Who has a key?\" title."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = ", "
 L.reset = "Сброс"
 L.resetDesc = "Сбросить настройки выше к их стандартным значениям."
 L.resetAll = "Сбросить все"
+--L.startTest = "Start Test"
+--L.stopTest = "Stop Test"
+--L.always = "Always"
+--L.never = "Never"
 
 L.positionX = "Позиция X"
 L.positionY = "Позиция Y"
@@ -426,6 +497,7 @@ L.disabled = "Отключить"
 L.disableDesc = "Вы собираетесь отключить функцию '%s', делать это |cffff4411не рекомендуется|r.\n\nВы уверены, что хотите этого?"
 L.keybinding = "Назначение клавиш"
 L.dragToResize = "Тяните для изменения размера"
+--L.cannotMoveInCombat = "You cannot move this whilst you're in combat."
 
 -- Anchor Points
 L.UP = "Верх"

@@ -1,31 +1,28 @@
-local L, BigWigsLoader, BigWigsAPI, db
-
---------------------------------------------------------------------------------
--- Saved Settings
---
-
-local ProfileUtils = {}
+local L, BigWigsLoader, BigWigsAPI
 do
 	local _, tbl = ...
 	BigWigsAPI = tbl.API
 	L = BigWigsAPI:GetLocale("BigWigs")
 	BigWigsLoader = tbl.loaderPublic
+end
 
+--------------------------------------------------------------------------------
+-- Saved Settings
+--
+
+local ProfileUtils, db = {}
+do
 	local defaultVoice = "English: Amy"
+	local fontName = "Noto Sans Regular"
 	do
 		local locale = GetLocale()
 		if locale ~= "enUS" then
 			defaultVoice = ("%s: Default (Female)"):format(locale)
+			if locale == "koKR" or locale == "zhCN" or locale == "zhTW" then
+				fontName = LibStub("LibSharedMedia-3.0"):GetDefault("font")
+			end
 		end
 	end
-	local validFramePoints = {
-		["TOPLEFT"] = true, ["TOPRIGHT"] = true, ["BOTTOMLEFT"] = true, ["BOTTOMRIGHT"] = true,
-		["TOP"] = true, ["BOTTOM"] = true, ["LEFT"] = true, ["RIGHT"] = true, ["CENTER"] = true,
-	}
-
-	local loc = GetLocale()
-	local isWest = loc ~= "koKR" and loc ~= "zhCN" and loc ~= "zhTW" and true
-	local fontName = isWest and "Noto Sans Regular" or LibStub("LibSharedMedia-3.0"):GetDefault("font")
 
 	local defaults = {
 		autoSlotKeystone = true,
@@ -50,8 +47,29 @@ do
 		instanceKeysOtherDungeonColor = {1, 1, 1, 0.5},
 		instanceKeysShowAllPlayers = false,
 		instanceKeysShowDungeonEnd = false,
+		instanceKeysHideTitle = false,
 	}
 	db = BigWigsLoader.db:RegisterNamespace("MythicPlus", {profile = defaults})
+
+	local function ValidateColor(current, default, alphaLimit)
+		for i = 1, 3 do
+			local n = current[i]
+			if type(n) ~= "number" or n < 0 or n > 1 then
+				current[1] = default[1] -- If 1 entry is bad, reset the whole table
+				current[2] = default[2]
+				current[3] = default[3]
+				current[4] = default[4]
+				return
+			end
+		end
+		if alphaLimit then
+			if type(current[4]) ~= "number" or current[4] < alphaLimit or current[4] > 1 then
+				current[4] = default[4]
+			end
+		elseif current[4] then
+			current[4] = nil
+		end
+	end
 
 	ProfileUtils.ValidateMainSettings = function()
 		for k, v in next, db.profile do
@@ -65,13 +83,20 @@ do
 		if db.profile.countBegin < 3 or db.profile.countBegin > 9 then
 			db.profile.countBegin = defaults.countBegin
 		end
+		local checkCount = math.floor(db.profile.countBegin+0.5)
+		if checkCount ~= db.profile.countBegin then
+			db.profile.countBegin = checkCount
+		end
 		if db.profile.windowHeight < 320 or db.profile.windowHeight > 620 then
 			db.profile.windowHeight = defaults.windowHeight
 		end
 		if type(db.profile.viewerPosition[1]) ~= "string" or type(db.profile.viewerPosition[2]) ~= "string"
 		or type(db.profile.viewerPosition[3]) ~= "number" or type(db.profile.viewerPosition[4]) ~= "number"
-		or not validFramePoints[db.profile.viewerPosition[1]] or not validFramePoints[db.profile.viewerPosition[2]] then
-			db.profile.viewerPosition = defaults.viewerPosition
+		or not BigWigsAPI.IsValidFramePoint(db.profile.viewerPosition[1]) or not BigWigsAPI.IsValidFramePoint(db.profile.viewerPosition[2]) then
+			db.profile.viewerPosition[1] = defaults.viewerPosition[1]
+			db.profile.viewerPosition[2] = defaults.viewerPosition[2]
+			db.profile.viewerPosition[3] = defaults.viewerPosition[3]
+			db.profile.viewerPosition[4] = defaults.viewerPosition[4]
 		else
 			local x = math.floor(db.profile.viewerPosition[3]+0.5)
 			if x ~= db.profile.viewerPosition[3] then
@@ -84,8 +109,11 @@ do
 		end
 		if type(db.profile.instanceKeysPosition[1]) ~= "string" or type(db.profile.instanceKeysPosition[2]) ~= "string"
 		or type(db.profile.instanceKeysPosition[3]) ~= "number" or type(db.profile.instanceKeysPosition[4]) ~= "number"
-		or not validFramePoints[db.profile.instanceKeysPosition[1]] or not validFramePoints[db.profile.instanceKeysPosition[2]] then
-			db.profile.instanceKeysPosition = defaults.instanceKeysPosition
+		or not BigWigsAPI.IsValidFramePoint(db.profile.instanceKeysPosition[1]) or not BigWigsAPI.IsValidFramePoint(db.profile.instanceKeysPosition[2]) then
+			db.profile.instanceKeysPosition[1] = defaults.instanceKeysPosition[1]
+			db.profile.instanceKeysPosition[2] = defaults.instanceKeysPosition[2]
+			db.profile.instanceKeysPosition[3] = defaults.instanceKeysPosition[3]
+			db.profile.instanceKeysPosition[4] = defaults.instanceKeysPosition[4]
 		else
 			local x = math.floor(db.profile.instanceKeysPosition[3]+0.5)
 			if x ~= db.profile.instanceKeysPosition[3] then
@@ -105,26 +133,8 @@ do
 		if db.profile.instanceKeysAlign ~= "LEFT" and db.profile.instanceKeysAlign ~= "CENTER" and db.profile.instanceKeysAlign ~= "RIGHT" then
 			db.profile.instanceKeysAlign = defaults.instanceKeysAlign
 		end
-		for i = 1, 4 do
-			local n = db.profile.instanceKeysColor[i]
-			if type(n) ~= "number" or n < 0 or n > 1 then
-				db.profile.instanceKeysColor = defaults.instanceKeysColor
-				break -- If 1 entry is bad, reset the whole table
-			end
-		end
-		if db.profile.instanceKeysColor[4] < 0.3 then -- Limit lowest alpha value
-			db.profile.instanceKeysColor = defaults.instanceKeysColor
-		end
-		for i = 1, 4 do
-			local n = db.profile.instanceKeysOtherDungeonColor[i]
-			if type(n) ~= "number" or n < 0 or n > 1 then
-				db.profile.instanceKeysOtherDungeonColor = defaults.instanceKeysOtherDungeonColor
-				break -- If 1 entry is bad, reset the whole table
-			end
-		end
-		if db.profile.instanceKeysOtherDungeonColor[4] < 0.3 then -- Limit lowest alpha value
-			db.profile.instanceKeysOtherDungeonColor = defaults.instanceKeysOtherDungeonColor
-		end
+		ValidateColor(db.profile.instanceKeysColor, defaults.instanceKeysColor, 0.3)
+		ValidateColor(db.profile.instanceKeysOtherDungeonColor, defaults.instanceKeysOtherDungeonColor, 0.3)
 	end
 	ProfileUtils.ValidateMediaSettings = function()
 		if not BigWigsAPI:HasCountdown(db.profile.countVoice) then
@@ -141,17 +151,18 @@ do
 		end
 	end
 	ProfileUtils.ResetInstanceKeys = function()
-		db.profile.instanceKeysPosition = defaults.instanceKeysPosition
-		db.profile.instanceKeysFontName = defaults.instanceKeysFontName
-		db.profile.instanceKeysFontSize = defaults.instanceKeysFontSize
-		db.profile.instanceKeysMonochrome = defaults.instanceKeysMonochrome
-		db.profile.instanceKeysGrowUpwards = defaults.instanceKeysGrowUpwards
-		db.profile.instanceKeysOutline = defaults.instanceKeysOutline
-		db.profile.instanceKeysAlign = defaults.instanceKeysAlign
-		db.profile.instanceKeysColor = defaults.instanceKeysColor
-		db.profile.instanceKeysOtherDungeonColor = defaults.instanceKeysOtherDungeonColor
-		db.profile.instanceKeysShowAllPlayers = defaults.instanceKeysShowAllPlayers
-		db.profile.instanceKeysShowDungeonEnd = defaults.instanceKeysShowDungeonEnd
+		db.profile.instanceKeysPosition = nil
+		db.profile.instanceKeysFontName = nil
+		db.profile.instanceKeysFontSize = nil
+		db.profile.instanceKeysMonochrome = nil
+		db.profile.instanceKeysGrowUpwards = nil
+		db.profile.instanceKeysOutline = nil
+		db.profile.instanceKeysAlign = nil
+		db.profile.instanceKeysColor = nil
+		db.profile.instanceKeysOtherDungeonColor = nil
+		db.profile.instanceKeysShowAllPlayers = nil
+		db.profile.instanceKeysShowDungeonEnd = nil
+		db:RegisterDefaults(db.defaults)
 	end
 
 	ProfileUtils.ValidateMainSettings()
@@ -313,6 +324,20 @@ local teleportList = {
 		[670] = 445424, -- Grim Batol
 	},
 }
+if BigWigsLoader.isBeta then
+	table.insert(teleportList, 2, {
+		[2648] = 445443, -- The Rookery
+		[2649] = 445444, -- Priory of the Sacred Flame
+		[2651] = 445441, -- Darkflame Cleft
+		[2652] = 445269, -- The Stonevault
+		[2660] = 445417, -- Ara-Kara, City of Echoes
+		[2661] = 445440, -- Cinderbrew Meadery
+		[2662] = 445414, -- The Dawnbreaker
+		[2669] = 445416, -- City of Threads
+		[2773] = 1216786, -- Operation: Floodgate
+		[2830] = 1237215, -- Eco-Dome Al'dani
+	})
+end
 for mapID in next, BigWigsLoader.currentExpansion.currentSeason do -- Automatically build the current season list
 	for expansionIndex = 2, #teleportList do
 		if teleportList[expansionIndex][mapID] then
@@ -329,6 +354,10 @@ end
 local LibKeystone = LibStub("LibKeystone")
 local LibSpec = LibStub("LibSpecialization")
 local LibSharedMedia = LibStub("LibSharedMedia-3.0")
+
+local LibKeystoneRequest = LibKeystone.Request
+local LibKeystoneRegister = LibKeystone.Register
+local LibKeystoneUnregister = LibKeystone.Unregister
 
 local guildList, partyList = {}, {}
 local WIDTH_NAME, WIDTH_LEVEL, WIDTH_MAP, WIDTH_RATING = 150, 24, 74, 42
@@ -382,7 +411,10 @@ mainPanel:SetScript("OnDragStop", function(self)
 	local point, _, relPoint, x, y = self:GetPoint()
 	x = math.floor(x+0.5)
 	y = math.floor(y+0.5)
-	db.profile.viewerPosition = {point, relPoint, x, y}
+	db.profile.viewerPosition[1] = point
+	db.profile.viewerPosition[2] = relPoint
+	db.profile.viewerPosition[3] = x
+	db.profile.viewerPosition[4] = y
 end)
 mainPanel:SetResizable(true)
 mainPanel:SetResizeBounds(350, 320, 350, 620)
@@ -567,7 +599,7 @@ partyRefreshButton:SetPushedTexture("Interface\\Buttons\\UI-RefreshButton-Down")
 partyRefreshButton:SetHighlightTexture("Interface\\Buttons\\UI-RefreshButton")
 partyRefreshButton:SetScript("OnClick", function()
 	partyList = {}
-	LibKeystone.Request("PARTY")
+	LibKeystoneRequest("PARTY")
 end)
 partyRefreshButton:SetScript("OnEnter", function(self)
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -586,7 +618,7 @@ guildRefreshButton:SetHighlightTexture("Interface\\Buttons\\UI-RefreshButton")
 guildRefreshButton:SetScript("OnClick", function()
 	guildList = {}
 	LibSpec.RequestGuildSpecialization()
-	C_Timer.After(0.1, function() LibKeystone.Request("GUILD") end)
+	C_Timer.After(0.1, function() LibKeystoneRequest("GUILD") end)
 end)
 guildRefreshButton:SetScript("OnEnter", function(self)
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -867,8 +899,8 @@ do
 		guildList = {}
 		RegisterLibKeystone()
 		LibSpec.RequestGuildSpecialization()
-		LibKeystone.Request("PARTY")
-		C_Timer.After(0.2, function() LibKeystone.Request("GUILD") end)
+		LibKeystoneRequest("PARTY")
+		C_Timer.After(0.2, function() LibKeystoneRequest("GUILD") end)
 	end)
 
 	-- Tab 2 (Teleports)
@@ -889,7 +921,7 @@ do
 				local challengeMapName, _, _, icon = GetMapUIInfo(challengeMapID)
 				BigWigsLoader:SendMessage("BigWigs_StartCountdown", self, nil, "mythicplus", 9, nil, db.profile.countVoice, 9, nil, db.profile.countBegin)
 				if keyLevel and keyLevel > 0 then
-					local msg = L.keystoneStartBar:format(dungeonNamesTrimmed[challengeMapID] or "?", keyLevel)
+					local msg = L.keystoneStartBar:format(dungeonNamesTrimmed[challengeMapID] or challengeMapID, keyLevel)
 					BigWigsLoader:SendMessage("BigWigs_StartBar", nil, nil, msg, 9, icon)
 					BigWigsLoader:SendMessage("BigWigs_Timer", nil, nil, 9, 9, msg, 0, icon, false, true)
 				else
@@ -903,16 +935,16 @@ do
 					if soundName ~= "None" then
 						local sound = LibSharedMedia:Fetch("sound", soundName, true)
 						if sound then
-							BigWigsLoader.PlaySoundFile(sound)
+							BigWigsLoader.PlaySoundFile(sound, "Master")
 						end
 					end
 				end)
-				BigWigsLoader:SendMessage("BigWigs_Message", self, nil, BigWigsAPI:GetLocale("BigWigs: Common").custom_sec:format(L.keystoneStartBar:format(dungeonNamesTrimmed[challengeMapID], keyLevel), 9), "cyan", icon)
+				BigWigsLoader:SendMessage("BigWigs_Message", self, nil, BigWigsAPI:GetLocale("BigWigs: Common").custom_sec:format(L.keystoneStartBar:format(dungeonNamesTrimmed[challengeMapID] or challengeMapID, keyLevel), 9), "cyan", icon)
 				local soundName = db.profile.countStartSound
 				if soundName ~= "None" then
 					local sound = LibSharedMedia:Fetch("sound", soundName, true)
 					if sound then
-						BigWigsLoader.PlaySoundFile(sound)
+						BigWigsLoader.PlaySoundFile(sound, "Master")
 					end
 				end
 			else -- CHALLENGE_MODE_RESET
@@ -987,7 +1019,7 @@ do
 			teleportButtons[1][1]:SetPoint("TOPRIGHT", scrollChild, "TOP", 0, -40)
 			self:SetScript("OnUpdate", OnUpdate)
 
-			local numExpansions = #L.expansionNames
+			local numExpansions = #L.expansionNames - (BigWigsLoader.isBeta and 0 or 1)
 			for expansionIndex = 1, #teleportButtons do
 				if expansionIndex > 1 then
 					local expansionNameHeader = CreateHeader()
@@ -1026,10 +1058,26 @@ do
 	tab3:RegisterEvent("CHALLENGE_MODE_COMPLETED")
 	-- Tab 3 Event Handler (Used for automatically showing the window when the dungeon ends)
 	do
-		local function Open() mainPanel:Show() tab1:Click() end
-		tab3:SetScript("OnEvent", function()
-			if db.profile.showViewerDungeonEnd and not BigWigsLoader.isTestBuild then
-				BigWigsLoader.CTimerAfter(5, Open)
+		local function Open()
+			if InCombatLockdown() then
+				tab3:RegisterEvent("PLAYER_REGEN_ENABLED")
+				return
+			end
+
+			local _, _, diffID = BigWigsLoader.GetInstanceInfo()
+			if diffID == 8 then -- Mythic+
+				mainPanel:Show()
+				tab1:Click()
+			end
+		end
+		tab3:SetScript("OnEvent", function(self, event)
+			if event == "PLAYER_REGEN_ENABLED" then
+				self:UnregisterEvent(event)
+				Open()
+			else -- CHALLENGE_MODE_COMPLETED
+				if db.profile.showViewerDungeonEnd and not BigWigsLoader.isTestBuild then
+					BigWigsLoader.CTimerAfter(5, Open)
+				end
 			end
 		end)
 	end
@@ -1063,7 +1111,7 @@ do
 				sortedplayerList[#sortedplayerList+1] = {
 					name = pData.name, decoratedName = decoratedName, nameTooltip = nameTooltip,
 					level = pData.keyLevel, levelTooltip = L.keystoneLevelTooltip:format(pData.keyLevel),
-					map = dungeonNamesTiny[pData.keyMap] or pData.keyMap > 0 and pData.keyMap or "-", mapTooltip = L.keystoneMapTooltip:format(challengeMapName or "-"), mapID = mapID,
+					map = dungeonNamesTiny[pData.keyMap] or pData.keyMap > 0 and pData.keyMap or "?", mapTooltip = L.keystoneMapTooltip:format(challengeMapName or "-"), mapID = mapID,
 					rating = pData.playerRating, ratingTooltip = L.keystoneRatingTooltip:format(pData.playerRating),
 				}
 			end
@@ -1235,12 +1283,9 @@ do
 
 			local challengeMapName, _, timeLimit = GetMapUIInfo(runs[i].mapChallengeModeID)
 			cellDate:SetWidth(WIDTH_RATING+13)
-			if runs[i].thisWeek then
-				cellDate.text:SetText("---")
-			else
-				cellDate.text:SetText("00/00")
-			end
-			cellDate.tooltip = "Date will be available after patch 11.2.5"
+			local dateTbl = runs[i].completionDate
+			cellDate.text:SetText(L.dayNamesShort[dateTbl.weekday])
+			cellDate.tooltip = L.dateFormat:format(L.dayNames[dateTbl.weekday], dateTbl.day, L.monthNames[dateTbl.month], dateTbl.year)
 			cellMapName:SetWidth(WIDTH_MAP)
 			cellMapName.text:SetText(dungeonNamesTiny[runs[i].mapChallengeModeID] or runs[i].mapChallengeModeID)
 			cellMapName.tooltip = L.keystoneMapTooltip:format(challengeMapName or "-")
@@ -1252,33 +1297,33 @@ do
 			cellGainedScore.tooltip = L.keystoneScoreGainedTooltip:format(runs[i].gained, runs[i].runScore)
 			cellInTime:SetWidth(WIDTH_RATING+15)
 			if runs[i].completed then
-				if (runs[i].durationSec or 0) > timeLimit then -- Was the time limit changed in a hotfix?
+				if runs[i].durationSec > timeLimit then -- Was the time limit changed in a hotfix?
 					cellInTime.text:SetFormattedText(L.keystoneTimeUnder, 0, 0)
 				else
-					local diff = timeLimit - (runs[i].durationSec or timeLimit)
+					local diff = timeLimit - runs[i].durationSec
 					local minutesUnder = math.floor(diff / 60)
 					local secondsUnder = math.floor(diff - (minutesUnder*60))
 					cellInTime.text:SetFormattedText(L.keystoneTimeUnder, minutesUnder, secondsUnder)
 				end
-				local minutesTotal = math.floor((runs[i].durationSec or 0) / 60)
-				local secondsTotal = math.floor((runs[i].durationSec or 0) - (minutesTotal*60))
+				local minutesTotal = math.floor(runs[i].durationSec / 60)
+				local secondsTotal = math.floor(runs[i].durationSec - (minutesTotal*60))
 				local minutesTimeLimit = math.floor(timeLimit / 60)
 				local secondsTimeLimit = math.floor(timeLimit - (minutesTimeLimit*60))
-				cellInTime.tooltip = (L.keystoneCompletedTooltip .. "\n" .. "Numbers will be available after patch 11.2.5"):format(minutesTotal, secondsTotal, minutesTimeLimit, secondsTimeLimit)
+				cellInTime.tooltip = (L.keystoneCompletedTooltip):format(minutesTotal, secondsTotal, minutesTimeLimit, secondsTimeLimit)
 			else
-				if (runs[i].durationSec or timeLimit) < timeLimit then -- Was the time limit changed in a hotfix?
+				if runs[i].durationSec < timeLimit then -- Was the time limit changed in a hotfix?
 					cellInTime.text:SetFormattedText(L.keystoneTimeOver, 0, 0)
 				else
-					local diff = (runs[i].durationSec or timeLimit) - timeLimit
+					local diff = runs[i].durationSec - timeLimit
 					local minutesOver = math.floor(diff / 60)
 					local secondsOver = math.floor(diff - (minutesOver*60))
 					cellInTime.text:SetFormattedText(L.keystoneTimeOver, minutesOver, secondsOver)
 				end
-				local minutesTotal = math.floor((runs[i].durationSec or 0) / 60)
-				local secondsTotal = math.floor((runs[i].durationSec or 0) - (minutesTotal*60))
+				local minutesTotal = math.floor(runs[i].durationSec / 60)
+				local secondsTotal = math.floor(runs[i].durationSec - (minutesTotal*60))
 				local minutesTimeLimit = math.floor(timeLimit / 60)
 				local secondsTimeLimit = math.floor(timeLimit - (minutesTimeLimit*60))
-				cellInTime.tooltip = (L.keystoneFailedTooltip .. "\n" .. "Numbers will be available after patch 11.2.5"):format(minutesTotal, secondsTotal, minutesTimeLimit, secondsTimeLimit)
+				cellInTime.tooltip = (L.keystoneFailedTooltip):format(minutesTotal, secondsTotal, minutesTimeLimit, secondsTimeLimit)
 			end
 			prevDate, prevMapName, prevLevel, prevGainedScore, prevInTime = cellDate, cellMapName, cellLevel, cellGainedScore, cellInTime
 
@@ -1384,7 +1429,7 @@ do
 				sortedplayerList[#sortedplayerList+1] = {
 					name = pName, decoratedName = decoratedName, nameTooltip = nameTooltip,
 					level = pData[1], levelTooltip = L.keystoneLevelTooltip:format(pData[1] == -1 and L.keystoneHiddenTooltip or pData[1]),
-					map = pData[2] == -1 and hiddenIcon or dungeonNamesTiny[pData[2]] or "-",
+					map = pData[2] == -1 and hiddenIcon or dungeonNamesTiny[pData[2]] or pData[2] or "?",
 					mapTooltip = L.keystoneMapTooltip:format(pData[2] == -1 and L.keystoneHiddenTooltip or challengeMapName or "-") .. GetTeleportTextForSpellID(teleportSpellID),
 					mapID = mapID,
 					rating = pData[3], ratingTooltip = L.keystoneRatingTooltip:format(pData[3]),
@@ -1499,10 +1544,10 @@ do
 	end
 	local LibKeystoneTable = {}
 	function RegisterLibKeystone()
-		LibKeystone.Register(LibKeystoneTable, LibKeystoneFunction)
+		LibKeystoneRegister(LibKeystoneTable, LibKeystoneFunction)
 	end
 	function UnregisterLibKeystone()
-		LibKeystone.Unregister(LibKeystoneTable)
+		LibKeystoneUnregister(LibKeystoneTable)
 	end
 end
 
@@ -1537,7 +1582,10 @@ do
 		local point, _, relPoint, x, y = self:GetPoint()
 		x = math.floor(x+0.5)
 		y = math.floor(y+0.5)
-		db.profile.instanceKeysPosition = {point, relPoint, x, y}
+		db.profile.instanceKeysPosition[1] = point
+		db.profile.instanceKeysPosition[2] = relPoint
+		db.profile.instanceKeysPosition[3] = x
+		db.profile.instanceKeysPosition[4] = y
 	end)
 	instanceKeysWidgets.main = main
 
@@ -1562,6 +1610,11 @@ do
 	header:SetFont(LibSharedMedia:Fetch("font", db.profile.instanceKeysFontName), db.profile.instanceKeysFontSize, flags)
 	header:SetFormattedText("|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:0:0|t%s", L.instanceKeysTitle)
 	header:SetTextColor(db.profile.instanceKeysColor[1], db.profile.instanceKeysColor[2], db.profile.instanceKeysColor[3], db.profile.instanceKeysColor[4])
+	if db.profile.instanceKeysHideTitle then
+		header:Hide()
+	else
+		header:Show()
+	end
 	instanceKeysWidgets.header = header
 
 	for i = 1, 5 do
@@ -1619,7 +1672,8 @@ do
 					if inCurrentDungeon or db.profile.instanceKeysShowAllPlayers then
 						main:RegisterEvent("PLAYER_LEAVING_WORLD") -- Hide when changing zone
 						main:RegisterEvent("CHALLENGE_MODE_START") -- Hide when starting Mythic+
-						main:RegisterEvent("PLAYER_REGEN_DISABLED") -- Hide when you enter combat
+						main:RegisterEvent("ENCOUNTER_START") -- Hide when you enter combat with a boss
+						main:RegisterEvent("PLAYER_REGEN_DISABLED") -- Temporarily hide when you enter combat
 						main:Show()
 						sortedPlayerList[#sortedPlayerList+1] = {name = pName, decoratedName = pData[3], level = pData[1], inCurrentDungeon = inCurrentDungeon}
 					end
@@ -1676,8 +1730,8 @@ do
 		for i = 1, 5 do
 			instanceKeysWidgets.playerListText[i]:SetFont(LibSharedMedia:Fetch("font", db.profile.instanceKeysFontName), db.profile.instanceKeysFontSize, fontFlags)
 		end
-		LibKeystone.Register(whosKeyTable, ReceivePartyData)
-		LibKeystone.Request("PARTY")
+		LibKeystoneRegister(whosKeyTable, ReceivePartyData)
+		LibKeystoneRequest("PARTY")
 		main:RegisterEvent("UNIT_CONNECTION")
 	end
 	local function DelayStartOfDungeon() -- Difficulty info isn't accurate until 1 frame after PEW
@@ -1693,6 +1747,7 @@ do
 			RequestPartyData(instanceID)
 		end
 	end
+	local combatHideCount, combatDelayTimer = 1, nil
 	main:SetScript("OnEvent", function(self, event, unit, isConnected)
 		if instanceKeysWidgets.testing and event ~= "UNIT_CONNECTION" then
 			instanceKeysWidgets.testing = false
@@ -1710,17 +1765,38 @@ do
 			end
 		elseif event == "UNIT_CONNECTION" then -- Someone new joined the group, or they just logged on after being offline (maybe they were offline when you joined the group)
 			if isConnected then
-				BigWigsLoader.CTimerAfter(1, function() LibKeystone.Request("PARTY") end)
+				BigWigsLoader.CTimerAfter(1, function() LibKeystoneRequest("PARTY") end)
 			end
-		else
-			LibKeystone.Unregister(whosKeyTable)
+		elseif event == "PLAYER_REGEN_DISABLED" and combatHideCount < 4 then -- You can enter combat thrice and it will re-show, kill it after that
+			combatHideCount = combatHideCount + 1
 			self:Hide()
+			self:RegisterEvent("PLAYER_REGEN_ENABLED")
+			if combatDelayTimer then
+				combatDelayTimer:Cancel()
+				combatDelayTimer = nil
+			end
+		elseif event == "PLAYER_REGEN_ENABLED" then
+			self:UnregisterEvent(event)
+			if combatDelayTimer then combatDelayTimer:Cancel() end
+			combatDelayTimer = BigWigsLoader.CTimerNewTimer(10, function()
+				combatDelayTimer = nil
+				self:Show()
+			end)
+		else
+			combatHideCount = 1
+			LibKeystoneUnregister(whosKeyTable)
+			self:Hide()
+			if combatDelayTimer then
+				combatDelayTimer:Cancel()
+				combatDelayTimer = nil
+			end
 			instanceKeysWidgets.nameList = {}
 			instanceKeysWidgets.namesToShow = nil
 			instanceKeysWidgets.otherDungeons = nil
 			self:UnregisterEvent("PLAYER_LEAVING_WORLD")
 			self:UnregisterEvent("CHALLENGE_MODE_START")
 			self:UnregisterEvent("PLAYER_REGEN_DISABLED")
+			self:UnregisterEvent("PLAYER_REGEN_ENABLED")
 			self:UnregisterEvent("UNIT_CONNECTION")
 		end
 	end)
@@ -1782,6 +1858,11 @@ do
 				instanceKeysWidgets.playerListText[i]:SetTextColor(db.profile.instanceKeysOtherDungeonColor[1], db.profile.instanceKeysOtherDungeonColor[2], db.profile.instanceKeysOtherDungeonColor[3], db.profile.instanceKeysOtherDungeonColor[4])
 			end
 		end
+		if db.profile.instanceKeysHideTitle then
+			instanceKeysWidgets.header:Hide()
+		else
+			instanceKeysWidgets.header:Show()
+		end
 
 		instanceKeysWidgets.main:ClearAllPoints()
 		do
@@ -1842,14 +1923,14 @@ do
 		end
 	end
 
-	BigWigsLoader:RegisterMessage("BigWigs_ProfileUpdate", function()
+	BigWigsLoader.RegisterMessage({}, "BigWigs_ProfileUpdate", function()
 		ProfileUtils.ValidateMainSettings()
 		ProfileUtils.ValidateMediaSettings()
 		UpdateWidgets()
 	end)
 
-	BigWigsAPI.RegisterSlashCommand("/key", ShowViewer)
-	BigWigsAPI.RegisterSlashCommand("/bwkey", ShowViewer)
+	BigWigsAPI.RegisterSlashCommand("/key", ShowViewer, true)
+	BigWigsAPI.RegisterSlashCommand("/bwkey", ShowViewer, true)
 
 	viewerKeybindFrame:SetScript("OnClick", ShowViewer)
 	if db.profile.viewerKeybind ~= "" then
@@ -2054,7 +2135,7 @@ do
 							local key = info[#info]
 							db.profile[key] = value
 							instanceKeysWidgets.nameList = {}
-							LibKeystone.Request("PARTY")
+							LibKeystoneRequest("PARTY")
 						end,
 						confirm = function(_, value)
 							if value then
@@ -2076,14 +2157,21 @@ do
 						type = "toggle",
 						name = L.keystoneAutoShowEndOfRun,
 						desc = L.instanceKeysEndOfRunDesc,
-						set = UpdateSettings,
 						order = 13,
+						width = "full",
+					},
+					instanceKeysHideTitle = {
+						type = "toggle",
+						name = L.instanceKeysHideTitle,
+						desc = L.instanceKeysHideTitleDesc,
+						set = UpdateSettingsAndWidgets,
+						order = 14,
 						width = "full",
 					},
 					resetHeader = {
 						type = "header",
 						name = "",
-						order = 14,
+						order = 15,
 					},
 					reset = {
 						type = "execute",
@@ -2094,10 +2182,10 @@ do
 							UpdateWidgets()
 							if not instanceKeysWidgets.testing then
 								instanceKeysWidgets.nameList = {}
-								LibKeystone.Request("PARTY")
+								LibKeystoneRequest("PARTY")
 							end
 						end,
-						order = 15,
+						order = 16,
 					},
 				},
 			},

@@ -3,7 +3,8 @@ local L = addonTbl.API:NewLocale("BigWigs", "zhTW")
 if not L then return end
 
 -- API.lua
-L.showAddonBar = "插件「%s」創建了「%s」計時器。"
+L.showAddonBar = "插件「|cFF436EEE%s|r」創建了「%s」計時器。"
+--L.requestAddonProfile = "The addon '|cFF436EEE%s|r' just made a copy of your profile export string."
 
 -- Core.lua
 L.berserk = "狂暴"
@@ -62,6 +63,8 @@ L.outOfDateContentPopup = "警告！\n你更新了 |cFF436EEE%s|r，但還需要
 L.outOfDateContentRaidWarning = "需要安裝版本 %2$d 的|cFF436EEEBigWigs|r 主程式，才能使用 |cFF436EEE%1$s|r，但你目前使用的版本是 %3$d。"
 L.addOnLoadFailedWithReason = "BigWigs 無法載入模組 |cFF436EEE%s|r，原因是 %q；請將此問題回報給 BigWigs 開發團隊！"
 L.addOnLoadFailedUnknownError = "BigWigs 在載入模組 |cFF436EEE%s|r 的過程中發生錯誤。請將此問題回報給 BigWigs 開發團隊！"
+--L.newFeatures = "New BigWigs features:"
+--L.parentheses = "%s (%s)"
 
 L.expansionNames = {
 	"艾澤拉斯", -- Classic
@@ -75,11 +78,45 @@ L.expansionNames = {
 	"暗影之境", -- Shadowlands
 	"巨龍崛起", -- Dragonflight
 	"地心之戰", -- The War Within
+	"至​暗​之​夜", -- Midnight
 }
 L.littleWigsExtras = {
 	["LittleWigs_Delves"] = "探究",
 	["LittleWigs_CurrentSeason"] = "當前賽季",
 }
+--L.dayNamesShort = {
+--	"SUN", -- Sunday
+--	"MON", -- Monday
+--	"TUE", -- Tuesday
+--	"WED", -- Wednesday
+--	"THU", -- Thursday
+--	"FRI", -- Friday
+--	"SAT", -- Saturday
+--}
+--L.dayNames = {
+--	"Sunday",
+--	"Monday",
+--	"Tuesday",
+--	"Wednesday",
+--	"Thursday",
+--	"Friday",
+--	"Saturday",
+--}
+--L.monthNames = {
+--	"January",
+--	"February",
+--	"March",
+--	"April",
+--	"May",
+--	"June",
+--	"July",
+--	"August",
+--	"September",
+--	"October",
+--	"November",
+--	"December",
+--}
+--L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "當心（艾爾加隆）"
@@ -234,9 +271,12 @@ L.imported_countdown_position = "倒數位置"
 L.imported_countdown_settings = "倒數選項設定"
 L.imported_countdown_color = "倒數文字顏色"
 L.imported_nameplate_settings = "名條選項設定"
---L.imported_mythicplus_settings = "Mythic+ Settings"
---L.mythicplus_settings_import_desc = "Import all Mythic+ settings."
---L.mythicplus_settings_export_desc = "Export all Mythic+ settings."
+L.imported_mythicplus_settings = "傳奇+ 設定"
+L.mythicplus_settings_import_desc = "匯入傳奇+ 設定。"
+L.mythicplus_settings_export_desc = "匯出傳奇+ 設定。"
+L.imported_battleres_settings = "戰復設定"
+L.battleres_settings_import_desc = "匯入戰復設定。"
+L.battleres_settings_export_desc = "匯出戰復設定。"
 
 -- Statistics
 L.statistics = "統計"
@@ -255,6 +295,10 @@ L.LFR = "隨機團隊"
 L.normal = "普通模式"
 L.heroic = "英雄模式"
 L.mythic = "傳奇模式"
+L.LFR_timerun = "|A:timerunning-glues-icon:14:14|a隨機團隊"
+L.normal_timerun = "|A:timerunning-glues-icon:14:14|a普通模式"
+L.heroic_timerun = "|A:timerunning-glues-icon:14:14|a英雄模式"
+L.mythic_timerun = "|A:timerunning-glues-icon:14:14|a傳奇模式"
 L.timewalk = "時光漫遊"
 L.solotier8 = "單人 8 層"
 L.solotier11 = "單人 11 層"
@@ -285,6 +329,27 @@ L.autoRoleTitle = "自動設定職責"
 L.autoRoleExplainer = "當你加入隊伍或是在隊伍中更換專精時，BigWigs 會自動根據你的專精調整你的隊伍職責（坦克、治療者、傷害輸出）。\n\n"
 
 -----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "戰鬥復活"
+L.battleResDesc = "以一個圖示顯示戰復可用次數與與冷卻時間。"
+L.battleResDesc2 = "\n將滑鼠提示指向圖示，可以查看|cFF33FF99戰鬥復活紀錄|r。\n\n"
+L.battleResHistory = "戰復紀錄："
+L.battleResResetAll = "將所有戰復設定重設為預設值。"
+L.battleResDurationText = "計時文字"
+L.battleResChargesText = "次數文字"
+L.battleResNoCharges = "無可用次數"
+L.battleResHasCharges = "有可用次數"
+L.battleResPlaySound = "獲得新的可用次數時，播放音效"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t 圖示 (Spell ID)"
+L.iconTextureSpellIDError = "要設定顯示的圖示，你必需輸入一個有效的法術 ID"
+L.battleResModeIcon = "圖示模式"
+L.battleResModeText = "純文字模式"
+L.battleResModeTextTooltip = "顯示一個臨時背景，以便你調整戰鬥復活功能的位置，並查看滑鼠指向的區域範圍。"
+--L.battleResNoteTooltip = "Note: This tooltip will only show when you are out of combat."
+
+-----------------------------------------------------------------------
 -- Keystones.lua
 --
 
@@ -309,13 +374,13 @@ L.keystoneTabHistory = "歷史"
 L.keystoneHeaderThisWeek = "本周"
 L.keystoneHeaderOlder = "先前"
 L.keystoneScoreGainedTooltip = "獲得分數：|cFFFFFFFF+%d|r\n地城分數：|cFFFFFFFF%d|r"
---L.keystoneCompletedTooltip = "時限內完成：|cFFFFFFFF%d min %d sec|r\nTime Limit：|cFFFFFFFF%d min %d sec|r"
---L.keystoneFailedTooltip = "超時：|cFFFFFFFF%d min %d sec|r\nTime Limit：|cFFFFFFFF%d min %d sec|r"
+L.keystoneCompletedTooltip = "時限內完成：|cFFFFFFFF%d min %d sec|r\n時限：|cFFFFFFFF%d min %d sec|r"
+L.keystoneFailedTooltip = "超時完成：|cFFFFFFFF%d min %d sec|r\n時限：|cFFFFFFFF%d min %d sec|r"
 L.keystoneExplainer = "傳奇+工具合集，提升你進行傳奇+副本時的遊戲體驗。"
 L.keystoneAutoSlot = "自動插鑰石"
 L.keystoneAutoSlotDesc = "打開能量之泉時，自動插入鑰石。"
 L.keystoneAutoSlotMessage = "已將 %s 插入能量之泉。"
---L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t Keystone Auto Inserted"
+L.keystoneAutoSlotFrame = "|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:14:14|t 鑰石已插入"
 L.keystoneModuleName = "傳奇+"
 L.keystoneStartBar = "%s +%d" -- Format is SHORT_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "ROOK +12"
 L.keystoneStartMessage = "%s +%d 戰鬥開始！" -- Format is LONG_DUNGEON_NAME +KEYSTONE_LEVEL e.g. "The Rookery +12 begins now!"
@@ -345,7 +410,7 @@ L.keystoneHistoryScoreThisWeekTooltip = "本周獲得分數：cFFFFFFFF+%d|r"
 L.keystoneHistoryScoreOlderTooltip = "上周分數：|cFFFFFFFF+%d|r"
 L.keystoneTimeUnder = "|cFF33FF99-%02d:%02d|r"
 L.keystoneTimeOver = "|cFFFF4411+%02d:%02d|r"
---L.keystoneTeleportTip = "Click the dungeon name below to |cFF33FF99TELEPORT|r directly to the dungeon entrance."
+L.keystoneTeleportTip = "點擊副本名字可以直接|cFF33FF99傳送|r到該副本。"
 
 -- It doesn't really matter what you call it as long as it's recognizable and limited to ~6 characters
 L.keystoneShortName_TheRookery = "培育所" --培育
@@ -392,6 +457,8 @@ L.instanceKeysShowAllDesc = "啟用此選項會顯示所有玩家的鑰石，即
 L.instanceKeysOtherDungeonColor = "其他地城顏色"
 L.instanceKeysOtherDungeonColorDesc = "替非當前地城的鑰石設定不同的文字顏色。"
 L.instanceKeysEndOfRunDesc = "預設只在進入傳奇地城時顯示鑰石列表。啟用此選項後，完成傳奇+地城時也會顯示鑰石列表。"
+L.instanceKeysHideTitle = "隱藏標題"
+L.instanceKeysHideTitleDesc = "隱藏「誰有鑰石？」標題。"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +479,10 @@ L.comma = "，"
 L.reset = "重置"
 L.resetDesc = "將上方設定重設為預設值。"
 L.resetAll = "重置所有"
+L.startTest = "開始測試"
+L.stopTest = "停止測試"
+L.always = "總是"
+L.never = "從不"
 
 L.positionX = "X 座標"
 L.positionY = "Y 座標"
@@ -426,6 +497,7 @@ L.disabled = "停用"
 L.disableDesc = "即將禁用「%s」的功能，但|cffff4411不建議|r這麼做。\n\n你確定要這麼做嗎？"
 L.keybinding = "按鍵綁定"
 L.dragToResize = "拖曳調整大小"
+L.cannotMoveInCombat = "戰鬥中無法移動。"
 
 -- Anchor Points
 L.UP = "向上"
@@ -442,9 +514,9 @@ L.CENTER = "中"
 L.customAnchorPoint = "進階：自定錨點"
 L.sourcePoint = "基準錨點"  -- 中文似乎沒有point和relativePoint的正式譯名?
 L.destinationPoint = "相對錨點"
---L.drawStrata = "Strata"
---L.medium = "Medium"
---L.low = "Low"
+L.drawStrata = "層級"
+L.medium = "中"
+L.low = "低"
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -708,10 +780,10 @@ L.displayTimeDesc = "以秒計訊息顯示時間。"
 L.fadeTime = "消退時間"
 L.fadeTimeDesc = "以秒計訊息消退時間。"
 
---L.messagesOptInHeaderOff = "Boss mod messages 'opt-in' mode: Enabling this option will turn off messages across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the messages you want.\n\n"
---L.messagesOptInHeaderOn = "Boss mod messages 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod messages, go into the settings of a specific boss ability and turn on the '|cFF33FF99Messages|r' option.\n\n"
---L.messagesOptInTitle = "Boss mod messages 'opt-in' mode"
---L.messagesOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off messages across ALL of your boss modules. You will need to go through each one and manually turn on the messages you want.\n\nYour UI will now reload, are you sure?"
+L.messagesOptInHeaderOff = "訊息「手動啟用」模式：啟用此選項，會使所有首領模組的訊息預設為「停用」。\n\n你必須分別進入每個模組，手動開啟你想要顯示的訊息。\n\n"
+L.messagesOptInHeaderOn = "首領模組的訊息目前處於|cFF33FF99「手動啟用」模式|r。若要顯示特定首領模組的訊息，請進入該首領技能的設定，並開啟「|cFF33FF99訊息|r」選項。\n\n"
+L.messagesOptInTitle = "訊息「手動啟用」模式"
+L.messagesOptInWarning = "|cffff4411警告！|r\n\n開啟「手動啟用」模式會關閉所有首領模組的訊息。你必須分別進入每個模組，啟用你需要的訊息。\n\n即將重載介面，確定要啟用嗎？"
 
 -----------------------------------------------------------------------
 -- Nameplates.lua
@@ -724,7 +796,7 @@ L.testNameplateTextBtn = "顯示測試文字"
 L.testNameplateTextBtn_desc = "創建一個測試文字，在當前目標的名條上測試文字設定。"
 L.stopTestNameplateBtn = "停止測試"
 L.stopTestNameplateBtn_desc = "停止名條上的圖示與文字測試。"
-L.noNameplateTestTarget = "你需要先選擇一個可攻擊的敵對目標，並顯示它的名條，才能使用測試功能。"
+L.noNameplateTestTarget = "你必需先選擇一個可攻擊的敵對目標，並顯示它的名條，才能使用測試功能。"
 L.anchoring = "定位"
 L.growStartPosition = "起始位置"
 L.growStartPositionDesc = "第一個圖示的位置。"
@@ -744,12 +816,12 @@ L.showBorder = "顯示邊框"
 L.showBorderDesc = "替圖示顯示邊框。"
 L.borderColor = "邊框顏色"
 L.borderSize = "邊框大小"
---L.borderOffset = "Border Offset"
---L.borderName = "Border Name"
+L.borderOffset = "邊框偏移"
+L.borderName = "邊框材質"
 L.showNumbers = "數字"
 L.showNumbersDesc = "替圖示顯示數字。"
 L.cooldown = "冷卻"
---L.cooldownEmphasizeHeader = "By default, Emphasize is disabled (0 seconds). Setting it to 1 second or higher will enable Emphasize. This will allow you to set a different font color and font size for those numbers."
+L.cooldownEmphasizeHeader = "預設情況下，「強調」功能是停用的（0 秒）。將此數值設定為 1 秒或更高即可啟用「強調」功能；啟用後，你可以為這些倒數文字設定不同的字型顏色與大小。"
 L.showCooldownSwipe = "顯示冷卻動畫"
 L.showCooldownSwipeDesc = "當圖示代表的技能正在冷卻中，顯示轉圈的冷卻動畫效果。"
 L.showCooldownEdge = "顯示冷卻指針" -- not sure there' s a term in zh already or not, probably not
@@ -757,7 +829,7 @@ L.showCooldownEdgeDesc = "當圖示代表的技能正在冷卻中，顯示轉圈
 L.inverse = "反轉"
 L.inverseSwipeDesc = "反轉冷卻動畫效果。"
 L.glow = "發光效果"
-L.enableExpireGlow = "啟用結束發光效果"
+L.enableExpireGlow = "冷卻完畢發光效果"
 L.enableExpireGlowDesc = "當技能冷卻結束，在圖示周圍顯示發光動畫效果。"
 L.glowColor = "發光顏色"
 L.glowType = "發光樣式"
@@ -768,8 +840,8 @@ L.fixate_test = "鎖定" -- Text that displays to test on the frame
 L.resetNameplateTextDesc = "將名條的文字設定全部重設為預設值。"
 L.glowAt = "開始發光（秒）"
 L.glowAt_desc = "設定技能的冷卻時間剩下幾秒時觸發發光效果。"
---L.offsetX = "Offset X"
---L.offsetY = "Offset Y"
+L.offsetX = "水平偏移"
+L.offsetY = "垂直偏移"
 L.headerIconSizeTarget = "當前目標的圖示尺寸"
 L.headerIconSizeOthers = "其他目標的圖示尺寸"
 L.headerIconPositionTarget = "當前目標的圖示位置"
@@ -795,10 +867,10 @@ L.scale_glow_desc = "調整發光動畫中閃光點的大小。"
 L.startAnimation = "起始動畫"
 L.startAnimation_glow_desc = "你選擇的發光效果有起始動畫效果，通常是一個閃爍。這個選項可以選擇是否啟用起始動畫。"
 
---L.nameplateOptInHeaderOff = "\n\n\n\nBoss mod nameplates 'opt-in' mode: Enabling this option will turn off nameplates across ALL of your boss modules.\n\nYou will need to go through each one and manually turn on the nameplates you want.\n\n"
---L.nameplateOptInHeaderOn = "\n\n\n\nBoss mod nameplates 'opt-in' mode is |cFF33FF99ACTIVE|r. To see boss mod nameplates, go into the settings of a specific boss ability and turn on the '|cFF33FF99Nameplates|r' option.\n\n"
---L.nameplateOptInTitle = "Boss mod nameplates 'opt-in' mode"
---L.nameplateOptInWarning = "|cffff4411WARNING!|r\n\nEnabling 'opt-in' mode will turn off nameplates across ALL of your boss modules. You will need to go through each one and manually turn on the nameplates you want.\n\nYour UI will now reload, are you sure?"
+L.nameplateOptInHeaderOff = "\n\n\n\n名條「手動啟用」模式：啟用此選項，會使所有首領模組的名條圖示預設為「停用」。\n\n你必須逐一進入各個模組，手動開啟你想要顯示圖示的名條。\n\n"
+L.nameplateOptInHeaderOn = "\n\n\n\n首領模組的名條圖示目前處於|cFF33FF99「手動啟用」模式|r。若要顯示特定目標的名條圖示，請進入該模組的設定，並開啟「|cFF33FF99名條|r」選項。\n\n"
+L.nameplateOptInTitle = "名條「手動啟用」模式"
+L.nameplateOptInWarning = "|cffff4411警告！|r\n\n開啟「手動啟用」模式會關閉所有首領模組的名條圖示。你必須分別進入每個模組，啟用你需要顯示圖示的名條。\n\n即將重載介面，確定要啟用嗎？"
 
 -----------------------------------------------------------------------
 -- Proximity.lua
@@ -843,7 +915,7 @@ L.combatLogDesc = "從拉怪計時器開始時自動開始戰鬥記錄，戰鬥�
 L.pull = "開怪倒數"
 L.engageSoundTitle = "首領戰開始時播放音效"
 L.pullStartedSoundTitle = "開怪倒數計時器開始時播放音效"
---L.pullStartedMessageTitle = "Show a message when the pull timer is started"
+L.pullStartedMessageTitle = "啟動倒數計時時顯示訊息"
 L.pullFinishedSoundTitle = "開怪倒數計時器結束時播放音效"
 L.pullStartedBy = "%s發起開怪倒數。"
 L.pullStopped = "%s取消了開怪倒數。"
